@@ -29,7 +29,7 @@ if ( bb_is_profile() ) {
 
 </head>
 <body id="<?php bb_location(); ?>">
-	<div class="container span-24">
+	<div class="container">
 		<div id="header" role="banner" class="span-24">
 			<h1><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a></h1>
 			<?php if ( bb_get_option('description') ) : ?><p class="description"><?php bb_option('description'); ?></p><?php endif; ?>
@@ -40,6 +40,6 @@ if ( bb_is_profile() ) {
 <?php search_form(); ?>
 			</div>
 		</div>
-		<div id="main">
+		<div id="main" class="span-24">
 
 <?php if ( bb_is_profile() ) profile_menu(); ?>
