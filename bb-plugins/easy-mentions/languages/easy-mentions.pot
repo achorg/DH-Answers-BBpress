@@ -1,0 +1,130 @@
+# Translation of the WordPress plugin Easy Mentions 0.2 by Gautam Gupta.
+# Copyright (C) 2010 Gautam Gupta
+# This file is distributed under the same license as the Easy Mentions package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Mentions 0.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/easy-mentions\n"
+"POT-Creation-Date: 2010-02-09 13:38+0000\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/admin.php:43
+msgid "The options were successfully saved!"
+msgstr ""
+
+#: includes/admin.php:47
+#, php-format
+msgid ""
+"New version (%1$s) of Easy Mentions is available! Please download the latest "
+"version from <a href=\"%2$s\">here</a>."
+msgstr ""
+
+#: includes/admin.php:52
+msgid "Link the Tags?"
+msgstr ""
+
+#: includes/admin.php:55
+#, php-format
+msgid ""
+"Check this option if you want the tags to be linked (by using %s) in the "
+"posts."
+msgstr ""
+
+#: includes/admin.php:57 includes/admin.php:66 includes/admin.php:85
+msgid "Yes"
+msgstr ""
+
+#: includes/admin.php:61
+msgid "Link the Users?"
+msgstr ""
+
+#: includes/admin.php:64
+#, php-format
+msgid ""
+"Check this option if you want the users to be linked (by using %s) in the "
+"posts."
+msgstr ""
+
+#: includes/admin.php:70
+msgid "Link the user to profile or website?"
+msgstr ""
+
+#: includes/admin.php:73
+msgid ""
+"If you selected the website option and the user's website does not exist, "
+"then the user will be linked to his or her profile page."
+msgstr ""
+
+#: includes/admin.php:75
+msgid "Profile"
+msgstr ""
+
+#: includes/admin.php:76
+msgid "Website"
+msgstr ""
+
+#: includes/admin.php:80
+msgid "Add a reply link below each post?"
+msgstr ""
+
+#: includes/admin.php:83
+#, php-format
+msgid ""
+"Before checking this option, please verify that there is a post form below "
+"the topic on each page. (<a href=\"%s\">Help</a>)"
+msgstr ""
+
+#: includes/admin.php:89
+msgid "Reply Text"
+msgstr ""
+
+#: includes/admin.php:92
+#, php-format
+msgid ""
+"Some HTML is allowed. The following keys can also be used:%1$s - Post's "
+"author's name%2$s - Post's link"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (Easy Mentions 0.2)  #-#-#-#-#
+#. Plugin Name of an extension
+#: includes/admin.php:103 includes/admin.php:140
+msgid "Easy Mentions"
+msgstr ""
+
+#: includes/admin.php:118
+#, php-format
+msgid ""
+"Happy with the plugin? Why not <a href=\"%1$s\">buy the author a cup of "
+"coffee or two</a> or get him something from his <a href=\"%2$s\">wishlist</"
+"a>?"
+msgstr ""
+
+#: includes/public.php:75
+msgid "Reply"
+msgstr ""
+
+#. Plugin URI of an extension
+msgid "http://gaut.am/bbpress/plugins/easy-mentions/"
+msgstr ""
+
+#. Description of an extension
+msgid ""
+"Easy Mentions allows the users to link to other users' profiles in posts by "
+"using @username (like Twitter)."
+msgstr ""
+
+#. Author of an extension
+msgid "Gautam Gupta"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://gaut.am/"
+msgstr ""

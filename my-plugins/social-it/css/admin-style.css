@@ -1,0 +1,572 @@
+/* General Styles */
+#xtrastyle {	height:120px; width:100%; }
+#clearShortUrlsLabel { font-size:11px; height:14px; line-height:14px; }
+#clearShortUrls {margin-right:4px;}
+.shebang-info { cursor:pointer; left:5px; position:relative; top:3px; }
+.dtags-info { cursor:pointer; left:5px; position:relative; top:3px; }
+#info-manual, #clear-warning, #custom-warning, #custom-warning-a, #mobile-warn { display:none; }
+#defaulttags { width:40%; }
+.defaulttags-label{ color:#cccccc; }
+ul#socialit-sortables li div.padding { color:#555; }
+ul#socialit-sortables div.padding h1, ul#socialit-sortables div.padding h2, ul#socialit-sortables div.padding h3, ul#socialit-sortables div.padding h4, ul#socialit-sortables div.padding h5 { color:#000; }
+#tag-info, #sfi-info, #placement-info {
+	background:#B3C3EF none repeat scroll 0 0;
+	border:1px solid #8BA2DF;
+	font-style:italic;
+	line-height:20px;
+	padding:10px;
+	overflow:hidden;
+}
+.dtags-close, .sfi-close {
+	color:#4f659f;
+	font-style:normal;
+	float:right;
+	display:inline;
+	text-decoration:none;
+	cursor:pointer;
+}
+/* End General Styles */
+/*------------------------------------------------------------------------------------------*/
+/* Custom Classes */
+.clear { clear:both; }
+.clearbig { clear:both; height:15px; }
+.hidden { display:none; }
+.floright { clear:none; float:right; margin:0 0 0 10px; }
+.floleft { clear:none; float:left; margin:0 10px 0 0; }
+.padding { padding:10px;	overflow:hidden; }
+.socialit_option { display:block; font-weight:bold; margin-top:12px; color:#444; }
+.hide { display:none; }
+/* End Custom Classes */
+/*------------------------------------------------------------------------------------------*/
+/* Background Images Section */
+.bgimg { background:url('../images/socialit-trans.png') no-repeat; display:block; float:left; margin:10px 0 0; padding:50px 0 0 11px; width:195px; }
+.share-care { background-position: 0 0; }
+.share-sexy { background-position: 0 -346px; }
+.share-care-old { background-position: 0 -746px; }
+.share-love { background-position: 0 -1146px; }
+.share-wealth { background-position: 0 -1535px; padding:50px 0 0 25px !important; }
+.share-enjoy { background-position: 0 -1895px; }
+.share-german {	background-position:0 -2240px; padding-left:25px; }
+/* End Background Images Section */
+/*------------------------------------------------------------------------------------------*/
+/* Top Status Messages */
+div.socialit-success, div.socialit-error, div.socialit-warning, div.socialit-information {
+	border-width:1px;
+	border-style:solid;
+	font-size:10px;
+	font-weight:bold;
+	height:24px;
+	line-height:20px;
+	margin:35px 0 0;
+	padding:3px 10px 0;
+	width:97%;
+}
+div.socialit-success { background:#B4EFAB; border-color: #8BE57E; color:#337129; }
+div.socialit-error {	 background:#FEB1B1; border-color: #FE9090; color:#820101; }
+div.socialit-information { background:#A3D0FF; border-color: #6AB3FF; color:#004185; }
+div.socialit-warning { background:#F0FEB1; border-color: #D5D458; color:#7F7200; }
+.socialit-warning a, .socialit-information a, .socialit-error a, .socialit-success a { text-decoration:underline; }
+.socialit-warning a { color:#6F6300; }
+.socialit-error a { color:#CB0000; }
+.socialit-information a { color:#1B466F; }
+.socialit-success a { color:#1D5F12; }
+/* End Top Status Messages */
+/*------------------------------------------------------------------------------------------*/
+/* Individual Section Status Messages */
+div.dialog-box-success, div.dialog-box-error, div.dialog-box-warning, div.dialog-box-information {
+	float:left;
+	border-width:1px;
+	border-style:solid;
+	font-size:10px;
+	font-weight:bold;
+	height:24px;
+	line-height:20px;
+	margin-bottom:10px;
+	padding:3px 10px 0;
+	width:97.5%;
+}
+div.dialog-box-succes { background:#B4EFAB; border-color:#8BE57E; color:#337129; }
+div.dialog-box-error { background:#FEB1B1; border-color: #FE9090; color:#820101; }
+div.dialog-box-warning { background:#F0FEB1; border-color: #D5D458; color:#7F7200; }
+div.dialog-box-information { background:#A3D0FF;	border-color: #6AB3FF;	color:#004185; }
+div.dialog-left { float:left; line-height:16px; }
+div.dialog-left a { text-decoration:underline; }
+div.dialog-box-information a { color:#004185; }
+div.dialog-box-information a:hover { color:#21759B; }
+div.dialog-box-warning a { color:#AF9C00; }
+div.dialog-box-warning a:hover { color:#AF9C00; }
+div.dialog-right { float:right; }
+img.del-x { cursor:pointer; margin-top:7px; }
+/* End Individual Section Status Messages */
+/*------------------------------------------------------------------------------------------*/
+/* Bookmarking Services Icons */
+.iconator label {
+	background-image:url('../images/socialit-sprite.png');
+	background-repeat:no-repeat;
+	cursor:move;
+	float:left;
+	height:45px;
+	margin:12px 2px !important;
+	text-align:center;
+	width:60px;
+}
+.iconator label input {margin-top:30px;}
+label.socialit-newsvine {background-position:left top;}
+label.socialit-linkedin {background-position:-70px top;}
+label.socialit-devmarks {background-position:-140px top;}
+label.socialit-google {background-position:-210px top;}
+label.socialit-scriptstyle {background-position:-280px top;}
+label.socialit-mail {background-position:-350px top;}
+label.socialit-comfeed {background-position:-420px top;}
+label.socialit-twitter {background-position:-490px top;}
+label.socialit-technorati {background-position:-560px top;}
+label.socialit-stumbleupon {background-position:-630px top;}
+label.socialit-reddit {background-position:-700px top;}
+label.socialit-myspace {background-position:-770px top;}
+label.socialit-mixx {background-position:-840px top;}
+label.socialit-diigo {background-position:-910px top;}
+label.socialit-digg {background-position:-980px top;}
+label.socialit-designfloat {background-position:-1050px top;}
+label.socialit-yahoobuzz {background-position:-1120px top;}
+label.socialit-delicious {background-position:-1190px top;}
+label.socialit-blinklist {background-position:-1260px top;}
+label.socialit-facebook {background-position:-1330px top;}
+label.socialit-misterwong {background-position:-1400px top;}
+label.socialit-izeby {background-position:-1470px top;}
+label.socialit-twittley {background-position:-1540px top;}
+label.socialit-tipd {background-position:-1610px top;}
+label.socialit-pfbuzz {background-position:-1680px top;}
+label.socialit-friendfeed {background-position:-1750px top;}
+label.socialit-blogmarks {background-position:-1820px top;}
+label.socialit-fwisp {background-position:-1890px top;}
+label.socialit-designmoo {background-position:-1960px top;}
+label.socialit-bobrdobr {background-position:-2030px top;}
+label.socialit-memoryru {background-position:-2100px top;}
+label.socialit-100zakladok {background-position:-2170px top;}
+label.socialit-yandex {background-position:-2240px top;}
+label.socialit-moemesto {background-position:-2310px top;}
+label.socialit-marrows {background-position:-2380px top;}
+label.socialit-identica {background-position:-2450px top;}
+label.socialit-hackernews {background-position:-2520px top;}
+label.socialit-ning {background-position:-2590px top;}
+label.socialit-designbump {background-position:-2660px top;}
+label.socialit-printfriendly {background-position:-2730px top;}
+label.socialit-fleck{ background-position:-2800px top !important; }
+label.socialit-netvibes{ background-position:-2870px top !important; }
+label.socialit-netvouz{ background-position:-2940px top !important; }
+label.socialit-nujij{ background-position:-3010px top !important; }
+label.socialit-globalgrind{ background-position:-3080px top !important; }
+label.socialit-wikio{ background-position:-3150px top !important; }
+label.socialit-xerpi{ background-position:-3220px top !important; }
+label.socialit-sphinn{ background-position:-3290px top !important; }
+label.socialit-blogospherenews{ background-position:-3360px top !important; }
+label.socialit-posterous{ background-position:-3430px top !important; }
+label.socialit-techmeme{ background-position:-3500px top !important; }
+label.socialit-ekudos{ background-position:-3570px top !important; }
+label.socialit-pingfm{ background-position:-3640px top !important; }
+label.socialit-tomuse{ background-position:-3710px top !important; }
+label.socialit-webblend{ background-position:-3780px top !important; }
+label.socialit-wykop{ background-position:-3850px top !important; }
+label.socialit-blogengage{ background-position:-3920px top !important; }
+label.socialit-hyves{ background-position:-3990px top !important; }
+label.socialit-pusha{ background-position:-4060px top !important; }
+label.socialit-hatena{ background-position:-4130px top !important; }
+label.socialit-mylinkvault{ background-position:-4200px top !important; }
+label.socialit-slashdot{ background-position:-4270px top !important; }
+label.socialit-squidoo{ background-position:-4340px top !important; }
+label.socialit-propeller{ background-position:-4410px top !important; }
+label.socialit-faqpal{ background-position:-4480px top !important; }
+label.socialit-evernote{ background-position:-4550px top !important; }
+label.socialit-meneame{ background-position:-4620px top !important; }
+label.socialit-bitacoras{ background-position:-4690px top !important; }
+label.socialit-jumptags{ background-position:-4760px top !important; }
+label.socialit-bebo{ background-position:-4830px top !important; }
+label.socialit-n4g{ background-position:-4900px top !important; }
+label.socialit-strands { background-position:-4970px top !important; }
+label.socialit-orkut { background-position:-5040px top !important; }
+label.socialit-tumblr { background-position:-5110px top !important; }
+label.socialit-stumpedia { background-position:-5180px top !important; }
+label.socialit-current { background-position:-5250px top !important; }
+label.socialit-blogger { background-position:-5320px top !important; }
+label.socialit-plurk { background-position:-5390px top !important; }
+
+ul.multi-selection {
+	list-style:none;
+	overflow:hidden;
+	position:absolute;
+	top:6px;
+	right:0;
+}
+ul.multi-selection li {
+	display:block;
+	float:left;
+	clear:none;
+	margin:0 0 10px 0 !important;
+}
+ul.multi-selection li input { }
+
+/* End Bookmarking Services Icons */
+/*------------------------------------------------------------------------------------------*/
+/* Star Rating Styles */
+span.socialit-rating-1, span.socialit-rating-2, span.socialit-rating-3, span.socialit-rating-4, span.socialit-rating-5 {
+	background:url('../images/custom-fugue-sprite.png') no-repeat;
+	display:inline-block;
+	height:16px;
+	margin:0 0 -2px;
+	width:80px;
+}
+span.socialit-rating-1 { background-position: 0 -416px; }
+span.socialit-rating-2 { background-position: 0 -432px; }
+span.socialit-rating-3 { background-position: 0 -448px; }
+span.socialit-rating-4 { background-position: 0 -464px; }
+span.socialit-rating-5 { background-position: 0 -480px; }
+/* End Star Rating Styles */
+/*------------------------------------------------------------------------------------------*/
+/* Main Structure Styles */
+div.box-right-body ol {
+	counter-reset:cnt;
+	list-style-type:none;
+	margin:0;
+}
+div.box-right-body ol li {
+	counter-increment:cnt;
+	line-height:10px;
+	margin:22px 0;
+}
+div.box-right-body ol li:before {
+	color:#D5D5D5;
+	content:counter(cnt, decimal-leading-zero);
+	font-family:"Courier New",monospace;
+	font-size:26px;
+	font-weight:bold;
+	width:20px;
+}
+div.box-right-body ol li:hover:before { color:#21759B; }
+div.box-right-body ol li a {
+	color:#57717F;
+	display:block;
+	margin:-14px 0 0 33px;
+	text-decoration:none;
+}
+div.box-right-body ol li:hover a {
+	color:#21759B;
+	font-weight:bold;
+}
+div.box-right-body ol li span {
+	clear:none;
+	color:#57717F;
+	float:right;
+	margin:-15px 0 0;
+}
+div.box-right-body ol li:hover span { color:#D54E21; }
+div#socialit-col-left { float:left; margin:10px 10px 0 0; }
+#socialit-col-left label { margin:0 12px 0 0; }
+ul#socialit-sortables li { list-style-type:none; margin:0 300px 20px 0; position:relative; }
+ul#socialit-sortables { list-style-type:none; }
+div.box-mid-head {
+	background:transparent url('../images/flo-head.jpg') repeat-x scroll 0 0;
+	border:1px solid #DBDBDB;
+	cursor:move;
+	height:27px;
+	text-align:right;
+	width:100%;
+}
+div.box-mid-head h2 {
+	color:#21759B;
+	float:left;
+	font-family:Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	font-size:14px;
+	font-style:normal;
+	font-weight:normal;
+	height:24px;
+	line-height:20px;
+	margin:0;
+	padding:3px 0 0 10px;
+	text-align:left;
+}
+div.box-mid-head a:hover { border:medium none; }
+div.box-mid-head input { border:1px solid #CCCCCC; }
+div.box-mid-body { background:#F8F8F8 url('../images/white-pix.jpg') repeat-x center top; border:1px solid #dbdbdb; border-top:0 none; display:table; width:100%; }
+div.box-mid-body h3 { display:block; font-size:16px; font-weight:bold; margin:8px 0; }
+div#socialit-col-right { clear:none; float:left; margin:10px 0 0; position:absolute; right:1.3%; width:256px; }
+div.box-right { float:left; margin-bottom:20px; }
+div.box-right-head { background:transparent url('../images/flo-head.jpg') repeat-x 0 0; border:1px solid #DBDBDB; float:left; height:27px; width:256px; }
+div.box-right-head h3 {
+	color:#21759B;
+	float:left;
+	font-family:Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	font-size:14px;
+	font-style:normal;
+	font-weight:normal;
+	height:24px;
+	line-height:20px;
+	margin:0;
+	padding:3px 0 0 10px;
+	text-align:left;
+}
+div.box-right-body { background:#F8F8F8 url('../images/white-pix.jpg') repeat-x center top; border:1px solid #dbdbdb; border-top:0 none; float:left; width:256px; }
+div.box-right-body h4 { display:block; font-size:16px; font-weight:bold; margin:8px 0; }
+div.box-right-body ul { list-style-image:none; list-style-position:inside; list-style-type:none; margin:0; }
+div.box-right-body ul li strong { color:#454545; font-weight:bold; }
+div.socialit-donate-button {
+	width:100%;
+}
+div.socialit-donate-button a{
+	display:block;
+	margin:10px 0;
+}
+div.socialit-twitter-button a.socialit-buttons {
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	background:#F2F2F2 url('../../../bb-admin/images/white-grad.png') repeat-x scroll 0 0;
+	border:1px solid #21759B;
+	color:#21759B;
+	display:inline-block;
+	font-family:tahoma,arial,sans-serif;
+	font-size:11px;
+	height:20px;
+	width:106px;
+	line-height:19px;
+	margin:5px 59px 5px;
+	padding:0 8px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #FFFFFF;
+}
+
+div.socialit-twitter-button a.socialit-buttons:hover, div.socialit-website-button a.socialit-buttons:hover {
+	background:transparent url('../../../bb-admin/images/button-grad.png') repeat-x scroll 0 0;
+	border:1px solid #13455B;
+	color:#FFFFFF;
+	text-shadow:0 1px 0 #13455B;
+}
+
+div.socialit-website-button a.socialit-buttons {
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	background:#F2F2F2 url('../../../bb-admin/images/white-grad.png') repeat-x scroll 0 0;
+	border:1px solid #21759B;
+	color:#21759B;
+	display:inline-block;
+	font-family:tahoma,arial,sans-serif;
+	font-size:11px;
+	height:20px;
+	line-height:19px;
+	margin:5px 68px 5px;
+	padding:0 8px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #FFFFFF;
+}
+/* End Main Structure Styles */
+/*------------------------------------------------------------------------------------------*/
+/* Donations Section Styles */
+.socialit-donation-box p {
+	padding:0;
+	margin:-4px 0 15px 0;
+	line-height:22px;
+}
+.socialit-donation-box label {
+	font-weight:bold;
+	color:#333;
+	font-size:10px;
+}
+.socialit-donation-box span {
+	font-weight:normal;
+}
+.socialit-donation-box .payment {
+	border-color:#bbb;
+	color:#464646;
+	width:160px;
+	display:block;
+	height:28px;
+	margin:45px auto 0;
+	padding-bottom:2px;
+}
+.socialit-donation-box .payment:hover {
+	border-color:#666;
+	color:#000;
+}
+#no-sponsors {
+	position:relative;
+	top:-70px;
+}
+/* End Donations Section Styles */
+/*------------------------------------------------------------------------------------------*/
+/* Plugin Sponsor Area */
+.spsn-container {
+	border: 1px solid #dadada !important;
+	padding: 0 !important;
+	margin:15px 15px -10px 0 !important;
+	line-height: 1.1em !important;
+	background:#f8f8f8 !important;
+}
+
+.spsn-sponsor-heading {
+	border-bottom: 1px solid #dadada !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	background: transparent url('../images/flo-head.jpg') repeat-x 0 0 !important;
+	line-height: 24px !important;
+	height: 27px !important;
+	width: 100% !important;
+	color: #21759b !important; 
+	font-family: Georgia,'Times New Roman','Bitstream Charter',Times,serif !important;
+	font-size: 14px !important;
+}
+
+.spsn-sponsor-heading em {
+	background: transparent url('../images/custom-fugue-sprite.png') no-repeat 0 -870px !important;
+	padding-left: 22px !important; 
+	margin-left: 8px !important;
+}
+
+.spsn-sponsor-text {
+	border-top: 1px solid #fff !important;
+	margin: 0 !important;
+	padding: 0.7em 0.7em 0.4em !important;
+	font-size: 0.8em !important;
+	color: #333 !important;
+}
+
+.spsn-credit {
+	margin: 0 !important;
+	padding: 0.2em 0.4em 0.4em 0.2em !important;
+	text-align: right !important;
+	font-size: 0.7em !important;
+	color:#777 !important;
+}
+/* End Plugin Sponsor Area */
+/*------------------------------------------------------------------------------------------*/
+/* Useful Links Section */
+div.box-right-body ul.infolinks { list-style-type:none; list-style-position:outside; }
+div.box-right-body ul.infolinks li {
+	background:url('../images/custom-fugue-sprite.png') no-repeat 0 -2367px;
+	text-indent:22px;
+	line-height:15px;
+	margin-bottom:12px;
+	font-size:11px;
+}
+div.box-right-body ul.infolinks li a { text-decoration:none; }
+/* End Useful Links Section */
+/*------------------------------------------------------------------------------------------*/
+/* Credits Section */
+div.box-right-body ul.credits { list-style-type:none; list-style-position:outside; }
+div.box-right-body ul.credits li {
+	background:url('../images/custom-fugue-sprite.png') no-repeat 0 -2585px;
+	text-indent:22px;
+	line-height:15px;
+	margin-bottom:12px;
+	font-size:11px;
+}
+div.box-right-body ul.credits li a { text-decoration:none; }
+/* End Credits Section */
+/*------------------------------------------------------------------------------------------*/
+/* Translations Section */
+div.box-right-body ul.langs { list-style-type:none; list-style-position:outside; }
+div.box-right-body ul.langs li {
+	background:url('../images/custom-fugue-sprite.png') no-repeat 0 -2475px;
+	text-indent:22px;
+	line-height:15px;
+	margin-bottom:12px;
+	font-size:11px;
+}
+div.box-right-body ul.langs li a { text-decoration:none; }
+/* End Translations Section */
+/*------------------------------------------------------------------------------------------*/
+/* Top Contributors Section */
+ul.socialit-contributors { counter-reset:cnt; list-style-type:none; margin:0; }
+ul.socialit-contributors li {
+	display:block;
+	counter-increment:cnt;
+	line-height:10px;
+	margin:10px 0 32px 0;
+}
+ul.socialit-contributors li.last { margin-bottom:10px; }
+ul.socialit-contributors li p { line-height:10px; margin:0; text-indent:5px; }
+ul.socialit-contributors li:before {
+	color:#D5D5D5;
+	content:counter(cnt, decimal-leading-zero);
+	font-family:"Courier New",monospace;
+	font-size:26px;
+	font-weight:bold;
+	width:20px;
+}
+ul.socialit-contributors li:hover:before { color:#21759B; }
+ul.socialit-contributors li a {
+	color:#57717F;
+	display:block;
+	margin:-14px 0 0 33px;
+	text-decoration:none;
+}
+ul.socialit-contributors li:hover a { color:#21759B; font-weight:bold; }
+/* End Top Contributors Section */
+/*------------------------------------------------------------------------------------------*/
+/* Custom Mods Warning */
+#custom-mods-notice {
+	padding: 5px 15px;
+	background:#FFEFEF;
+	border:5px solid #EF3B3B;
+	margin-bottom:25px;
+	display:none;
+}
+#custom-mods-notice h1 {
+	background:url('../images/warning-big.png') no-repeat 0 0;
+	font-size:48px;
+	height:48px;
+	line-height:42px;
+	text-indent:48px;
+	width:100%;
+	color: #EF3B3B !important;
+	margin:20px 0;
+	text-shadow: #CF2626 0 1px 0, #fff 0 -1px 0;
+}
+.custom-mods-notice-close {
+	cursor:pointer;
+	float:right;
+	color:#5c0101;
+	font-weight:bold;
+	display:block;
+	line-height:14px;
+	margin-bottom:5px;
+	padding-left:18px !important;
+}
+#custom-mods-notice h3 { margin:20px 0; }
+#custom-mods-notice p { line-height:22px; }
+#custom-mods-notice ol li { list-style:decimal; }
+#custom-mods-notice ul { list-style:none; list-style-position:outside; margin:15px 0 25px 15px; }
+#custom-mods-notice ul li { margin:15px 0 0 15px; padding:0 0 0 24px; line-height:22px; }
+#custom-mods-notice li a { color:#9F1313; }
+#custom-mods-notice ul li.custom-mods-folder { background:url('../images/custom-fugue-sprite.png') no-repeat 0 -2020px; }
+#custom-mods-notice ul li.custom-mods-image { background:url('../images/custom-fugue-sprite.png') no-repeat 0 -2137px; }
+#custom-mods-notice ul li.custom-mods-code { background:url('../images/custom-fugue-sprite.png') no-repeat 0 -2253px; }
+/* End Custom Mods Warning */
+/*------------------------------------------------------------------------------------------*/
+/* Custom Fugue Sprite Styles */
+.fugue { background: url('../images/custom-fugue-sprite.png') no-repeat; height:16px; padding-left:22px; }
+.fugue.f-info { background-position:0 2px; margin:2px 10px 0 0; }
+.fugue.f-warn { background-position:0 -83px; margin:2px 10px 0 0; }
+.fugue.f-success { background-position:0 -178px; margin:2px 10px 0 0; }
+.fugue.f-question { background-position:0 -295px; margin:2px 10px 0 0; width:16px; border:0; padding:0; display:inline-block;}
+.fugue.f-info-frame { background-position:0 -411px; height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px; }
+.fugue.f-error { background-position:0 -525px; margin:2px 10px 0 0; }
+.fugue.f-delete { background-position:0 -640px; }
+.fugue.f-globe-plus { background-position:0 -755px; height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px; }
+.fugue.f-leaf-pencil { background-position:0 -871px;   height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px; }
+.fugue.f-wrench { background-position:0 -987px;  height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px; }
+.fugue.f-money { background-position:0 -1102px;  height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px;  }
+.fugue.f-medal { background-position:0 -1217px;  height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px;  }
+.fugue.f-pallette { background-position:0 -1332px; height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px; }
+.fugue.f-plugin { background-position:0 -1447px; margin:5px 0 20px 0; padding-left:22px; display:block; clear:both; }
+.fugue.f-megaphone { background-position:0 -1564px;   height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px; }
+.fugue.f-flags { background-position:0 -1680px;   height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px; }
+.fugue.f-image { background-position:0 -1794px;   height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px; }
+.fugue.f-footer { background-position:0 -1909px;   height:16px; line-height:16px; padding:0; position:relative; top:6px; left:10px; text-indent:25px; }
+.fugue.f-folder { background-position:0 -2020px; }
+.fugue.f-doc-image { background-position:0 -2137px; }
+.fugue.f-doc-code { background-position:0 -2253px; }
+.fugue.f-link-small { background-position:0 -2367px; }
+.fugue.f-globe-small { background-position:0 -2475px; }
+.fugue.f-star-small { background-position:0 -2585px; }
+/* End Custom Fugue Sprite Styles */
+/*------------------------------------------------------------------------------------------*/

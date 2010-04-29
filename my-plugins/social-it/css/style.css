@@ -1,0 +1,197 @@
+/*
+ Public Stylesheet for
+ Social It plugin (for bbPress) by www.gaut.am
+*/
+
+div.social-it { margin:20px 0 0 0; clear: both !important; }
+div.social-it-expand { height: 29px; overflow: hidden; }
+.social-it-bg-sexy, .social-it-bg-caring, .social-it-bg-caring-old, .social-it-bg-love, .social-it-bg-wealth, .social-it-bg-enjoy, .social-it-bg-german { background:url('../images/socialit-trans.png') no-repeat !important; }
+div.social-it-bg-sexy { padding: 28px 0 0 10px !important; background-position: left -348px !important; }
+div.social-it-bg-caring { padding: 26px 0 0 10px !important; background-position: left 0 !important; }
+div.social-it-bg-caring-old { padding: 26px 0 0 10px !important; background-position: left -748px !important; }
+div.social-it-bg-love { padding: 26px 0 0 10px !important; background-position: left -1148px !important; }	
+div.social-it-bg-wealth { margin-left: 15px !important; padding: 35px 0 0 20px !important; background-position: left -1535px !important; }
+div.social-it-bg-enjoy { padding: 26px 0 0 10px !important; background-position: left -1895px !important; }
+div.social-it-bg-german { padding:35px 0 0 20px !important; background-position:left -2248px !important; }
+div.social-it ul.socials { width:100% !important; margin:0 !important; padding:0 !important; float: left !important; }
+div.social-it ul.socials { background:transparent none !important; border:0 none !important; outline:0 none !important; }
+div.social-it ul.socials li {
+	display:inline !important;
+	float:left !important;
+	list-style-type:none !important;
+	margin:0;
+	height:29px !important;
+	width:60px !important;
+	cursor:pointer !important;
+	padding:0 !important;
+	background-color:transparent !important;
+	border:0 none !important;
+	outline:0 none !important;
+	clear:none !important;
+}
+div.social-it ul.socials li:before, div.social-it ul.socials li:after, div.social-it ul.socials li a:before, div.social-it ul.socials li a:after { content:none !important; }
+div.social-it ul.socials a {
+	display:block !important;
+	width:60px !important;
+	height:29px !important;
+	text-indent: -9999px !important;
+	background-color:transparent !important;
+}
+div.social-it ul.socials a:hover, div.social-it ul.socials li:hover { background-color:transparent !important; border:0 none !important; outline:0 none !important; }
+li.socialit-diigo, li.socialit-diigo:hover, li.socialit-digg, li.socialit-digg:hover, li.socialit-reddit, li.socialit-reddit:hover, li.socialit-stumbleupon, li.socialit-stumbleupon:hover, li.socialit-delicious, li.socialit-delicious:hover, li.socialit-yahoobuzz, li.socialit-yahoobuzz:hover, li.socialit-blinklist, li.socialit-blinklist:hover, li.socialit-technorati, li.socialit-technorati:hover, li.socialit-facebook, li.socialit-facebook:hover, li.socialit-twitter, li.socialit-twitter:hover, li.socialit-myspace, li.socialit-myspace:hover, li.socialit-mixx, li.socialit-mixx:hover, li.socialit-scriptstyle, li.socialit-scriptstyle:hover, li.socialit-designfloat, li.socialit-designfloat:hover, li.socialit-mail, li.socialit-mail:hover, li.socialit-comfeed, li.socialit-comfeed:hover, li.socialit-newsvine, li.socialit-newsvine:hover, li.socialit-devmarks, li.socialit-devmarks:hover, li.socialit-linkedin, li.socialit-linkedin:hover, li.socialit-google, li.socialit-google:hover, li.socialit-misterwong, li.socialit-misterwong:hover, li.socialit-izeby, li.socialit-izeby:hover, li.socialit-twittley, li.socialit-twittley:hover, li.socialit-tipd, li.socialit-tipd:hover, li.socialit-pfbuzz, li.socialit-pfbuzz:hover, li.socialit-friendfeed, li.socialit-friendfeed:hover, li.socialit-blogmarks, li.socialit-blogmarks:hover, li.socialit-fwisp, li.socialit-fwisp:hover, li.socialit-designmoo, li.socialit-designmoo:hover, li.socialit-bobrdobr, li.socialit-bobrdobr:hover, li.socialit-yandex, li.socialit-yandex:hover, li.socialit-memoryru, li.socialit-memoryru:hover, li.socialit-100zakladok, li.socialit-100zakladok:hover, li.socialit-moemesto, li.socialit-moemesto:hover, li.socialit-ning, li.socialit-ning:hover, li.socialit-hackernews, li.socialit-hackernews:hover, li.socialit-identica, li.socialit-identica:hover, li.socialit-printfriendly, li.socialit-printfriendly:hover, li.socialit-designbump, li.socialit-designbump:hover, li.socialit-fleck, li.socialit-fleck:hover, li.socialit-netvibes, li.socialit-netvibes:hover, li.socialit-netvouz, li.socialit-netvouz:hover, li.socialit-nujij, li.socialit-nujij:hover, li.socialit-globalgrind, li.socialit-globalgrind:hover, li.socialit-wikio, li.socialit-wikio:hover, li.socialit-xerpi, li.socialit-xerpi:hover, li.socialit-sphinn, li.socialit-sphinn:hover, li.socialit-blogospherenews, li.socialit-blogospherenews:hover, li.socialit-posterous, li.socialit-posterous:hover, li.socialit-techmeme, li.socialit-techmeme:hover, li.socialit-ekudos, li.socialit-ekudos:hover, li.socialit-pingfm, li.socialit-pingfm:hover, li.socialit-tomuse, li.socialit-tomuse:hover, li.socialit-webblend, li.socialit-webblend:hover, li.socialit-wykop, li.socialit-wykop:hover, li.socialit-blogengage, li.socialit-blogengage:hover, li.socialit-hyves, li.socialit-hyves:hover, li.socialit-pusha, li.socialit-pusha:hover, li.socialit-hatena, li.socialit-hatena:hover, li.socialit-mylinkvault, li.socialit-mylinkvault:hover, li.socialit-slashdot, li.socialit-slashdot:hover, li.socialit-squidoo, li.socialit-squidoo:hover, li.socialit-propeller, li.socialit-propeller:hover, li.socialit-faqpal, li.socialit-faqpal:hover, li.socialit-evernote, li.socialit-evernote:hover, li.socialit-meneame, li.socialit-meneame:hover, li.socialit-bitacoras, li.socialit-bitacoras:hover, li.socialit-jumptags, li.socialit-jumptags:hover, li.socialit-bebo, li.socialit-bebo:hover, li.socialit-n4g, li.socialit-n4g:hover, li.socialit-strands, li.socialit-strands:hover, li.socialit-orkut, li.socialit-orkut:hover, li.socialit-tumblr, li.socialit-tumblr:hover, li.socialit-stumpedia, li.socialit-stumpedia:hover, li.socialit-current, li.socialit-current:hover, li.socialit-blogger, li.socialit-blogger:hover, li.socialit-plurk, li.socialit-plurk:hover { background:url('../images/socialit-sprite.png') no-repeat !important; }
+li.socialit-newsvine { background-position:left bottom !important; }
+li.socialit-newsvine:hover { background-position:left top !important; }
+li.socialit-linkedin { background-position:-70px bottom !important; }
+li.socialit-linkedin:hover { background-position:-70px top !important; }
+li.socialit-devmarks { background-position:-140px bottom !important; }
+li.socialit-devmarks:hover { background-position:-140px top !important; }
+li.socialit-google { background-position:-210px bottom !important; }
+li.socialit-google:hover { background-position:-210px top !important; }
+li.socialit-scriptstyle { background-position:-280px bottom !important; }
+li.socialit-scriptstyle:hover { background-position:-280px top !important; }
+li.socialit-mail { background-position:-350px bottom !important; }
+li.socialit-mail:hover { background-position:-350px top !important; }
+li.socialit-comfeed { background-position:-420px bottom !important; }
+li.socialit-comfeed:hover { background-position:-420px top !important; }
+li.socialit-twitter { background-position:-490px bottom !important; }
+li.socialit-twitter:hover { background-position:-490px top !important; }
+li.socialit-technorati { background-position:-560px bottom !important; }
+li.socialit-technorati:hover { background-position:-560px top !important; }
+li.socialit-stumbleupon { background-position:-630px bottom !important; }
+li.socialit-stumbleupon:hover { background-position:-630px top !important; }
+li.socialit-reddit { background-position:-700px bottom !important; }
+li.socialit-reddit:hover { background-position:-700px top !important; }
+li.socialit-myspace { background-position:-770px bottom !important; }
+li.socialit-myspace:hover { background-position:-770px top !important; }
+li.socialit-mixx { background-position:-840px bottom !important; }
+li.socialit-mixx:hover { background-position:-840px top !important; }
+li.socialit-diigo { background-position:-910px bottom !important; }
+li.socialit-diigo:hover { background-position:-910px top !important; }
+li.socialit-digg { background-position:-980px bottom !important; }
+li.socialit-digg:hover { background-position:-980px top !important; }
+li.socialit-designfloat { background-position:-1050px bottom !important; }
+li.socialit-designfloat:hover { background-position:-1050px top !important; }
+li.socialit-yahoobuzz { background-position:-1120px bottom !important; }
+li.socialit-yahoobuzz:hover { background-position:-1120px top !important; }
+li.socialit-delicious { background-position:-1190px bottom !important; }
+li.socialit-delicious:hover { background-position:-1190px top !important; }
+li.socialit-blinklist { background-position:-1260px bottom !important; }
+li.socialit-blinklist:hover { background-position:-1260px top !important; }
+li.socialit-facebook { background-position:-1330px bottom !important; }
+li.socialit-facebook:hover { background-position:-1330px top !important; }
+li.socialit-misterwong { background-position:-1400px bottom !important; }
+li.socialit-misterwong:hover { background-position:-1400px top !important; }
+li.socialit-izeby { background-position:-1470px bottom !important; }
+li.socialit-izeby:hover { background-position:-1470px top !important; }
+li.socialit-twittley { background-position:-1540px bottom !important; }
+li.socialit-twittley:hover { background-position:-1540px top !important; }
+li.socialit-tipd { background-position:-1610px bottom !important; }
+li.socialit-tipd:hover { background-position:-1610px top !important; }
+li.socialit-pfbuzz { background-position:-1680px bottom !important; }
+li.socialit-pfbuzz:hover { background-position:-1680px top !important; }
+li.socialit-friendfeed { background-position:-1750px bottom !important; }
+li.socialit-friendfeed:hover { background-position:-1750px top !important; }
+li.socialit-blogmarks { background-position:-1820px bottom !important; }
+li.socialit-blogmarks:hover { background-position:-1820px top !important; }
+li.socialit-fwisp { background-position:-1890px bottom !important; }
+li.socialit-fwisp:hover { background-position:-1890px top !important; }
+li.socialit-designmoo { background-position:-1960px bottom !important; }
+li.socialit-designmoo:hover { background-position:-1960px top !important; }
+li.socialit-bobrdobr { background-position:-2030px bottom !important; }
+li.socialit-bobrdobr:hover { background-position:-2030px top !important; }
+li.socialit-memoryru { background-position:-2100px bottom !important; }
+li.socialit-memoryru:hover { background-position:-2100px top !important; }
+li.socialit-100zakladok { background-position:-2170px bottom !important; }
+li.socialit-100zakladok:hover { background-position:-2170px top !important; }
+li.socialit-yandex { background-position:-2240px bottom !important; }
+li.socialit-yandex:hover { background-position:-2240px top !important; }
+li.socialit-moemesto { background-position:-2310px bottom !important; }
+li.socialit-moemesto:hover { background-position:-2310px top !important; }
+li.socialit-marrows { background-position:-2380px bottom !important; }
+li.socialit-marrows:hover { background-position:-2380px top !important; }
+li.socialit-identica { background-position:-2450px bottom !important; }
+li.socialit-identica:hover { background-position:-2450px top !important; }
+li.socialit-hackernews { background-position:-2520px bottom !important; }
+li.socialit-hackernews:hover { background-position:-2520px top !important; }
+li.socialit-ning { background-position:-2590px bottom !important; }
+li.socialit-ning:hover { background-position:-2590px top !important; }
+li.socialit-designbump { background-position:-2660px bottom !important; }
+li.socialit-designbump:hover { background-position:-2660px top !important; }
+li.socialit-printfriendly { background-position:-2730px bottom !important; }
+li.socialit-printfriendly:hover { background-position:-2730px top !important; }
+li.socialit-fleck{ background-position:-2800px bottom !important; }
+li.socialit-fleck:hover{ background-position:-2800px top !important; }
+li.socialit-netvibes{ background-position:-2870px bottom !important; }
+li.socialit-netvibes:hover{ background-position:-2870px top !important; }
+li.socialit-netvouz{ background-position:-2940px bottom !important; }
+li.socialit-netvouz:hover{ background-position:-2940px top !important; }
+li.socialit-nujij{ background-position:-3010px bottom !important; }
+li.socialit-nujij:hover{ background-position:-3010px top !important; }
+li.socialit-globalgrind{ background-position:-3080px bottom !important; }
+li.socialit-globalgrind:hover{ background-position:-3080px top !important; }
+li.socialit-wikio{ background-position:-3150px bottom !important; }
+li.socialit-wikio:hover{ background-position:-3150px top !important; }
+li.socialit-xerpi{ background-position:-3220px bottom !important; }
+li.socialit-xerpi:hover{ background-position:-3220px top !important; }
+li.socialit-sphinn{ background-position:-3290px bottom !important; }
+li.socialit-sphinn:hover{ background-position:-3290px top !important; }
+li.socialit-blogospherenews{ background-position:-3360px bottom !important; }
+li.socialit-blogospherenews:hover{ background-position:-3360px top !important; }
+li.socialit-posterous{ background-position:-3430px bottom !important; }
+li.socialit-posterous:hover{ background-position:-3430px top !important; }
+li.socialit-techmeme{ background-position:-3500px bottom !important; }
+li.socialit-techmeme:hover{ background-position:-3500px top !important; }
+li.socialit-ekudos{ background-position:-3570px bottom !important; }
+li.socialit-ekudos:hover{ background-position:-3570px top !important; }
+li.socialit-pingfm{ background-position:-3640px bottom !important; }
+li.socialit-pingfm:hover{ background-position:-3640px top !important; }
+li.socialit-tomuse{ background-position:-3710px bottom !important; }
+li.socialit-tomuse:hover { background-position:-3710px top !important; }
+li.socialit-webblend{ background-position:-3780px bottom !important; }
+li.socialit-webblend:hover { background-position:-3780px top !important; }
+li.socialit-wykop{ background-position:-3850px bottom !important; }
+li.socialit-wykop:hover { background-position:-3850px top !important; }
+li.socialit-blogengage{ background-position:-3920px bottom !important; }
+li.socialit-blogengage:hover { background-position:-3920px top !important; }
+li.socialit-hyves { background-position:-3990px bottom !important; }
+li.socialit-hyves:hover { background-position:-3990px top !important; }
+li.socialit-pusha { background-position:-4060px bottom !important; }
+li.socialit-pusha:hover { background-position:-4060px top !important; }
+li.socialit-hatena { background-position:-4130px bottom !important; }
+li.socialit-hatena:hover { background-position:-4130px top !important; }
+li.socialit-mylinkvault { background-position:-4200px bottom !important; }
+li.socialit-mylinkvault:hover { background-position:-4200px top !important; }
+li.socialit-slashdot { background-position:-4270px bottom !important; }
+li.socialit-slashdot:hover { background-position:-4270px top !important; }
+li.socialit-squidoo { background-position:-4340px bottom !important; }
+li.socialit-squidoo:hover { background-position:-4340px top !important; }
+li.socialit-propeller { background-position:-4410px bottom !important; }
+li.socialit-propeller:hover { background-position:-4410px top !important; }
+li.socialit-faqpal { background-position:-4480px bottom !important; }
+li.socialit-faqpal:hover { background-position:-4480px top !important; }
+li.socialit-evernote { background-position:-4550px bottom !important; }
+li.socialit-evernote:hover { background-position:-4550px top !important; }
+li.socialit-meneame { background-position:-4620px bottom !important; }
+li.socialit-meneame:hover { background-position:-4620px top !important; }
+li.socialit-bitacoras { background-position:-4690px bottom !important; }
+li.socialit-bitacoras:hover { background-position:-4690px top !important; }
+li.socialit-jumptags { background-position:-4760px bottom !important; }
+li.socialit-jumptags:hover { background-position:-4760px top !important; }
+li.socialit-bebo { background-position:-4830px bottom !important; }
+li.socialit-bebo:hover { background-position:-4830px top !important; }
+li.socialit-n4g { background-position:-4900px bottom !important; }
+li.socialit-n4g:hover { background-position:-4900px top !important; }
+li.socialit-strands { background-position:-4970px bottom !important; }
+li.socialit-strands:hover { background-position:-4970px top !important; }
+li.socialit-orkut { background-position:-5040px bottom !important; }
+li.socialit-orkut:hover { background-position:-5040px top !important; }
+li.socialit-tumblr { background-position:-5110px bottom !important; }
+li.socialit-tumblr:hover { background-position:-5110px top !important; }
+li.socialit-stumpedia { background-position:-5180px bottom !important; }
+li.socialit-stumpedia:hover { background-position:-5180px top !important; }
+li.socialit-current { background-position:-5250px bottom !important; }
+li.socialit-current:hover { background-position:-5250px top !important; }
+li.socialit-blogger { background-position:-5320px bottom !important; }
+li.socialit-blogger:hover { background-position:-5320px top !important; }
+li.socialit-plurk { background-position:-5390px bottom !important; }
+li.socialit-plurk:hover { background-position:-5390px top !important; }
