@@ -39,8 +39,7 @@ img.avatar { border: 1px solid #ddd; }
 #header h1 a:hover { color: #666; }
 
 #header div.search {
-	padding: 4px;
-	background-color: #aaa;
+	padding: 4px 0;
 	-moz-border-radius-bottomleft: 4px;
 	-khtml-border-bottom-left-radius: 4px;
 	-webkit-border-bottom-left-radius: 4px;
@@ -111,30 +110,6 @@ div.search input.submit:active {
 
 /* Login Form
 =================================== */
-
-.login {
-	position: absolute;
-	bottom: 31px;
-	left: 0;
-	font-weight: normal;
-	color: #444;
-	width: 100%;
-	z-index: 1;
-	font-size: 12px;
-}
-
-form.login {
-	bottom: 15px;
-}
-
-.login p { padding: 0 0 8px; }
-
-.login label {
-	display: block;
-	float: left;
-	padding-right: 10px;
-	line-height: 14px;
-}
 
 form.login input {
 	border: 1px solid #999;
