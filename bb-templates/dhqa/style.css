@@ -1,31 +1,14 @@
 /*
-Theme Name: Kakumei
-Theme URI: http://bbpress.org/
-Description: The "revolutionized" new face of bbPress.
-Version: 1.0
-Author: <a href="http://avalonstar.com">Bryan Veloso</a> with updates by <a href="http://unlettered.org">Sam Bauers</a>
+Theme Name: DHQA
+Theme URI: http://digitalhumanities.org/answers
+Description: Theme for ADHO DH Q&A site.
+Version: 0.1
+Author: Joe Gilbert
 Author URI: 
 */
 
 /* Globals 
 =================================== */
-
-* { margin: 0; padding: 0; }
-
-body {
-	margin-bottom: 50px;
-	background-color: #fff;
-	font: 62.5% 'Trebuchet MS', 'Lucida Grande', Verdana, Tahoma, Arial;
-}
-
-a { color: #2e6e15; text-decoration: none; }
-a:hover { color: #006400; }
-
-.alt { background-color: #fff; }
-
-pre, code { font: 1.0em Monaco, 'Courier New', monospace; }
-
-pre, p { margin-bottom: 1.0em; }
 
 .left { float: left; }
 
@@ -34,16 +17,6 @@ pre, p { margin-bottom: 1.0em; }
 .delete:hover {
 	background-color: #c00;
 	color: #fff;
-}
-
-h1 { font-size: 2em; }
-
-h2 { font-size: 1.3em; }
-
-fieldset {
-	border-width: 0;
-	padding: 0;
-	margin: 0;
 }
 
 img.avatar { border: 1px solid #ddd; }
@@ -59,47 +32,6 @@ img.avatar { border: 1px solid #ddd; }
 /* Structure
 =================================== */
 
-#wrapper {
-	background: #fff url('images/page_header_tile.png') repeat-x 0px -15px;
-}
-
-#header {
-	background: url('images/page_header_bblogo.png') no-repeat bottom right; /* Remove to get rid of bb emblem. */
-	margin: 0 auto 10px;
-	width: 760px;
-	height: 116px;
-	position: relative;
-}
-
-#header h1 {
-	font-family: Georgia;
-	font-style: italic;
-	overflow: auto;
-	position: absolute;
-	display: block;
-	color: #444;
-	text-align: right;
-	letter-spacing: -1px;
-	right: 53px;
-	bottom: 26px;
-	padding: 6px;
-	z-index: 2;
-}
-
-#header p.description {
-	font-size: 1.2em;
-	font-family: Georgia;
-	font-style: italic;
-	overflow: auto;
-	position: absolute;
-	display: block;
-	color: #666;
-	text-align: right;
-	right: 53px;
-	bottom: 13px;
-	padding: 6px;
-	z-index: 2;
-}
 
 #header p { margin-bottom: 0; }
 
@@ -107,7 +39,6 @@ img.avatar { border: 1px solid #ddd; }
 #header h1 a:hover { color: #666; }
 
 #header div.search {
-	float: right;
 	padding: 4px;
 	background-color: #aaa;
 	-moz-border-radius-bottomleft: 4px;
@@ -120,7 +51,7 @@ img.avatar { border: 1px solid #ddd; }
 	border-bottom-right-radius: 4px;
 }
 
-#header div.search input {
+div.search input {
 	border: 1px solid #999;
 	background-color: #fdfdfd;
 	padding: 2px;
@@ -133,7 +64,7 @@ img.avatar { border: 1px solid #ddd; }
 	border-radius: 3px;
 }
 
-#header div.search input.submit {
+div.search input.submit {
 	background-color: #ccc;
 	line-height: 15px;
 	-moz-border-radius: 4px;
@@ -143,20 +74,13 @@ img.avatar { border: 1px solid #ddd; }
 	padding: 2px 4px;
 }
 
-#header div.search input.submit:hover {
+div.search input.submit:hover {
 	background-color: #ddd;
 	color: rgb(0, 100, 0);
 }
 
-#header div.search input.submit:active {
+div.search input.submit:active {
 	border-color: rgb(0, 100, 0);
-}
-
-#main {
-	font-size: 1.2em;
-	width: 760px;
-	margin: 0 auto 25px;
-	position: relative;
 }
 
 .bbcrumb {
@@ -165,23 +89,6 @@ img.avatar { border: 1px solid #ddd; }
 	letter-spacing: 1px;
 	padding: 5px 0 20px;
 	font-weight: bold;
-}
-
-#footer {
-	font-family: Georgia;
-	font-style: italic;
-	border-top: 1px solid #ccc;
-	margin: auto;
-	color: #666;
-	font-size: 1.0em;
-	padding-top: 10px;
-	clear: both;
-	text-align: right;
-	width: 760px;
-}
-
-#footer p.showoff {
-	color: #888;
 }
 
 .notice {
