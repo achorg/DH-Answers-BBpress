@@ -38,8 +38,10 @@ img.avatar { border: 1px solid #ddd; }
 #header h1 a { color: #555; text-decoration: none; }
 #header h1 a:hover { color: #666; }
 
+#header div.login-container {
+	padding: 2px;
+}
 #header div.search {
-	padding: 4px 0;
 	-moz-border-radius-bottomleft: 4px;
 	-khtml-border-bottom-left-radius: 4px;
 	-webkit-border-bottom-left-radius: 4px;
