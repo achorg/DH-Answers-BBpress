@@ -22,6 +22,8 @@ if ( bb_is_profile() ) {
 <?php if ( 'rtl' == bb_get_option( 'text_direction' ) ) : ?>
 	<link rel="stylesheet" href="<?php bb_stylesheet_uri( 'rtl' ); ?>" type="text/css" />
 <?php endif; ?>
+	<script src="<?php echo(bb_active_theme_uri().'scripts/typeface-0.14.js'); ?>"></script>
+  <script src="<?php echo(bb_active_theme_uri().'scripts/gentilis_font/gentilis_regular.typeface.js'); ?>"></script>
 
 <?php bb_feed_head(); ?>
 
@@ -29,9 +31,9 @@ if ( bb_is_profile() ) {
 
 </head>
 <body id="<?php bb_location(); ?>">
-	<div class="container">
+	<div class="container prepend-top append-bottom">
 		<div id="header" role="banner" class="span-24">
-			<h1><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a></h1>
+			<h1 class="typeface-js" style="font-family: Gentilis"><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a></h1>
 			<?php if ( bb_get_option('description') ) : ?><h3 class="description span-24"><?php bb_option('description'); ?></h3><?php endif; ?>
 <div class="login-container prepend-12 span-6">
 <?php if ( !in_array( bb_get_location(), array( 'login-page', 'register-page' ) ) ) login_form(); ?>
