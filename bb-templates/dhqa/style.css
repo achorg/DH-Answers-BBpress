@@ -13,8 +13,8 @@ body {
 	background: #efe !important;
 }
 
-a {
-	color: #090 !important;
+a:link {
+	color: #090;
 }
 
 .left { float: left; }
