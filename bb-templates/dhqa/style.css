@@ -156,6 +156,10 @@ div.remember label {
 	line-height: 12px;
 }
 
+div.remember input {
+	top: 0;
+}
+
 form.login input#remember {
 	border-width: 0;
 	padding: 0;
