@@ -9,6 +9,13 @@ Author URI:
 
 /* Globals 
 =================================== */
+body {
+	background: #efe !important;
+}
+
+a {
+	color: #090 !important;
+}
 
 .left { float: left; }
 
@@ -52,6 +59,7 @@ img.avatar { border: 1px solid #ddd; }
 	-khtml-border-bottom-right-radius: 4px;
 	-webkit-border-bottom-right-radius: 4px;
 	border-bottom-right-radius: 4px;
+	margin-top: 19px;
 }
 
 div.search input {
@@ -558,7 +566,7 @@ a.rss-link {
 #latest tr:hover, #forumlist tr:hover, #favorites tr:hover { background-color: #e4f3e1; }
 
 #latest th, #forumlist th, #favorites th {
-	background-color: rgb(102, 102, 102);
+	background-color: #383;
 	color: rgb(255, 255, 255);
 }
 
