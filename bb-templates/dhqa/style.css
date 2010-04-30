@@ -115,8 +115,9 @@ div.search input.submit:active {
 /* Login Form
 =================================== */
 
-form.login p {
-	margin-bottom: 5px;
+#header form.login {
+	display: inline-block;
+	margin-bottom: 1em;
 }
 
 form.login input {
@@ -134,7 +135,6 @@ form.login input {
 form.login input.submit {
 	background-color: #ccc;
 	float: left;
-	margin-top: 5px;
 	display: block;
 	line-height: 15px;
 	-moz-border-radius: 4px;
