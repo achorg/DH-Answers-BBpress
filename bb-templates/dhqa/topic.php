@@ -30,7 +30,7 @@
 <div id="ajax-response"></div>
 <ol id="thread" class="list:post">
 
-<?php foreach ($posts as $bb_post) : $del_class = post_del_class(); ?>
+<?php foreach ($posts as $bb_post) : $del_class = apply_filters('best_answer_class',post_del_class()); ?>
 	<li id="post-<?php post_id(); ?>"<?php alt_class('post', $del_class); ?>>
 <?php bb_post_template(); ?>
 	</li>
