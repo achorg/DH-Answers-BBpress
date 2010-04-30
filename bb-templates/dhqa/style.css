@@ -115,6 +115,10 @@ div.search input.submit:active {
 /* Login Form
 =================================== */
 
+form.login p {
+	margin-bottom: 5px;
+}
+
 form.login input {
 	border: 1px solid #999;
 	padding: 2px;
@@ -130,7 +134,7 @@ form.login input {
 form.login input.submit {
 	background-color: #ccc;
 	float: left;
-	margin-top: 14px;
+	margin-top: 5px;
 	display: block;
 	line-height: 15px;
 	-moz-border-radius: 4px;
@@ -147,6 +151,10 @@ form.login input.submit:hover {
 
 form.login input.submit:active {
 	border-color: rgb(0, 100, 0);
+}
+
+div.remember {
+	margin-top: 5px;
 }
 
 div.remember label {
