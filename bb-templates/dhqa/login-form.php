@@ -10,20 +10,20 @@
 
 	</p>
 	<div>
-		<label>
-			<?php _e('Username'); ?><br />
-			<input name="user_login" type="text" id="quick_user_login" size="13" maxlength="40" value="<?php if (!is_bool($user_login)) echo $user_login; ?>" tabindex="1" />
-		</label>
-		<label>
-			<?php _e( 'Password' ); ?><br />
+		<div class="span-6">
+			<label><?php _e('Username'); ?></label><br />
+			<input name="user_login" type="text" id="quick_user_login" size="13" maxlength="40" value="<?php if (!is_bool($user_login)) echo $user_login; ?>" tabindex="1" />			
+		</div>
+		<div class="span-6">
+			<label><?php _e( 'Password' ); ?></label><br />
 			<input name="password" type="password" id="quick_password" size="13" maxlength="40" tabindex="2" />
-		</label>
+		</div>
 		<input name="re" type="hidden" value="<?php echo $re; ?>" />
 		<?php wp_referer_field(); ?>
 
 		<input type="submit" name="Submit" class="submit" value="<?php echo esc_attr__( 'Log in &raquo;' ); ?>" tabindex="4" />
 	</div>
-	<div class="remember">
+	<div class="remember span-6">
 		<label>
 			<input name="remember" type="checkbox" id="quick_remember" value="1" tabindex="3"<?php echo $remember_checked; ?> />
 			<?php _e('Remember me'); ?>
