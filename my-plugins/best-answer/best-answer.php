@@ -28,7 +28,7 @@ $best_answer['css']="
 	a.best_answer_selected:hover {color:red; background-position:0px -32px;}		
 	#thread li.best_answer_background { background-color: transparent; }
 	#thread li.best_answer_background .threadpost { background-color: #80DD80; }
-	#thread li.alt.best_answer_background .threadpost { background-color: #84DB8B; }
+	#thread li.alt.best_answer_background .threadpost { background-color: #3c6; }
 ";
 
 /*

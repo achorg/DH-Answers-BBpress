@@ -22,6 +22,9 @@ Author URI:
 body .container {
 	background: url('images/ach-wrapper.png') 0 0 no-repeat;
 	padding: 100px 20px 20px;
+	margin: 0 auto;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
 }
 
 body a {
@@ -54,7 +57,6 @@ img.avatar { border: 1px solid #ddd; }
 /* Structure
 =================================== */
 
-#header {margin-left: 220px;}
 #header p { margin-bottom: 0; font-weight: bolder;}
 #header h1 {margin-bottom: 0;}
 #header h1 a { text-decoration: none; }
@@ -106,6 +108,10 @@ div.search input.submit:hover {
 
 div.search input.submit:active {
 	border-color: rgb(0, 100, 0);
+}
+
+#main {
+	margin-top: 40px;
 }
 
 .bbcrumb {
@@ -347,7 +353,7 @@ input#tagformsub:active {
 	line-height: 1.5em;
 	clear: both;
 	/* Hack to force padding on .threadauthor on IE */
-	border-top: 1px solid #fff;
+	border-top: 1px solid transparent;
 }
 
 #thread li ol, #thread li ul { margin-left: 40px; }
@@ -576,10 +582,10 @@ a.rss-link {
 	padding-left: 2.5ex;
 }
 
-#latest tr:hover, #forumlist tr:hover, #favorites tr:hover { background-color: #e4f3e1; }
+#latest tr:hover, #forumlist tr:hover, #favorites tr:hover { background-color: #eee; }
 
 #latest th, #forumlist th, #favorites th {
-	background-color: #36c;
+	background-color: #900;
 	color: rgb(255, 255, 255);
 }
 
@@ -589,8 +595,8 @@ table th, table td {
 }
 
 #latest th a, #forumlist th a, #favorites th a {
-	color: #c8e5c8;
-	font-style: italic;
+	color: #fff;
+	font-weight: bold;
 }
 
 #latest th a:hover, #forumlist th a:hover, #favorites th a:hover {
@@ -602,7 +608,7 @@ tr.bb-category td {
 }
 
 #latest, #forumlist, #favorites {
-	background-color: #f7fff7;
+	background-color: #f7f7f7;
 	margin-bottom: 3em;
 	width: 100%;
 }
