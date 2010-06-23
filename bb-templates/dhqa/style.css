@@ -7,8 +7,13 @@ Author: Joe Gilbert
 Author URI: 
 */
 
-/* Globals 
+/* Globals and Frame
 =================================== */
+
+body .container {
+	background: url('images/ach-wrapper.png') 0 0 no-repeat;
+	padding: 100px 20px 20px;
+}
 
 body a {
 	color: #060;
@@ -40,7 +45,7 @@ img.avatar { border: 1px solid #ddd; }
 /* Structure
 =================================== */
 
-
+#header {margin-left: 220px;}
 #header p { margin-bottom: 0; font-weight: bolder;}
 #header h1 {margin-bottom: 0;}
 #header h1 a { text-decoration: none; }

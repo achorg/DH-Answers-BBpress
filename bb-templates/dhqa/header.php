@@ -32,7 +32,7 @@ if ( bb_is_profile() ) {
 </head>
 <body id="<?php bb_location(); ?>">
 	<div class="container prepend-top append-bottom">
-		<div id="header" role="banner" class="span-24">
+		<div id="header" role="banner" class="span-18">
 			<h1 class="typeface-js" style="font-family: Helvetiker; font-weight: bold;"><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a></h1>
 			<?php if ( bb_get_option('description') ) : ?><h3 class="description span-24"><?php bb_option('description'); ?></h3><?php endif; ?>
 			<div class="login-container append-10 span-8">
