@@ -10,17 +10,26 @@ Author URI:
 /* Globals and Frame
 =================================== */
 
+/* hack to fit ACH bg img */
+.span-6 {
+	width: 210px !important;
+}
+
+.prepend-6 {
+	padding-left: 220px !important;
+}
+
 body .container {
 	background: url('images/ach-wrapper.png') 0 0 no-repeat;
 	padding: 100px 20px 20px;
 }
 
 body a {
-	color: #060;
+	color: #226;
 }
 
 body h1 a {
-	color: #080;
+	color: #000;
 }
 
 .left { float: left; }
@@ -201,6 +210,7 @@ form.login input#remember {
 	border-bottom: 1px solid #ddd;
 	margin: 0 0 10px;
 	padding: 0 0 5px;
+	color: #444;
 }
 
 #front-page #discussions ul { padding: 0 0 0 14px; }
@@ -569,7 +579,7 @@ a.rss-link {
 #latest tr:hover, #forumlist tr:hover, #favorites tr:hover { background-color: #e4f3e1; }
 
 #latest th, #forumlist th, #favorites th {
-	background-color: #383;
+	background-color: #36c;
 	color: rgb(255, 255, 255);
 }
 
