@@ -182,13 +182,16 @@ form.login input {
 	border-radius: 3px;
 }
 
-form.login input[type="text"] {
+form.search-form input[type="text"] {
 	height: 23px;
 }
 
-form.login input.submit {
+form.search-form input.submit {
 	background-color: #eee;
 	color: #226;
+}
+
+form.login input.submit {
 	float: left;
 	display: block;
 	line-height: 15px;
