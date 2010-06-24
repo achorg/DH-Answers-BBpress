@@ -33,6 +33,7 @@ if ( bb_is_profile() ) {
 <body id="<?php bb_location(); ?>">
 	<div class="container prepend-top append-bottom">
 		<div id="header" role="banner" class="prepend-6 span-18">
+			<a id="ach-logo" href="http://www.ach.org">ACH</a>
 			<h1 class="typeface-js" style="font-family: Helvetiker; font-weight: bold;"><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a></h1>
 			<?php if ( bb_get_option('description') ) : ?><h3 class="description span-24"><?php bb_option('description'); ?></h3><?php endif; ?>
 			<div class="login-container span-12">

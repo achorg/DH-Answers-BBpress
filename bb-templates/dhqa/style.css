@@ -21,7 +21,7 @@ Author URI:
 
 body .container {
 	background: url('images/ach-wrapper.png') 0 0 no-repeat;
-	padding: 100px 20px 20px;
+	padding: 0px 20px 20px;
 	margin: 0 auto;
 	border-left: 1px solid #aaa;
 	border-right: 1px solid #aaa;
@@ -143,6 +143,15 @@ div.search input.submit:active {
 
 /* Login Form
 =================================== */
+
+#header #ach-logo {
+	text-indent: -9999px; 
+	display: block; 
+	height: 81px; 
+	position: relative; 
+	width: 950px; 
+	right: 220px;
+}
 
 #header form.login {
 	display: inline-block;
@@ -932,4 +941,15 @@ p.submit input:hover {
 
 p.submit input:active {
 	border-color: rgb(0, 100, 0);
+}
+
+/*  FOOTER */
+
+#footer {
+	text-align: right;
+	color: #aaa;
+}
+
+#footer a {
+	color: #aaa;
 }
