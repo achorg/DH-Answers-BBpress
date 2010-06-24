@@ -6,8 +6,8 @@
 
 <table id="latest" role="main">
 <tr>
-	<th><?php _e('Topic'); ?> &#8212; <?php bb_new_topic_link(); ?></th>
-	<th><?php _e('Posts'); ?></th>
+	<th><?php _e('Question'); ?></th>
+	<th><?php _e('Answers'); ?></th>
 	<!-- <th><?php _e('Voices'); ?></th> -->
 	<th><?php _e('Last Poster'); ?></th>
 	<th><?php _e('Freshness'); ?></th>
@@ -42,8 +42,8 @@
 <table id="forumlist">
 
 <tr>
-	<th><?php _e('Main Theme'); ?></th>
-	<th><?php _e('Topics'); ?></th>
+	<th><?php _e('Category'); ?></th>
+	<th><?php _e('Questions'); ?></th>
 	<th><?php _e('Posts'); ?></th>
 </tr>
 

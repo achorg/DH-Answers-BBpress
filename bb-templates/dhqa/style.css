@@ -438,14 +438,14 @@ input#tagformsub:active {
 .threadpost {
 	padding: 1.5em 1em;
 	margin-left: 140px;
-	background-color: #eee;
+	background-color: #fff;
 	-moz-border-radius: 6px;
 	-khtml-border-radius: 6px;
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
 }
 
-#thread li.alt .threadpost { background-color: transparent; }
+#thread li.alt .threadpost { background-color: #eee; }
 
 #thread li.deleted { background-color: transparent; }
 
@@ -678,6 +678,16 @@ tr.bb-category td {
 	width: 100%;
 }
 
+div.social-it ul.socials li {
+	background: none !important;
+	margin-right: 10px;
+}
+
+div.social-it ul.socials li a {
+	text-indent: 0 !important;
+	width: 200px !important;
+}
+
 /* Profile Page
 =================================== */
 
@@ -791,7 +801,6 @@ tr.bb-category td {
 	border-right: none;
 	padding: 10px 0 10px 10px;
 	margin-bottom: 15px;
-	background-color: #f6f6f6;
 }
 
 #login-page legend,
@@ -948,6 +957,12 @@ p.submit input:active {
 #footer {
 	text-align: right;
 	color: #aaa;
+	margin-top: 20px;
+}
+
+#footer p {
+	margin: 0;
+	padding: 0;
 }
 
 #footer a {
