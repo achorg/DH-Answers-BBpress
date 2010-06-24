@@ -14,8 +14,8 @@
 
 <table id="latest">
 <tr>
-	<th><?php _e('Topic'); ?></th>
-	<th><?php _e('Posts'); ?></th>
+	<th><?php _e('Question'); ?></th>
+	<th><?php _e('Answers'); ?></th>
 	<!-- <th><?php _e('Voices'); ?></th> -->
 	<th><?php _e('Last Poster'); ?></th>
 	<th><?php _e('Freshness'); ?></th>
@@ -68,16 +68,14 @@
 </table>
 <?php endif; // bb_forums() ?>
 
-<?php if ( bb_is_user_logged_in() ) : ?>
 <div id="viewdiv">
-<h2><?php _e('Views'); ?></h2>
+<h2><?php _e('Find Questions'); ?></h2>
 <ul id="views">
 <?php foreach ( bb_get_views() as $the_view => $title ) : ?>
 <li class="view"><a href="<?php view_link( $the_view ); ?>"><?php view_name( $the_view ); ?></a></li>
 <?php endforeach; ?>
 </ul>
 </div>
-<?php endif; // bb_is_user_logged_in() ?>
 
 </div>
 
