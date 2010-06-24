@@ -3,18 +3,18 @@
 <?php if ( $forums ) : ?>
 
 <div id="hottags" role="main" class="span-6">
-<h2><?php _e('Hot Tags'); ?></h2>
+<h2><?php _e('Popular Tags'); ?></h2>
 <p class="frontpageheatmap"><?php bb_tag_heat_map(); ?></p>
 </div>
 
 <div id="discussions" class="span-18 last">
 <?php if ( $topics || $super_stickies ) : ?>
 
-<h2><?php _e('Latest Discussions'); ?></h2>
+<h2><?php _e('Latest Questions'); ?></h2>
 
 <table id="latest">
 <tr>
-	<th><?php _e('Topic'); ?> &#8212; <?php bb_new_topic_link(); ?></th>
+	<th><?php _e('Topic'); ?></th>
 	<th><?php _e('Posts'); ?></th>
 	<!-- <th><?php _e('Voices'); ?></th> -->
 	<th><?php _e('Last Poster'); ?></th>
@@ -45,11 +45,11 @@
 <?php endif; // $topics or $super_stickies ?>
 
 <?php if ( bb_forums() ) : ?>
-<h2><?php _e('Forums'); ?></h2>
+<h2><?php _e('Categories'); ?></h2>
 <table id="forumlist">
 
 <tr>
-	<th><?php _e('Main Theme'); ?></th>
+	<th><?php _e('Theme'); ?></th>
 	<th><?php _e('Topics'); ?></th>
 	<th><?php _e('Posts'); ?></th>
 </tr>
