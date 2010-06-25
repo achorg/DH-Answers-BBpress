@@ -35,7 +35,7 @@ if ( bb_is_profile() ) {
 			#header .search .search-form input.submit {
 				padding: 0;
 				margin: 0;
-				height: 23px;
+				height: 29px;
 				width: 70px;
 			}
 		</style>
