@@ -39,6 +39,32 @@ body h1 a {
 	color: #200;
 }
 
+body h1 a:hover {
+	color: #400;
+}
+
+body input[type="checkbox"], body input[type="radio"], body input.checkbox, body input.radio {top: 0;}
+
+input.submit {
+	background-color: #ddd;
+	line-height: 15px;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 2px 4px;
+}
+
+input.submit:hover {
+	background-color: #eee;
+	color: #400;
+	cursor: pointer;
+}
+
+input.submit:active {
+	border-color: #400;
+}
+
 .left { float: left; }
 
 .right { float: right; }
@@ -94,25 +120,6 @@ div.search input {
 	-khtml-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
-}
-
-div.search input.submit {
-	background-color: #ddd;
-	line-height: 15px;
-	-moz-border-radius: 4px;
-	-khtml-border-radius: 4px;
-	-webkit-border-radius: 4px;
-	border-radius: 4px;
-	padding: 2px 4px;
-}
-
-div.search input.submit:hover {
-	background-color: #eee;
-	color: rgb(0, 100, 0);
-}
-
-div.search input.submit:active {
-	border-color: rgb(0, 100, 0);
 }
 
 #main {
@@ -957,28 +964,6 @@ p.required-message:before {
 	border-color: #319f52;
 }
 
-p.submit input {
-	background-color: #ccc;
-	border: 1px solid #999;
-	padding: 2px 4px;
-	line-height: 14px;
-	font-size: 12px;
-	margin: 0;
-	line-height: 15px;
-	-moz-border-radius: 4px;
-	-khtml-border-radius: 4px;
-	-webkit-border-radius: 4px;
-	border-radius: 4px;
-}
-
-p.submit input:hover {
-	background-color: #ddd;
-	color: rgb(0, 100, 0);
-}
-
-p.submit input:active {
-	border-color: rgb(0, 100, 0);
-}
 
 /*  FOOTER */
 
