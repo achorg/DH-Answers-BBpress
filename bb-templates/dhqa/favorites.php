@@ -4,17 +4,17 @@
 
 <h2 id="userlogin" role="main"><?php echo get_user_display_name( $user->ID ); ?> <small>(<?php echo get_user_name( $user->ID ); ?>)</small> <?php _e( 'favorites' ); ?><?php if ( $topics ) printf( __( ' - %d' ), $favorites_total ); ?></h2>
 
-<p><?php _e( 'Favorites allow members to create a custom <abbr title="Really Simple Syndication">RSS</abbr> feed which pulls recent replies to the topics they specify.' ); ?></p>
+<p><?php _e( 'By adding questions to your favorites list, you can build a custom <abbr title="Really Simple Syndication">RSS</abbr> feed or receive email notification of new answers by checking the box below.' ); ?></p>
 <?php if ( bb_current_user_can( 'edit_favorites_of', $user_id ) ) : ?>
-<p><?php _e( 'To add topics to your list of favorites, just click the "Add to Favorites" link found on that topic&#8217;s page.' ); ?></p>
+<p><?php _e( 'To add questions to your list of favorites, just click the "Add to Favorites" link found on that question&#8217;s page.' ); ?></p>
 <?php endif; ?>
 
 <?php if ( $topics ) : ?>
 
 <table id="favorites">
 <tr>
-	<th><?php _e('Topic'); ?></th>
-	<th><?php _e('Posts'); ?></th>
+	<th><?php _e('Question'); ?></th>
+	<th><?php _e('Answers'); ?></th>
 	<!-- <th><?php _e('Voices'); ?></th> -->
 	<th><?php _e('Last Poster'); ?></th>
 	<th><?php _e('Freshness'); ?></th>

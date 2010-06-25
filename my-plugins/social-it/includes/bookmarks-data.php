@@ -71,7 +71,7 @@ $socialit_bookmarks_data=array(
 	),
 	'socialit-twitter'=>array(
 		'check'=>__('Check this box to include ', 'socialit').__('Twitter', 'socialit').__(' in your bookmarking menu', 'socialit'),
-		'share'=>__('Tweet This!', 'socialit'),
+		'share'=>__('Tweet this question', 'socialit'),
 		'baseUrl'=>'http://twitter.com/home?status=SHORT_TITLE+-+FETCH_URL+POST_BY',
 	),
 	'socialit-mail'=>array(

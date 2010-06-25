@@ -14,7 +14,7 @@
 ?>
 	<tr valign="top" class="form-field <?php if ( $user_login_error || $user_email_error ) echo ' form-invalid error'; ?>">
 		<th scope="row">
-			<label for="user_login"><?php _e('Username'); ?></label>
+			<label for="user_login"><?php _e('User name'); ?></label>
 			<?php if ( $user_login_error ) echo "<em>$user_login_error</em>"; ?>
 			<?php if ( $user_email_error ) echo "<em>$user_email_error</em>"; ?>
 		</th>
