@@ -46,4 +46,3 @@ if ( bb_is_profile() ) {
 		</div>
 		<div id="main" class="span-24">
 
-<?php if ( bb_is_profile() ) profile_menu(); ?>
