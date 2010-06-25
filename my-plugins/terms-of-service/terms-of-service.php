@@ -23,10 +23,10 @@ if (isset($_GET['terms_of_service']) || isset($_GET['terms-of-service'])) {	// c
 
 function terms_of_service() {	// show the form
 	echo '<fieldset><legend>'.__("Terms of Service").'</legend>'
-	.'<div id="terms_of_service" >';	
+	.'<div id="terms_of_service" style="padding:0.5em 1em 1em 1em; margin:0em 3em; background: #eee; color: #000; overflow:auto; height:7em;">';	
 	@readfile(rtrim(dirname(__FILE__),' /\\').'/terms-of-service.html');	 
 	echo '</div><table width="100%"><tr class="required"><th scope="row" nowrap><sup class="required" style="color:red;">*</sup> '.__("I understand and agree:").'</th><td width="72%">'
-	.'<input name="terms_of_service" type="checkbox" id="terms_of_service" value="agree" style="vertical-align:middle;width:1.40em;height:1.40em; margin-top:4px;" />'
+	.'<input name="terms_of_service" type="checkbox" id="terms_of_service" value="agree" />'
 	.'</td></tr></table></fieldset>';	
 } 
 

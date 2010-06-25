@@ -45,7 +45,7 @@ body h1 a:hover {
 
 body input[type="checkbox"], body input[type="radio"], body input.checkbox, body input.radio {top: 0;}
 
-input.submit {
+input[type="submit"] {
 	background-color: #ddd;
 	line-height: 15px;
 	-moz-border-radius: 4px;
@@ -55,13 +55,13 @@ input.submit {
 	padding: 2px 4px;
 }
 
-input.submit:hover {
+input[type="submit"]:hover {
 	background-color: #eee;
 	color: #400;
 	cursor: pointer;
 }
 
-input.submit:active {
+input[type="submit"]:active {
 	border-color: #400;
 }
 
