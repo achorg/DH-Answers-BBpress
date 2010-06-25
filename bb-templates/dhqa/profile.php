@@ -8,6 +8,7 @@
 <div id="useravatar"><?php echo $avatar; ?></div>
 <?php unset($avatar); endif; ?>
 <h2 id="userlogin"><span class="fn"><?php echo get_user_display_name( $user->ID ); ?></span> <small>(<span class="nickname"><?php echo get_user_name( $user->ID ); ?></span>)</small></h2>
+<?php profile_menu(); ?>
 
 <?php if ( $updated ) : ?>
 <div class="notice">
