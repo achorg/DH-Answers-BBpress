@@ -21,6 +21,15 @@ if ( bb_is_profile() ) {
 	<![endif]-->
 <?php if ( 'rtl' == bb_get_option( 'text_direction' ) ) : ?>
 	<link rel="stylesheet" href="<?php bb_stylesheet_uri( 'rtl' ); ?>" type="text/css" />
+	<!--[if IE]>
+		<style type="text/css" media="screen">
+			.header-button, form.login input, input[type="submit"], #header div.search, form.login input {
+				border-radius:4px;
+				behavior: url(http://spatial.scholarslab.org/wp-content/themes/accountant/border-radius.htc);
+				font-size: 11px;
+			}
+		</style>
+	<![endif]-->
 <?php endif; ?>
 	<script src="<?php echo(bb_active_theme_uri().'scripts/typeface-0.14.js'); ?>"></script>
   <script src="<?php echo(bb_active_theme_uri().'scripts/helvetiker_font/helvetiker_bold.typeface.js'); ?>"></script>
