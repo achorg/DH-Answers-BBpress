@@ -459,7 +459,7 @@ input#tagformsub:active {
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
-	
+}	
 
 #thread li.alt .threadpost { background-color: #eee; }
 
@@ -907,7 +907,6 @@ div.social-it ul.socials li a {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
-	
 }
 
 #login-page fieldset p,
