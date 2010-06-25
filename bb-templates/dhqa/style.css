@@ -49,7 +49,7 @@ body input[type="checkbox"], body input[type="radio"], body input.checkbox, body
 input[type="submit"] {
 	border: 1px solid #999;
 	background-color: #ddd;
-	line-height: 15px;
+	line-height: 23px;
 	-moz-border-radius: 4px;
 	-khtml-border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -251,7 +251,7 @@ form.search-form input.submit:hover {
 form.login input.submit {
 	float: left;
 	display: block;
-	line-height: 15px;
+	line-height: 23px;
 	-moz-border-radius: 4px;
 	-khtml-border-radius: 4px;
 	-webkit-border-radius: 4px;
