@@ -46,6 +46,7 @@ body h1 a:hover {
 body input[type="checkbox"], body input[type="radio"], body input.checkbox, body input.radio {top: 0;}
 
 input[type="submit"] {
+	border: 1px solid #999;
 	background-color: #ddd;
 	line-height: 15px;
 	-moz-border-radius: 4px;
@@ -53,6 +54,7 @@ input[type="submit"] {
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	padding: 2px 4px;
+	behavior:url(border-radius.htc);
 }
 
 input[type="submit"]:hover {
@@ -106,6 +108,7 @@ img.avatar { border: 1px solid #ddd; }
 	-khtml-border-bottom-right-radius: 4px;
 	-webkit-border-bottom-right-radius: 4px;
 	border-bottom-right-radius: 4px;
+	behavior:url(border-radius.htc);
 	padding-top: 2px;
 }
 
@@ -120,6 +123,7 @@ div.search input {
 	-khtml-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
+	behavior:url(border-radius.htc);
 }
 
 #main {
@@ -226,6 +230,7 @@ form.login input {
 	-khtml-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
+	behavior:url(border-radius.htc);
 }
 
 form.search-form input[type="text"] {
@@ -454,6 +459,7 @@ input#tagformsub:active {
 	-khtml-border-radius: 6px;
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
+	behavior:url(border-radius.htc);
 }
 
 #thread li.alt .threadpost { background-color: #eee; }
@@ -585,6 +591,7 @@ h2.post-form {
 	-khtml-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
+	behavior:url(border-radius.htc);
 }
 
 .postform label { display: block; }
@@ -600,6 +607,7 @@ h2.post-form {
 	-khtml-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
+	behavior:url(border-radius.htc);
 }
 
 .postform p#post-form-forum-container label span {
@@ -812,6 +820,7 @@ div.social-it ul.socials li a {
 	-khtml-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
+	behavior:url(border-radius.htc);
 }
 
 #search-for { margin: 15px 0 5px; }
@@ -943,6 +952,7 @@ p.required-message:before {
 	-khtml-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
+	behavior:url(border-radius.htc);
 }
 
 #pass-strength-result.bad {
