@@ -844,10 +844,10 @@ div.social-it ul.socials li a {
 #login-page fieldset,
 #register-page fieldset,
 #profile-page fieldset {
-	/*border-top: 3px double #ccc;
-	border-bottom: 1px solid #ccc;
+	border-top: none;
+	border-bottom: none;
 	border-left: none;
-	border-right: none; */
+	border-right: none;
 	padding: 10px 0 10px 10px;
 	margin-bottom: 15px;
 }
@@ -981,7 +981,7 @@ p.required-message:before {
 
 /* RECAPTCHA */
 
-#recaptcha_widget_div, p.recaptcha, #register-page .submit {
+#recaptcha_widget_div, p.recaptcha, #register-page #main .submit {
 	margin-left: 205px;
 }
 
