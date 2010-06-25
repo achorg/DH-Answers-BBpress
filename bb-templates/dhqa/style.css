@@ -51,7 +51,6 @@ input[type="submit"] {
 	background-color: #ddd;
 	line-height: 23px;
 	-moz-border-radius: 4px;
-	-khtml-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	padding: 2px 4px;
@@ -101,15 +100,10 @@ img.avatar { border: 1px solid #ddd; }
 	padding-top: 2px;
 }
 #header div.search {
-	-moz-border-radius-bottomleft: 4px;
-	-khtml-border-bottom-left-radius: 4px;
-	-webkit-border-bottom-left-radius: 4px;
-	border-bottom-left-radius: 4px;
-	-moz-border-radius-bottomright: 4px;
-	-khtml-border-bottom-right-radius: 4px;
-	-webkit-border-bottom-right-radius: 4px;
-	border-bottom-right-radius: 4px;
 	behavior:url(border-radius.htc);
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
 	padding-top: 2px;
 }
 
@@ -120,11 +114,10 @@ div.search input {
 	line-height: 14px;
 	font-size: 15px;
 	margin: 0;
+	behavior:url(border-radius.htc);
 	-moz-border-radius: 4px;
-	-khtml-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
-	behavior:url(border-radius.htc);
 }
 
 #main {
@@ -184,10 +177,10 @@ div.search input {
 	border: 1px solid #888;
 	margin-right: 5px;
 	font-size: 15px;
+	behavior:url('border-radius.htc');
 	-webkit-border-radius:4px; 
 	-moz-border-radius: 4px;
 	border-radius:4px;
-	behavior:url(border-radius.htc);
 	background: url("http://digitalhumanities.org/answers/my-plugins/best-answer/best-answer.png") no-repeat scroll 5px 50% #EEEEEE;
 }
 
@@ -231,7 +224,7 @@ form.login input {
 	-khtml-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
-	behavior:url(border-radius.htc);
+	behavior:url('border-radius.htc');
 }
 
 form.search-form input[type="text"] {
