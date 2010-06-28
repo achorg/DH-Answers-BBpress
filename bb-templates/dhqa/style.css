@@ -157,10 +157,11 @@ div.search input {
 #header #ach-logo {
 	text-indent: -9999px; 
 	display: block; 
-	height: 81px; 
+	height: 72px; 
 	position: relative; 
 	width: 950px; 
 	right: 220px;
+	margin-bottom: 10px;
 }
 
 #header form.login {
@@ -646,6 +647,10 @@ a.rss-link {
 }
 
 #topic-move { margin-top: 1em; }
+
+#thread .bb_syntax table {
+	margin: 0;
+}
 
 /* Other
 =================================== */
