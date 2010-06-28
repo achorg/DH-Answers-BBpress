@@ -19,7 +19,7 @@ $best_answer['label']="<span class='best_answer'></span>";   // this allows the 
 $best_answer['icon']=bb_get_option('uri').trim(str_replace(array(trim(BBPATH,"/\\"),"\\"),array("","/"),dirname(__FILE__)),' /\\').'/best-answer.png';  // image auto-discovery
 $best_answer['css']="
 	.best_answer {text-decoration:none; border:0; white-space:nowrap; display:block; margin:1em 0;		
-		border:0; text-decoration:none; padding-left:19px; width:20px; height:16px;
+		border:0; text-decoration:none; width:20px; height:16px;
 		background: url(".$best_answer['icon'].") no-repeat scroll 0px 1px transparent;} 
 	span.best_answer {margin: 0px; float: left;}
 	a.best_answer, a.best_answer:link {color:#999;}
