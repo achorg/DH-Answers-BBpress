@@ -45,4 +45,3 @@ if ( bb_is_profile() ) {
 			</div>
 		</div>
 		<div id="main" class="span-24">
-

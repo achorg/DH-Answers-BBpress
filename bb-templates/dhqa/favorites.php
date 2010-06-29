@@ -3,7 +3,7 @@
 <div class="bbcrumb"><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a> &raquo; <a href="<?php user_profile_link( $user_id ); ?>"><?php echo get_user_display_name( $user_id ); ?></a> &raquo; <?php _e('Favorites'); ?></div>
 
 <h2 id="userlogin" role="main"><?php echo get_user_display_name( $user->ID ); ?> <small>(<?php echo get_user_name( $user->ID ); ?>)</small> <?php _e( 'favorites' ); ?><?php if ( $topics ) printf( __( ' - %d' ), $favorites_total ); ?></h2>
-
+<?php profile_menu(); ?>
 <p><?php _e( 'By adding questions to your favorites list, you can build a custom <abbr title="Really Simple Syndication">RSS</abbr> feed or receive email notification of new answers by checking the "favorite notification" box when editing your profile.' ); ?></p>
 <?php if ( bb_current_user_can( 'edit_favorites_of', $user_id ) ) : ?>
 <p><?php _e( 'To add questions to your list of favorites, just click the "Add to Favorites" link found on that question&#8217;s page.' ); ?></p>
