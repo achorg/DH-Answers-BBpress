@@ -26,7 +26,17 @@ if ( bb_is_profile() ) {
 		<style type="text/css" media="screen">
 			.header-button, form.login input, input[type="submit"], #header div.search, form.login input {
 				border-radius:4px;
-				behavior: url(http://digitalhumanities.org/answers/bb-templates/dhqa/border-radius.htc);
+				behavior: url(border-radius.htc);
+			}
+		</style>
+	<![endif]-->
+	<!--[if IE7]>
+		<style type="text/css" media="screen">
+			#header .search .search-form input.submit {
+				padding: 0;
+				margin: 0;
+				height: 23px;
+				width: 70px;
 			}
 		</style>
 	<![endif]-->
