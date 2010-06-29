@@ -9,6 +9,7 @@ Author URI:
 
 /* Globals 
 =================================== */
+h2 {font-weight: bold;}
 
 .left { float: left; }
 
@@ -37,6 +38,8 @@ img.avatar { border: 1px solid #ddd; }
 
 #header h1 a { color: #555; text-decoration: none; }
 #header h1 a:hover { color: #666; }
+
+#header h3 {font-weight: lighter;}
 
 #header div.login-container {
 	padding-top: 2px;
@@ -546,6 +549,11 @@ a.rss-link {
 #latest th, #forumlist th, #favorites th {
 	background-color: rgb(102, 102, 102);
 	color: rgb(255, 255, 255);
+}
+
+table th, table td {
+	font-weight: lighter;
+	font-size: 110%;
 }
 
 #latest th a, #forumlist th a, #favorites th a {
