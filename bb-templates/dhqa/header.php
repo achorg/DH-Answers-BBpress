@@ -32,12 +32,12 @@ if ( bb_is_profile() ) {
 	<div class="container">
 		<div id="header" role="banner" class="span-24">
 			<h1><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a></h1>
-			<?php if ( bb_get_option('description') ) : ?><p class="description span-8"><?php bb_option('description'); ?></p><?php endif; ?>
-<p class="span-8">
+			<?php if ( bb_get_option('description') ) : ?><p class="description span-24"><?php bb_option('description'); ?></p><?php endif; ?>
+<div class="span-12">
 <?php if ( !in_array( bb_get_location(), array( 'login-page', 'register-page' ) ) ) login_form(); ?>
-</p>
+</div>
 
-			<div class="search span-8 last">
+			<div class="search span-12 last">
 <?php search_form(); ?>
 			</div>
 		</div>
