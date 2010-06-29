@@ -100,7 +100,7 @@ img.avatar { border: 1px solid #ddd; }
 	padding-top: 2px;
 }
 #header div.search {
-	border: 1px solid #999;
+	border: 1px solid transparent;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
