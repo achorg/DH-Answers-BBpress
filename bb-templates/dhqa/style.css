@@ -9,9 +9,6 @@ Author URI:
 
 /* Globals 
 =================================== */
-body {
-	background: #efe !important;
-}
 
 body a {
 	color: #090;
@@ -41,7 +38,7 @@ img.avatar { border: 1px solid #ddd; }
 
 
 #header p { margin-bottom: 0; font-weight: bolder;}
-
+#header h1 {margin-bottom: 0;}
 #header h1 a { text-decoration: none; }
 #header h1 a:hover { color: #666; }
 
@@ -589,7 +586,7 @@ tr.bb-category td {
 }
 
 #latest, #forumlist, #favorites {
-	background-color: #f7f7f7;
+	background-color: #f7fff7;
 	margin-bottom: 3em;
 	width: 100%;
 }
