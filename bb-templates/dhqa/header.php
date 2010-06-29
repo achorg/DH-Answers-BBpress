@@ -30,7 +30,7 @@ if ( bb_is_profile() ) {
 			}
 		</style>
 	<![endif]-->
-	<!--[if IE7]>
+	<!--[if IE 7]>
 		<style type="text/css" media="screen">
 			#header .search .search-form input.submit {
 				padding: 0;
