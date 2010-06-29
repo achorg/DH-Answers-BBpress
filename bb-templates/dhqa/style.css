@@ -166,24 +166,32 @@ div.search input.submit:active {
 	background: url("http://digitalhumanities.org/answers/my-plugins/best-answer/best-answer.png") no-repeat scroll 5px 50% #EEEEEE;
 }
 
+.header-button:hover {
+	background-color: #f7f7f7;
+}
+
 .header-button a {
 	text-decoration: none;
 }
 
-.ask-link {
+.header-button.ask-link {
 	background-color: #af9;
 	background-image: url('images/question.png');
 }
 
-.profile-link {
+.header-button.ask-link:hover {
+	background-color: #cfb;
+}
+
+.header-button.profile-link {
 	background-image: url('images/profile.png');
 }
 
-.admin-link {
+.header-button.admin-link {
 	background-image: url('images/admin.png');
 }
 
-.login-link {
+.header-button.login-link {
 	background-image: url('images/logout.png');
 }
 
