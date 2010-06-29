@@ -426,12 +426,6 @@ input#tagformsub:active {
 	text-transform: uppercase;
 }
 
-.num, #forumlist small {
-	font: 11px Verdana,Arial,Helvetica,sans-serif;
-	text-align: center;
-	white-space: nowrap;
-}
-
 h2.post-form {
 	border-bottom-width: 0;
 	margin-bottom: 2px;
@@ -543,8 +537,6 @@ a.rss-link {
 	margin-top: -8px;
 }
 
-#latest td, #forumlist td, #favorites td { padding: 5px 10px; }
-
 #forumlist tr td div.nest {
 	padding-left: 2.5ex;
 }
@@ -552,11 +544,7 @@ a.rss-link {
 #latest tr:hover, #forumlist tr:hover, #favorites tr:hover { background-color: #e4f3e1; }
 
 #latest th, #forumlist th, #favorites th {
-	text-align: left;
 	background-color: rgb(102, 102, 102);
-	font: 11px Verdana,Arial,Helvetica,sans-serif;
-	font-weight: normal;
-	padding: 5px 9px;
 	color: rgb(255, 255, 255);
 }
 
