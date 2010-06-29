@@ -9,7 +9,7 @@
 
 <?php if ( $recent ) : ?>
 <div id="results-recent" class="search-results">
-	<h4><?php _e('Recent Posts')?></h4>
+	<h4><?php _e('Recent Questions')?></h4>
 	<ol>
 <?php foreach ( $recent as $bb_post ) : ?>
 		<li<?php alt_class( 'recent' ); ?>>
@@ -24,7 +24,7 @@
 
 <?php if ( $relevant ) : ?>
 <div id="results-relevant" class="search-results">
-	<h4><?php _e('Relevant posts')?></h4>
+	<h4><?php _e('Relevant Questions')?></h4>
 	<ol>
 <?php foreach ( $relevant as $bb_post ) : ?>
 		<li<?php alt_class( 'relevant' ); ?>>

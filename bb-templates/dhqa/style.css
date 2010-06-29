@@ -23,8 +23,8 @@ body .container {
 	background: url('images/ach-wrapper.png') 0 0 no-repeat;
 	padding: 0px 20px 20px;
 	margin: 0 auto;
-	border-left: 1px solid #aaa;
-	border-right: 1px solid #aaa;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
 }
 
 body a {
@@ -530,9 +530,21 @@ input#tagformsub:active {
 	border-top: 1px dotted #464;
 	margin: 10px 0 0;
 	padding: 5px 0 0;
-	font: 10px Verdana, Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 }
+
+.poststuff a {
+	padding-left: 25px;
+	display: block;
+	float: left;
+}
+
+.poststuff a.post-ip-link {display:none;}
+.poststuff a.post-perma-link {background: url("images/link.png") no-repeat scroll 5px 50% transparent;}
+.poststuff a.post-edit-link {background: url("images/edit.png") no-repeat scroll 5px 50% transparent;}
+.poststuff a.post-delete-link {background: url("images/delete.png") no-repeat scroll 5px 50% transparent;}
+.poststuff a.post-spam-link {background: url("images/spam.png") no-repeat scroll 5px 50% transparent;}
+.poststuff a.reply_link {background: url("images/reply.png") no-repeat scroll 5px 50% transparent;}
 
 h2.post-form {
 	border-bottom-width: 0;
@@ -678,14 +690,19 @@ tr.bb-category td {
 	width: 100%;
 }
 
-div.social-it ul.socials li {
+#thread div.social-it ul.socials li {
 	background: none !important;
-	margin-right: 10px;
+	width: 80px;
 }
 
 div.social-it ul.socials li a {
 	text-indent: 0 !important;
 	width: 200px !important;
+}
+
+#favorite-toggle span {
+	padding-left: 15px;
+	background: url('images/favorite.png') no-repeat scroll 5px 50% transparent;
 }
 
 /* Profile Page
