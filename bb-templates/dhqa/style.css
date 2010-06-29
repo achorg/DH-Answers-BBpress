@@ -242,6 +242,11 @@ form.search-form input.submit {
 	color: #226;
 }
 
+form.search-form input.submit:hover {
+	background-color: #f7f7f7;
+	color: #400;
+}
+
 form.login input.submit {
 	float: left;
 	display: block;
