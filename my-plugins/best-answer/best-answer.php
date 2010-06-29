@@ -22,10 +22,10 @@ $best_answer['css']="
 		border:0; text-decoration:none; padding-left:19px; width:19px; height:16px;
 		background: transparent url(".$best_answer['icon'].") no-repeat scroll 0px 0px;} 
 	span.best_answer {margin:-1px; display:inline;}
-	a.best_answer, a.best_answer:link {color:#999; background-position:0px -64px;}
-	a.best_answer:hover {color:green; background-position:0px 0px;}	
-	a.best_answer_selected {color: green; background-position:0px 0px;}
-	a.best_answer_selected:hover {color:red; background-position:0px -32px;}		
+	a.best_answer, a.best_answer:link {color:#999;}
+	a.best_answer:hover {color:green;}	
+	a.best_answer_selected {color: green;}
+	a.best_answer_selected:hover {color:red;}		
 	#thread li.best_answer_background { background-color: transparent; }
 	#thread li.best_answer_background .threadpost { background-color: #80DD80; }
 	#thread li.alt.best_answer_background .threadpost { background-color: #3c6; }
