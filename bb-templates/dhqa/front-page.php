@@ -2,12 +2,12 @@
 
 <?php if ( $forums ) : ?>
 
-<div id="hottags" role="main">
+<div id="hottags" role="main" class="span-8">
 <h2><?php _e('Hot Tags'); ?></h2>
 <p class="frontpageheatmap"><?php bb_tag_heat_map(); ?></p>
 </div>
 
-<div id="discussions">
+<div id="discussions" class="span-16">
 <?php if ( $topics || $super_stickies ) : ?>
 
 <h2><?php _e('Latest Discussions'); ?></h2>

@@ -188,19 +188,6 @@ form.login input#remember {
 /* Front Page
 =================================== */
 
-#front-page #hottags {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 150px;
-	overflow: hidden;
-}
-
-#front-page #discussions {
-	margin-left: 170px;
-	width: 590px;
-}
-
 .frontpageheatmap {
 	font-weight: normal;
 	line-height: 30px;
@@ -613,15 +600,6 @@ tr.bb-category td {
 	background-color: #f7f7f7;
 	margin-bottom: 3em;
 	width: 100%;
-}
-
-#latest, #forumlist {
-	margin-top: -0.9em;
-}
-
-#discussions .nav {
-	margin-top: -2em;
-	margin-bottom: 1em;
 }
 
 /* Profile Page
