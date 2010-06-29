@@ -39,7 +39,7 @@ img.avatar { border: 1px solid #ddd; }
 #header h1 a:hover { color: #666; }
 
 #header div.login-container {
-	padding: 2px;
+	padding-top: 2px;
 }
 #header div.search {
 	-moz-border-radius-bottomleft: 4px;
