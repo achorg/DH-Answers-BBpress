@@ -170,6 +170,24 @@ div.search input.submit:active {
 	text-decoration: none;
 }
 
+.ask-link {
+	background-color: #af9;
+	background-image: url('images/question.png');
+}
+
+.profile-link {
+	background-image: url('images/profile.png');
+}
+
+.admin-link {
+	background-image: url('images/admin.png');
+}
+
+.login-link {
+	background-image: url('images/logout.png');
+}
+
+
 form.login input {
 	border: 1px solid #999;
 	padding: 2px;
