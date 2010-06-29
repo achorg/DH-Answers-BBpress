@@ -32,7 +32,7 @@ body a {
 }
 
 body h1 a {
-	color: #000;
+	color: #200;
 }
 
 .left { float: left; }
@@ -216,7 +216,7 @@ form.login input#remember {
 	border-bottom: 1px solid #ddd;
 	margin: 0 0 10px;
 	padding: 0 0 5px;
-	color: #444;
+	color: #400;
 }
 
 #front-page #discussions ul { padding: 0 0 0 14px; }
