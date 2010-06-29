@@ -35,8 +35,19 @@ if ( bb_is_profile() ) {
 		<div id="header" role="banner" class="span-24">
 			<h1 class="typeface-js" style="font-family: Helvetiker; font-weight: bold;"><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a></h1>
 			<?php if ( bb_get_option('description') ) : ?><h3 class="description span-24"><?php bb_option('description'); ?></h3><?php endif; ?>
-<div class="login-container append-8 span-10">
-<?php if ( !in_array( bb_get_location(), array( 'login-page', 'register-page' ) ) ) login_form(); ?>
+<div class="login-container append-10 span-8">
+<?php if ( !in_array( bb_get_location(), array( 'login-page', 'register-page' ) ) ) : #login_form(); ?>
+	<p>
+		<?php
+	printf(
+		__( '<a href="%1$s">Register</a> | <a href="%2$s">Log in</a>' ),
+		bb_get_uri( 'register.php', null, BB_URI_CONTEXT_A_HREF + BB_URI_CONTEXT_BB_USER_FORMS ),
+		bb_get_uri( 'bb-login.php', null, BB_URI_CONTEXT_FORM_ACTION + BB_URI_CONTEXT_BB_USER_FORMS )
+	);
+	?>
+
+	</p>
+	<?php endif; ?>
 </div>
 
 			<div class="search span-6 last">
