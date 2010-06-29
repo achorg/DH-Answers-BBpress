@@ -33,11 +33,9 @@ function terms_of_service() {	// show the form
 function terms_of_service_check() {	// examine the answer
 	if ($_POST && (!isset($_POST['terms_of_service']) || $_POST['terms_of_service']!="agree")) {		
 		bb_get_header();	?>
-		<br clear='both' /><h2 id='register' style='margin-left:2em;'>
-		<div class="indent">
 		<h2 id="register"><?php _e('Error'); ?></h2>
-		<p align='center'><font size='+1'><?php _e("You must agree to the Terms of Service"); ?>
-		<br /><a href='register.php'><?php _e("Please go back and try again"); ?>.</a></font>
+		<p align='center'><?php _e("You must agree to the Terms of Service"); ?>
+		<br /><a href='register.php'><?php _e("Please go back and try again"); ?>.</a></p>
 		<?php bb_get_footer();
 		exit;
 	}

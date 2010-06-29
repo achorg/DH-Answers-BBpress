@@ -92,7 +92,7 @@ function recaptcha_bbpress_registration_add_field()
 	if (recaptcha_bbpress_register_page()) {
     	$pubkey = bb_get_option('recaptcha_bbpress_public_key');
 		echo "<script type='text/javascript'>var RecaptchaOptions = { theme : 'white', lang : 'en' , tabindex : 5 };</script>";
-		echo "Please prove you are human";
+		echo "<p class='recaptcha'>To help us avoid spam, please type the two words below.</p>";
 		echo recaptcha_get_html($pubkey);
 	} 
 	

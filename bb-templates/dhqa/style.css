@@ -844,10 +844,10 @@ div.social-it ul.socials li a {
 #login-page fieldset,
 #register-page fieldset,
 #profile-page fieldset {
-	border-top: 3px double #ccc;
+	/*border-top: 3px double #ccc;
 	border-bottom: 1px solid #ccc;
 	border-left: none;
-	border-right: none;
+	border-right: none; */
 	padding: 10px 0 10px 10px;
 	margin-bottom: 15px;
 }
@@ -977,6 +977,12 @@ p.required-message:before {
 #pass-strength-result.strong {
 	background-color: #59ef86;
 	border-color: #319f52;
+}
+
+/* RECAPTCHA */
+
+#recaptcha_widget_div, p.recaptcha, #register-page .submit {
+	margin-left: 205px;
 }
 
 
