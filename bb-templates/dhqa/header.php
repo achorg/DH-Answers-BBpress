@@ -14,10 +14,10 @@ if ( bb_is_profile() ) {
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title><?php bb_title() ?></title>
 	<link rel="stylesheet" href="<?php bb_stylesheet_uri(); ?>" type="text/css" />
-	<link rel="stylesheet" href="<?php echo(bb_active_theme_uri().'/blueprint/screen.css'); ?>" type="text/css" media="screen" title="blueprint-print" charset="utf-8"/>
-	<link rel="stylesheet" href="<?php echo(bb_active_theme_uri().'/blueprint/print.css'); ?>" type="text/css" media="print" title="blueprint-print" charset="utf-8"/>
+	<link rel="stylesheet" href="<?php echo(bb_active_theme_uri().'blueprint/screen.css'); ?>" type="text/css" media="screen" title="blueprint-print" charset="utf-8"/>
+	<link rel="stylesheet" href="<?php echo(bb_active_theme_uri().'blueprint/print.css'); ?>" type="text/css" media="print" title="blueprint-print" charset="utf-8"/>
 	<!--[if lt IE 8]>
-	  <link rel="stylesheet" href="<?php echo(bb_active_theme_uri().'/blueprint/ie.css'); ?>" type="text/css" media="screen, projection">
+	  <link rel="stylesheet" href="<?php echo(bb_active_theme_uri().'blueprint/ie.css'); ?>" type="text/css" media="screen, projection">
 	<![endif]-->
 <?php if ( 'rtl' == bb_get_option( 'text_direction' ) ) : ?>
 	<link rel="stylesheet" href="<?php bb_stylesheet_uri( 'rtl' ); ?>" type="text/css" />
@@ -29,8 +29,8 @@ if ( bb_is_profile() ) {
 
 </head>
 <body id="<?php bb_location(); ?>">
-	<div id="wrapper">
-		<div id="header" role="banner">
+	<div class="container span-24">
+		<div id="header" role="banner" class="span-24">
 			<h1><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a></h1>
 			<?php if ( bb_get_option('description') ) : ?><p class="description"><?php bb_option('description'); ?></p><?php endif; ?>
 
