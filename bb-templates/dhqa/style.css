@@ -596,21 +596,21 @@ tr.bb-category td {
 #profile-menu {
 	list-style: none;
 	padding-left: 0;
+	padding-top: 10px;
 }
 
 #profile-menu li {
 	display: inline;
-	margin-left: 3px;
 }
 
 #profile-menu li a {
 	font-size: 1.1em;
-	background-color: #ddd;
+	background-color: #eee;
 	padding: 4px 7px;
 }
 
 #profile-menu li.current a {
-	background-color: #bbb;
+	background-color: #ded;
 }
 
 #profile-menu li a:hover {
