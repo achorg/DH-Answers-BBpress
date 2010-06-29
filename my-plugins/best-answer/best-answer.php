@@ -22,6 +22,7 @@ $best_answer['css']="
 		border:0; text-decoration:none; width:20px; height:16px;
 		background: url(".$best_answer['icon'].") no-repeat scroll 0px 1px transparent;} 
 	span.best_answer {margin: 0px; float: left;}
+	#thread .threadauthor .best_answer {padding-left: 20px;}
 	a.best_answer, a.best_answer:link {color:#999;}
 	a.best_answer:hover {color:green;}	
 	a.best_answer_selected {color: green;}
