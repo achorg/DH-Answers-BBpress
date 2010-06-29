@@ -54,7 +54,7 @@ input[type="submit"] {
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	padding: 2px 4px;
-	behavior:url(border-radius.htc);
+	behavior:url('http://digitalhumanities.org/answers/bb-templates/dhqa/border-radius.htc');
 }
 
 input[type="submit"]:hover {
@@ -100,7 +100,7 @@ img.avatar { border: 1px solid #ddd; }
 	padding-top: 2px;
 }
 #header div.search {
-	behavior:url(border-radius.htc);
+	behavior:url('http://digitalhumanities.org/answers/bb-templates/dhqa/border-radius.htc');
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
@@ -114,7 +114,7 @@ div.search input {
 	line-height: 14px;
 	font-size: 15px;
 	margin: 0;
-	behavior:url(border-radius.htc);
+	behavior:url('http://digitalhumanities.org/answers/bb-templates/dhqa/border-radius.htc');
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
