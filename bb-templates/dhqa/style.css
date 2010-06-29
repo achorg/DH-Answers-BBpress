@@ -11,6 +11,10 @@ Author URI:
 =================================== */
 
 body a {
+	color: #060;
+}
+
+body h1 a {
 	color: #080;
 }
 
@@ -437,7 +441,7 @@ input#tagformsub:active {
 .poststuff {
 	clear:both;
 	_clear: none; /* Hack to fix broken .alt coloring in IE6 */
-	border-top: 1px dotted #ccc;
+	border-top: 1px dotted #464;
 	margin: 10px 0 0;
 	padding: 5px 0 0;
 	font: 10px Verdana, Arial, Helvetica, sans-serif;
@@ -503,8 +507,6 @@ h2.post-form {
 	width: 200px;
 	padding-bottom: 10px;
 }
-
-p.submit { text-align: right; }
 
 p.allowed { margin-bottom: 0; }
 
