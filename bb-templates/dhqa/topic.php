@@ -10,9 +10,9 @@
 <span id="topic_voices">(<?php printf( _n( '%s voice', '%s voices', bb_get_topic_voices() ), bb_get_topic_voices() ); ?>)</span>
 
 <ul class="topicmeta">
-	<li><?php printf(__('Started %1$s ago by %2$s'), get_topic_start_time(), get_topic_author()) ?></li>
+	<li><?php printf(__('Asked %1$s ago by %2$s'), get_topic_start_time(), get_topic_author()) ?></li>
 <?php if ( 1 < get_topic_posts() ) : ?>
-	<li><?php printf(__('<a href="%1$s">Latest reply</a> from %2$s'), esc_attr( get_topic_last_post_link() ), get_topic_last_poster()) ?></li>
+	<li><?php printf(__('<a href="%1$s">Latest answer</a> from %2$s'), esc_attr( get_topic_last_post_link() ), get_topic_last_poster()) ?></li>
 <?php endif; ?>
 <?php if ( bb_is_user_logged_in() ) : ?>
 	<li<?php echo $class;?> id="favorite-toggle"><?php user_favorites_link(); ?></li>
