@@ -1,0 +1,48 @@
+AuthUserFile /users/home/adhoadmin/web/public/answers/.htpasswd 
+AuthName "DH Q&A password, please!"
+AuthType Basic
+
+<Limit GET>
+require valid-user
+</Limit>
+
+# BEGIN bbPress
+
+Options -MultiViews
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /answers/
+
+RewriteRule ^page/([0-9]+)/?$ /answers/index.php?page=$1 [L,QSA]
+RewriteRule ^forum/([^/]+)/page/([0-9]+)/?$ /answers/forum.php?id=$1&page=$2 [L,QSA]
+RewriteRule ^forum/([^/]+)/?$ /answers/forum.php?id=$1 [L,QSA]
+RewriteRule ^forum/?$ /answers/ [R=302,L,QSA]
+RewriteRule ^topic/([^/]+)/page/([0-9]+)/?$ /answers/topic.php?id=$1&page=$2 [L,QSA]
+RewriteRule ^topic/([^/]+)/?$ /answers/topic.php?id=$1 [L,QSA]
+RewriteRule ^topic/?$ /answers/ [R=302,L,QSA]
+RewriteRule ^tags/([^/]+)/page/([0-9]+)/?$ /answers/tags.php?tag=$1&page=$2 [L,QSA]
+RewriteRule ^tags/([^/]+)/?$ /answers/tags.php?tag=$1 [L,QSA]
+RewriteRule ^tags/?$ /answers/tags.php [L,QSA]
+RewriteRule ^profile/([^/]+)/page/([0-9]+)/?$ /answers/profile.php?id=$1&page=$2 [L,QSA]
+RewriteRule ^profile/([^/]+)/([^/]+)/?$ /answers/profile.php?id=$1&tab=$2 [L,QSA]
+RewriteRule ^profile/([^/]+)/([^/]+)/page/([0-9]+)/?$ /answers/profile.php?id=$1&tab=$2&page=$3 [L,QSA]
+RewriteRule ^profile/([^/]+)/?$ /answers/profile.php?id=$1 [L,QSA]
+RewriteRule ^profile/?$ /answers/profile.php [L,QSA]
+RewriteRule ^view/([^/]+)/page/([0-9]+)/?$ /answers/view.php?view=$1&page=$2 [L,QSA]
+RewriteRule ^view/([^/]+)/?$ /answers/view.php?view=$1 [L,QSA]
+RewriteRule ^rss/?$ /answers/rss.php [L,QSA]
+RewriteRule ^rss/topics/?$ /answers/rss.php?topics=1 [L,QSA]
+RewriteRule ^rss/forum/([^/]+)/?$ /answers/rss.php?forum=$1 [L,QSA]
+RewriteRule ^rss/forum/([^/]+)/topics/?$ /answers/rss.php?forum=$1&topics=1 [L,QSA]
+RewriteRule ^rss/topic/([^/]+)/?$ /answers/rss.php?topic=$1 [L,QSA]
+RewriteRule ^rss/tags/([^/]+)/?$ /answers/rss.php?tag=$1 [L,QSA]
+RewriteRule ^rss/tags/([^/]+)/topics/?$ /answers/rss.php?tag=$1&topics=1 [L,QSA]
+RewriteRule ^rss/profile/([^/]+)/?$ /answers/rss.php?profile=$1 [L,QSA]
+RewriteRule ^rss/view/([^/]+)/?$ /answers/rss.php?view=$1 [L,QSA]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ /answers/index.php [L]
+</IfModule>
+
+# END bbPress

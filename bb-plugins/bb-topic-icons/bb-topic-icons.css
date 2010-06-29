@@ -1,0 +1,29 @@
+.topic-icon-image {
+	width: 20px;
+	height: 20px;
+	margin-right: 6px;
+	position: relative;
+	float: left;
+}
+
+.topic-icon-image a span {
+	display: none;
+}
+
+.topic-icon-image a:hover {
+	position: relative;
+}
+
+.topic-icon-image a:hover span {
+	display: block;
+   	position: absolute;
+	top: 0px; 
+	left: 10px;
+   	padding: 5px; 
+   	margin: 10px; 
+   	z-index: 100;
+   	background: #ffc; 
+   	border: 1px dotted #333;
+	opacity: 0.8;
+	color: #000;
+}
