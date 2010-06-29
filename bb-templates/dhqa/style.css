@@ -33,9 +33,9 @@ img.avatar { border: 1px solid #ddd; }
 =================================== */
 
 
-#header p { margin-bottom: 0; }
+#header p { margin-bottom: 0; font-weight: bolder;}
 
-#header h1 a { color: #555; text-decoration: none; }
+#header h1 a { text-decoration: none; }
 #header h1 a:hover { color: #666; }
 
 #header h3 {font-weight: lighter;}
@@ -174,7 +174,6 @@ form.login input#remember {
 }
 
 #front-page #main h2, #forum-page #main h2, h2.post-form, #userlogin, #currentfavorites, #register, #passwordrecovery {
-	color: #555;
 	border-bottom: 1px solid #ddd;
 	margin: 0 0 10px;
 	padding: 0 0 5px;
