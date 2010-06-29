@@ -9,17 +9,18 @@
  */
  
 function tweet_new_topic() {
-	global $bbdb, $bb_table_prefix, $topic_id;
+	global $bbdb, $bb_table_prefix, $topic_id, $topic;
 	
-	$t_title = get_topic_title($topic_id);
+	$t_title = get_topic_title($topic->ID);
 	
 	// TODO: can we use a URL shoterner?
-	$t_link = get_topic_link($topic_id);
+	$t_link = $topic_id;
+	$id = (int) @$_POST['id'];
 	
 	//$message = "New topic at DH Q&A: \"".$t_title."\" ".$t_link;
 	//$message = "New topic posted at DH Q&A.";
 	
-	$message = "new #dhqa topic ($t_link): " . $t_title;
+	$message = "new #dhqa topic ($t_link): " . $id . $t_title;
 	if (strlen($message)>140) {$message = substr($message,0,139) . '…';}
 
 	// Set username and password
@@ -28,9 +29,9 @@ function tweet_new_topic() {
 
 	// do a simple command-line curl with the status
 	// TODO: check return status
-	exec("curl -u $username:$password -d status=" . escapeshellarg($message) . " http://api.twitter.com/1/statuses/update.json", $output, $return);
+	// exec("curl -u $username:$password -d status=" . escapeshellarg($message) . " http://api.twitter.com/1/statuses/update.json", $output, $return);
 
 
 }
-add_action('bb_new_topic', 'tweet_new_topic');
+add_action('bb_insert_topic', 'tweet_new_topic');
 ?>
