@@ -49,9 +49,9 @@
 <table id="forumlist">
 
 <tr>
-	<th><?php _e('Theme'); ?></th>
-	<th><?php _e('Topics'); ?></th>
-	<th><?php _e('Posts'); ?></th>
+	<th><?php _e('Category'); ?></th>
+	<th><?php _e('Questions'); ?></th>
+	<th><?php _e('Answers'); ?></th>
 </tr>
 <?php while ( bb_forum() ) : ?>
 <?php if (bb_get_forum_is_category()) : ?>
