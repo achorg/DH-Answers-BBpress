@@ -10,6 +10,10 @@ Author URI:
 /* Globals and Frame
 =================================== */
 
+html, body {
+	height: 100%;
+}
+
 /* hack to fit ACH bg img */
 .span-6 {
 	width: 210px !important;
@@ -21,7 +25,7 @@ Author URI:
 
 body .container {
 	background: url('images/ach-wrapper.png') 0 0 no-repeat;
-	padding: 0px 20px 20px;
+	padding: 0px 20px;
 	margin: 0 auto;
 	border-left: 1px solid #ddd;
 	border-right: 1px solid #ddd;
@@ -346,9 +350,9 @@ a.next.page-numbers:hover {
 }
 
 .infobox ul {
-	margin: 10px 0 10px 20px;
+	margin: 10px 0;
 	padding: 0;
-	list-style-type: disc;
+	list-style-type: none;
 }
 
 .infobox ul li { padding-bottom: 3px; }
@@ -531,6 +535,7 @@ input#tagformsub:active {
 	margin: 10px 0 0;
 	padding: 5px 0 0;
 	text-transform: uppercase;
+	text-align: right;
 }
 
 .poststuff a {
@@ -701,7 +706,7 @@ div.social-it ul.socials li a {
 }
 
 #favorite-toggle span {
-	padding-left: 15px;
+	padding-left: 25px;
 	background: url('images/favorite.png') no-repeat scroll 5px 50% transparent;
 }
 
@@ -719,17 +724,19 @@ div.social-it ul.socials li a {
 }
 
 #profile-menu li a {
-	font-size: 1.1em;
-	background-color: #eee;
-	padding: 4px 7px;
+	font-size: 120%;
+	padding-left: 26px;
+	text-decoration: none;
 }
 
 #profile-menu li.current a {
-	background-color: #ded;
+	text-decoration: underline;
+	background: url("images/current.png") no-repeat scroll 5px 50% transparent;
+	color: #200;
 }
 
 #profile-menu li a:hover {
-	background-color: #e4f3e1;
+	text-decoration: underline;
 }
 
 #useravatar { margin-bottom: 1em; }
@@ -773,9 +780,11 @@ div.social-it ul.socials li a {
 	padding: 5px;
 	text-align: right;
 	width: 20%;
-	vertical-align: top;
+	vertical-align: middle;
 	padding-right: 1em;
 	font-weight: bold;
+	height: 23px;
+	line-height: 23px;
 }
 
 #topic-search-form div div {
@@ -805,6 +814,8 @@ div.social-it ul.socials li a {
 .search-results ol { margin: 5px 0 0 28px; }
 
 .search-results ol li { margin: 0 0 3px; }
+
+.search-results ol li a { display: block; font-size: 120%;}
 
 /* Login, Register, Profile Edit
 =================================== */
