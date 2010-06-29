@@ -9,7 +9,6 @@ Author URI:
 
 /* Globals 
 =================================== */
-h2 {font-weight: bold;}
 
 .left { float: left; }
 
@@ -233,6 +232,8 @@ a.next.page-numbers:hover {
 
 /* Topic Page
 =================================== */
+
+#main h2 {font-weight: bold;}
 
 .infobox {
 	border: 1px solid #ccc;
