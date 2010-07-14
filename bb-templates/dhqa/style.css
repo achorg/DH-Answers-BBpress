@@ -10,6 +10,18 @@ Author URI:
 /* Globals and Frame
 =================================== */
 
+@font-face {  
+  font-family: "Aller";  
+  src: url('Aller_Rg.eot'); /* IE */  
+  src: local("Aller"), url('Aller_Rg.ttf') format("truetype"); /* non-IE */  
+}
+
+@font-face {  
+  font-family: "Aller Display";  
+  src: url('AllerDisplay.eot'); /* IE */  
+  src: local("Aller Display"), url('AllerDisplay.ttf') format("truetype"); /* non-IE */  
+}
+
 html, body {
 	height: 100%;
 	min-height: 100%;
@@ -90,7 +102,7 @@ img.avatar { border: 1px solid #ddd; }
 =================================== */
 
 #header p { margin-bottom: 0; font-weight: bolder;}
-#header h1 {margin-bottom: 0;}
+#header h1 {margin-bottom: 0; font-family:"Aller Display","Helvetica Neue",Arial,Helvetica,sans-serif;}
 #header h1 a { text-decoration: none; }
 #header h1 a:hover { color: #666; }
 

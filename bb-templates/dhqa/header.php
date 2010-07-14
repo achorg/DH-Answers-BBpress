@@ -40,8 +40,6 @@ if ( bb_is_profile() ) {
 			}
 		</style>
 	<![endif]-->
-	<script src="<?php echo(bb_active_theme_uri().'scripts/typeface-0.14.js'); ?>"></script>
-  <script src="<?php echo(bb_active_theme_uri().'scripts/helvetiker_font/helvetiker_bold.typeface.js'); ?>"></script>
 
 <?php bb_feed_head(); ?>
 
@@ -52,7 +50,7 @@ if ( bb_is_profile() ) {
 	<div class="container prepend-top append-bottom">
 		<div id="header" role="banner" class="prepend-6 span-18">
 			<a id="ach-logo" href="http://www.ach.org">ACH</a>
-			<h1 class="typeface-js" style="font-family: Helvetiker; font-weight: bold;"><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a></h1>
+			<h1><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a></h1>
 			<?php if ( bb_get_option('description') ) : ?><h3 class="description span-24"><?php bb_option('description'); ?></h3><?php endif; ?>
 			<div class="login-container span-12">
 				<?php if ( !in_array( bb_get_location(), array( 'login-page', 'register-page' ) ) ) login_form(); ?>

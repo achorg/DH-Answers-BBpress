@@ -1,10 +1,10 @@
-AuthUserFile /users/home/adhoadmin/web/public/answers/.htpasswd 
-AuthName "DH Q&A password, please!"
-AuthType Basic
+#AuthUserFile /users/home/adhoadmin/web/public/answers/.htpasswd 
+#AuthName "DH Q&A password, please!"
+#AuthType Basic
 
-<Limit GET>
-require valid-user
-</Limit>
+#<Limit GET>
+#require valid-user
+#</Limit>
 
 # BEGIN bbPress
 
