@@ -96,7 +96,7 @@ img.avatar { border: 1px solid #ddd; }
 =================================== */
 
 #header p { margin-bottom: 0; font-weight: bolder;}
-#header h1 {margin-bottom: 10px; font-weight: bold; font-family:"League Gothic","Helvetica Neue",Arial,Helvetica,sans-serif;}
+#header h1 {margin-bottom: 10px; font-weight: normal; font-family:"League Gothic","Helvetica Neue",Arial,Helvetica,sans-serif;font-size: 5em;}
 #header h1 a { text-decoration: none; }
 #header h1 a:hover { color: #666; }
 
@@ -301,6 +301,9 @@ form.login input#remember {
 }
 
 #front-page #main h2, #forum-page #main h2, h2.post-form, #userlogin, #currentfavorites, #register, #passwordrecovery {
+	font-family: "League Gothic","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	font-size: 3em;
 	border-bottom: 1px solid #ddd;
 	margin: 0 0 10px;
 	padding: 0 0 5px;
