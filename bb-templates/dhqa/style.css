@@ -12,7 +12,7 @@ Author URI:
 
 @font-face {  
   font-family: "League Gothic";  
-  src: url('fonts/LeagueGothic.eot'); /* IE */  
+  src: url('fonts/leaguegothic-webfont.eot'); /* IE */  
   src: local("League Gothic"), url('fonts/LeagueGothic.ttf') format("truetype"); /* non-IE */  
 }
 
