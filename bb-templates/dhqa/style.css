@@ -11,9 +11,9 @@ Author URI:
 =================================== */
 
 @font-face {  
-  font-family: "Aller";  
-  src: url('fonts/Aller_Rg.eot'); /* IE */  
-  src: local("Aller"), url('fonts/Aller_Rg.ttf') format("truetype"); /* non-IE */  
+  font-family: "League Gothic";  
+  src: url('fonts/LeagueGothic.eot'); /* IE */  
+  src: local("League Gothic"), url('fonts/LeagueGothic.ttf') format("truetype"); /* non-IE */  
 }
 
 html, body {
@@ -96,7 +96,7 @@ img.avatar { border: 1px solid #ddd; }
 =================================== */
 
 #header p { margin-bottom: 0; font-weight: bolder;}
-#header h1 {margin-bottom: 0; font-weight: bold; font-family:"Aller","Helvetica Neue",Arial,Helvetica,sans-serif;}
+#header h1 {margin-bottom: 10px; font-weight: bold; font-family:"League Gothic","Helvetica Neue",Arial,Helvetica,sans-serif;}
 #header h1 a { text-decoration: none; }
 #header h1 a:hover { color: #666; }
 
