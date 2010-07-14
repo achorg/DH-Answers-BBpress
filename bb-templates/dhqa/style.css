@@ -12,14 +12,14 @@ Author URI:
 
 @font-face {  
   font-family: "Aller";  
-  src: url('Aller_Rg.eot'); /* IE */  
-  src: local("Aller"), url('Aller_Rg.ttf') format("truetype"); /* non-IE */  
+  src: url('fonts/Aller_Rg.eot'); /* IE */  
+  src: local("Aller"), url('fonts/Aller_Rg.ttf') format("truetype"); /* non-IE */  
 }
 
 @font-face {  
   font-family: "Aller Display";  
-  src: url('AllerDisplay.eot'); /* IE */  
-  src: local("Aller Display"), url('AllerDisplay.ttf') format("truetype"); /* non-IE */  
+  src: url('fonts/AllerDisplay.eot'); /* IE */  
+  src: local("Aller Display"), url('fonts/AllerDisplay.ttf') format("truetype"); /* non-IE */  
 }
 
 html, body {
