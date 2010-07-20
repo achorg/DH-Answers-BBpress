@@ -332,6 +332,11 @@ form #register-link:hover {
 }
 
 form #register-link a {
+	color: #000;
+	text-decoration: none;
+}
+
+form #register-link a:hover {
 	color: #400;
 	text-decoration: none;
 }
