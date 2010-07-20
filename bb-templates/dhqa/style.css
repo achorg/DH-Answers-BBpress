@@ -313,6 +313,8 @@ form.login input#remember {
 	margin: 0 0 10px;
 	padding: 0 0 5px;
 	color: #400;
+	word-spacing: 0.1em;
+	letter-spacing: 0.03em;
 }
 
 #front-page #discussions ul { padding: 0 0 0 14px; }
@@ -373,6 +375,8 @@ a.next.page-numbers:hover {
 	font-weight: normal;
 	font-size: 3em;
 	color: #400;
+	word-spacing: 0.1em;
+	letter-spacing: 0.03em;
 }
 
 .infobox {
