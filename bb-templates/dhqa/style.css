@@ -317,7 +317,7 @@ form.login input#remember {
 	letter-spacing: 0.022em;
 }
 
-#userlogin span.register-link {
+form #register-link {
 	-moz-border-radius:4px 4px 4px 4px;
 	background:none repeat scroll 0 0 #DDDDDD;
 	border:1px solid #999999;
@@ -327,11 +327,11 @@ form.login input#remember {
 	padding:3px 4px;
 }
 
-#userlogin span.register-link:hover {
+form #register-link:hover {
 	background:none repeat scroll 0 0 #eee;
 }
 
-#userlogin span.register-link a {
+form #register-link a {
 	color: #400;
 	text-decoration: none;
 }
