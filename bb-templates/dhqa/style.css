@@ -18,8 +18,11 @@ Author URI:
 
 html, body {
 	height: 100%;
-	min-height: 100%;
-	background: #373535;
+	min-height: 100%;	
+}
+
+html body {
+	background: #373535 !important;
 }
 
 /* hack to fit ACH bg img */
