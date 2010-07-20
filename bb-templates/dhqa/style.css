@@ -60,7 +60,7 @@ body input[type="checkbox"], body input[type="radio"], body input.checkbox, body
 input[type="submit"] {
 	border: 1px solid #999;
 	background-color: #ddd;
-	line-height: 23px;
+	line-height: 14px;
 	padding: 2px 4px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -318,11 +318,13 @@ form.login input#remember {
 }
 
 form #register-link {
-	-moz-border-radius:4px 4px 4px 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
 	background:none repeat scroll 0 0 #DDDDDD;
 	border:1px solid #999999;
 	font-size:11px;
-	line-height:12px;
+	line-height:14px;
 	margin-left:5px;
 	padding:3px 4px;
 }
