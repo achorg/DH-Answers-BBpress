@@ -41,6 +41,12 @@
 		<td>
 			<input name="re" type="hidden" value="<?php echo $redirect_to; ?>" />
 			<input type="submit" value="<?php echo esc_attr( isset($_POST['user_login']) ? __('Try Again &raquo;'): __('Log in &raquo;') ); ?>" />
+			<?php
+			printf(
+				__( '<span class="register-link"><a href="%1$s">Create a New Account &raquo;</a></span>' ),
+				bb_get_uri( 'register.php', null, BB_URI_CONTEXT_A_HREF + BB_URI_CONTEXT_BB_USER_FORMS )
+			);
+			?>
 			<?php wp_referer_field(); ?>
 		</td>
 	</tr>

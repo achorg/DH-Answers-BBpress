@@ -314,7 +314,26 @@ form.login input#remember {
 	padding: 0 0 5px;
 	color: #400;
 	word-spacing: 0.1em;
-	letter-spacing: 0.03em;
+	letter-spacing: 0.022em;
+}
+
+#userlogin span.register-link {
+	-moz-border-radius:4px 4px 4px 4px;
+	background:none repeat scroll 0 0 #DDDDDD;
+	border:1px solid #999999;
+	font-size:11px;
+	line-height:12px;
+	margin-left:5px;
+	padding:3px 4px;
+}
+
+#userlogin span.register-link:hover {
+	background:none repeat scroll 0 0 #eee;
+}
+
+#userlogin span.register-link a {
+	color: #400;
+	text-decoration: none;
 }
 
 #front-page #discussions ul { padding: 0 0 0 14px; }
@@ -376,7 +395,7 @@ a.next.page-numbers:hover {
 	font-size: 3em;
 	color: #400;
 	word-spacing: 0.1em;
-	letter-spacing: 0.03em;
+	letter-spacing: 0.022em;
 }
 
 .infobox {
