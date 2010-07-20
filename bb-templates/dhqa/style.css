@@ -65,6 +65,7 @@ input[type="submit"] {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
+	font-size: 11px;
 	
 }
 
@@ -206,12 +207,12 @@ div.search input {
 }
 
 .header-button.ask-link {
-	background-color: #ffc;
+	background-color: #ffd;
 	background-image: url('images/question.png');
 }
 
 .header-button.ask-link:hover {
-	background-color: #ffa;
+	background-color: #ffb;
 }
 
 .header-button.profile-link {
