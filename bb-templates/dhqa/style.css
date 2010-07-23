@@ -1038,6 +1038,7 @@ p.required-message:before {
 	text-align: right;
 	color: #aaa;
 	margin-top: 20px;
+	padding-bottom: 20px;
 }
 
 #footer p {

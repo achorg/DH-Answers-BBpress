@@ -14,7 +14,7 @@
 <table id="favorites">
 <tr>
 	<th><?php _e('Question'); ?></th>
-	<th><?php _e('Answers'); ?></th>
+	<th><?php _e('Posts'); ?></th>
 	<!-- <th><?php _e('Voices'); ?></th> -->
 	<th><?php _e('Last Poster'); ?></th>
 	<th><?php _e('Freshness'); ?></th>

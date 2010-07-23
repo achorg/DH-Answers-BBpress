@@ -2,7 +2,10 @@
 
 <?php if ( $forums ) : ?>
 
-<div id="hottags" role="main" class="span-6">
+<div id="sidebar" role="main" class="span-6">
+<h2>About</h2>
+<p><strong><a href="http://twitter.com/dhanswers">@DHAnswers</a></strong> is a collaborative project of the <a href="http://www.ach.org">Association for Computers and the Humanities</a> (ACH) and the Chronicle of Higher Education's <a href="http://profhacker.com">ProfHacker</a>.</p>
+<a href="http://profhacker.com"><img alt="ProfHacker" title="ProfHacker" src="images/ph-icon.jpg"/></a>
 <h2><?php _e('Popular Tags'); ?></h2>
 <p class="frontpageheatmap"><?php bb_tag_heat_map(); ?></p>
 </div>
@@ -15,7 +18,7 @@
 <table id="latest">
 <tr>
 	<th><?php _e('Question'); ?></th>
-	<th><?php _e('Answers'); ?></th>
+	<th><?php _e('Posts'); ?></th>
 	<!-- <th><?php _e('Voices'); ?></th> -->
 	<th><?php _e('Last Poster'); ?></th>
 	<th><?php _e('Freshness'); ?></th>
@@ -51,7 +54,7 @@
 <tr>
 	<th><?php _e('Category'); ?></th>
 	<th><?php _e('Questions'); ?></th>
-	<th><?php _e('Answers'); ?></th>
+	<th><?php _e('Posts'); ?></th>
 </tr>
 <?php while ( bb_forum() ) : ?>
 <?php if (bb_get_forum_is_category()) : ?>
