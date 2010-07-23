@@ -1031,6 +1031,20 @@ p.required-message:before {
 	margin-left: 205px;
 }
 
+/* SIDEBAR */
+
+#sidebar #ph-logo {
+	display: block;
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+#sidebar #ph-logo img {
+	width: 70px;
+	height: 70px;
+}
+
 
 /*  FOOTER */
 
