@@ -23,6 +23,7 @@ html, body {
 
 html body {
 	background: #373535 !important;
+	height: 100%;
 }
 
 /* hack to fit ACH bg img */
@@ -41,6 +42,7 @@ body .container {
 	border-left: 1px solid #888;
 	border-right: 1px solid #888;
 	font-family: "Lucida Grande",tahoma,helvetica,arial,sans-serif;
+	height: 100%;
 }
 
 body a {
