@@ -9,7 +9,7 @@
 <table id="latest" role="main">
 <tr>
 	<th><?php _e('Question'); ?> &#8212; <?php bb_new_topic_link(); ?></th>
-	<th><?php _e('Answers'); ?></th>
+	<th><?php _e('Posts'); ?></th>
 	<!-- <th><?php _e('Voices'); ?></th> -->
 	<th><?php _e('Last Poster'); ?></th>
 	<th><?php _e('Freshness'); ?></th>
