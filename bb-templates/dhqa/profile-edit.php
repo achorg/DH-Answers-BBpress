@@ -16,6 +16,8 @@
 </fieldset>
 <?php endif; ?>
 
+<?php do_action('bb_language_switcher',''); ?>
+
 <?php if ( bb_current_user_can( 'change_user_password', $user->ID ) ) : ?>
 <fieldset>
 <legend><?php _e('Password'); ?></legend>
@@ -23,7 +25,7 @@
 <?php bb_profile_password_form(); ?>
 </fieldset>
 <?php endif; ?>
-<p class="submit right">
+<p class="submit">
   <input type="submit" name="Submit" value="<?php echo esc_attr__( 'Update Profile &raquo;' ); ?>" />
 </p>
 </form>
