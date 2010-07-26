@@ -831,6 +831,10 @@ div.social-it ul.socials li.socialit-twitter a {
 
 .user-recent ol li { margin: 0 0 3px; }
 
+.lang-switch select {
+	margin-left: 200px;
+}
+
 /* Search
 =================================== */
 

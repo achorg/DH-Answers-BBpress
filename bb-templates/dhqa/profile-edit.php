@@ -16,8 +16,9 @@
 </fieldset>
 <?php endif; ?>
 
-<fieldset>
+<fieldset class="lang-switch">
 <legend><?php _e('Language'); ?></legend>
+<p>Please note: posts will not be translated.</p>
 <?php do_action('bb_language_switcher',''); ?>
 </fieldset>
 
