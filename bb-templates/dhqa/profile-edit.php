@@ -16,7 +16,10 @@
 </fieldset>
 <?php endif; ?>
 
+<fieldset>
+<legend><?php _e('Language'); ?></legend>
 <?php do_action('bb_language_switcher',''); ?>
+</fieldset>
 
 <?php if ( bb_current_user_can( 'change_user_password', $user->ID ) ) : ?>
 <fieldset>
