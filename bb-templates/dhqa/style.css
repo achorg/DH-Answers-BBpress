@@ -778,9 +778,10 @@ div.social-it ul.socials li a {
 	background: url('images/favorite.png') no-repeat scroll 5px 50% transparent;
 }
 
-.socialit-twitter a {
+div.social-it ul.socials li.socialit-twitter a {
 	padding-left: 26px;
 	background: url("images/tweet.png") no-repeat scroll 5px 50% transparent;
+	height: auto !important;
 }
 
 /* Profile Page

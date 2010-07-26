@@ -1,0 +1,2508 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bbpress-0.8.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-16 12:06-0700\n"
+"PO-Revision-Date: 2007-11-05 21:14+0700\n"
+"Last-Translator: Huda Toriq <hudatoriq@gmail.com>\n"
+"Language-Team: Huda Toriq <hudatoriq@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Indonesian\n"
+"X-Poedit-Country: INDONESIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: bb-admin/admin-base.php:10
+msgid "Nothing to see here."
+msgstr "Tidak ada yang dilihat di sini."
+
+#: bb-admin/admin-footer.php:3
+msgid "Documentation"
+msgstr "Dokumentasi"
+
+#: bb-admin/admin-footer.php:3
+msgid "Development"
+msgstr "Pengembangan"
+
+#: bb-admin/admin-footer.php:4
+#, php-format
+msgid "%s seconds"
+msgstr "%s detik"
+
+#: bb-admin/admin-functions.php:48
+#: bb-admin/index.php:4
+msgid "Dashboard"
+msgstr "Dasbor"
+
+#: bb-admin/admin-functions.php:49
+msgid "Users"
+msgstr "Pengguna"
+
+#: bb-admin/admin-functions.php:50
+msgid "Content"
+msgstr "Konten"
+
+#: bb-admin/admin-functions.php:51
+msgid "Presentation"
+msgstr "Tampilan"
+
+#: bb-admin/admin-functions.php:52
+msgid "Site Management"
+msgstr "Pengelolaan Situs"
+
+#: bb-admin/admin-functions.php:55
+msgid "Find"
+msgstr "Temukan"
+
+#: bb-admin/admin-functions.php:56
+msgid "Moderators"
+msgstr "Moderator"
+
+#: bb-admin/admin-functions.php:57
+#: bb-includes/capabilities.php:159
+msgid "Blocked"
+msgstr "Diblokir"
+
+#: bb-admin/admin-functions.php:59
+#: bb-admin/content.php:32
+#: bb-templates/kakumei/forum.php:45
+#: bb-templates/kakumei/front-page.php:49
+msgid "Topics"
+msgstr "Topik"
+
+#: bb-admin/admin-functions.php:60
+#: bb-admin/content-posts.php:29
+#: bb-templates/kakumei/favorites.php:19
+#: bb-templates/kakumei/forum.php:10
+#: bb-templates/kakumei/forum.php:46
+#: bb-templates/kakumei/front-page.php:18
+#: bb-templates/kakumei/front-page.php:50
+#: bb-templates/kakumei/stats.php:8
+#: bb-templates/kakumei/tag-single.php:14
+#: bb-templates/kakumei/view.php:10
+msgid "Posts"
+msgstr "Tulisan"
+
+#: bb-admin/admin-functions.php:61
+#: bb-templates/kakumei/front-page.php:44
+msgid "Forums"
+msgstr "Forum"
+
+#: bb-admin/admin-functions.php:63
+msgid "Themes"
+msgstr "Tema"
+
+#: bb-admin/admin-functions.php:65
+#: bb-admin/plugins.php:69
+msgid "Plugins"
+msgstr "Plugin"
+
+#: bb-admin/admin-functions.php:66
+#: bb-admin/site.php:4
+msgid "Recount"
+msgstr "Hitung ulang"
+
+#: bb-admin/admin-functions.php:201
+#: bb-admin/admin-functions.php:528
+#: bb-includes/functions.php:1716
+#: bb-includes/template-functions.php:1012
+msgid "Edit"
+msgstr "Sunting"
+
+#: bb-admin/admin-functions.php:255
+#: bb-admin/admin-functions.php:396
+#: bb-includes/bozo.php:272
+msgid "No matching users were found!"
+msgstr "Tidak ada pengguna cocok!"
+
+#: bb-admin/admin-functions.php:315
+#, php-format
+msgid "Users Matching \"%s\" by Role"
+msgstr "Pengguna yang Cocok dengan \"%s\" berdasarkan Peran"
+
+#: bb-admin/admin-functions.php:317
+msgid "User List by Role"
+msgstr "Senarai Pengguna berdasarkan Peran"
+
+#: bb-admin/admin-functions.php:323
+msgid "Search for users &raquo;"
+msgstr "Pencarian pengguna &raquo;"
+
+#: bb-admin/admin-functions.php:330
+msgid "&laquo; Back to All Users"
+msgstr "&laquo; Kembali ke Seluruh Pengguna"
+
+#: bb-admin/admin-functions.php:332
+#, php-format
+msgid "%1$s &#8211; %2$s of %3$s shown below"
+msgstr "%1$s &#8211; %2$s dari %3$s ditampilkan di bawah ini"
+
+#: bb-admin/admin-functions.php:344
+msgid "Users with no role in these forums"
+msgstr "Pengguna yang tidak memiliki peran dalam forum ini"
+
+#: bb-admin/admin-functions.php:347
+msgid "ID"
+msgstr "ID"
+
+#: bb-admin/admin-functions.php:348
+#: bb-admin/install.php:305
+msgid "Username"
+msgstr "Nama pengguna"
+
+#: bb-admin/admin-functions.php:350
+#: bb-includes/functions.php:1768
+msgid "Email"
+msgstr "Email"
+
+#: bb-admin/admin-functions.php:351
+msgid "Registered Since"
+msgstr "Terdaftar Sejak"
+
+#: bb-admin/admin-functions.php:352
+msgid "Actions"
+msgstr "Tindakan"
+
+#: bb-admin/admin-functions.php:530
+#: bb-includes/template-functions.php:1032
+msgid "Delete"
+msgstr "Hapus"
+
+#: bb-admin/admin-functions.php:550
+#: bb-admin/install.php:203
+msgid "Forum Name:"
+msgstr "Nama Forum:"
+
+#: bb-admin/admin-functions.php:553
+msgid "Forum Description:"
+msgstr "Deskripsi Forum:"
+
+#: bb-admin/admin-functions.php:556
+msgid "Forum Parent:"
+msgstr "Induk Forum:"
+
+#: bb-admin/admin-functions.php:559
+msgid "Position:"
+msgstr "Posisi:"
+
+#: bb-admin/admin-functions.php:570
+msgid "Update Forum &#187;"
+msgstr "Perbarui Forum &#187;"
+
+#: bb-admin/admin-functions.php:570
+msgid "Add Forum &#187;"
+msgstr "Tambah Forum &#187;"
+
+#: bb-admin/admin-functions.php:716
+#, php-format
+msgid "Posted: %1$s in <a href=\"%2$s\">%3$s</a>"
+msgstr "Dikirim: %1$s dalam <a href=\"%2$s\">%3$s</a>"
+
+#: bb-admin/admin-functions.php:726
+msgid "Count posts of every topic"
+msgstr "Hitung tulisan tiap topik"
+
+#: bb-admin/admin-functions.php:727
+msgid "Count deleted posts on every topic"
+msgstr "Hitung tulisan yang dihapus pada tiap topik"
+
+#: bb-admin/admin-functions.php:728
+msgid "Count topics and posts in every forum (relies on the above)"
+msgstr "Hitung topik dan tulisan dalam setiap forum (bergantung dengan yang di atas)"
+
+#: bb-admin/admin-functions.php:729
+msgid "Count topics to which each user has replied"
+msgstr "Hitung topik yang telah dibalas oleh masing-masing pengguna"
+
+#: bb-admin/admin-functions.php:730
+msgid "Count tags for every topic"
+msgstr "Hitung tag untuk setiap topik"
+
+#: bb-admin/admin-functions.php:731
+msgid "Count topics for every tag"
+msgstr "Hitung topik untuk setiap tag"
+
+#: bb-admin/admin-functions.php:732
+msgid "DELETE tags with no topics.  Only functions if the above checked"
+msgstr "HAPUS tag yang tidak bertopik. Hanya berfungsi jika pilihan di atas dicentang"
+
+#: bb-admin/admin-functions.php:795
+msgid "Visit plugin homepage"
+msgstr "Kunjungi laman plugin"
+
+#: bb-admin/admin-functions.php:798
+#: bb-admin/admin-functions.php:841
+msgid "Visit author homepage"
+msgstr "Kunjungi laman penulis"
+
+#: bb-admin/admin-functions.php:847
+msgid "Visit porter homepage"
+msgstr "Kunjungi laman pengadaptasi"
+
+#: bb-admin/admin.php:7
+#, php-format
+msgid "Your database is out-of-date.  Please <a href='%s'>upgrade</a>."
+msgstr "Database Anda ketinggalan zaman. Silakan <a href='%s'>tingkatkan</a>."
+
+#: bb-admin/bb-do-counts.php:12
+msgid "Recounting"
+msgstr "Menghitung ulang"
+
+#: bb-admin/bb-do-counts.php:19
+msgid "Counting posts..."
+msgstr "Menghitung tulisan..."
+
+#: bb-admin/bb-do-counts.php:24
+msgid "Done counting posts."
+msgstr "Selesai menghitung tulisan."
+
+#: bb-admin/bb-do-counts.php:33
+msgid "Counting deleted posts..."
+msgstr "Menghitung tulisan yang terhapus..."
+
+#: bb-admin/bb-do-counts.php:43
+msgid "Done counting deleted posts."
+msgstr "Selesai menghitung tulisan yang terhapus."
+
+#: bb-admin/bb-do-counts.php:45
+msgid "No deleted posts to count."
+msgstr "Tidak ada tulisan terhapus untuk dihitung."
+
+#: bb-admin/bb-do-counts.php:53
+msgid "Counting forum topics and posts..."
+msgstr "Menghitung topik dan tulisan forum..."
+
+#: bb-admin/bb-do-counts.php:67
+msgid "Done counting forum topics and posts."
+msgstr "Selesai menghitung topik dan tulisan dalam forum."
+
+#: bb-admin/bb-do-counts.php:74
+msgid "Counting topics to which each user has replied..."
+msgstr "Menghitung topik yang telah dibalas oleh setiap pengguna..."
+
+#: bb-admin/bb-do-counts.php:79
+msgid "Done counting topics."
+msgstr "Selesai menghitung topik."
+
+#: bb-admin/bb-do-counts.php:86
+msgid "Counting topic tags..."
+msgstr "Menghitung tag topik..."
+
+#: bb-admin/bb-do-counts.php:96
+msgid "Done counting topic tags."
+msgstr "Selesai menghitung tag topik."
+
+#: bb-admin/bb-do-counts.php:103
+msgid "Counting tagged topics..."
+msgstr "Menghitung topik yang ditag..."
+
+#: bb-admin/bb-do-counts.php:115
+msgid "Done counting tagged topics."
+msgstr "Selesai menghitung topik yang ditag."
+
+#: bb-admin/bb-do-counts.php:121
+msgid "Deleted tags with no topics."
+msgstr "Menghapus tag yang tidak bertopik."
+
+#: bb-admin/bb-do-counts.php:133
+msgid "Done recounting.  The process took"
+msgstr "Selesai menghitung ulang. Proses tersebut menggunakan"
+
+#: bb-admin/bb-do-counts.php:134
+#: bb-admin/upgrade.php:30
+#, php-format
+msgid "%1$d queries and %2$s seconds."
+msgstr "%1$d kueri dan %2$s detik."
+
+#: bb-admin/bb-forum.php:5
+msgid "You don't have the authority to mess with the forums."
+msgstr "Anda tidak memiliki kewenangan untuk mengutak-atik forum."
+
+#: bb-admin/bb-forum.php:15
+msgid "Bad forum name.  Go back and try again."
+msgstr "Nama forum yang buruk. Ulangi dan coba lagi."
+
+#: bb-admin/bb-forum.php:23
+msgid "The forum was not added"
+msgstr "Forum tersebut tidak ditambahkan"
+
+#: bb-admin/bb-forum.php:30
+msgid "No forums to update!"
+msgstr "Tidak ada forum untuk diperbarui!"
+
+#: bb-admin/bb-forum.php:45
+msgid "You don't have the authority to kill off the forums."
+msgstr "Anda tidak memiliki wewenang untuk mematikan forum."
+
+#: bb-admin/bb-forum.php:51
+msgid "Error occured while trying to delete forum"
+msgstr "Galat terjadi ketika mencoba mengapus forum"
+
+#: bb-admin/content-forums.php:17
+msgid "Forum Updated."
+msgstr "Forum Diperbarui."
+
+#: bb-admin/content-forums.php:20
+#, php-format
+msgid "Forum deleted.  You should have bbPress <a href=\"%s\">recount your site information</a>."
+msgstr "Forum dihapus. Anda seharusnya sudah <a href=\"%s\">menghitung ulang informasi situs Anda</a>."
+
+#: bb-admin/content-forums.php:31
+msgid "Forum Management"
+msgstr "Pengelolaan Forum"
+
+#: bb-admin/content-forums.php:34
+msgid "Update Forum"
+msgstr "Perbarui Forum"
+
+#: bb-admin/content-forums.php:38
+#, php-format
+msgid "Are you sure you want to delete the \"<strong>%s</strong>\" forum?"
+msgstr "Apakah Anda yakin ingin menghapus forum \"<strong>%s</strong>\"?"
+
+#: bb-admin/content-forums.php:47
+msgid "Delete all topics and posts in this forum. <em>This can never be undone.</em>"
+msgstr "Menghapus seluruh topik dan tulisan dalam forum ini. <em>Hal ini tidak dapat dikembalikan.</em>"
+
+#: bb-admin/content-forums.php:48
+msgid "Move topics from this forum into"
+msgstr "Memindahkan topik dari forum ini ke"
+
+#: bb-admin/content-forums.php:52
+msgid "Delete forum &raquo;"
+msgstr "Hapus forum&raquo;"
+
+#: bb-admin/content-forums.php:60
+msgid "&laquo; Go back"
+msgstr "&laquo; Kembali"
+
+#: bb-admin/content-forums.php:69
+msgid "Name &#8212; Description"
+msgstr "Nama &#8212; Keterangan"
+
+#: bb-admin/content-forums.php:76
+msgid "Add Forum"
+msgstr "Tambahkan Forum"
+
+#: bb-admin/content-posts.php:6
+#: bb-admin/content.php:6
+#: bb-includes/akismet.php:202
+msgid "Now how'd you get here?  And what did you think you'd being doing?"
+msgstr "Sekarang bagaimana Anda bisa sampai ke sini? Dan apa yang Anda pikir sedang Anda lakukan?"
+
+#: bb-admin/content-posts.php:21
+#: bb-admin/content.php:23
+#, php-format
+msgid "matching &#8220;%s&#8221;"
+msgstr "cocok dengan &#8220;%s&#8221;"
+
+#: bb-admin/content-posts.php:22
+#: bb-admin/content.php:24
+#, php-format
+msgid "in &#8220;%s&#8221;"
+msgstr "dalam &#8220;%s&#8221;"
+
+#: bb-admin/content-posts.php:23
+#: bb-admin/content.php:25
+#, php-format
+msgid "with tag &#8220;%s&#8221;"
+msgstr "dengan tag &#8220;%s&#8221;"
+
+#: bb-admin/content-posts.php:24
+#: bb-admin/content.php:26
+#, php-format
+msgid "by %s"
+msgstr "oleh %s"
+
+#: bb-admin/content-posts.php:26
+#: bb-admin/content.php:28
+#: bb-includes/classes.php:820
+msgid "Normal"
+msgstr "Normal"
+
+#: bb-admin/content-posts.php:26
+#: bb-admin/content.php:28
+#: bb-includes/classes.php:820
+msgid "Deleted"
+msgstr "Dihapus"
+
+#: bb-admin/content-posts.php:31
+#, php-format
+msgid "%1$sposts"
+msgstr "%1$sposts"
+
+#: bb-admin/content-posts.php:33
+#: bb-admin/content.php:36
+#, php-format
+msgid "%1$s%2$s%3$s%4$s%5$s"
+msgstr "%1$s%2$s%3$s%4$s%5$s"
+
+#: bb-admin/content-posts.php:37
+#: bb-admin/content.php:40
+msgid "Filter &#187;"
+msgstr "Penyaring &#187;"
+
+#: bb-admin/content.php:29
+#: bb-includes/classes.php:847
+msgid "Closed"
+msgstr "Ditutup"
+
+#: bb-admin/content.php:29
+#: bb-includes/classes.php:847
+msgid "Open"
+msgstr "Buka"
+
+#: bb-admin/content.php:34
+#, php-format
+msgid "%1$s%2$stopics"
+msgstr "%1$s%2$stopics"
+
+#: bb-admin/content.php:46
+#: bb-templates/kakumei/favorites.php:18
+#: bb-templates/kakumei/forum.php:9
+#: bb-templates/kakumei/front-page.php:17
+#: bb-templates/kakumei/tag-single.php:13
+#: bb-templates/kakumei/view.php:9
+#: rss.php:34
+msgid "Topic"
+msgstr "Topik"
+
+#: bb-admin/content.php:47
+#: bb-templates/kakumei/forum.php:11
+#: bb-templates/kakumei/front-page.php:19
+#: bb-templates/kakumei/tag-single.php:15
+#: bb-templates/kakumei/view.php:11
+msgid "Last Poster"
+msgstr "Pengirim Terakhir"
+
+#: bb-admin/content.php:48
+#: bb-templates/kakumei/favorites.php:20
+#: bb-templates/kakumei/forum.php:12
+#: bb-templates/kakumei/front-page.php:20
+#: bb-templates/kakumei/tag-single.php:16
+#: bb-templates/kakumei/view.php:12
+msgid "Freshness"
+msgstr "Kesegaran"
+
+#: bb-admin/content.php:59
+msgid "No Topics Found"
+msgstr "Tak Ada Topik yang Ditemukan"
+
+#: bb-admin/delete-post.php:17
+msgid "There is a problem with that post, pardner."
+msgstr "Ada masalah dengan tulisan itu, teman."
+
+#: bb-admin/delete-topic.php:16
+#: bb-admin/sticky.php:9
+#: bb-admin/topic-toggle.php:8
+msgid "There is a problem with that topic, pardner."
+msgstr "Ada masalah dengan topik itu, teman."
+
+#: bb-admin/export.php:8
+msgid "No thieving allowed."
+msgstr "Dilarang mencuri."
+
+#: bb-admin/index.php:7
+msgid "Latest Activity"
+msgstr "Aktivitas Terakhir"
+
+#: bb-admin/index.php:8
+msgid "User Registrations"
+msgstr "Pendaftaran Pengguna"
+
+#: bb-admin/index.php:11
+msgid "profile"
+msgstr "profil"
+
+#: bb-admin/index.php:11
+#, php-format
+msgid "registered %s ago"
+msgstr "terdaftar %s lalu"
+
+#: bb-admin/index.php:16
+msgid "Recently Moderated"
+msgstr "Baru-Baru ini Dimoderasi"
+
+#: bb-admin/index.php:20
+msgid "Post"
+msgstr "Tulisan"
+
+#: bb-admin/index.php:20
+#: bb-templates/kakumei/rss2.php:19
+msgid "on"
+msgstr "pada"
+
+#: bb-admin/index.php:20
+msgid "by"
+msgstr "oleh"
+
+#: bb-admin/index.php:22
+msgid "Topic titled"
+msgstr "Topik diberi judul"
+
+#: bb-admin/index.php:22
+msgid "started by"
+msgstr "dimulai oleh"
+
+#: bb-admin/index.php:29
+#: bb-templates/kakumei/stats.php:3
+#: statistics.php:9
+msgid "Statistics"
+msgstr "Statistik"
+
+#: bb-admin/index.php:31
+msgid "Posts per day"
+msgstr "Tulisan per hari"
+
+#: bb-admin/index.php:32
+msgid "Topics per day"
+msgstr "Topik per hari"
+
+#: bb-admin/index.php:33
+msgid "Registrations per day"
+msgstr "Pendaftaran per hari"
+
+#: bb-admin/index.php:34
+#, php-format
+msgid "Forums started %s ago."
+msgstr "Forum dimulai %s yang lalu."
+
+#: bb-admin/install.php:12
+msgid "bbPress &rsaquo; Installation"
+msgstr "bbPress &rsaquo; Instalasi"
+
+#: bb-admin/install.php:19
+#, php-format
+msgid "<h1>Already Installed</h1><p>You appear to have already installed bbPress. Perhaps you meant to <a href=\"%s\">upgrade</a> instead?</p><p>To reinstall please clear your old database tables first.</p>"
+msgstr "<h1>Sudah Terinstal</h1><p>Sepertinya Anda telah menginstal bbPress. Mungkin Anda bermaksud <a href=\"%s\">memutakhirkan</a>?</p><p>Untuk menginstal ulang harap kosongkan tabel basis data lama Anda terlebih dahulu.</p>"
+
+#: bb-admin/install.php:26
+msgid "<h1>Already Installed</h1><p>You appear to have already installed bbPress. Perhaps you meant to run the upgrade scripts instead? To reinstall please clear your old database tables first.</p>"
+msgstr "<h1>Sudah Terinstal</h1><p>Sepertinya Anda sudah menginstal bbPress. Mungkin Anda bermaksud untuk menjalankan skrip pemutakhiran? Untuk menginstal ulang harap kosongkan tabel basis data lama Anda terlebih dahulu.</p>"
+
+#: bb-admin/install.php:34
+#, php-format
+msgid "%s is now a Key Master"
+msgstr "%s sekarang adalah Juru Kunci"
+
+#: bb-admin/install.php:35
+msgid "Back to the front page"
+msgstr "Kembali ke halaman depan"
+
+#: bb-admin/install.php:39
+msgid "Username not found.  Try again."
+msgstr "Nama pengguna tidak ditemukan. Coba lagi."
+
+#: bb-admin/install.php:49
+msgid "Welcome to bbPress installation. We&#8217;re now going to go through a few steps to get you up and running with the latest in forums software."
+msgstr "Selamat datang ke instalasi bbPress. Kami akan melalui beberapa langkah untuk mengantar Anda dan menjalankan perangkat lunak forum terbaru."
+
+#: bb-admin/install.php:50
+msgid "First Step &raquo;"
+msgstr "Langkah Pertama &raquo;"
+
+#: bb-admin/install.php:78
+msgid "First Step"
+msgstr "Langkah Pertama"
+
+#: bb-admin/install.php:79
+msgid "Make sure you have <strong>everything</strong> (database information, email address, etc.) entered correctly in <code>config.php</code> before running this script."
+msgstr "Pastikan Anda memiliki <strong>segalanya</strong> (informasi basis data, alamat email, dll). Masukkan dengan benar ke dalam <code>config.php</code> sebelum menjalankan skrip ini."
+
+#: bb-admin/install.php:87
+msgid "Your <code>$bb->domain</code> setting must <strong>not</strong> end in a backslash \"<code>/</code>\"."
+msgstr "Penataan <code>$bb->domain</code> Anda <strong>tidak boleh</strong> berakhir dengan garis miring \"<code>/</code>\"."
+
+#: bb-admin/install.php:90
+msgid "Your <code>$bb->domain</code> setting cannot be parsed."
+msgstr "Penataan <code>$bb->domain</code> Anda tidak dapat dibaca."
+
+#: bb-admin/install.php:92
+msgid "Your <code>$bb->domain</code> setting <strong>must</strong> start with <code>http://</code>."
+msgstr "Penataan <code>$bb->domain</code> Anda <strong>harus</strong> dimulai dengan <code>http://</code>."
+
+#: bb-admin/install.php:94
+msgid "Your <code>$bb->domain</code> setting must only include the <code>http://</code> and the domain name; it may not include any directories or path information."
+msgstr "Penataan <code>$bb->domain</code> Anda hanya boleh mengandung <code>http://</code> dan nama ranah; tidak boleh mengandung informasi direktori apapun."
+
+#: bb-admin/install.php:96
+msgid "Your <code>$bb->path</code> setting <strong>must</strong> start with a backslash \"<code>/</code>\"."
+msgstr "Penataan <code>$bb->path</code> Anda <strong>harus</strong> dimulai dengan garis miring \"<code>/</code>\"."
+
+#: bb-admin/install.php:98
+msgid "Your <code>$bb->path</code> setting <strong>must</strong> end with a backslash \"<code>/</code>\"."
+msgstr "Penataan <code>$bb->path</code> Anda <strong>harus</strong> diakhiri dengan sebuah garis miring \"<code>/</code>\"."
+
+#: bb-admin/install.php:104
+msgid "Your <code>$bb->wp_home</code> setting must <strong>not</strong> end in a backslash \"<code>/</code>\"."
+msgstr "Penataan <code>$bb->wp_home</code> Anda <strong>tidak</strong> boleh berakhir dengan garis miring \"<code>/</code>\"."
+
+#: bb-admin/install.php:107
+msgid "Your <code>$bb->wp_home</code> setting cannot be parsed."
+msgstr "Penataan <code>$bb->wp_home</code> Anda tidak dapat dibaca."
+
+#: bb-admin/install.php:109
+msgid "Your <code>$bb->wp_home</code> setting <strong>must</strong> start with <code>http://</code>."
+msgstr "Penataan <code>$bb->wp_home</code> Anda <strong>harus</strong> dimulai dengan <code>http://</code>."
+
+#: bb-admin/install.php:112
+msgid "Your <code>$bb->domain</code> and <code>$bb->wp_home</code> settings do not have the same domain.<br />You cannot share login cookies between the two.<br />Remove the <code>$bb->wp_home</code> setting from your config.php file."
+msgstr "Penataan <code>$bb->domain</code> dan <code>$bb->wp_home</code> Anda tidak memiliki ranah yang sama.<br />Anda tidak dapat berbagi cookie masuk log antara keduanya.<br />Singkirkan setting <code>$bb->wp_home</code> dari berkas config.php Anda."
+
+#: bb-admin/install.php:121
+msgid "Your <code>$bb->cookiedomain</code> is not in the same domain as your <code>$bb->domain</code>.  You will not be able to log in."
+msgstr "<code>$bb->cookiedomain</code> Anda tidak dalam ranah yang sama dengan <code>$bb->domain</code> Anda. Anda tidak akan dapat masuk log."
+
+#: bb-admin/install.php:126
+msgid "Your bbPress URL <code>$bb->path</code> is outside of your <code>$bb->cookiepath</code>.  You may not be able to log in."
+msgstr "URL bbPress Anda <code>$bb->path</code> di luar <code>$bb->cookiepath</code>. Anda tidak bisa masuk log."
+
+#: bb-admin/install.php:164
+msgid "Before we begin we need a little bit of information about your site's first <strong>administrator account</strong>, and your site's first <strong>forum</strong>."
+msgstr "Sebelum kita mulai kami membutuhkan sedikit informasi tentang <strong>akun administrator</strong> pertama situs Anda dan <strong>forum</strong> pertama situs Anda."
+
+#: bb-admin/install.php:167
+#: bb-includes/capabilities.php:68
+msgid "Administrator"
+msgstr "Administrator"
+
+#: bb-admin/install.php:169
+#, php-format
+msgid "We found <strong>%s</strong> who is already a \"Key Master\" on these forums.  You may make others later"
+msgstr "Kami menemukan <strong>%s</strong> yang sudah menjadi \"Juru Kunci\" pada forum ini. Anda dapat membuat yang lain nanti"
+
+#: bb-admin/install.php:172
+msgid "Enter your username below.  You will be made the first Key Master on these forums.  Leave this blank if you want to create a new account"
+msgstr "Masukkan nama pengguna Anda di bawah ini. Anda akan dibuat sebagai Juru Kunci pertama pada forum ini. Biarkan kosong jika Anda ingin menciptakan sebuah akun baru."
+
+#: bb-admin/install.php:177
+#: bb-templates/kakumei/login-form.php:4
+#: bb-templates/kakumei/login.php:12
+#: bb-templates/kakumei/login.php:22
+#: bb-templates/kakumei/login.php:32
+#: bb-templates/kakumei/register.php:15
+msgid "Username:"
+msgstr "Nama pengguna:"
+
+#: bb-admin/install.php:181
+msgid "Email address:"
+msgstr "Alamat email:"
+
+#: bb-admin/install.php:182
+msgid "(You already set this in your <code>config.php</code> file.)"
+msgstr "(Anda telah menentukan ini di berkas <code>config.php</code> Anda.)"
+
+#: bb-admin/install.php:185
+msgid "Website:"
+msgstr "Situs web:"
+
+#: bb-admin/install.php:189
+msgid "Location:"
+msgstr "Lokasi:"
+
+#: bb-admin/install.php:193
+msgid "Interests:"
+msgstr "Minat:"
+
+#: bb-admin/install.php:199
+msgid "First Forum"
+msgstr "Forum Pertama"
+
+#: bb-admin/install.php:207
+msgid "Description:"
+msgstr "Keterangan:"
+
+#: bb-admin/install.php:211
+msgid "Double-check that username before continuing."
+msgstr "Periksa ulang nama pengguna tersebut sebelum melanjutkan."
+
+#: bb-admin/install.php:214
+msgid "Continue to Second Step &raquo;"
+msgstr "Lanjutkan ke Langkah Kedua &raquo;"
+
+#: bb-admin/install.php:226
+msgid "Bad username.  Go back and try again."
+msgstr "Nama pengguna yang buruk. Kembali dan coba lagi."
+
+#: bb-admin/install.php:228
+msgid "Username not found.  Go back and try again."
+msgstr "Nama pengguna tidak ditemukan. Kembali dan ulangi lagi."
+
+#: bb-admin/install.php:230
+msgid "You must name your first forum.  Go back and try again."
+msgstr "Anda harus menamai forum pertama Anda. Kembali dan coba lagi."
+
+#: bb-admin/install.php:232
+msgid "Second Step"
+msgstr "Langkah Kedua"
+
+#: bb-admin/install.php:233
+msgid "Now we&#8217;re going to create the database tables and fill them with some default data."
+msgstr "Sekarang kita akan menciptakan tabel basis data dan mengisinya dengan beberapa data bawaan."
+
+#: bb-admin/install.php:251
+#: bb-admin/install.php:257
+msgid "*Your WordPress password*"
+msgstr "*Kata sandi WordPress Anda*"
+
+#: bb-admin/install.php:278
+msgid "Your first topic"
+msgstr "Topik pertama Anda"
+
+#: bb-admin/install.php:279
+msgid "First Post!  w00t."
+msgstr "Kiriman Pertama!  w00t."
+
+#: bb-admin/install.php:281
+#, php-format
+msgid ""
+"Your new bbPress site has been successfully set up at:\n"
+"\n"
+"%1$s\n"
+"\n"
+"You can log in to the administrator account with the following information:\n"
+"\n"
+"Username: %2$s\n"
+"Password: %3$s\n"
+"\n"
+"We hope you enjoy your new forums. Thanks!\n"
+"\n"
+"--The bbPress Team\n"
+"http://bbpress.org/\n"
+msgstr ""
+"Situs bbPress baru Anda telah berhasil ditata pada:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Anda dapat masuk log ke akun administrator dengan informasi berikut::\n"
+"\n"
+"Nama pengguna: %2$s\n"
+"Kata sandi: %3$s\n"
+"\n"
+"Kami harap Anda menikmati forum baru Anda. Terimakasih!\n"
+"\n"
+"--Tim bbPress\n"
+"http://bbpress.org/\n"
+
+#: bb-admin/install.php:296
+msgid "New bbPress installation"
+msgstr "Instalasi bbPress baru"
+
+#: bb-admin/install.php:298
+msgid "Finished!"
+msgstr "Selesai!"
+
+#: bb-admin/install.php:300
+#, php-format
+msgid "Now you can <a href=\"%1$s\">log in</a> with the <strong>username</strong> \"<code>%2$s</code>\" and <strong>password</strong> \"<code>%3$s</code>\"."
+msgstr "Sekarang Anda dapat <a href=\"%1$s\">masuk log</a> dengan <strong>nama pengguna</strong> \"<code>%2$s</code>\" dan <strong>kata sandi</strong> \"<code>%3$s</code>\"."
+
+#: bb-admin/install.php:302
+msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you. If you lose it, you will have to delete the tables from the database yourself, and re-install bbPress. So to review:"
+msgstr "<strong><em>Catat kata sandi tersebut</em></strong> dengan cermat! Ini merupakan kata sandi <em>acak</em> yang diciptakan hanya untuk Anda. Jika Anda menghilangkannya, Anda harus menghapus tabel dari basis data sendiri, dan menginstal ulang bbPress. Jadi kami ulangi:"
+
+#: bb-admin/install.php:307
+#: bb-includes/registration-functions.php:116
+#: bb-templates/kakumei/profile-edit.php:20
+msgid "Password"
+msgstr "Kata sandi"
+
+#: bb-admin/install.php:309
+msgid "Login address"
+msgstr "Alamat masuk log"
+
+#: bb-admin/install.php:312
+msgid "Were you expecting more steps? Sorry to disappoint. All done! :)"
+msgstr "Apakah Anda mengharapkan masih banyak langkah lagi? Maaf mengecewakan. Semuanya selesai! :)"
+
+#: bb-admin/install.php:317
+msgid "<a href=\"http://bbpress.org/\">bbPress</a>: Simple, Fast, Elegant."
+msgstr "<a href=\"http://bbpress.org/\">bbPress</a>: Sederhana, Cepat, Elegan."
+
+#: bb-admin/plugins.php:53
+msgid "Plugin could not be activated; it produced a <strong>Fatal Error</strong>."
+msgstr "Plugin tidak dapat diaktifkan; ini menghasilkan sebuah <strong>Galat yang Fatal</strong>."
+
+#: bb-admin/plugins.php:56
+msgid "File is not a valid plugin."
+msgstr "Berkas tersebut bukan plugin yang valid."
+
+#: bb-admin/plugins.php:59
+msgid "Plugin <strong>activated</strong>"
+msgstr "Plugin <strong>diaktifkan</strong>"
+
+#: bb-admin/plugins.php:62
+msgid "Plugin <strong>deactivated</strong>"
+msgstr "Plugin <strong>dinonaktifkan</strong>"
+
+#: bb-admin/plugins.php:76
+#: bb-admin/plugins.php:110
+msgid "Plugin"
+msgstr "Plugin"
+
+#: bb-admin/plugins.php:77
+#: bb-admin/plugins.php:111
+msgid "Version"
+msgstr "Versi"
+
+#: bb-admin/plugins.php:78
+#: bb-admin/plugins.php:112
+msgid "Description"
+msgstr "Keterangan"
+
+#: bb-admin/plugins.php:79
+msgid "Action"
+msgstr "Tindakan"
+
+#: bb-admin/plugins.php:89
+#: bb-admin/plugins.php:123
+#, php-format
+msgid "By %s."
+msgstr "Oleh %s."
+
+#: bb-admin/plugins.php:105
+msgid "Automatically loaded plugins"
+msgstr "Secara otomatis memuat plugin"
+
+#: bb-admin/plugins.php:135
+msgid "No Plugins Installed"
+msgstr "Tak Ada Plugin yang Terinstal"
+
+#: bb-admin/site.php:5
+msgid ""
+"The following checkboxes allow you to recalculate various numbers stored in\n"
+"the database.  These numbers are used for things like counting the number of\n"
+"pages worth of posts a particular topic has.  You shouldn't need to do do any of\n"
+"this unless you're upgrading from one version to another or are seeing\n"
+"pagination oddities."
+msgstr ""
+"Kotak centang berikut ini memungkinkan Anda untuk menghitung ulang berbagai angka yang disimpan dalam\n"
+"basis data. Angka-angka ini digunakan untuk hal-hal seperti menghitung jumlah halaman yang dihabiskan oleh tulisan dalam sebuah topik. Anda tidak perlu melakukan apapun terhadap ini kecuali Anda memutakhirkan dari satu versi ke versi lain atau melihat kejanggalan pada penghalamanan."
+
+#: bb-admin/site.php:13
+msgid "Choose items to recalculate"
+msgstr "Pilih butir untuk dihitung ulang"
+
+#: bb-admin/site.php:19
+msgid "Count!"
+msgstr "Hitung!"
+
+#: bb-admin/tag-destroy.php:6
+#: bb-admin/tag-merge.php:6
+#: bb-admin/tag-rename.php:7
+msgid "You are not allowed to manage tags."
+msgstr "Anda tidak dizinkan untuk mengelola tag."
+
+#: bb-admin/tag-destroy.php:14
+#: bb-admin/tag-rename.php:16
+msgid "Tag not found."
+msgstr "Tag tidak ditemukan."
+
+#: bb-admin/tag-destroy.php:17
+#, php-format
+msgid "Rows deleted from tags table: %d <br />\n"
+msgstr "Baris yang dihapus dari tabel tag: %d <br />\n"
+
+#: bb-admin/tag-destroy.php:18
+#, php-format
+msgid "Rows deleted from tagged table: %d <br />\n"
+msgstr "Baris yang dihapus dari tabel yang ditag: %d <br />\n"
+
+#: bb-admin/tag-destroy.php:19
+#, php-format
+msgid "<a href=\"%s\">Home</a>"
+msgstr "<a href=\"%s\">Pangkal</a>"
+
+#: bb-admin/tag-destroy.php:21
+#, php-format
+msgid ""
+"Something odd happened when attempting to destroy that tag.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"Sesuatu yang janggal terjadi ketika mencoba menghancurkan tag itu.<br />\n"
+"<a href=\"%s\">Coba Lagi?</a>"
+
+#: bb-admin/tag-merge.php:14
+msgid "Tag specified not found."
+msgstr "Tag yang ditentukan tidak ditemukan."
+
+#: bb-admin/tag-merge.php:17
+msgid "Tag to be merged not found."
+msgstr "Tag yang akan dileburkan tidak ditemukan."
+
+#: bb-admin/tag-merge.php:20
+#, php-format
+msgid "Number of topics from which the old tag was removed: %d <br />\n"
+msgstr "Jumlah topik dari mana tag lama disingkirkan: %d <br />\n"
+
+#: bb-admin/tag-merge.php:21
+#, php-format
+msgid "Number of topics to which the new tag was added: %d <br />\n"
+msgstr "Jumlah topik di mana tag baru ditambahkan: %d <br />\n"
+
+#: bb-admin/tag-merge.php:22
+#, php-format
+msgid "Number of rows deleted from tags table:%d <br />\n"
+msgstr "Jumlah baris yang dihapus dari tabel tag:%d <br />\n"
+
+#: bb-admin/tag-merge.php:23
+#, php-format
+msgid "<a href=\"%s\">New Tag</a>"
+msgstr "<a href=\"%s\">Tag Baru</a>"
+
+#: bb-admin/tag-merge.php:25
+#, php-format
+msgid ""
+"Something odd happened when attempting to merge those tags.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"Sesuatu yang janggal telah terjadi ketika mencoba untuk meleburkan tag-tag tersebut.<br />\n"
+"<a href=\"%s\">Coba Lagi?</a>"
+
+#: bb-admin/tag-rename.php:21
+#, php-format
+msgid "There already exists a tag by that name or the name is invalid. <a href=\"%s\">Try Again</a>"
+msgstr "Sudah ada tag dengan nama tersebut atau nama tersebut tidak valid. <a href=\"%s\">Coba Kembali</a>"
+
+#: bb-admin/themes.php:20
+#, php-format
+msgid "Theme \"%s\" activated"
+msgstr "Tema \"%s\" diaktifkan"
+
+#: bb-admin/themes.php:26
+msgid "Theme not found.  Default theme applied."
+msgstr "Tema tidak ditemukan. Tema bawaan diterapkan."
+
+#: bb-admin/themes.php:35
+#: bb-admin/themes.php:37
+msgid "Click to activate"
+msgstr "Klik untuk mengaktifkan"
+
+#: bb-admin/themes.php:39
+#, php-format
+msgid "by <cite>%s</cite>"
+msgstr "oleh <cite>%s</cite>"
+
+#: bb-admin/themes.php:39
+#, php-format
+msgid ", ported by <cite>%s</cite>"
+msgstr ", diadaptasikan oleh <cite>%s</cite>"
+
+#: bb-admin/themes.php:50
+msgid "Current Theme"
+msgstr "Tema Saat Ini"
+
+#: bb-admin/themes.php:56
+msgid "Available Themes"
+msgstr "Tema yang Tersedia"
+
+#: bb-admin/topic-move.php:8
+msgid "Invalid topic or forum."
+msgstr "Topik atau forum yang tidak valid."
+
+#: bb-admin/topic-move.php:21
+msgid "Your topic or forum caused all manner of confusion"
+msgstr "Topik atau forum Anda menyebabkan segala bentuk kebingungan"
+
+#: bb-admin/upgrade.php:19
+msgid "bbPress &rsaquo; Upgrade"
+msgstr "bbPress &rsaquo; Upgrade"
+
+#: bb-admin/upgrade.php:26
+#, php-format
+msgid "Upgrade complete.  <a href=\"%s\">Enjoy!</a>"
+msgstr "Pemutakhiran selesai. <a href=\"%s\">Selamat menikmati!</a>"
+
+#: bb-admin/upgrade.php:28
+#, php-format
+msgid "Nothing to upgrade.  <a href=\"%s\">Get back to work!</a>"
+msgstr "Tak ada yang perlu dimutakhirkan. <a href=\"%s\">Kembali bekerja!</a>"
+
+#: bb-admin/users-blocked.php:9
+msgid "These users have been blocked by the forum administrators"
+msgstr "Pengguna-penggua ini telah diblokir oleh administrator forum"
+
+#: bb-admin/users-moderators.php:9
+msgid "Forum Administrators"
+msgstr "Administrator Forum"
+
+#: bb-admin/view-ip.php:15
+msgid "IP Information"
+msgstr "Informasi IP"
+
+#: bb-admin/view-ip.php:16
+msgid "Last 30 posts"
+msgstr "30 Tulisan terakhir"
+
+#: bb-admin/view-ip.php:33
+msgid "Posted:"
+msgstr "Terkirim:"
+
+#: bb-edit.php:16
+msgid "Sorry, post is too old."
+msgstr "Maaf, tulisan terlalu lama."
+
+#: bb-includes/akismet.php:185
+msgid "Akismet Spam"
+msgstr "Spam Akismet"
+
+#: bb-includes/akismet.php:198
+#, php-format
+msgid "The API key you have specified is invalid.  Please double check the <code>$bb->akismet_key</code> variable in your <code>config.php file</code>.  If you don't have an API key yet, you can get one at <a href=\"%s\">WordPress.com</a>."
+msgstr "Kunci API yang Anda tentukan tidak valid. Mohon periksa ulang variabel <code>$bb->akismet_key</code> dalam <code>berkas config.php</code> Anda. Jika Anda belum memiliki API, Anda dapat memperolehnya pada <a href=\"%s\">WordPress.com</a>."
+
+#: bb-includes/akismet.php:220
+msgid "Not Spam"
+msgstr "Bukan Spam"
+
+#: bb-includes/akismet.php:222
+msgid "Spam"
+msgstr "Spam"
+
+#: bb-includes/bozo.php:80
+msgid "Counting bozo posts..."
+msgstr "Menghitung tulisan bozo..."
+
+#: bb-includes/bozo.php:100
+msgid "Done counting bozo posts."
+msgstr "Selesai menghitung tulisan bozo."
+
+#: bb-includes/bozo.php:111
+msgid "Counting bozo topics for each user...\n"
+msgstr "Menghitung topik bozo untuk setiap pengguna...\n"
+
+#: bb-includes/bozo.php:131
+msgid ""
+"Done counting bozo topics.\n"
+"\n"
+msgstr ""
+"Selesai menghitung topik bozo.\n"
+"\n"
+
+#: bb-includes/bozo.php:142
+msgid "Count topics to which each user has replied and count each users&#039; bozo posts"
+msgstr "Menghitung topik di mana setiap pengguna sudah membalas dan menghitung tulisan bozo tiap pengguna"
+
+#: bb-includes/bozo.php:143
+msgid "Count bozo posts on every topic"
+msgstr "Menghitung tulisan bozo pada setiap topik"
+
+#: bb-includes/bozo.php:242
+msgid "This user is a bozo"
+msgstr "Pengguna ini merupakan seorang bozo"
+
+#: bb-includes/bozo.php:248
+msgid "Bozos"
+msgstr "Bozo"
+
+#: bb-includes/bozo.php:258
+msgid "These users have been marked as bozos"
+msgstr "Pengguna ini telah ditandai sebagai bozo"
+
+#: bb-includes/capabilities.php:27
+msgid "Key Master"
+msgstr "Juru Kunci"
+
+#: bb-includes/capabilities.php:105
+msgid "Moderator"
+msgstr "Moderator"
+
+#: bb-includes/capabilities.php:136
+msgid "Member"
+msgstr "Anggota"
+
+#: bb-includes/capabilities.php:152
+msgid "Inactive"
+msgstr "Nonaktif"
+
+#: bb-includes/classes.php:757
+msgid "Search &#187;"
+msgstr "Search &#187;"
+
+#: bb-includes/classes.php:788
+msgid "Search&#8230;"
+msgstr "Cari&#8230;"
+
+#: bb-includes/classes.php:794
+msgid "Forum&#8230;"
+msgstr "Forum&#8230;"
+
+#: bb-includes/classes.php:795
+msgid "Any"
+msgstr "Apapun"
+
+#: bb-includes/classes.php:801
+msgid "Tag&#8230;"
+msgstr "Tag&#8230;"
+
+#: bb-includes/classes.php:808
+msgid "Topic Author&#8230;"
+msgstr "Penulis Topik&#8230;"
+
+#: bb-includes/classes.php:815
+msgid "Post Author&#8230;"
+msgstr "Penulis Tulisan&#8230;"
+
+#: bb-includes/classes.php:820
+#: bb-includes/classes.php:847
+msgid "All"
+msgstr "Semua"
+
+#: bb-includes/classes.php:823
+msgid "Topic Status&#8230;"
+msgstr "Status Topik&#8230;"
+
+#: bb-includes/classes.php:834
+msgid "Post Status&#8230;"
+msgstr "Status Tulisan&#8230;"
+
+#: bb-includes/classes.php:845
+msgid "Open?&#8230;"
+msgstr "Buka?&#8230;"
+
+#: bb-includes/classes.php:858
+msgid "Title&#8230;"
+msgstr "Judul&#8230;"
+
+#: bb-includes/classes.php:886
+msgid "Not a valid directory"
+msgstr "Bukan sebuah direktori yang valid"
+
+#: bb-includes/classes.php:892
+msgid "Invalid arguments"
+msgstr "Argumen yang tidak valid"
+
+#: bb-includes/default-filters.php:81
+msgid "Topics with no replies"
+msgstr "Topik tanpa balasan"
+
+#: bb-includes/default-filters.php:82
+msgid "Topics with no tags"
+msgstr "Topik tanpa tag"
+
+#: bb-includes/formatting-functions.php:269
+#, php-format
+msgid "[closed] %s"
+msgstr "[ditutup] %s"
+
+#: bb-includes/functions.php:982
+msgid "You've been blocked.  If you think a mistake has been made, contact this site's administrator."
+msgstr "Anda telah diblokir. Jika Anda pikir terjadi suatu kesalahan, hubungi administrator situs ini."
+
+#: bb-includes/functions.php:1492
+msgid "year"
+msgstr "tahun"
+
+#: bb-includes/functions.php:1492
+msgid "years"
+msgstr "tahun"
+
+#: bb-includes/functions.php:1493
+msgid "month"
+msgstr "bulan"
+
+#: bb-includes/functions.php:1493
+msgid "months"
+msgstr "bulan"
+
+#: bb-includes/functions.php:1494
+msgid "week"
+msgstr "minggu"
+
+#: bb-includes/functions.php:1494
+msgid "weeks"
+msgstr "minggu"
+
+#: bb-includes/functions.php:1495
+msgid "day"
+msgstr "hari"
+
+#: bb-includes/functions.php:1495
+msgid "days"
+msgstr "hari"
+
+#: bb-includes/functions.php:1496
+msgid "hour"
+msgstr "jam"
+
+#: bb-includes/functions.php:1496
+msgid "hours"
+msgstr "jam"
+
+#: bb-includes/functions.php:1497
+msgid "minute"
+msgstr "menit"
+
+#: bb-includes/functions.php:1497
+msgid "minutes"
+msgstr "menit"
+
+#: bb-includes/functions.php:1498
+msgid "second"
+msgstr "detik"
+
+#: bb-includes/functions.php:1498
+msgid "seconds"
+msgstr "detik"
+
+#: bb-includes/functions.php:1512
+#, php-format
+msgid "%1$d %2$s"
+msgstr "%1$d %2$s"
+
+#: bb-includes/functions.php:1519
+#, php-format
+msgid ", %1$d %2$s"
+msgstr ", %1$d %2$s"
+
+#: bb-includes/functions.php:1620
+msgid "User not found."
+msgstr "Pengguna tidak ditemukan."
+
+#: bb-includes/functions.php:1689
+msgid "REQUEST_URI"
+msgstr "REQUEST_URI"
+
+#: bb-includes/functions.php:1691
+msgid "should be"
+msgstr "seharusnya"
+
+#: bb-includes/functions.php:1693
+msgid "full permalink"
+msgstr "permalink penuh"
+
+#: bb-includes/functions.php:1695
+msgid "PATH_INFO"
+msgstr "PATH_INFO"
+
+#: bb-includes/functions.php:1717
+#: bb-templates/kakumei/favorites.php:3
+msgid "Favorites"
+msgstr "Favorit"
+
+#: bb-includes/functions.php:1768
+msgid "Website"
+msgstr "Situs web"
+
+#: bb-includes/functions.php:1768
+msgid "Location"
+msgstr "Lokasi"
+
+#: bb-includes/functions.php:1768
+msgid "Occupation"
+msgstr "Pekerjaan"
+
+#: bb-includes/functions.php:1768
+msgid "Interests"
+msgstr "Minat"
+
+#: bb-includes/functions.php:1776
+msgid "Custom Title"
+msgstr "Judul Suai"
+
+#: bb-includes/functions.php:1783
+msgid "Ignore the 30 second post throttling limit"
+msgstr "Hiraukan 30 detik batas mengirim tulisan."
+
+#: bb-includes/functions.php:1874
+msgid "bbPress Confirmation"
+msgstr "Konfirmasi bbPress"
+
+#: bb-includes/functions.php:1889
+#: bb-includes/functions.php:1891
+msgid "No"
+msgstr "Tidak"
+
+#: bb-includes/functions.php:1889
+#: bb-includes/functions.php:1891
+msgid "Yes"
+msgstr "Ya"
+
+#: bb-includes/functions.php:1929
+msgid "bbPress &rsaquo; Error"
+msgstr "bbPress &rsaquo; Galat"
+
+#: bb-includes/functions.php:1934
+#, php-format
+msgid "Back to <a href=\"%s\">%s</a>."
+msgstr "Kembali ke <a href=\"%s\">%s</a>."
+
+#: bb-includes/functions.php:1946
+msgid "Are you sure you want to submit this post?"
+msgstr "Apakah Anda yakin ingin mengirimkan tulisan ini?"
+
+#: bb-includes/functions.php:1947
+msgid "Are you sure you want to edit this post?"
+msgstr "Apakah Anda yakin ingin menyunting tulisan ini?"
+
+#: bb-includes/functions.php:1948
+msgid "Are you sure you want to delete this post?"
+msgstr "Apakah Anda yakin ingin menghapus tulisan ini?"
+
+#: bb-includes/functions.php:1950
+msgid "Are you sure you want to create this topic?"
+msgstr "Apakah Anda yakin ingin menciptakan topik ini?"
+
+#: bb-includes/functions.php:1951
+msgid "Are you sure you want to change the resolution status of this topic?"
+msgstr "Apakah Anda yakin ingin mengubah status resolusi topik ini?"
+
+#: bb-includes/functions.php:1952
+msgid "Are you sure you want to delete this topic?"
+msgstr "Apakah Anda yakin ingin menghapus topik ini?"
+
+#: bb-includes/functions.php:1953
+msgid "Are you sure you want to change the status of this topic?"
+msgstr "Apakah Anda yakin ingin mengubah status topik ini?"
+
+#: bb-includes/functions.php:1954
+msgid "Are you sure you want to change the sticky status of this topic?"
+msgstr "Apakah Anda yakin ingin mengganti status ......... untuk topik ini?"
+
+#: bb-includes/functions.php:1955
+msgid "Are you sure you want to move this topic?"
+msgstr "Apakah Anda yakin ingin memindahkan topik ini?"
+
+#: bb-includes/functions.php:1957
+msgid "Are you sure you want to add this tag to this topic?"
+msgstr "Apakah Anda yakin ingin menambahkan tag tersebut ke topik ini?"
+
+#: bb-includes/functions.php:1958
+msgid "Are you sure you want to rename this tag?"
+msgstr "Apakah Anda yakin ingin mengubah nama tag ini?"
+
+#: bb-includes/functions.php:1959
+msgid "Are you sure you want to submit these tags?"
+msgstr "Apakah Anda yakin ingin mengirim tag-tag ini?"
+
+#: bb-includes/functions.php:1960
+msgid "Are you sure you want to destroy this tag?"
+msgstr "Apakah Anda yakin ingin menghancurkan tag ini?"
+
+#: bb-includes/functions.php:1961
+msgid "Are you sure you want to remove this tag from this topic?"
+msgstr "Apakah Anda yakin ingin menyingkirkan tag tersebut dari topik ini?"
+
+#: bb-includes/functions.php:1963
+msgid "Are you sure you want to toggle your favorite status for this topic?"
+msgstr "Apakah Anda yakin ingin mengganti status favorit Anda untuk topik ini?"
+
+#: bb-includes/functions.php:1965
+msgid "Are you sure you want to edit this user's profile?"
+msgstr "Apakah Anda yakin ingin menyunting profil pengguna ini?"
+
+#: bb-includes/functions.php:1967
+msgid "Are you sure you want to add this forum?"
+msgstr "Apakah Anda yakin ingin menambahkan forum ini?"
+
+#: bb-includes/functions.php:1968
+msgid "Are you sure you want to update your forums?"
+msgstr "Apakah Anda yakin ingin memperbarui forum Anda?"
+
+#: bb-includes/functions.php:1969
+msgid "Are you sure you want to delete that forum?"
+msgstr "Apakah Anda yakin ingin menghapus forum itu?"
+
+#: bb-includes/functions.php:1971
+msgid "Are you sure you want to recount these items?"
+msgstr "Apakah Anda yakin ingin menghitung ulang butir-butir ini?"
+
+#: bb-includes/functions.php:1973
+msgid "Are you sure you want to switch themes?"
+msgstr "Apakah Anda yakin ingin mengganti tema?"
+
+#: bb-includes/functions.php:1988
+msgid "Are you sure you want to do this?"
+msgstr "Apakah Anda yakin ingin melakukan ini?"
+
+#: bb-includes/functions.php:2088
+#: bb-includes/functions.php:2157
+msgid "Your search term was too short"
+msgstr "Istilah pencarian Anda terlalu pendek"
+
+#: bb-includes/functions.php:2134
+msgid "Your query parameters are invalid"
+msgstr "Parameter kueri Anda tidak valid"
+
+#: bb-includes/js/list-manipulation-js.php:3
+#, php-format
+msgid "Are you sure you want to delete this %s?"
+msgstr "Apakah Anda yakin ingin menghapus %s ini?"
+
+#: bb-includes/js/list-manipulation-js.php:50
+msgid "Jump to new item"
+msgstr "Lompat ke butir baru"
+
+#: bb-includes/js/topic-js.php:9
+#, php-format
+msgid "Are you sure you wanna delete this post by \"' + %s + '\"?"
+msgstr "Apakah Anda yakin ingin menghapus tulisan oleh \"' + %s + '\" ini?"
+
+#: bb-includes/js/topic-js.php:40
+#, php-format
+msgid "Are you sure you want to remove the \"' + %s + '\" tag?"
+msgstr "Apakah Anda yakin ingin menyingkirkan tag \"' + %s + '\"?"
+
+#: bb-includes/js/topic-js.php:68
+#, php-format
+msgid "This topic is one of your <a href=' + %s + '>favorites</a>"
+msgstr "Topik ini ialah salah satu <a href=' + %s + '>favorit</a> Anda"
+
+#: bb-includes/js/topic-js.php:70
+#: bb-includes/template-functions.php:1740
+msgid "Add this topic to your favorites"
+msgstr "Tambahkan topik ini ke favorit Anda"
+
+#: bb-includes/js/wp-ajax-js.php:57
+msgid "You don't have permission to do that."
+msgstr "Anda tidak memiliki izin untuk melakukannya"
+
+#: bb-includes/js/wp-ajax-js.php:60
+msgid "Something strange happened.  Try refreshing the page."
+msgstr "Sesuatu yang janggal terjadi. Coba muat ulang halaman ini."
+
+#: bb-includes/js/wp-ajax-js.php:84
+msgid "Slow down, I'm still sending your data!"
+msgstr "Pelan-pelan, Saya sedang mengirimkan data Anda!"
+
+#: bb-includes/locale.php:20
+#: bb-includes/locale.php:30
+#: bb-includes/locale.php:43
+msgid "Sunday"
+msgstr "Minggu"
+
+#: bb-includes/locale.php:21
+#: bb-includes/locale.php:31
+#: bb-includes/locale.php:44
+msgid "Monday"
+msgstr "Senin"
+
+#: bb-includes/locale.php:22
+#: bb-includes/locale.php:32
+#: bb-includes/locale.php:45
+msgid "Tuesday"
+msgstr "Selasa"
+
+#: bb-includes/locale.php:23
+#: bb-includes/locale.php:33
+#: bb-includes/locale.php:46
+msgid "Wednesday"
+msgstr "Rabu"
+
+#: bb-includes/locale.php:24
+#: bb-includes/locale.php:34
+#: bb-includes/locale.php:47
+msgid "Thursday"
+msgstr "Kamis"
+
+#: bb-includes/locale.php:25
+#: bb-includes/locale.php:35
+#: bb-includes/locale.php:48
+msgid "Friday"
+msgstr "Jumat"
+
+#: bb-includes/locale.php:26
+#: bb-includes/locale.php:36
+#: bb-includes/locale.php:49
+msgid "Saturday"
+msgstr "Sabtu"
+
+#: bb-includes/locale.php:30
+msgid "S_Sunday_initial"
+msgstr "M"
+
+#: bb-includes/locale.php:31
+msgid "M_Monday_initial"
+msgstr "S"
+
+#: bb-includes/locale.php:32
+msgid "T_Tuesday_initial"
+msgstr "S"
+
+#: bb-includes/locale.php:33
+msgid "W_Wednesday_initial"
+msgstr "R"
+
+#: bb-includes/locale.php:34
+msgid "T_Thursday_initial"
+msgstr "K"
+
+#: bb-includes/locale.php:35
+msgid "F_Friday_initial"
+msgstr "J"
+
+#: bb-includes/locale.php:36
+msgid "S_Saturday_initial"
+msgstr "S"
+
+#: bb-includes/locale.php:43
+msgid "Sun"
+msgstr "Min"
+
+#: bb-includes/locale.php:44
+msgid "Mon"
+msgstr "Sen"
+
+#: bb-includes/locale.php:45
+msgid "Tue"
+msgstr "Sel"
+
+#: bb-includes/locale.php:46
+msgid "Wed"
+msgstr "Rab"
+
+#: bb-includes/locale.php:47
+msgid "Thu"
+msgstr "Kam"
+
+#: bb-includes/locale.php:48
+msgid "Fri"
+msgstr "Jum"
+
+#: bb-includes/locale.php:49
+msgid "Sat"
+msgstr "Sab"
+
+#: bb-includes/locale.php:52
+#: bb-includes/locale.php:67
+msgid "January"
+msgstr "Januari"
+
+#: bb-includes/locale.php:53
+#: bb-includes/locale.php:68
+msgid "February"
+msgstr "Februari"
+
+#: bb-includes/locale.php:54
+#: bb-includes/locale.php:69
+msgid "March"
+msgstr "Maret"
+
+#: bb-includes/locale.php:55
+#: bb-includes/locale.php:70
+msgid "April"
+msgstr "April"
+
+#: bb-includes/locale.php:56
+#: bb-includes/locale.php:71
+msgid "May"
+msgstr "Mei"
+
+#: bb-includes/locale.php:57
+#: bb-includes/locale.php:72
+msgid "June"
+msgstr "Juni"
+
+#: bb-includes/locale.php:58
+#: bb-includes/locale.php:73
+msgid "July"
+msgstr "Juli"
+
+#: bb-includes/locale.php:59
+#: bb-includes/locale.php:74
+msgid "August"
+msgstr "Agustus"
+
+#: bb-includes/locale.php:60
+#: bb-includes/locale.php:75
+msgid "September"
+msgstr "September"
+
+#: bb-includes/locale.php:61
+#: bb-includes/locale.php:76
+msgid "October"
+msgstr "Oktober"
+
+#: bb-includes/locale.php:62
+#: bb-includes/locale.php:77
+msgid "November"
+msgstr "Nopember"
+
+#: bb-includes/locale.php:63
+#: bb-includes/locale.php:78
+msgid "December"
+msgstr "Desember"
+
+#: bb-includes/locale.php:67
+msgid "Jan_January_abbreviation"
+msgstr "Jan"
+
+#: bb-includes/locale.php:68
+msgid "Feb_February_abbreviation"
+msgstr "Feb"
+
+#: bb-includes/locale.php:69
+msgid "Mar_March_abbreviation"
+msgstr "Mar"
+
+#: bb-includes/locale.php:70
+msgid "Apr_April_abbreviation"
+msgstr "Apr"
+
+#: bb-includes/locale.php:71
+msgid "May_May_abbreviation"
+msgstr "Mei"
+
+#: bb-includes/locale.php:72
+msgid "Jun_June_abbreviation"
+msgstr "Jun"
+
+#: bb-includes/locale.php:73
+msgid "Jul_July_abbreviation"
+msgstr "Jul"
+
+#: bb-includes/locale.php:74
+msgid "Aug_August_abbreviation"
+msgstr "Ags"
+
+#: bb-includes/locale.php:75
+msgid "Sep_September_abbreviation"
+msgstr "Sep"
+
+#: bb-includes/locale.php:76
+msgid "Oct_October_abbreviation"
+msgstr "Okt"
+
+#: bb-includes/locale.php:77
+msgid "Nov_November_abbreviation"
+msgstr "Nop"
+
+#: bb-includes/locale.php:78
+msgid "Dec_December_abbreviation"
+msgstr "Des"
+
+#: bb-includes/locale.php:85
+msgid "am"
+msgstr "am"
+
+#: bb-includes/locale.php:86
+msgid "pm"
+msgstr "pm"
+
+#: bb-includes/locale.php:87
+msgid "AM"
+msgstr "AM"
+
+#: bb-includes/locale.php:88
+msgid "PM"
+msgstr "PM"
+
+#: bb-includes/locale.php:93
+msgid "number_format_decimals"
+msgstr "0"
+
+#: bb-includes/locale.php:96
+msgid "number_format_decimal_point"
+msgstr ","
+
+#: bb-includes/locale.php:99
+msgid "number_format_thousands_sep"
+msgstr "."
+
+#: bb-includes/registration-functions.php:52
+#, php-format
+msgid ""
+"If you wanted to reset your password, you may do so by visiting the following address:\n"
+"\n"
+"%s\n"
+"\n"
+"If you don't want to reset your password, just ignore this email. Thanks!"
+msgstr ""
+"Jika Anda ingin menentukan ulang kata sandi Anda, Anda dapat melakukannya dengan mengunjungi alamat berikut:\n"
+"\n"
+"%s\n"
+"\n"
+"Jika Anda tidak ingin menentukan ulang kata sandi Anda, cukup hiraukan email ini. Terimakasih!"
+
+#: bb-includes/registration-functions.php:58
+#: bb-templates/kakumei/password-reset.php:5
+msgid "Password Reset"
+msgstr "Tentukan Ulang Kata Sandi"
+
+#: bb-includes/registration-functions.php:65
+#: bb-includes/registration-functions.php:67
+#: bb-includes/registration-functions.php:78
+msgid "Key not found."
+msgstr "Kunci tidak ditemukan."
+
+#: bb-includes/registration-functions.php:72
+msgid "You are not allowed to change your password."
+msgstr "Anda tidak diizinkan untuk mengubah kata sandi Anda."
+
+#: bb-includes/registration-functions.php:112
+#, php-format
+msgid ""
+"Your username is: %1$s \n"
+"Your password is: %2$s \n"
+"You can now log in: %3$s \n"
+"\n"
+"Enjoy!"
+msgstr ""
+"Nama pengguna Anda adalah: %1$s \n"
+"Kata sandi Anda adalah: %2$s \n"
+"Anda sekarang dapat masuk log: %3$s \n"
+"\n"
+"Selamat Menikmati!"
+
+#: bb-includes/script-loader.php:23
+msgid "drag"
+msgstr "seret"
+
+#: bb-includes/script-loader.php:24
+msgid "Save Forum Order &#187;"
+msgstr "Simpan Urutan Forum &#187;"
+
+#: bb-includes/template-functions.php:101
+#: bb-templates/kakumei/profile.php:3
+msgid "Profile"
+msgstr "Profil"
+
+#: bb-includes/template-functions.php:138
+msgid "Reply"
+msgstr "Balas"
+
+#: bb-includes/template-functions.php:140
+msgid "New Topic in this Forum"
+msgstr "Topik Baru dalam Forum Ini"
+
+#: bb-includes/template-functions.php:142
+msgid "Add New Topic"
+msgstr "Tambahkan Topik Baru"
+
+#: bb-includes/template-functions.php:167
+#, php-format
+msgid "You must <a href=\"%s\">log in</a> to post."
+msgstr "Anda harus <a href=\"%s\">masuk log</a> untuk mengirim tulisan."
+
+#: bb-includes/template-functions.php:304
+#: bb-templates/kakumei/tag-single.php:3
+#: bb-templates/kakumei/tags.php:3
+msgid "Tags"
+msgstr "Tag"
+
+#: bb-includes/template-functions.php:318
+#, php-format
+msgid "Topic: %s"
+msgstr "Topik: %s"
+
+#: bb-includes/template-functions.php:320
+#, php-format
+msgid "Tag: %s"
+msgstr "Tag: %s"
+
+#: bb-includes/template-functions.php:322
+#, php-format
+msgid "Forum: %s"
+msgstr "Forum: %s"
+
+#: bb-includes/template-functions.php:324
+#: bb-templates/kakumei/search.php:11
+msgid "Recent Posts"
+msgstr "Tulisan Terakhir"
+
+#: bb-includes/template-functions.php:758
+msgid "Are you sure you wanna delete that?"
+msgstr "Apakah Anda yakin ingin menghapus itu?"
+
+#: bb-includes/template-functions.php:758
+msgid "Delete entire topic"
+msgstr "Hapus seluruh topik"
+
+#: bb-includes/template-functions.php:760
+#: bb-includes/template-functions.php:1030
+msgid "Are you sure you wanna undelete that?"
+msgstr "Apakah Anda yakin ingin mengembalikan butir yang sudah dihapus itu?"
+
+#: bb-includes/template-functions.php:760
+msgid "Undelete entire topic"
+msgstr "Kembalikan seluruh topik yang sudah terhapus"
+
+#: bb-includes/template-functions.php:773
+msgid "Close topic"
+msgstr "Tutup topik"
+
+#: bb-includes/template-functions.php:773
+msgid "Open topic"
+msgstr "Buka topik"
+
+#: bb-includes/template-functions.php:788
+msgid "Unstick topic"
+msgstr "Cabut topik tempelan"
+
+#: bb-includes/template-functions.php:790
+msgid "Stick topic"
+msgstr "Tempel topik"
+
+#: bb-includes/template-functions.php:790
+msgid "to front"
+msgstr "ke depan"
+
+#: bb-includes/template-functions.php:797
+msgid "View normal posts"
+msgstr "Lihat tulisan normal"
+
+#: bb-includes/template-functions.php:799
+msgid "View all posts"
+msgstr "Lihat seluruh tulisan"
+
+#: bb-includes/template-functions.php:816
+#, php-format
+msgid "+%d more"
+msgstr "+%d lagi"
+
+#: bb-includes/template-functions.php:841
+msgid "Move this topic to the selected forum:"
+msgstr "Pindahkan topik ini ke forum yang dipilih:"
+
+#: bb-includes/template-functions.php:845
+msgid "Move"
+msgstr "Pindahkan"
+
+#: bb-includes/template-functions.php:867
+msgid "Add New &raquo;"
+msgstr "Tambahkan Baru &raquo;"
+
+#: bb-includes/template-functions.php:956
+msgid "Anonymous"
+msgstr "Anonim"
+
+#: bb-includes/template-functions.php:1030
+msgid "Undelete"
+msgstr "Tidak terhapus"
+
+#: bb-includes/template-functions.php:1049
+#: bb-includes/template-functions.php:1064
+msgid "Unregistered"
+msgstr "Tidak terdaftar"
+
+#: bb-includes/template-functions.php:1140
+msgid "Delete User &raquo;"
+msgstr "Hapus Pengguna &raquo;"
+
+#: bb-includes/template-functions.php:1141
+msgid "Are you sure you want to delete this user?"
+msgstr "Apakah Anda yakin ingin menghapus pengguna ini?"
+
+#: bb-includes/template-functions.php:1237
+msgid "Member Since"
+msgstr "Anggota Sejak"
+
+#: bb-includes/template-functions.php:1238
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: bb-includes/template-functions.php:1274
+#: bb-templates/kakumei/register.php:31
+msgid "<br />There was a problem with your email; please check it."
+msgstr "<br />Ada masalah dengan email Anda, mohon diperiksa."
+
+#: bb-includes/template-functions.php:1276
+#: bb-includes/template-functions.php:1335
+#: bb-templates/kakumei/register.php:33
+msgid "<br />The above field is required."
+msgstr "<br />Ruas di atas wajib diisi."
+
+#: bb-includes/template-functions.php:1283
+#: bb-includes/template-functions.php:1340
+#: bb-templates/kakumei/register.php:39
+msgid "These items are <span class=\"required\">required</span>."
+msgstr "Butir ini <span class=\"required\">wajib diisi</span>."
+
+#: bb-includes/template-functions.php:1310
+msgid "User Type:"
+msgstr "Tipe Pengguna:"
+
+#: bb-includes/template-functions.php:1319
+msgid "Allow this user to:"
+msgstr "Izinkan pengguna ini untuk:"
+
+#: bb-includes/template-functions.php:1342
+msgid ""
+"Inactive users can login and look around but not do anything.\n"
+"Blocked users just see a simple error message when they visit the site.</p>\n"
+"<p><strong>Note</strong>: Blocking a user does <em>not</em> block any IP addresses."
+msgstr ""
+"Pengguna yang nonaktif dapat masuk log dan melihat-lihat namun tidak dapat melakukan apapun.\n"
+"Pengguna yang diblokir hanya melihat pesan galat sederhana ketika mereka mengunjungi situs.</p>\n"
+"<p><strong>Catatan</strong>: Memblokir seorang pengguna <em>tidak</em> memblokir IP address sama sekali."
+
+#: bb-includes/template-functions.php:1356
+msgid "Log out"
+msgstr "Keluar log"
+
+#: bb-includes/template-functions.php:1375
+msgid "Admin"
+msgstr "Admin"
+
+#: bb-includes/template-functions.php:1388
+msgid "View your profile"
+msgstr "Lihat profil Anda"
+
+#: bb-includes/template-functions.php:1533
+msgid "Rename tag:"
+msgstr "Ganti nama tag:"
+
+#: bb-includes/template-functions.php:1537
+msgid "Rename"
+msgstr "Ganti nama"
+
+#: bb-includes/template-functions.php:1541
+msgid "Merge this tag into:"
+msgstr "Leburkan tag ini ke dalam:"
+
+#: bb-includes/template-functions.php:1545
+msgid "Merge"
+msgstr "Lebur"
+
+#: bb-includes/template-functions.php:1546
+#, php-format
+msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified? This is permanent and cannot be undone."
+msgstr "Apakah Anda yakin ingin meleburkan tag \"%s\" tag ke dalam tag yang Anda tentukan? Hal ini bersifat permanen dan tidak dapat dikembalikan."
+
+#: bb-includes/template-functions.php:1550
+msgid "Destroy tag:"
+msgstr "Hancurkan tag:"
+
+#: bb-includes/template-functions.php:1553
+msgid "Destroy"
+msgstr "Hancurkan"
+
+#: bb-includes/template-functions.php:1554
+#, php-format
+msgid "Are you sure you want to destroy the \"%s\" tag? This is permanent and cannot be undone."
+msgstr "Apakah Anda yakin ingin menghancurkan tag \"%s\"? Hal ini bersifat permanen dan tidak dapat dikembalikan."
+
+#: bb-includes/template-functions.php:1569
+msgid "Remove this tag"
+msgstr "Singkirkan tag ini"
+
+#: bb-includes/template-functions.php:1649
+#, php-format
+msgid "%d topics"
+msgstr "%d topik"
+
+#: bb-includes/template-functions.php:1710
+msgid "- None -"
+msgstr "- Tak Ada -"
+
+#: bb-includes/template-functions.php:1740
+msgid " (%?%)"
+msgstr " (%?%)"
+
+#: bb-includes/template-functions.php:1742
+msgid "This topic is one of your %favorites% ["
+msgstr "Topik ini merupakan salah satu %favorites% ["
+
+#: bb-includes/template-functions.php:1742
+msgid "x"
+msgstr "x"
+
+#: bb-includes/template-functions.php:1742
+msgid "]"
+msgstr "]"
+
+#: bb-includes/wp-functions.php:889
+msgid "&laquo; Previous"
+msgstr "&laquo; Sebelumnya"
+
+#: bb-includes/wp-functions.php:890
+msgid "Next &raquo;"
+msgstr "Berikutnya &raquo;"
+
+#: bb-post.php:9
+msgid "Slow down; you move too fast."
+msgstr "Pelan-pelan; Anda bergerak terlalu cepat."
+
+#: bb-post.php:12
+msgid "You need to actually submit some content!"
+msgstr "Anda perlu mengirim sesuatu yang benar-benar berisi!"
+
+#: bb-post.php:16
+#: bb-post.php:37
+msgid "You are not allowed to post.  Are you logged in?"
+msgstr "Anda tidak diizinkan untuk mengirim tulisan. Apakah Anda sudah masuk log?"
+
+#: bb-post.php:19
+msgid "You are not allowed to write new topics."
+msgstr "Anda tidak diizinkan untuk menulis topik baru."
+
+#: bb-post.php:27
+msgid "Please enter a topic title"
+msgstr "Silakan masukkan sebuah judul topik"
+
+#: bb-post.php:40
+msgid "This topic has been closed"
+msgstr "Topik ini telah ditutup"
+
+#: bb-settings.php:139
+#, php-format
+msgid "Doesn&#8217;t look like you&#8217;ve installed bbPress yet, <a href=\"%s\">go here</a>."
+msgstr "Sepertinya Anda belum menginstal bbPress. <a href=\"%s\">Pergi ke sini</a>."
+
+#: bb-templates/kakumei/edit-form.php:4
+msgid "Topic:"
+msgstr "Topik:"
+
+#: bb-templates/kakumei/edit-form.php:10
+#: bb-templates/kakumei/post-form.php:9
+msgid "Post:"
+msgstr "Tulisan:"
+
+#: bb-templates/kakumei/edit-form.php:15
+msgid "Edit Post &raquo;"
+msgstr "Sunting Tulisan &raquo;"
+
+#: bb-templates/kakumei/edit-form.php:19
+#: bb-templates/kakumei/post-form.php:31
+msgid "Allowed markup:"
+msgstr "Markah yang diizinkan:"
+
+#: bb-templates/kakumei/edit-form.php:19
+#: bb-templates/kakumei/post-form.php:31
+msgid "Put code in between <code>`backticks`</code>."
+msgstr "Taruh kode di antara <code>`backtick`</code>."
+
+#: bb-templates/kakumei/edit-post.php:2
+msgid "Edit Post"
+msgstr "Sunting Tulisan"
+
+#: bb-templates/kakumei/favorites.php:5
+msgid "Current Favorites"
+msgstr "Favorit Saat Ini"
+
+#: bb-templates/kakumei/favorites.php:7
+msgid ""
+"Your Favorites allow you to create a custom <abbr title=\"Really Simple Syndication\">RSS</abbr> feed which pulls recent replies to the topics you specify.\n"
+"To add topics to your list of favorites, just click the \"Add to Favorites\" link found on that topic&#8217;s page."
+msgstr ""
+"\"Favorit Anda\" memungkinkan Anda untuk menciptakan umpan <abbr title=\"Really Simple Syndication\">RSS</abbr> suai yang menarik balasan-balasan terakhir dari topik yang Anda tentukan.\n"
+"Untuk menambah topik ke senarai favorit, cukup klik taut \"Tambahkan ke Favorit\" yang ditemukan pada halaman topik yang bersangkutan."
+
+#: bb-templates/kakumei/favorites.php:11
+#, php-format
+msgid "Subscribe to your favorites&#8217; <a href=\"%s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr "Berlangganan umpan <a href=\"%s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> favorit Anda</a>."
+
+#: bb-templates/kakumei/favorites.php:21
+msgid "Remove"
+msgstr "Singkirkan"
+
+#: bb-templates/kakumei/favorites.php:40
+msgid "You currently have no favorites."
+msgstr "Anda saat ini tidak memiliki favorit."
+
+#: bb-templates/kakumei/favorites.php:44
+msgid "currently has no favorites."
+msgstr "saat ini tidak ada favorit."
+
+#: bb-templates/kakumei/footer.php:11
+#, php-format
+msgid "%1$s is proudly powered by <a href=\"%2$s\">bbPress</a>."
+msgstr "%1$s dengan bangga didukung oleh <a href=\"%2$s\">bbPress</a>."
+
+#: bb-templates/kakumei/forum.php:17
+#: bb-templates/kakumei/front-page.php:25
+#: bb-templates/kakumei/view.php:17
+msgid "Sticky:"
+msgstr "Tempelan:"
+
+#: bb-templates/kakumei/forum.php:33
+msgid "RSS feed for this forum"
+msgstr "Umpan RSS utnuk forum ini"
+
+#: bb-templates/kakumei/forum.php:40
+msgid "Subforums"
+msgstr "Subforum"
+
+#: bb-templates/kakumei/forum.php:44
+#: bb-templates/kakumei/front-page.php:48
+msgid "Main Theme"
+msgstr "Tema Utama"
+
+#: bb-templates/kakumei/front-page.php:6
+msgid "Hot Tags"
+msgstr "Tag Panas"
+
+#: bb-templates/kakumei/front-page.php:13
+msgid "Latest Discussions"
+msgstr "Diskusi Terakhir"
+
+#: bb-templates/kakumei/front-page.php:64
+msgid "Views"
+msgstr "Tampilan"
+
+#: bb-templates/kakumei/logged-in.php:2
+#, php-format
+msgid "Welcome, %1$s!"
+msgstr "Selamat datang, %1$s!"
+
+#: bb-templates/kakumei/login-form.php:2
+#, php-format
+msgid "<a href=\"%1$s\">Register</a> or log in"
+msgstr "<a href=\"%1$s\">Daftar</a> atau masuk log"
+
+#: bb-templates/kakumei/login-form.php:7
+#: bb-templates/kakumei/login.php:16
+#: bb-templates/kakumei/login.php:27
+#: bb-templates/kakumei/login.php:36
+msgid "Password:"
+msgstr "Kata sandi:"
+
+#: bb-templates/kakumei/login-form.php:11
+#: bb-templates/kakumei/login.php:44
+msgid "Log in &raquo;"
+msgstr "Masuk log &raquo;"
+
+#: bb-templates/kakumei/login.php:3
+#: bb-templates/kakumei/login.php:5
+#: bb-templates/kakumei/password-reset.php:3
+msgid "Log in"
+msgstr "Masuk log"
+
+#: bb-templates/kakumei/login.php:5
+msgid "Log in Failed"
+msgstr "Gagal Masuk Log"
+
+#: bb-templates/kakumei/login.php:18
+msgid "Incorrect password"
+msgstr "Kata sandi tidak benar"
+
+#: bb-templates/kakumei/login.php:24
+msgid "This username does not exist."
+msgstr "Nama pengguna ini tidak ada."
+
+#: bb-templates/kakumei/login.php:24
+msgid "Register it?"
+msgstr "Daftarkan?"
+
+#: bb-templates/kakumei/login.php:44
+msgid "Try Again &raquo;"
+msgstr "Coba Lagi &raquo;"
+
+#: bb-templates/kakumei/login.php:54
+msgid "If you would like to recover the password for this account, you may use the following button to start the recovery process:"
+msgstr "Jika Anda ingin memperoleh kembali kata sandi untuk akun ini, Anda dapat menggunakan tombol berikut untuk memulai proses pengembalian:"
+
+#: bb-templates/kakumei/login.php:56
+msgid "Recover Password &raquo;"
+msgstr "Dapatkan Kembali Kata Sandi &raquo;"
+
+#: bb-templates/kakumei/password-reset.php:8
+msgid "Your password has been reset and a new one has been mailed to you."
+msgstr "Kata sandi Anda telah ditentukan ulang dan yang baru telah dikirimkan ke Anda melalui email."
+
+#: bb-templates/kakumei/password-reset.php:10
+msgid "An email has been sent to the address we have on file for you. If you don&#8217;t get anything with a few minutes, or your email has changed, you may want to get in touch with the webmaster or forum administrator here."
+msgstr "Sebuah email telah dikirim ke alamat yang kami miliki pada berkas Anda. Jika Anda tidak memperoleh apapun dalam beberapa menit, atau email Anda telah berubah, Anda kiranya dapat menghubungi webmaster atau administrator forum di sini."
+
+#: bb-templates/kakumei/post-form.php:3
+msgid "Topic title: (be brief and descriptive)"
+msgstr "Judul topik: (singkat dan jelas)"
+
+#: bb-templates/kakumei/post-form.php:15
+#, php-format
+msgid "Enter a few words (called <a href=\"%s\">tags</a>) separated by commas to help someone find your topic:"
+msgstr "Masukkan beberapa kata (disebut <a href=\"%s\">tag</a>) dipisahkan dengan tanda koma untuk membantu seseorang menemukan topik Anda:"
+
+#: bb-templates/kakumei/post-form.php:22
+msgid "Pick a section:"
+msgstr "Pilih sebuah seksi:"
+
+#: bb-templates/kakumei/post-form.php:28
+msgid "Send Post &raquo;"
+msgstr "Kirim Tulisan &raquo;"
+
+#: bb-templates/kakumei/post.php:8
+#, php-format
+msgid "Posted %s ago"
+msgstr "Dikirim %s yang lalu"
+
+#: bb-templates/kakumei/profile-edit.php:3
+msgid "Edit Profile"
+msgstr "Sunting Profil"
+
+#: bb-templates/kakumei/profile-edit.php:7
+msgid "Profile Info"
+msgstr "Info Profil"
+
+#: bb-templates/kakumei/profile-edit.php:13
+msgid "Administration"
+msgstr "Administrasi"
+
+#: bb-templates/kakumei/profile-edit.php:21
+msgid "To change your password, enter a new password twice below:"
+msgstr "Untuk mengubah kata sandi Anda, masukkan sebuah kata sandi baru dua kali di bawah ini:"
+
+#: bb-templates/kakumei/profile-edit.php:24
+msgid "New password:"
+msgstr "Kata sandi baru:"
+
+#: bb-templates/kakumei/profile-edit.php:35
+msgid "Update Profile &raquo;"
+msgstr "Perbarui Profil &raquo;"
+
+#: bb-templates/kakumei/profile.php:8
+msgid "Profile updated"
+msgstr "Profil diperbarui"
+
+#: bb-templates/kakumei/profile.php:8
+msgid "Edit again &raquo;"
+msgstr "Sunting lagi &raquo;"
+
+#: bb-templates/kakumei/profile.php:11
+#, php-format
+msgid "This is how your profile appears to a fellow logged in member, you may <a href=\"%1$s\">edit this information</a>. You can also <a href=\"%2$s\">manage your favorites</a> and subscribe to your favorites&#8217; <a href=\"%3$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>"
+msgstr "Seperti inilah profil Anda ditampilkan ke anggota yang masuk log. Anda dapat <a href=\"%1$s\">menyunting informasi ini</a>. Anda juga dapat <a href=\"%2$s\">mengelola favorit Anda</a> dan berlangganan ke umpan <a href=\"%3$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> favorit Anda</a>"
+
+#: bb-templates/kakumei/profile.php:16
+msgid "User Activity"
+msgstr "Aktivitas Pengguna"
+
+#: bb-templates/kakumei/profile.php:18
+msgid "Recent Replies"
+msgstr "Balasan Baru-Baru Ini"
+
+#: bb-templates/kakumei/profile.php:24
+#, php-format
+msgid "You last replied: %s ago."
+msgstr "Anda terakhir membalas: %s yang lalu."
+
+#: bb-templates/kakumei/profile.php:24
+#, php-format
+msgid "User last replied: %s ago."
+msgstr "Pengguna terakhir membalas: %s yang lalu."
+
+#: bb-templates/kakumei/profile.php:28
+#, php-format
+msgid "Most recent reply: %s ago"
+msgstr "Balasan terbaru: %s yang lalu"
+
+#: bb-templates/kakumei/profile.php:30
+msgid "No replies since."
+msgstr "Tidak ada balasan sejak itu."
+
+#: bb-templates/kakumei/profile.php:36
+msgid "No more replies."
+msgstr "Tidak ada balasan lagi."
+
+#: bb-templates/kakumei/profile.php:38
+msgid "No replies yet."
+msgstr "Belum ada balasan."
+
+#: bb-templates/kakumei/profile.php:43
+msgid "Threads Started"
+msgstr "Ulir yang Dimulai"
+
+#: bb-templates/kakumei/profile.php:49
+#, php-format
+msgid "Started: %s ago"
+msgstr "Dimulai: %s yang lalu"
+
+#: bb-templates/kakumei/profile.php:53
+#, php-format
+msgid "Most recent reply: %s ago."
+msgstr "Balasan terakhir: %s yang lalu."
+
+#: bb-templates/kakumei/profile.php:55
+msgid "No replies."
+msgstr "Tidak ada balasan."
+
+#: bb-templates/kakumei/profile.php:61
+msgid "No more topics posted."
+msgstr "Tidak ada lagi topik yang dikirim."
+
+#: bb-templates/kakumei/profile.php:63
+msgid "No topics posted yet."
+msgstr "Belum ada topik yang dikirim."
+
+#: bb-templates/kakumei/register-success.php:3
+#: bb-templates/kakumei/register.php:3
+msgid "Register"
+msgstr "Daftar"
+
+#: bb-templates/kakumei/register-success.php:5
+msgid "Great!"
+msgstr "Bagus!"
+
+#: bb-templates/kakumei/register-success.php:7
+#, php-format
+msgid "Your registration as <strong>%s</strong> was successful. Within a few minutes you should receive an email with your password."
+msgstr "Pendaftaran Anda sebagai <strong>%s</strong> berhasil. Dalam beberapa menit Anda seharusnya menerima sebuah email dengan kata sandi Anda."
+
+#: bb-templates/kakumei/register.php:5
+msgid "Registration"
+msgstr "Pendaftaran"
+
+#: bb-templates/kakumei/register.php:10
+msgid "Profile Information"
+msgstr "Informasi Profil"
+
+#: bb-templates/kakumei/register.php:11
+msgid "Your password will be emailed to the address you provide."
+msgstr "Kata sandi Anda akan dikirimkan ke alamat email yang Anda sediakan."
+
+#: bb-templates/kakumei/register.php:17
+msgid "Your username was not valid, please try again"
+msgstr "Nama pengguna Anda tidak valid. Silakan coba lagi."
+
+#: bb-templates/kakumei/register.php:21
+msgid "Username<sup>*</sup>:"
+msgstr "Nama pengguna<sup>*</sup>:"
+
+#: bb-templates/kakumei/register.php:45
+msgid "Register &raquo;"
+msgstr "Daftar &raquo;"
+
+#: bb-templates/kakumei/register.php:49
+msgid "You&#8217;re already logged in, why do you need to register?"
+msgstr "Anda sudah masuk log. Mengapa Anda perlu mendaftar?"
+
+#: bb-templates/kakumei/search-form.php:2
+msgid "Search:"
+msgstr "Pencarian:"
+
+#: bb-templates/kakumei/search-form.php:6
+msgid "Search &raquo;"
+msgstr "Cari &raquo;"
+
+#: bb-templates/kakumei/search-form.php:8
+msgid "Search again &raquo;"
+msgstr "Cari kembali &raquo;"
+
+#: bb-templates/kakumei/search.php:3
+msgid "Search"
+msgstr "Pencarian"
+
+#: bb-templates/kakumei/search.php:7
+msgid "Search for"
+msgstr "Pencarian untuk"
+
+#: bb-templates/kakumei/search.php:16
+#: bb-templates/kakumei/search.php:28
+msgid "Posted"
+msgstr "Terkirim"
+
+#: bb-templates/kakumei/search.php:16
+#: bb-templates/kakumei/search.php:28
+msgid "F j, Y, h:i A"
+msgstr "j F Y, H:i"
+
+#: bb-templates/kakumei/search.php:23
+msgid "Relevant posts"
+msgstr "Tulisan yang relevan"
+
+#: bb-templates/kakumei/search.php:35
+msgid "No results found."
+msgstr "Tidak ada hasil yang ditemukan."
+
+#: bb-templates/kakumei/search.php:38
+#, php-format
+msgid "You may also try your <a href=\"http://google.com/search?q=site:%1$s %2$s\">search at Google</a>"
+msgstr "Anda juga dapat mencoba <a href=\"http://google.com/search?q=site:%1$s %2$s\">pencarian di Google</a>"
+
+#: bb-templates/kakumei/stats.php:6
+msgid "Registered Users"
+msgstr "Pengguna yang Terdaftar"
+
+#: bb-templates/kakumei/stats.php:13
+msgid "Most Popular Topics"
+msgstr "Topik Paling Populer"
+
+#: bb-templates/kakumei/tag-form.php:4
+msgid "Add &raquo;"
+msgstr "Tambah &raquo;"
+
+#: bb-templates/kakumei/tag-single.php:5
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> link for this tag."
+msgstr "Taut <abbr title=\"Really Simple Syndication\">RSS</abbr> untuk tag ini."
+
+#: bb-templates/kakumei/tags.php:5
+msgid "This is a collection of tags that are currently popular on the forums."
+msgstr "Ini adalah kumpulan tag yang saat ini populer di forum."
+
+#: bb-templates/kakumei/topic-tags.php:5
+msgid "Tags:"
+msgstr "Tag:"
+
+#: bb-templates/kakumei/topic-tags.php:15
+#, php-format
+msgid "No <a href=\"%s\">tags</a> yet."
+msgstr "Belum ada <a href=\"%s\">tag</a>."
+
+#: bb-templates/kakumei/topic.php:10
+#, php-format
+msgid "Started %1$s ago by %2$s"
+msgstr "Dimulai %1$s yang lalu oleh %2$s"
+
+#: bb-templates/kakumei/topic.php:12
+#, php-format
+msgid "<a href=\"%1$s\">Latest reply</a> from %2$s"
+msgstr "<a href=\"%1$s\">Balasan terakhir</a> dari %2$s"
+
+#: bb-templates/kakumei/topic.php:40
+msgid "RSS feed for this topic"
+msgstr "Umpan RSS untuk topik ini"
+
+#: bb-templates/kakumei/topic.php:48
+msgid "Topic Closed"
+msgstr "Topik Ditutup"
+
+#: bb-templates/kakumei/topic.php:49
+msgid "This topic has been closed to new replies."
+msgstr "Topik ini sudah ditutup untuk balasan baru."
+
+#: favorites.php:7
+msgid "You cannot edit those favorites.  How did you get here?"
+msgstr "Anda tidak dapat menyunting favorit tersebut. Bagaimana Anda sampai di sini?"
+
+#: forum.php:10
+msgid "Forum not found."
+msgstr "Forum tidak ditemukan."
+
+#: rss.php:40
+msgid "User Favorites"
+msgstr "Favorit Pengguna"
+
+#: rss.php:46
+msgid "Tag"
+msgstr "Tag"
+
+#: rss.php:50
+msgid "Forum"
+msgstr "Forum"
+
+#: rss.php:54
+msgid "Last 35 Posts"
+msgstr "35 Tulisan Terakhir"
+
+#: tag-add.php:7
+msgid "You need to be logged in to add a tag."
+msgstr "Anda perlu masuk log untuk menambahkan sebuah tag."
+
+#: tag-add.php:16
+#: topic.php:15
+msgid "Topic not found."
+msgstr "Topik tidak ditemukan."
+
+#: tag-add.php:21
+msgid "The tag was not added.  Either the tag name was invalid or the topic is closed."
+msgstr "Tag tersebut tidak ditambahkan. Entah karena nama tag tersebut tidak valid atau topik tersebut ditutup."
+
+#: tag-remove.php:17
+msgid "Invalid tag or topic."
+msgstr "Tag atau topik yang tidak valid."
+
+#: tag-remove.php:22
+msgid "The tag was not removed.  You cannot remove a tag from a closed topic."
+msgstr "Tag tersebut tidak dihapus. Anda tidak dapat menghapus sebuah tag dari topik yang ditutup."
+
+#: tags.php:9
+msgid "Tag not found"
+msgstr "Tag tidak ditemukan"
+

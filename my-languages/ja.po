@@ -1,0 +1,4941 @@
+# Japanese (UTF-8) translation for bbPress
+#
+# Copyright (c) 2005-2009
+# このファイルは bbPress 本体と同じライセンスのもと配布されています。
+# This file is distributed under the same license as the bbPress package.
+#
+# WordPress 日本語版作成チーム / WP ja translation team
+# <http://groups.google.com/group/wp-ja-pkg/web/members>
+#
+# 誤字脱字誤訳、あるいはよりよい訳などありましたら以下までぜひお知らせください。
+# また、日本語版の作成をお手伝いしていただける方も随時募集中です。
+# 連絡先 / Contact: wpja.team@gmail.com (件名か内容に「日本語リソース」と入れてください)
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress 1.0.1 ja\n"
+"Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
+"POT-Creation-Date: 2009-07-08 15:11+0000\n"
+"PO-Revision-Date: 2009-07-28 08:57-0500\n"
+"Last-Translator: Naoko McCracken <info@nao-net.com>\n"
+"Language-Team: wordpress ja team <wpja.team@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_c\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: bbpress\n"
+
+#: bb-admin/admin-base.php:13
+msgid "Nothing to see here."
+msgstr "ここには表示するものがありません。"
+
+#: bb-admin/admin-footer.php:8
+#: bb-templates/kakumei/footer.php:11
+#, php-format
+msgid "This page generated in %s seconds, using %d queries."
+msgstr "このページの生成に%s秒かかり、%d回のクエリを要しました。"
+
+#: bb-admin/admin-footer.php:21
+#: bb-admin/admin-footer.php:28
+#: bb-admin/plugins.php:226
+#, php-format
+msgid "Version %s"
+msgstr "バージョン %s"
+
+#: bb-admin/admin-header.php:40
+msgid "Visit Site"
+msgstr "サイトを表示"
+
+#: bb-admin/admin-header.php:43
+#, php-format
+msgid "Howdy, %1$s"
+msgstr "こんにちは、%sさん！"
+
+#: bb-admin/bb-forum.php:5
+msgid "You don't have the authority to mess with the forums."
+msgstr "このフォーラムを操作する権限がありません。"
+
+#: bb-admin/bb-forum.php:17
+msgid "Bad forum name.  Go back and try again."
+msgstr "フォーラム名が無効です。前に戻って再度お試しください。"
+
+#: bb-admin/bb-forum.php:25
+msgid "The forum was not added"
+msgstr "フォーラムを追加できませんでした。"
+
+#: bb-admin/bb-forum.php:32
+msgid "No forums to update!"
+msgstr "更新するフォーラムはありません !"
+
+#: bb-admin/bb-forum.php:47
+msgid "You don't have the authority to kill off the forums."
+msgstr "フォーラムを削除する権限がありません。"
+
+#: bb-admin/bb-forum.php:53
+msgid "Error occured while trying to delete forum"
+msgstr "フォーラムの削除中にエラーが発生しました。"
+
+#: bb-admin/delete-post.php:18
+msgid "There is a problem with that post, pardner."
+msgstr "この投稿には問題があります。"
+
+#: bb-admin/delete-topic.php:17
+#: bb-admin/sticky.php:9
+#: bb-admin/topic-toggle.php:8
+msgid "There is a problem with that topic, pardner."
+msgstr "このトピックには問題があります。"
+
+#: bb-admin/export.php:19
+msgid "Either export is disabled or you are not allowed to export."
+msgstr "エクスポート機能が無効になっているか、エクスポートする権限がありません。"
+
+#: bb-admin/forums.php:19
+msgid "<strong>Forum Updated.</strong>"
+msgstr "<strong>フォーラムを更新しました。</strong>"
+
+#: bb-admin/forums.php:23
+#, php-format
+msgid "<strong>Forum deleted.</strong>  You should <a href=\"%s\">recount your site information</a>."
+msgstr "<strong>フォーラムを削除しました。</strong><a href=\"%s\">サイト情報を再集計</a>してください。"
+
+#: bb-admin/forums.php:33
+#, php-format
+msgid "Are you sure you want to delete the \"<strong>%s</strong>\" forum?"
+msgstr "本当に \"<strong>%s</strong>\" フォーラムを削除しますか ?"
+
+#: bb-admin/forums.php:42
+#: bb-admin/includes/functions.bb-admin.php:65
+#: bb-admin/includes/functions.bb-admin.php:66
+#: bb-templates/kakumei/front-page.php:48
+msgid "Forums"
+msgstr "フォーラム"
+
+#: bb-admin/forums.php:51
+#: bb-admin/forums.php:80
+msgid "Delete Forum"
+msgstr "フォーラムを削除"
+
+#: bb-admin/forums.php:52
+msgid "This forum contains:"
+msgstr "フォーラムに含まれる内容:"
+
+#: bb-admin/forums.php:54
+#, php-format
+msgid "%d topic"
+msgid_plural "%d topics"
+msgstr[0] "%d個のトピック"
+
+#: bb-admin/forums.php:55
+#, php-format
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d件の投稿"
+
+#: bb-admin/forums.php:58
+msgid "Action"
+msgstr "操作"
+
+#: bb-admin/forums.php:61
+msgid "Delete all topics and posts in this forum. <em>This can never be undone.</em>"
+msgstr "フォーラムのすべてのトピックと投稿を削除します。<em>この操作は取り消しできません。</em>"
+
+#: bb-admin/forums.php:64
+msgid "Move topics from this forum into the replacement forum below."
+msgstr "このフォーラムのトピックを以下の代わりのフォーラムに移動:"
+
+#: bb-admin/forums.php:69
+msgid "Replacement forum"
+msgstr "代わりのフォーラム"
+
+#: bb-admin/forums.php:79
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: bb-admin/forums.php:89
+#: bb-includes/class.bb-query.php:942
+#: bb-templates/kakumei/post-form.php:20
+msgid "Forum"
+msgstr "フォーラム"
+
+#: bb-admin/includes/class.bb-install.php:186
+#: bb-includes/functions.bb-core.php:1175
+msgid "bbPress &rsaquo; Error"
+msgstr "bbPress &rsaquo; エラー"
+
+#: bb-admin/includes/class.bb-install.php:187
+msgid "Oh dear!"
+msgstr "おっと !"
+
+#: bb-admin/includes/class.bb-install.php:191
+#: bb-admin/includes/class.bb-install.php:201
+#: bb-admin/includes/class.bb-install.php:211
+#: bb-admin/includes/class.bb-install.php:221
+#: bb-admin/includes/class.bb-install.php:232
+#, php-format
+msgid "%1$s &rsaquo; %2$s"
+msgstr "%1$s &rsaquo; %2$s"
+
+#: bb-admin/includes/class.bb-install.php:191
+#: bb-admin/includes/class.bb-install.php:201
+#: bb-admin/includes/class.bb-install.php:211
+#: bb-admin/includes/class.bb-install.php:221
+#: bb-admin/includes/class.bb-install.php:232
+msgid "bbPress installer"
+msgstr "bbPress インストーラー"
+
+#: bb-admin/includes/class.bb-install.php:191
+msgid "Welcome"
+msgstr "ようこそ"
+
+#: bb-admin/includes/class.bb-install.php:192
+msgid "Welcome to the bbPress installer"
+msgstr "bbPress のインストーラーへようこそ"
+
+#: bb-admin/includes/class.bb-install.php:196
+msgid "We're now going to go through a few steps to get you up and running."
+msgstr "これから行ういくつかのステップで、すぐにフォーラムが使えるようになります。"
+
+#: bb-admin/includes/class.bb-install.php:197
+msgid "Ready? Then let's get started!"
+msgstr "準備はできましたか ? それでは始めましょう !"
+
+#: bb-admin/includes/class.bb-install.php:201
+#: bb-admin/includes/class.bb-install.php:202
+msgid "Step 1"
+msgstr "ステップ1"
+
+#: bb-admin/includes/class.bb-install.php:202
+#: bb-admin/includes/class.bb-install.php:212
+#: bb-admin/includes/class.bb-install.php:222
+#, php-format
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: bb-admin/includes/class.bb-install.php:202
+msgid "Database configuration"
+msgstr "データベース設定"
+
+#: bb-admin/includes/class.bb-install.php:205
+msgid "In this step you need to enter your database connection details. The installer will attempt to create a file called <code>bb-config.php</code> in the root directory of your bbPress installation."
+msgstr "こちらにデータベース接続情報を入力してください。インストーラーは、bbPress 設置ディレクトリに bb-config.php と呼ばれるファイルの作成を試みます。"
+
+#: bb-admin/includes/class.bb-install.php:206
+msgid "If you're not sure what to put here, contact your web hosting provider."
+msgstr "ここに何を記入すればよいか分からない場合は、サーバー管理者に連絡してください。"
+
+#: bb-admin/includes/class.bb-install.php:211
+#: bb-admin/includes/class.bb-install.php:212
+msgid "Step 2"
+msgstr "ステップ2"
+
+#: bb-admin/includes/class.bb-install.php:212
+msgid "WordPress integration (optional)"
+msgstr "WordPress ブログとの統合 (オプション)"
+
+#: bb-admin/includes/class.bb-install.php:213
+msgid "&laquo; skipped"
+msgstr "&laquo; スキップ"
+
+#: bb-admin/includes/class.bb-install.php:215
+msgid "bbPress can integrate login and user data seamlessly with WordPress. You can safely skip this step if you do not wish to integrate with an existing WordPress install."
+msgstr "bbPress は、WordPress のログインとユーザーデータをシームレスに統合することができます。既存の WordPress に統合したくない場合は、このステップを省略することができます。"
+
+#: bb-admin/includes/class.bb-install.php:221
+#: bb-admin/includes/class.bb-install.php:222
+msgid "Step 3"
+msgstr "ステップ3"
+
+#: bb-admin/includes/class.bb-install.php:222
+msgid "Site settings"
+msgstr "サイト設定"
+
+#: bb-admin/includes/class.bb-install.php:225
+msgid "Finalize your installation by adding a name, your first user and your first forum."
+msgstr "名前、一人目のユーザー、最初のフォーラムを追加し、インストールを完了してください。"
+
+#: bb-admin/includes/class.bb-install.php:232
+msgid "Finished"
+msgstr "完了しました !"
+
+#: bb-admin/includes/class.bb-install.php:233
+#: bb-admin/includes/class.bb-install.php:2170
+msgid "Installation complete!"
+msgstr "インストールを完了しました !"
+
+#: bb-admin/includes/class.bb-install.php:250
+msgid "Your PHP installation appears to be missing the MySQL extension which is required for bbPress"
+msgstr "お使いの PHP には bbPress に必要な MySQL 拡張がないようです。"
+
+#: bb-admin/includes/class.bb-install.php:255
+msgid "Please complete your installation before attempting to include WordPress within bbPress"
+msgstr "bbPress と WordPress の統合を試す前にインストールを終えてください。"
+
+#: bb-admin/includes/class.bb-install.php:333
+msgid "Installation language"
+msgstr "インストール時の言語"
+
+#: bb-admin/includes/class.bb-install.php:344
+msgid "Sets the language to be used during the installation process only."
+msgstr "インストール時のみに使われる言語設定です。"
+
+#: bb-admin/includes/class.bb-install.php:461
+msgid "An old <code>config.php</code> file has been detected in your installation. You should remove it and run the <a href=\"install.php\">installer</a> again. You can use the same database connection details if you do."
+msgstr "古い <code>config.php</code> ファイルが見つかりました。このファイルを削除し、再度インストーラーを実行してください。データベース接続設定の詳細は、同じものを使用できます。"
+
+#: bb-admin/includes/class.bb-install.php:474
+#: bb-admin/includes/class.bb-install.php:1106
+#: bb-admin/includes/class.bb-install.php:1114
+#: bb-admin/includes/class.bb-install.php:1126
+msgid "&laquo; completed"
+msgstr "&laquo; 完了"
+
+#: bb-admin/includes/class.bb-install.php:482
+msgid "A valid configuration file was found at <code>bb-config.php</code><br />You may continue to the next step."
+msgstr "有効な設定ファイル、<code>bb-config.php</code> が見つかりました。<br />次のステップに進んでください。"
+
+#: bb-admin/includes/class.bb-install.php:487
+msgid "An invalid configuration file was found at <code>bb-config.php</code><br />The installation cannot continue."
+msgstr "設定ファイル <code>bb-config.php</code> が見つかりましたが内容が不正です。<br />インストールを継続できません。"
+
+#: bb-admin/includes/class.bb-install.php:488
+msgid "Usually this is caused by one of the database connection settings being incorrect. Make sure that the specified user has appropriate permission to access the database."
+msgstr "通常これは、データベース接続設定のいずれかが正しくない場合に起こります。指定されたユーザーがデータベースにアクセスする権限を持っていることを確かめてください。"
+
+#: bb-admin/includes/class.bb-install.php:498
+msgid "bbPress is already installed, but appears to require an upgrade."
+msgstr "bbPress はすでにインストール済みですすが、アップグレードが必要なようです。"
+
+#: bb-admin/includes/class.bb-install.php:500
+msgid "bbPress is already installed."
+msgstr "bbPress はすでにインストールされています。"
+
+#: bb-admin/includes/class.bb-install.php:503
+#, php-format
+msgid "Perhaps you meant to run the <a href=\"%s\">upgrade script</a> instead?"
+msgstr "<a href=\"%s\">アップグレードスクリプト</a>を実行しますか ?"
+
+#: bb-admin/includes/class.bb-install.php:513
+#: bb-admin/includes/class.bb-install.php:1312
+msgid "I could not find the file <code>bb-config-sample.php</code><br />Please upload it to the root directory of your bbPress installation."
+msgstr "<code>bb-config-sample.php</code> ファイルが見つかりません。<br />ファイルを bbPress のルートディレクトリにアップロードしてください。"
+
+#: bb-admin/includes/class.bb-install.php:519
+msgid "There doesn't seem to be a <code>bb-config.php</code> file. This usually means that you want to install bbPress."
+msgstr "<code>bb-config.php</code> が見当たらないようです。これは通常、bbPress をインストールする必要があることを意味します。"
+
+#: bb-admin/includes/class.bb-install.php:606
+msgid "Go to step 1"
+msgstr "ステップ1へ進む"
+
+#: bb-admin/includes/class.bb-install.php:614
+msgid "Database name"
+msgstr "データベース名"
+
+#: bb-admin/includes/class.bb-install.php:615
+msgid "The name of the database in which you want to run bbPress."
+msgstr "bbPress で使用するデータベース名。"
+
+#: bb-admin/includes/class.bb-install.php:619
+msgid "Database user"
+msgstr "データベースのユーザー"
+
+#: bb-admin/includes/class.bb-install.php:620
+#: bb-admin/includes/class.bb-install.php:827
+#: bb-admin/options-wordpress.php:129
+msgid "The database user that has access to that database."
+msgstr "データベースへのアクセス権を持つデータベースユーザー。"
+
+#: bb-admin/includes/class.bb-install.php:626
+msgid "Database password"
+msgstr "データベースのパスワード"
+
+#: bb-admin/includes/class.bb-install.php:627
+#: bb-admin/includes/class.bb-install.php:835
+#: bb-admin/options-wordpress.php:133
+msgid "That database user's password."
+msgstr "データベースユーザーのパスワード。"
+
+#: bb-admin/includes/class.bb-install.php:632
+msgid "Language"
+msgstr "使用言語"
+
+#: bb-admin/includes/class.bb-install.php:633
+#, php-format
+msgid "The language which bbPress will be presented in once installed. Your current installer language choice (%s) will be the same for the rest of the install process."
+msgstr "インストール後に bbPress で使用する言語。インストールの間は、現在の選択言語 (%s) が適用されます。"
+
+#: bb-admin/includes/class.bb-install.php:637
+msgid "Show advanced settings"
+msgstr "上級者向け設定を表示"
+
+#: bb-admin/includes/class.bb-install.php:638
+#, fuzzy, php-format
+msgid "99% of the time these settings will not have to be changed."
+msgstr "ほとんどの場合、この設定を変更する必要はありません。"
+
+#: bb-admin/includes/class.bb-install.php:644
+msgid "Database host"
+msgstr "データベースホスト"
+
+#: bb-admin/includes/class.bb-install.php:645
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should remain <strong>localhost</strong>."
+msgstr "データベースが置かれているサーバーのドメイン名か IP アドレス。 データベースがウェブサイトと同じサーバー上にあるのなら、通常は <strong>localhost</strong> のままでいいはずです。"
+
+#: bb-admin/includes/class.bb-install.php:650
+msgid "Database character set"
+msgstr "データベース文字セット"
+
+#: bb-admin/includes/class.bb-install.php:651
+#: bb-admin/includes/class.bb-install.php:848
+#: bb-admin/options-wordpress.php:141
+msgid "The best choice is <strong>utf8</strong>, but you will need to match the character set which you created the database with."
+msgstr "一番良いのは <strong>utf8</strong> ですが、データベース作成時の文字コードと合わせる必要があります。"
+
+#: bb-admin/includes/class.bb-install.php:656
+msgid "Database character collation"
+msgstr "データベース文字コード照合順序の設定"
+
+#: bb-admin/includes/class.bb-install.php:657
+msgid "The character collation value set when the database was created."
+msgstr "データベース作成時の文字コード照合順序の値。"
+
+#: bb-admin/includes/class.bb-install.php:688
+msgid "Table name prefix"
+msgstr "テーブル名の接頭語"
+
+#: bb-admin/includes/class.bb-install.php:689
+msgid "If you are running multiple bbPress sites in a single database, you will probably want to change this."
+msgstr "ひとつのデータベース上で複数の bbPress インストールを実行している場合、この値を変更した方がよいでしょう。"
+
+#: bb-admin/includes/class.bb-install.php:694
+msgid "Contents for <code>bb-config.php</code>"
+msgstr "<code>config.php</code> の内容"
+
+#: bb-admin/includes/class.bb-install.php:695
+msgid "Once you have created the configuration file, you can check for it below."
+msgstr "設定ファイルの作成後、以下で確認できます。"
+
+#: bb-admin/includes/class.bb-install.php:698
+msgid "Save database configuration file"
+msgstr "データベース設定ファイルを保存"
+
+#: bb-admin/includes/class.bb-install.php:701
+#: bb-admin/includes/class.bb-install.php:873
+#: bb-admin/includes/class.bb-install.php:920
+msgid "&laquo; Go back"
+msgstr "&laquo; 戻る"
+
+#: bb-admin/includes/class.bb-install.php:704
+msgid "Check for configuration file"
+msgstr "設定ファイルを確認"
+
+#: bb-admin/includes/class.bb-install.php:707
+msgid "Go to step 2"
+msgstr "ステップ2へ進む"
+
+#: bb-admin/includes/class.bb-install.php:716
+msgid "Add integration settings"
+msgstr "統合設定を追加"
+
+#: bb-admin/includes/class.bb-install.php:717
+msgid "If you want to integrate bbPress with an existing WordPress site."
+msgstr "bbPress を 既存の WordPress と統合する場合。"
+
+#: bb-admin/includes/class.bb-install.php:722
+#: bb-admin/includes/class.bb-install.php:870
+msgid "Skip WordPress integration"
+msgstr "WordPress ブログとの統合設定をせずに進む"
+
+#: bb-admin/includes/class.bb-install.php:723
+msgid "Save WordPress integration settings"
+msgstr "WordPress ブログとの統合設定を保存"
+
+#: bb-admin/includes/class.bb-install.php:728
+msgid "Add cookie integration settings"
+msgstr "Cookie 統合設定を追加"
+
+#: bb-admin/includes/class.bb-install.php:729
+msgid "If you want to allow shared logins with an existing WordPress site."
+msgstr "既存の WordPress との共有ログインを許可する場合。"
+
+#: bb-admin/includes/class.bb-install.php:736
+#: bb-admin/options-wordpress.php:67
+msgid "WordPress address (URL)"
+msgstr "WordPress のアドレス (URL)"
+
+#: bb-admin/includes/class.bb-install.php:737
+#: bb-admin/options-wordpress.php:69
+msgid "This value should exactly match the <strong>WordPress address (URL)</strong> setting in your WordPress general settings."
+msgstr "WordPress の一般設定ページで指定した <strong>WordPress のアドレス (URL)</strong> と一致させてください。"
+
+#: bb-admin/includes/class.bb-install.php:742
+#: bb-admin/options-wordpress.php:72
+msgid "Blog address (URL)"
+msgstr "ブログのアドレス (URL)"
+
+#: bb-admin/includes/class.bb-install.php:743
+#: bb-admin/options-wordpress.php:74
+msgid "This value should exactly match the <strong>Blog address (URL)</strong> setting in your WordPress general settings."
+msgstr "WordPress の一般設定ページで指定した<strong>ブログのアドレス (URL)</strong> と一致させてください。"
+
+#: bb-admin/includes/class.bb-install.php:748
+msgid "WordPress \"auth\" cookie key"
+msgstr "WordPress \"auth\"  Cookie 秘密鍵"
+
+#: bb-admin/includes/class.bb-install.php:749
+msgid "This value must match the value of the constant named \"AUTH_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"auth\" cookie key set in the first step."
+msgstr "WordPress の <code>wp-config.php</code> ファイル内にある定数名 \"AUTH_KEY\" の値と一致させてください。ステップ1で設定した bbPress の \"auth\" Cookie 秘密鍵は、この値に置き換えられます。"
+
+#: bb-admin/includes/class.bb-install.php:755
+#: bb-admin/options-wordpress.php:77
+msgid "WordPress \"auth\" cookie salt"
+msgstr "WordPress \"auth\" Cookie Salt"
+
+#: bb-admin/includes/class.bb-install.php:756
+msgid "This must match the value of the WordPress setting named \"auth_salt\" in your WordPress site. Look for the option labeled \"auth_salt\" in <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings."
+msgstr "WordPress 設定の \"auth_salt\" 値と一致させてください。<a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">WordPress 管理画面</a>で \"auth_salt\" という設定値を探してみてください。"
+
+#: bb-admin/includes/class.bb-install.php:762
+msgid "WordPress \"secure auth\" cookie key"
+msgstr "WordPress \"secure auth\" Cookie 秘密鍵"
+
+#: bb-admin/includes/class.bb-install.php:763
+msgid "This value must match the value of the constant named \"SECURE_AUTH_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"secure auth\" cookie key set in the first step."
+msgstr "WordPress の <code>wp-config.php</code> ファイル内にある定数名 \"SECURE_AUTH_KEY\" の値と一致させてください。ステップ1で設定した bbPress の \"secure auth\" Cookie 秘密鍵は、この値に置き換えられます。"
+
+#: bb-admin/includes/class.bb-install.php:769
+#: bb-admin/options-wordpress.php:81
+msgid "WordPress \"secure auth\" cookie salt"
+msgstr "WordPress \"secure auth\" Cookie Salt"
+
+#: bb-admin/includes/class.bb-install.php:770
+msgid "This must match the value of the WordPress setting named \"secure_auth_salt\" in your WordPress site. Look for the option labeled \"secure_auth_salt\" in <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings. Sometimes this value is not set in WordPress, in that case you can leave this setting blank as well."
+msgstr "WordPress 設定の \"secure_auth_salt\" 値と一致させてください。<a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">WordPress 管理画面</a>で \"secure_auth_salt\" という設定値を探してみてください。この項目を空のままにした場合、インストーラーは WordPress データベース統合設定を元に値の取得を試みます。WordPress 側でこの値が設定されていないことがありますが、その場合はこちらも空のままでかまいません。"
+
+#: bb-admin/includes/class.bb-install.php:776
+msgid "WordPress \"logged in\" cookie key"
+msgstr "WordPress \"logged in\" Cookie 秘密鍵"
+
+#: bb-admin/includes/class.bb-install.php:777
+msgid "This value must match the value of the constant named \"LOGGED_IN_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"logged in\" cookie key set in the first step."
+msgstr "WordPress の <code>wp-config.php</code> ファイル内にある定数名 \"LOGGED_IN_KEY\" の値と一致させてください。ステップ1で設定した bbPress の \"logged in\" Cookie 秘密鍵は、この値に置き換えられます。"
+
+#: bb-admin/includes/class.bb-install.php:783
+#: bb-admin/options-wordpress.php:85
+msgid "WordPress \"logged in\" cookie salt"
+msgstr "WordPress \"logged in\" Cookie Salt"
+
+#: bb-admin/includes/class.bb-install.php:784
+msgid "This must match the value of the WordPress setting named \"logged_in_salt\" in your WordPress site. Look for the option labeled \"logged_in_salt\" in <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings."
+msgstr "WordPress 設定の \"logged_in_salt\" 値と一致させてください。<a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">WordPress 管理画面</a>で \"logged_in_salt\" という設定値を探してみてください。この項目を空のままにした場合、インストーラーは WordPress データベース統合設定を元に値の取得を試みます。"
+
+#: bb-admin/includes/class.bb-install.php:790
+msgid "Add user database integration settings"
+msgstr "ユーザーデータベース統合設定を追加"
+
+#: bb-admin/includes/class.bb-install.php:791
+msgid "If you want to share user data with an existing WordPress site."
+msgstr "既存の WordPress とユーザーデータを共有したい場合。"
+
+#: bb-admin/includes/class.bb-install.php:799
+#: bb-admin/options-wordpress.php:103
+msgid "User database table prefix"
+msgstr "ユーザー DB のテーブル接頭語"
+
+#: bb-admin/includes/class.bb-install.php:800
+#: bb-admin/options-wordpress.php:104
+msgid "If your bbPress and WordPress sites share the same database, then this is the same value as <code>$table_prefix</code> in your WordPress <code>wp-config.php</code> file. It is usually <strong>wp_</strong>."
+msgstr "bbPress と WordPress が同一のデータベースを共有している場合、WordPress の <code>wp-config.php</code> ファイル内に書かれた <code>$wp_table_prefix</code> と同じ値になります。通常は、<strong>wp_</strong> です。"
+
+#: bb-admin/includes/class.bb-install.php:806
+#: bb-admin/options-wordpress.php:107
+msgid "WordPress MU primary blog ID"
+msgstr "WordPress MU メインブログ ID"
+
+#: bb-admin/includes/class.bb-install.php:807
+#: bb-admin/options-wordpress.php:108
+msgid "If you are integrating with a WordPress MU site you need to specify the primary blog ID for that site. It is usually <strong>1</strong>. You should probably leave this blank if you are integrating with a standard WordPress site"
+msgstr "もし WordPress MU サイトとの統合を行う場合は、そのサイトのメインブログ ID が必要です。通常、<strong>1</strong>となります。通常の WordPress サイトの統合を行う場合は、空欄にしておくべきでしょう。"
+
+#: bb-admin/includes/class.bb-install.php:812
+#: bb-admin/options-wordpress.php:111
+msgid "Show advanced database settings"
+msgstr "上級者向け DB の設定を表示"
+
+#: bb-admin/includes/class.bb-install.php:813
+#: bb-admin/options-wordpress.php:115
+msgid "If your bbPress and WordPress site do not share the same database, then you will need to add advanced settings."
+msgstr "bbPress と WordPress が同一のデータベースを共有していない場合、上級者向け設定を追加する必要があります。"
+
+#: bb-admin/includes/class.bb-install.php:820
+#: bb-admin/options-wordpress.php:124
+msgid "User database name"
+msgstr "ユーザー DB 名"
+
+#: bb-admin/includes/class.bb-install.php:821
+#: bb-admin/options-wordpress.php:125
+msgid "The name of the database in which your user tables reside."
+msgstr "ユーザーテーブルのあるデータベース名。"
+
+#: bb-admin/includes/class.bb-install.php:826
+#: bb-admin/options-wordpress.php:128
+msgid "User database user"
+msgstr "ユーザー DB のユーザー名"
+
+#: bb-admin/includes/class.bb-install.php:834
+#: bb-admin/options-wordpress.php:132
+msgid "User database password"
+msgstr "ユーザー DB のパスワード"
+
+#: bb-admin/includes/class.bb-install.php:841
+#: bb-admin/options-wordpress.php:136
+msgid "User database host"
+msgstr "ユーザー DB のホスト"
+
+#: bb-admin/includes/class.bb-install.php:842
+#: bb-admin/options-wordpress.php:137
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should be <strong>localhost</strong>."
+msgstr "データベースが置かれているサーバーのドメイン名または IP アドレス。データベースが Web サイトと同じサーバーにある場合、通常は <strong>localhost</strong> を指定します。"
+
+#: bb-admin/includes/class.bb-install.php:847
+#: bb-admin/options-wordpress.php:140
+msgid "User database character set"
+msgstr "ユーザー DB の文字コード"
+
+#: bb-admin/includes/class.bb-install.php:853
+#: bb-admin/options-wordpress.php:144
+msgid "User database character collation"
+msgstr "ユーザー DB の文字コード照合順序"
+
+#: bb-admin/includes/class.bb-install.php:854
+#: bb-admin/options-wordpress.php:145
+msgid "The character collation value set when the user database was created."
+msgstr "ユーザー DB 作成時の文字コード照合順序値。"
+
+#: bb-admin/includes/class.bb-install.php:859
+#: bb-admin/options-wordpress.php:151
+msgid "User database \"user\" table"
+msgstr "ユーザー DB の \"user\" テーブル"
+
+#: bb-admin/includes/class.bb-install.php:860
+#: bb-admin/includes/class.bb-install.php:866
+#: bb-admin/options-wordpress.php:152
+#: bb-admin/options-wordpress.php:156
+msgid "The complete table name, including any prefix."
+msgstr "接頭語を含む完全なテーブル名。"
+
+#: bb-admin/includes/class.bb-install.php:865
+#: bb-admin/options-wordpress.php:155
+msgid "User database \"user meta\" table"
+msgstr "ユーザー DB の \"user meta\" テーブル"
+
+#: bb-admin/includes/class.bb-install.php:876
+msgid "Go to step 3"
+msgstr "ステップ3へ進む"
+
+#: bb-admin/includes/class.bb-install.php:885
+msgid "Site name"
+msgstr "サイト名"
+
+#: bb-admin/includes/class.bb-install.php:886
+msgid "This is what you are going to call your bbPress site."
+msgstr "設置する bbPress サイトの名前。"
+
+#: bb-admin/includes/class.bb-install.php:890
+msgid "Site address (URL)"
+msgstr "サイトのアドレス (URL)"
+
+#: bb-admin/includes/class.bb-install.php:891
+msgid "We have attempted to guess this, it's usually correct, but change it here if you wish."
+msgstr "こちらで推測した値は、通常そのままで問題ありません。もし変更したい場合はここで行ってください。"
+
+#: bb-admin/includes/class.bb-install.php:896
+msgid "\"Key Master\" Username"
+msgstr "\"キーマスター\" のユーザー名"
+
+#: bb-admin/includes/class.bb-install.php:897ss
+msgid "This is the user login for the initial bbPress administrator (known as a \"Key Master\")."
+msgstr "これは bbPress の初期管理人 (\"キーマスター\" と呼ばれます) のユーザーログインになります。"
+
+#: bb-admin/includes/class.bb-install.php:903
+msgid "\"Key Master\" Email address"
+msgstr "\"キーマスター\" のメールアドレス"
+
+#: bb-admin/includes/class.bb-install.php:904
+msgid "The login details will be emailed to this address."
+msgstr "このメールアドレスにログイン詳細情報を送信します。"
+
+#: bb-admin/includes/class.bb-install.php:913
+msgid "First forum name"
+msgstr "最初に作成するフォーラム名"
+
+#: bb-admin/includes/class.bb-install.php:914
+msgid "This can be changed after installation, so don't worry about it too much."
+msgstr "インストール後にこれらを変更できますので、心配しないでください。"
+
+#: bb-admin/includes/class.bb-install.php:917
+msgid "Save site settings"
+msgstr "サイト設定を保存"
+
+#: bb-admin/includes/class.bb-install.php:923
+msgid "Complete the installation"
+msgstr "インストールを完了する"
+
+#: bb-admin/includes/class.bb-install.php:932
+msgid "Show installation messages"
+msgstr "インストールメッセージを表示"
+
+#: bb-admin/includes/class.bb-install.php:936
+msgid "Installation errors"
+msgstr "インストールエラー"
+
+#: bb-admin/includes/class.bb-install.php:940
+msgid "Installation log"
+msgstr "インストールログ"
+
+#: bb-admin/includes/class.bb-install.php:1241
+msgid "The table prefix can only contain letters, numbers and underscores.<br />Please review the suggestion below."
+msgstr "テーブル接頭語には半角英数字とアンダースコアのみ使用できます。<br />以下のアドバイスをご覧ください。"
+
+#: bb-admin/includes/class.bb-install.php:1242
+msgid "&bull; Based on your input the following prefix is suggested."
+msgstr "&bull; 入力値に基づき、以下の接頭語をおすすめします。"
+
+#: bb-admin/includes/class.bb-install.php:1250
+msgid "The table prefix can not be blank.<br />Please review the suggestion below."
+msgstr "テーブル接頭語は空にできません。<br />以下のアドバイスをご覧下さい。"
+
+#: bb-admin/includes/class.bb-install.php:1251
+msgid "&bull; The default prefix has been inserted."
+msgstr "&bull; デフォルトの接頭語を挿入しました。"
+
+#: bb-admin/includes/class.bb-install.php:1285
+msgid "There was a problem connecting to the database you specified.<br />Please check the settings, then try again."
+msgstr "ご指定のデータベースへの接続に問題が発生しました。<br />設定を確認し、再度お試しください。"
+
+#: bb-admin/includes/class.bb-install.php:1318
+msgid "Your settings have been saved to the file <code>bb-config.php</code><br />You can now continue to the next step."
+msgstr "<code>bb-config.php</code> ファイルに設定を保存しました。<br />次のステップにお進みいただけます。"
+
+#: bb-admin/includes/class.bb-install.php:1325
+msgid "Your settings could not be saved to a configuration file. You will need to save the text shown below into a file named <code>bb-config.php</code> in the root directory of your bbPress installation before you can continue."
+msgstr "設定ファイルに情報を保存できませんでした。次のステップに進む前に、以下に表示されたテキストを <code>bb-config.php</code> というファイル名をつけて保存し、bbPress インストールのルートディレクトリに配置してください。"
+
+#: bb-admin/includes/class.bb-install.php:1347
+msgid "You have chosen to skip the WordPress integration step. You can always integrate WordPress later from within the admin area of bbPress."
+msgstr "WordPress 統合を省略しました。今後、bbPress の管理画面からいつでも WordPress との統合を行うことができます。"
+
+#: bb-admin/includes/class.bb-install.php:1423
+msgid "You must enter your settings for integration setup to complete. Choose which integration settings you wish to enter from the options below."
+msgstr "インストールを完了するには、統合設定に関する情報を入力してください。以下のオプションから入力したい統合設定を選択してください。"
+
+#: bb-admin/includes/class.bb-install.php:1441
+msgid "Your integration settings have not been processed due to errors with the items marked below."
+msgstr "以下に指摘したエラーのため、統合設定を処理できませんでした。"
+
+#: bb-admin/includes/class.bb-install.php:1450
+#: bb-admin/includes/class.bb-install.php:1659
+msgid "&bull; This value is required to continue."
+msgstr "&bull; この値は必須です。"
+
+#: bb-admin/includes/class.bb-install.php:1453
+#: bb-admin/includes/class.bb-install.php:1662
+msgid "&bull; This does not appear to be a valid URL."
+msgstr "&bull; 有効な URL ではありません。"
+
+#: bb-admin/includes/class.bb-install.php:1456
+#: bb-admin/includes/class.bb-install.php:1665
+msgid "&bull; The URL must begin with \"http\" or \"https\"."
+msgstr "&bull; \"http\" または \"https\" から始まる URL を入力してください。"
+
+#: bb-admin/includes/class.bb-install.php:1459
+#: bb-admin/includes/class.bb-install.php:1668
+msgid "&bull; The URL does not contain a host name."
+msgstr "&bull; URL にホスト名が含まれていません。"
+
+#: bb-admin/includes/class.bb-install.php:1521
+#: bb-admin/includes/class.bb-install.php:1764
+#: bb-admin/includes/class.bb-install.php:2561
+#: bb-settings.php:646
+msgid "Your user table prefix may only contain letters, numbers and underscores."
+msgstr "ユーザーテーブル接頭語には半角英数字とアンダースコアのみ使用できます。"
+
+#: bb-admin/includes/class.bb-install.php:1558
+msgid "There was a problem connecting to the WordPress user database you specified. Please check the settings, then try again."
+msgstr "WordPress ユーザーデータベースへの接続に問題がありました。 設定を確認し、再度お試しください。"
+
+#: bb-admin/includes/class.bb-install.php:1572
+msgid "Existing WordPress user tables could not be found in the WordPress database you specified."
+msgstr "ご指定の WordPress データベースには、既存の WordPress ユーザーテーブルは見つかりませんでした。"
+
+#: bb-admin/includes/class.bb-install.php:1574
+msgid "Existing WordPress user tables could not be found in the bbPress database you specified in step 1.<br /><br />This is probably because the database does not already contain working WordPress tables. You may need to specify advanced database settings or leave integration until after installation."
+msgstr "ステップ1で指定した bbPress データベースに WordPress ユーザーテーブルが見つかりませんでした。<br /><br />データベースには利用できる WordPress テーブルが含まれていないようです。高度なデータベース設定を指定するか、インストール後に統合設定を行わなくてはならないかもしれません。"
+
+#: bb-admin/includes/class.bb-install.php:1576
+msgid "&bull; This may not be a valid user table prefix."
+msgstr "&bull; 有効なテーブル接頭語ではないようです。"
+
+#: bb-admin/includes/class.bb-install.php:1593
+msgid "Your WordPress integration cookie and database settings have been successfully validated. They will be saved after the next step.<br /><br />Once you have finished installing, you should visit the WordPress integration section of the bbPress admin area for further options and integration instructions, including user mapping and the correct cookie settings to add to your WordPress configuration file."
+msgstr "WordPress との統合 Cookie およびデータベース設定を正常に確認することができました。これらの設定は次のステップの後に保存されます。<br /><br />インストールが完了した後、bbPress 管理画面内の WordPress との統合ページでさらに詳しいオプションや統合方法をチェックしてください。これには、ユーザー権限割り当てや WordPress の設定ファイルに追加する Cookie の正しい設定などが含まれます。"
+
+#: bb-admin/includes/class.bb-install.php:1650
+msgid "Your site settings have not been processed due to errors with the items marked below."
+msgstr "以下の理由により、サイト設定の処理ができませんでした。"
+
+#: bb-admin/includes/class.bb-install.php:1671
+msgid "&bull; Contains disallowed characters which have been removed."
+msgstr "&bull; 利用できない文字を含んでいたため、その文字を削除しました。"
+
+#: bb-admin/includes/class.bb-install.php:1674
+msgid "&bull; The user email address appears to be invalid."
+msgstr "&bull; メールアドレスが無効です。"
+
+#: bb-admin/includes/class.bb-install.php:1693
+msgid "Your site settings have been saved and we are now ready to complete the installation. So what are you waiting for?"
+msgstr "サイト設定を保存し、インストールを完了する準備ができました。もう何も待つ必要はありません !"
+
+#: bb-admin/includes/class.bb-install.php:1719
+msgid "Referrer is OK, beginning installation&hellip;"
+msgstr "リファラのチェックが完了しました。インストールを開始します&hellip;"
+
+#: bb-admin/includes/class.bb-install.php:1726
+msgid "Setting up custom user table constants"
+msgstr "カスタムユーザーテーブルの定数を設定中"
+
+#: bb-admin/includes/class.bb-install.php:1769
+msgid "Step 1 - Creating database tables"
+msgstr "ステップ1 - データベーステーブルの作成"
+
+#: bb-admin/includes/class.bb-install.php:1787
+#: bb-admin/includes/class.bb-install.php:1789
+msgid "Database installation failed!!!"
+msgstr "データベースのインストールに失敗しました。"
+
+#: bb-admin/includes/class.bb-install.php:1788
+#: bb-admin/includes/class.bb-install.php:1998
+#: bb-admin/includes/class.bb-install.php:2031
+#: bb-admin/includes/class.bb-install.php:2057
+msgid "Halting installation!"
+msgstr "インストールを中止しました。"
+
+#: bb-admin/includes/class.bb-install.php:1792
+#: bb-admin/includes/class.bb-install.php:2000
+#: bb-admin/includes/class.bb-install.php:2034
+#: bb-admin/includes/class.bb-install.php:2060
+msgid "Installation failed!"
+msgstr "インストールに失敗しました。"
+
+#: bb-admin/includes/class.bb-install.php:1793
+msgid "The database failed to install. You may need to replace bbPress with a fresh copy and start again."
+msgstr "データベースのインストールに失敗しました。bbPress のファイルを新しいものと入れ替え、はじめからやり直す必要があるかもしれません。"
+
+#: bb-admin/includes/class.bb-install.php:1801
+msgid "Database is already installed!!!"
+msgstr "データベースがすでにインストール済みです。"
+
+#: bb-admin/includes/class.bb-install.php:1806
+msgid "Step 2 - WordPress integration (optional)"
+msgstr "ステップ2 - WordPress との統合 (オプション)"
+
+#: bb-admin/includes/class.bb-install.php:1810
+msgid "WordPress address (URL):"
+msgstr "WordPress のアドレス (URL):"
+
+#: bb-admin/includes/class.bb-install.php:1813
+msgid "Blog address (URL):"
+msgstr "ブログのアドレス (URL):"
+
+#: bb-admin/includes/class.bb-install.php:1827
+msgid "WordPress cookie keys set."
+msgstr "WordPress Cookie の秘密鍵は設定済みです。"
+
+#: bb-admin/includes/class.bb-install.php:1830
+#: bb-admin/includes/class.bb-install.php:1833
+msgid "WordPress cookie keys not set."
+msgstr "WordPress Cookie の秘密鍵が未設定です。"
+
+#: bb-admin/includes/class.bb-install.php:1831
+msgid "Your \"bb-config.php\" file was not writable."
+msgstr "\"bb-config.php\" ファイルが書き込み禁止になっています。"
+
+#: bb-admin/includes/class.bb-install.php:1832
+msgid "You will need to manually re-define \"BB_AUTH_KEY\", \"BB_SECURE_AUTH_KEY\" and \"BB_LOGGED_IN_KEY\" in your \"bb-config.php\" file."
+msgstr "\"bb-config.php\" ファイル内で、\"BB_AUTH_KEY\"、\"BB_SECURE_AUTH_KEY\"、\"BB_LOGGED_IN_KEY\" を手動で再定義してください。"
+
+#: bb-admin/includes/class.bb-install.php:1839
+msgid "WordPress \"auth\" cookie salt set from input."
+msgstr "WordPress \"auth\" Cookie の Salt が未設定です。"
+
+#: bb-admin/includes/class.bb-install.php:1844
+msgid "WordPress \"secure auth\" cookie salt set from input."
+msgstr "入力値を元に WordPress \"secure auth\" Cookie Salt を設定しました。"
+
+#: bb-admin/includes/class.bb-install.php:1849
+msgid "WordPress \"logged in\" cookie salt set from input."
+msgstr "入力値から得た WordPress \"logged in\"  Cookie Salt。"
+
+#: bb-admin/includes/class.bb-install.php:1859
+msgid "Fetching missing WordPress cookie salts."
+msgstr "存在しない WordPress Cookie Salt を取得しています。"
+
+#: bb-admin/includes/class.bb-install.php:1880
+msgid "WordPress \"auth\" cookie salt set."
+msgstr "WordPress \"auth\" Cookie の Salt は設定済みです。"
+
+#: bb-admin/includes/class.bb-install.php:1882
+#: bb-admin/includes/class.bb-install.php:1885
+msgid "WordPress \"auth\" cookie salt not set."
+msgstr "WordPress \"auth\" Cookie の Salt が未設定です。"
+
+#: bb-admin/includes/class.bb-install.php:1883
+msgid "Could not fetch \"auth\" cookie salt from the WordPress options table."
+msgstr "WordPress の options テーブルから WordPress \"auth\" Cookie の Salt を取得できませんでした。"
+
+#: bb-admin/includes/class.bb-install.php:1884
+msgid "You will need to manually define the \"auth\" cookie salt in your database."
+msgstr "データベース内で、\"auth\" Cookie Salt を手動で定義する必要があります。"
+
+#: bb-admin/includes/class.bb-install.php:1893
+msgid "WordPress \"secure auth\" cookie salt set."
+msgstr "WordPress \"secure auth\" Cookie の Salt は設定済みです。"
+
+#: bb-admin/includes/class.bb-install.php:1896
+msgid "WordPress \"secure auth\" cookie salt not set."
+msgstr "WordPress \"secure auth\" Cookie の Salt が未設定です。"
+
+#: bb-admin/includes/class.bb-install.php:1904
+msgid "WordPress \"logged in\" cookie salt set."
+msgstr "WordPress \"logged in\" Cookie の Salt は設定済みです。"
+
+#: bb-admin/includes/class.bb-install.php:1906
+#: bb-admin/includes/class.bb-install.php:1909
+msgid "WordPress \"logged in\" cookie salt not set."
+msgstr "WordPress \"logged in\" Cookie の Salt が未設定です。"
+
+#: bb-admin/includes/class.bb-install.php:1907
+msgid "Could not fetch \"logged in\" cookie salt from the WordPress options table."
+msgstr "WordPress の options テーブルから WordPress \"logged in\" Cookie の Salt を取得できませんでした。"
+
+#: bb-admin/includes/class.bb-install.php:1908
+msgid "You will need to manually define the \"logged in\" cookie salt in your database."
+msgstr "データベース内で、\"logged in\" Cookie Salt を手動で定義する必要があります。"
+
+#: bb-admin/includes/class.bb-install.php:1916
+msgid "User database table prefix:"
+msgstr "ユーザーデータベースのテーブル接頭語:"
+
+#: bb-admin/includes/class.bb-install.php:1921
+msgid "WordPress MU primary blog ID:"
+msgstr "WordPress MU メインブログ ID:"
+
+#: bb-admin/includes/class.bb-install.php:1927
+msgid "User database name:"
+msgstr "ユーザーデータベース名:"
+
+#: bb-admin/includes/class.bb-install.php:1931
+msgid "User database user:"
+msgstr "ユーザーデータベースのユーザー:"
+
+#: bb-admin/includes/class.bb-install.php:1935
+msgid "User database password:"
+msgstr "データベースのパスワード:"
+
+#: bb-admin/includes/class.bb-install.php:1939
+msgid "User database host:"
+msgstr "データベースのホスト:"
+
+#: bb-admin/includes/class.bb-install.php:1943
+msgid "User database character set:"
+msgstr "データベースの文字コード設定:"
+
+#: bb-admin/includes/class.bb-install.php:1947
+msgid "User database collation:"
+msgstr "ユーザーデータベースの照合順序:"
+
+#: bb-admin/includes/class.bb-install.php:1951
+msgid "User database \"user\" table:"
+msgstr "ユーザーデータベースの \"user\" テーブル:"
+
+#: bb-admin/includes/class.bb-install.php:1955
+msgid "User database \"user meta\" table:"
+msgstr "ユーザーデータベースの \"user meta\" テーブル:"
+
+#: bb-admin/includes/class.bb-install.php:1960
+msgid "Integration not enabled"
+msgstr "WordPress との統合が有効化されていません。"
+
+#: bb-admin/includes/class.bb-install.php:1965
+msgid "Step 3 - Site settings"
+msgstr "ステップ3 - サイトの設定"
+
+#: bb-admin/includes/class.bb-install.php:1967
+msgid "Site name:"
+msgstr "サイト名:"
+
+#: bb-admin/includes/class.bb-install.php:1969
+msgid "Site address (URL):"
+msgstr "サイトのアドレス (URL):"
+
+#: bb-admin/includes/class.bb-install.php:1971
+msgid "From email address:"
+msgstr "From メールアドレス:"
+
+#: bb-admin/includes/class.bb-install.php:1982
+#: bb-admin/includes/class.bb-install.php:1984
+#: bb-admin/includes/class.bb-install.php:2030
+#: bb-admin/includes/class.bb-install.php:2032
+#: bb-admin/includes/class.bb-install.php:2058
+msgid "Key master could not be created!"
+msgstr "キーマスターを作成できませんでした。"
+
+#: bb-admin/includes/class.bb-install.php:1983
+msgid "That login is already taken!"
+msgstr "そのユーザー名はすでに使用されています。"
+
+#: bb-admin/includes/class.bb-install.php:1989
+msgid "Existing key master entered!"
+msgstr "入力したキーマスターはすでに存在しています。"
+
+#: bb-admin/includes/class.bb-install.php:1990
+msgid "Your bbPress password"
+msgstr "bbPress のパスワード"
+
+#: bb-admin/includes/class.bb-install.php:1993
+msgid "Re-setting admin email address."
+msgstr "管理者メールアドレスを再設定しています。"
+
+#: bb-admin/includes/class.bb-install.php:1997
+msgid "Existing user without key master role entered!"
+msgstr "キーマスター権限のない、既存のユーザー名が入力されました。"
+
+#: bb-admin/includes/class.bb-install.php:2001
+msgid "The key master could not be created. An existing user was found with that user login."
+msgstr "キーマスターを作成できませんでした。そのユーザー名はすでに存在しています。"
+
+#: bb-admin/includes/class.bb-install.php:2024
+msgid "Key master created"
+msgstr "キーマスターを作成しました。"
+
+#: bb-admin/includes/class.bb-install.php:2025
+#: bb-admin/includes/class.bb-install.php:2051
+#: bb-admin/install.php:359
+msgid "Username:"
+msgstr "ユーザー名:"
+
+#: bb-admin/includes/class.bb-install.php:2026
+#: bb-admin/includes/class.bb-install.php:2052
+msgid "Email address:"
+msgstr "メールアドレス:"
+
+#: bb-admin/includes/class.bb-install.php:2027
+#: bb-admin/includes/class.bb-install.php:2053
+#: bb-admin/install.php:361
+msgid "Password:"
+msgstr "パスワード:"
+
+#: bb-admin/includes/class.bb-install.php:2035
+msgid "The key master could not be created. You may need to replace bbPress with a fresh copy and start again."
+msgstr "キーマスターを作成することができませんでした。bbPress のファイルを新しいものと入れ替え、はじめからやり直す必要があるかもしれません。"
+
+#: bb-admin/includes/class.bb-install.php:2049
+msgid "Your existing password"
+msgstr "現在のパスワード"
+
+#: bb-admin/includes/class.bb-install.php:2050
+msgid "Key master role assigned to existing user"
+msgstr "既存ユーザーにキーマスター権限を割り当てました。"
+
+#: bb-admin/includes/class.bb-install.php:2056
+msgid "Key master role could not be assigned to existing user!"
+msgstr "キーマスター権限を既存ユーザーに割り当てることができませんでした !"
+
+#: bb-admin/includes/class.bb-install.php:2061
+msgid "The key master could not be assigned. You may need to replace bbPress with a fresh copy and start again."
+msgstr "キーマスターを割り当てることができませんでした。bbPress のファイルを新しいものと入れ替え、はじめからやり直す必要があるかもしれません。"
+
+#: bb-admin/includes/class.bb-install.php:2080
+msgid "Just another bbPress community"
+msgstr "Just another bbPress community"
+
+#: bb-admin/includes/class.bb-install.php:2089
+msgid "Description:"
+msgstr "説明:"
+
+#: bb-admin/includes/class.bb-install.php:2092
+msgid "Forum name:"
+msgstr "フォーラム名:"
+
+#: bb-admin/includes/class.bb-install.php:2100
+msgid "Your first topic"
+msgstr "最初のトピック"
+
+#: bb-admin/includes/class.bb-install.php:2108
+msgid "First Post!  w00t."
+msgstr "最初の投稿 !"
+
+#: bb-admin/includes/class.bb-install.php:2122
+#: bb-templates/kakumei/edit-form.php:4
+msgid "Topic:"
+msgstr "トピック:"
+
+#: bb-admin/includes/class.bb-install.php:2123
+#: bb-templates/kakumei/edit-form.php:10
+msgid "Post:"
+msgstr "投稿:"
+
+#: bb-admin/includes/class.bb-install.php:2125
+#: bb-admin/includes/class.bb-install.php:2126
+msgid "Forum could not be created!"
+msgstr "フォーラムを作成できませんでした。"
+
+#: bb-admin/includes/class.bb-install.php:2129
+msgid "There are existing forums in this database."
+msgstr "このデータベースに既存のフォーラムがあります。"
+
+#: bb-admin/includes/class.bb-install.php:2130
+msgid "No new forum created."
+msgstr "新規フォーラムは作成されていません。"
+
+#: bb-admin/includes/class.bb-install.php:2131
+msgid "Forums already exist!"
+msgstr "フォーラムがすでに存在します。"
+
+#: bb-admin/includes/class.bb-install.php:2137
+#, php-format
+msgid "Making plugin directory at %s."
+msgstr "%s にプラグインディレクトリを作成"
+
+#: bb-admin/includes/class.bb-install.php:2144
+#, php-format
+msgid "Making theme directory at %s."
+msgstr "%s にテーマディレクトリを作成"
+
+#: bb-admin/includes/class.bb-install.php:2150
+#, php-format
+msgid ""
+"Your new bbPress site has been successfully set up at:\n"
+"\n"
+"%1$s\n"
+"\n"
+"You can log in to the key master account with the following information:\n"
+"\n"
+"Username: %2$s\n"
+"Password: %3$s\n"
+"\n"
+"We hope you enjoy your new forums. Thanks!\n"
+"\n"
+"--The bbPress Team\n"
+"http://bbpress.org/"
+msgstr ""
+"新しい bbPress サイトの設置に成功しました。\n"
+"\n"
+"%1$s\n"
+"\n"
+"次のログイン情報で管理者アカウントにログインすることができます。\n"
+"\n"
+"ユーザー名: %2$s\n"
+"パスワード: %3$s\n"
+"\n"
+"新しいフォーラムをお楽しみください。ご利用ありがとうございます !\n"
+"\n"
+"--bbPress チーム\n"
+"http://bbpress.org/"
+
+#: bb-admin/includes/class.bb-install.php:2156
+msgid "New bbPress installation"
+msgstr "新規 bbPress インストール"
+
+#: bb-admin/includes/class.bb-install.php:2157
+msgid "Key master email sent"
+msgstr "キーマスターへのメールを送信しました。"
+
+#: bb-admin/includes/class.bb-install.php:2159
+#: bb-admin/includes/class.bb-install.php:2160
+msgid "Key master email not sent!"
+msgstr "キーマスターへのメールは送信されませんでした。"
+
+#: bb-admin/includes/class.bb-install.php:2165
+msgid "Installation completed with some errors!"
+msgstr "エラーがいくつか発生しましたが、インストールを完了しました。"
+
+#: bb-admin/includes/class.bb-install.php:2166
+msgid "Your installation completed with some minor errors. See the error log below for more specific information."
+msgstr "いくつかの小さなエラーが発生しましたがインストールを完了しました。詳細な情報については下記のエラーログを参照してください。"
+
+#: bb-admin/includes/class.bb-install.php:2167
+msgid "There were some errors encountered during installation!"
+msgstr "インストール時にいくつかエラーが発生しました。"
+
+#: bb-admin/includes/class.bb-install.php:2169
+msgid "Your installation completed successfully."
+msgstr "インストールが完了しました。"
+
+#: bb-admin/includes/class.bb-install.php:2605
+msgid "Please select an existing bbPress Keymaster or WordPress administrator."
+msgstr "存在する bbPress キーマスター または WordPress 管理者を選択してください。"
+
+#: bb-admin/includes/defaults.bb-schema.php:8
+msgid "Database class not loaded."
+msgstr "データベースのクラスが読み込まれませんでした。"
+
+#: bb-admin/includes/functions.bb-admin.php:55
+#: bb-admin/includes/functions.bb-admin.php:56
+#: bb-admin/index.php:38
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: bb-admin/includes/functions.bb-admin.php:67
+#: bb-admin/includes/functions.bb-admin.php:68
+#: bb-admin/topics.php:41
+#: bb-templates/kakumei/forum.php:46
+#: bb-templates/kakumei/front-page.php:53
+msgid "Topics"
+msgstr "トピック"
+
+#: bb-admin/includes/functions.bb-admin.php:69
+#: bb-admin/includes/functions.bb-admin.php:70
+#: bb-admin/posts.php:47
+#: bb-admin/topics.php:103
+#: bb-admin/topics.php:112
+#: bb-templates/kakumei/favorites.php:17
+#: bb-templates/kakumei/forum.php:10
+#: bb-templates/kakumei/forum.php:47
+#: bb-templates/kakumei/front-page.php:18
+#: bb-templates/kakumei/front-page.php:54
+#: bb-templates/kakumei/stats.php:8
+#: bb-templates/kakumei/tag-single.php:12
+#: bb-templates/kakumei/view.php:10
+msgid "Posts"
+msgstr "投稿"
+
+#: bb-admin/includes/functions.bb-admin.php:79
+msgid "Appearance"
+msgstr "外観"
+
+#: bb-admin/includes/functions.bb-admin.php:80
+msgid "Themes"
+msgstr "テーマ"
+
+#: bb-admin/includes/functions.bb-admin.php:81
+msgid "Plugins"
+msgstr "プラグイン"
+
+#: bb-admin/includes/functions.bb-admin.php:82
+msgid "Installed"
+msgstr "インストール済み"
+
+#: bb-admin/includes/functions.bb-admin.php:83
+#: bb-admin/includes/functions.bb-admin.php:84
+#: bb-admin/includes/functions.bb-admin.php:572
+msgid "Users"
+msgstr "ユーザー"
+
+#: bb-admin/includes/functions.bb-admin.php:85
+#: bb-admin/tools-recount.php:173
+msgid "Tools"
+msgstr "ツール"
+
+#: bb-admin/includes/functions.bb-admin.php:86
+#: bb-admin/tools-recount.php:178
+msgid "Re-count"
+msgstr "再集計"
+
+#: bb-admin/includes/functions.bb-admin.php:87
+msgid "Settings"
+msgstr "設定"
+
+#: bb-admin/includes/functions.bb-admin.php:88
+msgid "General"
+msgstr "一般設定"
+
+#: bb-admin/includes/functions.bb-admin.php:90
+msgid "Writing"
+msgstr "投稿設定"
+
+#: bb-admin/includes/functions.bb-admin.php:91
+msgid "Reading"
+msgstr "表示設定"
+
+#: bb-admin/includes/functions.bb-admin.php:92
+msgid "Discussion"
+msgstr "ディスカッション"
+
+#: bb-admin/includes/functions.bb-admin.php:93
+msgid "Permalinks"
+msgstr "パーマリンク設定"
+
+#: bb-admin/includes/functions.bb-admin.php:94
+msgid "WordPress Integration"
+msgstr "WordPress との統合"
+
+#: bb-admin/includes/functions.bb-admin.php:220
+#: bb-admin/options-wordpress.php:249
+#: bb-includes/functions.bb-core.php:1082
+msgid "bbPress"
+msgstr "bbPress"
+
+#: bb-admin/includes/functions.bb-admin.php:399
+#: bb-admin/includes/functions.bb-admin.php:865
+#: bb-admin/includes/functions.bb-admin.php:1085
+#: bb-admin/topics.php:125
+msgid "View"
+msgstr "表示"
+
+#: bb-admin/includes/functions.bb-admin.php:401
+#: bb-admin/includes/functions.bb-admin.php:867
+#: bb-includes/functions.bb-core.php:811
+#: bb-includes/functions.bb-template.php:1905
+msgid "Edit"
+msgstr "編集"
+
+#: bb-admin/includes/functions.bb-admin.php:414
+#: bb-admin/includes/functions.bb-admin.php:1119
+#: bb-admin/topics.php:144
+#: bb-admin/topics.php:153
+#, php-format
+msgid "%s ago"
+msgstr "%s前"
+
+#: bb-admin/includes/functions.bb-admin.php:424
+msgid "Inactive (no role)"
+msgstr "休止中 (権限グループなし)"
+
+#: bb-admin/includes/functions.bb-admin.php:436
+msgid "None"
+msgstr "なし"
+
+#: bb-admin/includes/functions.bb-admin.php:504
+#: bb-admin/includes/functions.bb-admin.php:686
+msgid "<strong>No matching users were found!</strong>"
+msgstr "<strong>一致するユーザーが見つかりませんでした。</strong>"
+
+#: bb-admin/includes/functions.bb-admin.php:517
+#: bb-admin/posts.php:83
+#: bb-admin/topics.php:70
+#, php-format
+msgid "%1$s to %2$s of %3$s"
+msgstr "%1$s〜%2$sを表示 (%3$sつ中)"
+
+#: bb-admin/includes/functions.bb-admin.php:555
+#, php-format
+msgid "Users Matching \"%s\" by Role"
+msgstr "\"%s\" に一致するユーザーの権限別一覧"
+
+#: bb-admin/includes/functions.bb-admin.php:565
+#: bb-admin/posts.php:54
+#: bb-admin/topics.php:48
+#, php-format
+msgid "containing &#8220;%s&#8221;"
+msgstr "フォーラム: &#8220;%s&#8221;"
+
+#: bb-admin/includes/functions.bb-admin.php:566
+#, php-format
+msgid "with role &#8220;%s&#8221;"
+msgstr "権限グループ &#8220;%s&#8221;"
+
+#: bb-admin/includes/functions.bb-admin.php:569
+#, php-format
+msgid "%1$s%2$s"
+msgstr "%1$s - %2$s"
+
+#: bb-admin/includes/functions.bb-admin.php:581
+#: bb-includes/class.bb-query.php:936
+msgid "Search term"
+msgstr "検索キーワード"
+
+#: bb-admin/includes/functions.bb-admin.php:585
+#: bb-admin/includes/functions.bb-admin.php:634
+#: bb-admin/includes/functions.bb-admin.php:648
+msgid "Role"
+msgstr "権限グループ"
+
+#: bb-admin/includes/functions.bb-admin.php:605
+#: bb-includes/class.bb-query.php:1017
+#: bb-templates/kakumei/rss2.php:18
+#: bb-templates/kakumei/search.php:3
+msgid "Search"
+msgstr "検索"
+
+#: bb-admin/includes/functions.bb-admin.php:606
+#: bb-admin/posts.php:77
+#: bb-admin/topics.php:64
+msgid "Filter"
+msgstr "絞り込み検索"
+
+#: bb-admin/includes/functions.bb-admin.php:626
+#: bb-admin/includes/functions.bb-admin.php:630
+#: bb-admin/includes/functions.bb-admin.php:640
+#: bb-admin/includes/functions.bb-admin.php:644
+#: bb-templates/kakumei/login-form.php:14
+#: bb-templates/kakumei/login.php:17
+#: bb-templates/kakumei/login.php:59
+#: bb-templates/kakumei/register.php:25
+msgid "Username"
+msgstr "ユーザー名"
+
+#: bb-admin/includes/functions.bb-admin.php:627
+#: bb-admin/includes/functions.bb-admin.php:631
+#: bb-admin/includes/functions.bb-admin.php:641
+#: bb-admin/includes/functions.bb-admin.php:645
+#: bb-admin/includes/functions.bb-admin.php:907
+msgid "Name"
+msgstr "名前"
+
+#: bb-admin/includes/functions.bb-admin.php:628
+#: bb-admin/includes/functions.bb-admin.php:642
+msgid "E-mail"
+msgstr "メールアドレス"
+
+#: bb-admin/includes/functions.bb-admin.php:633
+#: bb-admin/includes/functions.bb-admin.php:647
+msgid "Registered"
+msgstr "登録日時"
+
+#: bb-admin/includes/functions.bb-admin.php:869
+#: bb-admin/topics.php:128
+#: bb-includes/functions.bb-template.php:1962
+msgid "Delete"
+msgstr "削除"
+
+#: bb-admin/includes/functions.bb-admin.php:896
+msgid "Edit Forum"
+msgstr "フォーラムを編集"
+
+#: bb-admin/includes/functions.bb-admin.php:897
+#: bb-admin/options-discussion.php:123
+#: bb-admin/options-general.php:236
+#: bb-admin/options-permalinks.php:164
+#: bb-admin/options-reading.php:61
+#: bb-admin/options-wordpress.php:183
+#: bb-admin/options-wordpress.php:303
+#: bb-admin/options-writing.php:78
+#: bb-plugins/akismet.php:99
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: bb-admin/includes/functions.bb-admin.php:900
+#: bb-admin/includes/functions.bb-admin.php:901
+msgid "Add Forum"
+msgstr "フォーラムを追加"
+
+#: bb-admin/includes/functions.bb-admin.php:911
+msgid "Slug"
+msgstr "スラッグ"
+
+#: bb-admin/includes/functions.bb-admin.php:915
+#: bb-admin/plugins.php:186
+#: bb-admin/plugins.php:192
+msgid "Description"
+msgstr "説明"
+
+#: bb-admin/includes/functions.bb-admin.php:920
+msgid "Parent"
+msgstr "親フォーラム"
+
+#: bb-admin/includes/functions.bb-admin.php:932
+msgid "Position"
+msgstr "位置"
+
+#: bb-admin/includes/functions.bb-admin.php:937
+msgid "Category"
+msgstr "カテゴリー"
+
+#: bb-admin/includes/functions.bb-admin.php:941
+msgid "Make this forum a category"
+msgstr "このフォーラムをカテゴリーにする"
+
+#: bb-admin/includes/functions.bb-admin.php:945
+msgid "Categories are forums where new topics cannot be created. Categories usually contain a group of sub-forums."
+msgstr "カテゴリーとは新トピックが作成できないフォーラムのことです。カテゴリーは通常、複数の子フォーラムを含みます。"
+
+#: bb-admin/includes/functions.bb-admin.php:1055
+#: xmlrpc.php:1700
+#: xmlrpc.php:2299
+msgid "No posts found."
+msgstr "投稿が見つかりませんでした。"
+
+#: bb-admin/includes/functions.bb-admin.php:1062
+#: bb-admin/includes/functions.bb-admin.php:1070
+#: bb-templates/kakumei/post-form.php:9
+msgid "Post"
+msgstr "投稿"
+
+#: bb-admin/includes/functions.bb-admin.php:1063
+#: bb-admin/includes/functions.bb-admin.php:1071
+#: bb-admin/topics.php:102
+#: bb-admin/topics.php:111
+msgid "Author"
+msgstr "作成者"
+
+#: bb-admin/includes/functions.bb-admin.php:1064
+#: bb-admin/includes/functions.bb-admin.php:1072
+#: bb-admin/topics.php:101
+#: bb-admin/topics.php:110
+#: bb-templates/kakumei/favorites.php:16
+#: bb-templates/kakumei/forum.php:9
+#: bb-templates/kakumei/front-page.php:17
+#: bb-templates/kakumei/tag-single.php:11
+#: bb-templates/kakumei/view.php:9
+msgid "Topic"
+msgstr "トピック"
+
+#: bb-admin/includes/functions.bb-admin.php:1065
+#: bb-admin/includes/functions.bb-admin.php:1073
+#: bb-admin/topics.php:104
+#: bb-admin/topics.php:113
+msgid "Date"
+msgstr "日時"
+
+#: bb-admin/includes/functions.bb-admin.php:1139
+msgid "Count posts of every topic"
+msgstr "各トピックの投稿を数える"
+
+#: bb-admin/includes/functions.bb-admin.php:1140
+msgid "Count voices of every topic"
+msgstr "各トピックの返信を数える"
+
+#: bb-admin/includes/functions.bb-admin.php:1141
+msgid "Count deleted posts on every topic"
+msgstr "各トピックの削除済み投稿を数える"
+
+#: bb-admin/includes/functions.bb-admin.php:1142
+msgid "Count topics and posts in every forum"
+msgstr "各フォーラムのトピックと投稿を数える"
+
+#: bb-admin/includes/functions.bb-admin.php:1143
+msgid "Count topics to which each user has replied"
+msgstr "各ユーザーが返信したトピックを数える"
+
+#: bb-admin/includes/functions.bb-admin.php:1144
+msgid "Count tags for every topic"
+msgstr "各トピックのタグを数える"
+
+#: bb-admin/includes/functions.bb-admin.php:1145
+msgid "Count topics for every tag"
+msgstr "各タグのトピックを数える"
+
+#: bb-admin/includes/functions.bb-admin.php:1146
+msgid "Delete tags with no topics"
+msgstr "どのトピックにも使用されていないタグを削除する"
+
+#: bb-admin/includes/functions.bb-admin.php:1147
+msgid "Remove deleted topics from users' favorites"
+msgstr "ユーザーのお気に入りから削除済みのトピックを消去する"
+
+#: bb-admin/includes/functions.bb-admin.php:1217
+#: bb-admin/includes/functions.bb-plugin.php:307
+msgid "Visit author homepage"
+msgstr "作者のホームページを表示"
+
+#: bb-admin/includes/functions.bb-admin.php:1227
+msgid "Visit porter homepage"
+msgstr "移植者のホームページを表示"
+
+#: bb-admin/includes/functions.bb-plugin.php:304
+#: bb-admin/plugins.php:228
+msgid "Visit plugin site"
+msgstr "プラグインのサイトを表示"
+
+#: bb-admin/includes/functions.bb-plugin.php:430
+msgid "Invalid plugin path."
+msgstr "無効なプラグインのパスです。"
+
+#: bb-admin/includes/functions.bb-plugin.php:434
+msgid "Plugin file does not exist."
+msgstr "プラグインファイルが存在しません。"
+
+#: bb-admin/includes/functions.bb-plugin.php:437
+msgid "That type of plugin is not available in the specified location."
+msgstr "指定した場所にはその種類のプラグインがありません。"
+
+#: bb-admin/index.php:6
+#, php-format
+msgid "<span>%d</span> forum"
+msgid_plural "<span>%d</span> forums"
+msgstr[0] "<span>%d</span> フォーラム"
+
+#: bb-admin/index.php:9
+#: bb-admin/index.php:21
+#, php-format
+msgid "<span>%d</span> topic"
+msgid_plural "<span>%d</span> topics"
+msgstr[0] "<span>%d</span> トピック"
+
+#: bb-admin/index.php:12
+#: bb-admin/index.php:24
+#, php-format
+msgid "<span>%d</span> post"
+msgid_plural "<span>%d</span> posts"
+msgstr[0] "<span>%d</span> 投稿"
+
+#: bb-admin/index.php:15
+#: bb-admin/index.php:27
+#, php-format
+msgid "<span>%d</span> user"
+msgid_plural "<span>%d</span> users"
+msgstr[0] "<span>%d</span> ユーザー"
+
+#: bb-admin/index.php:18
+#: bb-admin/index.php:30
+#, php-format
+msgid "<span>%d</span> tag"
+msgid_plural "<span>%d</span> tags"
+msgstr[0] "<span>%d</span> タグ"
+
+#: bb-admin/index.php:42
+msgid "Right Now"
+msgstr "現在の状況"
+
+#: bb-admin/index.php:47
+msgid "Totals"
+msgstr "合計"
+
+#: bb-admin/index.php:48
+msgid "Per Day"
+msgstr "1日あたり平均"
+
+#: bb-admin/index.php:77
+msgid "Change Theme"
+msgstr "テーマを変更"
+
+#: bb-admin/index.php:77
+#, php-format
+msgid "Theme <a href=\"%1$s\">%2$s</a>"
+msgstr "使用中のテーマ: <a href=\"%1$s\">%2$s</a>"
+
+#: bb-admin/index.php:78
+#, php-format
+msgid "You are using <span class=\"b\">bbPress %s</span>"
+msgstr "現在 <span class=\"b\">bbPress %s</span> を使用中です。"
+
+#: bb-admin/index.php:83
+msgid "Recently Moderated Items"
+msgstr "最近の管理作業"
+
+#: bb-admin/index.php:91
+#, php-format
+msgid "<a href=\"%1$s\">Post</a> on <a href=\"%2$s\">%3$s</a> by <a href=\"%4$s\">%5$s</a>"
+msgstr "<a href=\"%4$s\">%5$s</a> が <a href=\"%2$s\">%3$s</a> に <a href=\"%1$s\">投稿</a>"
+
+#: bb-admin/index.php:104
+#, php-format
+msgid "Topic titled <a href=\"%1$s\">%2$s</a> started by <a href=\"%3$s\">%4$s</a>"
+msgstr "<a href=\"%3$s\">%4$s</a> が <a href=\"%1$s\">%2$s</a> というトピックを開始"
+
+#: bb-admin/index.php:116
+msgid "No moderated posts or topics&#8230; you must have very well behaved members."
+msgstr "最近管理作業を行った投稿やトピックはありません&#8230; たいへんお行儀が良いメンバーをお持ちのようですね !"
+
+#: bb-admin/install.php:167
+#: bb-admin/options-wordpress.php:197
+msgid "Cookies"
+msgstr "Cookie"
+
+#: bb-admin/install.php:168
+msgid "Integrating cookies allows you and your users to login to either your bbPress or your WordPress site and be automatically logged into both."
+msgstr "Cookie を統合する事で、bbPress または WordPress のどちらかにログインすれば、自動的に両方にログインできるようになります。"
+
+#: bb-admin/install.php:169
+msgid "You may need to make changes to your WordPress configuration once installation is complete. See the \"WordPress Integration\" section of the bbPress administration area when you are done."
+msgstr "インストールが完了した後、WordPress の設定を変更しなくてはならない可能性があります。完了後、bbPress 管理画面の \"WordPress との統合\" ページをご覧ください。"
+
+#: bb-admin/install.php:189
+#: bb-admin/options-wordpress.php:271
+msgid "User database"
+msgstr "ユーザーデータベース"
+
+#: bb-admin/install.php:190
+msgid "Integrating your WordPress database user tables allows you to store user data in one location, instead of having separate user data for both bbPress and WordPress."
+msgstr "WordPress データベースとユーザーテーブルを統合する事で、WordPress と bbPress のユーザーのデータを一カ所に保存することができます。"
+
+#: bb-admin/install.php:199
+#: bb-admin/options-wordpress.php:290
+msgid "Separate user database settings"
+msgstr "個別のユーザーデータベース設定"
+
+#: bb-admin/install.php:200
+#: bb-admin/options-wordpress.php:291
+msgid "Most of the time these settings are <em>not</em> required. Look before you leap!"
+msgstr "ほとんどの場合、以下の設定は必須ではありません。入力前にご確認ください。"
+
+#: bb-admin/install.php:201
+msgid "If required, then all settings except for the character set must be specified."
+msgstr "記入が必須の場合は、文字コード設定以外のすべての項目を必ず入力してください。"
+
+#: bb-admin/install.php:212
+#: bb-admin/options-wordpress.php:296
+msgid "Custom user tables"
+msgstr "カスタムユーザーテーブル"
+
+#: bb-admin/install.php:213
+msgid "Only set these options if your integrated user tables do not fit the usual mould of <em>wp_user</em> and <em>wp_usermeta</em>."
+msgstr "統合するユーザーテーブルが <em>wp_user</em> や <em>wp_usermeta</em> といった通常の形式に一致しない場合のみ、これらのオプションを設定してください。"
+
+#: bb-admin/install.php:357
+msgid "You can now log in with the following details:"
+msgstr "以下の情報でログインできます:"
+
+#: bb-admin/install.php:363
+msgid "Site address:"
+msgstr "サイトのアドレス:"
+
+#: bb-admin/install.php:369
+msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you. If you lose it, you will have to delete the tables from the database yourself, and re-install bbPress."
+msgstr "<strong><em>パスワードをしっかり書き留めておいてください !</em></strong> このパスワードは<em>ランダム</em>に作成されています。このパスワードをも紛失した場合、データベースからテーブルを削除し、bbPress を再インストールしなくてはならなくなります。"
+
+#: bb-admin/options-discussion.php:38
+#: bb-admin/options-general.php:31
+#: bb-admin/options-reading.php:28
+#: bb-admin/options-writing.php:33
+#: bb-plugins/akismet.php:145
+msgid "<strong>Settings saved.</strong>"
+msgstr "<strong>設定を保存しました。</strong>"
+
+#: bb-admin/options-discussion.php:43
+msgid "Enable Pingbacks"
+msgstr "ピンバックを有効化"
+
+#: bb-admin/options-discussion.php:46
+msgid "Allow link notifications from other sites."
+msgstr "他のサイトからのリンク通知を許可する。"
+
+#: bb-admin/options-discussion.php:55
+msgid "Avatar display"
+msgstr "アバターの表示"
+
+#: bb-admin/options-discussion.php:58
+msgid "Don&#8217;t show avatars"
+msgstr "アバターを表示しない"
+
+#: bb-admin/options-discussion.php:59
+msgid "Show avatars"
+msgstr "アバターを表示する"
+
+#: bb-admin/options-discussion.php:63
+msgid "Maximum rating"
+msgstr "評価の上限"
+
+#: bb-admin/options-discussion.php:66
+msgid "G &#8212; Suitable for all audiences"
+msgstr "G &#8212; あらゆる人に適切"
+
+#: bb-admin/options-discussion.php:67
+msgid "PG &#8212; Possibly offensive, usually for audiences 13 and above"
+msgstr "PG &#8212; 不快感を与える恐れ &#8212; 13歳以上の人向き"
+
+#: bb-admin/options-discussion.php:68
+msgid "R &#8212; Intended for adult audiences above 17"
+msgstr "R &#8212; 18歳以上の成人向き"
+
+#: bb-admin/options-discussion.php:69
+msgid "X &#8212; Even more mature than above"
+msgstr "X &#8212; 最高レベルの制限"
+
+#: bb-admin/options-discussion.php:73
+msgid "Default avatar"
+msgstr "デフォルトアバター"
+
+#: bb-admin/options-discussion.php:76
+msgid "Mystery Man"
+msgstr "ミステリーマン"
+
+#: bb-admin/options-discussion.php:77
+msgid "Blank"
+msgstr "空白"
+
+#: bb-admin/options-discussion.php:78
+msgid "Gravatar Logo"
+msgstr "Gravatar ロゴ"
+
+#: bb-admin/options-discussion.php:79
+msgid "Identicon (Generated)"
+msgstr "Identicon (自動生成)"
+
+#: bb-admin/options-discussion.php:80
+msgid "Wavatar (Generated)"
+msgstr "Wavatar (自動生成)"
+
+#: bb-admin/options-discussion.php:81
+msgid "MonsterID  (Generated)"
+msgstr "MonsterID (自動生成)"
+
+#: bb-admin/options-discussion.php:84
+msgid "For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their e-mail address."
+msgstr "自分のアバターを持っていないユーザーには、汎用ロゴまたはメールアドレスをもとに作成される画像を表示できます。"
+
+#: bb-admin/options-discussion.php:98
+msgid "Discussion Settings"
+msgstr "ディスカッション設定"
+
+#: bb-admin/options-discussion.php:110
+msgid "Avatars"
+msgstr "アバター"
+
+#: bb-admin/options-discussion.php:112
+msgid "bbPress includes built-in support for <a href=\"http://gravatar.com/\">Gravatars</a>. A Gravatar is an image that follows you from site to site, appearing beside your name when you comment on Gravatar enabled sites. Here you can enable the display of Gravatars on your site."
+msgstr "bbPress には <a href=\"http://gravatar.com/\">Gravatars</a> への対応が組み込まれています。Gravatar とは、サイト間であなたの"
+
+#: bb-admin/options-general.php:36
+msgid "Site title"
+msgstr "サイト名"
+
+#: bb-admin/options-general.php:40
+msgid "Tagline"
+msgstr "キャッチフレーズ"
+
+#: bb-admin/options-general.php:42
+msgid "In a few words, explain what this site is about."
+msgstr "このサイトの簡単な説明。"
+
+#: bb-admin/options-general.php:45
+msgid "bbPress address (URL)"
+msgstr "bbPress のアドレス (URL)"
+
+#: bb-admin/options-general.php:47
+msgid "The full URL of your bbPress install."
+msgstr "設置した bbPress の完全な URL。"
+
+#: bb-admin/options-general.php:50
+msgid "E-mail address"
+msgstr "メールアドレス"
+
+#: bb-admin/options-general.php:51
+msgid "This address is used for admin purposes, like new user notification."
+msgstr "このアドレスは新規ユーザーの通知などサイト管理のために使われます。"
+
+#: bb-admin/options-general.php:57
+#: bb-admin/options-general.php:161
+msgid "Time zone"
+msgstr "タイムゾーン"
+
+#: bb-admin/options-general.php:116
+msgid "hours"
+msgstr "時間"
+
+#: bb-admin/options-general.php:119
+msgid "Date and time format"
+msgstr "日付と時刻のフォーマット"
+
+#: bb-admin/options-general.php:124
+msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>."
+msgstr "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">日付フォーマットのドキュメント</a>"
+
+#: bb-admin/options-general.php:125
+msgid "Click \"Save Changes\" to update sample output."
+msgstr "サンプル出力を更新するには、\"変更を保存\"をクリックしてください。"
+
+#: bb-admin/options-general.php:129
+msgid "Date format"
+msgstr "日付フォーマット"
+
+#: bb-admin/options-general.php:165
+msgid "Choose a city in the same time zone as you."
+msgstr "設定するタイムゾーンと同じ町を選択してください。"
+
+#: bb-admin/options-general.php:166
+#: bb-admin/options-general.php:201
+#, php-format
+msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is <code>%s</code>"
+msgstr "<abbr title=\"Coordinated Universal Time\">UTC</abbr> (<a href=\"http://ja.wikipedia.org/wiki/UTC\" title=\"協定世界時 - Wikipedia\">協定世界時</a>): <code>%s</code>"
+
+#: bb-admin/options-general.php:167
+#, php-format
+msgid "Local time is <code>%s</code>"
+msgstr "現地時間: <code>%1$s</code>"
+
+#: bb-admin/options-general.php:174
+msgid "This time zone is currently in daylight savings time."
+msgstr "このタイムゾーンは現在夏時間です。"
+
+#: bb-admin/options-general.php:176
+msgid "This time zone is currently in standard time."
+msgstr "このタイムゾーンは現在標準時です。"
+
+#: bb-admin/options-general.php:184
+#, php-format
+msgid "Daylight savings time begins on <code>%s</code>"
+msgstr "夏時間は<code>%s</code>に始まります。"
+
+#: bb-admin/options-general.php:184
+#, php-format
+msgid "Standard time begins on <code>%s</code>"
+msgstr "標準時は<code>%s</code>に始まります。"
+
+#: bb-admin/options-general.php:196
+#, php-format
+msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> %s is <code>%s</code>"
+msgstr "<abbr title=\"Coordinated Universal Time\">UTC</abbr> (<a href=\"http://ja.wikipedia.org/wiki/UTC\" title=\"協定世界時 - Wikipedia\">協定世界時</a>) %s: <code>%s</code>"
+
+#: bb-admin/options-general.php:197
+msgid "Unfortunately, you have to manually update this for Daylight Savings Time."
+msgstr "サマータイムについては、面倒ですがその都度手作業で変更してください。"
+
+#: bb-admin/options-general.php:206
+#: bb-includes/backpress/functions.core.php:985
+#, php-format
+msgid "UTC %s"
+msgstr "UTC %s"
+
+#: bb-admin/options-general.php:219
+msgid "General Settings"
+msgstr "一般設定"
+
+#: bb-admin/options-permalinks.php:111
+msgid "<strong>It appears that your server does not support custom permalink structures.</strong>"
+msgstr "<strong>お使いのサーバーはカスタムパーマリンク構造に対応していないようです。</strong>"
+
+#: bb-admin/options-permalinks.php:116
+msgid "<strong>Rewriting on webservers other than Apache using mod_rewrite is currently unsupported, but we won&#8217;t stop you from trying.</strong>"
+msgstr "<strong>Apache 以外の Web サーバーでの mod_rewrite を使ったリライトには現在対応していませんが、もし試してみたいならご自由にどうぞ。</strong>"
+
+#: bb-admin/options-permalinks.php:121
+msgid "<strong>You should update your .htaccess now.</strong>"
+msgstr "<strong>.htaccess を更新してください。</strong>"
+
+#: bb-admin/options-permalinks.php:123
+msgid "<strong>Permalink structure updated.</strong>"
+msgstr "<strong>パーマリンク構造を更新しました。</strong>"
+
+#: bb-admin/options-permalinks.php:129
+msgid "Permalink type"
+msgstr "パーマリンクタイプ"
+
+#: bb-admin/options-permalinks.php:132
+#, php-format
+msgid "<span>None</span> <code>%s</code>"
+msgstr "<span>デフォルト</span> <code>%s</code>"
+
+#: bb-admin/options-permalinks.php:133
+#, php-format
+msgid "<span>Numeric</span> <code>%s</code>"
+msgstr "<span>数字ベース</span> <code>%s</code>"
+
+#: bb-admin/options-permalinks.php:134
+#, php-format
+msgid "<span>Name based</span> <code>%s</code>"
+msgstr "<span>タイトルベース</span> <code>%s</code>"
+
+#: bb-admin/options-permalinks.php:147
+msgid "Permalink Settings"
+msgstr "パーマリンク設定"
+
+#: bb-admin/options-permalinks.php:153
+msgid "By default bbPress uses web URLs which have question marks and lots of numbers in them, however bbPress offers you the ability to choose an alternative URL structure for your permalinks. This can improve the aesthetics, usability, and forward-compatibility of your links."
+msgstr "デフォルトの bbPress では疑問符やたくさんの数字を含む URL を使っていますが、パーマリンクとして別の URL 構造を選択する機能もあります。これを利用することで、リンクの美しさ、使いやすさ、そして前方互換性を高めることができます。"
+
+#: bb-admin/options-permalinks.php:174
+msgid "If your <code>.htaccess</code> file were <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so these are the mod_rewrite rules you should have in your <code>.htaccess</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all."
+msgstr "<code>.htaccess</code> が<a href=\"http://wpdocs.sourceforge.jp/Changing_File_Permissions\">書き込み可能</a>ならこの操作は自動的に行われますが、そうでない場合は <code>.htaccess</code> ファイルに mod_rewrite ルールを書き込む必要があります。以下のフィールドをクリックし、<kbd>CTRL + a</kbd> ですべてのコードを選択してください。"
+
+#: bb-admin/options-reading.php:33
+msgid "Items per page"
+msgstr "各ページの項目数"
+
+#: bb-admin/options-reading.php:35
+msgid "Number of topics, posts or tags to show per page."
+msgstr "1ページに表示するトピック、投稿またはタグの数。"
+
+#: bb-admin/options-reading.php:47
+msgid "Reading Settings"
+msgstr "表示設定"
+
+#: bb-admin/options-wordpress.php:45
+msgid "<strong>User role mapping saved.</strong>"
+msgstr "権限グループの割り当て設定を保存しました。"
+
+#: bb-admin/options-wordpress.php:48
+msgid "<strong>User integration settings saved.</strong>"
+msgstr "<strong>ユーザー統合設定を保存しました。</strong>"
+
+#: bb-admin/options-wordpress.php:54
+msgid "none|no bbPress role"
+msgstr "権限なし"
+
+#: bb-admin/options-wordpress.php:58
+msgid "WordPress Administrator"
+msgstr "WordPress 管理者"
+
+#: bb-admin/options-wordpress.php:59
+msgid "WordPress Editor"
+msgstr "WordPress 編集者"
+
+#: bb-admin/options-wordpress.php:60
+msgid "WordPress Author"
+msgstr "WordPress 作成者"
+
+#: bb-admin/options-wordpress.php:61
+msgid "WordPress Contributor"
+msgstr "WordPress 寄稿者"
+
+#: bb-admin/options-wordpress.php:62
+msgid "WordPress Subscriber"
+msgstr "WordPress 購読者"
+
+#: bb-admin/options-wordpress.php:78
+msgid "This must match the value of the WordPress setting named \"auth_salt\" in your WordPress site. Look for the option labeled \"auth_salt\" in <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>."
+msgstr "WordPress 設定の \"auth_salt\" 値と一致させてください。<a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">WordPress 管理画面</a>で \"auth_salt\" という設定値を探してみてください。"
+
+#: bb-admin/options-wordpress.php:82
+msgid "This must match the value of the WordPress setting named \"secure_auth_salt\" in your WordPress site. Look for the option labeled \"secure_auth_salt\" in <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. Sometimes this value is not set in WordPress, in that case you can leave this setting blank as well."
+msgstr "WordPress 設定の \"secure_auth_salt\" 値と一致させてください。<a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">WordPress 管理画面</a>で \"secure_auth_salt\" という設定値を探してみてください。"
+
+#: bb-admin/options-wordpress.php:86
+msgid "This must match the value of the WordPress setting named \"logged_in_salt\" in your WordPress site. Look for the option labeled \"logged_in_salt\" in <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>."
+msgstr "WordPress 設定の \"logged_in_salt\" 値と一致させてください。<a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">WordPress 管理画面</a>で \"logged_in_salt\" という設定値を探してみてください。"
+
+#: bb-admin/options-wordpress.php:93
+#, php-format
+msgid "You have defined the \"%s\" constant which locks this setting."
+msgstr "この設定をロックする \"%s\" 定数を定義しました。"
+
+#: bb-admin/options-wordpress.php:170
+msgid "WordPress Integration Settings"
+msgstr "WordPress との統合設定"
+
+#: bb-admin/options-wordpress.php:175
+msgid "User Role Map"
+msgstr "権限グループの割り当て"
+
+#: bb-admin/options-wordpress.php:176
+msgid "Here you can match WordPress roles to bbPress roles."
+msgstr "ここで WordPress の権限グループを bbPress のグループに割り当てられます。"
+
+#: bb-admin/options-wordpress.php:177
+msgid "This will have no effect until your user tables are integrated below. Only standard WordPress roles are supported. Changes do not affect users with existing roles in both WordPress and bbPress."
+msgstr "ユーザーテーブルが統合されるまでこの設定は何も影響しません。WordPress の標準権限グループのみに対応しています。ここでの変更は、WordPress と bbPress 両方ですでに権限グループを割り当てられているユーザーには影響しません。"
+
+#: bb-admin/options-wordpress.php:190
+msgid "User Integration"
+msgstr "ユーザーの統合"
+
+#: bb-admin/options-wordpress.php:191
+msgid "Usually, you will have to specify both cookie integration and user database integration settings. Make sure you have a \"User role map\" setup above before trying to add user integration."
+msgstr "通常、Cookie とユーザーデータベース統合設定の両方を指定する必要があります。ユーザーの統合を行う前に、上記の\"権限グループの割り当て\"が設定済みであることを再度確認してください。"
+
+#: bb-admin/options-wordpress.php:192
+msgid "<em><strong>Note:</strong> changing the settings below may cause you to be logged out!</em>"
+msgstr "<strong>注:</strong> これらの設定を更新すると強制的にログアウトさせられる可能性があります。"
+
+#: bb-admin/options-wordpress.php:198
+msgid "Cookie sharing allows users to log in to either your bbPress or your WordPress site, and have access to both."
+msgstr "Cookie を共有することで、ユーザーは bbPress か WordPress どちらかにログインすれば両方にアクセスできるようになります。"
+
+#: bb-admin/options-wordpress.php:242
+#, php-format
+msgid "To complete cookie integration, you will need to add some settings to your <code>wp-config.php</code> file in the root directory of your WordPress installation. To get those settings, you will need to install and configure the <a href=\"%s\">\"bbPress Integration\" plugin for WordPress</a>."
+msgstr "Cookie の統合を完了するには、WordPress を設置したルートディレクトリにある <code>wp-config.php</code> ファイルにいくつか設定を追加する必要があります。これらの情報を取得するには、 <a href=\"%s\">WordPress 向けの \"bbPress Integration\" プラグイン</a>をインストールして設定する必要があります。"
+
+#: bb-admin/options-wordpress.php:243
+msgid "You will also have to manually ensure that the following constants are equivalent in WordPress' and bbPress' respective config files."
+msgstr "さらに、以下の定数が WordPrss と bbPress それぞれの設定ファイルで対応しているか、手動で確認する必要があります。"
+
+#: bb-admin/options-wordpress.php:247
+msgid "WordPress"
+msgstr "WordPress"
+
+#: bb-admin/options-wordpress.php:272
+msgid "User database sharing allows you to store user data in your WordPress database."
+msgstr "ユーザーデータベース共有を有効化すると、WordPress のデータベースにユーザーデータを保存できます。"
+
+#: bb-admin/options-wordpress.php:273
+msgid "You should setup a \"User role map\" before"
+msgstr "まず \"権限グループの割り当て\" を設定しておいてください。"
+
+#: bb-admin/options-wordpress.php:292
+msgid "All settings except for the character set must be specified."
+msgstr "文字コード設定以外のすべての項目は必ず設定してください。"
+
+#: bb-admin/options-wordpress.php:297
+msgid "Only set these values if your user tables differ from the default WordPress naming convention."
+msgstr "ユーザーテーブルの命名規則が デフォルトの WordPress と異なる場合のみ以下を設定してください。"
+
+#: bb-admin/options-writing.php:38
+msgid "Lock post editing after"
+msgstr "投稿の編集ができる制限時間"
+
+#: bb-admin/options-writing.php:40
+msgid "minutes"
+msgstr "分"
+
+#: bb-admin/options-writing.php:41
+msgid "A user can edit a post for this many minutes after submitting."
+msgstr "投稿の送信後、この制限時間内ならユーザーは投稿を編集できます。"
+
+#: bb-admin/options-writing.php:47
+msgid "XML-RPC"
+msgstr "XML-RPC"
+
+#: bb-admin/options-writing.php:50
+msgid "Enable the bbPress XML-RPC publishing protocol."
+msgstr "bbPress XML-RPC 公開プロトコルを有効にする"
+
+#: bb-admin/options-writing.php:63
+msgid "Writing Settings"
+msgstr "投稿設定"
+
+#: bb-admin/options-writing.php:69
+msgid "Remote Publishing"
+msgstr "リモート投稿"
+
+#: bb-admin/options-writing.php:71
+msgid "To interact with bbPress from a desktop client or remote website that uses the XML-RPC publishing interface you must enable it below."
+msgstr "XML-RPC を使用しているデスクトップクライアントやリモートサイトから bbPress にアクセスするには、有効化が必要です。"
+
+#: bb-admin/plugins.php:121
+msgid "<strong>Plugin could not be activated, it produced a Fatal Error</strong>. The error is shown below."
+msgstr "プラグインの使用を開始できませんでした。<strong>重大なエラー</strong> が発生しました。"
+
+#: bb-admin/plugins.php:125
+#, php-format
+msgid "<strong>\"%s\" plugin activated</strong>"
+msgstr "<strong>プラグイン \"%s\" の使用を開始しました。</strong>"
+
+#: bb-admin/plugins.php:129
+#, php-format
+msgid "<strong>\"%s\" plugin deactivated</strong>"
+msgstr "<strong>プラグイン \"%s\" を停止しました。</strong>"
+
+#: bb-admin/plugins.php:135
+msgid "<strong>\"Safe mode\" is on, all plugins are disabled even if they are listed as active.</strong>"
+msgstr "<strong>\"セーフモード\" を利用中のため、使用中と表示されていてもすべてのプラグインは停止されています。</strong>"
+
+#: bb-admin/plugins.php:145
+msgid "Manage Plugins"
+msgstr "プラグインの管理"
+
+#: bb-admin/plugins.php:172
+#, php-format
+msgid "All <span class=\"count\">(%d)</span>"
+msgstr "すべて <span class=\"count\">(%d)</span>"
+
+#: bb-admin/plugins.php:173
+#, php-format
+msgid "Active <span class=\"count\">(%d)</span>"
+msgstr "使用中 <span class=\"count\">(%d)</span>"
+
+#: bb-admin/plugins.php:174
+#, php-format
+msgid "Inactive <span class=\"count\">(%d)</span>"
+msgstr "停止中 <span class=\"count\">(%d)</span>"
+
+#: bb-admin/plugins.php:175
+#, php-format
+msgid "Autoloaded <span class=\"count\">(%d)</span>"
+msgstr "自動読込済み <span class=\"count\">(%d)</span>"
+
+#: bb-admin/plugins.php:185
+#: bb-admin/plugins.php:191
+msgid "Plugin"
+msgstr "プラグイン"
+
+#: bb-admin/plugins.php:202
+#: bb-admin/themes.php:96
+msgid "Activate"
+msgstr "使用する"
+
+#: bb-admin/plugins.php:209
+msgid "Deactivate"
+msgstr "停止する"
+
+#: bb-admin/plugins.php:227
+#, php-format
+msgid "By %s"
+msgstr "作者: %s"
+
+#: bb-admin/plugins.php:239
+msgid "Autoloaded"
+msgstr "自動読込済み"
+
+#: bb-admin/plugins.php:258
+msgid "No plugins found."
+msgstr "プラグインが見つかりませんでした。"
+
+#: bb-admin/posts.php:7
+msgid "<strong>Post undeleted.</strong>"
+msgstr "<strong>削除した投稿を復元しました。</strong>"
+
+#: bb-admin/posts.php:10
+msgid "<strong>Post deleted.</strong>"
+msgstr "<strong>投稿を削除しました。</strong>"
+
+#: bb-admin/posts.php:13
+msgid "<strong>Post spammed.</strong>"
+msgstr "<strong>投稿をスパムに分類しました。</strong>"
+
+#: bb-admin/posts.php:16
+msgid "<strong>Post removed from spam.</strong> It is now a normal post."
+msgstr "<strong>投稿のスパム分類を解除しました。</strong>通常の投稿になります。"
+
+#: bb-admin/posts.php:19
+msgid "<strong>Post removed from spam.</strong> It is now a deleted post."
+msgstr "<strong>投稿のスパム分類を解除しました。</strong>削除済みの投稿になります。"
+
+#: bb-admin/posts.php:36
+#: bb-admin/topics.php:26
+msgid "Now how'd you get here?  And what did you think you'd being doing?"
+msgstr "どうやってこのページへたどりついたんですか ? 何をしようとしてるんですか ?"
+
+#: bb-admin/posts.php:55
+#: bb-admin/topics.php:49
+#, php-format
+msgid "in &#8220;%s&#8221;"
+msgstr "- フォーラム: &#8220;%s&#8221;"
+
+#: bb-admin/posts.php:56
+#: bb-admin/topics.php:50
+#, php-format
+msgid "with tag &#8220;%s&#8221;"
+msgstr "- タグ: &#8220;%s&#8221;"
+
+#: bb-admin/posts.php:57
+#: bb-admin/topics.php:51
+#, php-format
+msgid "by %s"
+msgstr " - 作成: %s"
+
+#: bb-admin/posts.php:61
+#, php-format
+msgid "from IP address %s"
+msgstr "IP アドレス %s から"
+
+#: bb-admin/posts.php:69
+#, php-format
+msgid "%1$s%2$s%3$s%4$s%5$s"
+msgstr "%1$s%2$s%3$s%4$s%5$s"
+
+#: bb-admin/posts.php:94
+#: bb-admin/topics.php:81
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: bb-admin/posts.php:95
+#: bb-admin/topics.php:82
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: bb-admin/tag-destroy.php:5
+#: bb-admin/tag-merge.php:5
+#: bb-admin/tag-rename.php:5
+msgid "You are not allowed to manage tags."
+msgstr "タグを管理する権限がありません。"
+
+#: bb-admin/tag-destroy.php:13
+#: bb-admin/tag-rename.php:14
+msgid "Tag not found."
+msgstr "タグは見つかりませんでした。"
+
+#: bb-admin/tag-destroy.php:16
+#, php-format
+msgid "Rows deleted from tags table: %d <br />\n"
+msgstr "tags テーブルから削除した行: %d <br />\n"
+
+#: bb-admin/tag-destroy.php:17
+#, php-format
+msgid "Rows deleted from tagged table: %d <br />\n"
+msgstr "tagged テーブルから削除した行: %d <br />\n"
+
+#: bb-admin/tag-destroy.php:18
+#, php-format
+msgid "<a href=\"%s\">Home</a>"
+msgstr "<a href=\"%s\">ホーム</a>"
+
+#: bb-admin/tag-destroy.php:20
+#, php-format
+msgid ""
+"Something odd happened when attempting to destroy that tag.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"タグを削除しようとした際にエラーが起きたようです。<br />\n"
+"<a href=\"%s\">再試行しますか ?</a>"
+
+#: bb-admin/tag-merge.php:13
+msgid "Tag specified not found."
+msgstr "指定したタグは見つかりませんでした。"
+
+#: bb-admin/tag-merge.php:16
+msgid "Tag to be merged not found."
+msgstr "統合するタグは見つかりませんでした。"
+
+#: bb-admin/tag-merge.php:19
+#, php-format
+msgid "Number of topics from which the old tag was removed: %d <br />\n"
+msgstr "古いタグを削除したトピックの数: %d <br />\n"
+
+#: bb-admin/tag-merge.php:20
+#, php-format
+msgid "Number of topics to which the new tag was added: %d <br />\n"
+msgstr "新しいタグを追加したトピックの数: %d <br />\n"
+
+#: bb-admin/tag-merge.php:21
+#, php-format
+msgid "Number of rows deleted from tags table:%d <br />\n"
+msgstr "tags テーブルから削除した行の数: %d<br />\n"
+
+#: bb-admin/tag-merge.php:22
+#, php-format
+msgid "<a href=\"%s\">New Tag</a>"
+msgstr "<a href=\"%s\">新しいタグ</a>"
+
+#: bb-admin/tag-merge.php:24
+#, php-format
+msgid ""
+"Something odd happened when attempting to merge those tags.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"タグの統合中にエラーが発生しました。<br />\n"
+"<a href=\"%s\">再試行しますか ?</a>"
+
+#: bb-admin/tag-rename.php:20
+#, php-format
+msgid "There already exists a tag by that name or the name is invalid. <a href=\"%s\">Try Again</a>"
+msgstr "すでに同じ名前のタグが存在しているか、無効なタグ名です。<a href=\"%s\">再度お試しください。</a>"
+
+#: bb-admin/themes.php:38
+#, php-format
+msgid "<strong>Theme \"%s\" activated</strong>"
+msgstr "<strong>テーマ \"%s\" を<strong>有効化</strong>しました。</strong>"
+
+#: bb-admin/themes.php:43
+msgid "<strong>Default theme is missing.</strong>"
+msgstr "<strong>デフォルトテーマが見つかりません。</strong>"
+
+#: bb-admin/themes.php:47
+msgid "<strong>Theme not found.  Default theme applied.</strong>"
+msgstr "<strong>テーマが見つかりませんでした。デフォルトのテーマを適用しました。</strong>"
+
+#: bb-admin/themes.php:63
+#: bb-admin/themes.php:96
+#, php-format
+msgid "Activate \"%s\""
+msgstr "\"%s\"を有効化"
+
+#: bb-admin/themes.php:68
+#, php-format
+msgid "%1$s %2$s by <cite>%3$s</cite>"
+msgstr "%1$s %2$s (作者: <cite>%3$s</cite>)"
+
+#: bb-admin/themes.php:82
+#, php-format
+msgid "Ported by <cite>%s</cite>"
+msgstr "移植者: <cite>%s</cite>"
+
+#: bb-admin/themes.php:101
+#, php-format
+msgid "All of this theme's files are located in the \"%s\" themes directory."
+msgstr "このテーマの全ファイルは \"%s\" ディレクトリにあります。"
+
+#: bb-admin/themes.php:112
+msgid "<strong>\"Safe mode\" is on, the default theme will be used instead of the active theme indicated below.</strong>"
+msgstr "<strong>\"セーフモード\" が有効化されているため、以下で指定された適用テーマの代わりにデフォルトテーマが使われます。</strong>"
+
+#: bb-admin/themes.php:120
+msgid "Manage Themes"
+msgstr "テーマの管理"
+
+#: bb-admin/themes.php:123
+msgid "Current Theme"
+msgstr "現在のテーマ"
+
+#: bb-admin/themes.php:132
+msgid "Available Themes"
+msgstr "利用可能なテーマ"
+
+#: bb-admin/tools-recount.php:10
+msgid "Counted posts"
+msgstr "投稿を数え直しました。"
+
+#: bb-admin/tools-recount.php:21
+msgid "Counted voices"
+msgstr "返信を数え直しました。"
+
+#: bb-admin/tools-recount.php:37
+msgid "Counting deleted posts&#8230;"
+msgstr "削除済みの投稿を数え直しています&#8230;"
+
+#: bb-admin/tools-recount.php:47
+msgid "&#8230;counted deleted posts"
+msgstr "&#8230;削除済みの投稿を数え直しました。"
+
+#: bb-admin/tools-recount.php:49
+msgid "&#8230;no deleted posts to count"
+msgstr "&#8230;数え直すことができる削除した投稿はありませんでした。"
+
+#: bb-admin/tools-recount.php:55
+msgid "Counted forum topics and posts"
+msgstr "フォーラムトピックと投稿を数え直しました。"
+
+#: bb-admin/tools-recount.php:72
+msgid "Counted topics to which each user has replied"
+msgstr "各ユーザーが返信したトピックを数え直しました。"
+
+#: bb-admin/tools-recount.php:87
+msgid "Counted topic tags"
+msgstr "トピックのタグを数え直しました。"
+
+#: bb-admin/tools-recount.php:106
+msgid "Counted tagged topics"
+msgstr "タグが付いているトピックを数え直しました。"
+
+#: bb-admin/tools-recount.php:125
+msgid "Deleted tags with no topics"
+msgstr "トピックがないタグを削除しました。"
+
+#: bb-admin/tools-recount.php:142
+msgid "Removed deleted topics from users' favorites"
+msgstr "ユーザーのお気に入りから削除済みのトピックを消去しました。"
+
+#: bb-admin/tools-recount.php:179
+msgid "To minimize database queries, bbPress keeps it's own count of various items like posts in each topic and topics in each forum. Occasionally these internal counters may become incorrect, you can manually re-count these items using this form."
+msgstr "データベースへのクエリを最小限に抑えるため、bbPress は様々な項目について独自の集計数を保持しています (各トピックの投稿数や各フォーラムのトピック数など)。たまにこの内部集計数がおかしくなることがありますが、以下のフォームを使ってこれらの項目を再集計することができます。"
+
+#: bb-admin/tools-recount.php:180
+msgid "You can also clean out some stale items here, like empty tags."
+msgstr "また、空タグなどの古い項目も除去できます。"
+
+#: bb-admin/tools-recount.php:187
+msgid "Items to re-count"
+msgstr "再集計する項目"
+
+#: bb-admin/tools-recount.php:200
+msgid "There are no re-count tools available."
+msgstr "利用できる再集計用のツールがありません。"
+
+#: bb-admin/tools-recount.php:207
+msgid "Recount Items"
+msgstr "項目を再集計"
+
+#: bb-admin/topic-move.php:8
+msgid "Invalid topic or forum."
+msgstr "無効なトピックまたはフォーラムです。"
+
+#: bb-admin/topic-move.php:21
+msgid "Your topic or forum caused all manner of confusion"
+msgstr "あなたのトピックもしくはフォーラムが、色々と混乱を招いたようです。"
+
+#: bb-admin/topics.php:7
+msgid "<strong>Topic undeleted.</strong>"
+msgstr "<strong>削除したトピックを復元しました。</strong>"
+
+#: bb-admin/topics.php:10
+msgid "<strong>Topic deleted.</strong>"
+msgstr "<strong>トピックを削除しました。</strong>"
+
+#: bb-admin/topics.php:13
+msgid "<strong>Topic opened.</strong>"
+msgstr "<strong>トピックを再開しました。</strong>"
+
+#: bb-admin/topics.php:16
+msgid "<strong>Topic closed.</strong>"
+msgstr "<strong>トピックを閉じました。</strong>"
+
+#: bb-admin/topics.php:56
+#, php-format
+msgid "%1$s%2$s%3$s%4$s"
+msgstr "%1$s%2$s%3$s%4$s"
+
+#: bb-admin/topics.php:94
+#: xmlrpc.php:1369
+#: xmlrpc.php:2761
+#: xmlrpc.php:3072
+msgid "No topics found."
+msgstr "トピックが見つかりません。"
+
+#: bb-admin/topics.php:105
+#: bb-admin/topics.php:114
+#: bb-templates/kakumei/favorites.php:20
+#: bb-templates/kakumei/forum.php:13
+#: bb-templates/kakumei/front-page.php:21
+#: bb-templates/kakumei/tag-single.php:15
+#: bb-templates/kakumei/view.php:13
+msgid "Freshness"
+msgstr "経過時間"
+
+#: bb-admin/topics.php:127
+msgid "Close"
+msgstr "クローズ"
+
+#: bb-admin/topics.php:127
+#: bb-includes/class.bb-query.php:1001
+msgid "Open"
+msgstr "オープン"
+
+#: bb-admin/topics.php:128
+#: bb-includes/functions.bb-template.php:2032
+msgid "Undelete"
+msgstr "削除取り消し"
+
+#: bb-admin/topics.php:148
+#, php-format
+msgid "Last post by %s"
+msgstr "%s からの最近の投稿"
+
+#: bb-admin/upgrade.php:49
+msgid "Beginning upgrade&hellip;"
+msgstr "アップグレードを開始&hellip;"
+
+#: bb-admin/upgrade.php:53
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:600
+msgid "Done"
+msgstr "完了"
+
+#: bb-admin/upgrade.php:71
+msgid "bbPress database upgrade"
+msgstr "bbPress データベースのアップグレード"
+
+#: bb-admin/upgrade.php:89
+#, php-format
+msgid "Nothing to upgrade.  <a href=\"%s\">Get back to work!</a>"
+msgstr "何もアップグレードするものはありません。<a href=\"%s\">作業に戻ってください !</a>"
+
+#: bb-admin/upgrade.php:97
+msgid "Database upgrade required"
+msgstr "データベースのアップグレードが必要です"
+
+#: bb-admin/upgrade.php:101
+msgid "It looks like your database is out-of-date. You can upgrade it here."
+msgstr "データベースが古くなっています。ここでアップグレードすることができます。"
+
+#: bb-admin/upgrade.php:107
+msgid "Upgrade database"
+msgstr "データベースをアップグレード"
+
+#: bb-admin/upgrade.php:119
+msgid "Database upgrade complete"
+msgstr "データベースのアップグレード完了"
+
+#: bb-admin/upgrade.php:123
+msgid "Your database has been successfully upgraded, enjoy!"
+msgstr "データベースのアップグレードが完了しました。では、お楽しみください !"
+
+#: bb-admin/upgrade.php:128
+#: bb-admin/upgrade.php:170
+msgid "Show upgrade messages"
+msgstr "アップグレードメッセージを表示する"
+
+#: bb-admin/upgrade.php:137
+#: bb-admin/upgrade.php:189
+msgid "Upgrade log"
+msgstr "アップグレードログ"
+
+#: bb-admin/upgrade.php:144
+#: bb-admin/upgrade.php:196
+msgid "&laquo; Go back to forums"
+msgstr "&laquo; フォーラムへ戻る"
+
+#: bb-admin/upgrade.php:147
+msgid "Go to admin"
+msgstr "管理画面へ"
+
+#: bb-admin/upgrade.php:159
+msgid "Database upgrade failed"
+msgstr "データベースのアップグレードに失敗しました。"
+
+#: bb-admin/upgrade.php:163
+msgid "The upgrade process seems to have failed. Check the upgrade messages below for more information.<br /><br />Attempting to go to the admin area without resolving the listed errors will return you to this upgrade page."
+msgstr "アップグレード処理に失敗したようです。詳細については以下のアップグレードメッセージを確認してください。<br /><br />表示されたエラーを解決せずに管理画面に移動しようとすると、このアップグレードページに転送されるでしょう。"
+
+#: bb-admin/upgrade.php:182
+msgid "Error log"
+msgstr "エラーログ"
+
+#: bb-admin/upgrade.php:199
+msgid "Try again"
+msgstr "もう一度やり直す"
+
+#: bb-edit.php:16
+msgid "Sorry, post is too old."
+msgstr "投稿が古すぎます。"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:317
+msgid "Passed variable is not a BackPress database object."
+msgstr "BackPress データベースオブジェクトではない変数が送信されました。"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:321
+msgid "No schema available."
+msgstr "利用できるスキーマがありません。"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:387
+msgid "Creating table"
+msgstr "テーブルを作成"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:416
+#, php-format
+msgid "Adding column: %s"
+msgstr "データベース列を追加: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:434
+#, php-format
+msgid "Setting default on column: %s"
+msgstr "データベース列の初期値を設定: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:449
+#, php-format
+msgid "Changing column: %s"
+msgstr "データベース列を変更: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:491
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:514
+#, php-format
+msgid "Adding index: %s"
+msgstr "インデックスを追加: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:507
+#, php-format
+msgid "Dropping index: %s"
+msgstr "インデックスを削除: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:535
+msgid "Inserting data"
+msgstr "データを挿入"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:548
+msgid "Updating data"
+msgstr "データを更新"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:566
+#, php-format
+msgid "Modifying database: %s (%s)"
+msgstr "データベースを変更: %s (%s)"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:570
+#, php-format
+msgid "Table: %s"
+msgstr "テーブル: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:582
+msgid "Skipped"
+msgstr "スキップされました"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:594
+msgid "SQL ERROR! See the error log for more detail"
+msgstr "SQL エラーが発生しました。詳細はエラーログをご覧下さい。"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:595
+msgid "SQL ERROR!"
+msgstr "SQL エラーが発生しました。"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:596
+#, php-format
+msgid "Database: %s (%s)"
+msgstr "データベース: %s (%s)"
+
+#: bb-includes/backpress/class.wp-http.php:723
+#: bb-includes/backpress/class.wp-http.php:1341
+msgid "Too many redirects."
+msgstr "リダイレクトが多すぎます。"
+
+#: bb-includes/backpress/class.wp-http.php:803
+#: bb-includes/backpress/class.wp-http.php:930
+#, php-format
+msgid "Malformed URL: %s"
+msgstr "不正な URL: %s"
+
+#: bb-includes/backpress/class.wp-http.php:814
+#: bb-includes/backpress/class.wp-http.php:987
+#, php-format
+msgid "Could not open handle for fopen() to %s"
+msgstr "%s に対する fopen() のハンドラーを開くことができませんでした。"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:226
+#: bb-includes/backpress/class.wp-taxonomy.php:299
+#: bb-includes/backpress/class.wp-taxonomy.php:403
+#: bb-includes/backpress/class.wp-taxonomy.php:581
+#: bb-includes/backpress/class.wp-taxonomy.php:1166
+#: bb-includes/backpress/class.wp-taxonomy.php:1400
+#: bb-includes/class.bb-taxonomy.php:48
+#: bb-includes/class.bb-taxonomy.php:151
+#: bb-includes/class.bb-taxonomy.php:275
+msgid "Invalid Taxonomy"
+msgstr "不正なタクソノミー分類です。"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:294
+msgid "Empty Term"
+msgstr "キーワードなし"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1300
+#: bb-includes/backpress/class.wp-taxonomy.php:1549
+msgid "Invalid taxonomy"
+msgstr "不正なタクソノミー分類です。"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1303
+msgid "Invalid term ID"
+msgstr "無効なキーワード ID です。"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1306
+#: bb-includes/backpress/class.wp-taxonomy.php:1572
+msgid "A name is required for this term"
+msgstr "このキーワードの名称は必須項目です"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1337
+#: bb-includes/backpress/class.wp-taxonomy.php:1344
+msgid "Could not insert term into the database"
+msgstr "キーワードをデータベースに挿入できませんでした"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1600
+#, php-format
+msgid "The slug &#8220;%s&#8221; is already in use by another term"
+msgstr "このスラッグ &#8220;%s&#8221; はすでに他のキーワードで使用されています"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:2037
+msgid "Invalid object ID"
+msgstr "無効なオブジェクト ID です。"
+
+#: bb-includes/backpress/class.wp-users.php:51
+msgid "Invalid login name"
+msgstr "無効なログイン名"
+
+#: bb-includes/backpress/class.wp-users.php:53
+msgid "Name already exists"
+msgstr "名前がすでに存在します。"
+
+#: bb-includes/backpress/class.wp-users.php:58
+msgid "Invalid nicename"
+msgstr "無効なニックネーム"
+
+#: bb-includes/backpress/class.wp-users.php:60
+msgid "Nicename already exists"
+msgstr "ニックネームがすでに存在します。"
+
+#: bb-includes/backpress/class.wp-users.php:65
+#: bb-includes/functions.bb-pluggable.php:583
+#: profile-edit.php:62
+msgid "Invalid email address"
+msgstr "無効なメールアドレス"
+
+#: bb-includes/backpress/class.wp-users.php:70
+msgid "Email already exists"
+msgstr "メールアドレスがすでに存在します。"
+
+#: bb-includes/backpress/class.wp-users.php:90
+msgid "Invalid registration time"
+msgstr "無効な登録時間です"
+
+#: bb-includes/backpress/class.wp-users.php:93
+msgid "Invalid registration timestamp"
+msgstr "無効な登録タイムスタンプ"
+
+#: bb-includes/backpress/class.wp-users.php:110
+msgid "Query failed"
+msgstr "クエリに失敗しました"
+
+#: bb-includes/backpress/class.wp-users.php:295
+#: bb-includes/backpress/class.wp-users.php:341
+msgid "Multiple email matches.  Log in with your username."
+msgstr "複数のメールアドレスに一致しました。ユーザー名を使ってログインしてください。"
+
+#: bb-includes/backpress/class.wp-users.php:297
+#: bb-includes/backpress/class.wp-users.php:343
+#, php-format
+msgid "Multiple %s matches"
+msgstr "複数の %s に一致しました。"
+
+#: bb-includes/backpress/functions.core.php:957
+msgid "Select a city"
+msgstr "町を選択してください"
+
+#: bb-includes/backpress/functions.core.php:972
+msgid "Manual offsets"
+msgstr "手動オフセット"
+
+#: bb-includes/backpress/functions.core.php:1140
+msgid "BackPress &rsaquo; Error"
+msgstr "bbPress &rsaquo; エラー"
+
+#. translators: opening curly quote
+#: bb-includes/backpress/functions.formatting.php:46
+msgctxt "opening curly quote"
+msgid "&#8220;"
+msgstr "&#8220;"
+
+#. translators: closing curly quote
+#: bb-includes/backpress/functions.formatting.php:48
+msgctxt "closing curly quote"
+msgid "&#8221;"
+msgstr "&#8221;"
+
+#: bb-includes/backpress/functions.wp-cron.php:301
+msgid "Once Hourly"
+msgstr "1時間に1回"
+
+#: bb-includes/backpress/functions.wp-cron.php:302
+msgid "Twice Daily"
+msgstr "1日2回"
+
+#: bb-includes/backpress/functions.wp-cron.php:303
+msgid "Once Daily"
+msgstr "1日1回"
+
+#: bb-includes/backpress/pomo/sample/app.php:56
+#, php-format
+msgid "Welcome %s!"
+msgstr "%s さん、ようこそ !"
+
+#: bb-includes/backpress/pomo/sample/app.php:60
+msgid "A string with low priority!"
+msgstr "優先順位の低い文字列です。"
+
+#: bb-includes/backpress/pomo/sample/app.php:62
+msgid "Bye\n"
+msgstr "さようなら !\n"
+
+#: bb-includes/class.bb-dir-map.php:19
+msgid "Not a valid directory"
+msgstr "無効なディレクトリ"
+
+#: bb-includes/class.bb-dir-map.php:25
+msgid "Invalid arguments"
+msgstr "無効な引数"
+
+#: bb-includes/class.bb-locale.php:115
+#: bb-includes/class.bb-locale.php:125
+#: bb-includes/class.bb-locale.php:138
+msgid "Sunday"
+msgstr "日曜日"
+
+#: bb-includes/class.bb-locale.php:116
+#: bb-includes/class.bb-locale.php:126
+#: bb-includes/class.bb-locale.php:139
+msgid "Monday"
+msgstr "月曜日"
+
+#: bb-includes/class.bb-locale.php:117
+#: bb-includes/class.bb-locale.php:127
+#: bb-includes/class.bb-locale.php:140
+msgid "Tuesday"
+msgstr "火曜日"
+
+#: bb-includes/class.bb-locale.php:118
+#: bb-includes/class.bb-locale.php:128
+#: bb-includes/class.bb-locale.php:141
+msgid "Wednesday"
+msgstr "水曜日"
+
+#: bb-includes/class.bb-locale.php:119
+#: bb-includes/class.bb-locale.php:129
+#: bb-includes/class.bb-locale.php:142
+msgid "Thursday"
+msgstr "木曜日"
+
+#: bb-includes/class.bb-locale.php:120
+#: bb-includes/class.bb-locale.php:130
+#: bb-includes/class.bb-locale.php:143
+msgid "Friday"
+msgstr "金曜日"
+
+#: bb-includes/class.bb-locale.php:121
+#: bb-includes/class.bb-locale.php:131
+#: bb-includes/class.bb-locale.php:144
+msgid "Saturday"
+msgstr "土曜日"
+
+#: bb-includes/class.bb-locale.php:125
+msgid "S_Sunday_initial"
+msgstr "日_Sunday_initial"
+
+#: bb-includes/class.bb-locale.php:126
+msgid "M_Monday_initial"
+msgstr "月_Monday_initial"
+
+#: bb-includes/class.bb-locale.php:127
+msgid "T_Tuesday_initial"
+msgstr "火_Tuesday_initial"
+
+#: bb-includes/class.bb-locale.php:128
+msgid "W_Wednesday_initial"
+msgstr "水_Wednesday_initial"
+
+#: bb-includes/class.bb-locale.php:129
+msgid "T_Thursday_initial"
+msgstr "木_Thursday_initial"
+
+#: bb-includes/class.bb-locale.php:130
+msgid "F_Friday_initial"
+msgstr "金_Friday_initial"
+
+#: bb-includes/class.bb-locale.php:131
+msgid "S_Saturday_initial"
+msgstr "土_Saturday_initial"
+
+#: bb-includes/class.bb-locale.php:138
+msgid "Sun"
+msgstr "日"
+
+#: bb-includes/class.bb-locale.php:139
+msgid "Mon"
+msgstr "月"
+
+#: bb-includes/class.bb-locale.php:140
+msgid "Tue"
+msgstr "火"
+
+#: bb-includes/class.bb-locale.php:141
+msgid "Wed"
+msgstr "水"
+
+#: bb-includes/class.bb-locale.php:142
+msgid "Thu"
+msgstr "木"
+
+#: bb-includes/class.bb-locale.php:143
+msgid "Fri"
+msgstr "金"
+
+#: bb-includes/class.bb-locale.php:144
+msgid "Sat"
+msgstr "土"
+
+#: bb-includes/class.bb-locale.php:147
+#: bb-includes/class.bb-locale.php:162
+msgid "January"
+msgstr "1月"
+
+#: bb-includes/class.bb-locale.php:148
+#: bb-includes/class.bb-locale.php:163
+msgid "February"
+msgstr "2月"
+
+#: bb-includes/class.bb-locale.php:149
+#: bb-includes/class.bb-locale.php:164
+msgid "March"
+msgstr "3月"
+
+#: bb-includes/class.bb-locale.php:150
+#: bb-includes/class.bb-locale.php:165
+msgid "April"
+msgstr "4月"
+
+#: bb-includes/class.bb-locale.php:151
+#: bb-includes/class.bb-locale.php:166
+msgid "May"
+msgstr "5月"
+
+#: bb-includes/class.bb-locale.php:152
+#: bb-includes/class.bb-locale.php:167
+msgid "June"
+msgstr "6月"
+
+#: bb-includes/class.bb-locale.php:153
+#: bb-includes/class.bb-locale.php:168
+msgid "July"
+msgstr "7月"
+
+#: bb-includes/class.bb-locale.php:154
+#: bb-includes/class.bb-locale.php:169
+msgid "August"
+msgstr "8月"
+
+#: bb-includes/class.bb-locale.php:155
+#: bb-includes/class.bb-locale.php:170
+msgid "September"
+msgstr "9月"
+
+#: bb-includes/class.bb-locale.php:156
+#: bb-includes/class.bb-locale.php:171
+msgid "October"
+msgstr "10月"
+
+#: bb-includes/class.bb-locale.php:157
+#: bb-includes/class.bb-locale.php:172
+msgid "November"
+msgstr "11月"
+
+#: bb-includes/class.bb-locale.php:158
+#: bb-includes/class.bb-locale.php:173
+msgid "December"
+msgstr "12月"
+
+#: bb-includes/class.bb-locale.php:162
+msgid "Jan_January_abbreviation"
+msgstr "1月_January_abbreviation"
+
+#: bb-includes/class.bb-locale.php:163
+msgid "Feb_February_abbreviation"
+msgstr "2月_February_abbreviation"
+
+#: bb-includes/class.bb-locale.php:164
+msgid "Mar_March_abbreviation"
+msgstr "3月_March_abbreviation"
+
+#: bb-includes/class.bb-locale.php:165
+msgid "Apr_April_abbreviation"
+msgstr "4月_April_abbreviation"
+
+#: bb-includes/class.bb-locale.php:166
+msgid "May_May_abbreviation"
+msgstr "5月_May_abbreviation"
+
+#: bb-includes/class.bb-locale.php:167
+msgid "Jun_June_abbreviation"
+msgstr "6月_June_abbreviation"
+
+#: bb-includes/class.bb-locale.php:168
+msgid "Jul_July_abbreviation"
+msgstr "7月_July_abbreviation"
+
+#: bb-includes/class.bb-locale.php:169
+msgid "Aug_August_abbreviation"
+msgstr "8月_August_abbreviation"
+
+#: bb-includes/class.bb-locale.php:170
+msgid "Sep_September_abbreviation"
+msgstr "9月_September_abbreviation"
+
+#: bb-includes/class.bb-locale.php:171
+msgid "Oct_October_abbreviation"
+msgstr "10月_October_abbreviation"
+
+#: bb-includes/class.bb-locale.php:172
+msgid "Nov_November_abbreviation"
+msgstr "11月_November_abbreviation"
+
+#: bb-includes/class.bb-locale.php:173
+msgid "Dec_December_abbreviation"
+msgstr "12月_December_abbreviation"
+
+#: bb-includes/class.bb-locale.php:180
+msgid "am"
+msgstr "am"
+
+#: bb-includes/class.bb-locale.php:181
+msgid "pm"
+msgstr "pm"
+
+#: bb-includes/class.bb-locale.php:182
+msgid "AM"
+msgstr "AM"
+
+#: bb-includes/class.bb-locale.php:183
+msgid "PM"
+msgstr "PM"
+
+#. translators: $decimals argument for http://php.net/number_format, default is 0
+#: bb-includes/class.bb-locale.php:189
+msgid "number_format_decimals"
+msgstr "number_format_decimals"
+
+#. translators: $dec_point argument for http://php.net/number_format, default is .
+#: bb-includes/class.bb-locale.php:193
+msgid "number_format_decimal_point"
+msgstr "number_format_decimal_point"
+
+#. translators: $thousands_sep argument for http://php.net/number_format, default is ,
+#: bb-includes/class.bb-locale.php:197
+msgid "number_format_thousands_sep"
+msgstr "number_format_thousands_sep"
+
+#: bb-includes/class.bb-locale.php:201
+msgid "F j, Y - h:i A"
+msgstr "Y年n月j日 g:i A"
+
+#: bb-includes/class.bb-locale.php:202
+msgid "F j, Y"
+msgstr "Y年n月j日"
+
+#: bb-includes/class.bb-locale.php:203
+msgid "h:i A"
+msgstr "h時i分 A"
+
+#: bb-includes/class.bb-query.php:902
+msgid "Search &#187;"
+msgstr "検索 &#187;"
+
+#: bb-includes/class.bb-query.php:943
+msgid "Any"
+msgstr "すべて"
+
+#: bb-includes/class.bb-query.php:949
+msgid "Tag"
+msgstr "タグ"
+
+#: bb-includes/class.bb-query.php:956
+msgid "Topic author"
+msgstr "トピック作成者"
+
+#: bb-includes/class.bb-query.php:963
+msgid "Post author"
+msgstr "投稿作成者"
+
+#: bb-includes/class.bb-query.php:968
+#: bb-includes/class.bb-query.php:1001
+msgid "All"
+msgstr "すべて"
+
+#: bb-includes/class.bb-query.php:968
+msgid "Normal"
+msgstr "通常"
+
+#: bb-includes/class.bb-query.php:968
+msgid "Deleted"
+msgstr "削除済み"
+
+#: bb-includes/class.bb-query.php:971
+msgid "Topic status"
+msgstr "トピックの状態"
+
+#: bb-includes/class.bb-query.php:982
+msgid "Post status"
+msgstr "投稿の状態"
+
+#: bb-includes/class.bb-query.php:993
+msgid "Poster IP address"
+msgstr "投稿者の IP アドレス"
+
+#: bb-includes/class.bb-query.php:999
+msgid "Open?"
+msgstr "開閉状態"
+
+#: bb-includes/class.bb-query.php:1001
+msgid "Closed"
+msgstr "クローズ"
+
+#: bb-includes/class.bb-query.php:1012
+#: bb-templates/kakumei/post-form.php:3
+msgid "Title"
+msgstr "タイトル"
+
+#: bb-includes/class.bb-taxonomy.php:272
+msgid "Invalid User ID"
+msgstr "無効なユーザー ID"
+
+#: bb-includes/functions.bb-capabilities.php:57
+msgid "Key Master"
+msgstr "キーマスター"
+
+#: bb-includes/functions.bb-capabilities.php:100
+msgid "Administrator"
+msgstr "管理者"
+
+#: bb-includes/functions.bb-capabilities.php:135
+msgid "Moderator"
+msgstr "世話役"
+
+#: bb-includes/functions.bb-capabilities.php:166
+msgid "Member"
+msgstr "メンバー"
+
+#: bb-includes/functions.bb-capabilities.php:180
+msgid "Inactive"
+msgstr "休止中"
+
+#: bb-includes/functions.bb-capabilities.php:185
+msgid "Blocked"
+msgstr "ブロック済み"
+
+#: bb-includes/functions.bb-core.php:26
+#, php-format
+msgid "Using deprecated bbPress %1$s - %2$s - replace with - %3$s"
+msgstr "非推奨の bbPress %1$s - %2$s をお使いです。%3$s に入れ替えてください。"
+
+#: bb-includes/functions.bb-core.php:216
+#: bb-includes/functions.bb-template.php:1288
+msgid "&laquo; Previous"
+msgstr "&laquo; 前へ"
+
+#: bb-includes/functions.bb-core.php:217
+#: bb-includes/functions.bb-template.php:1289
+msgid "Next &raquo;"
+msgstr "次へ &raquo;"
+
+#: bb-includes/functions.bb-core.php:223
+#, php-format
+msgid "Page %d"
+msgstr "ページ %d"
+
+#: bb-includes/functions.bb-core.php:224
+msgid "Previous page"
+msgstr "前のページ"
+
+#: bb-includes/functions.bb-core.php:225
+msgid "Next page"
+msgstr "次ページ"
+
+#: bb-includes/functions.bb-core.php:385
+#, php-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d年"
+
+#: bb-includes/functions.bb-core.php:386
+#, php-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%dヶ月"
+
+#: bb-includes/functions.bb-core.php:387
+#, php-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d週"
+
+#: bb-includes/functions.bb-core.php:388
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d日"
+
+#: bb-includes/functions.bb-core.php:389
+#, php-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d時間"
+
+#: bb-includes/functions.bb-core.php:390
+#, php-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d分"
+
+#: bb-includes/functions.bb-core.php:391
+#, php-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d秒"
+
+#: bb-includes/functions.bb-core.php:711
+msgid "User not found."
+msgstr "ユーザーは見つかりませんでした。"
+
+#: bb-includes/functions.bb-core.php:784
+msgid "REQUEST_URI"
+msgstr "REQUEST_URI"
+
+#: bb-includes/functions.bb-core.php:785
+#, fuzzy
+msgid "should be"
+msgstr "should be"
+
+#: bb-includes/functions.bb-core.php:786
+msgid "full permalink"
+msgstr "full permalink"
+
+#: bb-includes/functions.bb-core.php:787
+msgid "PATH_INFO"
+msgstr "PATH_INFO"
+
+#: bb-includes/functions.bb-core.php:812
+#: bb-templates/kakumei/favorites.php:3
+msgid "Favorites"
+msgstr "お気に入り"
+
+#: bb-includes/functions.bb-core.php:862
+msgid "First name"
+msgstr "名"
+
+#: bb-includes/functions.bb-core.php:863
+msgid "Last name"
+msgstr "姓"
+
+#: bb-includes/functions.bb-core.php:864
+msgid "Display name as"
+msgstr "表示名"
+
+#: bb-includes/functions.bb-core.php:865
+msgid "Email"
+msgstr "メールアドレス"
+
+#: bb-includes/functions.bb-core.php:866
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: bb-includes/functions.bb-core.php:867
+msgid "Location"
+msgstr "住所"
+
+#: bb-includes/functions.bb-core.php:868
+msgid "Occupation"
+msgstr "職業"
+
+#: bb-includes/functions.bb-core.php:869
+msgid "Interests"
+msgstr "興味のあること"
+
+#: bb-includes/functions.bb-core.php:876
+msgid "Custom Title"
+msgstr "特別な肩書き"
+
+#: bb-includes/functions.bb-core.php:883
+#, php-format
+msgid "Ignore the %d second post throttling limit"
+msgstr "%d秒以内の連続投稿制限を無視"
+
+#: bb-includes/functions.bb-core.php:960
+msgid "Topics with no replies"
+msgstr "返信がないトピック"
+
+#: bb-includes/functions.bb-core.php:961
+msgid "Topics with no tags"
+msgstr "タグがないトピック"
+
+#: bb-includes/functions.bb-core.php:1069
+msgid "bbPress Failure Notice"
+msgstr "bbPress エラー通知"
+
+#: bb-includes/functions.bb-core.php:1072
+msgid "Please try again."
+msgstr "もう一度お試しください。"
+
+#: bb-includes/functions.bb-core.php:1183
+#, php-format
+msgid "Back to <a href=\"%s\">%s</a>."
+msgstr "<a href=\"%s\">%s</a> にもどる"
+
+#: bb-includes/functions.bb-core.php:1196
+msgid "Your attempt to submit this post has failed."
+msgstr "投稿を送信できませんでした。"
+
+#: bb-includes/functions.bb-core.php:1197
+msgid "Your attempt to edit this post has failed."
+msgstr "投稿を編集できませんでした。"
+
+#: bb-includes/functions.bb-core.php:1198
+msgid "Your attempt to delete this post has failed."
+msgstr "投稿を削除できませんでした。"
+
+#: bb-includes/functions.bb-core.php:1200
+msgid "Your attempt to create this topic has failed."
+msgstr "トピックを追加できませんでした。"
+
+#: bb-includes/functions.bb-core.php:1201
+msgid "Your attempt to change the resolution status of this topic has failed."
+msgstr "トピックの解決状態を変更できませんでした。"
+
+#: bb-includes/functions.bb-core.php:1202
+msgid "Your attempt to delete this topic has failed."
+msgstr "トピックを削除できませんでした。"
+
+#: bb-includes/functions.bb-core.php:1203
+msgid "Your attempt to change the status of this topic has failed."
+msgstr "トピックの状態を変更できませんでした。"
+
+#: bb-includes/functions.bb-core.php:1204
+msgid "Your attempt to change the sticky status of this topic has failed."
+msgstr "トピックの固定状態を変更できませんでした。"
+
+#: bb-includes/functions.bb-core.php:1205
+msgid "Your attempt to move this topic has failed."
+msgstr "トピックを移動できませんでした。"
+
+#: bb-includes/functions.bb-core.php:1207
+msgid "Your attempt to add this tag to this topic has failed."
+msgstr "トピックにタグを追加できませんでした。"
+
+#: bb-includes/functions.bb-core.php:1208
+msgid "Your attempt to rename this tag has failed."
+msgstr "タグ名を変更できませんでした。"
+
+#: bb-includes/functions.bb-core.php:1209
+msgid "Your attempt to submit these tags has failed."
+msgstr "タグの送信に失敗しました。"
+
+#: bb-includes/functions.bb-core.php:1210
+msgid "Your attempt to destroy this tag has failed."
+msgstr "タグを削除できませんでした。"
+
+#: bb-includes/functions.bb-core.php:1211
+msgid "Your attempt to remove this tag from this topic has failed."
+msgstr "トピックからタグを削除できませんでした。"
+
+#: bb-includes/functions.bb-core.php:1213
+msgid "Your attempt to toggle your favorite status for this topic has failed."
+msgstr "トピックのお気に入り状態を変更できませんでした。"
+
+#: bb-includes/functions.bb-core.php:1215
+msgid "Your attempt to edit this user's profile has failed."
+msgstr "ユーザープロフィールを編集できませんでした。"
+
+#: bb-includes/functions.bb-core.php:1217
+msgid "Your attempt to add this forum has failed."
+msgstr "フォーラムを追加できませんでした。"
+
+#: bb-includes/functions.bb-core.php:1218
+msgid "Your attempt to update your forums has failed."
+msgstr "フォーラムを更新できませんでした。"
+
+#: bb-includes/functions.bb-core.php:1219
+msgid "Your attempt to delete that forum has failed."
+msgstr "このフォーラムを削除できませんでした。"
+
+#: bb-includes/functions.bb-core.php:1221
+msgid "Your attempt to recount these items has failed."
+msgstr "指定した項目を数え直すことができませんでした。"
+
+#: bb-includes/functions.bb-core.php:1223
+msgid "Your attempt to switch themes has failed."
+msgstr "テーマを変更できませんでした。"
+
+#: bb-includes/functions.bb-core.php:1238
+msgid "Your attempt to do this has failed."
+msgstr "行おうとした操作に失敗しました。"
+
+#: bb-includes/functions.bb-core.php:1449
+#: bb-includes/functions.bb-core.php:1582
+msgid "Your search term was too short"
+msgstr "検索キーワードが短すぎます"
+
+#: bb-includes/functions.bb-core.php:1529
+msgid "Your query parameters are invalid"
+msgstr "クエリ引数が無効です。"
+
+#: bb-includes/functions.bb-formatting.php:297
+#: bb-includes/functions.bb-formatting.php:301
+#, php-format
+msgid "[sticky] %s"
+msgstr "[固定] %s"
+
+#: bb-includes/functions.bb-formatting.php:310
+#, php-format
+msgid "[closed] %s"
+msgstr "[閉] %s"
+
+#: bb-includes/functions.bb-meta.php:334
+msgid "Please give me a name!"
+msgstr "サイト名を入力してください。"
+
+#: bb-includes/functions.bb-pluggable.php:586
+#: bb-includes/functions.bb-pluggable.php:595
+msgid "Invalid username"
+msgstr "無効なユーザー名"
+
+#: bb-includes/functions.bb-script-loader.php:18
+msgid ""
+"You are about to delete the selected items.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"選択した項目を削除しようとしています。\n"
+" 'キャンセル' で中止、'OK' で削除します。"
+
+#: bb-includes/functions.bb-script-loader.php:22
+msgid "drag"
+msgstr "ドラッグ"
+
+#: bb-includes/functions.bb-script-loader.php:23
+msgid "Save Forum Order"
+msgstr "フォーラム表示順を保存"
+
+#: bb-includes/functions.bb-script-loader.php:24
+msgid "Edit Forum Order"
+msgstr "フォーラム表示順を編集"
+
+#: bb-includes/functions.bb-script-loader.php:34
+msgid "You do not have permission to do that."
+msgstr "操作を実行する権限がありません。"
+
+#: bb-includes/functions.bb-script-loader.php:35
+msgid "An unidentified error has occurred."
+msgstr "不明なエラーが発生しました。"
+
+#: bb-includes/functions.bb-script-loader.php:44
+msgid "Too short"
+msgstr "短すぎます"
+
+#: bb-includes/functions.bb-script-loader.php:45
+msgid "Bad"
+msgstr "不良"
+
+#: bb-includes/functions.bb-script-loader.php:46
+msgid "Good"
+msgstr "良"
+
+#: bb-includes/functions.bb-script-loader.php:47
+msgid "Strong"
+msgstr "強力"
+
+#: bb-includes/functions.bb-script-loader.php:87
+msgid "Are you sure you wanna delete this post?"
+msgstr "本当にこの投稿を削除しますか ?"
+
+#: bb-includes/functions.bb-script-loader.php:88
+msgid "Are you sure you wanna undelete this post?"
+msgstr "本当に投稿の削除を取り消しますか ?"
+
+#: bb-includes/functions.bb-script-loader.php:89
+#: bb-templates/kakumei/favorites.php:5
+msgid "favorites"
+msgstr "お気に入り"
+
+#: bb-includes/functions.bb-script-loader.php:90
+msgid "?"
+msgstr "?"
+
+#: bb-includes/functions.bb-script-loader.php:91
+msgid "This topic is one of your %favLinkYes% [%favDel%]"
+msgstr "このトピックはあなたの %favLinkYes% [%favDel%] です"
+
+#: bb-includes/functions.bb-script-loader.php:92
+msgid "%favAdd% (%favLinkNo%)"
+msgstr "%favAdd% (%favLinkNo%)"
+
+#: bb-includes/functions.bb-script-loader.php:93
+#: bb-includes/functions.bb-template.php:3330
+msgid "&times;"
+msgstr "&times;"
+
+#: bb-includes/functions.bb-script-loader.php:94
+#: bb-includes/functions.bb-template.php:3328
+msgid "Add this topic to your favorites"
+msgstr "このトピックをお気に入りに追加する"
+
+#: bb-includes/functions.bb-template.php:222
+#: bb-templates/kakumei/profile.php:3
+msgid "Profile"
+msgstr "プロフィール"
+
+#: bb-includes/functions.bb-template.php:274
+msgid "Reply"
+msgstr "返信"
+
+#: bb-includes/functions.bb-template.php:276
+msgid "New Topic in this Forum"
+msgstr "このフォーラムの新しいトピック"
+
+#: bb-includes/functions.bb-template.php:278
+#: bb-templates/kakumei/front-page.php:86
+msgid "Add New Topic"
+msgstr "新規トピックの追加"
+
+#: bb-includes/functions.bb-template.php:311
+#, php-format
+msgid "You must <a href=\"%s\">log in</a> to post."
+msgstr "<a href=\"%s\">ログイン</a> しなければ投稿できません。"
+
+#: bb-includes/functions.bb-template.php:509
+#: bb-templates/kakumei/tag-single.php:3
+#: bb-templates/kakumei/tags.php:3
+msgid "Tags"
+msgstr "タグ"
+
+#: bb-includes/functions.bb-template.php:543
+#, php-format
+msgid "User Favorites: %s"
+msgstr "お気に入り: %s"
+
+#: bb-includes/functions.bb-template.php:550
+#, php-format
+msgid "Topic: %s"
+msgstr "トピック: %s"
+
+#: bb-includes/functions.bb-template.php:558
+#, php-format
+msgid "Tag: %s - Recent Posts"
+msgstr "タグ: %s - 最近の投稿"
+
+#: bb-includes/functions.bb-template.php:562
+#, php-format
+msgid "Tag: %s - Recent Topics"
+msgstr "タグ: %s - 最近のトピック"
+
+#: bb-includes/functions.bb-template.php:570
+#, php-format
+msgid "Forum: %s - Recent Posts"
+msgstr "フォーラム: %s - 最近の投稿"
+
+#: bb-includes/functions.bb-template.php:574
+#, php-format
+msgid "Forum: %s - Recent Topics"
+msgstr "フォーラム: %s - 最近のトピック"
+
+#: bb-includes/functions.bb-template.php:581
+#: bb-templates/kakumei/search.php:12
+msgid "Recent Posts"
+msgstr "最近の投稿"
+
+#: bb-includes/functions.bb-template.php:585
+msgid "Recent Topics"
+msgstr "最近のトピック"
+
+#: bb-includes/functions.bb-template.php:1396
+msgid "Are you sure you wanna delete that?"
+msgstr "削除しますか ?"
+
+#: bb-includes/functions.bb-template.php:1397
+msgid "Delete entire topic"
+msgstr "トピック全体を削除"
+
+#: bb-includes/functions.bb-template.php:1400
+msgid "Are you sure you wanna undelete that?"
+msgstr "削除を取り消しますか ?"
+
+#: bb-includes/functions.bb-template.php:1401
+msgid "Undelete entire topic"
+msgstr "トピック全体の削除を取り消す"
+
+#: bb-includes/functions.bb-template.php:1424
+msgid "Close topic"
+msgstr "トピックを閉じる"
+
+#: bb-includes/functions.bb-template.php:1426
+msgid "Open topic"
+msgstr "トピックを再開する"
+
+#: bb-includes/functions.bb-template.php:1458
+msgid "Unstick topic"
+msgstr "トピックの固定を解除"
+
+#: bb-includes/functions.bb-template.php:1460
+msgid "Stick topic"
+msgstr "トピックを固定"
+
+#: bb-includes/functions.bb-template.php:1460
+msgid "to front"
+msgstr "先頭に固定"
+
+#: bb-includes/functions.bb-template.php:1467
+msgid "View normal posts"
+msgstr "通常の投稿を表示"
+
+#: bb-includes/functions.bb-template.php:1469
+msgid "View all posts"
+msgstr "すべての投稿を表示"
+
+#: bb-includes/functions.bb-template.php:1479
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s件の投稿"
+
+#: bb-includes/functions.bb-template.php:1492
+#, php-format
+msgid "+%d more"
+msgstr "さらに +%d"
+
+#: bb-includes/functions.bb-template.php:1519
+msgid "Move this topic to the selected forum:"
+msgstr "このトピックを次のフォーラムに移動する:"
+
+#: bb-includes/functions.bb-template.php:1523
+msgid "Move"
+msgstr "移動"
+
+#: bb-includes/functions.bb-template.php:1552
+msgid "Add New &raquo;"
+msgstr "新規追加 &raquo;"
+
+#: bb-includes/functions.bb-template.php:1718
+msgid "Anonymous"
+msgstr "匿名"
+
+#: bb-includes/functions.bb-template.php:2103
+#: bb-includes/functions.bb-template.php:2117
+msgid "PingBack"
+msgstr "ピンバック"
+
+#: bb-includes/functions.bb-template.php:2105
+#: bb-includes/functions.bb-template.php:2119
+msgid "Unregistered"
+msgstr "未登録"
+
+#: bb-includes/functions.bb-template.php:2207
+msgid "Delete User &raquo;"
+msgstr "ユーザーを削除 &raquo;"
+
+#: bb-includes/functions.bb-template.php:2208
+msgid "Are you sure you want to delete this user?"
+msgstr "このユーザーを削除しますか ?"
+
+#: bb-includes/functions.bb-template.php:2335
+msgid "Member Since"
+msgstr "登録日"
+
+#: bb-includes/functions.bb-template.php:2488
+#: bb-includes/functions.bb-template.php:2637
+#: bb-templates/kakumei/register.php:65
+msgid "These items are <span class=\"required\">required</span>."
+msgstr "これらの項目は<span class=\"required\">必須項目</span>です。"
+
+#: bb-includes/functions.bb-template.php:2525
+msgid "User Type"
+msgstr "ユーザーの種類"
+
+#: bb-includes/functions.bb-template.php:2550
+msgid "Allow this user to"
+msgstr "ユーザー特権"
+
+#: bb-includes/functions.bb-template.php:2640
+msgid "Inactive users can login and look around but not do anything. Blocked users just see a simple error message when they visit the site."
+msgstr "休止中のユーザーはログインしてサイトを見て回る以外には何もできません。ブロックされたユーザーがサイトを訪問すると、エラーメッセージのみが表示されます。"
+
+#: bb-includes/functions.bb-template.php:2641
+msgid "<strong>Note</strong>: Blocking a user does <em>not</em> block any IP addresses."
+msgstr "<strong>注</strong>: ユーザーをブロックしても、IP アドレスはブロックされません。"
+
+#: bb-includes/functions.bb-template.php:2664
+msgid "New password"
+msgstr "新規パスワード"
+
+#: bb-includes/functions.bb-template.php:2677
+msgid "Password Strength"
+msgstr "パスワードの強度"
+
+#: bb-includes/functions.bb-template.php:2681
+msgid "Disabled (requires JavaScript)"
+msgstr "無効 (要 JavaScript)"
+
+#: bb-includes/functions.bb-template.php:2687
+msgid "Disabled (requires jQuery)"
+msgstr "無効 (要 jQuery)"
+
+#: bb-includes/functions.bb-template.php:2694
+msgid "Hint: Use upper and lower case characters, numbers and symbols like !\"?$%^&amp;( in your password."
+msgstr "ヒント: 大文字と小文字の半角英字、数字、!\"?$%^&amp;( などの記号を組み合わせたパスワードを使いましょう。"
+
+#: bb-includes/functions.bb-template.php:2708
+msgid "Log Out"
+msgstr "ログアウト"
+
+#: bb-includes/functions.bb-template.php:2734
+msgid "Admin"
+msgstr "管理"
+
+#: bb-includes/functions.bb-template.php:2753
+msgid "View your profile"
+msgstr "プロフィールを表示"
+
+#: bb-includes/functions.bb-template.php:3048
+msgid "Add &raquo;"
+msgstr "追加 &raquo;"
+
+#: bb-includes/functions.bb-template.php:3084
+msgid "Rename tag:"
+msgstr "タグの名称変更:"
+
+#: bb-includes/functions.bb-template.php:3088
+msgid "Rename"
+msgstr "変更する"
+
+#: bb-includes/functions.bb-template.php:3092
+msgid "Merge this tag into:"
+msgstr "このタグを以下のタグに統合:"
+
+#: bb-includes/functions.bb-template.php:3096
+msgid "Merge"
+msgstr "統合する"
+
+#: bb-includes/functions.bb-template.php:3097
+#, php-format
+msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified? This is permanent and cannot be undone."
+msgstr "\"%s\" タグを選択したタグと統合しますか ? この操作は取り消しできません。"
+
+#: bb-includes/functions.bb-template.php:3101
+msgid "Destroy tag:"
+msgstr "タグの削除:"
+
+#: bb-includes/functions.bb-template.php:3104
+msgid "Destroy"
+msgstr "削除する"
+
+#: bb-includes/functions.bb-template.php:3105
+#, php-format
+msgid "Are you sure you want to destroy the \"%s\" tag? This is permanent and cannot be undone."
+msgstr "\"%s\" タグを削除しますか ? この操作は取消しできません。"
+
+#: bb-includes/functions.bb-template.php:3131
+msgid "Remove this tag"
+msgstr "このタグを削除"
+
+#: bb-includes/functions.bb-template.php:3188
+#, php-format
+msgid "%d topics"
+msgstr "%d個のトピック"
+
+#: bb-includes/functions.bb-template.php:3253
+msgid "- None -"
+msgstr "- なし -"
+
+#: bb-includes/functions.bb-template.php:3328
+msgid " (%?%)"
+msgstr " (%?%)"
+
+#: bb-includes/functions.bb-template.php:3330
+msgid "This topic is one of your %favorites% ["
+msgstr "このトピックは %favorites% に登録されています ["
+
+#: bb-includes/functions.bb-template.php:3330
+msgid "]"
+msgstr "]"
+
+#: bb-includes/functions.bb-users.php:9
+msgid "You've been blocked.  If you think a mistake has been made, contact this site's administrator."
+msgstr "あなたはブロックされています。これが何かの手違いだと思われる場合は、サイト管理者に連絡してください。"
+
+#: bb-includes/functions.bb-users.php:261
+msgid "The specified user does not exist."
+msgstr "指定したユーザーは存在しません。"
+
+#: bb-includes/functions.bb-users.php:267
+#, php-format
+msgid ""
+"If you wanted to reset your password, you may do so by visiting the following address:\n"
+"\n"
+"%s\n"
+"\n"
+"If you don't want to reset your password, just ignore this email. Thanks!"
+msgstr ""
+"パスワードをリセットするには、以下のアドレスを開いてください。\n"
+"\n"
+" %s\n"
+"\n"
+"パスワードをリセットしたくない場合は、このメールを無視してください。"
+
+#: bb-includes/functions.bb-users.php:277
+#: bb-templates/kakumei/password-reset.php:5
+msgid "Password Reset"
+msgstr "パスワードのリセット"
+
+#: bb-includes/functions.bb-users.php:282
+msgid "The email containing the password reset link could not be sent."
+msgstr "パスワードのリセット用リンクを含むメールを送信できませんでした。"
+
+#: bb-includes/functions.bb-users.php:304
+#: bb-includes/functions.bb-users.php:306
+#: bb-includes/functions.bb-users.php:321
+msgid "Key not found."
+msgstr "キーが見つかりません。"
+
+#: bb-includes/functions.bb-users.php:311
+msgid "You are not allowed to change your password."
+msgstr "パスワードを変更する権限がありません。"
+
+#: bb-includes/functions.bb-users.php:315
+msgid "The email containing the new password could not be sent."
+msgstr "新しいパスワードを含むメールを送信できませんでした。"
+
+#: bb-includes/functions.bb-users.php:364
+#, php-format
+msgid ""
+"Your username is: %1$s \n"
+"Your password is: %2$s \n"
+"You can now log in: %3$s \n"
+"\n"
+"Enjoy!"
+msgstr ""
+"ユーザー名: %1$s\n"
+"パスワード: %2$s\n"
+"こちらでログインできます: %3$s\n"
+"\n"
+"では、楽しんでください !"
+
+#: bb-includes/functions.bb-users.php:368
+#: bb-templates/kakumei/login-form.php:18
+#: bb-templates/kakumei/login.php:27
+#: bb-templates/kakumei/profile-edit.php:20
+msgid "Password"
+msgstr "パスワード"
+
+#: bb-login.php:78
+msgid "User does not exist."
+msgstr "ユーザーが存在しません。"
+
+#: bb-login.php:80
+msgid "Enter a username or email address."
+msgstr "ユーザー名またはメールアドレスを入力してください。"
+
+#: bb-login.php:80
+msgid "Enter a username."
+msgstr "ユーザー名を入力してください。"
+
+#: bb-login.php:86
+msgid "Incorrect password."
+msgstr "パスワードが間違っています。"
+
+#: bb-login.php:93
+msgid "Username and Password do not match."
+msgstr "ユーザー名とパスワードが一致しません。"
+
+#: bb-plugins/akismet.php:56
+msgid "Akismet"
+msgstr "Akismet"
+
+#: bb-plugins/akismet.php:62
+msgid "Akismet Settings"
+msgstr "Akismet 設定"
+
+#: bb-plugins/akismet.php:67
+#, php-format
+msgid "For many people, <a href=\"%s\">Akismet</a> will greatly reduce or even completely eliminate the spam you get on your site. If one does happen to get through, simply mark it as \"spam\" and Akismet will learn from the mistakes."
+msgstr "多くの方は、<a href=\"%s\">Akismet</a> によってスパムを大幅に削減したり、完全に撲滅することができるでしょう。もしスパムが通り抜けてきてしまった場合は、\"スパム\" と指定するだけで、Akismet はこのミスから学習します。"
+
+#: bb-plugins/akismet.php:73
+msgid "This key is valid"
+msgstr "このキーは有効です。"
+
+#: bb-plugins/akismet.php:80
+msgid "WordPress.com API Key"
+msgstr "WordPress.com API キー"
+
+#: bb-plugins/akismet.php:83
+#, php-format
+msgid "If you don't have a WordPress.com API Key, you can get one at <a href=\"%s\">WordPress.com</a>"
+msgstr "WordPress.com API キーをお持ちでない場合は、<a href=\"%s\">WordPress.com</a> で取得できます。"
+
+#: bb-plugins/akismet.php:87
+msgid "Enable stats page"
+msgstr "統計ページを有効化"
+
+#: bb-plugins/akismet.php:90
+msgid "Create a page that shows spam statistics."
+msgstr "スパム統計を表示するページを作成します。"
+
+#: bb-plugins/akismet.php:92
+msgid "This page will be viewable by moderators or higher."
+msgstr "世話役以上の権限グループのユーザーがこのページを表示できます。"
+
+#: bb-plugins/akismet.php:149
+msgid "<strong>The key you attempted to enter is invalid. Reverting to previous setting.</strong>"
+msgstr "<strong>記入されたキーは無効です。元の設定に戻します。</strong>"
+
+#: bb-plugins/akismet.php:168
+msgid "Akismet Stats"
+msgstr "Akismet 統計"
+
+#: bb-plugins/akismet.php:390
+msgid "Not Spam"
+msgstr "スパムを解除"
+
+#: bb-plugins/akismet.php:396
+#: bb-plugins/akismet.php:425
+msgid "Spam"
+msgstr "スパム"
+
+#: bb-plugins/bozo.php:95
+msgid "Counted the number of bozo posts in each topic"
+msgstr "各トピックの迷惑投稿を集計しました"
+
+#: bb-plugins/bozo.php:123
+msgid "Counted each bozo user&#039;s total posts as well as the total topics to which they have replied"
+msgstr "各迷惑ユーザーの投稿数および返信したトピック数の合計を集計しました"
+
+#: bb-plugins/bozo.php:171
+msgid "Count each bozo user&#039;s total posts as well as the total topics to which they have replied"
+msgstr "迷惑ユーザーの投稿と返信したトピックの合計数を数える"
+
+#: bb-plugins/bozo.php:172
+msgid "Count the number of bozo posts in each topic"
+msgstr "各トピックの迷惑投稿を数える"
+
+#: bb-plugins/bozo.php:272
+msgid "This user is a bozo"
+msgstr "このユーザーは迷惑ユーザーです"
+
+#: bb-plugins/bozo.php:310
+msgid "Bozos only"
+msgstr "迷惑ユーザーのみ"
+
+#: bb-post.php:8
+msgid "Slow down; you move too fast."
+msgstr "ゆっくりどうぞ。操作が早すぎます。"
+
+#: bb-post.php:11
+msgid "You need to actually submit some content!"
+msgstr "投稿内容を入力してください。"
+
+#: bb-post.php:15
+#: bb-post.php:36
+msgid "You are not allowed to post.  Are you logged in?"
+msgstr "投稿する権限がありません。ログインしていますか ?"
+
+#: bb-post.php:18
+msgid "You are not allowed to write new topics."
+msgstr "新しいトピックを作成をする権限がありません。"
+
+#: bb-post.php:26
+msgid "Please enter a topic title"
+msgstr "トピックのタイトルを入力してください。"
+
+#: bb-post.php:39
+msgid "This topic has been closed"
+msgstr "このトピックは閉じられました。"
+
+#: bb-reset-password.php:10
+msgid "No username specified"
+msgstr "ユーザー名が指定されていません"
+
+#: bb-settings.php:455
+msgid "Could not determine site URI"
+msgstr "サイト URI を確定できませんでした"
+
+#: bb-templates/kakumei/404.php:3
+#: bb-templates/kakumei/404.php:5
+msgid "Page not found!"
+msgstr "ページが見つかりません。"
+
+#: bb-templates/kakumei/404.php:7
+msgid "I'm sorry, but there is nothing at this URL."
+msgstr "この URL には何もありません。"
+
+#: bb-templates/kakumei/edit-form.php:15
+msgid "Edit Post &raquo;"
+msgstr "投稿を編集 &raquo;"
+
+#: bb-templates/kakumei/edit-form.php:19
+#: bb-templates/kakumei/post-form.php:29
+msgid "Allowed markup:"
+msgstr "利用可能なマークアップ:"
+
+#: bb-templates/kakumei/edit-form.php:19
+msgid "Put code in between <code>`backticks`</code>."
+msgstr "コードは <code>`逆クォート`</code> で囲ってください。"
+
+#: bb-templates/kakumei/edit-post.php:2
+msgid "Edit Post"
+msgstr "投稿の編集"
+
+#: bb-templates/kakumei/favorites.php:5
+#, php-format
+msgid " - %d"
+msgstr " - %d"
+
+#: bb-templates/kakumei/favorites.php:7
+msgid "Favorites allow members to create a custom <abbr title=\"Really Simple Syndication\">RSS</abbr> feed which pulls recent replies to the topics they specify."
+msgstr ""
+"お気に入り機能を使うと、選択したトピックへの最近の返信を抜き出したカスタム <abbr title=\"Really Simple Syndication\">RSS</abbr> フィードを作成することができます。\n"
+"お気に入りにトピックを追加するには、トピックのページにある \"お気に入りに追加\" リンクをクリックしてください。"
+
+#: bb-templates/kakumei/favorites.php:9
+msgid "To add topics to your list of favorites, just click the \"Add to Favorites\" link found on that topic&#8217;s page."
+msgstr "トピックをお気に入りリストに追加するには、そのページにある \"お気に入りに追加\" リンクをクリックするだけです。"
+
+#: bb-templates/kakumei/favorites.php:18
+#: bb-templates/kakumei/forum.php:11
+#: bb-templates/kakumei/front-page.php:19
+#: bb-templates/kakumei/tag-single.php:13
+#: bb-templates/kakumei/view.php:11
+msgid "Voices"
+msgstr "返信"
+
+#: bb-templates/kakumei/favorites.php:19
+#: bb-templates/kakumei/forum.php:12
+#: bb-templates/kakumei/front-page.php:20
+#: bb-templates/kakumei/tag-single.php:14
+#: bb-templates/kakumei/view.php:12
+msgid "Last Poster"
+msgstr "最後の投稿者"
+
+#: bb-templates/kakumei/favorites.php:22
+msgid "Remove"
+msgstr "削除"
+
+#: bb-templates/kakumei/favorites.php:40
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for these favorites"
+msgstr "これらのお気に入りの <abbr title=\"Really Simple Syndication\">RSS フィード</abbr>"
+
+#: bb-templates/kakumei/favorites.php:46
+msgid "You currently have no favorites."
+msgstr "今のところ、お気に入りはありません。"
+
+#: bb-templates/kakumei/favorites.php:50
+msgid "currently has no favorites."
+msgstr "のお気に入りは現在ありません。"
+
+#: bb-templates/kakumei/footer.php:4
+#, php-format
+msgid "%1$s is proudly powered by <a href=\"%2$s\">bbPress</a>."
+msgstr "%1$s is proudly powered by <a href=\"%2$s\">bbPress</a>."
+
+#: bb-templates/kakumei/forum.php:36
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this forum"
+msgstr "このフォーラムの <abbr title=\"Really Simple Syndication\">RSS フィード</abbr>"
+
+#: bb-templates/kakumei/forum.php:41
+msgid "Subforums"
+msgstr "サブフォーラム"
+
+#: bb-templates/kakumei/forum.php:45
+#: bb-templates/kakumei/front-page.php:52
+msgid "Main Theme"
+msgstr "メインテーマ"
+
+#: bb-templates/kakumei/front-page.php:6
+msgid "Hot Tags"
+msgstr "人気のタグ"
+
+#: bb-templates/kakumei/front-page.php:13
+msgid "Latest Discussions"
+msgstr "最近のディスカッション"
+
+#: bb-templates/kakumei/front-page.php:73
+msgid "Views"
+msgstr "表示"
+
+#: bb-templates/kakumei/logged-in.php:2
+#, php-format
+msgid "Welcome, %1$s"
+msgstr "ようこそ、%1$s さん"
+
+#: bb-templates/kakumei/login-form.php:5
+#, php-format
+msgid "<a href=\"%1$s\">Register</a> or log in - <a href=\"%2$s\">lost password?</a>"
+msgstr "<a href=\"%1$s\">登録</a> もしくはログイン (<a href=\"%2$s\">パスワードをお忘れですか ?</a>):"
+
+#: bb-templates/kakumei/login-form.php:24
+#: bb-templates/kakumei/login.php:43
+msgid "Log in &raquo;"
+msgstr "ログイン &raquo;"
+
+#: bb-templates/kakumei/login-form.php:29
+#: bb-templates/kakumei/login.php:36
+msgid "Remember me"
+msgstr "ログイン情報を記憶"
+
+#: bb-templates/kakumei/login.php:3
+#: bb-templates/kakumei/login.php:5
+#: bb-templates/kakumei/password-reset.php:3
+msgid "Log in"
+msgstr "ログイン"
+
+#: bb-templates/kakumei/login.php:5
+msgid "Log in Failed"
+msgstr "ログインに失敗しました。"
+
+#: bb-templates/kakumei/login.php:43
+msgid "Try Again &raquo;"
+msgstr "再度お試しください &raquo;"
+
+#: bb-templates/kakumei/login.php:52
+msgid "Password Recovery"
+msgstr "パスワードの回復"
+
+#: bb-templates/kakumei/login.php:55
+msgid "To recover your password, enter your information below."
+msgstr "パスワードを回復するには、以下に情報を記入してください。"
+
+#: bb-templates/kakumei/login.php:68
+msgid "Recover Password &raquo;"
+msgstr "パスワードを回復する &raquo;"
+
+#: bb-templates/kakumei/password-reset.php:12
+msgid "An email has been sent to the address we have on file for you. If you don&#8217;t get anything within a few minutes, or your email has changed, you may want to get in touch with the webmaster or forum administrator here."
+msgstr "登録アドレス宛にメールを送信しました。数分内にメールが届かない場合、もしくはメールアドレスを変更した場合は、サイト管理者もしくはフォーラム管理者までご連絡ください。"
+
+#: bb-templates/kakumei/password-reset.php:15
+msgid "Your password has been reset and a new one has been mailed to you."
+msgstr "パスワードをリセットして、新しいパスワードをメールで送信しました。"
+
+#: bb-templates/kakumei/post-form.php:14
+msgid "Tags (comma seperated)"
+msgstr "タグ (複数の場合は半角コンマで区切る)"
+
+#: bb-templates/kakumei/post-form.php:26
+msgid "Send Post &raquo;"
+msgstr "送信 &raquo;"
+
+#: bb-templates/kakumei/post-form.php:29
+msgid "You can also put code in between backtick ( <code>`</code> ) characters."
+msgstr "コードは逆クォート (<code>`</code>) で囲むこともできます。"
+
+#: bb-templates/kakumei/post.php:11
+#, php-format
+msgid "Posted %s ago"
+msgstr "%s前の投稿"
+
+#: bb-templates/kakumei/profile-edit.php:3
+msgid "Edit Profile"
+msgstr "プロフィールの編集"
+
+#: bb-templates/kakumei/profile-edit.php:7
+msgid "Profile Info"
+msgstr "プロフィール情報"
+
+#: bb-templates/kakumei/profile-edit.php:13
+msgid "Administration"
+msgstr "管理"
+
+#: bb-templates/kakumei/profile-edit.php:21
+msgid "To change your password, enter a new password twice below:"
+msgstr "パスワードを変更するには、以下に新しいパスワードを二度入力してください。"
+
+#: bb-templates/kakumei/profile-edit.php:26
+msgid "Update Profile &raquo;"
+msgstr "プロフィールを更新 &raquo;"
+
+#: bb-templates/kakumei/profile.php:14
+msgid "Profile updated"
+msgstr "プロフィールを更新しました"
+
+#: bb-templates/kakumei/profile.php:14
+msgid "Edit again &raquo;"
+msgstr "再編集 &raquo;"
+
+#: bb-templates/kakumei/profile.php:18
+msgid "This is how your profile appears to a logged in member."
+msgstr "ログインしたメンバーには、あなたのプロフィールが以下のように表示されます。"
+
+#: bb-templates/kakumei/profile.php:21
+#, php-format
+msgid "You may <a href=\"%1$s\">edit this information</a>."
+msgstr "この情報を<a href=\"%1$s\">編集</a>することもできます。"
+
+#: bb-templates/kakumei/profile.php:26
+#, php-format
+msgid "You can also <a href=\"%1$s\">manage your favorites</a> and subscribe to your favorites&#8217; <a href=\"%2$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr "また、<a href=\"%1$s\">お気に入りトピックを管理</a>したり、<a href=\"%2$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> フィード</a>でお気に入りトピックを購読することもできます。"
+
+#: bb-templates/kakumei/profile.php:34
+msgid "User Activity"
+msgstr "活動状況"
+
+#: bb-templates/kakumei/profile.php:36
+msgid "Recent Replies"
+msgstr "最近の投稿"
+
+#: bb-templates/kakumei/profile.php:42
+#, php-format
+msgid "You last replied: %s ago"
+msgstr "あなたの最後の返信: %s前"
+
+#: bb-templates/kakumei/profile.php:42
+#, php-format
+msgid "User last replied: %s ago"
+msgstr "このユーザーの最後の返信: %s前"
+
+#: bb-templates/kakumei/profile.php:46
+#: bb-templates/kakumei/profile.php:71
+#, php-format
+msgid "Most recent reply: %s ago"
+msgstr "最後の返信: %s前"
+
+#: bb-templates/kakumei/profile.php:48
+msgid "No replies since"
+msgstr "その後の返信なし"
+
+#: bb-templates/kakumei/profile.php:54
+msgid "No more replies."
+msgstr "その他の返信なし"
+
+#: bb-templates/kakumei/profile.php:56
+msgid "No replies yet."
+msgstr "返信なし"
+
+#: bb-templates/kakumei/profile.php:61
+msgid "Topics Started"
+msgstr "トピックの開始:"
+
+#: bb-templates/kakumei/profile.php:67
+#, php-format
+msgid "Started: %s ago"
+msgstr "%s前に開始"
+
+#: bb-templates/kakumei/profile.php:73
+msgid "No replies."
+msgstr "返信なし"
+
+#: bb-templates/kakumei/profile.php:79
+msgid "No more topics posted."
+msgstr "以降の投稿トピックなし"
+
+#: bb-templates/kakumei/profile.php:81
+msgid "No topics posted yet."
+msgstr "トピックなし"
+
+#: bb-templates/kakumei/register-success.php:3
+#: bb-templates/kakumei/register.php:3
+msgid "Register"
+msgstr "登録"
+
+#: bb-templates/kakumei/register-success.php:5
+msgid "Great!"
+msgstr "登録ありがとうございます !"
+
+#: bb-templates/kakumei/register-success.php:7
+#, php-format
+msgid "Your registration as <strong>%s</strong> was successful. Within a few minutes you should receive an email with your password."
+msgstr "<strong>%s</strong> の登録に成功しました。数分したら、パスワードが記載されたメールが届くはずです。"
+
+#: bb-templates/kakumei/register.php:5
+msgid "Registration"
+msgstr "登録"
+
+#: bb-templates/kakumei/register.php:12
+msgid "Profile Information"
+msgstr "プロフィール情報"
+
+#: bb-templates/kakumei/register.php:14
+msgid "Your password will be emailed to the address you provide."
+msgstr "ご指定のメールアドレスへパスワードを送信します。"
+
+#: bb-templates/kakumei/register.php:72
+msgid "Register &raquo;"
+msgstr "登録 &raquo;"
+
+#: bb-templates/kakumei/register.php:79
+msgid "You&#8217;re already logged in, why do you need to register?"
+msgstr "ログイン済みです。登録する必要はありません。"
+
+#: bb-templates/kakumei/rss2.php:19
+msgid "Search all topics from these forums."
+msgstr "これらのフォーラムの全トピックを検索します。"
+
+#: bb-templates/kakumei/rss2.php:27
+msgid "on"
+msgstr ": "
+
+#: bb-templates/kakumei/search-form.php:3
+msgid "Search:"
+msgstr "検索:"
+
+#: bb-templates/kakumei/search-form.php:5
+msgid "Search &raquo;"
+msgstr "検索 &raquo;"
+
+#: bb-templates/kakumei/search.php:7
+msgid "Search for"
+msgstr "検索結果:"
+
+#: bb-templates/kakumei/search.php:17
+#: bb-templates/kakumei/search.php:32
+#, php-format
+msgid "Posted %s"
+msgstr "投稿日時: %s"
+
+#: bb-templates/kakumei/search.php:27
+msgid "Relevant posts"
+msgstr "関連する投稿"
+
+#: bb-templates/kakumei/search.php:41
+msgid "No results found."
+msgstr "見つかりませんでした。"
+
+#: bb-templates/kakumei/search.php:44
+#, php-format
+msgid "You may also try your <a href=\"http://google.com/search?q=site:%1$s %2$s\">search at Google</a>"
+msgstr "<a href=\"http://google.co.jp/search?q=site:%1$s %2$s\">Google で検索</a>することもできます。"
+
+#: bb-templates/kakumei/stats.php:3
+#: statistics.php:9
+msgid "Statistics"
+msgstr "統計"
+
+#: bb-templates/kakumei/stats.php:6
+msgid "Registered Users"
+msgstr "登録済みユーザー"
+
+#: bb-templates/kakumei/stats.php:13
+msgid "Most Popular Topics"
+msgstr "もっとも人気あるトピック"
+
+#: bb-templates/kakumei/tag-single.php:29
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> link for this tag"
+msgstr "このタグの <abbr title=\"Really Simple Syndication\">RSS フィード</abbr>"
+
+#: bb-templates/kakumei/tags.php:5
+msgid "This is a collection of tags that are currently popular on the forums."
+msgstr "これはフォーラムで現在よく使われているタグを集めたものです。"
+
+#: bb-templates/kakumei/topic-tags.php:2
+msgid "Tags:"
+msgstr "タグ:"
+
+#: bb-templates/kakumei/topic-tags.php:10
+#, php-format
+msgid "No <a href=\"%s\">tags</a> yet."
+msgstr "まだ<a href=\"%s\">タグ</a>がありません。"
+
+#: bb-templates/kakumei/topic.php:10
+#, php-format
+msgid "%s voice"
+msgid_plural "%s voices"
+msgstr[0] "%s件の返信"
+
+#: bb-templates/kakumei/topic.php:13
+#, php-format
+msgid "Started %1$s ago by %2$s"
+msgstr "%2$s が%1$s前に開始しました。"
+
+#: bb-templates/kakumei/topic.php:15
+#, php-format
+msgid "<a href=\"%1$s\">Latest reply</a> from %2$s"
+msgstr "%2$s の<a href=\"%1$s\">最近の投稿</a>"
+
+#: bb-templates/kakumei/topic.php:41
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this topic"
+msgstr "このトピックの <abbr title=\"Really Simple Syndication\">RSS フィード</abbr>"
+
+#: bb-templates/kakumei/topic.php:47
+msgid "Topic Closed"
+msgstr "このトピックは閉じられました"
+
+#: bb-templates/kakumei/topic.php:48
+msgid "This topic has been closed to new replies."
+msgstr "このトピックは閉じられたので返信できません。"
+
+#: bb-templates/kakumei/view.php:37
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this view"
+msgstr "この表示状態の <abbr title=\"Really Simple Syndication\">RSS フィード</abbr>"
+
+#: favorites.php:8
+msgid "You cannot edit those favorites. How did you get here?"
+msgstr "このお気に入りを編集することはできません。どうやってここにたどり着いたんでしょう？"
+
+#: forum.php:10
+msgid "Forum not found."
+msgstr "フォーラムが見つかりません。"
+
+#: profile-edit.php:55
+#: profile-edit.php:96
+#, php-format
+msgid "%s is required."
+msgstr "%s は必須項目です。"
+
+#: profile-edit.php:82
+msgid "Invalid Role"
+msgstr "無効な権限"
+
+#: profile-edit.php:84
+msgid "You are not the Gate Keeper."
+msgstr "あなたは \"ゲートキーパー\" ではありません。"
+
+#: profile-edit.php:86
+msgid "You are Keymaster, so you may not demote yourself."
+msgstr "あなたはキーマスターのため、自身を降格することはできません。"
+
+#: profile-edit.php:113
+msgid "You must enter the same password twice."
+msgstr "同じパスワードを二度入力してください。"
+
+#: profile-edit.php:115
+msgid "You are not allowed to change this user's password."
+msgstr "このユーザーのパスワードの変更は許可されていません。"
+
+#: register.php:27
+#, php-format
+msgid "%s is an invalid username. How's this one?"
+msgstr "%s は無効なユーザー名です。こちらはいかがですか ?"
+
+#: register.php:29
+#, php-format
+msgid "%s is an invalid username."
+msgstr "%s は無効なユーザー名です。"
+
+#: register.php:42
+#, php-format
+msgid "%s is required"
+msgstr "%s は必須項目です。"
+
+#: rss.php:84
+#, php-format
+msgid "%1$s View: %2$s"
+msgstr "%1$s 表示: %2$s"
+
+#: rss.php:94
+#, php-format
+msgid "%1$s Topic: %2$s"
+msgstr "%1$s トピック: %2$s"
+
+#: rss.php:111
+#, php-format
+msgid "%1$s User Favorites: %2$s"
+msgstr "%1$s ユーザーのお気に入り: %2$s"
+
+#: rss.php:127
+#, php-format
+msgid "%1$s Tag: %2$s - Recent Topics"
+msgstr "%1$s タグ: %2$s - 最新のトピック"
+
+#: rss.php:137
+#, php-format
+msgid "%1$s Tag: %2$s - Recent Posts"
+msgstr "%1$s タグ: %2$s - 最新の投稿"
+
+#: rss.php:151
+#, php-format
+msgid "%1$s Forum: %2$s - Recent Topics"
+msgstr "%1$s フォーラム: %2$s -最新のトピック"
+
+#: rss.php:159
+#, php-format
+msgid "%1$s Forum: %2$s - Recent Posts"
+msgstr "%1$s フォーラム: %2$s -最新の投稿"
+
+#: rss.php:174
+#, php-format
+msgid "%1$s: Recent Topics"
+msgstr "%1$s: 最近のトピック"
+
+#: rss.php:184
+#, php-format
+msgid "%1$s: Recent Posts"
+msgstr "%1$s: 最近の投稿"
+
+#: tag-add.php:7
+msgid "You need to be logged in to add a tag."
+msgstr "タグを追加するにはログインする必要があります。"
+
+#: tag-add.php:18
+#: topic.php:14
+msgid "Topic not found."
+msgstr "トピックが見つかりません。"
+
+#: tag-add.php:23
+msgid "The tag was not added.  Either the tag name was invalid or the topic is closed."
+msgstr "タグを追加できませんでした。タグ名が無効か、トピックが閉じられています。"
+
+#: tag-remove.php:17
+msgid "Invalid tag or topic."
+msgstr "無効なタグまたはトピックです。"
+
+#: tag-remove.php:24
+msgid "The tag was not removed."
+msgstr "タグを削除できませんでした。"
+
+#: tags.php:9
+msgid "Tag not found"
+msgstr "タグが見つかりません。"
+
+#: xmlrpc.php:207
+msgid "Authentication failed."
+msgstr "認証に失敗しました。"
+
+#: xmlrpc.php:217
+#: xmlrpc.php:255
+msgid "You do not have permission to read this."
+msgstr "これを読む権限がありません。"
+
+#: xmlrpc.php:245
+msgid "User switching failed, the requested user does not exist."
+msgstr "ユーザースイッチに失敗しました。指定したユーザーは存在しません。"
+
+#: xmlrpc.php:588
+#: xmlrpc.php:712
+#: xmlrpc.php:811
+#: xmlrpc.php:998
+#: xmlrpc.php:1124
+#: xmlrpc.php:1233
+#: xmlrpc.php:1344
+#: xmlrpc.php:1541
+#: xmlrpc.php:1898
+#: xmlrpc.php:2747
+msgid "The forum id is invalid."
+msgstr "不正なフォーラム ID です。"
+
+#: xmlrpc.php:593
+#: xmlrpc.php:717
+#: xmlrpc.php:1238
+#: xmlrpc.php:1349
+msgid "The forum does not exist."
+msgstr "このフォーラムは存在しません。"
+
+#: xmlrpc.php:738
+#: xmlrpc.php:1250
+msgid "No forums found."
+msgstr "フォーラムが見つかりませんでした。"
+
+#: xmlrpc.php:817
+#: xmlrpc.php:1004
+#: xmlrpc.php:1130
+#: xmlrpc.php:1547
+#: xmlrpc.php:1904
+#: xmlrpc.php:2753
+msgid "No forum found."
+msgstr "フォーラムが見つかりませんでした。"
+
+#: xmlrpc.php:876
+#: xmlrpc.php:976
+msgid "You do not have permission to manage forums."
+msgstr "このフォーラムを管理する権限がありません。"
+
+#: xmlrpc.php:887
+#: xmlrpc.php:987
+msgid "The forum data is invalid."
+msgstr "不正なフォーラムデータです。"
+
+#: xmlrpc.php:895
+#: xmlrpc.php:1024
+msgid "The forum name is invalid."
+msgstr "不正なフォーラム名です。"
+
+#: xmlrpc.php:916
+msgid "The forum could not be created."
+msgstr "フォーラムを作成できませんでした。"
+
+#: xmlrpc.php:1066
+msgid "The forum could not be edited."
+msgstr "フォーラムを編集できませんでした。"
+
+#: xmlrpc.php:1110
+msgid "You do not have permission to delete forums."
+msgstr "フォーラムを削除する権限がありません。"
+
+#: xmlrpc.php:1141
+msgid "You do not have permission to delete this forum."
+msgstr "このフォーラムを削除する権限がありません。"
+
+#: xmlrpc.php:1150
+msgid "The forum could not be deleted."
+msgstr "フォーラムを削除できませんでした。"
+
+#: xmlrpc.php:1442
+#: xmlrpc.php:1679
+#: xmlrpc.php:1793
+#: xmlrpc.php:1880
+#: xmlrpc.php:1979
+#: xmlrpc.php:2079
+#: xmlrpc.php:2179
+#: xmlrpc.php:2271
+#: xmlrpc.php:2447
+#: xmlrpc.php:2863
+#: xmlrpc.php:2947
+#: xmlrpc.php:3161
+#: xmlrpc.php:3279
+msgid "The topic id is invalid."
+msgstr "不正なトピック ID です。"
+
+#: xmlrpc.php:1448
+#: xmlrpc.php:1685
+#: xmlrpc.php:1799
+#: xmlrpc.php:1886
+#: xmlrpc.php:1985
+#: xmlrpc.php:2085
+#: xmlrpc.php:2185
+#: xmlrpc.php:2277
+#: xmlrpc.php:2453
+#: xmlrpc.php:2869
+#: xmlrpc.php:2953
+#: xmlrpc.php:3167
+#: xmlrpc.php:3285
+msgid "No topic found."
+msgstr "トピックが見つかりませんでした。"
+
+#: xmlrpc.php:1514
+msgid "You do not have permission to write topics."
+msgstr "トピックを投稿する権限がありません。"
+
+#: xmlrpc.php:1518
+#: xmlrpc.php:2425
+msgid "You do not have permission to write posts."
+msgstr "投稿する権限がありません。"
+
+#: xmlrpc.php:1530
+#: xmlrpc.php:1668
+msgid "The topic data is invalid."
+msgstr "不正なトピックデータです。"
+
+#: xmlrpc.php:1556
+msgid "You do not have permission to write topics to this forum."
+msgstr "このフォーラムへトピックを投稿する権限がありません。"
+
+#: xmlrpc.php:1562
+#: xmlrpc.php:1714
+msgid "The topic title is invalid."
+msgstr "不正なトピックタイトルです。"
+
+#: xmlrpc.php:1568
+#: xmlrpc.php:1720
+msgid "The topic text is invalid."
+msgstr "不正なトピック本文です。"
+
+#: xmlrpc.php:1584
+msgid "The topic could not be created."
+msgstr "とピックを作成できませんでした。"
+
+#: xmlrpc.php:1596
+#: xmlrpc.php:2480
+msgid "The post could not be created."
+msgstr "投稿を作成できませんでした。"
+
+#: xmlrpc.php:1652
+msgid "You do not have permission to edit topics."
+msgstr "トピックを編集する権限がありません。"
+
+#: xmlrpc.php:1656
+#: xmlrpc.php:2535
+msgid "You do not have permission to edit posts."
+msgstr "投稿を編集する権限がありません。"
+
+#: xmlrpc.php:1694
+msgid "You do not have permission to edit this topic."
+msgstr "このトピックを編集する権限がありません。"
+
+#: xmlrpc.php:1708
+#: xmlrpc.php:2572
+msgid "You do not have permission to edit this post."
+msgstr "この投稿を編集する権限がありません。"
+
+#: xmlrpc.php:1726
+msgid "The topic could not be edited."
+msgstr "トピックを編集できませんでした。"
+
+#: xmlrpc.php:1733
+#: xmlrpc.php:2590
+#: xmlrpc.php:2676
+msgid "The post could not be edited."
+msgstr "投稿を編集できませんでした。"
+
+#: xmlrpc.php:1779
+msgid "You do not have permission to delete topics."
+msgstr "トピックを削除する権限がありません。"
+
+#: xmlrpc.php:1815
+msgid "You do not have permission to delete this topic."
+msgstr "このトピックを削除する権限がありません。"
+
+#: xmlrpc.php:1821
+msgid "The topic could not be deleted."
+msgstr "トピックを削除できませんでした。"
+
+#: xmlrpc.php:1866
+msgid "You do not have permission to move topics."
+msgstr "トピックを移動する権限がありません。"
+
+#: xmlrpc.php:1915
+msgid "You are not allowed to move this topic to this forum."
+msgstr "このトピックをこのフォーラムに移動することはできません。"
+
+#: xmlrpc.php:1921
+msgid "The topic could not be moved."
+msgstr "トピックを移動できませんでした。"
+
+#: xmlrpc.php:1965
+msgid "You do not have permission to stick topics."
+msgstr "トピックを先頭に固定する権限がありません。"
+
+#: xmlrpc.php:1994
+msgid "You do not have permission to stick this topic."
+msgstr "このトピックを先頭に固定する権限がありません。"
+
+#: xmlrpc.php:2008
+msgid "The topic could not be stuck."
+msgstr "トピックを先頭に固定できませんでした。"
+
+#: xmlrpc.php:2065
+msgid "You do not have permission to close topics."
+msgstr "トピックを閉じる権限がありません。"
+
+#: xmlrpc.php:2094
+msgid "You do not have permission to close this topic."
+msgstr "このトピックを閉じる権限がありません。"
+
+#: xmlrpc.php:2108
+msgid "The topic could not be closed."
+msgstr "トピックを閉じることができませんでした。"
+
+#: xmlrpc.php:2114
+msgid "The topic could not be opened."
+msgstr "トピックを開くことができませんでした。"
+
+#: xmlrpc.php:2363
+#: xmlrpc.php:2557
+#: xmlrpc.php:2649
+msgid "The post id is invalid."
+msgstr "不正な投稿 ID です。"
+
+#: xmlrpc.php:2369
+#: xmlrpc.php:2563
+#: xmlrpc.php:2655
+msgid "No post found."
+msgstr "投稿が見つかりませんでした。"
+
+#: xmlrpc.php:2436
+#: xmlrpc.php:2546
+msgid "The post data is invalid."
+msgstr "不正な投稿データです。"
+
+#: xmlrpc.php:2462
+msgid "You do not have permission to write posts to this topic."
+msgstr "このトピックに投稿する権限がありません。"
+
+#: xmlrpc.php:2468
+#: xmlrpc.php:2578
+msgid "The post text is invalid."
+msgstr "不正な投稿本文です。"
+
+#: xmlrpc.php:2635
+msgid "You do not have permission to delete posts."
+msgstr "投稿を削除する権限がありません。"
+
+#: xmlrpc.php:2664
+msgid "You do not have permission to delete this post."
+msgstr "この投稿を削除する権限がありません。"
+
+#: xmlrpc.php:2769
+msgid "Could not retrieve hot topic tags."
+msgstr "人気トピックタグを読み込めませんでした。"
+
+#: xmlrpc.php:2773
+#: xmlrpc.php:2798
+msgid "No hot topic tags found."
+msgstr "人気トピックタグが見つかりません。"
+
+#: xmlrpc.php:2887
+msgid "Could not get a count of all topic tags."
+msgstr "すべてのトピックタグを数えることができませんでした。"
+
+#: xmlrpc.php:2962
+msgid "No topic tags found."
+msgstr "トピックのタグが見つかりませんでした。"
+
+#: xmlrpc.php:2969
+msgid "Could not retrieve all topic tags."
+msgstr "すべてのトピックタグを回復できませんでした。"
+
+#: xmlrpc.php:3040
+#: xmlrpc.php:3368
+#: xmlrpc.php:3540
+msgid "The tag id is invalid."
+msgstr "不正なタグ ID です。"
+
+#: xmlrpc.php:3046
+#: xmlrpc.php:3374
+#: xmlrpc.php:3546
+msgid "No tag found."
+msgstr "タグが見つかりませんでした。"
+
+#: xmlrpc.php:3147
+#: xmlrpc.php:3265
+msgid "You do not have permission to edit tags."
+msgstr "タグを編集する権限がありません。"
+
+#: xmlrpc.php:3176
+msgid "You do not have permission to add tags to this topic."
+msgstr "このトピックにタグを追加する権限がありません。"
+
+#: xmlrpc.php:3184
+#: xmlrpc.php:3302
+msgid "The tag data is invalid."
+msgstr "不正なタグデータです。"
+
+#: xmlrpc.php:3190
+msgid "The tags could not be added."
+msgstr "タグを追加できませんでした。"
+
+#: xmlrpc.php:3294
+msgid "You do not have permission to remove tags from this topic."
+msgstr "このトピックからタグを削除する権限がありません。"
+
+#: xmlrpc.php:3308
+msgid "The tags could not be removed."
+msgstr "タグを削除できませんでした。"
+
+#: xmlrpc.php:3354
+#: xmlrpc.php:3439
+#: xmlrpc.php:3526
+msgid "You do not have permission to manage tags."
+msgstr "タグを管理する権限がありません。"
+
+#: xmlrpc.php:3386
+msgid "The tag name is invalid."
+msgstr "不正なタグ名です。"
+
+#: xmlrpc.php:3392
+msgid "The tag could not be renamed."
+msgstr "タグ名の変更ができませんでした。"
+
+#: xmlrpc.php:3454
+msgid "The old tag id is invalid."
+msgstr "不正な旧タグ ID です。"
+
+#: xmlrpc.php:3458
+msgid "The new tag id is invalid."
+msgstr "不正な新タグ ID です。"
+
+#: xmlrpc.php:3464
+msgid "No old tag found."
+msgstr "古いタグが見つかりませんでした。"
+
+#: xmlrpc.php:3468
+msgid "No new tag found."
+msgstr "新しいタグが見つかりませんでした。"
+
+#: xmlrpc.php:3478
+msgid "The tags could not be merged."
+msgstr "タグを統合することができませんでした。"
+
+#: xmlrpc.php:3555
+msgid "The tag could not be destroyed."
+msgstr "タグを削除できませんでした。"
+
+#: xmlrpc.php:3584
+msgid "Software Name"
+msgstr "ソフト名"
+
+#: xmlrpc.php:3589
+msgid "Software Version"
+msgstr "ソフトのバージョン"
+
+#: xmlrpc.php:3594
+msgid "Site URL"
+msgstr "サイト URL"
+
+#: xmlrpc.php:3601
+msgid "Site Name"
+msgstr "サイト名"
+
+#: xmlrpc.php:3606
+msgid "Site Description"
+msgstr "サイトの説明"
+
+#: xmlrpc.php:3611
+msgid "Time Zone"
+msgstr "タイムゾーン"
+
+#: xmlrpc.php:3616
+msgid "Date/Time Format"
+msgstr "日付と時間のフォーマット"
+
+#: xmlrpc.php:3621
+msgid "Date Format"
+msgstr "日付のフォーマット"
+
+#: xmlrpc.php:3764
+msgid "You are not allowed to manage options."
+msgstr "設定を管理する権限がありません。"
+
+#: xmlrpc.php:3775
+msgid "The options data is invalid."
+msgstr "不正なオプションデータです。"
+
+#: xmlrpc.php:3855
+msgid "This is not the site you are trying to pingback."
+msgstr "これはあなたがピンバックを送ろうとしているサイトではありません。"
+
+#: xmlrpc.php:3864
+msgid "The source URL and the target URL cannot both point to the same resource."
+msgstr "ソース URL とターゲット URL に同一のリソースを指定することはできません。"
+
+#: xmlrpc.php:3869
+#: xmlrpc.php:4056
+msgid "The specified target URL cannot be used as a target. It either doesn't exist, or it is not a pingback-enabled resource."
+msgstr "指定した URL はターゲットとして使用できません。この URL は存在しないか、ピンバックが有効になっていません。"
+
+#: xmlrpc.php:3880
+msgid "The specified target topic does not contain any posts."
+msgstr "指定したターゲットトピックには投稿がありません。"
+
+#: xmlrpc.php:3887
+msgid "The pingback has already been registered."
+msgstr "そのピンバックはすでに登録済みです。"
+
+#: xmlrpc.php:3899
+msgid "The source URL does not exist."
+msgstr "元のURLが存在しません。"
+
+#: xmlrpc.php:3919
+msgid "We cannot find a title on that page."
+msgstr "そのページのタイトルが見つかりません。"
+
+#: xmlrpc.php:3974
+msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
+msgstr "ソース URL にターゲット URL へのリンクが含まれていないので、ソースとして使用することができません。"
+
+#: xmlrpc.php:3989
+msgid "The pingback could not be added."
+msgstr "ピンバックを追加できませんでした。"
+
+#: xmlrpc.php:4006
+#, php-format
+msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
+msgstr "%1$s より %2$s へのピンバックが登録されました。ウェブでの会話を続けてください ! :-)"
+
+#: xmlrpc.php:4037
+msgid "The requested method only accepts one parameter."
+msgstr "要求したメソッドでは、引数は一つのみしか指定できません。"
+
+#: xmlrpc.php:4050
+msgid "The specified target URL is not on this domain."
+msgstr "指定したターゲット URL はこのドメイン上にありません。"
+

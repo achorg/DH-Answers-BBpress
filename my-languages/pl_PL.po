@@ -1,0 +1,5229 @@
+# Polish (pl_PL) translation for bbPress.
+# Copyright (C) 2009 bbPress contributors.
+# This file is distributed under the same license as the bbPress package.
+# Wacław Jacek <mail@waclawjacek.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress 1.0.1\n"
+"Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
+"POT-Creation-Date: 2009-07-29 12:11+0000\n"
+"PO-Revision-Date: 2009-07-30 15:40+0100\n"
+"Last-Translator: Wacław Jacek <mail@waclawjacek.com>\n"
+"Language-Team: Wacław Jacek <mail@waclawjacek.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Poedit-Language: Polish\n"
+
+#: bb-admin/admin-base.php:13
+msgid "Nothing to see here."
+msgstr "Nie ma tu niczego do oglądania."
+
+#: bb-admin/admin-footer.php:8
+#: bb-templates/kakumei/footer.php:11
+#, php-format
+msgid "This page generated in %s seconds, using %d queries."
+msgstr "Ta strona została wygenerowana w %s sekund z użyciem %d zapytań."
+
+#: bb-admin/admin-footer.php:21
+#, php-format
+msgid "Thank you for using <a href=\"%s\">bbPress</a>. | <a href=\"%s\">Documentation</a> | <a href=\"%s\">Feedback</a>"
+msgstr "Dziękujemy za używanie <a href=\"%s\">bbPressa</a>. | <a href=\"%s\">Dokumentacja</a> | <a href=\"%s\">Informacja zwrotna</a>"
+
+#: bb-admin/admin-footer.php:28
+#: bb-admin/plugins.php:226
+#, php-format
+msgid "Version %s"
+msgstr "Wersja %s"
+
+#: bb-admin/admin-header.php:40
+msgid "Visit Site"
+msgstr "Przejdź na stronę"
+
+#: bb-admin/admin-header.php:43
+#, php-format
+msgid "Howdy, %1$s"
+msgstr "Jak się masz, %1$s"
+
+#: bb-admin/bb-forum.php:5
+msgid "You don't have the authority to mess with the forums."
+msgstr "Nie posiadasz uprawnień do modyfikacji działów."
+
+#: bb-admin/bb-forum.php:17
+msgid "Bad forum name.  Go back and try again."
+msgstr "Nieprawidłowa nazwa działu.  Wróć do poprzedniej strony i spróbuj ponownie."
+
+#: bb-admin/bb-forum.php:25
+msgid "The forum was not added"
+msgstr "Dział nie został dodany"
+
+#: bb-admin/bb-forum.php:32
+msgid "No forums to update!"
+msgstr "Brak działów do aktualizacji!"
+
+#: bb-admin/bb-forum.php:47
+msgid "You don't have the authority to kill off the forums."
+msgstr "Nie posiadasz uprawnień do usuwania działów."
+
+#: bb-admin/bb-forum.php:53
+msgid "Error occured while trying to delete forum"
+msgstr "Wystąpił błąd podczas próby usunięcia działu"
+
+#: bb-admin/delete-post.php:18
+msgid "There is a problem with that post, pardner."
+msgstr "Z tym wpisem jest coś nie tak, pardnerze."
+
+#: bb-admin/delete-topic.php:17
+#: bb-admin/sticky.php:9
+#: bb-admin/topic-toggle.php:8
+msgid "There is a problem with that topic, pardner."
+msgstr "Z tym tematem jest coś nie tak, pardnerze."
+
+#: bb-admin/export.php:19
+msgid "Either export is disabled or you are not allowed to export."
+msgstr "Eksport jest wyłączony lub nie posiadasz uprawnień do wykonania go."
+
+#: bb-admin/forums.php:19
+msgid "<strong>Forum Updated.</strong>"
+msgstr "<strong>Dział został zaktualizowany.</strong>"
+
+#: bb-admin/forums.php:23
+#, php-format
+msgid "<strong>Forum deleted.</strong>  You should <a href=\"%s\">recount your site information</a>."
+msgstr "<strong>Dział został usunięty.</strong>  Należy teraz kazać bbPressowi <a href=\"%s\">ponownie zliczyć dane forum</a>."
+
+#: bb-admin/forums.php:33
+#, php-format
+msgid "Are you sure you want to delete the \"<strong>%s</strong>\" forum?"
+msgstr "Czy na pewno chcesz usunąć dział \"<strong>%s</strong>\"?"
+
+#: bb-admin/forums.php:42
+#: bb-admin/includes/functions.bb-admin.php:65
+#: bb-admin/includes/functions.bb-admin.php:66
+#: bb-templates/kakumei/front-page.php:48
+msgid "Forums"
+msgstr "Działy"
+
+#: bb-admin/forums.php:51
+#: bb-admin/forums.php:80
+msgid "Delete Forum"
+msgstr "Usuń dział"
+
+#: bb-admin/forums.php:52
+msgid "This forum contains:"
+msgstr "Ten dział zawiera:"
+
+#: bb-admin/forums.php:54
+#, php-format
+msgid "%d topic"
+msgid_plural "%d topics"
+msgstr[0] "%d temat"
+msgstr[1] "%d tematy"
+msgstr[2] "%d tematów"
+
+#: bb-admin/forums.php:55
+#, php-format
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d wpis"
+msgstr[1] "%d wpisy"
+msgstr[2] "%d wpisów"
+
+#: bb-admin/forums.php:58
+msgid "Action"
+msgstr "Działanie"
+
+#: bb-admin/forums.php:61
+msgid "Delete all topics and posts in this forum. <em>This can never be undone.</em>"
+msgstr "Usuń wszystkie tematy i wpisy umieszczone w tym dziale. <em>Nie można cofnąć tej operacji.</em>"
+
+#: bb-admin/forums.php:64
+msgid "Move topics from this forum into the replacement forum below."
+msgstr "Przenieś wszystkie tematy z tego działu do poniższego zastępczego działu."
+
+#: bb-admin/forums.php:69
+msgid "Replacement forum"
+msgstr "Zastępczy dział"
+
+#: bb-admin/forums.php:79
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: bb-admin/forums.php:89
+#: bb-includes/class.bb-query.php:942
+#: bb-templates/kakumei/post-form.php:20
+msgid "Forum"
+msgstr "Dział"
+
+#: bb-admin/includes/class.bb-install.php:193
+#: bb-includes/functions.bb-core.php:1175
+msgid "bbPress &rsaquo; Error"
+msgstr "bbPress &rsaquo; Błąd"
+
+#: bb-admin/includes/class.bb-install.php:194
+msgid "Oh dear!"
+msgstr "Ojej!"
+
+#: bb-admin/includes/class.bb-install.php:198
+#: bb-admin/includes/class.bb-install.php:208
+#: bb-admin/includes/class.bb-install.php:218
+#: bb-admin/includes/class.bb-install.php:228
+#: bb-admin/includes/class.bb-install.php:239
+#, php-format
+msgid "%1$s &rsaquo; %2$s"
+msgstr "%1$s &rsaquo; %2$s"
+
+#: bb-admin/includes/class.bb-install.php:198
+#: bb-admin/includes/class.bb-install.php:208
+#: bb-admin/includes/class.bb-install.php:218
+#: bb-admin/includes/class.bb-install.php:228
+#: bb-admin/includes/class.bb-install.php:239
+msgid "bbPress installer"
+msgstr "Instalator bbPressa"
+
+#: bb-admin/includes/class.bb-install.php:198
+msgid "Welcome"
+msgstr "Witaj"
+
+#: bb-admin/includes/class.bb-install.php:199
+msgid "Welcome to the bbPress installer"
+msgstr "Witaj w instalatorze bbPressa"
+
+#: bb-admin/includes/class.bb-install.php:203
+msgid "We're now going to go through a few steps to get you up and running."
+msgstr "Instalacja składa się z kilku etapów, które pozwolą Ci rozpocząć pracę z bbPressem."
+
+#: bb-admin/includes/class.bb-install.php:204
+msgid "Ready? Then let's get started!"
+msgstr "Wszystko gotowe? Zatem zaczynajmy!"
+
+#: bb-admin/includes/class.bb-install.php:208
+#: bb-admin/includes/class.bb-install.php:209
+msgid "Step 1"
+msgstr "Krok 1"
+
+#: bb-admin/includes/class.bb-install.php:209
+#: bb-admin/includes/class.bb-install.php:219
+#: bb-admin/includes/class.bb-install.php:229
+#, php-format
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: bb-admin/includes/class.bb-install.php:209
+msgid "Database configuration"
+msgstr "Konfiguracja bazy danych"
+
+#: bb-admin/includes/class.bb-install.php:212
+msgid "In this step you need to enter your database connection details. The installer will attempt to create a file called <code>bb-config.php</code> in the root directory of your bbPress installation."
+msgstr "Na tym etapie musisz wprowadzić dane wymagane do połączenia się z bazą danych. Instalator spróbuje utworzyć plik o nazwie <code>bb-config.php</code> w głównym katalogu Twojej instalacji bbPressa."
+
+#: bb-admin/includes/class.bb-install.php:213
+msgid "If you're not sure what to put here, contact your web hosting provider."
+msgstr "Jeśli nie masz pewności co do wartości, które powinny zostać tutaj wprowadzone, skontaktuj się z administratorem swojego serwera."
+
+#: bb-admin/includes/class.bb-install.php:218
+#: bb-admin/includes/class.bb-install.php:219
+msgid "Step 2"
+msgstr "Krok 2"
+
+#: bb-admin/includes/class.bb-install.php:219
+msgid "WordPress integration (optional)"
+msgstr "Integracja z WordPressem (opcjonalna)"
+
+#: bb-admin/includes/class.bb-install.php:220
+msgid "&laquo; skipped"
+msgstr "&laquo; pominięto"
+
+#: bb-admin/includes/class.bb-install.php:222
+msgid "bbPress can integrate login and user data seamlessly with WordPress. You can safely skip this step if you do not wish to integrate with an existing WordPress install."
+msgstr "bbPress może w przezroczysty sposób zintegrować dane użytkowników z WordPressem. Możesz spokojnie pominąć ten krok, jeżeli nie chcesz wykonać integracji z istniejącą instalacją WordPressa."
+
+#: bb-admin/includes/class.bb-install.php:228
+#: bb-admin/includes/class.bb-install.php:229
+msgid "Step 3"
+msgstr "Krok 3"
+
+#: bb-admin/includes/class.bb-install.php:229
+msgid "Site settings"
+msgstr "Ustawienia strony"
+
+#: bb-admin/includes/class.bb-install.php:232
+msgid "Finalize your installation by adding a name, your first user and your first forum."
+msgstr "Sfinalizuj instalację poprzez nadanie forum nazwy, utworzenie konta pierwszego użytkownika oraz pierwszego działu."
+
+#: bb-admin/includes/class.bb-install.php:239
+msgid "Finished"
+msgstr "Koniec"
+
+#: bb-admin/includes/class.bb-install.php:240
+#: bb-admin/includes/class.bb-install.php:2178
+msgid "Installation complete!"
+msgstr "Instalacja została ukończona!"
+
+#: bb-admin/includes/class.bb-install.php:257
+msgid "Your PHP installation appears to be missing the MySQL extension which is required for bbPress"
+msgstr "Wygląda na to, że w Twojej instalacji PHP brak rozszerzenia MySQL, które jest wymagane do pracy bbPressa."
+
+#: bb-admin/includes/class.bb-install.php:262
+msgid "Please complete your installation before attempting to include WordPress within bbPress"
+msgstr "Proszę ukończyć instalację przed próbą integracji bbPressa z WordPressem"
+
+#: bb-admin/includes/class.bb-install.php:340
+msgid "Installation language"
+msgstr "Język instalatora"
+
+#: bb-admin/includes/class.bb-install.php:352
+msgid "Sets the language to be used during the installation process only."
+msgstr "Ustawia język, który będzie używany w procesie instalacji."
+
+#: bb-admin/includes/class.bb-install.php:469
+msgid "An old <code>config.php</code> file has been detected in your installation. You should remove it and run the <a href=\"install.php\">installer</a> again. You can use the same database connection details if you do."
+msgstr "W Twojej instalacji został wykryty stary plik <code>config.php</code>. Powinno się go usunąć, a następnie uruchomić <a href=\"install.php\">instalatora</a> ponownie. Podczas instalacji możesz użyć tych samych danych dostępu do bazy danych."
+
+#: bb-admin/includes/class.bb-install.php:482
+#: bb-admin/includes/class.bb-install.php:1114
+#: bb-admin/includes/class.bb-install.php:1122
+#: bb-admin/includes/class.bb-install.php:1134
+msgid "&laquo; completed"
+msgstr "&laquo; ukończony"
+
+#: bb-admin/includes/class.bb-install.php:490
+msgid "A valid configuration file was found at <code>bb-config.php</code><br />You may continue to the next step."
+msgstr "Znaleziono prawidłowy plik konfiguracji o nazwie <code>bb-config.php</code><br />Możesz przejść do następnego etapu instalacji."
+
+#: bb-admin/includes/class.bb-install.php:495
+msgid "An invalid configuration file was found at <code>bb-config.php</code><br />The installation cannot continue."
+msgstr "Znaleziono nieprawidłowy plik konfiguracji o nazwie <code>bb-config.php</code><br />Instalacja nie może być kontynuowana."
+
+#: bb-admin/includes/class.bb-install.php:496
+msgid "Usually this is caused by one of the database connection settings being incorrect. Make sure that the specified user has appropriate permission to access the database."
+msgstr "Zwykle jest to spowodowane przez jedno lub więcej nieprawidłowych danych dostępu do bazy danych. Upewnij się, że użytkownik o podanej nazwie ma odpowiednie uprawnienia dostępu do bazy."
+
+#: bb-admin/includes/class.bb-install.php:506
+msgid "bbPress is already installed, but appears to require an upgrade."
+msgstr "bbPress jest już zainstalowany, ale wygląda na to, że wymaga on aktualizacji."
+
+#: bb-admin/includes/class.bb-install.php:508
+msgid "bbPress is already installed."
+msgstr "bbPress jest już zainstalowany."
+
+#: bb-admin/includes/class.bb-install.php:511
+#, php-format
+msgid "Perhaps you meant to run the <a href=\"%s\">upgrade script</a> instead?"
+msgstr "Być może chcesz uruchomić <a href=\"%s\">skrypt aktualizujący</a>?"
+
+#: bb-admin/includes/class.bb-install.php:521
+#: bb-admin/includes/class.bb-install.php:1320
+msgid "I could not find the file <code>bb-config-sample.php</code><br />Please upload it to the root directory of your bbPress installation."
+msgstr "Nie mogłem znaleźć pliku <code>bb-config-sample.php</code><br />Proszę wysłać go na serwer, do głównego katalogu Twojej instalacji bbPressa."
+
+#: bb-admin/includes/class.bb-install.php:527
+msgid "There doesn't seem to be a <code>bb-config.php</code> file. This usually means that you want to install bbPress."
+msgstr "Wygląda na to, że plik <code>bb-config.php</code> nie istnieje. Zwykle oznacza to, że zamierzasz zainstalować bbPressa."
+
+#: bb-admin/includes/class.bb-install.php:614
+msgid "Go to step 1"
+msgstr "Przejdź do kroku 1"
+
+#: bb-admin/includes/class.bb-install.php:622
+msgid "Database name"
+msgstr "Nazwa bazy danych"
+
+#: bb-admin/includes/class.bb-install.php:623
+msgid "The name of the database in which you want to run bbPress."
+msgstr "Nazwa bazy danych, w której działać ma bbPress."
+
+#: bb-admin/includes/class.bb-install.php:627
+msgid "Database user"
+msgstr "Nazwa użytkownika bazy danych"
+
+#: bb-admin/includes/class.bb-install.php:628
+#: bb-admin/includes/class.bb-install.php:835
+#: bb-admin/options-wordpress.php:129
+msgid "The database user that has access to that database."
+msgstr "Nazwa użytkownika serwera, który ma dostęp do powyższej bazy danych."
+
+#: bb-admin/includes/class.bb-install.php:634
+msgid "Database password"
+msgstr "Hasło do bazy danych"
+
+#: bb-admin/includes/class.bb-install.php:635
+#: bb-admin/includes/class.bb-install.php:843
+#: bb-admin/options-wordpress.php:133
+msgid "That database user's password."
+msgstr "Hasło powyższego użytkownika."
+
+#: bb-admin/includes/class.bb-install.php:640
+msgid "Language"
+msgstr "Język"
+
+#: bb-admin/includes/class.bb-install.php:641
+#, php-format
+msgid "The language which bbPress will be presented in once installed. Your current installer language choice (%s) will be the same for the rest of the install process."
+msgstr "Język, w którym funkcjonował będzie bbPress po instalacji. Język wybrany do użycia w procesie instalacji (%s) pozostanie niezmieniony."
+
+#: bb-admin/includes/class.bb-install.php:645
+msgid "Show advanced settings"
+msgstr "Pokaż zaawansowane ustawienia"
+
+#: bb-admin/includes/class.bb-install.php:646
+msgid "These settings usually do not have to be changed."
+msgstr "Zwykle zmiana tych ustawień nie jest potrzebna."
+
+#: bb-admin/includes/class.bb-install.php:652
+msgid "Database host"
+msgstr "Adres serwera bazy danych"
+
+#: bb-admin/includes/class.bb-install.php:653
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should remain <strong>localhost</strong>."
+msgstr "Domena lub adres IP, pod którym znajduje się serwer bazy danych. Jeżeli baza danych znajduje się na tym samym serwerze, na którym znajduje się strona, wartością tego ustawienia prawdopodobnie powinno pozostać <strong>localhost</strong>."
+
+#: bb-admin/includes/class.bb-install.php:658
+msgid "Database character set"
+msgstr "Kodowanie bazy danych"
+
+#: bb-admin/includes/class.bb-install.php:659
+#: bb-admin/includes/class.bb-install.php:856
+#: bb-admin/options-wordpress.php:141
+msgid "The best choice is <strong>utf8</strong>, but you will need to match the character set which you created the database with."
+msgstr "Najlepszym wyborem jest <strong>utf8</strong>, jednakże musisz wybrać to samo kodowanie, z którego korzysta Twoja baza danych."
+
+#: bb-admin/includes/class.bb-install.php:664
+msgid "Database character collation"
+msgstr "Kodowanie porównań w bazie danych"
+
+#: bb-admin/includes/class.bb-install.php:665
+msgid "The character collation value set when the database was created."
+msgstr "Kodowanie porównań wykonywanych w bazie danych ustawione podczas jej tworzenia."
+
+#: bb-admin/includes/class.bb-install.php:696
+msgid "Table name prefix"
+msgstr "Prefiks nazw tabel"
+
+#: bb-admin/includes/class.bb-install.php:697
+msgid "If you are running multiple bbPress sites in a single database, you will probably want to change this."
+msgstr "Jeżeli w jednej bazie danych znajduje się kilka instalacji bbPressa, zmiana tego ustawienia prawdopodobnie będzie pożądana."
+
+#: bb-admin/includes/class.bb-install.php:702
+msgid "Contents for <code>bb-config.php</code>"
+msgstr "Zawartość pliku <code>bb-config.php</code>"
+
+#: bb-admin/includes/class.bb-install.php:703
+msgid "Once you have created the configuration file, you can check for it below."
+msgstr "Po utworzeniu pliku konfiguracji możesz go sprawdzić poniżej."
+
+#: bb-admin/includes/class.bb-install.php:706
+msgid "Save database configuration file"
+msgstr "Zapisz plik konfiguracji bazy danych"
+
+#: bb-admin/includes/class.bb-install.php:709
+#: bb-admin/includes/class.bb-install.php:881
+#: bb-admin/includes/class.bb-install.php:928
+msgid "&laquo; Go back"
+msgstr "&laquo; Wróć"
+
+#: bb-admin/includes/class.bb-install.php:712
+msgid "Check for configuration file"
+msgstr "Sprawdź plik konfiguracji"
+
+#: bb-admin/includes/class.bb-install.php:715
+msgid "Go to step 2"
+msgstr "Przejdź do kroku 2"
+
+#: bb-admin/includes/class.bb-install.php:724
+msgid "Add integration settings"
+msgstr "Dodaj ustawienia integracji"
+
+#: bb-admin/includes/class.bb-install.php:725
+msgid "If you want to integrate bbPress with an existing WordPress site."
+msgstr "Jeśli chcesz zintegrować bbPressa z istniejącą stroną opartą na WordPressie."
+
+#: bb-admin/includes/class.bb-install.php:730
+#: bb-admin/includes/class.bb-install.php:878
+msgid "Skip WordPress integration"
+msgstr "Pomiń integrację z WordPressem"
+
+#: bb-admin/includes/class.bb-install.php:731
+msgid "Save WordPress integration settings"
+msgstr "Zapisz ustawienia integracji z WordPressem"
+
+#: bb-admin/includes/class.bb-install.php:736
+msgid "Add cookie integration settings"
+msgstr "Dodaj ustawienia integracji ciasteczek"
+
+#: bb-admin/includes/class.bb-install.php:737
+msgid "If you want to allow shared logins with an existing WordPress site."
+msgstr "Jeśli chcesz zezwolić na równoczesne logowanie się do istniejącej strony opartej na WordPressie."
+
+#: bb-admin/includes/class.bb-install.php:744
+#: bb-admin/options-wordpress.php:67
+msgid "WordPress address (URL)"
+msgstr "Adres URL WordPressa"
+
+#: bb-admin/includes/class.bb-install.php:745
+#: bb-admin/options-wordpress.php:69
+msgid "This value should exactly match the <strong>WordPress address (URL)</strong> setting in your WordPress general settings."
+msgstr "Ta wartość powinna być taka sama jak wartość ustawienia <strong>Adres URL WordPressa</strong> w ogólnych ustawieniach Twojej instalacji WordPressa."
+
+#: bb-admin/includes/class.bb-install.php:750
+#: bb-admin/options-wordpress.php:72
+msgid "Blog address (URL)"
+msgstr "Adres URL blogu"
+
+#: bb-admin/includes/class.bb-install.php:751
+#: bb-admin/options-wordpress.php:74
+msgid "This value should exactly match the <strong>Blog address (URL)</strong> setting in your WordPress general settings."
+msgstr "Ta wartość powinna być taka sama jak wartość ustawienia <strong>Adres URL blogu</strong> w ogólnych ustawieniach Twojej instalacji WordPressa."
+
+#: bb-admin/includes/class.bb-install.php:756
+msgid "WordPress \"auth\" cookie key"
+msgstr "Klucz ciasteczek \"auth\" WordPressa"
+
+#: bb-admin/includes/class.bb-install.php:757
+msgid "This value must match the value of the constant named \"AUTH_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"auth\" cookie key set in the first step."
+msgstr "Ta wartość musi być taka sama jak wartość stałej o nazwie \"AUTH_KEY\" znajdującej się w pliku <code>wp-config.php</code> Twojej instalacji WordPressa. To ustawienie zastąpi wartość \"auth\" ciasteczek bbPressa ustawioną w pierwszym etapie instalacji."
+
+#: bb-admin/includes/class.bb-install.php:763
+#: bb-admin/options-wordpress.php:77
+msgid "WordPress \"auth\" cookie salt"
+msgstr "Salt ciasteczek \"auth\" WordPressa"
+
+#: bb-admin/includes/class.bb-install.php:764
+msgid "This must match the value of the WordPress setting named \"auth_salt\" in your WordPress site. Look for the option labeled \"auth_salt\" in <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings."
+msgstr "Ta wartość musi być taka sama jak wartość ustawienia o nazwie \"auth_salt\" Twojej instalacji WordPressa - szukaj opcji podpisanej \"auth_salt\" na <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">tej stronie panelu administracyjnego WordPressa</a>. Jeżeli pozostawisz to pole puste, instalator spróbuje pobrać wartość tego ustawienia, korzystając z ustawień integracji bazy danych."
+
+#: bb-admin/includes/class.bb-install.php:770
+msgid "WordPress \"secure auth\" cookie key"
+msgstr "Klucz \"secure auth\" ciasteczek WordPressa"
+
+#: bb-admin/includes/class.bb-install.php:771
+msgid "This value must match the value of the constant named \"SECURE_AUTH_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"secure auth\" cookie key set in the first step."
+msgstr "Ta wartość musi być taka sama jak wartość stałej o nazwie \"SECURE_AUTH_KEY\" znajdującej się w pliku <code>wp-config.php</code> Twojej instalacji WordPressa. To ustawienie zastąpi wartość \"secure auth\" ciasteczek bbPressa ustawioną w pierwszym etapie instalacji."
+
+#: bb-admin/includes/class.bb-install.php:777
+#: bb-admin/options-wordpress.php:81
+msgid "WordPress \"secure auth\" cookie salt"
+msgstr "Salt \"secure auth\" ciasteczek WordPressa"
+
+#: bb-admin/includes/class.bb-install.php:778
+msgid "This must match the value of the WordPress setting named \"secure_auth_salt\" in your WordPress site. Look for the option labeled \"secure_auth_salt\" in <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings. Sometimes this value is not set in WordPress, in that case you can leave this setting blank as well."
+msgstr "Ta wartość musi być taka sama jak wartość ustawienia o nazwie \"secure_auth_salt\" Twojej instalacji WordPressa - szukaj opcji podpisanej \"secure_auth_salt\" na <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">tej stronie panelu administracyjnego WordPressa</a>. Jeżeli pozostawisz to pole puste, instalator spróbuje pobrać wartość tego ustawienia, korzystając z ustawień integracji bazy danych."
+
+#: bb-admin/includes/class.bb-install.php:784
+msgid "WordPress \"logged in\" cookie key"
+msgstr "Klucz \"logged in\" ciasteczek WordPressa"
+
+#: bb-admin/includes/class.bb-install.php:785
+msgid "This value must match the value of the constant named \"LOGGED_IN_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"logged in\" cookie key set in the first step."
+msgstr "Ta wartość musi być taka sama jak wartość stałej o nazwie \"LOGGED_IN_KEY\" znajdującej się w pliku <code>wp-config.php</code> Twojej instalacji WordPressa. To ustawienie zastąpi wartość \"logged in\" ciasteczek bbPressa ustawioną w pierwszym etapie instalacji."
+
+#: bb-admin/includes/class.bb-install.php:791
+#: bb-admin/options-wordpress.php:85
+msgid "WordPress \"logged in\" cookie salt"
+msgstr "Salt \"logged in\" ciasteczek WordPressa"
+
+#: bb-admin/includes/class.bb-install.php:792
+msgid "This must match the value of the WordPress setting named \"logged_in_salt\" in your WordPress site. Look for the option labeled \"logged_in_salt\" in <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings."
+msgstr "Ta wartość musi być taka sama jak wartość ustawienia o nazwie \"logged_in_salt\" Twojej instalacji WordPressa - szukaj opcji podpisanej \"logged_in_salt\" na <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">tej stronie panelu administracyjnego WordPressa</a>. Jeżeli pozostawisz to pole puste, instalator spróbuje pobrać wartość tego ustawienia, korzystając z ustawień integracji bazy danych."
+
+#: bb-admin/includes/class.bb-install.php:798
+msgid "Add user database integration settings"
+msgstr "Dodaj ustawienia integracji z bazą użytkowników"
+
+#: bb-admin/includes/class.bb-install.php:799
+msgid "If you want to share user data with an existing WordPress site."
+msgstr "Jeżeli chcesz współdzielić dane użytkowników z istniejącą instalacją WordPressa."
+
+#: bb-admin/includes/class.bb-install.php:807
+#: bb-admin/options-wordpress.php:103
+msgid "User database table prefix"
+msgstr "Prefiks nazwy tabeli z danymi użytkowników"
+
+#: bb-admin/includes/class.bb-install.php:808
+#: bb-admin/options-wordpress.php:104
+msgid "If your bbPress and WordPress sites share the same database, then this is the same value as <code>$table_prefix</code> in your WordPress <code>wp-config.php</code> file. It is usually <strong>wp_</strong>."
+msgstr "Jeśli Twoja strona oparta na bbPressie dzieli bazę danych z instalacją WordPressa, wartość tego ustawienia jest taka sama jak wartość zmiennej <code>$table_prefix</code> znajdującej się w Twoim pliku <code>wp-config.php</code>. Zwykle jest to <strong>wp_</strong>."
+
+#: bb-admin/includes/class.bb-install.php:814
+#: bb-admin/options-wordpress.php:107
+msgid "WordPress MU primary blog ID"
+msgstr "Identyfikator glównego blogu w WordPressie MU"
+
+#: bb-admin/includes/class.bb-install.php:815
+#: bb-admin/options-wordpress.php:108
+msgid "If you are integrating with a WordPress MU site you need to specify the primary blog ID for that site. It is usually <strong>1</strong>. You should probably leave this blank if you are integrating with a standard WordPress site"
+msgstr "Jeżeli integrujesz forum ze stroną opartą na WordPressie MU, musisz określić blog, który jest głównym blogiem tej strony. Jest to zwykle blog o identyfikatorze <strong>1</strong>. To ustawienie raczej powinno zostać pozostawione bez wartości, jeżeli forum integrowane jest ze standardową instalacją WordPressa."
+
+#: bb-admin/includes/class.bb-install.php:820
+#: bb-admin/options-wordpress.php:111
+msgid "Show advanced database settings"
+msgstr "Pokaż zaawansowane ustawienia bazy danych"
+
+#: bb-admin/includes/class.bb-install.php:821
+#: bb-admin/options-wordpress.php:115
+msgid "If your bbPress and WordPress site do not share the same database, then you will need to add advanced settings."
+msgstr "Jeżeli Twoja instalacja bbPressa i WordPressa nie współdzielą jednej bazy danych, konieczne będzie dodanie zaawansowanych ustawień."
+
+#: bb-admin/includes/class.bb-install.php:828
+#: bb-admin/options-wordpress.php:124
+msgid "User database name"
+msgstr "Nazwa bazy z danymi użytkowników"
+
+#: bb-admin/includes/class.bb-install.php:829
+#: bb-admin/options-wordpress.php:125
+msgid "The name of the database in which your user tables reside."
+msgstr "Nazwa bazy danych, w której rezydują Twoje tabele z danymi użytkowników."
+
+#: bb-admin/includes/class.bb-install.php:834
+#: bb-admin/options-wordpress.php:128
+msgid "User database user"
+msgstr "Użytkownik bazy z danymi użytkowników"
+
+#: bb-admin/includes/class.bb-install.php:842
+#: bb-admin/options-wordpress.php:132
+msgid "User database password"
+msgstr "Hasło do bazy z danymi użytkowników"
+
+#: bb-admin/includes/class.bb-install.php:849
+#: bb-admin/options-wordpress.php:136
+msgid "User database host"
+msgstr "Adres serwera bazy z danymi użytkowników"
+
+#: bb-admin/includes/class.bb-install.php:850
+#: bb-admin/options-wordpress.php:137
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should be <strong>localhost</strong>."
+msgstr "Domena lub adres IP serwera, na którym znajduje się baza danych. Jeżeli baza danych znajduje się na tym samym serwerze, na którym umieszczona jest strona internetowa, tą wartością prawdopodobnie powinno być <strong>localhost</strong>."
+
+#: bb-admin/includes/class.bb-install.php:855
+#: bb-admin/options-wordpress.php:140
+msgid "User database character set"
+msgstr "Kodowanie bazy z danymi użytkowników"
+
+#: bb-admin/includes/class.bb-install.php:861
+#: bb-admin/options-wordpress.php:144
+msgid "User database character collation"
+msgstr "Kodowanie porównań w bazie z danymi użytkowników"
+
+#: bb-admin/includes/class.bb-install.php:862
+#: bb-admin/options-wordpress.php:145
+msgid "The character collation value set when the user database was created."
+msgstr "Kodowanie porównań ustawione podczas tworzenia bazy z danymi użytkowników."
+
+#: bb-admin/includes/class.bb-install.php:867
+#: bb-admin/options-wordpress.php:151
+msgid "User database \"user\" table"
+msgstr "Tabela \"user\" bazy z danymi użytkowników"
+
+#: bb-admin/includes/class.bb-install.php:868
+#: bb-admin/includes/class.bb-install.php:874
+#: bb-admin/options-wordpress.php:152
+#: bb-admin/options-wordpress.php:156
+msgid "The complete table name, including any prefix."
+msgstr "Pełna nazwa tabeli, włącznie z jej prefiksem."
+
+#: bb-admin/includes/class.bb-install.php:873
+#: bb-admin/options-wordpress.php:155
+msgid "User database \"user meta\" table"
+msgstr "Tabela \"user meta\" bazy z danymi użytkowników"
+
+#: bb-admin/includes/class.bb-install.php:884
+msgid "Go to step 3"
+msgstr "Przejdź do kroku 3"
+
+#: bb-admin/includes/class.bb-install.php:893
+msgid "Site name"
+msgstr "Nazwa strony"
+
+#: bb-admin/includes/class.bb-install.php:894
+msgid "This is what you are going to call your bbPress site."
+msgstr "Nazwa, pod jaką funkcjonowała będzie Twoja instalacja bbPressa."
+
+#: bb-admin/includes/class.bb-install.php:898
+msgid "Site address (URL)"
+msgstr "Adres URL strony"
+
+#: bb-admin/includes/class.bb-install.php:899
+msgid "We have attempted to guess this, it's usually correct, but change it here if you wish."
+msgstr "Spróbowaliśmy odgadnąć tę wartość i jest ona zwykle prawidłowa, ale, jeżeli chcesz, możesz ją tutaj zmienić."
+
+#: bb-admin/includes/class.bb-install.php:904
+msgid "\"Key Master\" Username"
+msgstr "Nazwa konta \"Klucznika\""
+
+#: bb-admin/includes/class.bb-install.php:905
+msgid "This is the user login for the initial bbPress administrator (known as a \"Key Master\")."
+msgstr "Nazwa konta pierwszego administratora tej instalacji bbPressa (nazywanego \"Klucznikiem\")."
+
+#: bb-admin/includes/class.bb-install.php:911
+msgid "\"Key Master\" Email address"
+msgstr "Adres e-mail \"Klucznika\""
+
+#: bb-admin/includes/class.bb-install.php:912
+msgid "The login details will be emailed to this address."
+msgstr "Dane wymagane do zalogowania się na konto zostaną wysłane na ten adres e-mail."
+
+#: bb-admin/includes/class.bb-install.php:921
+msgid "First forum name"
+msgstr "Nazwa pierwszego działu"
+
+#: bb-admin/includes/class.bb-install.php:922
+msgid "This can be changed after installation, so don't worry about it too much."
+msgstr "Nazwa tego działu zostać zmieniona po instalacji, więc zbytnio się nią nie przejmuj."
+
+#: bb-admin/includes/class.bb-install.php:925
+msgid "Save site settings"
+msgstr "Zapisz ustawienia strony"
+
+#: bb-admin/includes/class.bb-install.php:931
+msgid "Complete the installation"
+msgstr "Zakończ instalację"
+
+#: bb-admin/includes/class.bb-install.php:940
+msgid "Show installation messages"
+msgstr "Pokaż komunikaty instalatora"
+
+#: bb-admin/includes/class.bb-install.php:944
+msgid "Installation errors"
+msgstr "Błędy instalacji"
+
+#: bb-admin/includes/class.bb-install.php:948
+msgid "Installation log"
+msgstr "Dziennik instalacji"
+
+#: bb-admin/includes/class.bb-install.php:1249
+msgid "The table prefix can only contain letters, numbers and underscores.<br />Please review the suggestion below."
+msgstr "Prefiks nazw tabel może zawierać jedynie litery, cyfry i podkreślniki.<br />Proszę rozważyć poniższą sugestię."
+
+#: bb-admin/includes/class.bb-install.php:1250
+msgid "&bull; Based on your input the following prefix is suggested."
+msgstr "&bull; Na podstawie wprowadzonych przez Ciebie informacji, sugerowany jest poniższy prefiks."
+
+#: bb-admin/includes/class.bb-install.php:1258
+msgid "The table prefix can not be blank.<br />Please review the suggestion below."
+msgstr "Prefiks nazw tabel nie może być pusty.<br />Proszę rozważyć poniższą sugestię."
+
+#: bb-admin/includes/class.bb-install.php:1259
+msgid "&bull; The default prefix has been inserted."
+msgstr "&bull; Wstawiono domyślny prefiks."
+
+#: bb-admin/includes/class.bb-install.php:1293
+msgid "There was a problem connecting to the database you specified.<br />Please check the settings, then try again."
+msgstr "Wystąpił problem podczas próby połączenia się z podaną bazą danych.<br />Proszę sprawdzić wprowadzone ustawienia, a następnie spróbować ponownie."
+
+#: bb-admin/includes/class.bb-install.php:1326
+msgid "Your settings have been saved to the file <code>bb-config.php</code><br />You can now continue to the next step."
+msgstr "Twoje ustawienia zostały zapisane do pliku <code>bb-config.php</code><br />Możesz przejść do kolejnego etapu instalacji."
+
+#: bb-admin/includes/class.bb-install.php:1333
+msgid "Your settings could not be saved to a configuration file. You will need to save the text shown below into a file named <code>bb-config.php</code> in the root directory of your bbPress installation before you can continue."
+msgstr "Twoje ustawienia nie mogły zostać zapisane do pliku konfiguracji. Konieczne będzie zapisanie widocznego poniżej tekstu do pliku o nazwie <code>bb-config.php</code>, który musi zostać umieszczony w głównym katalogu Twojej instalacji bbPressa, aby instalacja mogła być kontynuowana."
+
+#: bb-admin/includes/class.bb-install.php:1355
+msgid "You have chosen to skip the WordPress integration step. You can always integrate WordPress later from within the admin area of bbPress."
+msgstr "Wybrano pominięcie integracji z WordPressem. Zawsze możesz zintegrować forum z WordPressem później z poziomu panelu administracyjnego bbPressa."
+
+#: bb-admin/includes/class.bb-install.php:1431
+msgid "You must enter your settings for integration setup to complete. Choose which integration settings you wish to enter from the options below."
+msgstr "Musisz wprowadzić swoje ustawienia, aby proces integracji mógł być kontynuowany. Wybierz które ustawienia integracji chcesz wprowadzić, korzystając z poniższych opcji."
+
+#: bb-admin/includes/class.bb-install.php:1449
+msgid "Your integration settings have not been processed due to errors with the items marked below."
+msgstr "Twoje ustawienia integracji nie zostały przetworzone z powodu błędów w poniżej zaznaczonych elementach."
+
+#: bb-admin/includes/class.bb-install.php:1458
+#: bb-admin/includes/class.bb-install.php:1667
+msgid "&bull; This value is required to continue."
+msgstr "&bull; Wprowadzenie tej wartości jest wymagane do kontynuowania procesu konfiguracji."
+
+#: bb-admin/includes/class.bb-install.php:1461
+#: bb-admin/includes/class.bb-install.php:1670
+msgid "&bull; This does not appear to be a valid URL."
+msgstr "&bull; Wprowadzony tekst nie wydaje się być prawidłowym adresem URL."
+
+#: bb-admin/includes/class.bb-install.php:1464
+#: bb-admin/includes/class.bb-install.php:1673
+msgid "&bull; The URL must begin with \"http\" or \"https\"."
+msgstr "&bull; Adres URL musi zaczynać się od \"http\" lub \"https\"."
+
+#: bb-admin/includes/class.bb-install.php:1467
+#: bb-admin/includes/class.bb-install.php:1676
+msgid "&bull; The URL does not contain a host name."
+msgstr "&bull; Adres URL nie zawiera nazwy serwera."
+
+#: bb-admin/includes/class.bb-install.php:1529
+#: bb-admin/includes/class.bb-install.php:1772
+#: bb-admin/includes/class.bb-install.php:2575
+#: bb-settings.php:646
+msgid "Your user table prefix may only contain letters, numbers and underscores."
+msgstr "Prefiks nazwy Twojej tabeli z danymi użytkowników może składać się jedynie z liter, cyfr i podkreślników."
+
+#: bb-admin/includes/class.bb-install.php:1566
+msgid "There was a problem connecting to the WordPress user database you specified. Please check the settings, then try again."
+msgstr "Wystąpił problem podczas próby połączenia się z podaną bazą danych użytkowników WordPressa. Proszę sprawdzić wprowadzone ustawienia, a następnie spróbować ponownie."
+
+#: bb-admin/includes/class.bb-install.php:1580
+msgid "Existing WordPress user tables could not be found in the WordPress database you specified."
+msgstr "Istniejące tabele z danymi użytkowników WordPressa nie mogły zostać odnalezione w określonej bazie danych."
+
+#: bb-admin/includes/class.bb-install.php:1582
+msgid "Existing WordPress user tables could not be found in the bbPress database you specified in step 1.<br /><br />This is probably because the database does not already contain working WordPress tables. You may need to specify advanced database settings or leave integration until after installation."
+msgstr "Istniejące tabele z danymi użytkowników WordPressa nie mogły zostać odnalezione w bazie danych określonej w pierwszym kroku instalacji.<br /><br />Zwykle przyczyną tego jest fakt, że podana baza danych nie zawiera w chwili obecnej tabel działającej instalacji WordPressa. Konieczne może być wprowadzenie zaawansowanych ustawień bazy danych lub pominięcie integracji podczas procesu instalacji."
+
+#: bb-admin/includes/class.bb-install.php:1584
+msgid "&bull; This may not be a valid user table prefix."
+msgstr "&bull; To prawdopodobnie nie jest prawidłowy prefiks nazwy tabeli z danymi użytkowników."
+
+#: bb-admin/includes/class.bb-install.php:1601
+msgid "Your WordPress integration cookie and database settings have been successfully validated. They will be saved after the next step.<br /><br />Once you have finished installing, you should visit the WordPress integration section of the bbPress admin area for further options and integration instructions, including user mapping and the correct cookie settings to add to your WordPress configuration file."
+msgstr "Twoje ustawienia integracji ciasteczek i ustawień bazy danych z WordPressem zostały pomyślnie zweryfikowane. Zostaną one zapisane w kolejnym etapie instalacji.<br /><br />Po ukończeniu instalacji zapraszamy do odwiedzenia sekcji integracji z WordPressem znajdującej się w panelu administracyjnym bbPressa, gdzie umieszczone są dodatkowe opcje i instrukcje dot. integracji, włącznie z mapowaniem użytkowników i prawidłowymi ustawieniami ciasteczek, które należy dodać do konfiguracji Twojej instalacji WordPressa."
+
+#: bb-admin/includes/class.bb-install.php:1658
+msgid "Your site settings have not been processed due to errors with the items marked below."
+msgstr "Ustawienia Twojej strony nie zostały przetworzone z powodu błędów w poniżej zaznaczonych elementach."
+
+#: bb-admin/includes/class.bb-install.php:1679
+msgid "&bull; Contains disallowed characters which have been removed."
+msgstr "&bull; Wprowadzona wartość zawierała niedozwolone znaki. Zostały one usunięte."
+
+#: bb-admin/includes/class.bb-install.php:1682
+msgid "&bull; The user email address appears to be invalid."
+msgstr "&bull; Adres e-mail użytkownika wydaje się być nieprawidlowy."
+
+#: bb-admin/includes/class.bb-install.php:1701
+msgid "Your site settings have been saved and we are now ready to complete the installation. So what are you waiting for?"
+msgstr "Ustawienia Twojej strony zostały zapisane i możemy teraz ukończyć proces instalacji. Na co jeszcze czekasz?"
+
+#: bb-admin/includes/class.bb-install.php:1727
+msgid "Referrer is OK, beginning installation&hellip;"
+msgstr "Odsyłacz jest prawidłowy, rozpoczynanie instalacji&hellip;"
+
+#: bb-admin/includes/class.bb-install.php:1734
+msgid "Setting up custom user table constants"
+msgstr "Ustawianie własnych stałych tabeli z danymi użytkowników"
+
+#: bb-admin/includes/class.bb-install.php:1777
+msgid "Step 1 - Creating database tables"
+msgstr "Krok 1 - Tworzenie tabel w bazie danych"
+
+#: bb-admin/includes/class.bb-install.php:1795
+#: bb-admin/includes/class.bb-install.php:1797
+msgid "Database installation failed!!!"
+msgstr "Instalacja bazy danych nie powiodła się!!!"
+
+#: bb-admin/includes/class.bb-install.php:1796
+#: bb-admin/includes/class.bb-install.php:2006
+#: bb-admin/includes/class.bb-install.php:2039
+#: bb-admin/includes/class.bb-install.php:2065
+msgid "Halting installation!"
+msgstr "Zatrzymywanie instalacji!"
+
+#: bb-admin/includes/class.bb-install.php:1800
+#: bb-admin/includes/class.bb-install.php:2008
+#: bb-admin/includes/class.bb-install.php:2042
+#: bb-admin/includes/class.bb-install.php:2068
+msgid "Installation failed!"
+msgstr "Instalacja nie powiodła się!"
+
+#: bb-admin/includes/class.bb-install.php:1801
+msgid "The database failed to install. You may need to replace bbPress with a fresh copy and start again."
+msgstr "Nie udało się zainstalować bazy danych. Prawdopodobnie musisz zastąpić znajdujące się na serwerze pliki bbPressa nowymi i spróbować ponownie."
+
+#: bb-admin/includes/class.bb-install.php:1809
+msgid "Database is already installed!!!"
+msgstr "Baza danych jest już zainstalowana!!!"
+
+#: bb-admin/includes/class.bb-install.php:1814
+msgid "Step 2 - WordPress integration (optional)"
+msgstr "Krok 2 - Integracja z WordPressem (opcjonalna)"
+
+#: bb-admin/includes/class.bb-install.php:1818
+msgid "WordPress address (URL):"
+msgstr "Adres URL WordPressa:"
+
+#: bb-admin/includes/class.bb-install.php:1821
+msgid "Blog address (URL):"
+msgstr "Adres URL blogu:"
+
+#: bb-admin/includes/class.bb-install.php:1835
+msgid "WordPress cookie keys set."
+msgstr "Klucze ciasteczek WordPressa zostały ustawione."
+
+#: bb-admin/includes/class.bb-install.php:1838
+#: bb-admin/includes/class.bb-install.php:1841
+msgid "WordPress cookie keys not set."
+msgstr "Klucze ciasteczek WordPressa nie zostały ustawione."
+
+#: bb-admin/includes/class.bb-install.php:1839
+msgid "Your \"bb-config.php\" file was not writable."
+msgstr "Brak uprawnień do zapisu do Twojego pliku \"bb-config.php\"."
+
+#: bb-admin/includes/class.bb-install.php:1840
+msgid "You will need to manually re-define \"BB_AUTH_KEY\", \"BB_SECURE_AUTH_KEY\" and \"BB_LOGGED_IN_KEY\" in your \"bb-config.php\" file."
+msgstr "Musisz ponownie zdefiniować wartości \"BB_AUTH_KEY\", \"BB_SECURE_AUTH_KEY\" i \"BB_LOGGED_IN_KEY\" ręcznie w Twoim pliku \"bb-config.php\"."
+
+#: bb-admin/includes/class.bb-install.php:1847
+msgid "WordPress \"auth\" cookie salt set from input."
+msgstr "Salt ciasteczek \"auth\" WordPressa został ustawiony zgodnie z wprowadzoną wartością."
+
+#: bb-admin/includes/class.bb-install.php:1852
+msgid "WordPress \"secure auth\" cookie salt set from input."
+msgstr "Salt ciasteczek \"secure auth\" WordPressa został ustawiony zgodnie z wprowadzoną wartością."
+
+#: bb-admin/includes/class.bb-install.php:1857
+msgid "WordPress \"logged in\" cookie salt set from input."
+msgstr "Salt ciasteczek \"logged in\" WordPressa został ustawiony zgodnie z wprowadzoną wartością."
+
+#: bb-admin/includes/class.bb-install.php:1867
+msgid "Fetching missing WordPress cookie salts."
+msgstr "Pobieranie brakujących saltów ciasteczek WordPressa."
+
+#: bb-admin/includes/class.bb-install.php:1888
+msgid "WordPress \"auth\" cookie salt set."
+msgstr "Salt ciasteczek \"auth\" WordPressa został ustawiony."
+
+#: bb-admin/includes/class.bb-install.php:1890
+#: bb-admin/includes/class.bb-install.php:1893
+msgid "WordPress \"auth\" cookie salt not set."
+msgstr "Salt ciasteczek \"auth\" WordPressa nie został ustawiony."
+
+#: bb-admin/includes/class.bb-install.php:1891
+msgid "Could not fetch \"auth\" cookie salt from the WordPress options table."
+msgstr "Nie można było pobrać salta \"auth\" ciasteczek z tabeli opcji WordPressa."
+
+#: bb-admin/includes/class.bb-install.php:1892
+msgid "You will need to manually define the \"auth\" cookie salt in your database."
+msgstr "Konieczne będzie ręczne ustawienie salta \"auth\" ciasteczek w bazie danych."
+
+#: bb-admin/includes/class.bb-install.php:1901
+msgid "WordPress \"secure auth\" cookie salt set."
+msgstr "Salt ciasteczek \"secure auth\" WordPressa został ustawiony."
+
+#: bb-admin/includes/class.bb-install.php:1904
+msgid "WordPress \"secure auth\" cookie salt not set."
+msgstr "Salt ciasteczek \"secure auth\" WordPressa nie został ustawiony."
+
+#: bb-admin/includes/class.bb-install.php:1912
+msgid "WordPress \"logged in\" cookie salt set."
+msgstr "Salt ciasteczek \"logged in\" WordPressa został ustawiony."
+
+#: bb-admin/includes/class.bb-install.php:1914
+#: bb-admin/includes/class.bb-install.php:1917
+msgid "WordPress \"logged in\" cookie salt not set."
+msgstr "Salt ciasteczek \"logged in\" WordPressa nie został ustawiony."
+
+#: bb-admin/includes/class.bb-install.php:1915
+msgid "Could not fetch \"logged in\" cookie salt from the WordPress options table."
+msgstr "Nie można było pobrać salta \"logged in\" ciasteczek z tabeli opcji WordPressa."
+
+#: bb-admin/includes/class.bb-install.php:1916
+msgid "You will need to manually define the \"logged in\" cookie salt in your database."
+msgstr "Konieczne będzie ręczne ustawienie salta \"logged in\" ciasteczek w bazie danych."
+
+#: bb-admin/includes/class.bb-install.php:1924
+msgid "User database table prefix:"
+msgstr "Prefiks nazwy tabeli z danymi użytkowników:"
+
+#: bb-admin/includes/class.bb-install.php:1929
+msgid "WordPress MU primary blog ID:"
+msgstr "Identyfikator głównego blogu instalacji WordPress MU:"
+
+#: bb-admin/includes/class.bb-install.php:1935
+msgid "User database name:"
+msgstr "Nazwa bazy z danymi użytkowników:"
+
+#: bb-admin/includes/class.bb-install.php:1939
+msgid "User database user:"
+msgstr "Nazwa użytkownika bazy z danymi użytkowników:"
+
+#: bb-admin/includes/class.bb-install.php:1943
+msgid "User database password:"
+msgstr "Hasło do bazy z danymi użytkowników:"
+
+#: bb-admin/includes/class.bb-install.php:1947
+msgid "User database host:"
+msgstr "Adres serwera bazy z danymi użytkowników:"
+
+#: bb-admin/includes/class.bb-install.php:1951
+msgid "User database character set:"
+msgstr "Kodowanie bazy z danymi użytkowników:"
+
+#: bb-admin/includes/class.bb-install.php:1955
+msgid "User database collation:"
+msgstr "Kodowanie porównań w bazie z danymi użytkowników:"
+
+#: bb-admin/includes/class.bb-install.php:1959
+msgid "User database \"user\" table:"
+msgstr "Tabela \"user\" bazy z danymi użytkowników:"
+
+#: bb-admin/includes/class.bb-install.php:1963
+msgid "User database \"user meta\" table:"
+msgstr "Tabela \"user meta\" bazy z danymi użytkowników:"
+
+#: bb-admin/includes/class.bb-install.php:1968
+msgid "Integration not enabled"
+msgstr "Integracja nie została włączona"
+
+#: bb-admin/includes/class.bb-install.php:1973
+msgid "Step 3 - Site settings"
+msgstr "Krok 3 - Ustawienia strony"
+
+#: bb-admin/includes/class.bb-install.php:1975
+msgid "Site name:"
+msgstr "Nazwa strony:"
+
+#: bb-admin/includes/class.bb-install.php:1977
+msgid "Site address (URL):"
+msgstr "Adres URL strony:"
+
+#: bb-admin/includes/class.bb-install.php:1979
+msgid "From email address:"
+msgstr "Z adresu e-mail:"
+
+#: bb-admin/includes/class.bb-install.php:1990
+#: bb-admin/includes/class.bb-install.php:1992
+#: bb-admin/includes/class.bb-install.php:2038
+#: bb-admin/includes/class.bb-install.php:2040
+#: bb-admin/includes/class.bb-install.php:2066
+msgid "Key master could not be created!"
+msgstr "Konto klucznika nie mogło zostać utworzone!"
+
+#: bb-admin/includes/class.bb-install.php:1991
+msgid "That login is already taken!"
+msgstr "Ta nazwa użytkownika została już zajęta!"
+
+#: bb-admin/includes/class.bb-install.php:1997
+msgid "Existing key master entered!"
+msgstr "Wprowadzono dane istniejącego klucznika!"
+
+#: bb-admin/includes/class.bb-install.php:1998
+msgid "Your bbPress password"
+msgstr "Twoje hasło do bbPressa"
+
+#: bb-admin/includes/class.bb-install.php:2001
+msgid "Re-setting admin email address."
+msgstr "Ponowne ustawianie adresu e-mail administratora."
+
+#: bb-admin/includes/class.bb-install.php:2005
+msgid "Existing user without key master role entered!"
+msgstr "Wprowadzono dane istniejącego użytkownika nie posiadającego uprawnień klucznika!"
+
+#: bb-admin/includes/class.bb-install.php:2009
+msgid "The key master could not be created. An existing user was found with that user login."
+msgstr "Konto klucznika nie mogło zostać utworzone. Znalezione zostało istniejące konto o wprowadzonej nazwie użytkownika."
+
+#: bb-admin/includes/class.bb-install.php:2032
+msgid "Key master created"
+msgstr "Konto klucznika zostało utworzone"
+
+#: bb-admin/includes/class.bb-install.php:2033
+#: bb-admin/includes/class.bb-install.php:2059
+#: bb-admin/install.php:359
+msgid "Username:"
+msgstr "Nazwa użytkownika:"
+
+#: bb-admin/includes/class.bb-install.php:2034
+#: bb-admin/includes/class.bb-install.php:2060
+msgid "Email address:"
+msgstr "Adres e-mail:"
+
+#: bb-admin/includes/class.bb-install.php:2035
+#: bb-admin/includes/class.bb-install.php:2061
+#: bb-admin/install.php:361
+msgid "Password:"
+msgstr "Hasło:"
+
+#: bb-admin/includes/class.bb-install.php:2043
+msgid "The key master could not be created. You may need to replace bbPress with a fresh copy and start again."
+msgstr "Konto klucznika nie mogło zostać utworzone. Prawdopodobnie musisz zastąpić znajdujące się na serwerze pliki bbPressa nowymi i zacząć od początku."
+
+#: bb-admin/includes/class.bb-install.php:2057
+msgid "Your existing password"
+msgstr "Twoje obecne hasło"
+
+#: bb-admin/includes/class.bb-install.php:2058
+msgid "Key master role assigned to existing user"
+msgstr "Rola klucznika została przypisana istniejącemu użytkownikowi"
+
+#: bb-admin/includes/class.bb-install.php:2064
+msgid "Key master role could not be assigned to existing user!"
+msgstr "Rola klucznika nie mogła zostać przypisana istniejącemu użytkownikowi!"
+
+#: bb-admin/includes/class.bb-install.php:2069
+msgid "The key master could not be assigned. You may need to replace bbPress with a fresh copy and start again."
+msgstr "Rola klucznika nie mogła zostać przypisana. Prawdopodobnie musisz zastąpić znajdujące się na serwerze pliki bbPressa nowymi i zacząć od początku."
+
+#: bb-admin/includes/class.bb-install.php:2088
+msgid "Just another bbPress community"
+msgstr "Kolejna społeczność oparta na bbPressie"
+
+#: bb-admin/includes/class.bb-install.php:2097
+msgid "Description:"
+msgstr "Opis:"
+
+#: bb-admin/includes/class.bb-install.php:2100
+msgid "Forum name:"
+msgstr "Nazwa działu:"
+
+#: bb-admin/includes/class.bb-install.php:2108
+msgid "Your first topic"
+msgstr "Twój pierwszy temat"
+
+#: bb-admin/includes/class.bb-install.php:2116
+msgid "First Post!  w00t."
+msgstr "Pierwszy wpis!  Kosmos."
+
+#: bb-admin/includes/class.bb-install.php:2130
+#: bb-templates/kakumei/edit-form.php:4
+msgid "Topic:"
+msgstr "Temat:"
+
+#: bb-admin/includes/class.bb-install.php:2131
+#: bb-templates/kakumei/edit-form.php:10
+msgid "Post:"
+msgstr "Wpis:"
+
+#: bb-admin/includes/class.bb-install.php:2133
+#: bb-admin/includes/class.bb-install.php:2134
+msgid "Forum could not be created!"
+msgstr "Dział nie mógł zostać utworzony!"
+
+#: bb-admin/includes/class.bb-install.php:2137
+msgid "There are existing forums in this database."
+msgstr "W bazie danych znajdują się już działy."
+
+#: bb-admin/includes/class.bb-install.php:2138
+msgid "No new forum created."
+msgstr "Nie utworzono żadnego nowego działu."
+
+#: bb-admin/includes/class.bb-install.php:2139
+msgid "Forums already exist!"
+msgstr "Działy już istnieją!"
+
+#: bb-admin/includes/class.bb-install.php:2145
+#, php-format
+msgid "Making plugin directory at %s."
+msgstr "Tworzenie katalogu wtyczek w %s."
+
+#: bb-admin/includes/class.bb-install.php:2152
+#, php-format
+msgid "Making theme directory at %s."
+msgstr "Tworzenie katalogu motywów w %s."
+
+#: bb-admin/includes/class.bb-install.php:2158
+#, php-format
+msgid ""
+"Your new bbPress site has been successfully set up at:\n"
+"\n"
+"%1$s\n"
+"\n"
+"You can log in to the key master account with the following information:\n"
+"\n"
+"Username: %2$s\n"
+"Password: %3$s\n"
+"\n"
+"We hope you enjoy your new forums. Thanks!\n"
+"\n"
+"--The bbPress Team\n"
+"http://bbpress.org/"
+msgstr ""
+"Twoja nowa strona oparta na bbPressie została pomyślnie utworzona pod adresem:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Możesz teraz zalogować się na konto klucznika, korzystając z poniższych danych:\n"
+"\n"
+"Nazwa użytkownika: %2$s\n"
+"Hasło: %3$s\n"
+"\n"
+"Mamy nadzieję, że podoba Ci się Twoje nowe forum. Dzięki!\n"
+"\n"
+"--Załoga bbPressa\n"
+"http://bbpress.org/"
+
+#: bb-admin/includes/class.bb-install.php:2164
+msgid "New bbPress installation"
+msgstr "Nowa instalacja bbPressa"
+
+#: bb-admin/includes/class.bb-install.php:2165
+msgid "Key master email sent"
+msgstr "E-mail do klucznika został wysłany"
+
+#: bb-admin/includes/class.bb-install.php:2167
+#: bb-admin/includes/class.bb-install.php:2168
+msgid "Key master email not sent!"
+msgstr "E-mail do klucznika nie został wysłany!"
+
+#: bb-admin/includes/class.bb-install.php:2173
+msgid "Installation completed with some errors!"
+msgstr "Instalacja została ukończona z paroma błędami!"
+
+#: bb-admin/includes/class.bb-install.php:2174
+msgid "Your installation completed with some minor errors. See the error log below for more specific information."
+msgstr "Twoja instalacja została ukończona z paroma pomniejszymi błędami. Zobacz poniższy dziennik instalacji, aby uzyskać bardziej konkretne informacje."
+
+#: bb-admin/includes/class.bb-install.php:2175
+msgid "There were some errors encountered during installation!"
+msgstr "Podczas instalacji napotkano parę błędów!"
+
+#: bb-admin/includes/class.bb-install.php:2177
+msgid "Your installation completed successfully."
+msgstr "Instalacja została ukończona pomyślnie."
+
+#: bb-admin/includes/class.bb-install.php:2619
+msgid "Please select an existing bbPress Keymaster or WordPress administrator."
+msgstr "Proszę wybrać istniejącego klucznika bbPressa lub administratora WordPressa."
+
+#: bb-admin/includes/defaults.bb-schema.php:8
+msgid "Database class not loaded."
+msgstr "Klasa bazy danych nie została wczytana."
+
+#: bb-admin/includes/functions.bb-admin.php:55
+#: bb-admin/includes/functions.bb-admin.php:56
+#: bb-admin/index.php:38
+msgid "Dashboard"
+msgstr "Kokpit"
+
+#: bb-admin/includes/functions.bb-admin.php:67
+#: bb-admin/includes/functions.bb-admin.php:68
+#: bb-admin/topics.php:41
+#: bb-templates/kakumei/forum.php:46
+#: bb-templates/kakumei/front-page.php:53
+msgid "Topics"
+msgstr "Tematy"
+
+#: bb-admin/includes/functions.bb-admin.php:69
+#: bb-admin/includes/functions.bb-admin.php:70
+#: bb-admin/posts.php:47
+#: bb-admin/topics.php:103
+#: bb-admin/topics.php:112
+#: bb-templates/kakumei/favorites.php:17
+#: bb-templates/kakumei/forum.php:10
+#: bb-templates/kakumei/forum.php:47
+#: bb-templates/kakumei/front-page.php:18
+#: bb-templates/kakumei/front-page.php:54
+#: bb-templates/kakumei/stats.php:8
+#: bb-templates/kakumei/tag-single.php:12
+#: bb-templates/kakumei/view.php:10
+msgid "Posts"
+msgstr "Wpisy"
+
+#: bb-admin/includes/functions.bb-admin.php:79
+msgid "Appearance"
+msgstr "Wygląd"
+
+#: bb-admin/includes/functions.bb-admin.php:80
+msgid "Themes"
+msgstr "Motywy"
+
+#: bb-admin/includes/functions.bb-admin.php:81
+msgid "Plugins"
+msgstr "Wtyczki"
+
+#: bb-admin/includes/functions.bb-admin.php:82
+msgid "Installed"
+msgstr "Zainstalowane"
+
+#: bb-admin/includes/functions.bb-admin.php:83
+#: bb-admin/includes/functions.bb-admin.php:84
+#: bb-admin/includes/functions.bb-admin.php:572
+msgid "Users"
+msgstr "Użytkownicy"
+
+#: bb-admin/includes/functions.bb-admin.php:85
+#: bb-admin/tools-recount.php:173
+msgid "Tools"
+msgstr "Narzędzia"
+
+#: bb-admin/includes/functions.bb-admin.php:86
+#: bb-admin/tools-recount.php:178
+msgid "Re-count"
+msgstr "Ponowne zliczanie"
+
+#: bb-admin/includes/functions.bb-admin.php:87
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: bb-admin/includes/functions.bb-admin.php:88
+msgid "General"
+msgstr "Ogólne"
+
+#: bb-admin/includes/functions.bb-admin.php:90
+msgid "Writing"
+msgstr "Pisanie"
+
+#: bb-admin/includes/functions.bb-admin.php:91
+msgid "Reading"
+msgstr "Czytanie"
+
+#: bb-admin/includes/functions.bb-admin.php:92
+msgid "Discussion"
+msgstr "Dyskusja"
+
+#: bb-admin/includes/functions.bb-admin.php:93
+msgid "Permalinks"
+msgstr "Bezpośrednie odnośniki"
+
+#: bb-admin/includes/functions.bb-admin.php:94
+msgid "WordPress Integration"
+msgstr "Integracja z WordPressem"
+
+#: bb-admin/includes/functions.bb-admin.php:220
+#: bb-admin/options-wordpress.php:249
+#: bb-includes/functions.bb-core.php:1082
+msgid "bbPress"
+msgstr "bbPress"
+
+#: bb-admin/includes/functions.bb-admin.php:399
+#: bb-admin/includes/functions.bb-admin.php:865
+#: bb-admin/includes/functions.bb-admin.php:1085
+#: bb-admin/topics.php:125
+msgid "View"
+msgstr "Zobacz"
+
+#: bb-admin/includes/functions.bb-admin.php:401
+#: bb-admin/includes/functions.bb-admin.php:867
+#: bb-includes/functions.bb-core.php:811
+#: bb-includes/functions.bb-template.php:1930
+msgid "Edit"
+msgstr "Edytuj"
+
+#: bb-admin/includes/functions.bb-admin.php:414
+#: bb-admin/includes/functions.bb-admin.php:1119
+#: bb-admin/topics.php:144
+#: bb-admin/topics.php:153
+#, php-format
+msgid "%s ago"
+msgstr "%s temu"
+
+#: bb-admin/includes/functions.bb-admin.php:424
+msgid "Inactive (no role)"
+msgstr "Nieaktywny (brak roli)"
+
+#: bb-admin/includes/functions.bb-admin.php:436
+msgid "None"
+msgstr "- Brak -"
+
+#: bb-admin/includes/functions.bb-admin.php:504
+#: bb-admin/includes/functions.bb-admin.php:686
+msgid "<strong>No matching users were found!</strong>"
+msgstr "<strong>Nie znaleziono żadnych użytkowników pasujących do zapytania!</strong>"
+
+#: bb-admin/includes/functions.bb-admin.php:517
+#: bb-admin/posts.php:83
+#: bb-admin/topics.php:70
+#, php-format
+msgid "%1$s to %2$s of %3$s"
+msgstr "%1$s do %2$s z %3$s"
+
+#: bb-admin/includes/functions.bb-admin.php:555
+#, php-format
+msgid "Users Matching \"%s\" by Role"
+msgstr "Użytkownicy spełniający kryterium \"%s\" wg ról"
+
+#: bb-admin/includes/functions.bb-admin.php:565
+#: bb-admin/posts.php:54
+#: bb-admin/topics.php:48
+#, php-format
+msgid "containing &#8220;%s&#8221;"
+msgstr "zawierających &#8220;%s&#8221;"
+
+#: bb-admin/includes/functions.bb-admin.php:566
+#, php-format
+msgid "with role &#8220;%s&#8221;"
+msgstr "o roli &#8220;%s&#8221;"
+
+#: bb-admin/includes/functions.bb-admin.php:569
+#, php-format
+msgid "%1$s%2$s"
+msgstr "%1$s%2$s"
+
+#: bb-admin/includes/functions.bb-admin.php:581
+#: bb-includes/class.bb-query.php:936
+msgid "Search term"
+msgstr "Kryterium"
+
+#: bb-admin/includes/functions.bb-admin.php:585
+#: bb-admin/includes/functions.bb-admin.php:634
+#: bb-admin/includes/functions.bb-admin.php:648
+msgid "Role"
+msgstr "Rola"
+
+#: bb-admin/includes/functions.bb-admin.php:605
+#: bb-includes/class.bb-query.php:1017
+#: bb-templates/kakumei/rss2.php:18
+#: bb-templates/kakumei/search.php:3
+msgid "Search"
+msgstr "Wyszukiwanie"
+
+#: bb-admin/includes/functions.bb-admin.php:606
+#: bb-admin/posts.php:77
+#: bb-admin/topics.php:64
+msgid "Filter"
+msgstr "Przefiltruj"
+
+#: bb-admin/includes/functions.bb-admin.php:626
+#: bb-admin/includes/functions.bb-admin.php:630
+#: bb-admin/includes/functions.bb-admin.php:640
+#: bb-admin/includes/functions.bb-admin.php:644
+#: bb-templates/kakumei/login-form.php:14
+#: bb-templates/kakumei/login.php:17
+#: bb-templates/kakumei/login.php:59
+#: bb-templates/kakumei/register.php:25
+msgid "Username"
+msgstr "Nazwa użytkownika"
+
+#: bb-admin/includes/functions.bb-admin.php:627
+#: bb-admin/includes/functions.bb-admin.php:631
+#: bb-admin/includes/functions.bb-admin.php:641
+#: bb-admin/includes/functions.bb-admin.php:645
+#: bb-admin/includes/functions.bb-admin.php:907
+msgid "Name"
+msgstr "Nazwa"
+
+#: bb-admin/includes/functions.bb-admin.php:628
+#: bb-admin/includes/functions.bb-admin.php:642
+msgid "E-mail"
+msgstr "E-mail"
+
+#: bb-admin/includes/functions.bb-admin.php:633
+#: bb-admin/includes/functions.bb-admin.php:647
+msgid "Registered"
+msgstr "Zarejestrowany"
+
+#: bb-admin/includes/functions.bb-admin.php:869
+#: bb-admin/topics.php:128
+#: bb-includes/functions.bb-template.php:1987
+msgid "Delete"
+msgstr "Usuń"
+
+#: bb-admin/includes/functions.bb-admin.php:896
+msgid "Edit Forum"
+msgstr "Edytuj dział"
+
+#: bb-admin/includes/functions.bb-admin.php:897
+#: bb-admin/options-discussion.php:123
+#: bb-admin/options-general.php:236
+#: bb-admin/options-permalinks.php:164
+#: bb-admin/options-reading.php:61
+#: bb-admin/options-wordpress.php:183
+#: bb-admin/options-wordpress.php:303
+#: bb-admin/options-writing.php:78
+#: bb-plugins/akismet.php:95
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: bb-admin/includes/functions.bb-admin.php:900
+#: bb-admin/includes/functions.bb-admin.php:901
+msgid "Add Forum"
+msgstr "Dodaj dział"
+
+#: bb-admin/includes/functions.bb-admin.php:911
+msgid "Slug"
+msgstr "Upr. naz."
+
+#: bb-admin/includes/functions.bb-admin.php:915
+#: bb-admin/plugins.php:186
+#: bb-admin/plugins.php:192
+msgid "Description"
+msgstr "Opis"
+
+#: bb-admin/includes/functions.bb-admin.php:920
+msgid "Parent"
+msgstr "Rodzic"
+
+#: bb-admin/includes/functions.bb-admin.php:932
+msgid "Position"
+msgstr "Położenie"
+
+#: bb-admin/includes/functions.bb-admin.php:937
+msgid "Category"
+msgstr "Kategoria"
+
+#: bb-admin/includes/functions.bb-admin.php:941
+msgid "Make this forum a category"
+msgstr "Uczyń ten dział kategorią"
+
+#: bb-admin/includes/functions.bb-admin.php:945
+msgid "Categories are forums where new topics cannot be created. Categories usually contain a group of sub-forums."
+msgstr "Kategorie są działami, w których nie mogą być tworzone nowe tematy. Zwykle zawierają one kilka poddziałów."
+
+#: bb-admin/includes/functions.bb-admin.php:1055
+#: xmlrpc.php:1700
+#: xmlrpc.php:2299
+msgid "No posts found."
+msgstr "Nie znaleziono żadnych wpisów."
+
+#: bb-admin/includes/functions.bb-admin.php:1062
+#: bb-admin/includes/functions.bb-admin.php:1070
+#: bb-templates/kakumei/post-form.php:9
+msgid "Post"
+msgstr "Wpis"
+
+#: bb-admin/includes/functions.bb-admin.php:1063
+#: bb-admin/includes/functions.bb-admin.php:1071
+#: bb-admin/topics.php:102
+#: bb-admin/topics.php:111
+msgid "Author"
+msgstr "Autor"
+
+#: bb-admin/includes/functions.bb-admin.php:1064
+#: bb-admin/includes/functions.bb-admin.php:1072
+#: bb-admin/topics.php:101
+#: bb-admin/topics.php:110
+#: bb-templates/kakumei/favorites.php:16
+#: bb-templates/kakumei/forum.php:9
+#: bb-templates/kakumei/front-page.php:17
+#: bb-templates/kakumei/tag-single.php:11
+#: bb-templates/kakumei/view.php:9
+msgid "Topic"
+msgstr "Temat"
+
+#: bb-admin/includes/functions.bb-admin.php:1065
+#: bb-admin/includes/functions.bb-admin.php:1073
+#: bb-admin/topics.php:104
+#: bb-admin/topics.php:113
+msgid "Date"
+msgstr "Data"
+
+#: bb-admin/includes/functions.bb-admin.php:1139
+msgid "Count posts of every topic"
+msgstr "Zlicz wpisy w każdym z tematów"
+
+#: bb-admin/includes/functions.bb-admin.php:1140
+msgid "Count voices of every topic"
+msgstr "Zlicz głosy w każdym z tematów"
+
+#: bb-admin/includes/functions.bb-admin.php:1141
+msgid "Count deleted posts on every topic"
+msgstr "Zlicz usunięte wpisy w każdym z tematów"
+
+#: bb-admin/includes/functions.bb-admin.php:1142
+msgid "Count topics and posts in every forum"
+msgstr "Zlicz tematy i wpisy w każdym z działów"
+
+#: bb-admin/includes/functions.bb-admin.php:1143
+msgid "Count topics to which each user has replied"
+msgstr "Zlicz użytkownikom tematy, na które odpowiedzieli"
+
+#: bb-admin/includes/functions.bb-admin.php:1144
+msgid "Count tags for every topic"
+msgstr "Zlicz tematom przypisane tagi"
+
+#: bb-admin/includes/functions.bb-admin.php:1145
+msgid "Count topics for every tag"
+msgstr "Zlicz tagom przypisane tematy"
+
+#: bb-admin/includes/functions.bb-admin.php:1146
+msgid "Delete tags with no topics"
+msgstr "Usuń tagi, które nie są przypisane do żadnego z tematów"
+
+#: bb-admin/includes/functions.bb-admin.php:1147
+msgid "Remove deleted topics from users' favorites"
+msgstr "Wyczyść ulubione użytkowników z usuniętych tematów"
+
+#: bb-admin/includes/functions.bb-admin.php:1217
+#: bb-admin/includes/functions.bb-plugin.php:307
+msgid "Visit author homepage"
+msgstr "Odwiedź stronę domową autora"
+
+#: bb-admin/includes/functions.bb-admin.php:1227
+msgid "Visit porter homepage"
+msgstr "Odwiedź stronę domową portera"
+
+#: bb-admin/includes/functions.bb-plugin.php:304
+#: bb-admin/plugins.php:228
+msgid "Visit plugin site"
+msgstr "Odwiedź stronę wtyczki"
+
+#: bb-admin/includes/functions.bb-plugin.php:430
+msgid "Invalid plugin path."
+msgstr "Nieprawidłowa ścieżka do wtyczki."
+
+#: bb-admin/includes/functions.bb-plugin.php:434
+msgid "Plugin file does not exist."
+msgstr "Plik wtyczki nie istnieje."
+
+#: bb-admin/includes/functions.bb-plugin.php:437
+msgid "That type of plugin is not available in the specified location."
+msgstr "Ten rodzaj wtyczki nie jest dostępny pod podanym położeniem."
+
+#: bb-admin/index.php:6
+#, php-format
+msgid "<span>%d</span> forum"
+msgid_plural "<span>%d</span> forums"
+msgstr[0] "<span>%d</span> dział"
+msgstr[1] "<span>%d</span> działy"
+msgstr[2] "<span>%d</span> działów"
+
+#: bb-admin/index.php:9
+#: bb-admin/index.php:21
+#, php-format
+msgid "<span>%d</span> topic"
+msgid_plural "<span>%d</span> topics"
+msgstr[0] "<span>%d</span> temat"
+msgstr[1] "<span>%d</span> tematy"
+msgstr[2] "<span>%d</span> tematów"
+
+#: bb-admin/index.php:12
+#: bb-admin/index.php:24
+#, php-format
+msgid "<span>%d</span> post"
+msgid_plural "<span>%d</span> posts"
+msgstr[0] "<span>%d</span> wpis"
+msgstr[1] "<span>%d</span> wpisy"
+msgstr[2] "<span>%d</span> wpisów"
+
+#: bb-admin/index.php:15
+#: bb-admin/index.php:27
+#, php-format
+msgid "<span>%d</span> user"
+msgid_plural "<span>%d</span> users"
+msgstr[0] "<span>%d</span> użytkownik"
+msgstr[1] "<span>%d</span> użytkowników"
+msgstr[2] "<span>%d</span> użytkowników"
+
+#: bb-admin/index.php:18
+#: bb-admin/index.php:30
+#, php-format
+msgid "<span>%d</span> tag"
+msgid_plural "<span>%d</span> tags"
+msgstr[0] "<span>%d</span> tag"
+msgstr[1] "<span>%d</span> tagi"
+msgstr[2] "<span>%d</span> tagów"
+
+#: bb-admin/index.php:42
+msgid "Right Now"
+msgstr "Szybki dostęp"
+
+#: bb-admin/index.php:47
+msgid "Totals"
+msgstr "W sumie"
+
+#: bb-admin/index.php:48
+msgid "Per Day"
+msgstr "Dziennie"
+
+#: bb-admin/index.php:77
+msgid "Change Theme"
+msgstr "Zmień motyw"
+
+#: bb-admin/index.php:77
+#, php-format
+msgid "Theme <a href=\"%1$s\">%2$s</a>"
+msgstr "Motyw <a href=\"%1$s\">%2$s</a>"
+
+#: bb-admin/index.php:78
+#, php-format
+msgid "You are using <span class=\"b\">bbPress %s</span>"
+msgstr "Używasz <span class=\"b\">bbPressa %s</span>"
+
+#: bb-admin/index.php:83
+msgid "Recently Moderated Items"
+msgstr "Ostatnio moderowane elementy"
+
+#: bb-admin/index.php:91
+#, php-format
+msgid "<a href=\"%1$s\">Post</a> on <a href=\"%2$s\">%3$s</a> by <a href=\"%4$s\">%5$s</a>"
+msgstr "<a href=\"%1$s\">Wpis</a> na <a href=\"%2$s\">%3$s</a>, którego autorem jest <a href=\"%4$s\">%5$s</a>"
+
+#: bb-admin/index.php:104
+#, php-format
+msgid "Topic titled <a href=\"%1$s\">%2$s</a> started by <a href=\"%3$s\">%4$s</a>"
+msgstr "Temat zatytułowany <a href=\"%1$s\">%2$s</a>, którego autorem jest <a href=\"%3$s\">%4$s</a>"
+
+#: bb-admin/index.php:116
+msgid "No moderated posts or topics&#8230; you must have very well behaved members."
+msgstr "Brak moderowanych wpisów i tematów&#8230; musisz mieć bardzo dobrze wychowanych użytkowników."
+
+#: bb-admin/install.php:167
+#: bb-admin/options-wordpress.php:197
+msgid "Cookies"
+msgstr "Ciasteczka"
+
+#: bb-admin/install.php:168
+msgid "Integrating cookies allows you and your users to login to either your bbPress or your WordPress site and be automatically logged into both."
+msgstr "Integracja ciasteczek sprawia, że zalogowanie się tylko do bbPressa lub WordPressa powoduje zalogowanie się na obu stronach."
+
+#: bb-admin/install.php:169
+msgid "You may need to make changes to your WordPress configuration once installation is complete. See the \"WordPress Integration\" section of the bbPress administration area when you are done."
+msgstr "Możliwe, że konieczna będzie zmiana konfiguracji WordPressa po zakończeniu instalacji. Odwiedź sekcję \"Integracja z WordPressem\" panelu administracyjnego bbPressa po ukończeniu instalacji."
+
+#: bb-admin/install.php:189
+#: bb-admin/options-wordpress.php:271
+msgid "User database"
+msgstr "Baza z danymi użytkowników"
+
+#: bb-admin/install.php:190
+msgid "Integrating your WordPress database user tables allows you to store user data in one location, instead of having separate user data for both bbPress and WordPress."
+msgstr "Integracja z tabelami z danymi użytkowników bazy WordPressa pozwala na przechowywanie takich danych w jednym miejscu, zamiast posiadania oddzielnych danych użytkowników bbPressa i WordPressa."
+
+#: bb-admin/install.php:199
+#: bb-admin/options-wordpress.php:290
+msgid "Separate user database settings"
+msgstr "Oddzielne ustawienia baz z danymi użytkowników"
+
+#: bb-admin/install.php:200
+#: bb-admin/options-wordpress.php:291
+msgid "Most of the time these settings are <em>not</em> required. Look before you leap!"
+msgstr "W większości przypadków ustawienia te <em>nie są</em> wymagane. Zastanów się, zanim je wprowadzisz!"
+
+#: bb-admin/install.php:201
+msgid "If required, then all settings except for the character set must be specified."
+msgstr "Jeżeli jest to konieczne, wszystkie ustawienia, oprócz kodowania, muszą zostać określone."
+
+#: bb-admin/install.php:212
+#: bb-admin/options-wordpress.php:296
+msgid "Custom user tables"
+msgstr "Własne tabele z danymi użytkowników"
+
+#: bb-admin/install.php:213
+msgid "Only set these options if your integrated user tables do not fit the usual mould of <em>wp_user</em> and <em>wp_usermeta</em>."
+msgstr "Zmień te ustawienia tylko w przypadku, w którym Twoje zintegrowane tabele użytkowników nie zgadzają się z domyślną strukturą tabel <em>wp_user</em> i <em>wp_usermeta</em>."
+
+#: bb-admin/install.php:357
+msgid "You can now log in with the following details:"
+msgstr "Możesz teraz zalogować się, korzystając z poniższych danych:"
+
+#: bb-admin/install.php:363
+msgid "Site address:"
+msgstr "Adres strony:"
+
+#: bb-admin/install.php:369
+msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you. If you lose it, you will have to delete the tables from the database yourself, and re-install bbPress."
+msgstr "<strong><em>Zapisz to hasło</em></strong> dokładnie! Jest ono <em>losowym</em> hasłem, które zostało wygenerowane specjalnie dla Ciebie. Jeżeli je zgubisz, konieczne będzie własnoręczne usunięcie tabel z bazy danych i ponowne zainstalowanie bbPressa."
+
+#: bb-admin/options-discussion.php:38
+#: bb-admin/options-general.php:31
+#: bb-admin/options-reading.php:28
+#: bb-admin/options-writing.php:33
+#: bb-plugins/akismet.php:147
+msgid "<strong>Settings saved.</strong>"
+msgstr "<strong>Ustawienia zostały zapisane.</strong>"
+
+#: bb-admin/options-discussion.php:43
+msgid "Enable Pingbacks"
+msgstr "Włącz obsługę pingbacków"
+
+#: bb-admin/options-discussion.php:46
+msgid "Allow link notifications from other sites."
+msgstr "Zezwól na powiadomienia o odnośnikach z innych stron internetowych."
+
+#: bb-admin/options-discussion.php:55
+msgid "Avatar display"
+msgstr "Wyświetlanie awatarów"
+
+#: bb-admin/options-discussion.php:58
+msgid "Don&#8217;t show avatars"
+msgstr "Nie wyświetlaj awatarów"
+
+#: bb-admin/options-discussion.php:59
+msgid "Show avatars"
+msgstr "Wyświetlaj awatary"
+
+#: bb-admin/options-discussion.php:63
+msgid "Maximum rating"
+msgstr "Najwyższa dozwolona kategoria"
+
+#: bb-admin/options-discussion.php:66
+msgid "G &#8212; Suitable for all audiences"
+msgstr "G &#8212; odpowiednie dla osób w każdym wieku"
+
+#: bb-admin/options-discussion.php:67
+msgid "PG &#8212; Possibly offensive, usually for audiences 13 and above"
+msgstr "PG &#8212; treść może być ofensywna, zwykle dla ludzi w wieku 13 lat i starszych"
+
+#: bb-admin/options-discussion.php:68
+msgid "R &#8212; Intended for adult audiences above 17"
+msgstr "R &#8212; przeznaczone dla dorosłych czytelników (powyżej 17 lat)"
+
+#: bb-admin/options-discussion.php:69
+msgid "X &#8212; Even more mature than above"
+msgstr "X &#8212; kategoria jeszcze wyższa, niż poprzednia"
+
+#: bb-admin/options-discussion.php:73
+msgid "Default avatar"
+msgstr "Domyślny awatar"
+
+#: bb-admin/options-discussion.php:76
+msgid "Mystery Man"
+msgstr "Człowiek-widmo"
+
+#: bb-admin/options-discussion.php:77
+msgid "Blank"
+msgstr "Brak"
+
+#: bb-admin/options-discussion.php:78
+msgid "Gravatar Logo"
+msgstr "Logo Gravatara"
+
+#: bb-admin/options-discussion.php:79
+msgid "Identicon (Generated)"
+msgstr "Identicon (generowany)"
+
+#: bb-admin/options-discussion.php:80
+msgid "Wavatar (Generated)"
+msgstr "Wavatar (generowany)"
+
+#: bb-admin/options-discussion.php:81
+msgid "MonsterID  (Generated)"
+msgstr "MonsterID  (generowany)"
+
+#: bb-admin/options-discussion.php:84
+msgid "For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their e-mail address."
+msgstr "Przy komentarzach użytkowników, którzy nie mają własnego awatara, wyświetlane może być logo lub awatary utworzone na podstawie ich adresów e-mail."
+
+#: bb-admin/options-discussion.php:98
+msgid "Discussion Settings"
+msgstr "Ustawienia dyskusji"
+
+#: bb-admin/options-discussion.php:110
+msgid "Avatars"
+msgstr "Awatary"
+
+#: bb-admin/options-discussion.php:112
+msgid "bbPress includes built-in support for <a href=\"http://gravatar.com/\">Gravatars</a>. A Gravatar is an image that follows you from site to site, appearing beside your name when you comment on Gravatar enabled sites. Here you can enable the display of Gravatars on your site."
+msgstr "bbPress jest wyposażony w zintegrowaną obsługę <a href=\"http://gravatar.com/\">Gravatarów</a>. Gravatar jest obrazkiem, który jest przypisany do użytkownika i pojawia się przy jego podpisie, gdy ten umieszcza komentarze na stronach obsługujących Gravatary. W tym miejscu możesz włączyć wyświetlanie Gravatarów na Twojej stronie."
+
+#: bb-admin/options-general.php:36
+msgid "Site title"
+msgstr "Tytuł strony"
+
+#: bb-admin/options-general.php:40
+msgid "Tagline"
+msgstr "Slogan"
+
+#: bb-admin/options-general.php:42
+msgid "In a few words, explain what this site is about."
+msgstr "W kilku słowach opisz o czym jest ta strona."
+
+#: bb-admin/options-general.php:45
+msgid "bbPress address (URL)"
+msgstr "Adres URL bbPressa"
+
+#: bb-admin/options-general.php:47
+msgid "The full URL of your bbPress install."
+msgstr "Pełny adres URL Twojej instalacji bbPressa."
+
+#: bb-admin/options-general.php:50
+msgid "E-mail address"
+msgstr "Adres e-mail"
+
+#: bb-admin/options-general.php:51
+msgid "This address is used for admin purposes, like new user notification."
+msgstr "Ten adres jest używany w celach administracyjnych, takich jak powiadamianie o rejestracjach nowych użytkowników."
+
+#: bb-admin/options-general.php:57
+#: bb-admin/options-general.php:161
+msgid "Time zone"
+msgstr "Strefa czasowa"
+
+#: bb-admin/options-general.php:116
+msgid "hours"
+msgstr "godz."
+
+#: bb-admin/options-general.php:119
+msgid "Date and time format"
+msgstr "Format daty i godziny"
+
+#: bb-admin/options-general.php:124
+msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>."
+msgstr "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Dokumentacja nt. formatowania dat</a>."
+
+#: bb-admin/options-general.php:125
+msgid "Click \"Save Changes\" to update sample output."
+msgstr "Kliknij \"Zapisz zmiany\", aby uaktualnić podgląd."
+
+#: bb-admin/options-general.php:129
+msgid "Date format"
+msgstr "Format daty"
+
+#: bb-admin/options-general.php:165
+msgid "Choose a city in the same time zone as you."
+msgstr "Wybierz miasto znajdujące się w tej samej strefie czasowej, co Twoje."
+
+#: bb-admin/options-general.php:166
+#: bb-admin/options-general.php:201
+#, php-format
+msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is <code>%s</code>"
+msgstr "Czas <abbr title=\"Uniwersalny czas koordynowany\">UTC</abbr>: <code>%s</code>"
+
+#: bb-admin/options-general.php:167
+#, php-format
+msgid "Local time is <code>%s</code>"
+msgstr "Czas lokalny: <code>%s</code>"
+
+#: bb-admin/options-general.php:174
+msgid "This time zone is currently in daylight savings time."
+msgstr "W tej strefie czasowej obowiązuje obecnie czas letni."
+
+#: bb-admin/options-general.php:176
+msgid "This time zone is currently in standard time."
+msgstr "W tej strefie czasowej obowiązuje obecnie czas zimowy."
+
+#: bb-admin/options-general.php:184
+#, php-format
+msgid "Daylight savings time begins on <code>%s</code>"
+msgstr "Pierwszy dzień czasu letniego: <code>%s</code>."
+
+#: bb-admin/options-general.php:184
+#, php-format
+msgid "Standard time begins on <code>%s</code>"
+msgstr "Pierwszy dzień czasu zimowego: <code>%s</code>."
+
+#: bb-admin/options-general.php:196
+#, php-format
+msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> %s is <code>%s</code>"
+msgstr "Czas <abbr title=\"Uniwersalny czas koordynowany\">UTC</abbr> %s: <code>%s</code>"
+
+#: bb-admin/options-general.php:197
+msgid "Unfortunately, you have to manually update this for Daylight Savings Time."
+msgstr "Niestety aktualizacja na czas letni musi być dokonywana ręcznie."
+
+#: bb-admin/options-general.php:206
+#: bb-includes/backpress/functions.core.php:985
+#, php-format
+msgid "UTC %s"
+msgstr "UTC %s"
+
+#: bb-admin/options-general.php:219
+msgid "General Settings"
+msgstr "Ustawienia ogólne"
+
+#: bb-admin/options-permalinks.php:111
+msgid "<strong>It appears that your server does not support custom permalink structures.</strong>"
+msgstr "<strong>Wygląda na to, że Twój serwer nie obsługuje własnych formatów bezpośrednich odnośników.</strong>"
+
+#: bb-admin/options-permalinks.php:116
+msgid "<strong>Rewriting on webservers other than Apache using mod_rewrite is currently unsupported, but we won&#8217;t stop you from trying.</strong>"
+msgstr "<strong>Przepisywanie odnośników na serwerach innych niż Apache z użyciem mod_rewrite nie jest obecnie obsługiwane, ale nie zabraniamy Ci próbować.</strong>"
+
+#: bb-admin/options-permalinks.php:121
+msgid "<strong>You should update your .htaccess now.</strong>"
+msgstr "<strong>Teraz należy zaktualizować plik .htaccess.</strong>"
+
+#: bb-admin/options-permalinks.php:123
+msgid "<strong>Permalink structure updated.</strong>"
+msgstr "<strong>Format bezpośrednich odnośników został zaktualizowany.</strong>"
+
+#: bb-admin/options-permalinks.php:129
+msgid "Permalink type"
+msgstr "Format bezpośrednich odnośników"
+
+#: bb-admin/options-permalinks.php:132
+#, php-format
+msgid "<span>None</span> <code>%s</code>"
+msgstr "<span>Domyślny</span> <code>%s</code>"
+
+#: bb-admin/options-permalinks.php:133
+#, php-format
+msgid "<span>Numeric</span> <code>%s</code>"
+msgstr "<span>Liczbowy</span> <code>%s</code>"
+
+#: bb-admin/options-permalinks.php:134
+#, php-format
+msgid "<span>Name based</span> <code>%s</code>"
+msgstr "<span>Nazwa</span> <code>%s</code>"
+
+#: bb-admin/options-permalinks.php:147
+msgid "Permalink Settings"
+msgstr "Ustawienia bezpośrednich odnośników"
+
+#: bb-admin/options-permalinks.php:153
+msgid "By default bbPress uses web URLs which have question marks and lots of numbers in them, however bbPress offers you the ability to choose an alternative URL structure for your permalinks. This can improve the aesthetics, usability, and forward-compatibility of your links."
+msgstr "Domyślnie bbPress używa adresów URL ze znakami zapytania i liczbami, jednak format bezpośrednich odnośników może zostać zmodyfikowany. Działanie takie może mieć na celu poprawienie estetyki, dostępności i zgodności odnośników."
+
+#: bb-admin/options-permalinks.php:174
+msgid "If your <code>.htaccess</code> file were <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so these are the mod_rewrite rules you should have in your <code>.htaccess</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all."
+msgstr "Gdybyśmy mieli <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">prawa zapisu</a> do Twojego pliku <code>.htaccess</code> zostałby on automatycznie zaktualizowany, ale z powodu ich braku musisz dokonać tego ręcznie. Oto zasady mod_rewrite, które powinny się w nim znajdować. Kliknij w dowolnym miejscu w tym polu i wciśnij klawisze <kbd>CTRL +a </kbd>, aby zaznaczyć je wszystkie."
+
+#: bb-admin/options-reading.php:33
+msgid "Items per page"
+msgstr "Liczba elementów na stronę"
+
+#: bb-admin/options-reading.php:35
+msgid "Number of topics, posts or tags to show per page."
+msgstr "Liczba tematów, wpisów lub tagów, które mają być wyświetlane na jednej stronie wyników."
+
+#: bb-admin/options-reading.php:47
+msgid "Reading Settings"
+msgstr "Ustawienia czytania"
+
+#: bb-admin/options-wordpress.php:45
+msgid "<strong>User role mapping saved.</strong>"
+msgstr "<strong>Mapowanie ról użytkowników zostało zapisane.</strong>"
+
+#: bb-admin/options-wordpress.php:48
+msgid "<strong>User integration settings saved.</strong>"
+msgstr "<strong>Ustawienia integracji kont użytkowników zostały zapisane.</strong>"
+
+#: bb-admin/options-wordpress.php:54
+msgid "none|no bbPress role"
+msgstr "brak|no bbPress role"
+
+#: bb-admin/options-wordpress.php:58
+msgid "WordPress Administrator"
+msgstr "Administrator WordPressa"
+
+#: bb-admin/options-wordpress.php:59
+msgid "WordPress Editor"
+msgstr "Redaktor WordPressa"
+
+#: bb-admin/options-wordpress.php:60
+msgid "WordPress Author"
+msgstr "Autor WordPressa"
+
+#: bb-admin/options-wordpress.php:61
+msgid "WordPress Contributor"
+msgstr "Współtwórca WordPressa"
+
+#: bb-admin/options-wordpress.php:62
+msgid "WordPress Subscriber"
+msgstr "Subskrybent WordPressa"
+
+#: bb-admin/options-wordpress.php:78
+msgid "This must match the value of the WordPress setting named \"auth_salt\" in your WordPress site. Look for the option labeled \"auth_salt\" in <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>."
+msgstr "Ta wartość musi być taka sama jak wartość ustawienia o nazwie \"auth_salt\" Twojej instalacji WordPressa - szukaj opcji podpisanej \"auth_salt\" na <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">tej stronie panelu administracyjnego WordPressa</a>."
+
+#: bb-admin/options-wordpress.php:82
+msgid "This must match the value of the WordPress setting named \"secure_auth_salt\" in your WordPress site. Look for the option labeled \"secure_auth_salt\" in <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. Sometimes this value is not set in WordPress, in that case you can leave this setting blank as well."
+msgstr "Ta wartość musi być taka sama jak wartość ustawienia o nazwie \"secure_auth_salt\" Twojej instalacji WordPressa - szukaj opcji podpisanej \"secure_auth_salt\" na <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">tej stronie panelu administracyjnego WordPressa</a>."
+
+#: bb-admin/options-wordpress.php:86
+msgid "This must match the value of the WordPress setting named \"logged_in_salt\" in your WordPress site. Look for the option labeled \"logged_in_salt\" in <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>."
+msgstr "Ta wartość musi być taka sama jak wartość ustawienia o nazwie \"logged_in_salt\" Twojej instalacji WordPressa - szukaj opcji podpisanej \"logged_in_salt\" na <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">tej stronie panelu administracyjnego WordPressa</a>."
+
+#: bb-admin/options-wordpress.php:93
+#, php-format
+msgid "You have defined the \"%s\" constant which locks this setting."
+msgstr "Definiowano stałą \"%s\", która blokuje to ustawienie."
+
+#: bb-admin/options-wordpress.php:170
+msgid "WordPress Integration Settings"
+msgstr "Ustawienia integracji z WordPressem"
+
+#: bb-admin/options-wordpress.php:175
+msgid "User Role Map"
+msgstr "Mapowanie ról użytkowników"
+
+#: bb-admin/options-wordpress.php:176
+msgid "Here you can match WordPress roles to bbPress roles."
+msgstr "W tym miejscu możesz nadać użytkownikom Twojej instalacji WordPressa role w bbPressie."
+
+#: bb-admin/options-wordpress.php:177
+msgid "This will have no effect until your user tables are integrated below. Only standard WordPress roles are supported. Changes do not affect users with existing roles in both WordPress and bbPress."
+msgstr "Ustawienie to nie odniesie skutku dopóki tabele użytkowników nie zostaną zintegrowane poniżej. Jedynie standardowe role WordPressa są obsługiwane. Zmiany nie mają wpływu na użytkowników, którzy mają już przypisane role w instalacji WordPressa i bbPressa."
+
+#: bb-admin/options-wordpress.php:190
+msgid "User Integration"
+msgstr "Integracja kont użytkowników"
+
+#: bb-admin/options-wordpress.php:191
+msgid "Usually, you will have to specify both cookie integration and user database integration settings. Make sure you have a \"User role map\" setup above before trying to add user integration."
+msgstr " "
+
+#: bb-admin/options-wordpress.php:192
+msgid "<em><strong>Note:</strong> changing the settings below may cause you to be logged out!</em>"
+msgstr "<em><strong>Uwaga:</strong> zmiana poniższego ustawienia prawdopodobnie spowoduje wylogowanie!</em>"
+
+#: bb-admin/options-wordpress.php:198
+msgid "Cookie sharing allows users to log in to either your bbPress or your WordPress site, and have access to both."
+msgstr "Współdzielenie ciasteczek sprawia, że zalogowanie się tylko do bbPressa lub WordPressa powoduje zalogowanie się na obu stronach."
+
+#: bb-admin/options-wordpress.php:242
+#, php-format
+msgid "To complete cookie integration, you will need to add some settings to your <code>wp-config.php</code> file in the root directory of your WordPress installation. To get those settings, you will need to install and configure the <a href=\"%s\">\"bbPress Integration\" plugin for WordPress</a>."
+msgstr "Aby sfinalizować integrację ciasteczek, konieczne będzie dodanie pewnych ustawień do pliku <code>wp-config.php</code> znajdującego się w głównym katalogu Twojej instalacji WordPressa. Aby uzyskać te ustawienia, należy zainstalować i skonfigurować <a href=\"%s\">wtyczkę \"bbPress Integration\" do WordPressa</a>."
+
+#: bb-admin/options-wordpress.php:243
+msgid "You will also have to manually ensure that the following constants are equivalent in WordPress' and bbPress' respective config files."
+msgstr "Musisz także upewnić się, że poniższe stałe są takie same w plikach konfiguracji WordPressa i bbPressa."
+
+#: bb-admin/options-wordpress.php:247
+msgid "WordPress"
+msgstr "WordPress"
+
+#: bb-admin/options-wordpress.php:272
+msgid "User database sharing allows you to store user data in your WordPress database."
+msgstr "Integracja baz z danymi użytkowników pozwala na przechowywanie danych użytkowników w bazie danych WordPressa."
+
+#: bb-admin/options-wordpress.php:273
+msgid "You should setup a \"User role map\" before"
+msgstr "Najpierw powinno się ustawić \"mapowanie ról użytkowników\""
+
+#: bb-admin/options-wordpress.php:292
+msgid "All settings except for the character set must be specified."
+msgstr "Wszystkie ustawienia, oprócz kodowania, muszą zostać określone."
+
+#: bb-admin/options-wordpress.php:297
+msgid "Only set these values if your user tables differ from the default WordPress naming convention."
+msgstr "Ustaw te wartości jedynie w przypadku, w którym nazwy Twoich tabel z danymi użytkowników różnią się od domyślnej konwencji nazewniczej WordPressa."
+
+#: bb-admin/options-writing.php:38
+msgid "Lock post editing after"
+msgstr "Wyłącz możliwość edycji wpisu po upływie"
+
+#: bb-admin/options-writing.php:40
+msgid "minutes"
+msgstr "minut"
+
+#: bb-admin/options-writing.php:41
+msgid "A user can edit a post for this many minutes after submitting."
+msgstr "Użytkownik może modyfikować swój wpis przez tyle minut po wysłaniu go."
+
+#: bb-admin/options-writing.php:47
+msgid "XML-RPC"
+msgstr "XML-RPC"
+
+#: bb-admin/options-writing.php:50
+msgid "Enable the bbPress XML-RPC publishing protocol."
+msgstr "Włącz protokół publikowania XML-RPC bbPressa."
+
+#: bb-admin/options-writing.php:63
+msgid "Writing Settings"
+msgstr "Ustawienia pisania"
+
+#: bb-admin/options-writing.php:69
+msgid "Remote Publishing"
+msgstr "Zdalna publikacja"
+
+#: bb-admin/options-writing.php:71
+msgid "To interact with bbPress from a desktop client or remote website that uses the XML-RPC publishing interface you must enable it below."
+msgstr "Aby komunikować się z bbPressem z programu zainstalowanego na własnym komputerze lub innej strony internetowej, która korzysta z interfejsu publikowania XML-RPC, musisz włączyć go poniżej."
+
+#: bb-admin/plugins.php:121
+msgid "<strong>Plugin could not be activated, it produced a Fatal Error</strong>. The error is shown below."
+msgstr "<strong>Wtyczka nie mogła zostać aktywowana, ponieważ zwróciła ona informację o krytycznym błędzie</strong>. Błąd ten jest wyświetlany poniżej."
+
+#: bb-admin/plugins.php:125
+#, php-format
+msgid "<strong>\"%s\" plugin activated</strong>"
+msgstr "<strong>Wtyczka \"%s\" została aktywowana</strong>"
+
+#: bb-admin/plugins.php:129
+#, php-format
+msgid "<strong>\"%s\" plugin deactivated</strong>"
+msgstr "<strong>Wtyczka \"%s\" została dezaktywowana</strong>"
+
+#: bb-admin/plugins.php:135
+msgid "<strong>\"Safe mode\" is on, all plugins are disabled even if they are listed as active.</strong>"
+msgstr "<strong>Tryb \"Safe mode\" jest włączony, wszystkie wtyczki są nieaktywne, nawet jeśli są one pokazywane jako aktywne.</strong>"
+
+#: bb-admin/plugins.php:145
+msgid "Manage Plugins"
+msgstr "Zarządzaj wtyczkami"
+
+#: bb-admin/plugins.php:172
+#, php-format
+msgid "All <span class=\"count\">(%d)</span>"
+msgstr "Wszystkie <span class=\"count\">(%d)</span>"
+
+#: bb-admin/plugins.php:173
+#, php-format
+msgid "Active <span class=\"count\">(%d)</span>"
+msgstr "Aktywne <span class=\"count\">(%d)</span>"
+
+#: bb-admin/plugins.php:174
+#, php-format
+msgid "Inactive <span class=\"count\">(%d)</span>"
+msgstr "Nieaktywne <span class=\"count\">(%d)</span>"
+
+#: bb-admin/plugins.php:175
+#, php-format
+msgid "Autoloaded <span class=\"count\">(%d)</span>"
+msgstr "Wczytane automatycznie <span class=\"count\">(%d)</span>"
+
+#: bb-admin/plugins.php:185
+#: bb-admin/plugins.php:191
+msgid "Plugin"
+msgstr "Wtyczka"
+
+#: bb-admin/plugins.php:202
+#: bb-admin/themes.php:96
+msgid "Activate"
+msgstr "Aktywuj"
+
+#: bb-admin/plugins.php:209
+msgid "Deactivate"
+msgstr "Wyłącz"
+
+#: bb-admin/plugins.php:227
+#, php-format
+msgid "By %s"
+msgstr "Autor: %s"
+
+#: bb-admin/plugins.php:239
+msgid "Autoloaded"
+msgstr "Wczytane automatycznie"
+
+#: bb-admin/plugins.php:258
+msgid "No plugins found."
+msgstr "Nie znaleziono żadnych wtyczek."
+
+#: bb-admin/posts.php:7
+msgid "<strong>Post undeleted.</strong>"
+msgstr "<strong>Usunięcie wpisu zostało cofnięte.</strong>"
+
+#: bb-admin/posts.php:10
+msgid "<strong>Post deleted.</strong>"
+msgstr "<strong>Wpis został usunięty.</strong>"
+
+#: bb-admin/posts.php:13
+msgid "<strong>Post spammed.</strong>"
+msgstr "<strong>Wpis został oznaczony jako spam.</strong>"
+
+#: bb-admin/posts.php:16
+msgid "<strong>Post removed from spam.</strong> It is now a normal post."
+msgstr "<strong>Oznaczenie wpisu jako spam zostało cofnięte.</strong> Wpis ten został teraz oznaczony jako normalny wpis."
+
+#: bb-admin/posts.php:19
+msgid "<strong>Post removed from spam.</strong> It is now a deleted post."
+msgstr "<strong>Oznaczenie wpisu jako spam zostało cofnięte.</strong> Wpis ten został teraz usunięty."
+
+#: bb-admin/posts.php:36
+#: bb-admin/topics.php:26
+msgid "Now how'd you get here?  And what did you think you'd being doing?"
+msgstr "Co tutaj robisz?  I co Ty sobie w ogóle wyobrażasz?"
+
+#: bb-admin/posts.php:55
+#: bb-admin/topics.php:49
+#, php-format
+msgid "in &#8220;%s&#8221;"
+msgstr "w &#8220;%s&#8221;"
+
+#: bb-admin/posts.php:56
+#: bb-admin/topics.php:50
+#, php-format
+msgid "with tag &#8220;%s&#8221;"
+msgstr "otagowanych &#8220;%s&#8221;"
+
+#: bb-admin/posts.php:57
+#: bb-admin/topics.php:51
+#, php-format
+msgid "by %s"
+msgstr "autor: %s"
+
+#: bb-admin/posts.php:61
+#, php-format
+msgid "from IP address %s"
+msgstr "z adresu IP %s"
+
+#: bb-admin/posts.php:69
+#, php-format
+msgid "%1$s%2$s%3$s%4$s%5$s"
+msgstr "%1$s%2$s%3$s%4$s%5$s"
+
+#: bb-admin/posts.php:94
+#: bb-admin/topics.php:81
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: bb-admin/posts.php:95
+#: bb-admin/topics.php:82
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: bb-admin/tag-destroy.php:5
+#: bb-admin/tag-merge.php:5
+#: bb-admin/tag-rename.php:5
+msgid "You are not allowed to manage tags."
+msgstr "Nie posiadasz uprawnień do zarządzania tagami."
+
+#: bb-admin/tag-destroy.php:13
+#: bb-admin/tag-rename.php:14
+msgid "Tag not found."
+msgstr "Tag nie został znaleziony."
+
+#: bb-admin/tag-destroy.php:16
+#, php-format
+msgid "Rows deleted from tags table: %d <br />\n"
+msgstr "Liczba rekordów usuniętych z tabeli tagów: %d <br />\n"
+
+#: bb-admin/tag-destroy.php:17
+#, php-format
+msgid "Rows deleted from tagged table: %d <br />\n"
+msgstr "Liczba rekordów usuniętych z tabeli otagowanych: %d <br />\n"
+
+#: bb-admin/tag-destroy.php:18
+#, php-format
+msgid "<a href=\"%s\">Home</a>"
+msgstr "<a href=\"%s\">Strona główna</a>"
+
+#: bb-admin/tag-destroy.php:20
+#, php-format
+msgid ""
+"Something odd happened when attempting to destroy that tag.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"Coś dziwnego stało się podczas próby usunięcia tego tagu.<br />\n"
+"<a href=\"%s\">Spróbować ponownie?</a>"
+
+#: bb-admin/tag-merge.php:13
+msgid "Tag specified not found."
+msgstr "Podany tag nie został znaleziony."
+
+#: bb-admin/tag-merge.php:16
+msgid "Tag to be merged not found."
+msgstr "Tag do scalenia nie został znaleziony."
+
+#: bb-admin/tag-merge.php:19
+#, php-format
+msgid "Number of topics from which the old tag was removed: %d <br />\n"
+msgstr "Liczba tematów, z których usunięty został stary tag: %d <br />\n"
+
+#: bb-admin/tag-merge.php:20
+#, php-format
+msgid "Number of topics to which the new tag was added: %d <br />\n"
+msgstr "Liczba tematów, do których dodany został nowy tag: %d <br />\n"
+
+#: bb-admin/tag-merge.php:21
+#, php-format
+msgid "Number of rows deleted from tags table:%d <br />\n"
+msgstr "Liczba rekordów usuniętych z tabeli tagów:%d <br />\n"
+
+#: bb-admin/tag-merge.php:22
+#, php-format
+msgid "<a href=\"%s\">New Tag</a>"
+msgstr "<a href=\"%s\">Nowy tag</a>"
+
+#: bb-admin/tag-merge.php:24
+#, php-format
+msgid ""
+"Something odd happened when attempting to merge those tags.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"Coś dziwnego stało się podczas próby scalenia tych tagów.<br />\n"
+"<a href=\"%s\">Spróbować ponownie?</a>"
+
+#: bb-admin/tag-rename.php:20
+#, php-format
+msgid "There already exists a tag by that name or the name is invalid. <a href=\"%s\">Try Again</a>"
+msgstr "Istnieje już tag o takiej samej nazwie lub wprowadzona nazwa jest nieprawidłowa. <a href=\"%s\">Spróbuj ponownie</a>"
+
+#: bb-admin/themes.php:38
+#, php-format
+msgid "<strong>Theme \"%s\" activated</strong>"
+msgstr "<strong>Motyw \"%s\" został aktywowany</strong>"
+
+#: bb-admin/themes.php:43
+msgid "<strong>Default theme is missing.</strong>"
+msgstr "<strong>Brak domyślnego motywu.</strong>"
+
+#: bb-admin/themes.php:47
+msgid "<strong>Theme not found.  Default theme applied.</strong>"
+msgstr "<strong>Motyw nie został znaleziony.  Aktywowano domyślny motyw.</strong>"
+
+#: bb-admin/themes.php:63
+#: bb-admin/themes.php:96
+#, php-format
+msgid "Activate \"%s\""
+msgstr "Aktywuj \"%s\""
+
+#: bb-admin/themes.php:68
+#, php-format
+msgid "%1$s %2$s by <cite>%3$s</cite>"
+msgstr "%1$s %2$s, autor: <cite>%3$s</cite>"
+
+#: bb-admin/themes.php:82
+#, php-format
+msgid "Ported by <cite>%s</cite>"
+msgstr "Autor portu <cite>%s</cite>"
+
+#: bb-admin/themes.php:101
+#, php-format
+msgid "All of this theme's files are located in the \"%s\" themes directory."
+msgstr "Wszystkie pliki tego motywu znajdują się w katalogu motywów \"%s\"."
+
+#: bb-admin/themes.php:112
+msgid "<strong>\"Safe mode\" is on, the default theme will be used instead of the active theme indicated below.</strong>"
+msgstr "<strong>Tryb \"Safe mode\" jest włączony, użyty zostanie domyślny motyw zamiast zaznaczonego poniżej jako aktywny.</strong>"
+
+#: bb-admin/themes.php:120
+msgid "Manage Themes"
+msgstr "Zarządzaj motywami "
+
+#: bb-admin/themes.php:123
+msgid "Current Theme"
+msgstr "Używany motyw"
+
+#: bb-admin/themes.php:132
+msgid "Available Themes"
+msgstr "Dostępne motywy"
+
+#: bb-admin/tools-recount.php:10
+msgid "Counted posts"
+msgstr "Wpisy zostały zliczone"
+
+#: bb-admin/tools-recount.php:21
+msgid "Counted voices"
+msgstr "Głosy zostały zliczone"
+
+#: bb-admin/tools-recount.php:37
+msgid "Counting deleted posts&#8230;"
+msgstr "Zliczanie usuniętych wpisów&#8230;"
+
+#: bb-admin/tools-recount.php:47
+msgid "&#8230;counted deleted posts"
+msgstr "&#8230;zliczono usunięte wpisy"
+
+#: bb-admin/tools-recount.php:49
+msgid "&#8230;no deleted posts to count"
+msgstr "&#8230;nie usunięto żadnych wpisów"
+
+#: bb-admin/tools-recount.php:55
+msgid "Counted forum topics and posts"
+msgstr "Zliczono tematy i wpisy w każdym z działów"
+
+#: bb-admin/tools-recount.php:72
+msgid "Counted topics to which each user has replied"
+msgstr "Zliczono użytkownikom tematy, na które odpowiedzieli"
+
+#: bb-admin/tools-recount.php:87
+msgid "Counted topic tags"
+msgstr "Zliczono tagi przypisane do tematów"
+
+#: bb-admin/tools-recount.php:106
+msgid "Counted tagged topics"
+msgstr "Zliczono otagowane tematy"
+
+#: bb-admin/tools-recount.php:125
+msgid "Deleted tags with no topics"
+msgstr "Usunięto tagi, które nie były przypisane do żadnego z tematów"
+
+#: bb-admin/tools-recount.php:142
+msgid "Removed deleted topics from users' favorites"
+msgstr "Wyczyszczono ulubione użytkowników z usuniętych tematów"
+
+#: bb-admin/tools-recount.php:179
+msgid "To minimize database queries, bbPress keeps it's own count of various items like posts in each topic and topics in each forum. Occasionally these internal counters may become incorrect, you can manually re-count these items using this form."
+msgstr "Aby zminimalizować liczbę zapytań wysyłanych do bazy danych, bbPress posiada swoje własne liczniki rozmaitych danych, takich jak ilości wpisów w każdym z tematów i tematów w każdym z działów. Od czasu do czasu wartości te mogą jednak stać się nieprawidłowe. Możesz ręcznie zliczyć te dane, korzystając z poniższego formularza."
+
+#: bb-admin/tools-recount.php:180
+msgid "You can also clean out some stale items here, like empty tags."
+msgstr "Możesz użyć go również do wyczyszczenia pewnych starych danych, takich jak nieużywanych tagów."
+
+#: bb-admin/tools-recount.php:187
+msgid "Items to re-count"
+msgstr "Elementy, które mają zostać zliczone ponownie"
+
+#: bb-admin/tools-recount.php:200
+msgid "There are no re-count tools available."
+msgstr "Brak dostępnych narzędzi do ponownego zliczania."
+
+#: bb-admin/tools-recount.php:207
+msgid "Recount Items"
+msgstr "Zlicz elementy ponownie"
+
+#: bb-admin/topic-move.php:8
+msgid "Invalid topic or forum."
+msgstr "Nieprawidłowy temat lub dział."
+
+#: bb-admin/topic-move.php:21
+msgid "Your topic or forum caused all manner of confusion"
+msgstr "Twój temat lub dział spowodował porządną dezorientację."
+
+#: bb-admin/topics.php:7
+msgid "<strong>Topic undeleted.</strong>"
+msgstr "<strong>Usunięcie tematu zostało cofnięte.</strong>"
+
+#: bb-admin/topics.php:10
+msgid "<strong>Topic deleted.</strong>"
+msgstr "<strong>Temat został usunięty.</strong>"
+
+#: bb-admin/topics.php:13
+msgid "<strong>Topic opened.</strong>"
+msgstr "<strong>Temat został otwarty.</strong>"
+
+#: bb-admin/topics.php:16
+msgid "<strong>Topic closed.</strong>"
+msgstr "<strong>Temat został zamknięty.</strong>"
+
+#: bb-admin/topics.php:56
+#, php-format
+msgid "%1$s%2$s%3$s%4$s"
+msgstr "%1$s%2$s%3$s%4$s"
+
+#: bb-admin/topics.php:94
+#: xmlrpc.php:1369
+#: xmlrpc.php:2761
+#: xmlrpc.php:3072
+msgid "No topics found."
+msgstr "Nie znaleziono żadnych tematów."
+
+#: bb-admin/topics.php:105
+#: bb-admin/topics.php:114
+#: bb-templates/kakumei/favorites.php:20
+#: bb-templates/kakumei/forum.php:13
+#: bb-templates/kakumei/front-page.php:21
+#: bb-templates/kakumei/tag-single.php:15
+#: bb-templates/kakumei/view.php:13
+msgid "Freshness"
+msgstr "Świeżość"
+
+#: bb-admin/topics.php:127
+msgid "Close"
+msgstr "Zamknij"
+
+#: bb-admin/topics.php:127
+#, fuzzy
+msgctxt "action"
+msgid "Open"
+msgstr "Otwarty"
+
+#: bb-admin/topics.php:128
+#: bb-includes/functions.bb-template.php:2057
+msgid "Undelete"
+msgstr "Cofnij usunięcie"
+
+#: bb-admin/topics.php:148
+#, php-format
+msgid "Last post by %s"
+msgstr "Autor ostatniego wpisu: %s"
+
+#: bb-admin/upgrade.php:49
+msgid "Beginning upgrade&hellip;"
+msgstr "Rozpoczynanie aktualizacji&hellip;"
+
+#: bb-admin/upgrade.php:53
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:600
+msgid "Done"
+msgstr "Gotowe"
+
+#: bb-admin/upgrade.php:71
+msgid "bbPress database upgrade"
+msgstr "Aktualizacja bazy danych bbPressa"
+
+#: bb-admin/upgrade.php:89
+#, php-format
+msgid "Nothing to upgrade.  <a href=\"%s\">Get back to work!</a>"
+msgstr "Nie ma niczego, co można zaktualizować.  <a href=\"%s\">Wracaj do pracy!</a>"
+
+#: bb-admin/upgrade.php:97
+msgid "Database upgrade required"
+msgstr "Wymagana jest aktualizacja bazy danych"
+
+#: bb-admin/upgrade.php:101
+msgid "It looks like your database is out-of-date. You can upgrade it here."
+msgstr "Wygląda na to, że Twoja baza danych jest nieaktualna. Możesz ją zaktualizować w tym miejscu."
+
+#: bb-admin/upgrade.php:107
+msgid "Upgrade database"
+msgstr "Zaktualizuj bazę danych"
+
+#: bb-admin/upgrade.php:119
+msgid "Database upgrade complete"
+msgstr "Aktualizacja bazy danych została ukończona"
+
+#: bb-admin/upgrade.php:123
+msgid "Your database has been successfully upgraded, enjoy!"
+msgstr "Twoja baza danych została pomyślnie aktualizowana. Voila!"
+
+#: bb-admin/upgrade.php:128
+#: bb-admin/upgrade.php:170
+msgid "Show upgrade messages"
+msgstr "Pokaż komunikaty skryptu aktualizującego"
+
+#: bb-admin/upgrade.php:137
+#: bb-admin/upgrade.php:189
+msgid "Upgrade log"
+msgstr "Dziennik aktualizacji"
+
+#: bb-admin/upgrade.php:144
+#: bb-admin/upgrade.php:196
+msgid "&laquo; Go back to forums"
+msgstr "&laquo; Powróć do forum"
+
+#: bb-admin/upgrade.php:147
+msgid "Go to admin"
+msgstr "Przejdź do panelu administracyjnego"
+
+#: bb-admin/upgrade.php:159
+msgid "Database upgrade failed"
+msgstr "Aktualizacja bazy danych nie powiodła się"
+
+#: bb-admin/upgrade.php:163
+msgid "The upgrade process seems to have failed. Check the upgrade messages below for more information.<br /><br />Attempting to go to the admin area without resolving the listed errors will return you to this upgrade page."
+msgstr "Wygląda na to, że aktualizacja nie powiodła się. Zobacz wiadomości skryptu aktualizującego wyświetlane poniżej, aby uzyskać więcej informacji.<br /><br />Próba przejścia do panelu administracyjnego bez rozwiązania poniższych problemów spowoduje przekierowanie na tę stronę."
+
+#: bb-admin/upgrade.php:182
+msgid "Error log"
+msgstr "Dziennik błędów"
+
+#: bb-admin/upgrade.php:199
+msgid "Try again"
+msgstr "Spróbuj ponownie"
+
+#: bb-edit.php:16
+msgid "Sorry, post is too old."
+msgstr "Przepraszamy, wpis jest zbyt stary."
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:317
+msgid "Passed variable is not a BackPress database object."
+msgstr "Przekazana zmienna nie jest bazodanowym obiektem BackPressa."
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:321
+msgid "No schema available."
+msgstr "Brak dostępnych schematów."
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:387
+msgid "Creating table"
+msgstr "Tworzenie tabeli"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:416
+#, php-format
+msgid "Adding column: %s"
+msgstr "Dodawanie kolumny: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:434
+#, php-format
+msgid "Setting default on column: %s"
+msgstr "Ustawianie kolumny jako domyślnej: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:449
+#, php-format
+msgid "Changing column: %s"
+msgstr "Modyfikacja kolumny: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:491
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:514
+#, php-format
+msgid "Adding index: %s"
+msgstr "Dodawanie indeksu: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:507
+#, php-format
+msgid "Dropping index: %s"
+msgstr "Usuwanie indeksu: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:535
+msgid "Inserting data"
+msgstr "Wstawianie danych"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:548
+msgid "Updating data"
+msgstr "Aktualizacja danych"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:566
+#, php-format
+msgid "Modifying database: %s (%s)"
+msgstr "Modyfikacja bazy danych: %s (%s)"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:570
+#, php-format
+msgid "Table: %s"
+msgstr "Tabela: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:582
+msgid "Skipped"
+msgstr "Pominięto"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:594
+msgid "SQL ERROR! See the error log for more detail"
+msgstr "BŁĄD SQL! Zobacz dziennik błędów, aby dowiedzieć się więcej"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:595
+msgid "SQL ERROR!"
+msgstr "BŁĄD SQL!"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:596
+#, php-format
+msgid "Database: %s (%s)"
+msgstr "Baza danych: %s (%s)"
+
+#: bb-includes/backpress/class.wp-http.php:723
+#: bb-includes/backpress/class.wp-http.php:1341
+msgid "Too many redirects."
+msgstr "Zbyt wiele przekierowań."
+
+#: bb-includes/backpress/class.wp-http.php:803
+#: bb-includes/backpress/class.wp-http.php:930
+#, php-format
+msgid "Malformed URL: %s"
+msgstr "Zniekształcony adres URL: %s"
+
+#: bb-includes/backpress/class.wp-http.php:814
+#: bb-includes/backpress/class.wp-http.php:987
+#, php-format
+msgid "Could not open handle for fopen() to %s"
+msgstr "Nie można było otworzyć uchwytu dla fopen() dla %s"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:226
+#: bb-includes/backpress/class.wp-taxonomy.php:299
+#: bb-includes/backpress/class.wp-taxonomy.php:403
+#: bb-includes/backpress/class.wp-taxonomy.php:581
+#: bb-includes/backpress/class.wp-taxonomy.php:1166
+#: bb-includes/backpress/class.wp-taxonomy.php:1400
+#: bb-includes/class.bb-taxonomy.php:48
+#: bb-includes/class.bb-taxonomy.php:151
+#: bb-includes/class.bb-taxonomy.php:275
+msgid "Invalid Taxonomy"
+msgstr "Nieprawidłowa taksonomia"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:294
+msgid "Empty Term"
+msgstr "Brak terminu"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1300
+#: bb-includes/backpress/class.wp-taxonomy.php:1549
+msgid "Invalid taxonomy"
+msgstr "Nieprawidłowa taksonomia"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1303
+msgid "Invalid term ID"
+msgstr "Nieprawidłowy identyfikator terminu"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1306
+#: bb-includes/backpress/class.wp-taxonomy.php:1572
+msgid "A name is required for this term"
+msgstr "Wymagane jest wprowadzenie nazwy dla tego terminu"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1337
+#: bb-includes/backpress/class.wp-taxonomy.php:1344
+msgid "Could not insert term into the database"
+msgstr "Nie można było dodać terminu do bazy danych"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1600
+#, php-format
+msgid "The slug &#8220;%s&#8221; is already in use by another term"
+msgstr "Uproszczona nazwa &#8220;%s&#8221; jest już używana przez inny termin"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:2037
+msgid "Invalid object ID"
+msgstr "Nieprawidłowy identyfikator elementu"
+
+#: bb-includes/backpress/class.wp-users.php:51
+msgid "Invalid login name"
+msgstr "Nieprawidłowa nazwa użytkownika"
+
+#: bb-includes/backpress/class.wp-users.php:53
+msgid "Name already exists"
+msgstr "Ta nazwa jest już używana"
+
+#: bb-includes/backpress/class.wp-users.php:58
+msgid "Invalid nicename"
+msgstr "Nieprawidłowa uproszczona nazwa"
+
+#: bb-includes/backpress/class.wp-users.php:60
+msgid "Nicename already exists"
+msgstr "Ta uproszczona nazwa jest już używana"
+
+#: bb-includes/backpress/class.wp-users.php:65
+#: bb-includes/functions.bb-pluggable.php:583
+#: profile-edit.php:62
+msgid "Invalid email address"
+msgstr "Nieprawidłowy adres e-mail"
+
+#: bb-includes/backpress/class.wp-users.php:70
+msgid "Email already exists"
+msgstr "Ten e-mail jest już używany"
+
+#: bb-includes/backpress/class.wp-users.php:90
+msgid "Invalid registration time"
+msgstr "Nieprawidłowy czas rejestracji"
+
+#: bb-includes/backpress/class.wp-users.php:93
+msgid "Invalid registration timestamp"
+msgstr "Nieprawidłowy znacznik czasu rejestracji"
+
+#: bb-includes/backpress/class.wp-users.php:110
+msgid "Query failed"
+msgstr "Wykonywanie zapytania nie powiodło się"
+
+#: bb-includes/backpress/class.wp-users.php:295
+#: bb-includes/backpress/class.wp-users.php:341
+msgid "Multiple email matches.  Log in with your username."
+msgstr "Znaleziono wiele pasujących adresów e-mail  Zaloguj się, korzystając ze swojej nazwy użytkownika."
+
+#: bb-includes/backpress/class.wp-users.php:297
+#: bb-includes/backpress/class.wp-users.php:343
+#, php-format
+msgid "Multiple %s matches"
+msgstr "Znaleziono wiele pasujących rekordów w polu \"%s\""
+
+#: bb-includes/backpress/functions.core.php:957
+msgid "Select a city"
+msgstr "Wybierz miasto"
+
+#: bb-includes/backpress/functions.core.php:972
+msgid "Manual offsets"
+msgstr "Ręczne ustawienie offsetu"
+
+#: bb-includes/backpress/functions.core.php:1140
+msgid "BackPress &rsaquo; Error"
+msgstr "BackPress &rsaquo; Błąd"
+
+#. translators: opening curly quote
+#: bb-includes/backpress/functions.formatting.php:46
+msgctxt "opening curly quote"
+msgid "&#8220;"
+msgstr "&#8220;"
+
+#. translators: closing curly quote
+#: bb-includes/backpress/functions.formatting.php:48
+msgctxt "closing curly quote"
+msgid "&#8221;"
+msgstr "&#8221;"
+
+#: bb-includes/backpress/functions.wp-cron.php:301
+msgid "Once Hourly"
+msgstr "Co godzinę"
+
+#: bb-includes/backpress/functions.wp-cron.php:302
+msgid "Twice Daily"
+msgstr "Dwa razy dziennie"
+
+#: bb-includes/backpress/functions.wp-cron.php:303
+msgid "Once Daily"
+msgstr "Raz dziennie"
+
+#: bb-includes/backpress/pomo/sample/app.php:56
+#, php-format
+msgid "Welcome %s!"
+msgstr "Witaj, %s!"
+
+#: bb-includes/backpress/pomo/sample/app.php:60
+msgid "A string with low priority!"
+msgstr "Ciąg tekstowy z niskim priorytetem!"
+
+#: bb-includes/backpress/pomo/sample/app.php:62
+msgid "Bye\n"
+msgstr "Pa\n"
+
+#: bb-includes/class.bb-dir-map.php:19
+msgid "Not a valid directory"
+msgstr "Nieprawidłowy katalog"
+
+#: bb-includes/class.bb-dir-map.php:25
+msgid "Invalid arguments"
+msgstr "Nieprawidłowe argumenty"
+
+#: bb-includes/class.bb-locale.php:115
+#: bb-includes/class.bb-locale.php:125
+#: bb-includes/class.bb-locale.php:138
+msgid "Sunday"
+msgstr "niedziela"
+
+#: bb-includes/class.bb-locale.php:116
+#: bb-includes/class.bb-locale.php:126
+#: bb-includes/class.bb-locale.php:139
+msgid "Monday"
+msgstr "poniedziałek"
+
+#: bb-includes/class.bb-locale.php:117
+#: bb-includes/class.bb-locale.php:127
+#: bb-includes/class.bb-locale.php:140
+msgid "Tuesday"
+msgstr "wtorek"
+
+#: bb-includes/class.bb-locale.php:118
+#: bb-includes/class.bb-locale.php:128
+#: bb-includes/class.bb-locale.php:141
+msgid "Wednesday"
+msgstr "środa"
+
+#: bb-includes/class.bb-locale.php:119
+#: bb-includes/class.bb-locale.php:129
+#: bb-includes/class.bb-locale.php:142
+msgid "Thursday"
+msgstr "czwartek"
+
+#: bb-includes/class.bb-locale.php:120
+#: bb-includes/class.bb-locale.php:130
+#: bb-includes/class.bb-locale.php:143
+msgid "Friday"
+msgstr "piątek"
+
+#: bb-includes/class.bb-locale.php:121
+#: bb-includes/class.bb-locale.php:131
+#: bb-includes/class.bb-locale.php:144
+msgid "Saturday"
+msgstr "sobota"
+
+#: bb-includes/class.bb-locale.php:125
+msgid "S_Sunday_initial"
+msgstr "N"
+
+#: bb-includes/class.bb-locale.php:126
+msgid "M_Monday_initial"
+msgstr "P"
+
+#: bb-includes/class.bb-locale.php:127
+msgid "T_Tuesday_initial"
+msgstr "W"
+
+#: bb-includes/class.bb-locale.php:128
+msgid "W_Wednesday_initial"
+msgstr "Ś"
+
+#: bb-includes/class.bb-locale.php:129
+msgid "T_Thursday_initial"
+msgstr "C"
+
+#: bb-includes/class.bb-locale.php:130
+msgid "F_Friday_initial"
+msgstr "P"
+
+#: bb-includes/class.bb-locale.php:131
+msgid "S_Saturday_initial"
+msgstr "S"
+
+#: bb-includes/class.bb-locale.php:138
+msgid "Sun"
+msgstr "nie"
+
+#: bb-includes/class.bb-locale.php:139
+msgid "Mon"
+msgstr "pon"
+
+#: bb-includes/class.bb-locale.php:140
+msgid "Tue"
+msgstr "wt"
+
+#: bb-includes/class.bb-locale.php:141
+msgid "Wed"
+msgstr "śr"
+
+#: bb-includes/class.bb-locale.php:142
+msgid "Thu"
+msgstr "czw"
+
+#: bb-includes/class.bb-locale.php:143
+msgid "Fri"
+msgstr "pt"
+
+#: bb-includes/class.bb-locale.php:144
+msgid "Sat"
+msgstr "sob"
+
+#: bb-includes/class.bb-locale.php:147
+#: bb-includes/class.bb-locale.php:162
+msgid "January"
+msgstr "Styczeń"
+
+#: bb-includes/class.bb-locale.php:148
+#: bb-includes/class.bb-locale.php:163
+msgid "February"
+msgstr "Luty"
+
+#: bb-includes/class.bb-locale.php:149
+#: bb-includes/class.bb-locale.php:164
+msgid "March"
+msgstr "Marzec"
+
+#: bb-includes/class.bb-locale.php:150
+#: bb-includes/class.bb-locale.php:165
+msgid "April"
+msgstr "Kwiecień"
+
+#: bb-includes/class.bb-locale.php:151
+#: bb-includes/class.bb-locale.php:166
+msgid "May"
+msgstr "Maj"
+
+#: bb-includes/class.bb-locale.php:152
+#: bb-includes/class.bb-locale.php:167
+msgid "June"
+msgstr "Czerwiec"
+
+#: bb-includes/class.bb-locale.php:153
+#: bb-includes/class.bb-locale.php:168
+msgid "July"
+msgstr "Lipiec"
+
+#: bb-includes/class.bb-locale.php:154
+#: bb-includes/class.bb-locale.php:169
+msgid "August"
+msgstr "Sierpień"
+
+#: bb-includes/class.bb-locale.php:155
+#: bb-includes/class.bb-locale.php:170
+msgid "September"
+msgstr "Wrzesień"
+
+#: bb-includes/class.bb-locale.php:156
+#: bb-includes/class.bb-locale.php:171
+msgid "October"
+msgstr "Październik"
+
+#: bb-includes/class.bb-locale.php:157
+#: bb-includes/class.bb-locale.php:172
+msgid "November"
+msgstr "Listopad"
+
+#: bb-includes/class.bb-locale.php:158
+#: bb-includes/class.bb-locale.php:173
+msgid "December"
+msgstr "Grudzień"
+
+#: bb-includes/class.bb-locale.php:162
+msgid "Jan_January_abbreviation"
+msgstr "sty"
+
+#: bb-includes/class.bb-locale.php:163
+msgid "Feb_February_abbreviation"
+msgstr "lut"
+
+#: bb-includes/class.bb-locale.php:164
+msgid "Mar_March_abbreviation"
+msgstr "mar"
+
+#: bb-includes/class.bb-locale.php:165
+msgid "Apr_April_abbreviation"
+msgstr "kwi"
+
+#: bb-includes/class.bb-locale.php:166
+msgid "May_May_abbreviation"
+msgstr "maj"
+
+#: bb-includes/class.bb-locale.php:167
+msgid "Jun_June_abbreviation"
+msgstr "cze"
+
+#: bb-includes/class.bb-locale.php:168
+msgid "Jul_July_abbreviation"
+msgstr "lip"
+
+#: bb-includes/class.bb-locale.php:169
+msgid "Aug_August_abbreviation"
+msgstr "sie"
+
+#: bb-includes/class.bb-locale.php:170
+msgid "Sep_September_abbreviation"
+msgstr "wrz"
+
+#: bb-includes/class.bb-locale.php:171
+msgid "Oct_October_abbreviation"
+msgstr "paź"
+
+#: bb-includes/class.bb-locale.php:172
+msgid "Nov_November_abbreviation"
+msgstr "lis"
+
+#: bb-includes/class.bb-locale.php:173
+msgid "Dec_December_abbreviation"
+msgstr "gru"
+
+#: bb-includes/class.bb-locale.php:180
+msgid "am"
+msgstr "am"
+
+#: bb-includes/class.bb-locale.php:181
+msgid "pm"
+msgstr "pm"
+
+#: bb-includes/class.bb-locale.php:182
+msgid "AM"
+msgstr "AM"
+
+#: bb-includes/class.bb-locale.php:183
+msgid "PM"
+msgstr "PM"
+
+#. translators: $decimals argument for http://php.net/number_format, default is 0
+#: bb-includes/class.bb-locale.php:189
+msgid "number_format_decimals"
+msgstr "0"
+
+#. translators: $dec_point argument for http://php.net/number_format, default is .
+#: bb-includes/class.bb-locale.php:193
+msgid "number_format_decimal_point"
+msgstr ","
+
+#. translators: $thousands_sep argument for http://php.net/number_format, default is ,
+#: bb-includes/class.bb-locale.php:197
+msgid "number_format_thousands_sep"
+msgstr " "
+
+#: bb-includes/class.bb-locale.php:201
+msgid "F j, Y - h:i A"
+msgstr "j F Y - H:i"
+
+#: bb-includes/class.bb-locale.php:202
+msgid "F j, Y"
+msgstr "j F Y"
+
+#: bb-includes/class.bb-locale.php:203
+msgid "h:i A"
+msgstr "H:i"
+
+#: bb-includes/class.bb-query.php:902
+msgid "Search &#187;"
+msgstr "Szukaj &#187;"
+
+#: bb-includes/class.bb-query.php:943
+msgid "Any"
+msgstr "Dowolny"
+
+#: bb-includes/class.bb-query.php:949
+msgid "Tag"
+msgstr "Tag"
+
+#: bb-includes/class.bb-query.php:956
+msgid "Topic author"
+msgstr "Autor tematu"
+
+#: bb-includes/class.bb-query.php:963
+msgid "Post author"
+msgstr "Autor wpisu"
+
+#: bb-includes/class.bb-query.php:968
+#: bb-includes/class.bb-query.php:1001
+msgid "All"
+msgstr "Wszystkie"
+
+#: bb-includes/class.bb-query.php:968
+msgid "Normal"
+msgstr "Zwykły"
+
+#: bb-includes/class.bb-query.php:968
+msgid "Deleted"
+msgstr "Usunięty"
+
+#: bb-includes/class.bb-query.php:971
+msgid "Topic status"
+msgstr "Stan tematu"
+
+#: bb-includes/class.bb-query.php:982
+msgid "Post status"
+msgstr "Stan wpisu"
+
+#: bb-includes/class.bb-query.php:993
+msgid "Poster IP address"
+msgstr "Adres IP autora"
+
+#: bb-includes/class.bb-query.php:999
+msgid "Open?"
+msgstr "Otwarty?"
+
+#: bb-includes/class.bb-query.php:1001
+#, fuzzy
+msgctxt "posting status"
+msgid "Open"
+msgstr "Otwarty"
+
+#: bb-includes/class.bb-query.php:1001
+msgid "Closed"
+msgstr "Zamknięty"
+
+#: bb-includes/class.bb-query.php:1012
+#: bb-templates/kakumei/post-form.php:3
+msgid "Title"
+msgstr "Tytuł"
+
+#: bb-includes/class.bb-taxonomy.php:272
+msgid "Invalid User ID"
+msgstr "Nieprawidłowy identyfikator użytkownika"
+
+#: bb-includes/functions.bb-capabilities.php:57
+msgid "Key Master"
+msgstr "Klucznik"
+
+#: bb-includes/functions.bb-capabilities.php:100
+msgid "Administrator"
+msgstr "Administrator"
+
+#: bb-includes/functions.bb-capabilities.php:135
+msgid "Moderator"
+msgstr "Moderator"
+
+#: bb-includes/functions.bb-capabilities.php:166
+msgid "Member"
+msgstr "Członek"
+
+#: bb-includes/functions.bb-capabilities.php:180
+msgid "Inactive"
+msgstr "Nieaktywny"
+
+#: bb-includes/functions.bb-capabilities.php:185
+msgid "Blocked"
+msgstr "Zablokowany"
+
+#: bb-includes/functions.bb-core.php:26
+#, php-format
+msgid "Using deprecated bbPress %1$s - %2$s - replace with - %3$s"
+msgstr "Używany jest niekompatybilny z obecnie obowiązującym %1$s bbPressa - %2$s - nowy format: %3$s"
+
+#: bb-includes/functions.bb-core.php:216
+#: bb-includes/functions.bb-template.php:1288
+msgid "&laquo; Previous"
+msgstr "&laquo; Poprzednie"
+
+#: bb-includes/functions.bb-core.php:217
+#: bb-includes/functions.bb-template.php:1289
+msgid "Next &raquo;"
+msgstr "Następne &raquo;"
+
+#: bb-includes/functions.bb-core.php:223
+#, php-format
+msgid "Page %d"
+msgstr "Strona %d"
+
+#: bb-includes/functions.bb-core.php:224
+msgid "Previous page"
+msgstr "Poprzednia strona"
+
+#: bb-includes/functions.bb-core.php:225
+msgid "Next page"
+msgstr "Następna strona"
+
+#: bb-includes/functions.bb-core.php:385
+#, php-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d rok"
+msgstr[1] "%d lata"
+msgstr[2] "%d lat"
+
+#: bb-includes/functions.bb-core.php:386
+#, php-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d miesiąc"
+msgstr[1] "%d miesiące"
+msgstr[2] "%d miesiący"
+
+#: bb-includes/functions.bb-core.php:387
+#, php-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d tydzień"
+msgstr[1] "%d tygodnie"
+msgstr[2] "%d tygodni"
+
+#: bb-includes/functions.bb-core.php:388
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d dzień"
+msgstr[1] "%d dni"
+msgstr[2] "%d dni"
+
+#: bb-includes/functions.bb-core.php:389
+#, php-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d godzinę"
+msgstr[1] "%d godziny"
+msgstr[2] "%d godzin"
+
+#: bb-includes/functions.bb-core.php:390
+#, php-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minutę"
+msgstr[1] "%d minuty"
+msgstr[2] "%d minut"
+
+#: bb-includes/functions.bb-core.php:391
+#, php-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d sekundę"
+msgstr[1] "%d sekundy"
+msgstr[2] "%d sekund"
+
+#: bb-includes/functions.bb-core.php:711
+msgid "User not found."
+msgstr "Użytkownik nie został odnaleziony."
+
+#: bb-includes/functions.bb-core.php:784
+msgid "REQUEST_URI"
+msgstr "REQUEST_URI"
+
+#: bb-includes/functions.bb-core.php:785
+msgid "should be"
+msgstr "powinno być"
+
+#: bb-includes/functions.bb-core.php:786
+msgid "full permalink"
+msgstr "cały bezpośredni odnośnik"
+
+#: bb-includes/functions.bb-core.php:787
+msgid "PATH_INFO"
+msgstr "PATH_INFO"
+
+#: bb-includes/functions.bb-core.php:812
+#: bb-templates/kakumei/favorites.php:3
+msgid "Favorites"
+msgstr "Ulubione"
+
+#: bb-includes/functions.bb-core.php:862
+msgid "First name"
+msgstr "Imię"
+
+#: bb-includes/functions.bb-core.php:863
+msgid "Last name"
+msgstr "Nazwisko"
+
+#: bb-includes/functions.bb-core.php:864
+msgid "Display name as"
+msgstr "Podpis"
+
+#: bb-includes/functions.bb-core.php:865
+msgid "Email"
+msgstr "E-mail"
+
+#: bb-includes/functions.bb-core.php:866
+msgid "Website"
+msgstr "Strona internetowa"
+
+#: bb-includes/functions.bb-core.php:867
+msgid "Location"
+msgstr "Położenie"
+
+#: bb-includes/functions.bb-core.php:868
+msgid "Occupation"
+msgstr "Zawód"
+
+#: bb-includes/functions.bb-core.php:869
+msgid "Interests"
+msgstr "Zainteresowania"
+
+#: bb-includes/functions.bb-core.php:876
+msgid "Custom Title"
+msgstr "Własny tytuł"
+
+#: bb-includes/functions.bb-core.php:883
+#, php-format
+msgid "Ignore the %d second post throttling limit"
+msgstr "Zignoruj wymóg %d-sekundowych przerw między kolejnymi wpisami"
+
+#: bb-includes/functions.bb-core.php:960
+msgid "Topics with no replies"
+msgstr "Tematy bez odpowiedzi"
+
+#: bb-includes/functions.bb-core.php:961
+msgid "Topics with no tags"
+msgstr "Tematy bez tagów"
+
+#: bb-includes/functions.bb-core.php:1069
+msgid "bbPress Failure Notice"
+msgstr "Informacja o niepowodzeniu bbPressa"
+
+#: bb-includes/functions.bb-core.php:1072
+msgid "Please try again."
+msgstr "Proszę spróbować ponownie."
+
+#: bb-includes/functions.bb-core.php:1183
+#, php-format
+msgid "Back to <a href=\"%s\">%s</a>."
+msgstr "Powrót do <a href=\"%s\">%s</a>."
+
+#: bb-includes/functions.bb-core.php:1196
+msgid "Your attempt to submit this post has failed."
+msgstr "Twoja próba wysłania tego wpisu nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1197
+msgid "Your attempt to edit this post has failed."
+msgstr "Twoja próba edycji tego wpisu nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1198
+msgid "Your attempt to delete this post has failed."
+msgstr "Twoja próba usunięcia tego wpisu nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1200
+msgid "Your attempt to create this topic has failed."
+msgstr "Twoja próba utworzenia tego tematu nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1201
+msgid "Your attempt to change the resolution status of this topic has failed."
+msgstr "Twoja próba zmiany stanu rozwiązania tego tematu nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1202
+msgid "Your attempt to delete this topic has failed."
+msgstr "Twoja próba usunięcia tego tematu nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1203
+msgid "Your attempt to change the status of this topic has failed."
+msgstr "Twoja próba zmiany stanu tego tematu nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1204
+msgid "Your attempt to change the sticky status of this topic has failed."
+msgstr "Twoja próba zmiany stanu przyklejenia tego tematu nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1205
+msgid "Your attempt to move this topic has failed."
+msgstr "Twoja próba przeniesienia tego tematu nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1207
+msgid "Your attempt to add this tag to this topic has failed."
+msgstr "Twoja próba dodania tagu do tego tematu nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1208
+msgid "Your attempt to rename this tag has failed."
+msgstr "Twoja próba przemianowania tego tematu nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1209
+msgid "Your attempt to submit these tags has failed."
+msgstr "Twoja próba wysłania tych tagów nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1210
+msgid "Your attempt to destroy this tag has failed."
+msgstr "Twoja próba usunięcia tego tagu nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1211
+msgid "Your attempt to remove this tag from this topic has failed."
+msgstr "Twoja próba usunięcia tego tagu z tematu nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1213
+msgid "Your attempt to toggle your favorite status for this topic has failed."
+msgstr "Twoja próba zmiany stanu ulubienia tego tematu nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1215
+msgid "Your attempt to edit this user's profile has failed."
+msgstr "Twoja próba edycji profilu tego użytkownika nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1217
+msgid "Your attempt to add this forum has failed."
+msgstr "Twoja próba dodania tego działu nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1218
+msgid "Your attempt to update your forums has failed."
+msgstr "Twoja próba aktualizacji działów nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1219
+msgid "Your attempt to delete that forum has failed."
+msgstr "Twoja próba usunięcia tego działu nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1221
+msgid "Your attempt to recount these items has failed."
+msgstr "Twoja próba ponownego zliczenia tych elementów nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1223
+msgid "Your attempt to switch themes has failed."
+msgstr "Twoja próba zmiany motywu nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1238
+msgid "Your attempt to do this has failed."
+msgstr "Twoja próba wykonania tej operacji nie powiodła się."
+
+#: bb-includes/functions.bb-core.php:1449
+#: bb-includes/functions.bb-core.php:1582
+msgid "Your search term was too short"
+msgstr "Twoje kryterium wyszukiwania było zbyt krótkie"
+
+#: bb-includes/functions.bb-core.php:1529
+msgid "Your query parameters are invalid"
+msgstr "Parametry Twojego zapytania są nieprawidłowe"
+
+#: bb-includes/functions.bb-formatting.php:297
+#: bb-includes/functions.bb-formatting.php:301
+#, php-format
+msgid "[sticky] %s"
+msgstr "[przyklejony] %s"
+
+#: bb-includes/functions.bb-formatting.php:310
+#, php-format
+msgid "[closed] %s"
+msgstr "[zamknięty] %s"
+
+#: bb-includes/functions.bb-meta.php:334
+msgid "Please give me a name!"
+msgstr "Proszę, nazwij mnie jakoś!"
+
+#: bb-includes/functions.bb-pluggable.php:586
+#: bb-includes/functions.bb-pluggable.php:595
+msgid "Invalid username"
+msgstr "Nieprawidłowa nazwa użytkownika"
+
+#: bb-includes/functions.bb-script-loader.php:18
+msgid ""
+"You are about to delete the selected items.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Zamierzasz usunąć wybrane elementy.\n"
+"  Kliknij 'Anuluj', aby anulować tę operację, lub 'OK', aby ją sfinalizować."
+
+#: bb-includes/functions.bb-script-loader.php:22
+msgid "drag"
+msgstr "przeciągnij"
+
+#: bb-includes/functions.bb-script-loader.php:23
+msgid "Save Forum Order"
+msgstr "Zapisz kolejność działów"
+
+#: bb-includes/functions.bb-script-loader.php:24
+msgid "Edit Forum Order"
+msgstr "Edytuj kolejność działów"
+
+#: bb-includes/functions.bb-script-loader.php:34
+msgid "You do not have permission to do that."
+msgstr "Nie posiadasz uprawnień do wykonania tej operacji."
+
+#: bb-includes/functions.bb-script-loader.php:35
+msgid "An unidentified error has occurred."
+msgstr "Wystąpił niezidentyfikowany błąd."
+
+#: bb-includes/functions.bb-script-loader.php:44
+msgid "Too short"
+msgstr "Zbyt krótkie"
+
+#: bb-includes/functions.bb-script-loader.php:45
+msgid "Bad"
+msgstr "Słabe"
+
+#: bb-includes/functions.bb-script-loader.php:46
+msgid "Good"
+msgstr "Dobre"
+
+#: bb-includes/functions.bb-script-loader.php:47
+msgid "Strong"
+msgstr "Silne"
+
+#: bb-includes/functions.bb-script-loader.php:87
+msgid "Are you sure you wanna delete this post?"
+msgstr "Czy na pewno chcesz usunąć ten wpis?"
+
+#: bb-includes/functions.bb-script-loader.php:88
+msgid "Are you sure you wanna undelete this post?"
+msgstr "Czy na pewno chcesz cofnąć usunięcie tego wpisu?"
+
+#: bb-includes/functions.bb-script-loader.php:89
+#: bb-templates/kakumei/favorites.php:5
+msgid "favorites"
+msgstr "- ulubione"
+
+#: bb-includes/functions.bb-script-loader.php:90
+msgid "?"
+msgstr "?"
+
+#: bb-includes/functions.bb-script-loader.php:91
+msgid "This topic is one of your %favLinkYes% [%favDel%]"
+msgstr "Ten temat jest jednym z Twoich %favLinkYes% [%favDel%]"
+
+#: bb-includes/functions.bb-script-loader.php:92
+msgid "%favAdd% (%favLinkNo%)"
+msgstr "%favAdd% (%favLinkNo%)"
+
+#: bb-includes/functions.bb-script-loader.php:93
+#: bb-includes/functions.bb-template.php:3361
+msgid "&times;"
+msgstr "&times;"
+
+#: bb-includes/functions.bb-script-loader.php:94
+#: bb-includes/functions.bb-template.php:3359
+msgid "Add this topic to your favorites"
+msgstr "Dodaj ten temat do swoich ulubionych"
+
+#: bb-includes/functions.bb-template.php:222
+#: bb-templates/kakumei/profile.php:3
+msgid "Profile"
+msgstr "Profil"
+
+#: bb-includes/functions.bb-template.php:274
+msgid "Reply"
+msgstr "Odpowiedz"
+
+#: bb-includes/functions.bb-template.php:276
+msgid "New Topic in this Forum"
+msgstr "Nowy temat w tym dziale"
+
+#: bb-includes/functions.bb-template.php:278
+#: bb-templates/kakumei/front-page.php:86
+msgid "Add New Topic"
+msgstr "Dodaj nowy temat"
+
+#: bb-includes/functions.bb-template.php:311
+#, php-format
+msgid "You must <a href=\"%s\">log in</a> to post."
+msgstr "Musisz <a href=\"%s\">się zalogować</a>, aby móc pisać."
+
+#: bb-includes/functions.bb-template.php:509
+#: bb-templates/kakumei/tag-single.php:3
+#: bb-templates/kakumei/tags.php:3
+msgid "Tags"
+msgstr "Tagi"
+
+#: bb-includes/functions.bb-template.php:543
+#: rss.php:111
+#, php-format
+msgid "%1$s &raquo; User Favorites: %2$s"
+msgstr "%1$s &raquo; Ulubione użytkownika: %2$s"
+
+#: bb-includes/functions.bb-template.php:550
+#: rss.php:94
+#, php-format
+msgid "%1$s &raquo; Topic: %2$s"
+msgstr "%1$s &raquo; Temat: %2$s"
+
+#: bb-includes/functions.bb-template.php:558
+#: rss.php:137
+#, php-format
+msgid "%1$s &raquo; Tag: %2$s - Recent Posts"
+msgstr "%1$s &raquo; Tag: %2$s - Ostatnie wpisy"
+
+#: bb-includes/functions.bb-template.php:562
+#: rss.php:127
+#, php-format
+msgid "%1$s &raquo; Tag: %2$s - Recent Topics"
+msgstr "%1$s &raquo; Tag: %2$s - Ostatnie wpisy"
+
+#: bb-includes/functions.bb-template.php:570
+#: rss.php:159
+#, php-format
+msgid "%1$s &raquo; Forum: %2$s - Recent Posts"
+msgstr "%1$s &raquo; Dział: %2$s - Ostatnie wpisy"
+
+#: bb-includes/functions.bb-template.php:574
+#: rss.php:151
+#, php-format
+msgid "%1$s &raquo; Forum: %2$s - Recent Topics"
+msgstr "%1$s &raquo; Dział: %2$s - Ostatnie tematy"
+
+#: bb-includes/functions.bb-template.php:581
+#: rss.php:184
+#, php-format
+msgid "%1$s &raquo; Recent Posts"
+msgstr "%1$s &raquo; Ostatnie wpisy"
+
+#: bb-includes/functions.bb-template.php:585
+#: rss.php:174
+#, php-format
+msgid "%1$s &raquo; Recent Topics"
+msgstr "%1$s &raquo; Ostatnie tematy"
+
+#: bb-includes/functions.bb-template.php:594
+#: rss.php:84
+#, php-format
+msgid "%1$s &raquo; View: %2$s"
+msgstr "%1$s &raquo; Widok: %2$s"
+
+#: bb-includes/functions.bb-template.php:1390
+msgid "Are you sure you wanna delete that?"
+msgstr "Czy na pewno chcesz to usunąć?"
+
+#: bb-includes/functions.bb-template.php:1391
+msgid "Delete entire topic"
+msgstr "Usuń cały temat"
+
+#: bb-includes/functions.bb-template.php:1394
+msgid "Are you sure you wanna undelete that?"
+msgstr "Czy na pewno chcesz cofnąć temu usunięcie?"
+
+#: bb-includes/functions.bb-template.php:1395
+msgid "Undelete entire topic"
+msgstr "Cofnij usunięcie całego tematu"
+
+#: bb-includes/functions.bb-template.php:1418
+msgid "Close topic"
+msgstr "Zamknij temat"
+
+#: bb-includes/functions.bb-template.php:1420
+msgid "Open topic"
+msgstr "Otwórz temat"
+
+#: bb-includes/functions.bb-template.php:1452
+msgid "Unstick topic"
+msgstr "Odklej temat"
+
+#: bb-includes/functions.bb-template.php:1454
+msgid "Stick topic"
+msgstr "Przyklej temat"
+
+#: bb-includes/functions.bb-template.php:1454
+msgid "to front"
+msgstr "na stronie głównej"
+
+#: bb-includes/functions.bb-template.php:1461
+msgid "View normal posts"
+msgstr "Zobacz normalne wpisy"
+
+#: bb-includes/functions.bb-template.php:1463
+msgid "View all posts"
+msgstr "Zobacz wszystkie wpisy"
+
+#: bb-includes/functions.bb-template.php:1473
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s wpis"
+msgstr[1] "%s wpisy"
+msgstr[2] "%s wpisów"
+
+#: bb-includes/functions.bb-template.php:1486
+#, php-format
+msgid "+%d more"
+msgstr "+ jeszcze %d"
+
+#: bb-includes/functions.bb-template.php:1530
+msgid "Move to"
+msgstr "Przenieś do"
+
+#: bb-includes/functions.bb-template.php:1533
+msgid "Move"
+msgstr "Przenieś"
+
+#: bb-includes/functions.bb-template.php:1567
+msgid "Add New &raquo;"
+msgstr "Dodaj nowy &raquo;"
+
+#: bb-includes/functions.bb-template.php:1743
+msgid "Anonymous"
+msgstr "Anonim"
+
+#: bb-includes/functions.bb-template.php:2128
+#: bb-includes/functions.bb-template.php:2142
+msgid "PingBack"
+msgstr "Pingback"
+
+#: bb-includes/functions.bb-template.php:2130
+#: bb-includes/functions.bb-template.php:2144
+msgid "Unregistered"
+msgstr "Niezarejestrowany"
+
+#: bb-includes/functions.bb-template.php:2232
+msgid "Delete User &raquo;"
+msgstr "Usuń użytkownika &raquo;"
+
+#: bb-includes/functions.bb-template.php:2233
+msgid "Are you sure you want to delete this user?"
+msgstr "Czy na pewno chcesz usunąć tego użytkownika?"
+
+#: bb-includes/functions.bb-template.php:2360
+msgid "Member Since"
+msgstr "Członek od"
+
+#: bb-includes/functions.bb-template.php:2513
+#: bb-includes/functions.bb-template.php:2662
+#: bb-templates/kakumei/register.php:65
+msgid "These items are <span class=\"required\">required</span>."
+msgstr "Wypełnienie tych pól jest <span class=\"required\">wymagane</span>."
+
+#: bb-includes/functions.bb-template.php:2550
+msgid "User Type"
+msgstr "Typ użytkownika"
+
+#: bb-includes/functions.bb-template.php:2575
+msgid "Allow this user to"
+msgstr "Pozwól temu użytkownikowi"
+
+#: bb-includes/functions.bb-template.php:2665
+msgid "Inactive users can login and look around but not do anything. Blocked users just see a simple error message when they visit the site."
+msgstr "Nieaktywni użytkownicy mogą się zalogować i rozejrzeć, ale nie mogą niczego zrobić. Zablokowani użytkownicy zobaczą jedynie prostą informację o błędzie, kiedy odwiedzą tę stronę."
+
+#: bb-includes/functions.bb-template.php:2666
+msgid "<strong>Note</strong>: Blocking a user does <em>not</em> block any IP addresses."
+msgstr "<strong>Uwaga</strong>: Zablokowanie użytkownika <em>nie</em> powoduje zablokowania jakichkolwiek adresów IP."
+
+#: bb-includes/functions.bb-template.php:2689
+msgid "New password"
+msgstr "Nowe hasło"
+
+#: bb-includes/functions.bb-template.php:2702
+msgid "Password Strength"
+msgstr "Siła hasła"
+
+#: bb-includes/functions.bb-template.php:2706
+msgid "Disabled (requires JavaScript)"
+msgstr "Wyłączone (wymaga JavaScriptu)"
+
+#: bb-includes/functions.bb-template.php:2712
+msgid "Disabled (requires jQuery)"
+msgstr "Wyłączone (wymaga jQuery)"
+
+#: bb-includes/functions.bb-template.php:2719
+msgid "Hint: Use upper and lower case characters, numbers and symbols like !\"?$%^&amp;( in your password."
+msgstr "Wskazówka: W swoim haśle użyj wielkich i małych liter, cyfr oraz symboli, takich jak !, \", ?, $, %, ^ czy &amp;."
+
+#: bb-includes/functions.bb-template.php:2733
+msgid "Log Out"
+msgstr "Wyloguj się"
+
+#: bb-includes/functions.bb-template.php:2759
+msgid "Admin"
+msgstr "Administracja"
+
+#: bb-includes/functions.bb-template.php:2778
+msgid "View your profile"
+msgstr "Zobacz swój profil"
+
+#: bb-includes/functions.bb-template.php:3073
+msgid "Add &raquo;"
+msgstr "Dodaj &raquo;"
+
+#: bb-includes/functions.bb-template.php:3109
+msgid "Rename tag:"
+msgstr "Przemianuj tag:"
+
+#: bb-includes/functions.bb-template.php:3113
+msgid "Rename"
+msgstr "Przemianuj"
+
+#: bb-includes/functions.bb-template.php:3117
+msgid "Merge this tag into:"
+msgstr "Scal ten tag z:"
+
+#: bb-includes/functions.bb-template.php:3121
+msgid "Merge"
+msgstr "Scal"
+
+#: bb-includes/functions.bb-template.php:3122
+#, php-format
+msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified? This is permanent and cannot be undone."
+msgstr "Czy na pewno chcesz scalić tag \"%s\" z podanym tagiem? Działanie to nie może zostać cofnięte."
+
+#: bb-includes/functions.bb-template.php:3126
+msgid "Destroy tag:"
+msgstr "Usuń tag:"
+
+#: bb-includes/functions.bb-template.php:3129
+msgid "Destroy"
+msgstr "Usuń"
+
+#: bb-includes/functions.bb-template.php:3130
+#, php-format
+msgid "Are you sure you want to destroy the \"%s\" tag? This is permanent and cannot be undone."
+msgstr "Czy na pewno chcesz usunąć tag \"%s\"? Działanie to nie może zostać cofnięte."
+
+#: bb-includes/functions.bb-template.php:3156
+msgid "Remove this tag"
+msgstr "Usuń ten tag"
+
+#: bb-includes/functions.bb-template.php:3213
+#, php-format
+msgid "%d topics"
+msgstr "%d tematów"
+
+#: bb-includes/functions.bb-template.php:3278
+msgid "- None -"
+msgstr "Brak"
+
+#: bb-includes/functions.bb-template.php:3359
+msgid " (%?%)"
+msgstr " (%?%)"
+
+#: bb-includes/functions.bb-template.php:3361
+msgid "This topic is one of your %favorites% ["
+msgstr "Ten temat jest jednym z Twoich %favorites% ["
+
+#: bb-includes/functions.bb-template.php:3361
+msgid "]"
+msgstr "]"
+
+#: bb-includes/functions.bb-users.php:9
+msgid "You've been blocked.  If you think a mistake has been made, contact this site's administrator."
+msgstr "To konto zostało zblokowane.  Jeżeli uważasz, że popełniono błąd, skontaktuj się z administratorem strony."
+
+#: bb-includes/functions.bb-users.php:261
+msgid "The specified user does not exist."
+msgstr "Podane konto użytkownika nie istnieje."
+
+#: bb-includes/functions.bb-users.php:267
+#, php-format
+msgid ""
+"If you wanted to reset your password, you may do so by visiting the following address:\n"
+"\n"
+"%s\n"
+"\n"
+"If you don't want to reset your password, just ignore this email. Thanks!"
+msgstr ""
+"Jeżeli chcesz uzyskać nowe hasło, możesz to uczynić przez przejście pod poniższy adres:\n"
+"\n"
+"%s\n"
+"\n"
+"Jeśli jednak nie chcesz tego robić, po prostu zignoruj tego e-maila. Dzięki!"
+
+#: bb-includes/functions.bb-users.php:277
+#: bb-templates/kakumei/password-reset.php:5
+msgid "Password Reset"
+msgstr "Generowanie nowego hasła"
+
+#: bb-includes/functions.bb-users.php:282
+msgid "The email containing the password reset link could not be sent."
+msgstr "E-mail zawierający odnośnik pozwalający na uzyskanie nowego hasła nie mógł zostać wysłany."
+
+#: bb-includes/functions.bb-users.php:304
+#: bb-includes/functions.bb-users.php:306
+#: bb-includes/functions.bb-users.php:321
+msgid "Key not found."
+msgstr "Klucz nie został znaleziony."
+
+#: bb-includes/functions.bb-users.php:311
+msgid "You are not allowed to change your password."
+msgstr "Nie posiadasz uprawnienia do zmiany swojego hasła."
+
+#: bb-includes/functions.bb-users.php:315
+msgid "The email containing the new password could not be sent."
+msgstr "E-mail zawierający nowe hasło nie mógł zostać wysłany."
+
+#: bb-includes/functions.bb-users.php:364
+#, php-format
+msgid ""
+"Your username is: %1$s \n"
+"Your password is: %2$s \n"
+"You can now log in: %3$s \n"
+"\n"
+"Enjoy!"
+msgstr ""
+"Twoja nazwa użytkownika: %1$s \n"
+"Twoje hasło: %2$s \n"
+"Możesz się zalogować pod adresem %3$s \n"
+"\n"
+"Baw się dobrze!"
+
+#: bb-includes/functions.bb-users.php:368
+#: bb-templates/kakumei/login-form.php:18
+#: bb-templates/kakumei/login.php:27
+#: bb-templates/kakumei/profile-edit.php:20
+msgid "Password"
+msgstr "Hasło"
+
+#: bb-login.php:78
+msgid "User does not exist."
+msgstr "Konto użytkownika nie istnieje."
+
+#: bb-login.php:80
+msgid "Enter a username or email address."
+msgstr "Wprowadź nazwę użytkownika lub adres e-mail."
+
+#: bb-login.php:80
+msgid "Enter a username."
+msgstr "Wprowadź nazwę użytkownika."
+
+#: bb-login.php:86
+msgid "Incorrect password."
+msgstr "Nieprawidłowe hasło."
+
+#: bb-login.php:93
+msgid "Username and Password do not match."
+msgstr "Nazwa użytkownika i hasło nie zgadzają się."
+
+#: bb-plugins/akismet.php:57
+msgid "Akismet Settings"
+msgstr "Ustawienia Akismeta"
+
+#: bb-plugins/akismet.php:62
+#, php-format
+msgid "For many people, <a href=\"%s\">Akismet</a> will greatly reduce or even completely eliminate the spam you get on your site. If one does happen to get through, simply mark it as \"spam\" and Akismet will learn from the mistakes."
+msgstr "W wielu przypadkach <a href=\"%s\">Akismet</a> znacznie redukuje lub nawet kompletnie eliminuje spam wysyłany na stronę, jeżeli jednak jakiemuś uda się przedostać, po prostu oznacz go jako spam na ekranie moderacji, a Akismet nauczy się na tym błędzie."
+
+#: bb-plugins/akismet.php:68
+msgid "This key is valid"
+msgstr "Ten klucz jest prawidłowy"
+
+#: bb-plugins/akismet.php:75
+msgid "WordPress.com API Key"
+msgstr "Klucz API z WordPress.com"
+
+#: bb-plugins/akismet.php:78
+#, php-format
+msgid "If you don't have a WordPress.com API Key, you can get one at <a href=\"%s\">WordPress.com</a>"
+msgstr "Jeśli nie posiadasz klucza API WordPress.com, możesz go zdobyć na <a href=\"%s\">tej stronie</a>."
+
+#: bb-plugins/akismet.php:82
+msgid "Enable stats page"
+msgstr "Włącz stronę statystyk"
+
+#: bb-plugins/akismet.php:85
+msgid "Create a page that shows spam statistics."
+msgstr "Tworzy stronę, na której umieszczone są statystyki dotyczące spamu."
+
+#: bb-plugins/akismet.php:87
+msgid "This page will be viewable by moderators or higher."
+msgstr "Strona ta będzie widoczna dla moderatorów i osób z wyższą rolą."
+
+#: bb-plugins/akismet.php:103
+msgid "Akismet"
+msgstr "Akismet"
+
+#: bb-plugins/akismet.php:151
+msgid "<strong>The key you attempted to enter is invalid. Reverting to previous setting.</strong>"
+msgstr "<strong>Klucz, który próbowano wprowadzić, jest nieprawidłowy. Przywracanie poprzednich ustawień.</strong>"
+
+#: bb-plugins/akismet.php:218
+msgid "Akismet Stats"
+msgstr "Statystyki Akismeta"
+
+#: bb-plugins/akismet.php:440
+msgid "Not Spam"
+msgstr "To nie jest spam"
+
+#: bb-plugins/akismet.php:446
+#: bb-plugins/akismet.php:476
+msgid "Spam"
+msgstr "Będący spamem"
+
+#: bb-plugins/bozo.php:95
+msgid "Counted the number of bozo posts in each topic"
+msgstr "Zliczono wpisy trolli w każdym z tematów"
+
+#: bb-plugins/bozo.php:123
+msgid "Counted each bozo user&#039;s total posts as well as the total topics to which they have replied"
+msgstr "Zliczono wpisy każdego użytkownika oznaczonego jako troll oraz tematy, na które odpowiedział"
+
+#: bb-plugins/bozo.php:171
+msgid "Count each bozo user&#039;s total posts as well as the total topics to which they have replied"
+msgstr "Zlicz wpisy każdego użytkownika oznaczonego jako troll oraz tematy, na które odpowiedział"
+
+#: bb-plugins/bozo.php:172
+msgid "Count the number of bozo posts in each topic"
+msgstr "Zlicz wpisy trolli w każdym z tematów"
+
+#: bb-plugins/bozo.php:272
+msgid "This user is a bozo"
+msgstr "Ten użytkownik jest trollem"
+
+#: bb-plugins/bozo.php:310
+msgid "Bozos only"
+msgstr "Tylko trolle"
+
+#: bb-post.php:8
+msgid "Slow down; you move too fast."
+msgstr "Przemieszczasz się zbyt szybko. Zwolnij troszkę."
+
+#: bb-post.php:11
+msgid "You need to actually submit some content!"
+msgstr "Musisz wysłać jakąś wiadomość!"
+
+#: bb-post.php:15
+#: bb-post.php:36
+msgid "You are not allowed to post.  Are you logged in?"
+msgstr "Nie posiadasz uprawnienia do pisania.  Czy zalogowano się?"
+
+#: bb-post.php:18
+msgid "You are not allowed to write new topics."
+msgstr "Nie posiadasz uprawnień do pisania nowych tematów."
+
+#: bb-post.php:26
+msgid "Please enter a topic title"
+msgstr "Proszę wprowadzić tytuł tematu"
+
+#: bb-post.php:39
+msgid "This topic has been closed"
+msgstr "Ten temat został zamknięty."
+
+#: bb-reset-password.php:10
+msgid "No username specified"
+msgstr "Nie podano nazwy użytkownika"
+
+#: bb-settings.php:455
+msgid "Could not determine site URI"
+msgstr "Nie można było określić URI strony"
+
+#: bb-templates/kakumei/404.php:3
+#: bb-templates/kakumei/404.php:5
+msgid "Page not found!"
+msgstr "Strona nie została znaleziona!"
+
+#: bb-templates/kakumei/404.php:7
+msgid "I'm sorry, but there is nothing at this URL."
+msgstr "Przepraszam, ale pod tym adresem URL niczego nie ma."
+
+#: bb-templates/kakumei/edit-form.php:15
+msgid "Edit Post &raquo;"
+msgstr "Edytuj wpis &raquo;"
+
+#: bb-templates/kakumei/edit-form.php:19
+#: bb-templates/kakumei/post-form.php:29
+msgid "Allowed markup:"
+msgstr "Dozwolone znaczniki:"
+
+#: bb-templates/kakumei/edit-form.php:19
+msgid "Put code in between <code>`backticks`</code>."
+msgstr "Wstaw kod pomiędzy <code>`gravisy`</code>."
+
+#: bb-templates/kakumei/edit-post.php:2
+msgid "Edit Post"
+msgstr "Edytuj wpis"
+
+#: bb-templates/kakumei/favorites.php:5
+#, php-format
+msgid " - %d"
+msgstr " - %d"
+
+#: bb-templates/kakumei/favorites.php:7
+msgid "Favorites allow members to create a custom <abbr title=\"Really Simple Syndication\">RSS</abbr> feed which pulls recent replies to the topics they specify."
+msgstr "Ulubione pozwalają użytkownikom na tworzenie własnych kanałów <abbr title=\"Really Simple Syndication\">RSS</abbr>, które informują o ostatnich odpowiedziach do tematów, które zostaną oznaczone jako ulubione."
+
+#: bb-templates/kakumei/favorites.php:9
+msgid "To add topics to your list of favorites, just click the \"Add to Favorites\" link found on that topic&#8217;s page."
+msgstr "Aby dodać temat do swojej listy ulubionych, po prostu kliknij odnośnik \"Dodaj do ulubionych\" znajdujący się na stronie tego tematu."
+
+#: bb-templates/kakumei/favorites.php:18
+#: bb-templates/kakumei/forum.php:11
+#: bb-templates/kakumei/front-page.php:19
+#: bb-templates/kakumei/tag-single.php:13
+#: bb-templates/kakumei/view.php:11
+msgid "Voices"
+msgstr "Głosy"
+
+#: bb-templates/kakumei/favorites.php:19
+#: bb-templates/kakumei/forum.php:12
+#: bb-templates/kakumei/front-page.php:20
+#: bb-templates/kakumei/tag-single.php:14
+#: bb-templates/kakumei/view.php:12
+msgid "Last Poster"
+msgstr "Autor ostatniego wpisu"
+
+#: bb-templates/kakumei/favorites.php:22
+msgid "Remove"
+msgstr "Usuń"
+
+#: bb-templates/kakumei/favorites.php:40
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for these favorites"
+msgstr "Kanał <abbr title=\"Really Simple Syndication\">RSS</abbr> tych ulubionych"
+
+#: bb-templates/kakumei/favorites.php:46
+msgid "You currently have no favorites."
+msgstr "Obecnie nie masz żadnych ulubionych."
+
+#: bb-templates/kakumei/favorites.php:50
+msgid "currently has no favorites."
+msgstr "obecnie nie ma żadnych ulubionych."
+
+#: bb-templates/kakumei/footer.php:4
+#, php-format
+msgid "%1$s is proudly powered by <a href=\"%2$s\">bbPress</a>."
+msgstr "%1$s jest dumne z bycia opartym na <a href=\"%2$s\">bbPressie</a>."
+
+#: bb-templates/kakumei/forum.php:36
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this forum"
+msgstr "Kanał <abbr title=\"Really Simple Syndication\">RSS</abbr> tego działu"
+
+#: bb-templates/kakumei/forum.php:41
+msgid "Subforums"
+msgstr "Poddziały"
+
+#: bb-templates/kakumei/forum.php:45
+#: bb-templates/kakumei/front-page.php:52
+msgid "Main Theme"
+msgstr "Główna sekcja"
+
+#: bb-templates/kakumei/front-page.php:6
+msgid "Hot Tags"
+msgstr "Gorące tagi"
+
+#: bb-templates/kakumei/front-page.php:13
+msgid "Latest Discussions"
+msgstr "Ostatnie dyskusje"
+
+#: bb-templates/kakumei/front-page.php:73
+msgid "Views"
+msgstr "Opcje wyświetlania"
+
+#: bb-templates/kakumei/logged-in.php:2
+#, php-format
+msgid "Welcome, %1$s"
+msgstr "Witaj, %1$s"
+
+#: bb-templates/kakumei/login-form.php:5
+#, php-format
+msgid "<a href=\"%1$s\">Register</a> or log in - <a href=\"%2$s\">lost password?</a>"
+msgstr "<a href=\"%1$s\">Zarejestruj się</a> lub zaloguj - <a href=\"%2$s\">nie pamiętasz swojego hasła?</a>"
+
+#: bb-templates/kakumei/login-form.php:24
+#: bb-templates/kakumei/login.php:43
+msgid "Log in &raquo;"
+msgstr "Zaloguj się &raquo;"
+
+#: bb-templates/kakumei/login-form.php:29
+#: bb-templates/kakumei/login.php:36
+msgid "Remember me"
+msgstr "Zapamiętaj mnie"
+
+#: bb-templates/kakumei/login.php:3
+#: bb-templates/kakumei/login.php:5
+#: bb-templates/kakumei/password-reset.php:3
+msgid "Log in"
+msgstr "Zaloguj się"
+
+#: bb-templates/kakumei/login.php:5
+msgid "Log in Failed"
+msgstr "Nieudane logowanie się"
+
+#: bb-templates/kakumei/login.php:43
+msgid "Try Again &raquo;"
+msgstr "Try Again &raquo;"
+
+#: bb-templates/kakumei/login.php:52
+msgid "Password Recovery"
+msgstr "Odzyskiwanie hasła"
+
+#: bb-templates/kakumei/login.php:55
+msgid "To recover your password, enter your information below."
+msgstr "Aby odzyskać swoje hasło, wprowadź poniżej swoje dane."
+
+#: bb-templates/kakumei/login.php:68
+msgid "Recover Password &raquo;"
+msgstr "Odzyskaj hasło &raquo;"
+
+#: bb-templates/kakumei/password-reset.php:12
+msgid "An email has been sent to the address we have on file for you. If you don&#8217;t get anything within a few minutes, or your email has changed, you may want to get in touch with the webmaster or forum administrator here."
+msgstr "Na adres e-mail, widniejący w bazie danych jako Twój adres kontaktowy, wysłaliśmy wiadomość. Jeżeli nie otrzymasz niczego w ciągu kilku minut lub korzystasz w innego adresu e-mail, możesz chcieć skontaktować się z webmasterem lub administratorem forum."
+
+#: bb-templates/kakumei/password-reset.php:15
+msgid "Your password has been reset and a new one has been mailed to you."
+msgstr "Twoje hasło zostało zastąpione nowym, które zostało wysłane na Twój adres e-mail."
+
+#: bb-templates/kakumei/post-form.php:14
+msgid "Tags (comma seperated)"
+msgstr "Tagi (oddzielone przecinkami)"
+
+#: bb-templates/kakumei/post-form.php:26
+msgid "Send Post &raquo;"
+msgstr "Wyślij wpis &raquo;"
+
+#: bb-templates/kakumei/post-form.php:29
+msgid "You can also put code in between backtick ( <code>`</code> ) characters."
+msgstr "Możesz także umieścić kod pomiędzy gravisami ( <code>`</code> )."
+
+#: bb-templates/kakumei/post.php:11
+#, php-format
+msgid "Posted %s ago"
+msgstr "Napisano %s temu"
+
+#: bb-templates/kakumei/profile-edit.php:3
+msgid "Edit Profile"
+msgstr "Edytuj profil"
+
+#: bb-templates/kakumei/profile-edit.php:7
+msgid "Profile Info"
+msgstr "Profil"
+
+#: bb-templates/kakumei/profile-edit.php:13
+msgid "Administration"
+msgstr "Administracja"
+
+#: bb-templates/kakumei/profile-edit.php:21
+msgid "To change your password, enter a new password twice below:"
+msgstr "Aby zmienić swoje hasło, dwukrotnie wprowadź poniżej nowe hasło:"
+
+#: bb-templates/kakumei/profile-edit.php:26
+msgid "Update Profile &raquo;"
+msgstr "Zaktualizuj profil &raquo;"
+
+#: bb-templates/kakumei/profile.php:14
+msgid "Profile updated"
+msgstr "Profil został zaktualizowany"
+
+#: bb-templates/kakumei/profile.php:14
+msgid "Edit again &raquo;"
+msgstr "Edytuj ponownie &raquo;"
+
+#: bb-templates/kakumei/profile.php:18
+msgid "This is how your profile appears to a logged in member."
+msgstr "Oto jak Twój profil prezentuje się zalogowanemu użytkownikowi."
+
+#: bb-templates/kakumei/profile.php:21
+#, php-format
+msgid "You may <a href=\"%1$s\">edit this information</a>."
+msgstr "Możesz <a href=\"%1$s\">zmienić poniższe informacje</a>."
+
+#: bb-templates/kakumei/profile.php:26
+#, php-format
+msgid "You can also <a href=\"%1$s\">manage your favorites</a> and subscribe to your favorites&#8217; <a href=\"%2$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr "Możesz także <a href=\"%1$s\">zarządzać swoimi ulubionymi</a> i zasubskrybować kanał <a href=\"%2$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> Twoich ulubionych</a>."
+
+#: bb-templates/kakumei/profile.php:34
+msgid "User Activity"
+msgstr "Aktywność użytkownika"
+
+#: bb-templates/kakumei/profile.php:36
+msgid "Recent Replies"
+msgstr "Ostatnie odpowiedzi"
+
+#: bb-templates/kakumei/profile.php:42
+#, php-format
+msgid "You last replied: %s ago"
+msgstr "Twoja ostatnia odpowiedź: %s temu"
+
+#: bb-templates/kakumei/profile.php:42
+#, php-format
+msgid "User last replied: %s ago"
+msgstr "Ostatnia odpowiedź użytkownika: %s temu"
+
+#: bb-templates/kakumei/profile.php:46
+#: bb-templates/kakumei/profile.php:71
+#, php-format
+msgid "Most recent reply: %s ago"
+msgstr "Najnowsza odpowiedź: %s temu"
+
+#: bb-templates/kakumei/profile.php:48
+msgid "No replies since"
+msgstr "Dotychczas brak odpowiedzi"
+
+#: bb-templates/kakumei/profile.php:54
+msgid "No more replies."
+msgstr "Nie ma więcej odpowiedzi."
+
+#: bb-templates/kakumei/profile.php:56
+msgid "No replies yet."
+msgstr "Dotychczas brak odpowiedzi."
+
+#: bb-templates/kakumei/profile.php:61
+msgid "Topics Started"
+msgstr "Tematy rozpoczęte"
+
+#: bb-templates/kakumei/profile.php:67
+#, php-format
+msgid "Started: %s ago"
+msgstr "Rozpoczęty: %s temu"
+
+#: bb-templates/kakumei/profile.php:73
+msgid "No replies."
+msgstr "Brak odpowiedzi."
+
+#: bb-templates/kakumei/profile.php:79
+msgid "No more topics posted."
+msgstr "Nie ma więcej żadnych tematów."
+
+#: bb-templates/kakumei/profile.php:81
+msgid "No topics posted yet."
+msgstr "Nie rozpoczęto jeszcze żadnych tematów."
+
+#: bb-templates/kakumei/register-success.php:3
+#: bb-templates/kakumei/register.php:3
+msgid "Register"
+msgstr "Zarejestruj się"
+
+#: bb-templates/kakumei/register-success.php:5
+msgid "Great!"
+msgstr "Świetnie!"
+
+#: bb-templates/kakumei/register-success.php:7
+#, php-format
+msgid "Your registration as <strong>%s</strong> was successful. Within a few minutes you should receive an email with your password."
+msgstr "Twoja rejestracja jako <strong>%s</strong> została ukończona pomyślnie. W ciągu kilku minut w Twojej skrzynce e-mail powinna pojawić się wiadomość z Twoim hasłem."
+
+#: bb-templates/kakumei/register.php:5
+msgid "Registration"
+msgstr "Rejestracja"
+
+#: bb-templates/kakumei/register.php:12
+msgid "Profile Information"
+msgstr "Profil"
+
+#: bb-templates/kakumei/register.php:14
+msgid "Your password will be emailed to the address you provide."
+msgstr "Twoje hasło zostanie wysłane na podany adres e-mail."
+
+#: bb-templates/kakumei/register.php:72
+msgid "Register &raquo;"
+msgstr "Zarejestruj się &raquo;"
+
+#: bb-templates/kakumei/register.php:79
+msgid "You&#8217;re already logged in, why do you need to register?"
+msgstr "Zalogowano się już, dlaczego chcesz się zarejestrować?"
+
+#: bb-templates/kakumei/rss2.php:19
+msgid "Search all topics from these forums."
+msgstr "Przeszukaj wszystkie tematy na tym forum."
+
+#: bb-templates/kakumei/rss2.php:27
+msgid "on"
+msgstr "o"
+
+#: bb-templates/kakumei/search-form.php:3
+msgid "Search:"
+msgstr "Szukaj:"
+
+#: bb-templates/kakumei/search-form.php:5
+msgid "Search &raquo;"
+msgstr "Szukaj &raquo;"
+
+#: bb-templates/kakumei/search.php:7
+msgid "Search for"
+msgstr "Szukaj:"
+
+#: bb-templates/kakumei/search.php:12
+msgid "Recent Posts"
+msgstr "Ostatnie wpisy"
+
+#: bb-templates/kakumei/search.php:17
+#: bb-templates/kakumei/search.php:32
+#, php-format
+msgid "Posted %s"
+msgstr "Napisano %s"
+
+#: bb-templates/kakumei/search.php:27
+msgid "Relevant posts"
+msgstr "Pokrewne wpisy"
+
+#: bb-templates/kakumei/search.php:41
+msgid "No results found."
+msgstr "Nie znaleziono żadnych elementów."
+
+#: bb-templates/kakumei/search.php:44
+#, php-format
+msgid "You may also try your <a href=\"http://google.com/search?q=site:%1$s %2$s\">search at Google</a>"
+msgstr "Możesz również spróbować <a href=\"http://google.com/search?q=site:%1$s %2$s\">przeszukać forum z pomocą Google</a>"
+
+#: bb-templates/kakumei/stats.php:3
+#: statistics.php:9
+msgid "Statistics"
+msgstr "Statystyki"
+
+#: bb-templates/kakumei/stats.php:6
+msgid "Registered Users"
+msgstr "Liczba zarejestrowanych użytkowników"
+
+#: bb-templates/kakumei/stats.php:13
+msgid "Most Popular Topics"
+msgstr "Najpopularniejsze tematy"
+
+#: bb-templates/kakumei/tag-single.php:29
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> link for this tag"
+msgstr "Kanał <abbr title=\"Really Simple Syndication\">RSS</abbr> tego tagu"
+
+#: bb-templates/kakumei/tags.php:5
+msgid "This is a collection of tags that are currently popular on the forums."
+msgstr "Oto kolekcja tagów, które są obecnie popularne na tym forum."
+
+#: bb-templates/kakumei/topic-tags.php:2
+msgid "Tags:"
+msgstr "Tagi:"
+
+#: bb-templates/kakumei/topic-tags.php:10
+#, php-format
+msgid "No <a href=\"%s\">tags</a> yet."
+msgstr "Dotychczas brak <a href=\"%s\">tagów</a>."
+
+#: bb-templates/kakumei/topic.php:10
+#, php-format
+msgid "%s voice"
+msgid_plural "%s voices"
+msgstr[0] "%s głos"
+msgstr[1] "%s głosy"
+msgstr[2] "%s głosów"
+
+#: bb-templates/kakumei/topic.php:13
+#, php-format
+msgid "Started %1$s ago by %2$s"
+msgstr "Rozpoczęty %1$s temu, autor: %2$s"
+
+#: bb-templates/kakumei/topic.php:15
+#, php-format
+msgid "<a href=\"%1$s\">Latest reply</a> from %2$s"
+msgstr "<a href=\"%1$s\">Ostatnia odpowiedź</a>, której autorem jest %2$s"
+
+#: bb-templates/kakumei/topic.php:41
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this topic"
+msgstr "Kanał <abbr title=\"Really Simple Syndication\">RSS</abbr> tego tematu"
+
+#: bb-templates/kakumei/topic.php:47
+msgid "Topic Closed"
+msgstr "Temat jest zamknięty"
+
+#: bb-templates/kakumei/topic.php:48
+msgid "This topic has been closed to new replies."
+msgstr "Ten temat został zamknięty na nowe odpowiedzi."
+
+#: bb-templates/kakumei/view.php:37
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this view"
+msgstr "Kanał <abbr title=\"Really Simple Syndication\">RSS</abbr> tego widoku"
+
+#: favorites.php:8
+msgid "You cannot edit those favorites. How did you get here?"
+msgstr "Nie możesz edytować tych ulubionych. Co Ty tutaj robisz?"
+
+#: forum.php:10
+msgid "Forum not found."
+msgstr "Dział nie został znaleziony."
+
+#: profile-edit.php:55
+#: profile-edit.php:96
+#, php-format
+msgid "%s is required."
+msgstr "Wypełnienie pola \"%s\" jest wymagane."
+
+#: profile-edit.php:82
+msgid "Invalid Role"
+msgstr "Nieprawidłowa rola"
+
+#: profile-edit.php:84
+msgid "You are not the Gate Keeper."
+msgstr "Nie jesteś Strażnikiem Bramy."
+
+#: profile-edit.php:86
+msgid "You are Keymaster, so you may not demote yourself."
+msgstr "Jesteś Klucznikiem, więc nie możesz samodzielnie się zdegradować."
+
+#: profile-edit.php:113
+msgid "You must enter the same password twice."
+msgstr "Musisz wprowadzić to samo hasło dwukrotnie."
+
+#: profile-edit.php:115
+msgid "You are not allowed to change this user's password."
+msgstr "Nie posiadasz uprawnień do zmiany hasła tego użytkownika."
+
+#: register.php:27
+#, php-format
+msgid "%s is an invalid username. How's this one?"
+msgstr "%s jest nieprawidłową nazwą użytkownika. Co powiesz na tę?"
+
+#: register.php:29
+#, php-format
+msgid "%s is an invalid username."
+msgstr "%s jest nieprawidłową nazwą użytkownika."
+
+#: register.php:42
+#, php-format
+msgid "%s is required"
+msgstr "Wypełnienie pola %s jest wymagane"
+
+#: tag-add.php:7
+msgid "You need to be logged in to add a tag."
+msgstr "Musisz się zalogować, aby móc dodać tag."
+
+#: tag-add.php:18
+#: topic.php:14
+msgid "Topic not found."
+msgstr "Temat nie został znaleziony."
+
+#: tag-add.php:23
+msgid "The tag was not added.  Either the tag name was invalid or the topic is closed."
+msgstr "Ten tag nie został dodany, ponieważ wprowadzono nieprawidłową nazwę lub temat, który próbowano otagować, został zamknięty."
+
+#: tag-remove.php:17
+msgid "Invalid tag or topic."
+msgstr "Nieprawidłowy tag lub temat."
+
+#: tag-remove.php:24
+msgid "The tag was not removed."
+msgstr "Tag nie został usunięty."
+
+#: tags.php:9
+msgid "Tag not found"
+msgstr "Nie znaleziono tagu"
+
+#: xmlrpc.php:207
+msgid "Authentication failed."
+msgstr "Uwierzytelnianie nie powiodło się."
+
+#: xmlrpc.php:217
+#: xmlrpc.php:255
+msgid "You do not have permission to read this."
+msgstr "Nie posiadasz uprawnień do przeczytania tego."
+
+#: xmlrpc.php:245
+msgid "User switching failed, the requested user does not exist."
+msgstr "Przełączanie użytkowników nie powiodło się - podany użytkownik nie istnieje."
+
+#: xmlrpc.php:588
+#: xmlrpc.php:712
+#: xmlrpc.php:811
+#: xmlrpc.php:998
+#: xmlrpc.php:1124
+#: xmlrpc.php:1233
+#: xmlrpc.php:1344
+#: xmlrpc.php:1541
+#: xmlrpc.php:1898
+#: xmlrpc.php:2747
+msgid "The forum id is invalid."
+msgstr "Nieprawidłowy identyfikator działu."
+
+#: xmlrpc.php:593
+#: xmlrpc.php:717
+#: xmlrpc.php:1238
+#: xmlrpc.php:1349
+msgid "The forum does not exist."
+msgstr "Dział nie istnieje."
+
+#: xmlrpc.php:738
+#: xmlrpc.php:1250
+msgid "No forums found."
+msgstr "Nie znaleziono żadnych działów."
+
+#: xmlrpc.php:817
+#: xmlrpc.php:1004
+#: xmlrpc.php:1130
+#: xmlrpc.php:1547
+#: xmlrpc.php:1904
+#: xmlrpc.php:2753
+msgid "No forum found."
+msgstr "Nie znaleziono żadnego działu."
+
+#: xmlrpc.php:876
+#: xmlrpc.php:976
+msgid "You do not have permission to manage forums."
+msgstr "Nie posiadasz uprawnienia do zarządzania działami."
+
+#: xmlrpc.php:887
+#: xmlrpc.php:987
+msgid "The forum data is invalid."
+msgstr "Dane działu są nieprawidłowe."
+
+#: xmlrpc.php:895
+#: xmlrpc.php:1024
+msgid "The forum name is invalid."
+msgstr "Nazwa działu jest nieprawidłowa."
+
+#: xmlrpc.php:916
+msgid "The forum could not be created."
+msgstr "Dział nie mógł zostać utworzony."
+
+#: xmlrpc.php:1066
+msgid "The forum could not be edited."
+msgstr "Dział nie mógł zostać edytowany."
+
+#: xmlrpc.php:1110
+msgid "You do not have permission to delete forums."
+msgstr "Nie posiadasz uprawnienia do usuwania działów."
+
+#: xmlrpc.php:1141
+msgid "You do not have permission to delete this forum."
+msgstr "Nie posiadasz uprawnienia do usunięcia tego działu."
+
+#: xmlrpc.php:1150
+msgid "The forum could not be deleted."
+msgstr "Dział nie mógł zostać usunięty."
+
+#: xmlrpc.php:1442
+#: xmlrpc.php:1679
+#: xmlrpc.php:1793
+#: xmlrpc.php:1880
+#: xmlrpc.php:1979
+#: xmlrpc.php:2079
+#: xmlrpc.php:2179
+#: xmlrpc.php:2271
+#: xmlrpc.php:2447
+#: xmlrpc.php:2863
+#: xmlrpc.php:2947
+#: xmlrpc.php:3161
+#: xmlrpc.php:3279
+msgid "The topic id is invalid."
+msgstr "Nieprawidłowy identyfikator tematu."
+
+#: xmlrpc.php:1448
+#: xmlrpc.php:1685
+#: xmlrpc.php:1799
+#: xmlrpc.php:1886
+#: xmlrpc.php:1985
+#: xmlrpc.php:2085
+#: xmlrpc.php:2185
+#: xmlrpc.php:2277
+#: xmlrpc.php:2453
+#: xmlrpc.php:2869
+#: xmlrpc.php:2953
+#: xmlrpc.php:3167
+#: xmlrpc.php:3285
+msgid "No topic found."
+msgstr "Nie znaleziono żadnego tematu."
+
+#: xmlrpc.php:1514
+msgid "You do not have permission to write topics."
+msgstr "Nie posiadasz uprawnienia do pisania tematów."
+
+#: xmlrpc.php:1518
+#: xmlrpc.php:2425
+msgid "You do not have permission to write posts."
+msgstr "Nie posiadasz uprawnienia do pisania wpisów."
+
+#: xmlrpc.php:1530
+#: xmlrpc.php:1668
+msgid "The topic data is invalid."
+msgstr "Dane tematu są nieprawidłowe."
+
+#: xmlrpc.php:1556
+msgid "You do not have permission to write topics to this forum."
+msgstr "Nie posiadasz uprawnienia do pisania tematów w tym dziale."
+
+#: xmlrpc.php:1562
+#: xmlrpc.php:1714
+msgid "The topic title is invalid."
+msgstr "Nieprawidłowy tytuł tematu."
+
+#: xmlrpc.php:1568
+#: xmlrpc.php:1720
+msgid "The topic text is invalid."
+msgstr "Nieprawidłowa treść tematu."
+
+#: xmlrpc.php:1584
+msgid "The topic could not be created."
+msgstr "Temat nie mógł zostać utworzony."
+
+#: xmlrpc.php:1596
+#: xmlrpc.php:2480
+msgid "The post could not be created."
+msgstr "Wpis nie mógł zostać utworzony."
+
+#: xmlrpc.php:1652
+msgid "You do not have permission to edit topics."
+msgstr "Nie posiadasz uprawnienia do edycji tematów."
+
+#: xmlrpc.php:1656
+#: xmlrpc.php:2535
+msgid "You do not have permission to edit posts."
+msgstr "Nie posiadasz uprawnienia do edycji wpisów."
+
+#: xmlrpc.php:1694
+msgid "You do not have permission to edit this topic."
+msgstr "Nie posiadasz uprawnienia do edycji tego tematu."
+
+#: xmlrpc.php:1708
+#: xmlrpc.php:2572
+msgid "You do not have permission to edit this post."
+msgstr "Nie posiadasz uprawnienia do edycji tego wpisu."
+
+#: xmlrpc.php:1726
+msgid "The topic could not be edited."
+msgstr "Temat nie mógł zostać edytowany."
+
+#: xmlrpc.php:1733
+#: xmlrpc.php:2590
+#: xmlrpc.php:2676
+msgid "The post could not be edited."
+msgstr "Wpis nie mógł zostać edytowany."
+
+#: xmlrpc.php:1779
+msgid "You do not have permission to delete topics."
+msgstr "Nie posiadasz uprawnienia do usuwania tematów."
+
+#: xmlrpc.php:1815
+msgid "You do not have permission to delete this topic."
+msgstr "Nie posiadasz uprawnienia do usunięcia tego tematu."
+
+#: xmlrpc.php:1821
+msgid "The topic could not be deleted."
+msgstr "Temat nie mógł zostać usunięty."
+
+#: xmlrpc.php:1866
+msgid "You do not have permission to move topics."
+msgstr "Nie posiadasz uprawnienia do przenoszenia tematów."
+
+#: xmlrpc.php:1915
+msgid "You are not allowed to move this topic to this forum."
+msgstr "Nie posiadasz uprawnienia do przenoszenia tematów do tego działu."
+
+#: xmlrpc.php:1921
+msgid "The topic could not be moved."
+msgstr "Temat nie mógł zostać przeniesiony."
+
+#: xmlrpc.php:1965
+msgid "You do not have permission to stick topics."
+msgstr "Nie posiadasz uprawnienia do przyklejania tematów."
+
+#: xmlrpc.php:1994
+msgid "You do not have permission to stick this topic."
+msgstr "Nie posiadasz uprawnienia do przyklejenia tego tematu."
+
+#: xmlrpc.php:2008
+msgid "The topic could not be stuck."
+msgstr "Temat nie mógł zostać przyklejony."
+
+#: xmlrpc.php:2065
+msgid "You do not have permission to close topics."
+msgstr "Nie posiadasz uprawnienia do zamykania tematów."
+
+#: xmlrpc.php:2094
+msgid "You do not have permission to close this topic."
+msgstr "Nie posiadasz uprawnienia do zamknięcia tego tematu."
+
+#: xmlrpc.php:2108
+msgid "The topic could not be closed."
+msgstr "Temat nie mógł zostać zamknięty."
+
+#: xmlrpc.php:2114
+msgid "The topic could not be opened."
+msgstr "Temat nie mógł zostać otwarty."
+
+#: xmlrpc.php:2363
+#: xmlrpc.php:2557
+#: xmlrpc.php:2649
+msgid "The post id is invalid."
+msgstr "Nieprawidłowy identyfikator wpisu."
+
+#: xmlrpc.php:2369
+#: xmlrpc.php:2563
+#: xmlrpc.php:2655
+msgid "No post found."
+msgstr "Nie znaleziono żadnego wpisu."
+
+#: xmlrpc.php:2436
+#: xmlrpc.php:2546
+msgid "The post data is invalid."
+msgstr "Nieprawidłowe dane wpisu."
+
+#: xmlrpc.php:2462
+msgid "You do not have permission to write posts to this topic."
+msgstr "Nie posiadasz uprawnienia do pisania w tym temacie."
+
+#: xmlrpc.php:2468
+#: xmlrpc.php:2578
+msgid "The post text is invalid."
+msgstr "Nieprawidłowa treść wpisu."
+
+#: xmlrpc.php:2635
+msgid "You do not have permission to delete posts."
+msgstr "Nie posiadasz uprawnienia do usuwania wpisów."
+
+#: xmlrpc.php:2664
+msgid "You do not have permission to delete this post."
+msgstr "Nie posiadasz uprawnienia do usunięcia tego wpisu."
+
+#: xmlrpc.php:2769
+msgid "Could not retrieve hot topic tags."
+msgstr "Nie można było pobrać gorących tagów."
+
+#: xmlrpc.php:2773
+#: xmlrpc.php:2798
+msgid "No hot topic tags found."
+msgstr "Nie znaleziono żadnych gorących tagów."
+
+#: xmlrpc.php:2887
+msgid "Could not get a count of all topic tags."
+msgstr "Nie można było pobrać liczby tagów."
+
+#: xmlrpc.php:2962
+msgid "No topic tags found."
+msgstr "Nie znaleziono żadnych tagów przypisanych do tematów."
+
+#: xmlrpc.php:2969
+msgid "Could not retrieve all topic tags."
+msgstr "Nie można było pobrać wszystkich tagów przypisanych do tematów."
+
+#: xmlrpc.php:3040
+#: xmlrpc.php:3368
+#: xmlrpc.php:3540
+msgid "The tag id is invalid."
+msgstr "Nieprawidłowy identyfikator tagu."
+
+#: xmlrpc.php:3046
+#: xmlrpc.php:3374
+#: xmlrpc.php:3546
+msgid "No tag found."
+msgstr "Nie znaleziono żadnych tagów."
+
+#: xmlrpc.php:3147
+#: xmlrpc.php:3265
+msgid "You do not have permission to edit tags."
+msgstr "Nie posiadasz uprawnienia do edycji tagów."
+
+#: xmlrpc.php:3176
+msgid "You do not have permission to add tags to this topic."
+msgstr "Nie posiadasz uprawnienia do dodawania tagów do tego tematu."
+
+#: xmlrpc.php:3184
+#: xmlrpc.php:3302
+msgid "The tag data is invalid."
+msgstr "Nieprawidłowe dane tagu."
+
+#: xmlrpc.php:3190
+msgid "The tags could not be added."
+msgstr "Tagi nie mogły zostać dodane."
+
+#: xmlrpc.php:3294
+msgid "You do not have permission to remove tags from this topic."
+msgstr "Nie posiadasz uprawnienia do usunięcia tagów z tego tematu."
+
+#: xmlrpc.php:3308
+msgid "The tags could not be removed."
+msgstr "Tagi nie mogły zostać usunięte."
+
+#: xmlrpc.php:3354
+#: xmlrpc.php:3439
+#: xmlrpc.php:3526
+msgid "You do not have permission to manage tags."
+msgstr "Nie posiadasz uprawnienia do zarządzania tagami."
+
+#: xmlrpc.php:3386
+msgid "The tag name is invalid."
+msgstr "Nieprawidłowa nazwa tagi."
+
+#: xmlrpc.php:3392
+msgid "The tag could not be renamed."
+msgstr "Tag nie mógł zostać przemianowany."
+
+#: xmlrpc.php:3454
+msgid "The old tag id is invalid."
+msgstr "Identyfikator starego tagu jest nieprawidłowy."
+
+#: xmlrpc.php:3458
+msgid "The new tag id is invalid."
+msgstr "Identyfikator nowego tagu jest nieprawidłowy."
+
+#: xmlrpc.php:3464
+msgid "No old tag found."
+msgstr "Nie znaleziono starego tagu."
+
+#: xmlrpc.php:3468
+msgid "No new tag found."
+msgstr "Nie znaleziono nowego tagu."
+
+#: xmlrpc.php:3478
+msgid "The tags could not be merged."
+msgstr "Tagi nie mogły zostać scalone."
+
+#: xmlrpc.php:3555
+msgid "The tag could not be destroyed."
+msgstr "Tag nie mógł zostać usunięty."
+
+#: xmlrpc.php:3584
+msgid "Software Name"
+msgstr "Nazwa oprogramowania"
+
+#: xmlrpc.php:3589
+msgid "Software Version"
+msgstr "Wersja oprogramowania"
+
+#: xmlrpc.php:3594
+msgid "Site URL"
+msgstr "Adres URL strony"
+
+#: xmlrpc.php:3601
+msgid "Site Name"
+msgstr "Nazwa strony"
+
+#: xmlrpc.php:3606
+msgid "Site Description"
+msgstr "Opis strony"
+
+#: xmlrpc.php:3611
+msgid "Time Zone"
+msgstr "Strefa czasowa"
+
+#: xmlrpc.php:3616
+msgid "Date/Time Format"
+msgstr "Format daty/czasu"
+
+#: xmlrpc.php:3621
+msgid "Date Format"
+msgstr "Format daty"
+
+#: xmlrpc.php:3764
+msgid "You are not allowed to manage options."
+msgstr "Nie posiadasz uprawnień do zarządzania opcjami."
+
+#: xmlrpc.php:3775
+msgid "The options data is invalid."
+msgstr "Dane opcji są nieprawidłowe."
+
+#: xmlrpc.php:3855
+msgid "This is not the site you are trying to pingback."
+msgstr "To nie jest strona, do której próbujesz wysłać pingback."
+
+#: xmlrpc.php:3864
+msgid "The source URL and the target URL cannot both point to the same resource."
+msgstr "Źródłowy adres URL i docelowy adres URL nie mogą wskazywać na ten sam zasób."
+
+#: xmlrpc.php:3869
+#: xmlrpc.php:4056
+msgid "The specified target URL cannot be used as a target. It either doesn't exist, or it is not a pingback-enabled resource."
+msgstr "Podany docelowy adres URL nie mógł zostać użyty jako cel, ponieważ nie istnieje lub nie prowadzi do zasobu obsługującego pingbacki."
+
+#: xmlrpc.php:3880
+msgid "The specified target topic does not contain any posts."
+msgstr "Podany docelowy temat nie zawiera żadnych wpisów."
+
+#: xmlrpc.php:3887
+msgid "The pingback has already been registered."
+msgstr "Pingback został już zarejestrowany."
+
+#: xmlrpc.php:3899
+msgid "The source URL does not exist."
+msgstr "Źródłowy adres URL nie istnieje."
+
+#: xmlrpc.php:3919
+msgid "We cannot find a title on that page."
+msgstr "Nie udało nam się odnaleźć tytułu tej strony."
+
+#: xmlrpc.php:3974
+msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
+msgstr "Podany źródłowy adres URL nie zawiera odnośnika do docelowego adresu URL, więc nie może on zostać użyty jako źródło."
+
+#: xmlrpc.php:3989
+msgid "The pingback could not be added."
+msgstr "Pingback nie mógł zostać dodany."
+
+#: xmlrpc.php:4006
+#, php-format
+msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
+msgstr "Pingback z %1$s do %2$s został zarejestrowany. Niech Sieć przemawia! ;-)"
+
+#: xmlrpc.php:4037
+msgid "The requested method only accepts one parameter."
+msgstr "Żądana metoda akceptuje tylko jeden parametr."
+
+#: xmlrpc.php:4050
+msgid "The specified target URL is not on this domain."
+msgstr "Podany docelowy adres URL nie jest adresem w tej domenie."
+
+#~ msgid "User Favorites: %s"
+#~ msgstr "Ulubione użytkownika: %s"
+#~ msgid "Topic: %s"
+#~ msgstr "Temat: %s"
+#~ msgid "Tag: %s - Recent Posts"
+#~ msgstr "Tag: %s - ostatnie wpisy"
+#~ msgid "Tag: %s - Recent Topics"
+#~ msgstr "Tag: %s - ostatnie tematy"
+#~ msgid "Forum: %s - Recent Posts"
+#~ msgstr "Dział: %s - ostatnie wpisy"
+#~ msgid "Forum: %s - Recent Topics"
+#~ msgstr "Dział: %s - ostatnie tematy"
+#~ msgid "Recent Topics"
+#~ msgstr "Ostatnie tematy"
+#~ msgid "Move this topic to the selected forum:"
+#~ msgstr "Przenieś ten temat do wybranego działu:"
+#~ msgid "%1$s View: %2$s"
+#~ msgstr "%1$s Widok: %2$s"
+#~ msgid "%1$s Topic: %2$s"
+#~ msgstr "%1$s Temat: %2$s"
+#~ msgid "years"
+#~ msgstr "lat"
+#~ msgid "months"
+#~ msgstr "miesięcy"
+#~ msgid "weeks"
+#~ msgstr "tygodni"
+#~ msgid "days"
+#~ msgstr "dni"
+#~ msgid "seconds"
+#~ msgstr "sekund"
+#~ msgid "%1$d %2$s"
+#~ msgstr "%1$d %2$s"
+#~ msgid ", %1$d %2$s"
+#~ msgstr ", %1$d %2$s"
+#~ msgid "Recounting"
+#~ msgstr "Ponowne zliczanie"
+#~ msgid "Done counting posts."
+#~ msgstr "Ukończono zliczanie wpisów."
+#~ msgid "Done counting voices."
+#~ msgstr "Ukończono zliczanie głosów."
+#~ msgid "Done counting forum topics and posts."
+#~ msgstr "Ukończono zliczanie tematów i wpisów w działach."
+#~ msgid "Done counting topics."
+#~ msgstr "Ukończono zliczanie tematów."
+#~ msgid "Done counting topic tags."
+#~ msgstr "Ukończono zliczanie tagów przypisanych do tematów."
+#~ msgid "Done counting tagged topics."
+#~ msgstr "Ukończono zliczanie otagowanych tematów."
+#~ msgid "Deleting tags with no topics&#8230;"
+#~ msgstr "Usuwanie tagów, które nie są przypisane do żadnych tematów&#8230;"
+#~ msgid "Done removing deleted topics from users' favorites."
+#~ msgstr "Ukończono czyszczenie ulubionych użytkowników z usuniętych tematów."
+#~ msgid "Done recounting.  The process took"
+#~ msgstr "Zliczanie zostało ukończone.  Operacja ta wymagała"
+#~ msgid "%1$d queries and %2$s seconds."
+#~ msgstr "%1$d zapytań i trwała %2$s sekund."
+#~ msgid "Update Forum"
+#~ msgstr "Zaktualizuj dział"
+#~ msgid "Delete forum &raquo;"
+#~ msgstr "Usuń dział &raquo;"
+#~ msgid "Name &#8212; Description"
+#~ msgstr "Nazwa i opis"
+#~ msgid "matching &#8220;%s&#8221;"
+#~ msgstr "pasujących do kryterium &#8220;%s&#8221;"
+#~ msgid "%1$sposts"
+#~ msgstr "%1$swpisów"
+#~ msgid "Displaying %s-%s of %s"
+#~ msgstr "Wyświetlanie %s-%s z %s"
+#~ msgid "%1$s%2$stopics"
+#~ msgstr "%1$s%2$stematów"
+#~ msgid "Find"
+#~ msgstr "Szukaj"
+#~ msgid "Moderators"
+#~ msgstr "Moderatorzy"
+#~ msgid "User List by Role"
+#~ msgstr "Lista użytkowników wg ról"
+#~ msgid "Search for users &raquo;"
+#~ msgstr "Szukaj użytkowników &raquo;"
+#~ msgid "&laquo; Back to All Users"
+#~ msgstr "&laquo; Powrót do \"Wszyscy użytkownicy\""
+#~ msgid "Users with no role in these forums"
+#~ msgstr "Użytkownicy bez roli na tym forum"
+#~ msgid "ID"
+#~ msgstr "Identyfikator"
+#~ msgid "Display name"
+#~ msgstr "Podpis"
+#~ msgid "Registered Since"
+#~ msgstr "Zarejestrowano"
+#~ msgid "Actions"
+#~ msgstr "Działania"
+#~ msgid "Forum Name:"
+#~ msgstr "Nazwa działu:"
+#~ msgid "Forum Slug:"
+#~ msgstr "Uproszczona nazwa działu:"
+#~ msgid "Forum Description:"
+#~ msgstr "Opis działu:"
+#~ msgid "Update Forum &#187;"
+#~ msgstr "Zaktualizuj dział &#187;"
+#~ msgid "Add Forum &#187;"
+#~ msgstr "Dodaj dział &#187;"
+#~ msgid "No posts found"
+#~ msgstr "Nie znaleziono żadnych wpisów"
+#~ msgid "DELETE tags with no topics.  Only functions if the above checked"
+#~ msgstr ""
+#~ "USUŃ tagi nieprzypisane do żadnego z tematów.  Działa tylko wtedy, kiedy "
+#~ "zaznaczone jest powyższa opcja"
+#~ msgid "REMOVE deleted topics from users' favorites"
+#~ msgstr "WYCZYŚĆ ulubione użytkowników z usuniętych tematów"
+#~ msgid "%d forum"
+#~ msgid_plural "%d forums"
+#~ msgstr[0] "%d dział"
+#~ msgstr[1] "%d działy"
+#~ msgstr[2] "%d działów"
+#~ msgid "is %d topic"
+#~ msgid_plural "are %d topics"
+#~ msgstr[0] "jest %d temat"
+#~ msgstr[1] "są %d tematy"
+#~ msgstr[2] "jest %d tematów"
+#~ msgid "%d user"
+#~ msgid_plural "%d users"
+#~ msgstr[0] "%d użytkownik"
+#~ msgstr[1] "%d użytkownicy"
+#~ msgstr[2] "%d użytkowników"
+#~ msgid "You have %1$s. There %2$s with %3$s by %4$s."
+#~ msgstr ""
+#~ "Forum podzielone jest na %1$s, w którym znajduje się %2$s z %3$s "
+#~ "autorstwa %4$s."
+#~ msgid ""
+#~ "That's an average of %1$s, %2$s and %3$s per day since your forums were "
+#~ "started %4$s ago."
+#~ msgstr ""
+#~ "Średnio daje to %1$s, %2$s i rejestrację %3$s dziennie od czasu "
+#~ "uruchomienia Twojego forum dyskusyjnego %4$s temu."
+#~ msgid ""
+#~ "You are using the theme <a href=\"%1$s\">%2$s</a>. This is bbPress "
+#~ "version %3$s"
+#~ msgstr ""
+#~ "Używasz motywu <a href=\"%1$s\">%2$s</a>. Korzystasz z bbPressa w wersji %"
+#~ "3$s"
+#~ msgid "Recent User Registrations"
+#~ msgstr "Ostatnio zarejestrowani użytkownicy"
+#~ msgid "registered %s ago"
+#~ msgstr "zarejestrowano %s temu"
+
+#, fuzzy
+#~ msgid "by"
+#~ msgstr "- autor:"
+#~ msgid "Topic titled"
+#~ msgstr "Temat o nazwie"
+#~ msgid "started by"
+#~ msgstr "którego autorem jest"
+
+#, fuzzy
+#~ msgid "Settings saved."
+#~ msgstr "Ustawienia zostały zapisane."
+#~ msgid ""
+#~ "Allow sending and receiving of <a href=\"http://codex.wordpress.org/"
+#~ "Glossary#PingBack\">pingbacks</a>?"
+#~ msgstr ""
+#~ "Zezwolić na wysyłanie i odbieranie <a href=\"http://codex.wordpress.org/"
+#~ "Glossary#PingBack\">pingbacków</a>?"
+#~ msgid "Display avatars on your site?"
+#~ msgstr "Wyświetlać awatary na Twojej stronie?"
+#~ msgid "Gravatar default image"
+#~ msgstr "Domyślny obrazek Gravataru"
+#~ msgid "MonsterID"
+#~ msgstr "MonsterID"
+#~ msgid "Wavatar"
+#~ msgstr "Wavatar"
+#~ msgid "Select what style of avatar to display to users without a Gravatar:"
+#~ msgstr ""
+#~ "Wybierz jaki rodzaj awatarów ma być wyświetlany w profilach użytkowników "
+#~ "nie posiadających Gravatara:"
+#~ msgid "X"
+#~ msgstr "X"
+#~ msgid "R"
+#~ msgstr "R"
+#~ msgid "PG"
+#~ msgstr "PG"
+#~ msgid "G"
+#~ msgstr "G"
+#~ msgid "Rated X"
+#~ msgstr "Klasyfikacja \"X\""
+
+#, fuzzy
+#~ msgid ""
+#~ "X rated gravatars may contain hardcore sexual imagery or extremely "
+#~ "disturbing violence."
+#~ msgstr ""
+#~ "Gravatary skasyfikowane jako X mogą przedstawiać ostre treści "
+#~ "pornograficzne lub bardzo brutalną przemoc."
+#~ msgid "Rated R"
+#~ msgstr "Klasyfikacja \"R\""
+
+#, fuzzy
+#~ msgid ""
+#~ "R rated gravatars may contain such things as harsh profanity, intense "
+#~ "violence, nudity, or hard drug use."
+#~ msgstr ""
+#~ "Gravatary skasyfikowane jako R mogą przedstawiać profanację, ostrą "
+#~ "przemoc, nagość lub użycie narkotyków."
+#~ msgid "Rated PG"
+#~ msgstr "Klasyfikacja \"PG\""
+
+#, fuzzy
+#~ msgid ""
+#~ "PG rated gravatars may contain rude gestures, provocatively dressed "
+#~ "individuals, the lesser swear words, or mild violence."
+#~ msgstr ""
+#~ "Gravatary skasyfikowane jako PG mogą przedstawiać niestosowne gesty, "
+#~ "prowokacyjnie ubrane osoby, mniej obraźliwe wyzwiska lub łagodną przemoc."
+#~ msgid "Rated G"
+#~ msgstr "Klasyfikacja \"G\""
+
+#, fuzzy
+#~ msgid ""
+#~ "A G rated gravatar is suitable for display on all websites with any "
+#~ "audience type."
+#~ msgstr ""
+#~ "Gravatary skasyfikowane jako G są odpowiednie do wyświetlenia na "
+#~ "wszystkich stronach wszystkim typom publiczności."
+
+#, fuzzy
+#~ msgid "Remote publishing"
+#~ msgstr "Zdalna publikacja"
+#~ msgid "Site description"
+#~ msgstr "Opis strony"
+#~ msgid "Emails sent by the site will appear to come from this address."
+#~ msgstr ""
+#~ "E-maile wysyłane przez stronę będą przedstawiane jako pochodzące z tego "
+#~ "adresu."
+#~ msgid "Times should differ<br />from UTC by"
+#~ msgstr "Czas powinien się różnić<br />od UTC o"
+#~ msgid "Y-m-d g:i:s a"
+#~ msgstr "d.m.Y G:i:s"
+#~ msgid "None&nbsp;&nbsp;&nbsp;&hellip;/forums.php?id=1"
+#~ msgstr "Żaden&nbsp;&nbsp;&nbsp;&hellip;/forums.php?id=1"
+#~ msgid "Numeric&nbsp;&nbsp;&nbsp;.../forums/1"
+#~ msgstr "Numeryczny&nbsp;&nbsp;&nbsp;.../forums/1"
+#~ msgid "Name based&nbsp;&nbsp;&nbsp;.../forums/first-forum"
+#~ msgstr "Oparty na nazwach&nbsp;&nbsp;&nbsp;.../forums/first-forum"
+#~ msgid "Save User Role Map"
+#~ msgstr "Zapisz mapę ról użytkowników"
+
+#, fuzzy
+#~ msgid "Version"
+#~ msgstr "Wersja"
+#~ msgid "Automatically loaded plugins"
+#~ msgstr "Automatycznie wczytane wtyczki"
+#~ msgid "No Plugins Installed"
+#~ msgstr "Brak zainstalowanych wtyczek"
+#~ msgid "Get More Plugins"
+#~ msgstr "Pobierz więcej wtyczek"
+#~ msgid "Choose items to recalculate"
+#~ msgstr "Wybierz dane, które chcesz ponownie zliczyć."
+#~ msgid "Count!"
+#~ msgstr "Zlicz!"
+#~ msgid "Click to activate"
+#~ msgstr "Kliknij, aby aktywować"
+#~ msgid "These users have been blocked by the forum administrators"
+#~ msgstr "Ci użytkownicy zostali zablokowani przez administratorów forum"
+#~ msgid "Forum Administrators"
+#~ msgstr "Administratorzy forum"
+#~ msgid "IP Information"
+#~ msgstr "Informacje o adresie IP"
+#~ msgid "Last 30 posts"
+#~ msgstr "Ostatnie 30 wpisów"
+#~ msgid "Posted:"
+#~ msgstr "Napisano:"
+#~ msgid "Search&#8230;"
+#~ msgstr "Szukaj&#8230;"
+#~ msgid "Forum&#8230;"
+#~ msgstr "w dziale&#8230;"
+#~ msgid "Open?&#8230;"
+#~ msgstr "Otwarty?&#8230;"
+#~ msgid "Title&#8230;"
+#~ msgstr "Tytuł&#8230;"
+
+#, fuzzy
+#~ msgid "Akismet Configuration"
+#~ msgstr "Konfiguracja Akismeta"
+#~ msgid "Remember me:"
+#~ msgstr "Zapamiętaj mnie:"
+#~ msgid "Pick a section:"
+#~ msgstr "Wybierz sekcję:"
+#~ msgid "Most recent reply: %s ago."
+#~ msgstr "Najnowsza odpowiedź: %s temu."
+
