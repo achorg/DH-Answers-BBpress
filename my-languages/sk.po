@@ -1,0 +1,2910 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-02-28 21:26-0000\n"
+"Last-Translator: František Malina - VizualBod <vizualbod@vizualbod.com>\n"
+"Language-Team:  <olaf@wordpress.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\Programme\\xampp\\htdocs\\bbpress\n"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-post.php:15
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-ajax.php:145
+#: bb-admin/admin-ajax.php:118
+#: bb-post.php:12
+msgid "You need to actually submit some content!"
+msgstr "Potrebuješ napísať najaký text!"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-ajax.php:151
+#: bb-admin/admin-ajax.php:124
+msgid "This topic is closed."
+msgstr "Táto téma je uzavretá."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-ajax.php:153
+#: bb-admin/admin-ajax.php:126
+msgid "Slow down!  You can only post every 30 seconds."
+msgstr "Spomaľ! Môžeš prispievať len každých 30 sekúnd."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-base.php:7
+#: bb-admin/admin-base.php:10
+msgid "Nothing to see here."
+msgstr "Nie je tu nič zaujímavé."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-footer.php:3
+#: bb-admin/admin-footer.php:3
+msgid "Documentation"
+msgstr "Dokumentácia"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-footer.php:3
+#: bb-admin/admin-footer.php:3
+msgid "Development"
+msgstr "Vývoj"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-footer.php:4
+#: bb-admin/admin-footer.php:4
+#, php-format
+msgid "%s seconds"
+msgstr "%s sekundy"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:17
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/index.php:5
+#: bb-admin/admin-functions.php:17
+#: bb-admin/index.php:4
+msgid "Dashboard"
+msgstr "Nástenka"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:18
+#: bb-admin/admin-functions.php:18
+#: bb-templates/kakumei/search.php:11
+msgid "Users"
+msgstr "Užívatelia"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:19
+#: bb-admin/admin-functions.php:19
+msgid "Content"
+msgstr "Obsah"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/register.php:5
+#: bb-admin/admin-functions.php:20
+msgid "Presentation"
+msgstr "Prezentácia (Vzhľad)"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:20
+#: bb-admin/admin-functions.php:21
+msgid "Site Management"
+msgstr "Správa stránky"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:23
+#: bb-admin/admin-functions.php:24
+msgid "Find"
+msgstr "Nájdi"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:24
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/users-moderators.php:24
+#: bb-admin/admin-functions.php:25
+msgid "Moderators"
+msgstr "Moderátori"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:25
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/capabilities.php:143
+#: bb-admin/admin-functions.php:26
+#: bb-includes/capabilities.php:159
+msgid "Blocked"
+msgstr "Blokovaný"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:27
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/front-page.php:48
+#: bb-admin/admin-functions.php:28
+#: bb-templates/kakumei/front-page.php:48
+msgid "Topics"
+msgstr "Témy"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:28
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/favorites.php:19
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/forum.php:12
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/front-page.php:17
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/front-page.php:49
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/stats.php:8
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/view.php:12
+#: bb-admin/admin-functions.php:29
+#: bb-templates/kakumei/favorites.php:19
+#: bb-templates/kakumei/forum.php:10
+#: bb-templates/kakumei/front-page.php:18
+#: bb-templates/kakumei/front-page.php:49
+#: bb-templates/kakumei/stats.php:8
+#: bb-templates/kakumei/tag-single.php:14
+#: bb-templates/kakumei/view.php:10
+msgid "Posts"
+msgstr "Príspevky"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:29
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/front-page.php:43
+#: bb-admin/admin-functions.php:30
+#: bb-templates/kakumei/front-page.php:43
+msgid "Forums"
+msgstr "Fóra"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/front-page.php:47
+#: bb-admin/admin-functions.php:32
+msgid "Themes"
+msgstr "Vzhľady"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:31
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/site.php:5
+#: bb-admin/admin-functions.php:34
+#: bb-admin/site.php:4
+msgid "Recount"
+msgstr "Prepočítaj"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:138
+#: bb-admin/admin-functions.php:159
+msgid "Count posts of every topic"
+msgstr "Spočítaj príspevky každej témy"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:139
+#: bb-admin/admin-functions.php:160
+msgid "Count deleted posts on every topic"
+msgstr "Spočítaj vymazané príspevky pre každú tému"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:140
+#: bb-admin/admin-functions.php:161
+msgid "Count topics and posts in every forum (relies on the above)"
+msgstr "Spočítaj témy a príspevky vo všetkých fórach (závisí na tom, čo si zadal vyššie)"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:141
+#: bb-admin/admin-functions.php:162
+msgid "Count topics to which each user has replied"
+msgstr "Počítaj príspevky na ktoré každý užívateľ odpovedal"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:142
+#: bb-admin/admin-functions.php:163
+msgid "Count tags for every topic"
+msgstr "Spočítaj značky pre každú tému"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:143
+#: bb-admin/admin-functions.php:164
+msgid "Count topics for every tag"
+msgstr "Spočítaj témy pre každú značku"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:144
+#: bb-admin/admin-functions.php:165
+msgid "DELETE tags with no topics.  Only functions if the above checked"
+msgstr "VYMAŽ značky, ktoré nemajú žiadnu tému. (Bude to fungovať len ak zaškrtneš vyššie)"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/content-posts.php:25
+#: bb-admin/admin-functions.php:182
+#, php-format
+msgid "Posted: %1$s in <a href=\"%2$s\">%3$s</a>"
+msgstr "Publikované: %1$s v <a href=\"%2$s\">%3$s</a>"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1397
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:645
+#: bb-admin/admin-functions.php:197
+#: bb-includes/functions.php:1696
+#: bb-includes/template-functions.php:909
+msgid "Edit"
+msgstr "Uprav"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:245
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:391
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/bozo.php:266
+#: bb-admin/admin-functions.php:251
+#: bb-admin/admin-functions.php:392
+#: bb-includes/bozo.php:267
+msgid "No matching users were found!"
+msgstr "Nenašli sme takých užívateľov."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:302
+#: bb-admin/admin-functions.php:311
+#, php-format
+msgid "Users Matching \"%s\" by Role"
+msgstr "Užívatelia zhodujúci sa \"%s\" úlohy"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:304
+#: bb-admin/admin-functions.php:313
+msgid "User List by Role"
+msgstr "Zoznam užívateľova podľa úloh"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:310
+#: bb-admin/admin-functions.php:319
+msgid "Search for users &raquo;"
+msgstr "Hľadaj užívateľov &raquo;"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:325
+#: bb-admin/admin-functions.php:326
+msgid "&laquo; Back to All Users"
+msgstr "&laquo; Späť na všetkých užívateľov"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:327
+#: bb-admin/admin-functions.php:328
+#, php-format
+msgid "%1$s &#8211; %2$s of %3$s shown below"
+msgstr "%1$s &#8211; %2$s z %3$s ukázané nižšie"
+
+#: bb-admin/admin-functions.php:340
+msgid "Users with no role in these forums"
+msgstr "Užívatelia bez statusu v týchto fórach"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:342
+#: bb-admin/admin-functions.php:343
+msgid "ID"
+msgstr "ID"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:343
+#: bb-admin/admin-functions.php:344
+#: bb-admin/install.php:305
+msgid "Username"
+msgstr "Užívateľské meno"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1447
+#: bb-admin/admin-functions.php:346
+#: bb-includes/functions.php:1748
+msgid "Email"
+msgstr "E-mail"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:346
+#: bb-admin/admin-functions.php:347
+msgid "Registered Since"
+msgstr "Registrovaný od"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:347
+#: bb-admin/admin-functions.php:348
+msgid "Actions"
+msgstr "Akcie"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:439
+#: bb-admin/admin-functions.php:439
+msgid "Visit plugin homepage"
+msgstr "Navštív domovskú stránku zásuvných modulov"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:442
+#: bb-admin/admin-functions.php:442
+#: bb-admin/admin-functions.php:485
+msgid "Visit author homepage"
+msgstr "Navštív domovskú stránku autora"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:442
+#: bb-admin/admin-functions.php:491
+msgid "Visit porter homepage"
+msgstr "Navštív stránku autora"
+
+#: bb-admin/admin.php:7
+#, php-format
+msgid "Your database is out-of-date.  Please <a href='%s'>upgrade</a>."
+msgstr "Tvoja databáza je zastaralá.  Prosím <a href='%s'>aktualizuj ju</a>."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-do-counts.php:12
+#: bb-admin/bb-do-counts.php:12
+msgid "Recounting"
+msgstr "Prepočítavanie"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-do-counts.php:11
+#: bb-admin/bb-do-counts.php:19
+msgid "Counting posts..."
+msgstr "Počítanie príspevkov..."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-do-counts.php:17
+#: bb-admin/bb-do-counts.php:25
+msgid "Done counting posts."
+msgstr "Príspevky sú spočítané."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-do-counts.php:24
+#: bb-admin/bb-do-counts.php:34
+msgid "Counting deleted posts..."
+msgstr "Počítanie vymazaných príspevkov..."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-do-counts.php:36
+#: bb-admin/bb-do-counts.php:45
+msgid "Done counting deleted posts."
+msgstr "Vymazané príspevky sú spočítané."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-do-counts.php:47
+#: bb-admin/bb-do-counts.php:47
+msgid "No deleted posts to count."
+msgstr "Nie je čo počítať. Nie sú tu vymazané príspevky."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-do-counts.php:41
+#: bb-admin/bb-do-counts.php:55
+msgid "Counting forum topics and posts..."
+msgstr "Počítanie tém na fóre a príspevkov..."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-do-counts.php:55
+#: bb-admin/bb-do-counts.php:69
+msgid "Done counting forum topics and posts."
+msgstr "Témy na fóre a príspevky sú spočítané."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-do-counts.php:60
+#: bb-admin/bb-do-counts.php:76
+msgid "Counting topics to which each user has replied..."
+msgstr "Počítanie tém do ktorých sa zapojil každý užívateľ..."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-do-counts.php:67
+#: bb-admin/bb-do-counts.php:81
+msgid "Done counting topics."
+msgstr "Témy sú spočítané."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-do-counts.php:72
+#: bb-admin/bb-do-counts.php:88
+msgid "Counting topic tags..."
+msgstr "Počítanie značiek tém..."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-do-counts.php:81
+#: bb-admin/bb-do-counts.php:97
+msgid "Done counting topic tags."
+msgstr "Značky sú spočítané."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-do-counts.php:86
+#: bb-admin/bb-do-counts.php:104
+msgid "Counting tagged topics..."
+msgstr "Počítanie označkovaných tém..."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-do-counts.php:97
+#: bb-admin/bb-do-counts.php:115
+msgid "Done counting tagged topics."
+msgstr "Označkované témy sú spočítané."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-do-counts.php:101
+#: bb-admin/bb-do-counts.php:121
+msgid "Deleted tags with no topics."
+msgstr "Vymazané značky bez témy."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-do-counts.php:135
+#: bb-admin/bb-do-counts.php:133
+msgid "Done recounting.  The process took"
+msgstr "Prepočítavanie je hotové. Proces zabral"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-do-counts.php:136
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/upgrade.php:278
+#: bb-admin/bb-do-counts.php:134
+#: bb-admin/upgrade.php:30
+#, php-format
+msgid "%1$d queries and %2$s seconds."
+msgstr "%1$d databázových požiadaviek a %2$s sekúnd."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-forum.php:5
+#: bb-admin/bb-forum.php:5
+msgid "You don't have the authority to mess with the forums."
+msgstr "Nemáš povolenie, aby si vyvádzal na tomto fóre."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-forum.php:15
+#: bb-admin/bb-forum.php:15
+msgid "Bad forum name.  Go back and try again."
+msgstr "Zlé meno fóra. Choď späť a skús znovu."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-forum.php:23
+#: bb-admin/bb-forum.php:26
+msgid "The forum was not added"
+msgstr "Fórum nebolo pridané"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-forum.php:28
+#: bb-admin/bb-forum.php:33
+msgid "No forums to update!"
+msgstr "Žiadne fóra pre aktualizáciu!"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-forum.php:5
+#: bb-admin/bb-forum.php:48
+msgid "You don't have the authority to kill off the forums."
+msgstr "Nemáš právo, aby si vystrájal na tomto fóre."
+
+#: bb-admin/bb-forum.php:54
+msgid "Error occured while trying to delete forum"
+msgstr "Pri pokuse o vymazanie fóra nastala chyba."
+
+#: bb-admin/content-forums.php:17
+#, php-format
+msgid "Forum deleted.  You should have bbPress <a href=\"%s\">recount your site information</a>."
+msgstr "Fórum vymazané. Mal by si požiadať bbPress, aby <a href=\"%s\">prepočítal informácie o tvojej stránke</a>."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/content-forums.php:5
+#: bb-admin/content-forums.php:25
+msgid "Forum Management"
+msgstr "Správa fóra"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1501
+#: bb-admin/content-forums.php:28
+#, php-format
+msgid "Are you sure you want to delete the \"<strong>%s</strong>\" forum?"
+msgstr "Skutočne chceš vymazať  fórum \"<strong>%s</strong>\"?"
+
+#: bb-admin/content-forums.php:37
+msgid "Delete all topics and posts in this forum. <em>This can never be undone.</em>"
+msgstr "Vymaž všetky témy a príspevky v tomto fóre. <em>Tenko krok sa nedá vrátiť späť.</em>"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:550
+#: bb-admin/content-forums.php:38
+msgid "Move topics from this forum into"
+msgstr "Presťahuj témy z tohto fóra do"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:310
+#: bb-admin/content-forums.php:51
+msgid "Delete forum &raquo;"
+msgstr "Vymaž fórum &raquo;"
+
+#: bb-admin/content-forums.php:59
+msgid "&laquo; Go back"
+msgstr "&laquo; Choď späť"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/content-forums.php:7
+#: bb-admin/content-forums.php:66
+msgid "Add forum"
+msgstr "Pridaj fórum"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/content-forums.php:10
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:139
+#: bb-admin/content-forums.php:69
+#: bb-admin/install.php:202
+msgid "Forum Name:"
+msgstr "Meno fóra:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/content-forums.php:13
+#: bb-admin/content-forums.php:72
+msgid "Forum Description:"
+msgstr "Popis fóra:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/content-forums.php:16
+#: bb-admin/content-forums.php:75
+msgid "Position:"
+msgstr "Pozícia:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/content-forums.php:20
+#: bb-admin/content-forums.php:79
+msgid "Add Forum"
+msgstr "Pridaj fórum"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/content-forums.php:25
+#: bb-admin/content-forums.php:85
+msgid "Update forum information"
+msgstr "Aktualizuj údaje o fóre"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/content-forums.php:28
+#: bb-admin/content-forums.php:88
+msgid "Name"
+msgstr "Meno"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/content-forums.php:29
+#: bb-admin/content-forums.php:89
+msgid "Description"
+msgstr "Popis"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/content-forums.php:30
+#: bb-admin/content-forums.php:90
+msgid "Position"
+msgstr "Pozícia"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-functions.php:347
+#: bb-admin/content-forums.php:92
+msgid "Action"
+msgstr "Akcia"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:663
+#: bb-admin/content-forums.php:100
+#: bb-includes/template-functions.php:929
+msgid "Delete"
+msgstr "Vymaž"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/content-forums.php:39
+#: bb-admin/content-forums.php:105
+msgid "Update"
+msgstr "Aktualizovať"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/content-posts.php:6
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/content.php:6
+#: bb-admin/content-posts.php:6
+#: bb-admin/content.php:5
+#: bb-includes/akismet.php:195
+msgid "Now how'd you get here?  And what did you think you'd being doing?"
+msgstr "A teraz ako si sa sem dostal? A čo si myslíš že si tým urobil?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/content-posts.php:12
+#: bb-admin/content-posts.php:13
+msgid "Deleted Posts"
+msgstr "Zmazané príspevky"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/content.php:12
+#: bb-admin/content.php:11
+msgid "Deleted Topics"
+msgstr "Zmazané témy"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/content.php:16
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/favorites.php:18
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/forum.php:11
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/front-page.php:16
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/view.php:11
+#: bb-admin/content.php:15
+#: bb-includes/template-functions.php:327
+#: bb-templates/kakumei/favorites.php:18
+#: bb-templates/kakumei/forum.php:9
+#: bb-templates/kakumei/front-page.php:17
+#: bb-templates/kakumei/tag-single.php:13
+#: bb-templates/kakumei/view.php:9
+#: rss.php:34
+msgid "Topic"
+msgstr "Téma"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/content.php:17
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/forum.php:13
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/front-page.php:18
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/view.php:13
+#: bb-admin/content.php:16
+#: bb-templates/kakumei/forum.php:11
+#: bb-templates/kakumei/front-page.php:19
+#: bb-templates/kakumei/tag-single.php:15
+#: bb-templates/kakumei/view.php:11
+msgid "Last Poster"
+msgstr "Najnovší od"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/content.php:18
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/favorites.php:20
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/forum.php:14
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/front-page.php:19
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/view.php:14
+#: bb-admin/content.php:17
+#: bb-templates/kakumei/favorites.php:20
+#: bb-templates/kakumei/forum.php:12
+#: bb-templates/kakumei/front-page.php:20
+#: bb-templates/kakumei/tag-single.php:16
+#: bb-templates/kakumei/view.php:12
+msgid "Freshness"
+msgstr "Čerstvé"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/delete-post.php:19
+#: bb-admin/delete-post.php:22
+msgid "There is a problem with that post, pardner."
+msgstr "Je tu nejaký problém s týmto príspevkom, prepáč."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/delete-topic.php:18
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/sticky.php:9
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/topic-toggle.php:8
+#: bb-admin/delete-topic.php:21
+#: bb-admin/sticky.php:9
+#: bb-admin/topic-toggle.php:8
+msgid "There is a problem with that topic, pardner."
+msgstr "Je tu nejaký problém s touto témou, prepáč."
+
+#: bb-admin/export.php:6
+msgid "No thieving allowed."
+msgstr "Kradnutie nie je povolené."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/index.php:8
+#: bb-admin/index.php:7
+msgid "Latest Activity"
+msgstr "Posledná aktivita"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/index.php:9
+#: bb-admin/index.php:8
+msgid "User Registrations"
+msgstr "Registrácie užívateľov"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/index.php:12
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/users-blocked.php:9
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/users-blocked.php:20
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/users-moderators.php:9
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/users-moderators.php:18
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/users-moderators.php:27
+#: bb-admin/index.php:11
+msgid "profile"
+msgstr "profil"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/index.php:12
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/users-blocked.php:9
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/users-blocked.php:20
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/users-moderators.php:9
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/users-moderators.php:18
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/users-moderators.php:27
+#: bb-admin/index.php:11
+#, php-format
+msgid "registered %s ago"
+msgstr "registovaný %s dozadu"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/index.php:16
+#: bb-admin/index.php:15
+msgid "Recently Moderated"
+msgstr "Najnovšie moderované"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/index.php:19
+#: bb-admin/index.php:18
+msgid "Post"
+msgstr "Príspevok"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/index.php:19
+#: bb-admin/index.php:18
+#: bb-templates/kakumei/rss2.php:19
+msgid "on"
+msgstr "na"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/index.php:19
+#: bb-admin/index.php:18
+msgid "by"
+msgstr "od"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/index.php:21
+#: bb-admin/index.php:20
+msgid "Topic titled"
+msgstr "Téma nazvaná"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/index.php:21
+#: bb-admin/index.php:20
+msgid "started by"
+msgstr "začal "
+
+# C:\Programme\xampp\htdocs\bbpress/statistics.php:9
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/index.php:27
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/stats.php:3
+#: bb-admin/index.php:26
+#: bb-templates/kakumei/stats.php:3
+#: statistics.php:9
+msgid "Statistics"
+msgstr "Štatistiky"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/index.php:29
+#: bb-admin/index.php:28
+msgid "Posts per day"
+msgstr "Príspevkov za deň"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/index.php:30
+#: bb-admin/index.php:29
+msgid "Topics per day"
+msgstr "Tém za deň"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/index.php:31
+#: bb-admin/index.php:30
+msgid "Registrations per day"
+msgstr "Registrácií za deň"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile.php:49
+#: bb-admin/index.php:31
+#, php-format
+msgid "Forums started %s ago."
+msgstr "Fórum začalo %s dozadu."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:15
+#: bb-admin/install.php:11
+msgid "bbPress &rsaquo; Installation"
+msgstr "bbPress &rsaquo; Inštalácia"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:86
+#: bb-admin/install.php:18
+#, php-format
+msgid "<h1>Already Installed</h1><p>You appear to have already installed bbPress. Perhaps you meant to <a href=\"%s\">upgrade</a> instead?</p><p>To reinstall please clear your old database tables first.</p>"
+msgstr "<h1>Už je to nainštalované</h1><p>Vyzerá to že už máš bbPress nainštalovaný. Asi si chcel spustiť <a href=\"%s\">upgrade</a>.</p><p>Ak chceš preinštalovať, vymaž najprv staré dabázové tabuľky.</p>"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:86
+#: bb-admin/install.php:25
+msgid "<h1>Already Installed</h1><p>You appear to have already installed bbPress. Perhaps you meant to run the upgrade scripts instead? To reinstall please clear your old database tables first.</p>"
+msgstr "<h1>Už je to nainštalované</h1><p>Vyzerá to že už máš bbPress nainštalovaný. Pravdepodobne si chcel spustiť namiesto tohto upgrade. Pre znovunainštalovanie prosím najprv vymaž staré dabázové tabuľky.</p>"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:102
+#: bb-admin/install.php:33
+#, php-format
+msgid "%s is now a Key Master"
+msgstr "%s sa stal Key Mastrom"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:103
+#: bb-admin/install.php:34
+msgid "Back to the front page"
+msgstr "Späť na domovskú stránku"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:107
+#: bb-admin/install.php:38
+msgid "Username not found.  Try again."
+msgstr "Užívateľské meno nebolo nájdené. Skús znovu."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:103
+#: bb-admin/install.php:48
+msgid "Welcome to bbPress installation. We&#8217;re now going to go through a few steps to get you up and running with the latest in forums software."
+msgstr "Vitajte pri inštalácii bbPress. Teraz prejdeme pár krokov a rozbehneme nejaké nové fórum."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:104
+#: bb-admin/install.php:49
+msgid "First Step &raquo;"
+msgstr "Prvý krok &raquo;"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:110
+#: bb-admin/install.php:77
+msgid "First Step"
+msgstr "Prvý krok"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:111
+#: bb-admin/install.php:78
+msgid "Make sure you have <strong>everything</strong> (database information, email address, etc.) entered correctly in <code>config.php</code> before running this script."
+msgstr "Pred spustením tohto skriptu sa uisti, že máš <strong>všetko</strong> (údaje o databáze, e-mailovú adresu,  atď.) správne zapísané v súbore <code>config.php</code>."
+
+#: bb-admin/install.php:86
+msgid "Your <code>$bb->domain</code> setting must <strong>not</strong> end in a backslash \"<code>/</code>\"."
+msgstr "Tvoje <code>$bb->domain</code> nastavenie <strong>nemôže</strong>  končiť lomítkom \"<code>/</code>\"."
+
+#: bb-admin/install.php:89
+msgid "Your <code>$bb->domain</code> setting cannot be parsed."
+msgstr "Tvoje <code>$bb->domain</code> sa nedá parsovať."
+
+#: bb-admin/install.php:91
+msgid "Your <code>$bb->domain</code> setting <strong>must</strong> start with <code>http://</code>."
+msgstr "Tvoje <code>$bb->domain</code> nastavenie <strong>musí<strong/> začínať na <code>http://</code>."
+
+#: bb-admin/install.php:93
+msgid "Your <code>$bb->domain</code> setting must only include the <code>http://</code> and the domain name; it may not include any directories or path information."
+msgstr "Tvoje <code>$bb->domain</code> nastavenie môže obsahovať len <code>http://</code> a doménové meno; nemôže obsahovať žiadne priečinky alebo cestu. "
+
+#: bb-admin/install.php:95
+msgid "Your <code>$bb->path</code> setting <strong>must</strong> start with a backslash \"<code>/</code>\"."
+msgstr "Tvoje <code>$bb->path</code> nastavenie <strong>musí</strong> žačínať lomítkom \"<code>/</code>\"."
+
+#: bb-admin/install.php:97
+msgid "Your <code>$bb->path</code> setting <strong>must</strong> end with a backslash \"<code>/</code>\"."
+msgstr "Tvoje <code>$bb->path</code> nastavenie <strong>musí</strong> končiť lomítkom \"<code>/</code>\"."
+
+#: bb-admin/install.php:103
+msgid "Your <code>$bb->wp_home</code> setting must <strong>not</strong> end in a backslash \"<code>/</code>\"."
+msgstr "Tvoje <code>$bb->path</code> nastavenie <strong>nemôže</strong> končiť lomítkom \"<code>/</code>\"."
+
+#: bb-admin/install.php:106
+msgid "Your <code>$bb->wp_home</code> setting cannot be parsed."
+msgstr "Tvoje <code>$bb->wp_home</code> sa nedá parsovať."
+
+#: bb-admin/install.php:108
+msgid "Your <code>$bb->wp_home</code> setting <strong>must</strong> start with <code>http://</code>."
+msgstr "Tvoje <code>$bb->wp_home</code> nastavenie <strong>musí</strong> začínať na <code>http://</code>."
+
+#: bb-admin/install.php:111
+msgid "Your <code>$bb->domain</code> and <code>$bb->wp_home</code> settings do not have the same domain.<br />You cannot share login cookies between the two.<br />Remove the <code>$bb->wp_home</code> setting from your config.php file."
+msgstr "Tvoje <code>$bb->domain</code> a <code>$bb->wp_home</code> nastavenia nemajú rovnaké doménové meno.<br />Nemôžeš zdieľať prihlasovacie cookies medzi oboma.<br />Odstráň <code>$bb->wp_home</code> nastavenia z tvojho config.php súboru."
+
+#: bb-admin/install.php:120
+msgid "Your <code>$bb->cookiedomain</code> is not in the same domain as your <code>$bb->domain</code>.  You will not be able to log in."
+msgstr "Tvoja <code>$bb->cookiedomain</code> nie je rovnaká doména ako <code>$bb->domain</code>. Nebudeš sa môcť prihlásiť."
+
+#: bb-admin/install.php:125
+msgid "Your bbPress URL <code>$bb->path</code> is outside of your <code>$bb->cookiepath</code>.  You may not be able to log in."
+msgstr "Tvoje bbPress URL <code>$bb->path</code> je mimo tvojej <code>$bb->cookiepath</code>. Možno sa nebudeš môcť prihlásiť.  "
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:112
+#: bb-admin/install.php:163
+msgid "Before we begin we need a little bit of information about your site's first <strong>administrator account</strong>, and your site's first <strong>forum</strong>."
+msgstr "Ešte pred tým než začneme, potrebujem pár údajov o prvom <strong>administrátorskom účte</strong> pre túto stránku a tvojom prvom tunajšom <strong>fóre</strong>."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:115
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/capabilities.php:63
+#: bb-admin/install.php:166
+#: bb-includes/capabilities.php:68
+msgid "Administrator"
+msgstr "Administrátor"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:125
+#: bb-admin/install.php:168
+#, php-format
+msgid "We found <strong>%s</strong> who is already a \"Key Master\" on these forums.  You may make others later"
+msgstr "Našli sme užívateľa menom <strong>%s</strong>, ktorý už je \"Key Master\" na tomto fóre. Neskôr môžeš urobiť ďaľších"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:154
+#: bb-admin/install.php:171
+msgid "Enter your username below.  You will be made the first Key Master on these forums.  Leave this blank if you want to create a new account"
+msgstr "Vlož svoje užívateľské meno. Budeš prvý Key Master na tomto fóre. Nechaj prázdne ak chceš vytvoriť nový účet."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/login-failed.php:12
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/login-failed.php:22
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/login-form.php:3
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/register.php:15
+#: bb-admin/install.php:176
+#: bb-templates/kakumei/login-form.php:4
+#: bb-templates/kakumei/login.php:12
+#: bb-templates/kakumei/login.php:22
+#: bb-templates/kakumei/login.php:32
+#: bb-templates/kakumei/register.php:15
+msgid "Username:"
+msgstr "Užívateľské meno:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:222
+#: bb-admin/install.php:180
+msgid "Email address:"
+msgstr "E-mail adresa:"
+
+#: bb-admin/install.php:181
+msgid "(You already set this in your <code>config.php</code> file.)"
+msgstr "(Toto si už nastavil v súbore <code>config.php</code>.)"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:122
+#: bb-admin/install.php:184
+msgid "Website:"
+msgstr "Web stránka:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:126
+#: bb-admin/install.php:188
+msgid "Location:"
+msgstr "Mesto a štát pobytu:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:130
+#: bb-admin/install.php:192
+msgid "Interests:"
+msgstr "Záujmy:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:135
+#: bb-admin/install.php:198
+msgid "First Forum"
+msgstr "Prvé fórum"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:143
+#: bb-admin/install.php:206
+msgid "Description:"
+msgstr "Popis:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:147
+#: bb-admin/install.php:210
+msgid "Double-check that username before continuing."
+msgstr "Než budeš pokračovať si dva-krát skontroluj prihlasovacie meno."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:150
+#: bb-admin/install.php:213
+msgid "Continue to Second Step &raquo;"
+msgstr "Pokračuj druhým krokom &raquo;"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/bb-forum.php:15
+#: bb-admin/install.php:225
+msgid "Bad username.  Go back and try again."
+msgstr "Nesprávne užívateľské meno. Choď späť a skús znovu."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:206
+#: bb-admin/install.php:227
+msgid "Username not found.  Go back and try again."
+msgstr "Užívateľské meno sa nenašlo. Choď späť a skús znovu."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:177
+#: bb-admin/install.php:229
+msgid "You must name your first forum.  Go back and try again."
+msgstr "Musíš pomenovať svoje prvé fórum. Choď späť a skús znovu."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:159
+#: bb-admin/install.php:231
+msgid "Second Step"
+msgstr "Druhý krok"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:160
+#: bb-admin/install.php:232
+msgid "Now we&#8217;re going to create the database tables and fill them with some default data."
+msgstr "Teraz vytvoríme databázové tabuľky a naplníme ich nejakými počiatočnými dátami."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:199
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:205
+#: bb-admin/install.php:250
+#: bb-admin/install.php:256
+msgid "*Your WordPress password*"
+msgstr "*Tvoje WordPress heslo*"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:224
+#: bb-admin/install.php:277
+msgid "Your first topic"
+msgstr "Tvoja prvá téma"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:225
+#: bb-admin/install.php:278
+msgid "First Post!  w00t."
+msgstr "Prvý príspevok!  ..."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:195
+#: bb-admin/install.php:281
+#, php-format
+msgid ""
+"Your new bbPress site has been successfully set up at:\n"
+"\n"
+"%1$s\n"
+"\n"
+"You can log in to the administrator account with the following information:\n"
+"\n"
+"Username: %2$s\n"
+"Password: %3$s\n"
+"\n"
+"We hope you enjoy your new forums. Thanks!\n"
+"\n"
+"--The bbPress Team\n"
+"http://bbpress.org/\n"
+msgstr ""
+"Tvoje nové bbPress fórum bolo úspešne spustené na:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Môžeš sa prilásiť do administrátorského účtu s nasledovnými údajmi:\n"
+"\n"
+"Užívateľské meno: %2$s\n"
+"Heslo: %3$s\n"
+"\n"
+"Dúfame, že si vychutnávaš svoje nové fórum. Ďakujeme!\n"
+"\n"
+"Tím bbPress a František Malina, VizualBod\n"
+"http://vizualbod.com/\n"
+"http://bbpress.org/\n"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:210
+#: bb-admin/install.php:296
+msgid "New bbPress installation"
+msgstr "Nová inštalácia bbPress"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:212
+#: bb-admin/install.php:298
+msgid "Finished!"
+msgstr "Hotovo!"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:214
+#: bb-admin/install.php:300
+#, php-format
+msgid "Now you can <a href=\"%1$s\">log in</a> with the <strong>username</strong> \"<code>%2$s</code>\" and <strong>password</strong> \"<code>%3$s</code>\"."
+msgstr "Teraz sa môžeš <a href=\"%1$s\">prihlásiť</a> s tvojim <strong>užívateľským menom</strong> &bdquo;<code>%2$s</code>&ldquo; a <strong>heslom</strong> &bdquo;<code>%3$s</code>&ldquo;."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:215
+#: bb-admin/install.php:302
+msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you. If you lose it, you will have to delete the tables from the database yourself, and re-install bbPress. So to review:"
+msgstr "<strong><em>Poznač si toto heslo</em></strong> pozorne! Je <em>náhodne</em> vygenerované len pre tvoje použitie. Ak ho stratíš, budeš musieť vymazať databázové tabuľky a znovu nainštalovať bbPress. Takže to zhrnieme:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:220
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/registration-functions.php:118
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile-edit.php:80
+#: bb-admin/install.php:307
+#: bb-includes/registration-functions.php:102
+#: bb-templates/kakumei/profile-edit.php:20
+msgid "Password"
+msgstr "Heslo"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:222
+#: bb-admin/install.php:309
+msgid "Login address"
+msgstr "Adresa prihlásenia"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:225
+#: bb-admin/install.php:312
+msgid "Were you expecting more steps? Sorry to disappoint. All done! :)"
+msgstr "Čakal si niečo zložitajšie? Musím Ťa sklamať. Je to hotové! :)"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:230
+#: bb-admin/install.php:317
+msgid "<a href=\"http://bbpress.org/\">bbPress</a>: Simple, Fast, Elegant."
+msgstr "<a href=\"http://bbpress.org/\">bbPress</a>: jednoduchý, rýchly, vkusný."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/site.php:6
+#: bb-admin/site.php:5
+msgid ""
+"The following checkboxes allow you to recalculate various numbers stored in\n"
+"the database.  These numbers are used for things like counting the number of\n"
+"pages worth of posts a particular topic has.  You shouldn't need to do do any of\n"
+"this unless you're upgrading from one version to another or are seeing\n"
+"pagination oddities."
+msgstr "Nasledujúce zaškrtávacie políčka ti dávajú možnosť prepočítať rôzne počty skladované v databáze. Tieto čísla sa používajú na účely ako rátanie počtu stránok príspevkov... Toto je dôležité len pri aktualizáciách a niektorých chybách so stránkovaním. "
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/site.php:14
+#: bb-admin/site.php:13
+msgid "Choose items to recalculate"
+msgstr "Vyber položky na prepočítanie"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/site.php:20
+#: bb-admin/site.php:19
+msgid "Count!"
+msgstr "Spočítaj!"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/tag-destroy.php:6
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/tag-merge.php:6
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/tag-rename.php:7
+#: bb-admin/tag-destroy.php:6
+#: bb-admin/tag-merge.php:6
+#: bb-admin/tag-rename.php:7
+msgid "You are not allowed to manage tags."
+msgstr "Némáš povolenie spravovať značky."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/tag-destroy.php:12
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/tag-rename.php:14
+#: bb-admin/tag-destroy.php:14
+#: bb-admin/tag-rename.php:16
+msgid "Tag not found."
+msgstr "Značka sa nenašla."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/tag-destroy.php:15
+#: bb-admin/tag-destroy.php:17
+#, php-format
+msgid "Rows deleted from tags table: %d <br />\n"
+msgstr "Vymazané riadky z tabuľky značiek: %d <br />\n"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/tag-destroy.php:16
+#: bb-admin/tag-destroy.php:18
+#, php-format
+msgid "Rows deleted from tagged table: %d <br />\n"
+msgstr "Vymazané riadky z tabuľky označkovaných tém: %d <br />\n"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/tag-destroy.php:17
+#: bb-admin/tag-destroy.php:19
+#, php-format
+msgid "<a href=\"%s\">Home</a>"
+msgstr "<a href=\"%s\">Domov</a>"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/tag-destroy.php:19
+#: bb-admin/tag-destroy.php:21
+#, php-format
+msgid ""
+"Something odd happened when attempting to destroy that tag.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"Pri pokuse o zničenie tej značky sa stalo niečo divné.<br />\n"
+"<a href=\"%s\">Skúsiš znovu?</a>"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/tag-merge.php:11
+#: bb-admin/tag-merge.php:14
+msgid "Tag specified not found."
+msgstr "Zadaná značka sa nenešlo."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/tag-merge.php:14
+#: bb-admin/tag-merge.php:17
+msgid "Tag to be merged not found."
+msgstr "Značky do ktorej sa to malo vmiešať sa nenašla"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/tag-merge.php:17
+#: bb-admin/tag-merge.php:20
+#, php-format
+msgid "Number of topics from which the old tag was removed: %d <br />\n"
+msgstr "Počet tém, z ktorých som odstránil starú značku: %d <br />\n"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/tag-merge.php:18
+#: bb-admin/tag-merge.php:21
+#, php-format
+msgid "Number of topics to which the new tag was added: %d <br />\n"
+msgstr "Počet tém, na ktoré bola značka nalepená: %d <br />\n"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/tag-merge.php:19
+#: bb-admin/tag-merge.php:22
+#, php-format
+msgid "Number of rows deleted from tags table:%d <br />\n"
+msgstr "Počet riadkov vymazaných z tabuľky značiek:%d <br />\n"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/tag-merge.php:20
+#: bb-admin/tag-merge.php:23
+#, php-format
+msgid "<a href=\"%s\">New Tag</a>"
+msgstr "<a href=\"%s\">Nová značka</a>"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/tag-merge.php:22
+#: bb-admin/tag-merge.php:25
+#, php-format
+msgid ""
+"Something odd happened when attempting to merge those tags.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"Pri pokuse o zlúčenie značiek sa stalo niečo divné.<br />\n"
+"<a href=\"%s\">Skúsiš znovu?</a>"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/tag-rename.php:19
+#: bb-admin/tag-rename.php:21
+#, php-format
+msgid "There already exists a tag by that name or the name is invalid. <a href=\"%s\">Try Again</a>"
+msgstr "Značka s takým menom tu už existuje alebo je meno neplatné. <a href=\"%s\">Skús znovu</a>"
+
+#: bb-admin/themes.php:20
+#, php-format
+msgid "Theme \"%s\" activated"
+msgstr "Vzhľad \"%s\" aktivovaný"
+
+#: bb-admin/themes.php:26
+msgid "Theme not found.  Default theme applied."
+msgstr "Vzhľad sa nenašiel. Aplikujem východzí vzhľad."
+
+#: bb-admin/themes.php:35
+#: bb-admin/themes.php:37
+msgid "Click to activate"
+msgstr "Aktivuj"
+
+#: bb-admin/themes.php:39
+#, php-format
+msgid "by <cite>%s</cite>"
+msgstr "napísal <cite>%s</cite>"
+
+#: bb-admin/themes.php:39
+#, php-format
+msgid ", ported by <cite>%s</cite>"
+msgstr ", napísal/a <cite>%s</cite>"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/front-page.php:47
+#: bb-admin/themes.php:50
+msgid "Current Theme"
+msgstr "Práve používaný vzhľad"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/front-page.php:47
+#: bb-admin/themes.php:56
+msgid "Available Themes"
+msgstr "Dostupné vzhľady"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/topic-move.php:8
+#: bb-admin/topic-move.php:8
+msgid "Invalid topic or forum."
+msgstr "Neplatná téma alebo fórum."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/topic-move.php:19
+#: bb-admin/topic-move.php:21
+msgid "Your topic or forum caused all manner of confusion"
+msgstr "Tvoja téma alebo fórum spôsobili všetky možné zmätky"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1439
+#: bb-admin/upgrade.php:19
+msgid "bbPress &rsaquo; Upgrade"
+msgstr "bbPress &rsaquo; Upgrade"
+
+#: bb-admin/upgrade.php:26
+#, php-format
+msgid "Upgrade complete.  <a href=\"%s\">Enjoy!</a>"
+msgstr "Aktualizácia je hotová. <a href=\"%s\">Uži si to.</a>"
+
+#: bb-admin/upgrade.php:28
+#, php-format
+msgid "Nothing to upgrade.  <a href=\"%s\">Get back to work!</a>"
+msgstr "Nie je čo aktualizovať.  <a href=\"%s\">Späť do práce!</a> "
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/users-blocked.php:7
+#: bb-admin/users-blocked.php:9
+msgid "These users have been blocked by the forum administrators"
+msgstr "Týchto užívateľov administrátori fóra zablokovali"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/users-moderators.php:7
+#: bb-admin/users-moderators.php:9
+msgid "Forum Administrators"
+msgstr "Administrátori fóra"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/view-ip.php:15
+#: bb-admin/view-ip.php:15
+msgid "IP Information"
+msgstr "IP Údaje"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/view-ip.php:16
+#: bb-admin/view-ip.php:16
+msgid "Last 30 posts"
+msgstr "Posledných 30 príspevkov"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/view-ip.php:33
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/post.php:8
+#: bb-admin/view-ip.php:33
+msgid "Posted:"
+msgstr "Publikované:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-edit.php:20
+#: bb-edit.php:20
+msgid "Sorry, post is too old."
+msgstr "Prepáč, príspevok je pristarý."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/akismet.php:178
+#: bb-includes/akismet.php:178
+msgid "Akismet Spam"
+msgstr "Akismet Spam"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/akismet.php:191
+#: bb-includes/akismet.php:191
+#, php-format
+msgid "The API key you have specified is invalid.  Please double check the <code>$bb->akismet_key</code> variable in your <code>config.php file</code>.  If you don't have an API key yet, you can get one at <a href=\"%s\">WordPress.com</a>."
+msgstr "Číslo kľúča k aplikačnému rozhraniu (API key), ktoré si zadal je neplatné.  Over premennú <code>$bb->akismet_key</code> v súbore <code>config.php</code>. Ak ešte nemáš API kľúč, môžeš ho získať na <a href=\"%s\">WordPress.com</a>."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/akismet.php:212
+#: bb-includes/akismet.php:212
+msgid "Not Spam"
+msgstr "Nie spam"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/akismet.php:214
+#: bb-includes/akismet.php:214
+msgid "Spam"
+msgstr "Označ spam"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/bozo.php:76
+#: bb-includes/bozo.php:75
+msgid "Counting bozo posts..."
+msgstr "Rátanie príspevkov od nekompetentných magorov..."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/bozo.php:96
+#: bb-includes/bozo.php:95
+msgid "Done counting bozo posts."
+msgstr "Príspevky od nekompetentných sú spočítané."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/bozo.php:105
+#: bb-includes/bozo.php:106
+msgid "Counting bozo topics for each user...\n"
+msgstr "Počítanie tém od nekompetetných pre každého užívateľa...\n"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/bozo.php:125
+#: bb-includes/bozo.php:126
+msgid ""
+"Done counting bozo topics.\n"
+"\n"
+msgstr ""
+"Počítanie príspevkov od nekompetentných je hotové.\n"
+"\n"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/bozo.php:136
+#: bb-includes/bozo.php:137
+msgid "Count topics to which each user has replied and count each users&#039; bozo posts"
+msgstr "Spočítaj témy na ktoré každý užívateľ odpovedal a spočítaj nekompetentné príspevky každého užívateľa"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/bozo.php:137
+#: bb-includes/bozo.php:138
+msgid "Count bozo posts on every topic"
+msgstr "Spočítaj príspevky od nekompetentných pre každú tému"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/bozo.php:236
+#: bb-includes/bozo.php:237
+msgid "This user is a bozo"
+msgstr "Tento užívaťeľ je nekompetentný"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/bozo.php:242
+#: bb-includes/bozo.php:243
+msgid "Bozos"
+msgstr "Nekompetentní"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/bozo.php:252
+#: bb-includes/bozo.php:253
+msgid "These users have been marked as bozos"
+msgstr "Títo užívatelia boli označení ako nekompetentní"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/capabilities.php:27
+#: bb-includes/capabilities.php:27
+msgid "Key Master"
+msgstr "Key Master"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/capabilities.php:95
+#: bb-includes/capabilities.php:105
+msgid "Moderator"
+msgstr "Moderátor"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/capabilities.php:122
+#: bb-includes/capabilities.php:136
+msgid "Member"
+msgstr "Člen"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/capabilities.php:137
+#: bb-includes/capabilities.php:152
+msgid "Inactive"
+msgstr "Neaktívny"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/formatting-functions.php:291
+#: bb-includes/formatting-functions.php:210
+#, php-format
+msgid "[closed] %s"
+msgstr "[uzavretá] %s"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:299
+#: bb-includes/functions.php:421
+msgid "year"
+msgstr "rok"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:253
+#: bb-includes/functions.php:421
+msgid "years"
+msgstr "roky"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:300
+#: bb-includes/functions.php:422
+msgid "month"
+msgstr "mesiac"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:254
+#: bb-includes/functions.php:422
+msgid "months"
+msgstr "mesiace"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:301
+#: bb-includes/functions.php:423
+msgid "week"
+msgstr "týždeň"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:255
+#: bb-includes/functions.php:423
+msgid "weeks"
+msgstr "týždne"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:302
+#: bb-includes/functions.php:424
+msgid "day"
+msgstr "deň"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:256
+#: bb-includes/functions.php:424
+msgid "days"
+msgstr "dni"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:303
+#: bb-includes/functions.php:425
+msgid "hour"
+msgstr "hodina"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:257
+#: bb-includes/functions.php:425
+msgid "hours"
+msgstr "hodín"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:304
+#: bb-includes/functions.php:426
+msgid "minute"
+msgstr "minúta"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:258
+#: bb-includes/functions.php:426
+msgid "minutes"
+msgstr "minút"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-footer.php:4
+#: bb-includes/functions.php:427
+msgid "second"
+msgstr "sekunda"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/admin-footer.php:4
+#: bb-includes/functions.php:427
+msgid "seconds"
+msgstr "sekundy"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:273
+#: bb-includes/functions.php:441
+#, php-format
+msgid "%1$d %2$s"
+msgstr "%1$d %2$s"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:282
+#: bb-includes/functions.php:448
+#, php-format
+msgid ", %1$d %2$s"
+msgstr ", %1$d %2$s"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:458
+#: bb-includes/functions.php:590
+msgid "You've been blocked.  If you think a mistake has been made, contact this site's administrator."
+msgstr "Zablokovali sme ťa. Ak si myslíš, že to bol omyl, prijmi prosím moje ospravedlneneie a kontaktuj administrátora."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:469
+#: bb-includes/functions.php:602
+msgid "bb_get_user needs a numeric ID"
+msgstr "bb_get_user potrebuje číselné ID"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1341
+#: bb-includes/functions.php:1665
+msgid "REQUEST_URI"
+msgstr "REQUEST_URI"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1343
+#: bb-includes/functions.php:1667
+msgid "should be"
+msgstr "by mal byť"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1345
+#: bb-includes/functions.php:1669
+msgid "full permalink"
+msgstr "Plný trvalý odkaz"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1347
+#: bb-includes/functions.php:1671
+msgid "PATH_INFO"
+msgstr "PATH_INFO"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1398
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/favorites.php:4
+#: bb-includes/functions.php:1697
+#: bb-templates/kakumei/favorites.php:3
+msgid "Favorites"
+msgstr "Obľúbené"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1447
+#: bb-includes/functions.php:1748
+msgid "Website"
+msgstr "Web stránka"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1447
+#: bb-includes/functions.php:1748
+msgid "Location"
+msgstr "Mesto a štát pobytu"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1447
+#: bb-includes/functions.php:1748
+msgid "Occupation"
+msgstr "Povolanie/funkcia"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1447
+#: bb-includes/functions.php:1748
+msgid "Interests"
+msgstr "Záujmy"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1455
+#: bb-includes/functions.php:1756
+msgid "Custom Title"
+msgstr "Vlastný názov"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1462
+#: bb-includes/functions.php:1763
+msgid "Ignore the 30 second post throttling limit"
+msgstr "ignorovať 30 sekundové zdržanie pri posielaní príspevkov"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1469
+#: bb-includes/functions.php:1773
+msgid "Topics with no replies"
+msgstr "Témy bez odpovedí"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1469
+#: bb-includes/functions.php:1774
+msgid "Topics with no tags"
+msgstr "Témy bez značiek"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1414
+#: bb-includes/functions.php:1795
+msgid "bbPress Confirmation"
+msgstr "Potvrdenie z fóra"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1427
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1429
+#: bb-includes/functions.php:1809
+#: bb-includes/functions.php:1811
+msgid "No"
+msgstr "Nie"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1427
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1429
+#: bb-includes/functions.php:1809
+#: bb-includes/functions.php:1811
+msgid "Yes"
+msgstr "Áno"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1439
+#: bb-includes/functions.php:1850
+msgid "bbPress &rsaquo; Error"
+msgstr "bbPress &rsaquo; Chyba"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1499
+#: bb-includes/functions.php:1866
+msgid "Are you sure you want to submit this post?"
+msgstr "Skutočne chceš odoslať tento príspevok?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1500
+#: bb-includes/functions.php:1867
+msgid "Are you sure you want to edit this post?"
+msgstr "Skutočne chceš upraviť tento príspevok?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1501
+#: bb-includes/functions.php:1868
+msgid "Are you sure you want to delete this post?"
+msgstr "Skutočne chceš vymazať tento príspevok?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1503
+#: bb-includes/functions.php:1870
+msgid "Are you sure you want to create this topic?"
+msgstr "Si si istý, že chceš načať túto tému?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1504
+#: bb-includes/functions.php:1871
+msgid "Are you sure you want to change the resolution status of this topic?"
+msgstr "Skutočne chceš zmeniť ................ stav témy?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1505
+#: bb-includes/functions.php:1872
+msgid "Are you sure you want to delete this topic?"
+msgstr "Skutočne chceš vymazať túto tému?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1506
+#: bb-includes/functions.php:1873
+msgid "Are you sure you want to change the status of this topic?"
+msgstr "Skutočne chceš zmaniť momentálny stav tejto témy?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1507
+#: bb-includes/functions.php:1874
+msgid "Are you sure you want to change the sticky status of this topic?"
+msgstr "Skutočne chceš zmeniť ............... stav tejto témy?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1508
+#: bb-includes/functions.php:1875
+msgid "Are you sure you want to move this topic?"
+msgstr "Skutočne chceš presťahovať túto tému?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1510
+#: bb-includes/functions.php:1877
+msgid "Are you sure you want to add this tag to this topic?"
+msgstr "Skutočne chceš takto označkovať tému?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1511
+#: bb-includes/functions.php:1878
+msgid "Are you sure you want to rename this tag?"
+msgstr "Skutočne chceš premenovať túto značku?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1512
+#: bb-includes/functions.php:1879
+msgid "Are you sure you want to submit these tags?"
+msgstr "Skutočne chceš odoslať tieto značky? Vystihujú dobre obsah textu?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1513
+#: bb-includes/functions.php:1880
+msgid "Are you sure you want to destroy this tag?"
+msgstr "Skutočne chceš zahodiť túto značku?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1514
+#: bb-includes/functions.php:1881
+msgid "Are you sure you want to remove this tag from this topic?"
+msgstr "Si si istý, že chceš odstrániť túto značku z danej témy?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1516
+#: bb-includes/functions.php:1883
+msgid "Are you sure you want to toggle your favorite status for this topic?"
+msgstr "Naozaj chceš zaradiť túto tému medzi tvoje obľúbené?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1518
+#: bb-includes/functions.php:1885
+msgid "Are you sure you want to edit this user's profile?"
+msgstr "Skutočne chceš upraviť profil tohto užívateľa?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1520
+#: bb-includes/functions.php:1887
+msgid "Are you sure you want to add this forum?"
+msgstr "Skutočne chceš pridať toto fórum?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1521
+#: bb-includes/functions.php:1888
+msgid "Are you sure you want to update your forums?"
+msgstr "Skutočne chceš aktualizovať tvoje fóra?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1501
+#: bb-includes/functions.php:1889
+msgid "Are you sure you want to delete that forum?"
+msgstr "Skutočne chceš vymazať toto fórum?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1523
+#: bb-includes/functions.php:1891
+msgid "Are you sure you want to recount these items?"
+msgstr "Skutočne chceš prepočítať tieto položky?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1512
+#: bb-includes/functions.php:1893
+msgid "Are you sure you want to switch themes?"
+msgstr "Skutočne chceš prepnúť vzhľad?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/functions.php:1538
+#: bb-includes/functions.php:1908
+msgid "Are you sure you want to do this?"
+msgstr "Skutočne to chceš urobiť?"
+
+#: bb-includes/functions.php:1983
+#: bb-includes/functions.php:2048
+msgid "Your search term was too short"
+msgstr "Hľadaný výraz je prikrátky"
+
+#: bb-includes/functions.php:2027
+msgid "Your query parameters are invalid"
+msgstr "Parametre tvojej požiadavky sú neplatné"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/js/list-manipulation-js.php:7
+#: bb-includes/js/list-manipulation-js.php:3
+#, php-format
+msgid "Are you sure you want to delete this %s?"
+msgstr "Naozaj chceš vymazať túto %s?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/js/list-manipulation-js.php:54
+#: bb-includes/js/list-manipulation-js.php:50
+msgid "Jump to new item"
+msgstr "Preskoč na novú položku"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/js/topic-js.php:9
+#: bb-includes/js/topic-js.php:9
+#, php-format
+msgid "Are you sure you wanna delete this post by \"' + %s + '\"?"
+msgstr "Naozaj chceš vymazať tento príspevok? Jeho autor je  \"' + %s + '\"."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/js/topic-js.php:40
+#: bb-includes/js/topic-js.php:40
+#, php-format
+msgid "Are you sure you want to remove the \"' + %s + '\" tag?"
+msgstr "Si si istý, že chceš odstrániť \"' + %s + '\" značku?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/js/topic-js.php:77
+#: bb-includes/js/topic-js.php:68
+#, php-format
+msgid "This topic is one of your <a href=' + %s + '>favorites</a>"
+msgstr "Je jedna z tvojich <a href=' + %s + '>obľúbených</a>"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:1208
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/js/topic-js.php:79
+#: bb-includes/js/topic-js.php:70
+#: bb-includes/template-functions.php:1594
+msgid "Add this topic to your favorites"
+msgstr "Pridaj tému medzi tvoje obľúbené"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/js/wp-ajax-js.php:57
+#: bb-includes/js/wp-ajax-js.php:57
+msgid "You don't have permission to do that."
+msgstr "Nemáš povolenie to urobiť."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/js/wp-ajax-js.php:60
+#: bb-includes/js/wp-ajax-js.php:60
+msgid "Something strange happened.  Try refreshing the page."
+msgstr "Stalo sa niečo čudné. Skús obnoviť stránku (Ctrl+r)."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/js/wp-ajax-js.php:84
+#: bb-includes/js/wp-ajax-js.php:84
+msgid "Slow down, I'm still sending your data!"
+msgstr "Spomaľ! Ešte stále posielam tvoje dáta."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:20
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:30
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:43
+#: bb-includes/locale.php:20
+#: bb-includes/locale.php:30
+#: bb-includes/locale.php:43
+msgid "Sunday"
+msgstr "Nedeľa"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:21
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:31
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:44
+#: bb-includes/locale.php:21
+#: bb-includes/locale.php:31
+#: bb-includes/locale.php:44
+msgid "Monday"
+msgstr "Pondelok"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:22
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:32
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:45
+#: bb-includes/locale.php:22
+#: bb-includes/locale.php:32
+#: bb-includes/locale.php:45
+msgid "Tuesday"
+msgstr "Utorok"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:23
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:33
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:46
+#: bb-includes/locale.php:23
+#: bb-includes/locale.php:33
+#: bb-includes/locale.php:46
+msgid "Wednesday"
+msgstr "Streda"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:24
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:34
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:47
+#: bb-includes/locale.php:24
+#: bb-includes/locale.php:34
+#: bb-includes/locale.php:47
+msgid "Thursday"
+msgstr "Štvrtok"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:25
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:35
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:48
+#: bb-includes/locale.php:25
+#: bb-includes/locale.php:35
+#: bb-includes/locale.php:48
+msgid "Friday"
+msgstr "Piatok"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:26
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:36
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:49
+#: bb-includes/locale.php:26
+#: bb-includes/locale.php:36
+#: bb-includes/locale.php:49
+msgid "Saturday"
+msgstr "Sobota"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:30
+#: bb-includes/locale.php:30
+msgid "S_Sunday_initial"
+msgstr "N_Nedaľa_initial"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:31
+#: bb-includes/locale.php:31
+msgid "M_Monday_initial"
+msgstr "P_Pondelok_initial"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:32
+#: bb-includes/locale.php:32
+msgid "T_Tuesday_initial"
+msgstr "U_Utorok_initial"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:33
+#: bb-includes/locale.php:33
+msgid "W_Wednesday_initial"
+msgstr "S_Streda_initial"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:34
+#: bb-includes/locale.php:34
+msgid "T_Thursday_initial"
+msgstr "Š_Štvrtok_initial"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:35
+#: bb-includes/locale.php:35
+msgid "F_Friday_initial"
+msgstr "P_Piatok_initial"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:36
+#: bb-includes/locale.php:36
+msgid "S_Saturday_initial"
+msgstr "S_Sobota_initial"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:43
+#: bb-includes/locale.php:43
+msgid "Sun"
+msgstr "Ne"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:44
+#: bb-includes/locale.php:44
+msgid "Mon"
+msgstr "Po"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:45
+#: bb-includes/locale.php:45
+msgid "Tue"
+msgstr "Ut"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:46
+#: bb-includes/locale.php:46
+msgid "Wed"
+msgstr "St"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:47
+#: bb-includes/locale.php:47
+msgid "Thu"
+msgstr "Št"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:48
+#: bb-includes/locale.php:48
+msgid "Fri"
+msgstr "Pi"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:49
+#: bb-includes/locale.php:49
+msgid "Sat"
+msgstr "So"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:52
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:67
+#: bb-includes/locale.php:52
+#: bb-includes/locale.php:67
+msgid "January"
+msgstr "Január"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:53
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:68
+#: bb-includes/locale.php:53
+#: bb-includes/locale.php:68
+msgid "February"
+msgstr "Február"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:54
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:69
+#: bb-includes/locale.php:54
+#: bb-includes/locale.php:69
+msgid "March"
+msgstr "Marec"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:55
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:70
+#: bb-includes/locale.php:55
+#: bb-includes/locale.php:70
+msgid "April"
+msgstr "Apríl"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:56
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:71
+#: bb-includes/locale.php:56
+#: bb-includes/locale.php:71
+msgid "May"
+msgstr "Máj"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:57
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:72
+#: bb-includes/locale.php:57
+#: bb-includes/locale.php:72
+msgid "June"
+msgstr "Jún"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:58
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:73
+#: bb-includes/locale.php:58
+#: bb-includes/locale.php:73
+msgid "July"
+msgstr "Júl"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:59
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:74
+#: bb-includes/locale.php:59
+#: bb-includes/locale.php:74
+msgid "August"
+msgstr "August"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:60
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:75
+#: bb-includes/locale.php:60
+#: bb-includes/locale.php:75
+msgid "September"
+msgstr "September"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:61
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:76
+#: bb-includes/locale.php:61
+#: bb-includes/locale.php:76
+msgid "October"
+msgstr "Október"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:62
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:77
+#: bb-includes/locale.php:62
+#: bb-includes/locale.php:77
+msgid "November"
+msgstr "November"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:63
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:78
+#: bb-includes/locale.php:63
+#: bb-includes/locale.php:78
+msgid "December"
+msgstr "December"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:67
+#: bb-includes/locale.php:67
+msgid "Jan_January_abbreviation"
+msgstr "Jan_Január_abbreviation"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:68
+#: bb-includes/locale.php:68
+msgid "Feb_February_abbreviation"
+msgstr "Feb_Február_abbreviation"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:69
+#: bb-includes/locale.php:69
+msgid "Mar_March_abbreviation"
+msgstr "Mar_Marec_abbreviation"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:70
+#: bb-includes/locale.php:70
+msgid "Apr_April_abbreviation"
+msgstr "Apr_Apríl_abbreviation"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:71
+#: bb-includes/locale.php:71
+msgid "May_May_abbreviation"
+msgstr "Máj_Máj_abbreviation"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:72
+#: bb-includes/locale.php:72
+msgid "Jun_June_abbreviation"
+msgstr "Jún_Jún_abbreviation"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:73
+#: bb-includes/locale.php:73
+msgid "Jul_July_abbreviation"
+msgstr "Júl_Júl_abbreviation"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:74
+#: bb-includes/locale.php:74
+msgid "Aug_August_abbreviation"
+msgstr "Aug_August_abbreviation"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:75
+#: bb-includes/locale.php:75
+msgid "Sep_September_abbreviation"
+msgstr "Sep_September_abbreviation"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:76
+#: bb-includes/locale.php:76
+msgid "Oct_October_abbreviation"
+msgstr "Okt_Október_abbreviation"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:77
+#: bb-includes/locale.php:77
+msgid "Nov_November_abbreviation"
+msgstr "Nov_November_abbreviation"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:78
+#: bb-includes/locale.php:78
+msgid "Dec_December_abbreviation"
+msgstr "Dec_December_abbreviation"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:85
+#: bb-includes/locale.php:85
+msgid "am"
+msgstr "am"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:86
+#: bb-includes/locale.php:86
+msgid "pm"
+msgstr "pm"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:87
+#: bb-includes/locale.php:87
+msgid "AM"
+msgstr "AM"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/locale.php:88
+#: bb-includes/locale.php:88
+msgid "PM"
+msgstr "PM"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/registration-functions.php:65
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/password-reset.php:5
+#: bb-includes/registration-functions.php:44
+#: bb-templates/kakumei/password-reset.php:5
+msgid "Password Reset"
+msgstr "Obnoviť heslo"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/registration-functions.php:65
+#: bb-includes/registration-functions.php:44
+#, php-format
+msgid ""
+"If you wanted to reset your password, you may do so by visiting the following address:\n"
+"\n"
+"%s\n"
+"\n"
+"If you don't want to reset your password, just ignore this email. Thanks!"
+msgstr ""
+"Ak chceš obnoviť svoje heslo, navštív nasledovnú adresu:\n"
+"\n"
+"%s\n"
+"\n"
+"Ak nechceš obnoviť heslo, ignoruj tento e-mail. Ďakujem."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/registration-functions.php:78
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/registration-functions.php:86
+#: bb-includes/registration-functions.php:57
+#: bb-includes/registration-functions.php:59
+#: bb-includes/registration-functions.php:70
+msgid "Key not found."
+msgstr "Kľúč sa nenašiel."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/registration-functions.php:85
+#: bb-includes/registration-functions.php:64
+msgid "You are not allowed to change your password."
+msgstr "Nemáš povolenie meniť tvoje heslo."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/registration-functions.php:117
+#: bb-includes/registration-functions.php:101
+#, php-format
+msgid ""
+"Your username is: %1$s \n"
+"Your password is: %2$s \n"
+"You can now log in: %3$s \n"
+"\n"
+"Enjoy!"
+msgstr ""
+"Tvoje užívateľské meno je: %1$s \n"
+"Tvoje heslo je: %2$s \n"
+"Teraz sa už môžeš prihlásiť: %3$s \n"
+"\n"
+"Uži si to!"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:26
+#: bb-includes/template-functions.php:86
+#: bb-templates/kakumei/profile.php:3
+msgid "Profile"
+msgstr "Profil"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/post-form.php:2
+#: bb-includes/template-functions.php:123
+msgid "Reply"
+msgstr "Reaguj"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/post-form.php:4
+#: bb-includes/template-functions.php:125
+msgid "New Topic in this Forum"
+msgstr "Nová téma na tomto fóre"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/post-form.php:6
+#: bb-includes/template-functions.php:127
+msgid "Add New Topic"
+msgstr "Pridaj novú tému"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/topic-tags.php:25
+#: bb-includes/template-functions.php:152
+#, php-format
+msgid "You must <a href=\"%s\">log in</a> to post."
+msgstr "Musíš sa <a href=\"%s\">prihlásiť</a> ak chceš publikovať."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/tags.php:5
+#: bb-includes/template-functions.php:314
+#: bb-templates/kakumei/tag-single.php:3
+#: bb-templates/kakumei/tags.php:3
+msgid "Tags"
+msgstr "Značky"
+
+# C:\Programme\xampp\htdocs\bbpress/rss.php:45
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:289
+#: bb-includes/template-functions.php:329
+#: rss.php:46
+msgid "Tag"
+msgstr "Značky"
+
+# C:\Programme\xampp\htdocs\bbpress/rss.php:49
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:291
+#: bb-includes/template-functions.php:331
+#: rss.php:50
+msgid "Forum"
+msgstr "Fórum"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:293
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/search.php:37
+#: bb-includes/template-functions.php:333
+#: bb-templates/kakumei/search.php:37
+msgid "Recent Posts"
+msgstr "Najnovšie príspevky"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:504
+#: bb-includes/template-functions.php:676
+msgid "Are you sure you wanna delete that?"
+msgstr "Skutočne to chceš vymazať?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:696
+#: bb-includes/template-functions.php:676
+msgid "Delete entire topic"
+msgstr "Vymaž túto tému"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:506
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:665
+#: bb-includes/template-functions.php:678
+#: bb-includes/template-functions.php:927
+msgid "Are you sure you wanna undelete that?"
+msgstr "Skutočne to chceš obnoviť?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:698
+#: bb-includes/template-functions.php:678
+msgid "Undelete entire topic"
+msgstr "Obnov túto tému"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:515
+#: bb-includes/template-functions.php:696
+msgid "Close topic"
+msgstr "Uzavri tému"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:517
+#: bb-includes/template-functions.php:698
+msgid "Open topic"
+msgstr "Otvor tému"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:527
+#: bb-includes/template-functions.php:717
+msgid "Unstick topic"
+msgstr "Odlep tému"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:529
+#: bb-includes/template-functions.php:719
+msgid "Stick topic"
+msgstr "Lepkavá téma"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:529
+#: bb-includes/template-functions.php:719
+msgid "to front"
+msgstr "na čelnú stránku"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:537
+#: bb-includes/template-functions.php:726
+msgid "View normal posts"
+msgstr "Prezri si normálne príspevky"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:539
+#: bb-includes/template-functions.php:728
+msgid "View all posts"
+msgstr "Prezri si všetky príspevky"
+
+#: bb-includes/template-functions.php:745
+#, php-format
+msgid "+%d more"
+msgstr "+%d viac"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:550
+#: bb-includes/template-functions.php:765
+msgid "Move this topic to the selected forum:"
+msgstr "Presťahuj túto tému do vybraného fóra:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:553
+#: bb-includes/template-functions.php:769
+msgid "Move"
+msgstr "Presťahuj"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:755
+#: bb-includes/template-functions.php:793
+msgid "Add New &raquo;"
+msgstr "Pridaj novú &raquo;"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:586
+#: bb-includes/template-functions.php:848
+msgid "Anonymous"
+msgstr "Anonym"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:665
+#: bb-includes/template-functions.php:927
+msgid "Undelete"
+msgstr "Obnov"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:764
+#: bb-includes/template-functions.php:946
+#: bb-includes/template-functions.php:960
+msgid "Unregistered"
+msgstr "Neregistrovaný"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/wp-functions.php:843
+#: bb-includes/template-functions.php:1022
+msgid "Delete User &raquo;"
+msgstr "Vymaž užívateľa &raquo;"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/js/list-manipulation-js.php:7
+#: bb-includes/template-functions.php:1023
+msgid "Are you sure you want to delete this user?"
+msgstr "Naozaj chceš vymazať tohto užívateľa?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:1006
+#: bb-includes/template-functions.php:1133
+msgid "Member Since"
+msgstr "Člen od"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:1083
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/search.php:29
+#: bb-includes/template-functions.php:1134
+#: bb-templates/kakumei/search.php:29
+msgid "F j, Y"
+msgstr "j. F Y"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile-edit.php:16
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/register.php:31
+#: bb-includes/template-functions.php:1175
+#: bb-templates/kakumei/register.php:31
+msgid "<br />There was a problem with your email; please check it."
+msgstr "<br />Bol tu problém s tvojim e-mailom. Prosím over to."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile-edit.php:18
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile-edit.php:57
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/register.php:33
+#: bb-includes/template-functions.php:1177
+#: bb-includes/template-functions.php:1232
+#: bb-templates/kakumei/register.php:33
+msgid "<br />The above field is required."
+msgstr "<br />To políčko treba vyplniť."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile-edit.php:24
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile-edit.php:68
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/register.php:39
+#: bb-includes/template-functions.php:1184
+#: bb-includes/template-functions.php:1237
+#: bb-templates/kakumei/register.php:39
+msgid "These items are <span class=\"required\">required</span>."
+msgstr "Tieto položky sú <span class=\"required\">povinné</span>."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile-edit.php:36
+#: bb-includes/template-functions.php:1207
+msgid "User Type:"
+msgstr "Typ užívateľa:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile-edit.php:45
+#: bb-includes/template-functions.php:1216
+msgid "Allow this user to:"
+msgstr "Povoľ tomuto užívateľovi:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile-edit.php:71
+#: bb-includes/template-functions.php:1239
+msgid ""
+"Inactive users can login and look around but not do anything.\n"
+"Blocked users just see a simple error message when they visit the site.</p>\n"
+"<p><strong>Note</strong>: Blocking a user does <em>not</em> block any IP addresses."
+msgstr ""
+"Neaktívni užívatelia sa môžu prihlásiť a prehliadať stránky ale nemôžu nič robiť.\n"
+"Blokovaní užívatelia vidia pri návšteve stránky len jednoduchú chybovú hlášku.</p>\n"
+"<p><strong>Poznámka</strong>: Blokovanie užívaťeľa <em>neblokuje</em> žiadnu IP adresu."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:40
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:54
+#: bb-includes/template-functions.php:1253
+msgid "Log out"
+msgstr "Odhlás sa"
+
+#: bb-includes/template-functions.php:1272
+msgid "Admin"
+msgstr "Administrátor"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:51
+#: bb-includes/template-functions.php:1280
+msgid "View your profile"
+msgstr "Prezri si svoj profil"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:863
+#: bb-includes/template-functions.php:1428
+msgid "Rename tag:"
+msgstr "Premenuj značku:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:867
+#: bb-includes/template-functions.php:1432
+msgid "Rename"
+msgstr "Premenovať"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:868
+#: bb-includes/template-functions.php:1436
+msgid "Merge this tag into:"
+msgstr "Zlúč túto značku do:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:872
+#: bb-includes/template-functions.php:1440
+msgid "Merge"
+msgstr "Zlúč"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:873
+#: bb-includes/template-functions.php:1441
+#, php-format
+msgid "Are you sure you want to merge the &#039;%s&#039; tag into the tag you specified? This is permanent and cannot be undone."
+msgstr "Skutočne chceš vmiesiť  &#039;%s&#039; označkované témy medzi veci zadanej značky? Je sa natrvalo. Nedá sa vrátiť späť."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:874
+#: bb-includes/template-functions.php:1445
+msgid "Destroy tag:"
+msgstr "Znič značku:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:877
+#: bb-includes/template-functions.php:1448
+msgid "Destroy"
+msgstr "Znič"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:878
+#: bb-includes/template-functions.php:1449
+#, php-format
+msgid "Are you sure you want to destroy the &#039;%s&#039; tag? This is permanent and cannot be undone."
+msgstr "Skutočne chceš zahodiť značku &#039;%s&#039? Bude to natrvalo."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:887
+#: bb-includes/template-functions.php:1464
+msgid "Remove this tag"
+msgstr "Odstráň túto značku"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:1208
+#: bb-includes/template-functions.php:1594
+msgid " (%?%)"
+msgstr " (%?%)"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:1210
+#: bb-includes/template-functions.php:1596
+msgid "This topic is one of your %favorites% ["
+msgstr "Je jedna z tvojich %favorites% ["
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:1210
+#: bb-includes/template-functions.php:1596
+msgid "x"
+msgstr "x"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:1210
+#: bb-includes/template-functions.php:1596
+msgid "]"
+msgstr "]"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/wp-functions.php:842
+#: bb-includes/wp-functions.php:892
+msgid "&laquo; Previous"
+msgstr "&laquo; Predošlý"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/wp-functions.php:843
+#: bb-includes/wp-functions.php:893
+msgid "Next &raquo;"
+msgstr "Ďaľší &raquo;"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-post.php:12
+#: bb-post.php:9
+msgid "Slow down; you move too fast."
+msgstr "Spomaľ, hýbeš sa prirýchlo."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-post.php:9
+#: bb-post.php:16
+#: bb-post.php:37
+msgid "You are not allowed to post.  Are you logged in?"
+msgstr "Nemáš povolenie písať. Si prihlásený?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-post.php:16
+#: bb-post.php:19
+msgid "You are not allowed to write new topics."
+msgstr "Nemáš povolenie písať nové témy."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-post.php:23
+#: bb-post.php:27
+msgid "Please enter a topic title"
+msgstr "Prosím vlož názov témy"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-post.php:33
+#: bb-post.php:40
+msgid "This topic has been closed"
+msgstr "Dosť bolo rozkoše. Toto je uzavretá téma."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-settings.php:4
+#: bb-settings.php:4
+#, php-format
+msgid "Your server is running PHP version %s but bbPress requires at least 4.2"
+msgstr "Tvoj server beží na PHP %s ale bbPress vyžaduje aspoň 4.2"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-settings.php:7
+#: bb-settings.php:7
+msgid "Your PHP installation appears to be missing the MySQL which is required for bbPress."
+msgstr "Vyzerá to, že tvoja inštalácia PHP postráda MySQL. MySQL databáza je potrebná pre bbPress."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-settings.php:15
+#: bb-settings.php:15
+msgid "GLOBALS overwrite attempt detected"
+msgstr "detekoval som pokus prepísať GLOBALS"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-settings.php:73
+#: bb-settings.php:102
+#, php-format
+msgid "Does&#8217;t look like you&#8217;ve installed bbPress yet, <a href=\"%s\">go here</a>."
+msgstr "Vyzerá to, že si ešte nenainštaloval bbPress. <a href=\"%s\">Ideme na to</a>."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/edit-form.php:5
+#: bb-templates/kakumei/edit-form.php:4
+msgid "Topic:"
+msgstr "Téma:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/edit-form.php:10
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/post-form.php:19
+#: bb-templates/kakumei/edit-form.php:9
+#: bb-templates/kakumei/post-form.php:9
+msgid "Post:"
+msgstr "Príspevok:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/edit-form.php:15
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/edit-post.php:2
+#: bb-templates/kakumei/edit-form.php:14
+#: bb-templates/kakumei/edit-post.php:2
+msgid "Edit Post"
+msgstr "Uprav príspevok"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/edit-form.php:18
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/post-form.php:31
+#: bb-templates/kakumei/edit-form.php:18
+#: bb-templates/kakumei/post-form.php:31
+msgid "Allowed markup:"
+msgstr "Povolené značkovanie:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/edit-form.php:18
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/post-form.php:31
+#: bb-templates/kakumei/edit-form.php:18
+#: bb-templates/kakumei/post-form.php:31
+msgid "Put code in between <code>`backticks`</code>."
+msgstr "Kód uzavri do <code>`spätných úvodzoviek`</code>."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/favorites.php:9
+#: bb-templates/kakumei/favorites.php:5
+msgid "Current Favorites"
+msgstr "Obľúbené témy"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/favorites.php:6
+#: bb-templates/kakumei/favorites.php:7
+msgid ""
+"Your Favorites allow you to create a custom <abbr title=\"Really Simple Syndication\">RSS</abbr> feed which pulls recent replies to the topics you specify.\n"
+"To add topics to your list of favorites, just click the \"Add to Favorites\" link found on that topic&#8217;s page."
+msgstr "Obľúbené témy vytvárajú pre teba špeciálny <abbr title=\"Really Simple Syndication\">RSS</abbr> kanál, do ktorého vyťahujú najnovšie reakcie na tvoje obľúbené témy."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/favorites.php:11
+#: bb-templates/kakumei/favorites.php:11
+#, php-format
+msgid "Subscribe to your favorites&#8217; <a href=\"%s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr "Prihlás si odber <a href=\"%s\"><abbr title=\"Really Simple Syndication\">RSS kanálu</abbr></a> s tvojimi obľúbenými.<br /> Ak nemáš zabudovanú podporu internetových kanálov RSS vo svojom zariadení, budeš si chcieť možno <a href=\"http://www.google.com/search?hs=Deh&q=download+RSS+reader\">stiahnuť čítačku RSS</a>."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/favorites.php:21
+#: bb-templates/kakumei/favorites.php:21
+msgid "Remove"
+msgstr "Odstráň"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/favorites.php:36
+#: bb-templates/kakumei/favorites.php:40
+msgid "You currently have no favorites."
+msgstr "Momentálne namáš žiadne obľúbené témy."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/favorites.php:40
+#: bb-templates/kakumei/favorites.php:44
+msgid "currently has no favorites."
+msgstr "momentálne nemá žiadne obľúbené."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/footer.php:11
+#: bb-templates/kakumei/footer.php:11
+#, php-format
+msgid "%1$s is proudly powered by <a href=\"%2$s\">bbPress</a>.</p>"
+msgstr "%1$s hrdo používa platformu <a href=\"%2$s\">bbPress</a>.</p>"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/forum.php:19
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/front-page.php:24
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/view.php:19
+#: bb-templates/kakumei/forum.php:17
+#: bb-templates/kakumei/front-page.php:25
+#: bb-templates/kakumei/view.php:17
+msgid "Sticky:"
+msgstr "Otravný:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/forum.php:33
+#: bb-templates/kakumei/forum.php:33
+msgid "RSS feed for this forum"
+msgstr "RSS pre toto fórum"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/front-page.php:6
+#: bb-templates/kakumei/front-page.php:6
+msgid "Hot Tags"
+msgstr "Horúce značky"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/front-page.php:12
+#: bb-templates/kakumei/front-page.php:13
+msgid "Latest Discussions"
+msgstr "Posledné diskusie"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/front-page.php:47
+#: bb-templates/kakumei/front-page.php:47
+msgid "Main Theme"
+msgstr "Hlavný vzhľad"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/front-page.php:64
+#: bb-templates/kakumei/front-page.php:63
+msgid "Views"
+msgstr "Prehľady"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:51
+#: bb-templates/kakumei/logged-in.php:2
+#, php-format
+msgid "Welcome, %1$s!"
+msgstr "Zdravím %1$s!"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/login-form.php:2
+#: bb-templates/kakumei/login-form.php:2
+#, php-format
+msgid "<a href=\"%1$s\">Register</a> or log in"
+msgstr "<a href=\"%1$s\"> Registruj sa</a> alebo sa prihlás"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/login-failed.php:16
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/login-failed.php:27
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/login-form.php:7
+#: bb-templates/kakumei/login-form.php:7
+#: bb-templates/kakumei/login.php:16
+#: bb-templates/kakumei/login.php:27
+#: bb-templates/kakumei/login.php:36
+msgid "Password:"
+msgstr "Heslo:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/install.php:218
+# C:\Programme\xampp\htdocs\bbpress/bb-includes/template-functions.php:42
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/login-failed.php:3
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/login-form.php:10
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/password-reset.php:3
+#: bb-templates/kakumei/login-form.php:11
+#: bb-templates/kakumei/login.php:3
+#: bb-templates/kakumei/login.php:5
+#: bb-templates/kakumei/login.php:43
+#: bb-templates/kakumei/password-reset.php:3
+msgid "Log in"
+msgstr "Prihlásenie"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/login-failed.php:5
+#: bb-templates/kakumei/login.php:5
+msgid "Log in Failed"
+msgstr "Prihlásenie zlyhalo"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/login-failed.php:18
+#: bb-templates/kakumei/login.php:18
+msgid "Incorrect password"
+msgstr "Nesprávne heslo"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/login.php:24
+#: bb-templates/kakumei/login.php:24
+msgid "This username does not exist."
+msgstr "Toto užívateľské meno neexistuje."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/login.php:24
+#: bb-templates/kakumei/login.php:24
+msgid "Register it?"
+msgstr "Zaregistrovať to?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/login-failed.php:34
+#: bb-templates/kakumei/login.php:43
+msgid "Try Again"
+msgstr "Skús ešte raz"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/login-failed.php:42
+#: bb-templates/kakumei/login.php:51
+msgid "If you would like to recover the password for this account, you may use the following button to start the recovery process:"
+msgstr "Ak by si chcel znovu obnoviť heslo pre tento účet, môžeš použiť nasledujúce tlačítko a začať tak proces obnovenia hesla:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/login-failed.php:44
+#: bb-templates/kakumei/login.php:53
+msgid "Recover Password"
+msgstr "Obnov heslo"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/password-reset.php:8
+#: bb-templates/kakumei/password-reset.php:8
+msgid "Your password has been reset and a new one has been mailed to you."
+msgstr "Vymenili sme ti heslo. Nové náhodné heslo Ti príde e-mailom za pár sekúnd."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/password-reset.php:10
+#: bb-templates/kakumei/password-reset.php:10
+msgid "An email has been sent to the address we have on file for you. If you don&#8217;t get anything with a few minutes, or your email has changed, you may want to get in touch with the webmaster or forum administrator here."
+msgstr "Poslali sme e-mail na tvoju adresu. Ak nedostaneš nič v priebehu niekoľkých minút alebo sa zmenila tvoja e-mail adresa, môžeš kontaktovať administrátora fóra."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/post-form.php:13
+#: bb-templates/kakumei/post-form.php:3
+msgid "Topic title: (be brief and descriptive)"
+msgstr "Názov témy (stručný, jasný a výstižný):"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/post-form.php:15
+#: bb-templates/kakumei/post-form.php:15
+#, php-format
+msgid "Enter a few words (called <a href=\"%s\">tags</a>) separated by spaces to help someone find your topic:"
+msgstr "Napíš niekoľko výstižných slov oddelených medzerami, aby ostatní mohli tvoju tému nájsť (voláme ich <a href=\"%s\">značky</a>):"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/post-form.php:29
+#: bb-templates/kakumei/post-form.php:22
+msgid "Pick a section:"
+msgstr "Vyber sekciu:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/post-form.php:33
+#: bb-templates/kakumei/post-form.php:28
+msgid "Send Post"
+msgstr "Pošli príspevok"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/index.php:12
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/users-blocked.php:9
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/users-blocked.php:20
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/users-moderators.php:9
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/users-moderators.php:18
+# C:\Programme\xampp\htdocs\bbpress/bb-admin/users-moderators.php:27
+#: bb-templates/kakumei/post.php:8
+#, php-format
+msgid "Posted %s ago"
+msgstr "Publikované %s dozadu"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile-edit.php:4
+#: bb-templates/kakumei/profile-edit.php:3
+msgid "Edit Profile"
+msgstr "Uprav profil"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile-edit.php:8
+#: bb-templates/kakumei/profile-edit.php:7
+msgid "Profile Info"
+msgstr "Profilové údaje"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile-edit.php:33
+#: bb-templates/kakumei/profile-edit.php:13
+msgid "Administration"
+msgstr "Administrácia"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile-edit.php:81
+#: bb-templates/kakumei/profile-edit.php:21
+msgid "If you wish to update your password, you may enter a new password twice below:"
+msgstr "Ak si praješ aktualizovať heslo, zadaj nové heslo nižšie dva-krát za sebou:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile-edit.php:84
+#: bb-templates/kakumei/profile-edit.php:24
+msgid "New password:"
+msgstr "Nové heslo:"
+
+#: bb-templates/kakumei/profile-edit.php:35
+msgid "Update Profile &raquo;"
+msgstr "Aktualizuj Profil &raquo;"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile.php:8
+#: bb-templates/kakumei/profile.php:8
+msgid "Profile updated"
+msgstr "Profil je aktualizovaný"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile.php:8
+#: bb-templates/kakumei/profile.php:8
+msgid "Edit again &raquo;"
+msgstr "Uprav znovu &raquo;"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile.php:11
+#: bb-templates/kakumei/profile.php:11
+#, php-format
+msgid "This is how your profile appears to a fellow logged in member, you may <a href=\"%1$s\">edit this information</a>. You can also <a href=\"%2$s\">manage your favorites</a> and subscribe to your favorites&#8217; <a href=\"%3$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>"
+msgstr "Takto vidia tvoj profil prihlásení členovia fóra.</p><p>Môžeš tu:</p><ul><li><a href=\"%1$s\">upraviť tieto informácie</a></li><li><a href=\"%2$s\">spravovať tvoje obľúbené témy</a></li><li><a href=\"%3$s\">prihlásiť si odber <abbr title=\"Really Simple Syndication\">RSS</abbr> kanálu</a> s tvojimi obľúbenými témami</li></ul><p id=\"empty\">"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile.php:16
+#: bb-templates/kakumei/profile.php:16
+msgid "User Activity"
+msgstr "Aktivita užívateľa"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile.php:18
+#: bb-templates/kakumei/profile.php:18
+msgid "Recent Replies"
+msgstr "Tvoje posledné reakcie"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile.php:24
+#: bb-templates/kakumei/profile.php:24
+#, php-format
+msgid "You last replied: %s ago."
+msgstr ", zatiaľ si naposledy odpovedal: %s dozadu."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile.php:24
+#: bb-templates/kakumei/profile.php:24
+#, php-format
+msgid "User last replied: %s ago."
+msgstr "Užívateľ zatiaľ naposledy odpovedal: %s dozadu."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile.php:28
+#: bb-templates/kakumei/profile.php:28
+#, php-format
+msgid "Most recent reply: %s ago"
+msgstr "Najnovšia odpoveď: %s dozadu"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile.php:29
+#: bb-templates/kakumei/profile.php:30
+msgid "No replies since."
+msgstr "Odvtedy žiadne odpovede."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile.php:36
+#: bb-templates/kakumei/profile.php:36
+msgid "No more replies."
+msgstr "Žiadne ďaľšie odpovede."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile.php:38
+#: bb-templates/kakumei/profile.php:38
+msgid "No replies yet."
+msgstr "Ešte nikto neodpovedal."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile.php:43
+#: bb-templates/kakumei/profile.php:43
+msgid "Threads Started"
+msgstr "Načaté témy"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile.php:49
+#: bb-templates/kakumei/profile.php:49
+#, php-format
+msgid "Started: %s ago"
+msgstr "si načal %s dozadu."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile.php:53
+#: bb-templates/kakumei/profile.php:53
+#, php-format
+msgid "Most recent reply: %s ago."
+msgstr "Tvoje zatiaľ posledná odpoveď je %s stará."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile.php:55
+#: bb-templates/kakumei/profile.php:55
+msgid "No replies."
+msgstr "Žiadne odpovede."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile.php:62
+#: bb-templates/kakumei/profile.php:61
+msgid "No more topics posted."
+msgstr "Žiadne ďaľšie príspevky neboli zaslané."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/profile.php:64
+#: bb-templates/kakumei/profile.php:63
+msgid "No topics posted yet."
+msgstr "Zatiaľ tu nie sú žiadne témy."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/register-success.php:3
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/register.php:3
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/register.php:45
+#: bb-templates/kakumei/register-success.php:3
+#: bb-templates/kakumei/register.php:3
+#: bb-templates/kakumei/register.php:45
+msgid "Register"
+msgstr "Registrácia"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/register-success.php:5
+#: bb-templates/kakumei/register-success.php:5
+msgid "Great!"
+msgstr "Skvelé!"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/register-success.php:7
+#: bb-templates/kakumei/register-success.php:7
+#, php-format
+msgid "Your registration as <strong>%s</strong> was successful. Within a few minutes you should receive an email with your password."
+msgstr "Si úspešne zaregistrovaný  ako <strong>%s</strong>. V priebehu niekoľkých minút by si mal prijať e-mail s tvojim heslom."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/register.php:5
+#: bb-templates/kakumei/register.php:5
+msgid "Registration"
+msgstr "Registrácia"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/register.php:10
+#: bb-templates/kakumei/register.php:10
+msgid "Profile Information"
+msgstr "Údaje o tebe"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/register.php:11
+#: bb-templates/kakumei/register.php:11
+#, php-format
+msgid "A password will be mailed to the email address you provide. Make sure to whitelist our domain (%s) so the confirmation email doesn't get caught by any  filters."
+msgstr "Heslo zašleme e-mailom na tvoju adresu. Uisti sa, či sa náhodou (%s) nedostala do spamu."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/register.php:17
+#: bb-templates/kakumei/register.php:17
+msgid "Your username was not valid, please try again"
+msgstr "Tvoje užívateľské meno nebolo platné, prosím skús iné."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/register.php:21
+#: bb-templates/kakumei/register.php:21
+msgid "Username<sup>*</sup>:"
+msgstr "Užívateľské meno<sup>*</sup>:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/register.php:49
+#: bb-templates/kakumei/register.php:49
+msgid "You&#8217;re already logged in, why do you need to register?"
+msgstr "Už si prihlásený. Prečo sa potrebuješ registrovať?"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/search-form.php:2
+#: bb-templates/kakumei/search-form.php:2
+msgid "Search:"
+msgstr "Vyhľadávanie:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/search-form.php:6
+#: bb-templates/kakumei/search-form.php:6
+msgid "Search &raquo;"
+msgstr "Hľadaj &raquo;"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/search-form.php:8
+#: bb-templates/kakumei/search-form.php:8
+msgid "Search again &raquo;"
+msgstr "Hľadaj znovu &raquo;"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/search.php:3
+#: bb-templates/kakumei/search.php:3
+msgid "Search"
+msgstr "Vyhľadávanie"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/search.php:7
+#: bb-templates/kakumei/search.php:7
+msgid "Search for"
+msgstr "Vyhľadávanie"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/search.php:21
+#: bb-templates/kakumei/search.php:21
+msgid "Thread title matches"
+msgstr "Názov témy sa zhoduje"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/search.php:29
+#: bb-templates/kakumei/search.php:29
+#, php-format
+msgid " %1$d replies &#8212; Last reply: %2$s"
+msgstr " %1$d reakcií &#8212; Posledná reakcia: %2$s"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/search.php:42
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/search.php:54
+#: bb-templates/kakumei/search.php:42
+#: bb-templates/kakumei/search.php:54
+msgid "Posted"
+msgstr "Publikované"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/search.php:42
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/search.php:54
+#: bb-templates/kakumei/search.php:42
+#: bb-templates/kakumei/search.php:54
+msgid "F j, Y, h:i A"
+msgstr "j. F Y, G:i"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/search.php:49
+#: bb-templates/kakumei/search.php:49
+msgid "Relevant posts"
+msgstr "Relevantné príspevky"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/search.php:61
+#: bb-templates/kakumei/search.php:61
+msgid "No results found."
+msgstr "Žiadne výsledky sa nenašli."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/search.php:64
+#: bb-templates/kakumei/search.php:64
+#, php-format
+msgid "You may also try your <a href=\"http://google.com/search?q=site:%1$s %2$s\">search at Google</a>"
+msgstr "Môžeš tiež skúsiť <a href=\"http://google.com/search?q=site:%1$s %2$s\">hľadať na Google</a>"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/stats.php:6
+#: bb-templates/kakumei/stats.php:6
+msgid "Registered Users"
+msgstr "Registrovaní užívatelia"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/stats.php:13
+#: bb-templates/kakumei/stats.php:13
+msgid "Most Popular Topics"
+msgstr "Najotrepanejšie témy"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/tag-form.php:5
+#: bb-templates/kakumei/tag-form.php:4
+msgid "Add"
+msgstr "Pridaj"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/tag-single.php:5
+#: bb-templates/kakumei/tag-single.php:5
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> link for this tag."
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> odkaz pre túto značku."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/tags.php:7
+#: bb-templates/kakumei/tags.php:5
+msgid "This is a collection of tags that are currently popular on the forums."
+msgstr "Toto je zbierka značiek, ktoré sú práve na fóre populárne."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/topic-tags.php:4
+#: bb-templates/kakumei/topic-tags.php:4
+msgid "Your tags:"
+msgstr "Tvoje značky:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/topic-tags.php:15
+#: bb-templates/kakumei/topic-tags.php:15
+msgid "Tags:"
+msgstr "Značky:"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/topic-tags.php:25
+#: bb-templates/kakumei/topic-tags.php:25
+#, php-format
+msgid "No <a href=\"%s\">tags</a> yet."
+msgstr "Zatiaľ žiadne <a href=\"%s\">značky</a>."
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/topic.php:10
+#: bb-templates/kakumei/topic.php:10
+#, php-format
+msgid "Started %1$s ago by %2$s"
+msgstr "Tému načal %1$s dozadu %2$s"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/topic.php:12
+#: bb-templates/kakumei/topic.php:12
+#, php-format
+msgid "<a href=\"%1$s\">Latest reply</a> from %2$s"
+msgstr "<a href=\"%1$s\">Najnovší príspevok</a> od %2$s"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/topic.php:37
+#: bb-templates/kakumei/topic.php:40
+msgid "RSS feed for this topic"
+msgstr "RSS pre túto tému"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/topic.php:45
+#: bb-templates/kakumei/topic.php:48
+msgid "Topic Closed"
+msgstr "Uzavretá téma"
+
+# C:\Programme\xampp\htdocs\bbpress/bb-templates/topic.php:46
+#: bb-templates/kakumei/topic.php:49
+msgid "This topic has been closed to new replies."
+msgstr "Uzavretá téma pre nové príspevky."
+
+# C:\Programme\xampp\htdocs\bbpress/favorites.php:7
+#: favorites.php:7
+msgid "You cannot edit those favorites.  How did you get here?"
+msgstr "Nemôžeš upraviť tieto obľúbené položky. Ako si sa sem dostal?"
+
+# C:\Programme\xampp\htdocs\bbpress/forum.php:10
+#: forum.php:10
+msgid "Forum not found."
+msgstr "Fórum sa nenašlo."
+
+# C:\Programme\xampp\htdocs\bbpress/profile.php:7
+#: profile.php:7
+msgid "Username not found."
+msgstr "Užívateľské meno sa nenašlo."
+
+# C:\Programme\xampp\htdocs\bbpress/profile.php:16
+#: profile.php:16
+msgid "User not found."
+msgstr "Užívateľ sa nenašiel."
+
+# C:\Programme\xampp\htdocs\bbpress/rss.php:39
+#: rss.php:40
+msgid "User Favorites"
+msgstr "Užívateľské obľúbené položky"
+
+# C:\Programme\xampp\htdocs\bbpress/rss.php:44
+#: rss.php:54
+msgid "Last 35 Posts"
+msgstr "Posledných 35 príspevkov"
+
+# C:\Programme\xampp\htdocs\bbpress/tag-add.php:7
+# C:\Programme\xampp\htdocs\bbpress/topic-resolve.php:7
+#: tag-add.php:7
+msgid "You need to be logged in to add a tag."
+msgstr "Potrebuješ sa prihlásiť, aby si mohol pridať značku."
+
+# C:\Programme\xampp\htdocs\bbpress/tag-add.php:14
+# C:\Programme\xampp\htdocs\bbpress/topic-resolve.php:14
+# C:\Programme\xampp\htdocs\bbpress/topic.php:15
+#: tag-add.php:16
+#: topic.php:15
+msgid "Topic not found."
+msgstr "Téma sa nenašla."
+
+# C:\Programme\xampp\htdocs\bbpress/tag-add.php:19
+#: tag-add.php:21
+msgid "The tag was not added.  Either the tag name was invalid or the topic is closed."
+msgstr "Nepridal som značku. Buď bolo neplatné meno značky alebo je téma uzavretá."
+
+# C:\Programme\xampp\htdocs\bbpress/tag-remove.php:17
+#: tag-remove.php:17
+msgid "Invalid tag or topic."
+msgstr "Neplatná značka alebo téma."
+
+# C:\Programme\xampp\htdocs\bbpress/tag-remove.php:19
+#: tag-remove.php:22
+msgid "The tag was not removed.  You cannot remove a tag from a closed topic."
+msgstr "Neodstránil som značku. Nemôžeš odstrániť značku z uzavretej témy."
+
+# C:\Programme\xampp\htdocs\bbpress/tags.php:9
+#: tags.php:9
+msgid "Tag not found"
+msgstr "Značka sa nenašla"
+

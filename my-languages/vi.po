@@ -1,0 +1,4876 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR bbPress
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Vietnamese l10n for bbPress\n"
+"Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
+"POT-Creation-Date: 2009-05-21 12:11+0000\n"
+"PO-Revision-Date: 2009-05-21 16:41+0100\n"
+"Last-Translator: Minh-Quân TRAN <contact@link2caro.com>\n"
+"Language-Team: link2caro <contact@link2caro.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Vietnamese\n"
+"X-Poedit-Country: VIET NAM\n"
+
+#: bb-admin/admin-base.php:13
+msgid "Nothing to see here."
+msgstr "Không tìm thấy gì cả!"
+
+#: bb-admin/admin-footer.php:7
+#, php-format
+msgid "Thank you for using <a href=\"%s\">bbPress</a> | <a href=\"%s\">Documentation</a> | <a href=\"%s\">Development</a> | Version %s"
+msgstr ""
+
+#: bb-admin/admin-footer.php:18
+#, php-format
+msgid "This page generated in %s seconds, using %d queries"
+msgstr ""
+
+#: bb-admin/admin-header.php:20
+msgid "Visit Site"
+msgstr "Xem trang chủ"
+
+#: bb-admin/admin-header.php:25
+#, php-format
+msgid "Howdy, %1$s!"
+msgstr "Chào bạn, %1$s!"
+
+#: bb-admin/admin-header.php:27
+msgid "Support forums"
+msgstr "Diễn đàn hỗ trợ"
+
+#: bb-admin/bb-do-counts.php:14
+msgid "Recounting"
+msgstr "Đang đếm"
+
+#: bb-admin/bb-do-counts.php:21
+msgid "Counting posts..."
+msgstr "Đang đếm bài viết..."
+
+#: bb-admin/bb-do-counts.php:28
+msgid "Done counting posts."
+msgstr "Hoàn thành việc đếm bài viết."
+
+#: bb-admin/bb-do-counts.php:37
+msgid "Counting deleted posts..."
+msgstr "Đang đếm bài viết đã bị xóa..."
+
+#: bb-admin/bb-do-counts.php:47
+msgid "Done counting deleted posts."
+msgstr "Hoàn thành việc đếm bài viết đã bị xóa."
+
+#: bb-admin/bb-do-counts.php:49
+msgid "No deleted posts to count."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:57
+msgid "Counting forum topics and posts..."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:71
+msgid "Done counting forum topics and posts."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:78
+msgid "Counting topics to which each user has replied..."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:83
+msgid "Done counting topics."
+msgstr "Hoàn thành việc đếm chủ đề."
+
+#: bb-admin/bb-do-counts.php:96
+msgid "Counting topic tags..."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:108
+msgid "Done counting topic tags."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:118
+msgid "Counting tagged topics..."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:128
+msgid "Done counting tagged topics."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:140
+msgid "Deleting tags with no topics..."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:152
+msgid "Done deleting tags with no topics."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:160
+msgid "Removing deleted topics from users' favorites..."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:169
+msgid "Done removing deleted topics from users' favorites."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:178
+msgid "Done recounting.  The process took"
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:179
+#, fuzzy, php-format
+msgid "%1$d queries and %2$s seconds."
+msgstr "%1$d truy vấn trong %2$s giây."
+
+#: bb-admin/bb-forum.php:5
+msgid "You don't have the authority to mess with the forums."
+msgstr ""
+
+#: bb-admin/bb-forum.php:17
+msgid "Bad forum name.  Go back and try again."
+msgstr ""
+
+#: bb-admin/bb-forum.php:25
+msgid "The forum was not added"
+msgstr ""
+
+#: bb-admin/bb-forum.php:32
+msgid "No forums to update!"
+msgstr "Không có diễn đàn nào để cập nhật!"
+
+#: bb-admin/bb-forum.php:47
+msgid "You don't have the authority to kill off the forums."
+msgstr ""
+
+#: bb-admin/bb-forum.php:53
+msgid "Error occured while trying to delete forum"
+msgstr ""
+
+#: bb-admin/content-forums.php:19
+#, fuzzy
+msgid "Forum Updated."
+msgstr "%s trang được cập nhật."
+
+#: bb-admin/content-forums.php:23
+#, php-format
+msgid "Forum deleted.  You should have bbPress <a href=\"%s\">recount your site information</a>."
+msgstr ""
+
+#: bb-admin/content-forums.php:38
+msgid "Forum Management"
+msgstr "Quản lý diễn đàn"
+
+#: bb-admin/content-forums.php:41
+msgid "Update Forum"
+msgstr "Cập nhật diễn đàn"
+
+#: bb-admin/content-forums.php:45
+#, php-format
+msgid "Are you sure you want to delete the \"<strong>%s</strong>\" forum?"
+msgstr ""
+
+#: bb-admin/content-forums.php:46
+msgid "This forum contains"
+msgstr ""
+
+#: bb-admin/content-forums.php:48
+#: bb-admin/index.php:23
+#, php-format
+msgid "%d topic"
+msgid_plural "%d topics"
+msgstr[0] "%d chủ đề"
+
+#: bb-admin/content-forums.php:49
+#: bb-admin/index.php:19
+#: bb-admin/index.php:25
+#, php-format
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d bài viết"
+
+#: bb-admin/content-forums.php:54
+msgid "Delete all topics and posts in this forum. <em>This can never be undone.</em>"
+msgstr ""
+
+#: bb-admin/content-forums.php:55
+msgid "Move topics from this forum into"
+msgstr ""
+
+#: bb-admin/content-forums.php:59
+msgid "Delete forum &raquo;"
+msgstr "Xóa diễn đàn &raquo;"
+
+#: bb-admin/content-forums.php:67
+#: bb-admin/includes/class.bb-install.php:693
+#: bb-admin/includes/class.bb-install.php:865
+#: bb-admin/includes/class.bb-install.php:912
+msgid "&laquo; Go back"
+msgstr "&laquo; Quay lại"
+
+#: bb-admin/content-forums.php:76
+msgid "Name &#8212; Description"
+msgstr "Tên &#8212; Mô tả"
+
+#: bb-admin/content-forums.php:83
+msgid "Add Forum"
+msgstr "Thêm diễn đàn"
+
+#: bb-admin/content-posts.php:6
+#: bb-admin/content.php:6
+#: bb-plugins/akismet.php:277
+msgid "Now how'd you get here?  And what did you think you'd being doing?"
+msgstr ""
+
+#: bb-admin/content-posts.php:24
+#: bb-admin/content.php:26
+#, fuzzy, php-format
+msgid "matching &#8220;%s&#8221;"
+msgstr "tới &#8220;%s&#8221;"
+
+#: bb-admin/content-posts.php:25
+#: bb-admin/content.php:27
+#, php-format
+msgid "in &#8220;%s&#8221;"
+msgstr "trong &#8220;%s&#8221;"
+
+#: bb-admin/content-posts.php:26
+#: bb-admin/content.php:28
+#, fuzzy, php-format
+msgid "with tag &#8220;%s&#8221;"
+msgstr "Trợ giúp với &#8220;%s&#8221;"
+
+#: bb-admin/content-posts.php:27
+#: bb-admin/content.php:29
+#, php-format
+msgid "by %s"
+msgstr "bởi %s"
+
+#: bb-admin/content-posts.php:29
+#: bb-admin/content.php:31
+#: bb-includes/class.bb-query.php:937
+msgid "Normal"
+msgstr "Bình thường"
+
+#: bb-admin/content-posts.php:29
+#: bb-admin/content.php:31
+#: bb-includes/class.bb-query.php:937
+msgid "Deleted"
+msgstr "Đã xóa"
+
+#: bb-admin/content-posts.php:32
+#: bb-admin/content.php:66
+#: bb-admin/includes/functions.bb-admin.php:74
+#: bb-templates/kakumei/favorites.php:18
+#: bb-templates/kakumei/forum.php:10
+#: bb-templates/kakumei/forum.php:44
+#: bb-templates/kakumei/front-page.php:18
+#: bb-templates/kakumei/front-page.php:51
+#: bb-templates/kakumei/stats.php:8
+#: bb-templates/kakumei/tag-single.php:12
+#: bb-templates/kakumei/view.php:10
+msgid "Posts"
+msgstr "Bài viết"
+
+#: bb-admin/content-posts.php:34
+#, php-format
+msgid "%1$sposts"
+msgstr "%1$sbài viết"
+
+#: bb-admin/content-posts.php:36
+#: bb-admin/content.php:39
+#, php-format
+msgid "%1$s%2$s%3$s%4$s%5$s"
+msgstr "%1$s%2$s%3$s%4$s%5$s"
+
+#: bb-admin/content-posts.php:40
+#: bb-admin/content.php:43
+msgid "Filter &#187;"
+msgstr "Lọc &#187;"
+
+#: bb-admin/content-posts.php:48
+#: bb-admin/content.php:51
+#: bb-admin/includes/functions.bb-admin.php:384
+#, php-format
+msgid "Displaying %s-%s of %s"
+msgstr "Đang xem %s&#8211;%s trong tổng số %s"
+
+#: bb-admin/content.php:32
+#: bb-includes/class.bb-query.php:964
+msgid "Closed"
+msgstr "Khóa"
+
+#: bb-admin/content.php:32
+#: bb-admin/content.php:80
+#: bb-includes/class.bb-query.php:964
+msgid "Open"
+msgstr "Mở chủ đề"
+
+#: bb-admin/content.php:35
+#: bb-admin/includes/functions.bb-admin.php:73
+#: bb-templates/kakumei/forum.php:43
+#: bb-templates/kakumei/front-page.php:50
+msgid "Topics"
+msgstr "Chủ đề"
+
+#: bb-admin/content.php:37
+#, php-format
+msgid "%1$s%2$stopics"
+msgstr "%1$s%2$schủ đề"
+
+#: bb-admin/content.php:64
+#: bb-admin/includes/functions.bb-admin.php:825
+#: bb-templates/kakumei/favorites.php:17
+#: bb-templates/kakumei/forum.php:9
+#: bb-templates/kakumei/front-page.php:17
+#: bb-templates/kakumei/tag-single.php:11
+#: bb-templates/kakumei/view.php:9
+msgid "Topic"
+msgstr "Chủ đề"
+
+#: bb-admin/content.php:65
+#: bb-admin/includes/functions.bb-admin.php:823
+msgid "Author"
+msgstr "Tác giả"
+
+#: bb-admin/content.php:67
+msgid "Date"
+msgstr "Ngày"
+
+#: bb-admin/content.php:68
+#: bb-templates/kakumei/favorites.php:19
+#: bb-templates/kakumei/forum.php:12
+#: bb-templates/kakumei/front-page.php:20
+#: bb-templates/kakumei/tag-single.php:14
+#: bb-templates/kakumei/view.php:12
+msgid "Freshness"
+msgstr "Tươi mới"
+
+#: bb-admin/content.php:78
+#: bb-admin/includes/functions.bb-admin.php:851
+msgid "View"
+msgstr "Xem"
+
+#: bb-admin/content.php:80
+msgid "Close"
+msgstr "Đóng"
+
+#: bb-admin/content.php:81
+#: bb-admin/includes/functions.bb-admin.php:682
+#: bb-includes/functions.bb-template.php:1826
+msgid "Delete"
+msgstr "Xóa"
+
+#: bb-admin/content.php:81
+#: bb-includes/functions.bb-template.php:1827
+msgid "Undelete"
+msgstr "Khôi phục"
+
+#: bb-admin/content.php:100
+#, php-format
+msgid "Last post by %s"
+msgstr ""
+
+#: bb-admin/content.php:104
+msgid "No topics found"
+msgstr "Không tìm thấy bài viết nào."
+
+#: bb-admin/delete-post.php:17
+msgid "There is a problem with that post, pardner."
+msgstr ""
+
+#: bb-admin/delete-topic.php:16
+#: bb-admin/sticky.php:9
+#: bb-admin/topic-toggle.php:8
+msgid "There is a problem with that topic, pardner."
+msgstr ""
+
+#: bb-admin/export.php:19
+msgid "Either export is disabled or you are not allowed to export."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:185
+#: bb-includes/functions.bb-core.php:1218
+msgid "bbPress &rsaquo; Error"
+msgstr "bbPress &rsaquo; Lỗi"
+
+#: bb-admin/includes/class.bb-install.php:186
+msgid "Oh dear!"
+msgstr "Chơi gian hả?"
+
+#: bb-admin/includes/class.bb-install.php:190
+#: bb-admin/includes/class.bb-install.php:200
+#: bb-admin/includes/class.bb-install.php:210
+#: bb-admin/includes/class.bb-install.php:220
+#: bb-admin/includes/class.bb-install.php:231
+#, php-format
+msgid "%1$s &rsaquo; %2$s"
+msgstr "%1$s &rsaquo; %2$s"
+
+#: bb-admin/includes/class.bb-install.php:190
+#: bb-admin/includes/class.bb-install.php:200
+#: bb-admin/includes/class.bb-install.php:210
+#: bb-admin/includes/class.bb-install.php:220
+#: bb-admin/includes/class.bb-install.php:231
+msgid "bbPress installer"
+msgstr "Cài đặt bbPress"
+
+#: bb-admin/includes/class.bb-install.php:190
+msgid "Welcome"
+msgstr "Chào mừng"
+
+#: bb-admin/includes/class.bb-install.php:191
+msgid "Welcome to the bbPress installer"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:195
+msgid "We're now going to go through a few steps to get you up and running."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:196
+msgid "Ready? Then let's get started!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:200
+#: bb-admin/includes/class.bb-install.php:201
+msgid "Step 1"
+msgstr "Bước 1"
+
+#: bb-admin/includes/class.bb-install.php:201
+#: bb-admin/includes/class.bb-install.php:211
+#: bb-admin/includes/class.bb-install.php:221
+#, php-format
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: bb-admin/includes/class.bb-install.php:201
+msgid "Database configuration"
+msgstr "Cấu hình cơ sở dữ liệu"
+
+#: bb-admin/includes/class.bb-install.php:204
+msgid "In this step you need to enter your database connection details. The installer will attempt to create a file called <code>bb-config.php</code> in the root directory of your bbPress installation."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:205
+msgid "If you're not sure what to put here, contact your web hosting provider."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:210
+#: bb-admin/includes/class.bb-install.php:211
+msgid "Step 2"
+msgstr "Bước 2"
+
+#: bb-admin/includes/class.bb-install.php:211
+msgid "WordPress integration (optional)"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:212
+#, fuzzy
+msgid "&laquo; skipped"
+msgstr "&laquo; Trang trước"
+
+#: bb-admin/includes/class.bb-install.php:214
+msgid "bbPress can integrate login and user data seamlessly with WordPress. You can safely skip this step if you do not wish to integrate with an existing WordPress install."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:220
+#: bb-admin/includes/class.bb-install.php:221
+msgid "Step 3"
+msgstr "Bước 3"
+
+#: bb-admin/includes/class.bb-install.php:221
+msgid "Site settings"
+msgstr "Cài đặt"
+
+#: bb-admin/includes/class.bb-install.php:224
+msgid "Finalize your installation by adding a name, your first user and your first forum."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:231
+msgid "Finished"
+msgstr "Hoàn thành"
+
+#: bb-admin/includes/class.bb-install.php:232
+#: bb-admin/includes/class.bb-install.php:2162
+msgid "Installation complete!"
+msgstr "Hoàn thành cài đặt!"
+
+#: bb-admin/includes/class.bb-install.php:249
+msgid "Your PHP installation appears to be missing the MySQL extension which is required for bbPress"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:254
+msgid "Please complete your installation before attempting to include WordPress within bbPress"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:332
+#, fuzzy
+msgid "Installation language"
+msgstr "Ngôn ngữ mặc định"
+
+#: bb-admin/includes/class.bb-install.php:342
+msgid "Sets the language to be used during the installation process only."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:451
+msgid "An old <code>config.php</code> file has been detected in your installation. You should remove it and run the <a href=\"install.php\">installer</a> again. You can use the same database connection details if you do."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:464
+#: bb-admin/includes/class.bb-install.php:1098
+#: bb-admin/includes/class.bb-install.php:1106
+#: bb-admin/includes/class.bb-install.php:1118
+#, fuzzy
+msgid "&laquo; completed"
+msgstr "Cật nhật đã hoàn tất."
+
+#: bb-admin/includes/class.bb-install.php:472
+msgid "A valid configuration file was found at <code>bb-config.php</code><br />You may continue to the next step."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:477
+msgid "An invalid configuration file was found at <code>bb-config.php</code><br />The installation cannot continue."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:478
+msgid "Usually this is caused by one of the database connection settings being incorrect. Make sure that the specified user has appropriate permission to access the database."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:488
+msgid "bbPress is already installed, but appears to require an upgrade."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:490
+#, php-format
+msgid "Perhaps you meant to run the <a href=\"%s\">upgrade script</a> instead?"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:505
+#: bb-admin/includes/class.bb-install.php:1304
+msgid "I could not find the file <code>bb-config-sample.php</code><br />Please upload it to the root directory of your bbPress installation."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:511
+msgid "There doesn't seem to be a <code>bb-config.php</code> file. This usually means that you want to install bbPress."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:598
+#, fuzzy
+msgid "Go to step 1"
+msgstr "Quay lại bước 2 &raquo;"
+
+#: bb-admin/includes/class.bb-install.php:606
+msgid "Database name"
+msgstr "Tên của cơ sở dữ liệu:"
+
+#: bb-admin/includes/class.bb-install.php:607
+msgid "The name of the database in which you want to run bbPress."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:611
+msgid "Database user"
+msgstr "Tên người dùng cơ sở dữ liệu:"
+
+#: bb-admin/includes/class.bb-install.php:612
+#: bb-admin/includes/class.bb-install.php:819
+#: bb-admin/options-wordpress.php:125
+msgid "The database user that has access to that database."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:618
+msgid "Database password"
+msgstr "Mật mã cơ sở dữ liệu:"
+
+#: bb-admin/includes/class.bb-install.php:619
+#: bb-admin/includes/class.bb-install.php:827
+#: bb-admin/options-wordpress.php:129
+msgid "That database user's password."
+msgstr "Mật khẩu của cơ sở dữ liệu:"
+
+#: bb-admin/includes/class.bb-install.php:624
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+#: bb-admin/includes/class.bb-install.php:625
+#, php-format
+msgid "The language which bbPress will be presented in once installed. Your current installer language choice (%s) will be the same for the rest of the install process."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:629
+msgid "Show advanced settings"
+msgstr "Cài đặt nâng cao"
+
+#: bb-admin/includes/class.bb-install.php:630
+#, fuzzy, php-format
+msgid "99% of the time these settings will not have to be changed."
+msgstr "99% là bạn không cần thay đổi những cài đặt này."
+
+#: bb-admin/includes/class.bb-install.php:636
+#, fuzzy
+msgid "Database host"
+msgstr "Máy chủ của cơ sở dữ liệu:"
+
+#: bb-admin/includes/class.bb-install.php:637
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should remain <strong>localhost</strong>."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:642
+#, fuzzy
+msgid "Database character set"
+msgstr "Bộ ký tự của cơ sở dữ liệu (charset):"
+
+#: bb-admin/includes/class.bb-install.php:643
+#: bb-admin/includes/class.bb-install.php:840
+#: bb-admin/options-wordpress.php:137
+msgid "The best choice is <strong>utf8</strong>, but you will need to match the character set which you created the database with."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:648
+#, fuzzy
+msgid "Database character collation"
+msgstr "Bộ ký tự của cơ sở dữ liệu (charset):"
+
+#: bb-admin/includes/class.bb-install.php:649
+msgid "The character collation value set when the database was created."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:680
+#, fuzzy
+msgid "Table name prefix"
+msgstr "Tiền tố của bảng:"
+
+#: bb-admin/includes/class.bb-install.php:681
+msgid "If you are running multiple bbPress sites in a single database, you will probably want to change this."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:686
+msgid "Contents for <code>bb-config.php</code>"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:687
+msgid "Once you have created the configuration file, you can check for it below."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:690
+msgid "Save database configuration file"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:696
+msgid "Check for configuration file"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:699
+#, fuzzy
+msgid "Go to step 2"
+msgstr "Quay lại bước 2 &raquo;"
+
+#: bb-admin/includes/class.bb-install.php:708
+msgid "Add integration settings"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:709
+msgid "If you want to integrate bbPress with an existing WordPress site."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:714
+#: bb-admin/includes/class.bb-install.php:862
+msgid "Skip WordPress integration"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:715
+msgid "Save WordPress integration settings"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:720
+msgid "Add cookie integration settings"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:721
+msgid "If you want to allow shared logins with an existing WordPress site."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:728
+#: bb-admin/options-wordpress.php:67
+#, fuzzy
+msgid "WordPress address (URL)"
+msgstr "Địa chỉ của WordPress:"
+
+#: bb-admin/includes/class.bb-install.php:729
+#: bb-admin/options-wordpress.php:69
+msgid "This value should exactly match the <strong>WordPress address (URL)</strong> setting in your WordPress general settings."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:734
+#: bb-admin/options-wordpress.php:72
+#, fuzzy
+msgid "Blog address (URL)"
+msgstr "Địa chỉ của trang web:"
+
+#: bb-admin/includes/class.bb-install.php:735
+#: bb-admin/options-wordpress.php:74
+msgid "This value should exactly match the <strong>Blog address (URL)</strong> setting in your WordPress general settings."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:740
+msgid "WordPress \"auth\" cookie key"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:741
+msgid "This value must match the value of the constant named \"AUTH_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"auth\" cookie key set in the first step."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:747
+#: bb-admin/options-wordpress.php:77
+msgid "WordPress \"auth\" cookie salt"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:748
+msgid "This must match the value of the WordPress setting named \"auth_salt\" in your WordPress site. Look for the option labeled \"auth_salt\" in <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:754
+msgid "WordPress \"secure auth\" cookie key"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:755
+msgid "This value must match the value of the constant named \"SECURE_AUTH_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"secure auth\" cookie key set in the first step."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:761
+#: bb-admin/options-wordpress.php:81
+msgid "WordPress \"secure auth\" cookie salt"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:762
+msgid "This must match the value of the WordPress setting named \"secure_auth_salt\" in your WordPress site. Look for the option labeled \"secure_auth_salt\" in <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings. Sometimes this value is not set in WordPress, in that case you can leave this setting blank as well."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:768
+msgid "WordPress \"logged in\" cookie key"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:769
+msgid "This value must match the value of the constant named \"LOGGED_IN_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"logged in\" cookie key set in the first step."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:775
+#: bb-admin/options-wordpress.php:85
+msgid "WordPress \"logged in\" cookie salt"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:776
+msgid "This must match the value of the WordPress setting named \"logged_in_salt\" in your WordPress site. Look for the option labeled \"logged_in_salt\" in <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:782
+msgid "Add user database integration settings"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:783
+msgid "If you want to share user data with an existing WordPress site."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:791
+#: bb-admin/options-wordpress.php:103
+#, fuzzy
+msgid "User database table prefix"
+msgstr "Tiền tố của bảng:"
+
+#: bb-admin/includes/class.bb-install.php:792
+#: bb-admin/options-wordpress.php:104
+msgid "If your bbPress and WordPress sites share the same database, then this is the same value as <code>$table_prefix</code> in your WordPress <code>wp-config.php</code> file. It is usually <strong>wp_</strong>."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:798
+#: bb-admin/options-wordpress.php:107
+msgid "WordPress MU primary blog ID"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:799
+#: bb-admin/options-wordpress.php:108
+msgid "If you are integrating with a WordPress MU site you need to specify the primary blog ID for that site. It is usually <strong>1</strong>. You should probably leave this blank if you are integrating with a standard WordPress site"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:804
+#: bb-admin/options-wordpress.php:111
+#, fuzzy
+msgid "Show advanced database settings"
+msgstr "Cài đặt nâng cao:"
+
+#: bb-admin/includes/class.bb-install.php:805
+#: bb-admin/options-wordpress.php:114
+msgid "If your bbPress and WordPress site do not share the same database, then you will need to add advanced settings."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:812
+#: bb-admin/options-wordpress.php:120
+#, fuzzy
+msgid "User database name"
+msgstr "Tên của cơ sở dữ liệu:"
+
+#: bb-admin/includes/class.bb-install.php:813
+#: bb-admin/options-wordpress.php:121
+msgid "The name of the database in which your user tables reside."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:818
+#: bb-admin/options-wordpress.php:124
+#, fuzzy
+msgid "User database user"
+msgstr "Tên người dùng cơ sở dữ liệu:"
+
+#: bb-admin/includes/class.bb-install.php:826
+#: bb-admin/options-wordpress.php:128
+#, fuzzy
+msgid "User database password"
+msgstr "Mật khẩu cơ sở dữ liệu:"
+
+#: bb-admin/includes/class.bb-install.php:833
+#: bb-admin/options-wordpress.php:132
+#, fuzzy
+msgid "User database host"
+msgstr "Máy chủ của cơ sở dữ liệu:"
+
+#: bb-admin/includes/class.bb-install.php:834
+#: bb-admin/options-wordpress.php:133
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should be <strong>localhost</strong>."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:839
+#: bb-admin/options-wordpress.php:136
+#, fuzzy
+msgid "User database character set"
+msgstr "Bộ ký tự của cơ sở dữ liệu (charset):"
+
+#: bb-admin/includes/class.bb-install.php:845
+#: bb-admin/options-wordpress.php:140
+#, fuzzy
+msgid "User database character collation"
+msgstr "Bộ ký tự của cơ sở dữ liệu (charset):"
+
+#: bb-admin/includes/class.bb-install.php:846
+#: bb-admin/options-wordpress.php:141
+msgid "The character collation value set when the user database was created."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:851
+#: bb-admin/options-wordpress.php:147
+#, fuzzy
+msgid "User database \"user\" table"
+msgstr "Tiền tố của bảng:"
+
+#: bb-admin/includes/class.bb-install.php:852
+#: bb-admin/includes/class.bb-install.php:858
+#: bb-admin/options-wordpress.php:148
+#: bb-admin/options-wordpress.php:152
+msgid "The complete table name, including any prefix."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:857
+#: bb-admin/options-wordpress.php:151
+#, fuzzy
+msgid "User database \"user meta\" table"
+msgstr "Tiền tố của bảng:"
+
+#: bb-admin/includes/class.bb-install.php:868
+#, fuzzy
+msgid "Go to step 3"
+msgstr "Quay lại bước 2 &raquo;"
+
+#: bb-admin/includes/class.bb-install.php:877
+#, fuzzy
+msgid "Site name"
+msgstr "Tên trang"
+
+#: bb-admin/includes/class.bb-install.php:878
+msgid "This is what you are going to call your bbPress site."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:882
+#, fuzzy
+msgid "Site address (URL)"
+msgstr "Địa chỉ của trang web:"
+
+#: bb-admin/includes/class.bb-install.php:883
+msgid "We have attempted to guess this, it's usually correct, but change it here if you wish."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:888
+msgid "\"Key Master\" Username"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:889
+msgid "This is the user login for the initial bbPress administrator (known as a \"Key Master\")."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:895
+msgid "\"Key Master\" Email address"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:896
+msgid "The login details will be emailed to this address."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:905
+msgid "First forum name"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:906
+msgid "This can be changed after installation, so don't worry about it too much."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:909
+#, fuzzy
+msgid "Save site settings"
+msgstr "Lưu cài đặt &raquo;"
+
+#: bb-admin/includes/class.bb-install.php:915
+#, fuzzy
+msgid "Complete the installation"
+msgstr "Hoàn thành cài đặt!"
+
+#: bb-admin/includes/class.bb-install.php:924
+msgid "Show installation messages"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:928
+#, fuzzy
+msgid "Installation errors"
+msgstr "Cài đặt không thành công"
+
+#: bb-admin/includes/class.bb-install.php:932
+#, fuzzy
+msgid "Installation log"
+msgstr "Đăng nhập"
+
+#: bb-admin/includes/class.bb-install.php:1233
+msgid "The table prefix can only contain letters, numbers and underscores.<br />Please review the suggestion below."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1234
+msgid "&bull; Based on your input the following prefix is suggested."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1242
+msgid "The table prefix can not be blank.<br />Please review the suggestion below."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1243
+msgid "&bull; The default prefix has been inserted."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1277
+msgid "There was a problem connecting to the database you specified.<br />Please check the settings, then try again."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1310
+msgid "Your settings have been saved to the file <code>bb-config.php</code><br />You can now continue to the next step."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1317
+msgid "Your settings could not be saved to a configuration file. You will need to save the text shown below into a file named <code>bb-config.php</code> in the root directory of your bbPress installation before you can continue."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1339
+msgid "You have chosen to skip the WordPress integration step. You can always integrate WordPress later from within the admin area of bbPress."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1415
+msgid "You must enter your settings for integration setup to complete. Choose which integration settings you wish to enter from the options below."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1433
+msgid "Your integration settings have not been processed due to errors with the items marked below."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1442
+#: bb-admin/includes/class.bb-install.php:1651
+msgid "&bull; This value is required to continue."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1445
+#: bb-admin/includes/class.bb-install.php:1654
+msgid "&bull; This does not appear to be a valid URL."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1448
+#: bb-admin/includes/class.bb-install.php:1657
+msgid "&bull; The URL must begin with \"http\" or \"https\"."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1451
+#: bb-admin/includes/class.bb-install.php:1660
+msgid "&bull; The URL does not contain a host name."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1513
+#: bb-admin/includes/class.bb-install.php:1756
+#: bb-admin/includes/class.bb-install.php:2498
+#: bb-settings.php:623
+msgid "Your user table prefix may only contain letters, numbers and underscores."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1550
+msgid "There was a problem connecting to the WordPress user database you specified. Please check the settings, then try again."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1564
+msgid "Existing WordPress user tables could not be found in the WordPress database you specified."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1566
+msgid "Existing WordPress user tables could not be found in the bbPress database you specified in step 1.<br /><br />This is probably because the database does not already contain working WordPress tables. You may need to specify advanced database settings or leave integration until after installation."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1568
+msgid "&bull; This may not be a valid user table prefix."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1585
+msgid "Your WordPress integration cookie and database settings have been successfully validated. They will be saved after the next step.<br /><br />Once you have finished installing, you should visit the WordPress integration section of the bbPress admin area for further options and integration instructions, including user mapping and the correct cookie settings to add to your WordPress configuration file."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1642
+msgid "Your site settings have not been processed due to errors with the items marked below."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1663
+msgid "&bull; Contains disallowed characters which have been removed."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1666
+msgid "&bull; The user email address appears to be invalid."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1685
+msgid "Your site settings have been saved and we are now ready to complete the installation. So what are you waiting for?"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1711
+msgid "Referrer is OK, beginning installation&hellip;"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1718
+msgid "Setting up custom user table constants"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1761
+msgid "Step 1 - Creating database tables"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1779
+#: bb-admin/includes/class.bb-install.php:1781
+#, fuzzy
+msgid "Database installation failed!!!"
+msgstr "Không cập nhật được cơ sở dữ liệu."
+
+#: bb-admin/includes/class.bb-install.php:1780
+#: bb-admin/includes/class.bb-install.php:1990
+#: bb-admin/includes/class.bb-install.php:2023
+#: bb-admin/includes/class.bb-install.php:2049
+#, fuzzy
+msgid "Halting installation!"
+msgstr "Cài đặt không thành công"
+
+#: bb-admin/includes/class.bb-install.php:1784
+#: bb-admin/includes/class.bb-install.php:1992
+#: bb-admin/includes/class.bb-install.php:2026
+#: bb-admin/includes/class.bb-install.php:2052
+#, fuzzy
+msgid "Installation failed!"
+msgstr "Cài đặt không thành công"
+
+#: bb-admin/includes/class.bb-install.php:1785
+msgid "The database failed to install. You may need to replace bbPress with a fresh copy and start again."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1793
+#, fuzzy
+msgid "Database is already installed!!!"
+msgstr "Phiên bản này đã được cài."
+
+#: bb-admin/includes/class.bb-install.php:1798
+msgid "Step 2 - WordPress integration (optional)"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1802
+#, fuzzy
+msgid "WordPress address (URL):"
+msgstr "Địa chỉ của WordPress:"
+
+#: bb-admin/includes/class.bb-install.php:1805
+#, fuzzy
+msgid "Blog address (URL):"
+msgstr "Địa chỉ của blog:"
+
+#: bb-admin/includes/class.bb-install.php:1819
+msgid "WordPress cookie keys set."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1822
+#: bb-admin/includes/class.bb-install.php:1825
+msgid "WordPress cookie keys not set."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1823
+msgid "Your \"bb-config.php\" file was not writable."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1824
+msgid "You will need to manually re-define \"BB_AUTH_KEY\", \"BB_SECURE_AUTH_KEY\" and \"BB_LOGGED_IN_KEY\" in your \"bb-config.php\" file."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1831
+msgid "WordPress \"auth\" cookie salt set from input."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1836
+msgid "WordPress \"secure auth\" cookie salt set from input."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1841
+msgid "WordPress \"logged in\" cookie salt set from input."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1851
+msgid "Fetching missing WordPress cookie salts."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1872
+msgid "WordPress \"auth\" cookie salt set."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1874
+#: bb-admin/includes/class.bb-install.php:1877
+msgid "WordPress \"auth\" cookie salt not set."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1875
+msgid "Could not fetch \"auth\" cookie salt from the WordPress options table."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1876
+msgid "You will need to manually define the \"auth\" cookie salt in your database."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1885
+msgid "WordPress \"secure auth\" cookie salt set."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1888
+msgid "WordPress \"secure auth\" cookie salt not set."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1896
+msgid "WordPress \"logged in\" cookie salt set."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1898
+#: bb-admin/includes/class.bb-install.php:1901
+msgid "WordPress \"logged in\" cookie salt not set."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1899
+msgid "Could not fetch \"logged in\" cookie salt from the WordPress options table."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1900
+msgid "You will need to manually define the \"logged in\" cookie salt in your database."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1908
+#, fuzzy
+msgid "User database table prefix:"
+msgstr "Tiền tố của bảng:"
+
+#: bb-admin/includes/class.bb-install.php:1913
+msgid "WordPress MU primary blog ID:"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1919
+#, fuzzy
+msgid "User database name:"
+msgstr "Tên của cơ sở dữ liệu:"
+
+#: bb-admin/includes/class.bb-install.php:1923
+#, fuzzy
+msgid "User database user:"
+msgstr "Tên người dùng cơ sở dữ liệu:"
+
+#: bb-admin/includes/class.bb-install.php:1927
+#, fuzzy
+msgid "User database password:"
+msgstr "Mật khẩu cơ sở dữ liệu:"
+
+#: bb-admin/includes/class.bb-install.php:1931
+#, fuzzy
+msgid "User database host:"
+msgstr "Máy chủ của cơ sở dữ liệu:"
+
+#: bb-admin/includes/class.bb-install.php:1935
+#, fuzzy
+msgid "User database character set:"
+msgstr "Bộ ký tự của cơ sở dữ liệu (charset):"
+
+#: bb-admin/includes/class.bb-install.php:1939
+#, fuzzy
+msgid "User database collation:"
+msgstr "Tên người dùng cơ sở dữ liệu DotClear:"
+
+#: bb-admin/includes/class.bb-install.php:1943
+#, fuzzy
+msgid "User database \"user\" table:"
+msgstr "Tiền tố của bảng:"
+
+#: bb-admin/includes/class.bb-install.php:1947
+#, fuzzy
+msgid "User database \"user meta\" table:"
+msgstr "Tiền tố của bảng:"
+
+#: bb-admin/includes/class.bb-install.php:1952
+msgid "Integration not enabled"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1957
+#, fuzzy
+msgid "Step 3 - Site settings"
+msgstr "Lưu cài đặt &raquo;"
+
+#: bb-admin/includes/class.bb-install.php:1959
+msgid "Site name:"
+msgstr "Tên trang:"
+
+#: bb-admin/includes/class.bb-install.php:1961
+msgid "Site address (URL):"
+msgstr "Địa chỉ của trang web:"
+
+#: bb-admin/includes/class.bb-install.php:1963
+#, fuzzy
+msgid "From email address:"
+msgstr "Thêm thư điện tử"
+
+#: bb-admin/includes/class.bb-install.php:1974
+#: bb-admin/includes/class.bb-install.php:1976
+#: bb-admin/includes/class.bb-install.php:2022
+#: bb-admin/includes/class.bb-install.php:2024
+#: bb-admin/includes/class.bb-install.php:2050
+msgid "Key master could not be created!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1975
+msgid "That login is already taken!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1981
+msgid "Existing key master entered!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1982
+#, fuzzy
+msgid "Your bbPress password"
+msgstr "Đổi mật khẩu"
+
+#: bb-admin/includes/class.bb-install.php:1985
+msgid "Re-setting admin email address."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1989
+msgid "Existing user without key master role entered!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1993
+msgid "The key master could not be created. An existing user was found with that user login."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2016
+msgid "Key master created"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2017
+#: bb-admin/includes/class.bb-install.php:2043
+#: bb-admin/install.php:351
+#: bb-templates/kakumei/login-form.php:9
+#: bb-templates/kakumei/login.php:16
+#: bb-templates/kakumei/login.php:55
+#: bb-templates/kakumei/register.php:24
+msgid "Username:"
+msgstr "Tên đăng nhập:"
+
+#: bb-admin/includes/class.bb-install.php:2018
+#: bb-admin/includes/class.bb-install.php:2044
+msgid "Email address:"
+msgstr "Thư điện tử:"
+
+#: bb-admin/includes/class.bb-install.php:2019
+#: bb-admin/includes/class.bb-install.php:2045
+#: bb-admin/install.php:353
+#: bb-templates/kakumei/login-form.php:12
+#: bb-templates/kakumei/login.php:25
+msgid "Password:"
+msgstr "Mật khẩu:"
+
+#: bb-admin/includes/class.bb-install.php:2027
+msgid "The key master could not be created. You may need to replace bbPress with a fresh copy and start again."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2041
+#, fuzzy
+msgid "Your existing password"
+msgstr "Đổi mật khẩu"
+
+#: bb-admin/includes/class.bb-install.php:2042
+msgid "Key master role assigned to existing user"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2048
+msgid "Key master role could not be assigned to existing user!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2053
+msgid "The key master could not be assigned. You may need to replace bbPress with a fresh copy and start again."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2072
+msgid "Just another bbPress community"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2081
+msgid "Description:"
+msgstr "Mô tả:"
+
+#: bb-admin/includes/class.bb-install.php:2084
+msgid "Forum name:"
+msgstr "Tên diễn đàn:"
+
+#: bb-admin/includes/class.bb-install.php:2092
+msgid "Your first topic"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2100
+msgid "First Post!  w00t."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2114
+#: bb-templates/kakumei/edit-form.php:4
+msgid "Topic:"
+msgstr "Chủ đề:"
+
+#: bb-admin/includes/class.bb-install.php:2115
+#: bb-templates/kakumei/edit-form.php:10
+#: bb-templates/kakumei/post-form.php:9
+msgid "Post:"
+msgstr "Bài viết:"
+
+#: bb-admin/includes/class.bb-install.php:2117
+#: bb-admin/includes/class.bb-install.php:2118
+msgid "Forum could not be created!"
+msgstr "Không tạo được diễn đàn."
+
+#: bb-admin/includes/class.bb-install.php:2121
+msgid "There are existing forums in this database."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2122
+msgid "No new forum created."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2123
+msgid "Forums already exist!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2129
+#, php-format
+msgid "Making plugin directory at %s."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2136
+#, php-format
+msgid "Making theme directory at %s."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2142
+#, php-format
+msgid ""
+"Your new bbPress site has been successfully set up at:\n"
+"\n"
+"%1$s\n"
+"\n"
+"You can log in to the key master account with the following information:\n"
+"\n"
+"Username: %2$s\n"
+"Password: %3$s\n"
+"\n"
+"We hope you enjoy your new forums. Thanks!\n"
+"\n"
+"--The bbPress Team\n"
+"http://bbpress.org/"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2148
+msgid "New bbPress installation"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2149
+msgid "Key master email sent"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2151
+#: bb-admin/includes/class.bb-install.php:2152
+msgid "Key master email not sent!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2157
+msgid "Installation completed with some errors!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2158
+msgid "Your installation completed with some minor errors. See the error log below for more specific information."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2159
+msgid "There were some errors encountered during installation!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2161
+msgid "Your installation completed successfully."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2542
+msgid "Please select an existing bbPress Keymaster or WordPress administrator."
+msgstr ""
+
+#: bb-admin/includes/defaults.bb-schema.php:8
+msgid "Database class not loaded."
+msgstr ""
+
+#: bb-admin/includes/functions.bb-admin.php:50
+#: bb-admin/index.php:9
+msgid "Dashboard"
+msgstr "Bảng thông tin"
+
+#: bb-admin/includes/functions.bb-admin.php:55
+msgid "Users"
+msgstr "Thành viên"
+
+#: bb-admin/includes/functions.bb-admin.php:56
+msgid "Manage"
+msgstr "Quản lý"
+
+#: bb-admin/includes/functions.bb-admin.php:57
+msgid "Design"
+msgstr "Giao diện"
+
+#: bb-admin/includes/functions.bb-admin.php:62
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: bb-admin/includes/functions.bb-admin.php:63
+#: bb-admin/includes/functions.bb-admin.php:80
+msgid "Plugins"
+msgstr "Plugin"
+
+#: bb-admin/includes/functions.bb-admin.php:69
+msgid "Find"
+msgstr "Tìm"
+
+#: bb-admin/includes/functions.bb-admin.php:70
+msgid "Moderators"
+msgstr ""
+
+#: bb-admin/includes/functions.bb-admin.php:71
+#: bb-includes/functions.bb-capabilities.php:185
+msgid "Blocked"
+msgstr "Bị chặn"
+
+#: bb-admin/includes/functions.bb-admin.php:75
+#: bb-templates/kakumei/front-page.php:45
+msgid "Forums"
+msgstr "Diễn đàn"
+
+#: bb-admin/includes/functions.bb-admin.php:76
+#: bb-admin/site.php:6
+msgid "Recount"
+msgstr "Đếm lại"
+
+#: bb-admin/includes/functions.bb-admin.php:78
+msgid "Themes"
+msgstr "Giao diện"
+
+#: bb-admin/includes/functions.bb-admin.php:82
+msgid "General"
+msgstr "Tổng quan"
+
+#: bb-admin/includes/functions.bb-admin.php:83
+#, fuzzy
+msgid "WordPress Integration"
+msgstr "Nhập WordPress"
+
+#: bb-admin/includes/functions.bb-admin.php:318
+#: bb-admin/includes/functions.bb-admin.php:680
+#: bb-includes/functions.bb-core.php:902
+#: bb-includes/functions.bb-template.php:1755
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: bb-admin/includes/functions.bb-admin.php:371
+#: bb-admin/includes/functions.bb-admin.php:505
+#: bb-plugins/bozo.php:301
+msgid "No matching users were found!"
+msgstr "Không tìm được thành viên nào!"
+
+#: bb-admin/includes/functions.bb-admin.php:427
+#, php-format
+msgid "Users Matching \"%s\" by Role"
+msgstr ""
+
+#: bb-admin/includes/functions.bb-admin.php:429
+msgid "User List by Role"
+msgstr ""
+
+#: bb-admin/includes/functions.bb-admin.php:434
+#: bb-templates/kakumei/search-form.php:3
+msgid "Search:"
+msgstr "Tìm kiếm:"
+
+#: bb-admin/includes/functions.bb-admin.php:436
+msgid "Search for users &raquo;"
+msgstr "Tìm kiếm thành viên &raquo;"
+
+#: bb-admin/includes/functions.bb-admin.php:442
+msgid "&laquo; Back to All Users"
+msgstr "&larr; Quay lại tất cả các thành viên"
+
+#: bb-admin/includes/functions.bb-admin.php:452
+msgid "Users with no role in these forums"
+msgstr ""
+
+#: bb-admin/includes/functions.bb-admin.php:456
+msgid "ID"
+msgstr "ID"
+
+#: bb-admin/includes/functions.bb-admin.php:458
+#: bb-admin/includes/functions.bb-admin.php:462
+msgid "Username"
+msgstr "Tên đăng nhập"
+
+#: bb-admin/includes/functions.bb-admin.php:459
+#: bb-admin/includes/functions.bb-admin.php:463
+msgid "Display name"
+msgstr "Tên hiển thị"
+
+#: bb-admin/includes/functions.bb-admin.php:460
+#: bb-includes/functions.bb-core.php:956
+msgid "Email"
+msgstr "Thư điện tử"
+
+#: bb-admin/includes/functions.bb-admin.php:465
+msgid "Registered Since"
+msgstr "Đăng ký từ"
+
+#: bb-admin/includes/functions.bb-admin.php:466
+msgid "Actions"
+msgstr "Tác vụ"
+
+#: bb-admin/includes/functions.bb-admin.php:702
+msgid "Forum Name:"
+msgstr "Tên trong diễn đàn:"
+
+#: bb-admin/includes/functions.bb-admin.php:706
+msgid "Forum Slug:"
+msgstr "Chuỗi cho đường dẫn tĩnh"
+
+#: bb-admin/includes/functions.bb-admin.php:710
+msgid "Forum Description:"
+msgstr "Mô tả diễn đàn:"
+
+#: bb-admin/includes/functions.bb-admin.php:713
+msgid "Forum Parent:"
+msgstr "Diễn đàn mẹ:"
+
+#: bb-admin/includes/functions.bb-admin.php:722
+msgid "Position:"
+msgstr "Vị trí:"
+
+#: bb-admin/includes/functions.bb-admin.php:725
+msgid "Forum is Category:"
+msgstr ""
+
+#: bb-admin/includes/functions.bb-admin.php:736
+msgid "Update Forum &#187;"
+msgstr "Cập nhật diễn đàn &#187;"
+
+#: bb-admin/includes/functions.bb-admin.php:736
+msgid "Add Forum &#187;"
+msgstr "Thêm diễn đàn &#187;"
+
+#: bb-admin/includes/functions.bb-admin.php:824
+#: bb-admin/index.php:56
+msgid "Post"
+msgstr "Bài viết"
+
+#: bb-admin/includes/functions.bb-admin.php:848
+#, php-format
+msgid "Posted %s"
+msgstr "Đã đăng %s"
+
+#: bb-admin/includes/functions.bb-admin.php:864
+msgid "No posts found"
+msgstr "Không tìm thấy bài nào"
+
+#: bb-admin/includes/functions.bb-admin.php:877
+msgid "Count posts of every topic"
+msgstr ""
+
+#: bb-admin/includes/functions.bb-admin.php:878
+msgid "Count deleted posts on every topic"
+msgstr ""
+
+#: bb-admin/includes/functions.bb-admin.php:879
+msgid "Count topics and posts in every forum (relies on the above)"
+msgstr ""
+
+#: bb-admin/includes/functions.bb-admin.php:880
+msgid "Count topics to which each user has replied"
+msgstr ""
+
+#: bb-admin/includes/functions.bb-admin.php:881
+msgid "Count tags for every topic"
+msgstr ""
+
+#: bb-admin/includes/functions.bb-admin.php:882
+msgid "Count topics for every tag"
+msgstr ""
+
+#: bb-admin/includes/functions.bb-admin.php:883
+msgid "DELETE tags with no topics.  Only functions if the above checked"
+msgstr ""
+
+#: bb-admin/includes/functions.bb-admin.php:884
+msgid "REMOVE deleted topics from users' favorites"
+msgstr ""
+
+#: bb-admin/includes/functions.bb-admin.php:954
+#: bb-admin/includes/functions.bb-plugin.php:263
+msgid "Visit author homepage"
+msgstr "Ghé thăm trang web của tác giả"
+
+#: bb-admin/includes/functions.bb-admin.php:964
+#, fuzzy
+msgid "Visit porter homepage"
+msgstr "Ghé thăm trang web của tác giả"
+
+#: bb-admin/includes/functions.bb-plugin.php:260
+msgid "Visit plugin homepage"
+msgstr "Ghé thăm trang web của plugin"
+
+#: bb-admin/includes/functions.bb-plugin.php:386
+#, fuzzy
+msgid "Invalid plugin path."
+msgstr "Đường dẫn đến plugin không hợp lệ"
+
+#: bb-admin/includes/functions.bb-plugin.php:390
+#, fuzzy
+msgid "Plugin file does not exist."
+msgstr "Tập tin của plugin không tồn tại."
+
+#: bb-admin/includes/functions.bb-plugin.php:393
+msgid "That type of plugin is not available in the specified location."
+msgstr ""
+
+#: bb-admin/index.php:12
+msgid "Right Now"
+msgstr "Ngay bây giờ"
+
+#: bb-admin/index.php:15
+#, fuzzy, php-format
+msgid "%d forum"
+msgid_plural "%d forums"
+msgstr[0] "Diễn đàn"
+msgstr[1] ""
+
+#: bb-admin/index.php:17
+#, fuzzy, php-format
+msgid "is %d topic"
+msgid_plural "are %d topics"
+msgstr[0] "Chủ đề được"
+msgstr[1] ""
+
+#: bb-admin/index.php:21
+#: bb-admin/index.php:27
+#, fuzzy, php-format
+msgid "%d user"
+msgid_plural "%d users"
+msgstr[0] "Thành viên %s"
+msgstr[1] ""
+
+#: bb-admin/index.php:29
+#, php-format
+msgid "You have %1$s. There %2$s with %3$s by %4$s."
+msgstr ""
+
+#: bb-admin/index.php:30
+#, php-format
+msgid "That's an average of %1$s, %2$s and %3$s per day since your forums were started %4$s ago."
+msgstr ""
+
+#: bb-admin/index.php:31
+#, php-format
+msgid "You are using the theme <a href=\"%1$s\">%2$s</a>. This is bbPress version %3$s"
+msgstr ""
+
+#: bb-admin/index.php:36
+msgid "Recent User Registrations"
+msgstr ""
+
+#: bb-admin/index.php:42
+#, php-format
+msgid "registered %s ago"
+msgstr "đăng ký %s trước"
+
+#: bb-admin/index.php:50
+msgid "Recently Moderated Items"
+msgstr ""
+
+#: bb-admin/index.php:57
+#: bb-templates/kakumei/rss2.php:27
+msgid "on"
+msgstr "trong"
+
+#: bb-admin/index.php:59
+msgid "by"
+msgstr "bởi"
+
+#: bb-admin/index.php:64
+#, fuzzy
+msgid "Topic titled"
+msgstr "Đăng chủ đề mới"
+
+#: bb-admin/index.php:66
+msgid "started by"
+msgstr "bắt đầu bởi"
+
+#: bb-admin/index.php:73
+msgid "No moderated posts or topics... you must have very well behaved members."
+msgstr ""
+
+#: bb-admin/install.php:159
+#: bb-admin/options-wordpress.php:188
+msgid "Cookies"
+msgstr "Cookie"
+
+#: bb-admin/install.php:160
+msgid "Integrating cookies allows you and your users to login to either your bbPress or your WordPress site and be automatically logged into both."
+msgstr ""
+
+#: bb-admin/install.php:161
+msgid "You may need to make changes to your WordPress configuration once installation is complete. See the \"WordPress Integration\" section of the bbPress administration area when you are done."
+msgstr ""
+
+#: bb-admin/install.php:181
+#: bb-admin/options-wordpress.php:257
+msgid "User database"
+msgstr "Cơ sở dữ liệu thành viên"
+
+#: bb-admin/install.php:182
+msgid "Integrating your WordPress database user tables allows you to store user data in one location, instead of having separate user data for both bbPress and WordPress."
+msgstr ""
+
+#: bb-admin/install.php:191
+#: bb-admin/options-wordpress.php:276
+msgid "Separate user database settings"
+msgstr ""
+
+#: bb-admin/install.php:192
+#: bb-admin/options-wordpress.php:277
+msgid "Most of the time these settings are <em>not</em> required. Look before you leap!"
+msgstr ""
+
+#: bb-admin/install.php:193
+msgid "If required, then all settings except for the character set must be specified."
+msgstr ""
+
+#: bb-admin/install.php:204
+#: bb-admin/options-wordpress.php:282
+msgid "Custom user tables"
+msgstr ""
+
+#: bb-admin/install.php:205
+msgid "Only set these options if your integrated user tables do not fit the usual mould of <em>wp_user</em> and <em>wp_usermeta</em>."
+msgstr ""
+
+#: bb-admin/install.php:349
+msgid "You can now log in with the following details:"
+msgstr ""
+
+#: bb-admin/install.php:355
+msgid "Site address:"
+msgstr "Địa chỉ của trang web:"
+
+#: bb-admin/install.php:361
+msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you. If you lose it, you will have to delete the tables from the database yourself, and re-install bbPress."
+msgstr ""
+
+#: bb-admin/options-general.php:46
+msgid "Settings saved."
+msgstr "Các tùy chọn đã được lưu"
+
+#: bb-admin/options-general.php:51
+msgid "Site title"
+msgstr "Tên trang"
+
+#: bb-admin/options-general.php:55
+msgid "Site description"
+msgstr "Mô tả của trang"
+
+#: bb-admin/options-general.php:59
+msgid "bbPress address (URL)"
+msgstr "Địa chỉ của bbPress (URL):"
+
+#: bb-admin/options-general.php:61
+msgid "The full URL of your bbPress install."
+msgstr ""
+
+#: bb-admin/options-general.php:64
+msgid "E-mail address"
+msgstr "Địa chỉ thư điện tử"
+
+#: bb-admin/options-general.php:65
+msgid "Emails sent by the site will appear to come from this address."
+msgstr ""
+
+#: bb-admin/options-general.php:68
+msgid "Pretty permalink type"
+msgstr ""
+
+#: bb-admin/options-general.php:71
+msgid "None&nbsp;&nbsp;&nbsp;&hellip;/forums.php?id=1"
+msgstr ""
+
+#: bb-admin/options-general.php:72
+msgid "Numeric&nbsp;&nbsp;&nbsp;.../forums/1"
+msgstr ""
+
+#: bb-admin/options-general.php:73
+msgid "Name based&nbsp;&nbsp;&nbsp;.../forums/first-forum"
+msgstr ""
+
+#: bb-admin/options-general.php:76
+#, php-format
+msgid "If you activate \"Numeric\" or \"Name based\" permalinks, you will need to create a file at <code>%s</code> containing the url rewriting rules <a href=\"%s\">provided here</a>."
+msgstr ""
+
+#: bb-admin/options-general.php:82
+msgid "Items per page"
+msgstr "Số ảnh/nhạc/video trên một trang:"
+
+#: bb-admin/options-general.php:84
+msgid "Number of topics, posts or tags to show per page."
+msgstr ""
+
+#: bb-admin/options-general.php:87
+msgid "Lock post editing after"
+msgstr ""
+
+#: bb-admin/options-general.php:89
+#: bb-includes/functions.bb-core.php:388
+msgid "minutes"
+msgstr "phút"
+
+#: bb-admin/options-general.php:96
+msgid "Times should differ<br />from UTC by"
+msgstr ""
+
+#: bb-admin/options-general.php:98
+#: bb-includes/functions.bb-core.php:387
+msgid "hours"
+msgstr "giờ"
+
+#: bb-admin/options-general.php:99
+msgid "Example: -7 for Pacific Daylight Time."
+msgstr ""
+
+#: bb-admin/options-general.php:102
+msgid "Date and time format"
+msgstr ""
+
+#: bb-admin/options-general.php:104
+#: bb-admin/options-general.php:110
+#, php-format
+msgid "Output: <strong>%s</strong>"
+msgstr "Hiển thị mẫu: <strong>%s</strong>"
+
+#: bb-admin/options-general.php:107
+msgid "Date format"
+msgstr "Định dạng ngày tháng"
+
+#: bb-admin/options-general.php:111
+msgid "Click \"Update settings\" to update sample output."
+msgstr "Nhấn \"Lưu thay đổi\" để xem hiển thị mẫu."
+
+#: bb-admin/options-general.php:112
+msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>."
+msgstr "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Tài liệu về định dạng ngày tháng</a>."
+
+#: bb-admin/options-general.php:119
+msgid "Enable XML-RPC"
+msgstr "Sử dụng giao thức XML-RPC"
+
+#: bb-admin/options-general.php:121
+msgid "Allow remote publishing and management via the bbPress <a href=\"http://codex.wordpress.org/Glossary#XML-RPC\">XML-RPC</a> publishing protocol?"
+msgstr ""
+
+#: bb-admin/options-general.php:124
+msgid "Enable Pingbacks"
+msgstr "Sử dụng Pingback"
+
+#: bb-admin/options-general.php:126
+msgid "Allow sending and receiving of <a href=\"http://codex.wordpress.org/Glossary#PingBack\">pingbacks</a>?"
+msgstr ""
+
+#: bb-admin/options-general.php:134
+msgid "Show avatars"
+msgstr "Hiện ảnh đại diện"
+
+#: bb-admin/options-general.php:136
+msgid "Display avatars on your site?"
+msgstr ""
+
+#: bb-admin/options-general.php:139
+msgid "Gravatar default image"
+msgstr "Ảnh đại diện Gravatar mặc định"
+
+#: bb-admin/options-general.php:142
+#: bb-admin/options-general.php:150
+msgid "Default"
+msgstr "Mặc định"
+
+#: bb-admin/options-general.php:143
+#: bb-admin/options-general.php:151
+msgid "Gravatar Logo"
+msgstr "Logo của Gravatar"
+
+#: bb-admin/options-general.php:144
+#: bb-admin/options-general.php:152
+msgid "MonsterID"
+msgstr "MonsterID (tự động tạo)"
+
+#: bb-admin/options-general.php:145
+#: bb-admin/options-general.php:153
+msgid "Wavatar"
+msgstr "Ảnh sóng (tự động tạo)"
+
+#: bb-admin/options-general.php:146
+#: bb-admin/options-general.php:154
+msgid "Identicon"
+msgstr "Identicon (tự động tạo)"
+
+#: bb-admin/options-general.php:149
+msgid "Select what style of avatar to display to users without a Gravatar:"
+msgstr ""
+
+#: bb-admin/options-general.php:158
+msgid "Gravatar maximum rating"
+msgstr "Chấp nhận Gravatar từ cấp độ:"
+
+#: bb-admin/options-general.php:161
+msgid "None"
+msgstr "Không"
+
+#: bb-admin/options-general.php:162
+msgid "X"
+msgstr "X"
+
+#: bb-admin/options-general.php:163
+msgid "R"
+msgstr "R"
+
+#: bb-admin/options-general.php:164
+msgid "PG"
+msgstr "PG"
+
+#: bb-admin/options-general.php:165
+msgid "G"
+msgstr "G"
+
+#: bb-admin/options-general.php:168
+msgid "Rated X"
+msgstr ""
+
+#: bb-admin/options-general.php:168
+msgid "X rated gravatars may contain hardcore sexual imagery or extremely disturbing violence."
+msgstr "X - ảnh có thể chứa hình không đứng đắn."
+
+#: bb-admin/options-general.php:169
+msgid "Rated R"
+msgstr ""
+
+#: bb-admin/options-general.php:169
+msgid "R rated gravatars may contain such things as harsh profanity, intense violence, nudity, or hard drug use."
+msgstr "R - ảnh có thể chứa nội dung bạo lực, khỏa thân..."
+
+#: bb-admin/options-general.php:170
+msgid "Rated PG"
+msgstr ""
+
+#: bb-admin/options-general.php:170
+msgid "PG rated gravatars may contain rude gestures, provocatively dressed individuals, the lesser swear words, or mild violence."
+msgstr "PG - ảnh hơi mang tính bạo lực, khiêu khích..."
+
+#: bb-admin/options-general.php:171
+msgid "Rated G"
+msgstr ""
+
+#: bb-admin/options-general.php:171
+msgid "A G rated gravatar is suitable for display on all websites with any audience type."
+msgstr "G - ảnh phù hợp cho mọi lứa tuổi"
+
+#: bb-admin/options-general.php:183
+msgid "General Settings"
+msgstr "Cài đặt chung"
+
+#: bb-admin/options-general.php:188
+msgid "Date and Time"
+msgstr ""
+
+#: bb-admin/options-general.php:191
+msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is"
+msgstr "Giờ <abbr title=\"Coordinated Universal Time\">UTC</abbr>"
+
+#: bb-admin/options-general.php:194
+msgid "Y-m-d g:i:s a"
+msgstr "Y-m-d H:i:s"
+
+#: bb-admin/options-general.php:200
+msgid "Remote publishing and Pingbacks"
+msgstr ""
+
+#: bb-admin/options-general.php:202
+msgid "How do we describe this?"
+msgstr ""
+
+#: bb-admin/options-general.php:207
+msgid "Avatars"
+msgstr "Ảnh đại diện"
+
+#: bb-admin/options-general.php:209
+msgid "bbPress includes built-in support for <a href=\"http://gravatar.com/\">Gravatars</a>, you can enable this feature here."
+msgstr "bbPress hỗ trợ <a href=\"http://gravatar.com/\">Gravatars</a>, bạn có thể bật tính năng này tại đây."
+
+#: bb-admin/options-general.php:216
+#: bb-admin/options-wordpress.php:289
+msgid "Save Changes"
+msgstr "Lưu thay đổi"
+
+#: bb-admin/options-wordpress.php:45
+msgid "User role mapping saved."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:48
+msgid "User integration settings saved."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:54
+msgid "none|no bbPress role"
+msgstr ""
+
+#: bb-admin/options-wordpress.php:58
+msgid "WordPress Administrator"
+msgstr "Quản lý trong WordPress"
+
+#: bb-admin/options-wordpress.php:59
+msgid "WordPress Editor"
+msgstr "Biên tập viên trong WordPress"
+
+#: bb-admin/options-wordpress.php:60
+msgid "WordPress Author"
+msgstr "Tác giả trong WordPress"
+
+#: bb-admin/options-wordpress.php:61
+msgid "WordPress Contributor"
+msgstr "Cộng tác viên trong WordPress"
+
+#: bb-admin/options-wordpress.php:62
+msgid "WordPress Subscriber"
+msgstr "Thành viên đăng ký trong WordPress"
+
+#: bb-admin/options-wordpress.php:78
+msgid "This must match the value of the WordPress setting named \"auth_salt\" in your WordPress site. Look for the option labeled \"auth_salt\" in <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:82
+msgid "This must match the value of the WordPress setting named \"secure_auth_salt\" in your WordPress site. Look for the option labeled \"secure_auth_salt\" in <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. Sometimes this value is not set in WordPress, in that case you can leave this setting blank as well."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:86
+msgid "This must match the value of the WordPress setting named \"logged_in_salt\" in your WordPress site. Look for the option labeled \"logged_in_salt\" in <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:94
+#, php-format
+msgid "You have defined the \"%s\" constant which overides this setting."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:164
+#, fuzzy
+msgid "User Role Map"
+msgstr "Thành viên"
+
+#: bb-admin/options-wordpress.php:166
+msgid "Here you can match WordPress roles to bbPress roles."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:167
+msgid "This will have no effect until your user tables are integrated below. Only standard WordPress roles are supported. Changes do not affect users with existing roles in both WordPress and bbPress."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:176
+msgid "Save User Role Map"
+msgstr ""
+
+#: bb-admin/options-wordpress.php:180
+#, fuzzy
+msgid "User Integration"
+msgstr "%s thành viên bị xóa"
+
+#: bb-admin/options-wordpress.php:182
+msgid "Usually, you will have to specify both cookie sharing and user database sharing settings."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:183
+msgid "Make sure you have a \"User role map\" setup above before trying to add user integration."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:184
+msgid "<strong>Note:</strong> updating these settings may cause you to be logged out!"
+msgstr "<strong>Lưu ý:</strong> thay đổi những cài đặt này có thể bạn sẽ phải đăng nhập lại!"
+
+#: bb-admin/options-wordpress.php:189
+msgid "Cookie sharing allows users to log in to either your bbPress or your WordPress site, and have access to both."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:234
+msgid "bbPress has automatically determined the best cookie settings for WordPress. In some cases integration may work without these settings, but if not add the following code to your <code>wp-config.php</code> file in the root directory of your WordPress installation."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:236
+msgid "You will also have to manually ensure that the following constants are equivalent in WordPress' and bbPress' respective config files."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:239
+msgid "WordPress (wp-config.php)"
+msgstr ""
+
+#: bb-admin/options-wordpress.php:240
+msgid "bbPress (bb-config.php)"
+msgstr ""
+
+#: bb-admin/options-wordpress.php:258
+msgid "User database sharing allows you to store user data in your WordPress database."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:259
+msgid "You should setup a \"User role map\" before"
+msgstr ""
+
+#: bb-admin/options-wordpress.php:278
+msgid "All settings except for the character set must be specified."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:283
+msgid "Only set these values if your user tables differ from the default WordPress naming convention."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:293
+msgid "Manual bbPress config file settings"
+msgstr ""
+
+#: bb-admin/options-wordpress.php:342
+msgid "If your integration settings will not change, you can help speed up bbPress by adding the following code to your <code>bb-config.php</code> file in the root directory of your bbPress installation. Afterwards, the settings in this form will reflect the hard coded values, but you will not be able to edit them here."
+msgstr ""
+
+#: bb-admin/plugins.php:87
+msgid "Plugin could not be activated, it produced a <strong>Fatal Error</strong>. The error is shown below."
+msgstr ""
+
+#: bb-admin/plugins.php:91
+#, php-format
+msgid "\"%s\" plugin <strong>activated</strong>"
+msgstr "Plugin \"%s\" đã được <strong>kích hoạt</strong>."
+
+#: bb-admin/plugins.php:95
+#, php-format
+msgid "\"%s\" plugin <strong>deactivated</strong>"
+msgstr "Plugin \"%s\" đã bị <strong>vô hiệu hóa</strong>."
+
+#: bb-admin/plugins.php:101
+msgid "\"Safe mode\" is on, all plugins are disabled even if they are listed as active."
+msgstr ""
+
+#: bb-admin/plugins.php:132
+msgid "Plugin Management"
+msgstr "Quản lý plugin"
+
+#: bb-admin/plugins.php:134
+msgid "Plugins extend and expand the functionality of bbPress. Once a plugin is installed, you may activate it or deactivate it here."
+msgstr "Các plugin có vai trò mở rộng các chưc năng của bbPress. Một khi plugin được cài đặt, bạn có thể kích hoạt hoặc vô hiệu hóa chúng tại đây."
+
+#: bb-admin/plugins.php:143
+#: bb-admin/plugins.php:208
+msgid "Plugin"
+msgstr "Plugin"
+
+#: bb-admin/plugins.php:144
+#: bb-admin/plugins.php:209
+msgid "Version"
+msgstr "Phiên bản"
+
+#: bb-admin/plugins.php:145
+#: bb-admin/plugins.php:210
+msgid "Description"
+msgstr "Mô tả"
+
+#: bb-admin/plugins.php:146
+msgid "Action"
+msgstr "Tác vụ"
+
+#: bb-admin/plugins.php:156
+msgid "Activate"
+msgstr "Kích hoạt"
+
+#: bb-admin/plugins.php:161
+msgid "Deactivate"
+msgstr "Vô hiệu hóa"
+
+#: bb-admin/plugins.php:183
+#: bb-admin/plugins.php:228
+#, php-format
+msgid "By %s."
+msgstr "Bởi %s."
+
+#: bb-admin/plugins.php:203
+msgid "Automatically loaded plugins"
+msgstr ""
+
+#: bb-admin/plugins.php:254
+msgid "If something goes wrong with a plugin and you can’t use bbPress, delete or rename that file in the <code>my-plugins</code> directory and it will be automatically deactivated."
+msgstr ""
+
+#: bb-admin/plugins.php:260
+msgid "No Plugins Installed"
+msgstr "Chưa có plugin nào được cài"
+
+#: bb-admin/plugins.php:266
+msgid "Get More Plugins"
+msgstr "Thêm plugin"
+
+#: bb-admin/plugins.php:268
+#, php-format
+msgid "You can find additional plugins for your site in the <a href=\"%s\">bbPress plugin directory</a>."
+msgstr ""
+
+#: bb-admin/plugins.php:270
+msgid "To install a plugin you generally just need to upload the plugin file into your <code>my-plugins</code> directory. Once a plugin is uploaded, you may activate it here."
+msgstr ""
+
+#: bb-admin/site.php:7
+msgid "The following checkboxes allow you to recalculate various numbers stored in the database. These numbers are used for things like counting the number of pages worth of posts a particular topic has.  You shouldn't need to do do any of this unless you're upgrading from one version to another or are seeing pagination oddities."
+msgstr ""
+
+#: bb-admin/site.php:11
+msgid "Choose items to recalculate"
+msgstr ""
+
+#: bb-admin/site.php:17
+msgid "Count!"
+msgstr "Đếm!"
+
+#: bb-admin/tag-destroy.php:5
+#: bb-admin/tag-merge.php:5
+#: bb-admin/tag-rename.php:5
+msgid "You are not allowed to manage tags."
+msgstr ""
+
+#: bb-admin/tag-destroy.php:13
+#: bb-admin/tag-rename.php:14
+msgid "Tag not found."
+msgstr "Không tìm thấy thẻ nào."
+
+#: bb-admin/tag-destroy.php:16
+#, php-format
+msgid "Rows deleted from tags table: %d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-destroy.php:17
+#, php-format
+msgid "Rows deleted from tagged table: %d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-destroy.php:18
+#, php-format
+msgid "<a href=\"%s\">Home</a>"
+msgstr "<a href=\"%s\">Trang Chủ</a>"
+
+#: bb-admin/tag-destroy.php:20
+#, php-format
+msgid ""
+"Something odd happened when attempting to destroy that tag.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+
+#: bb-admin/tag-merge.php:13
+msgid "Tag specified not found."
+msgstr ""
+
+#: bb-admin/tag-merge.php:16
+msgid "Tag to be merged not found."
+msgstr ""
+
+#: bb-admin/tag-merge.php:19
+#, php-format
+msgid "Number of topics from which the old tag was removed: %d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-merge.php:20
+#, php-format
+msgid "Number of topics to which the new tag was added: %d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-merge.php:21
+#, php-format
+msgid "Number of rows deleted from tags table:%d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-merge.php:22
+#, php-format
+msgid "<a href=\"%s\">New Tag</a>"
+msgstr "<a href=\"%s\">Thẻ mới</a>"
+
+#: bb-admin/tag-merge.php:24
+#, php-format
+msgid ""
+"Something odd happened when attempting to merge those tags.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+
+#: bb-admin/tag-rename.php:20
+#, php-format
+msgid "There already exists a tag by that name or the name is invalid. <a href=\"%s\">Try Again</a>"
+msgstr ""
+
+#: bb-admin/themes.php:38
+#, php-format
+msgid "Theme \"%s\" <strong>activated</strong>"
+msgstr "Giao diện \"%s\" đã được <strong>kích hoạt</strong>"
+
+#: bb-admin/themes.php:43
+msgid "Default theme is missing."
+msgstr "Không tìm thấy giao diện mặc định."
+
+#: bb-admin/themes.php:47
+msgid "Theme not found.  Default theme applied."
+msgstr ""
+
+#: bb-admin/themes.php:59
+#: bb-admin/themes.php:61
+msgid "Click to activate"
+msgstr "Ấn để kích hoạt"
+
+#: bb-admin/themes.php:63
+#, php-format
+msgid "by <cite>%s</cite>"
+msgstr "bởi <cite>%s</cite>"
+
+#: bb-admin/themes.php:63
+#, php-format
+msgid ", ported by <cite>%s</cite>"
+msgstr ""
+
+#: bb-admin/themes.php:65
+#, php-format
+msgid "All of this theme's files are located in the \"%s\" themes directory."
+msgstr ""
+
+#: bb-admin/themes.php:72
+msgid "\"Safe mode\" is on, the default theme will be used instead of the active theme indicated below."
+msgstr ""
+
+#: bb-admin/themes.php:80
+msgid "Current Theme"
+msgstr "Theme đang dùng"
+
+#: bb-admin/themes.php:86
+msgid "Available Themes"
+msgstr "Các theme hiện có"
+
+#: bb-admin/topic-move.php:8
+msgid "Invalid topic or forum."
+msgstr ""
+
+#: bb-admin/topic-move.php:21
+msgid "Your topic or forum caused all manner of confusion"
+msgstr ""
+
+#: bb-admin/upgrade.php:42
+msgid "Beginning upgrade&hellip;"
+msgstr ""
+
+#: bb-admin/upgrade.php:46
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:598
+msgid "Done"
+msgstr "Hoàn thành"
+
+#: bb-admin/upgrade.php:64
+msgid "bbPress database upgrade"
+msgstr "Cơ sở dữ liệu của bbPress cần được cập nhật"
+
+#: bb-admin/upgrade.php:82
+#, php-format
+msgid "Nothing to upgrade.  <a href=\"%s\">Get back to work!</a>"
+msgstr ""
+
+#: bb-admin/upgrade.php:90
+msgid "Database upgrade required"
+msgstr "Cơ sở dữ liệu cần được cập nhật"
+
+#: bb-admin/upgrade.php:94
+msgid "It looks like your database is out-of-date. You can upgrade it here."
+msgstr ""
+
+#: bb-admin/upgrade.php:100
+msgid "Upgrade database"
+msgstr "Cập nhật cơ sở dữ liệu"
+
+#: bb-admin/upgrade.php:112
+msgid "Database upgrade complete"
+msgstr "Cập nhật hoàn tất"
+
+#: bb-admin/upgrade.php:116
+msgid "Your database has been successfully upgraded, enjoy!"
+msgstr "Cơ sở dữ liệu đã được nâng cấp thành công!"
+
+#: bb-admin/upgrade.php:120
+#: bb-admin/upgrade.php:159
+msgid "Show upgrade messages"
+msgstr ""
+
+#: bb-admin/upgrade.php:127
+#: bb-admin/upgrade.php:176
+#, fuzzy
+msgid "Upgrade log"
+msgstr "Đăng nhập"
+
+#: bb-admin/upgrade.php:134
+#: bb-admin/upgrade.php:183
+msgid "&laquo; Go back to forums"
+msgstr ""
+
+#: bb-admin/upgrade.php:137
+msgid "Go to admin"
+msgstr "Trang Quản lý"
+
+#: bb-admin/upgrade.php:149
+msgid "Database upgrade failed"
+msgstr "Không cập nhật được cơ sở dữ liệu."
+
+#: bb-admin/upgrade.php:153
+msgid "The upgrade process seems to have failed. Check the upgrade messages below for more information.<br /><br />Attempting to go to the admin area without resolving the listed errors will return you to this upgrade page."
+msgstr ""
+
+#: bb-admin/upgrade.php:169
+#, fuzzy
+msgid "Error log"
+msgstr "Đăng nhập"
+
+#: bb-admin/upgrade.php:186
+msgid "Try again"
+msgstr "Thử lại"
+
+#: bb-admin/users-blocked.php:13
+msgid "These users have been blocked by the forum administrators"
+msgstr "Những thành viên này đã bị cấm bởi quản lý diễn đàn"
+
+#: bb-admin/users-moderators.php:13
+msgid "Forum Administrators"
+msgstr "Quản lý diễn đàn"
+
+#: bb-admin/view-ip.php:18
+msgid "IP Information"
+msgstr "Địa chỉ IP"
+
+#: bb-admin/view-ip.php:20
+msgid "Last 30 posts"
+msgstr "30 bài viết gần nhất"
+
+#: bb-admin/view-ip.php:40
+#, fuzzy
+msgid "Posted:"
+msgstr "Đăng trong:"
+
+#: bb-edit.php:16
+msgid "Sorry, post is too old."
+msgstr "Xin lỗi, bài viết này quá cũ."
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:315
+msgid "Passed variable is not a BackPress database object."
+msgstr ""
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:319
+#, fuzzy
+msgid "No schema available."
+msgstr "Không có lệnh Nhập vào nào phù hợp."
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:385
+msgid "Creating table"
+msgstr "Đang tạo bảng"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:414
+#, fuzzy, php-format
+msgid "Adding column: %s"
+msgstr "Xóa cột"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:432
+#, php-format
+msgid "Setting default on column: %s"
+msgstr ""
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:447
+#, fuzzy, php-format
+msgid "Changing column: %s"
+msgstr "Xóa cột"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:489
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:512
+#, fuzzy, php-format
+msgid "Adding index: %s"
+msgstr "Trang chủ"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:505
+#, fuzzy, php-format
+msgid "Dropping index: %s"
+msgstr "Trang chủ"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:533
+#, fuzzy
+msgid "Inserting data"
+msgstr "Dữ liệu không hợp lệ."
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:546
+#, fuzzy
+msgid "Updating data"
+msgstr "Đang cập nhật tập tin:"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:564
+#, fuzzy, php-format
+msgid "Modifying database: %s (%s)"
+msgstr "Nâng cấp cơ sở dữ liệu"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:568
+#, php-format
+msgid "Table: %s"
+msgstr "Bảng: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:580
+msgid "Skipped"
+msgstr ""
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:592
+msgid "SQL ERROR! See the error log for more detail"
+msgstr ""
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:593
+msgid "SQL ERROR!"
+msgstr "Lỗi Cơ sở dữ liệu!"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:594
+#, php-format
+msgid "Database: %s (%s)"
+msgstr "Cơ sở dữ liệu: %s (%s)\""
+
+#: bb-includes/backpress/class.wp-http.php:717
+#: bb-includes/backpress/class.wp-http.php:1335
+msgid "Too many redirects."
+msgstr "Có quá nhiều chuyển hướng."
+
+#: bb-includes/backpress/class.wp-http.php:797
+#: bb-includes/backpress/class.wp-http.php:924
+#, php-format
+msgid "Malformed URL: %s"
+msgstr "Đường dẫn không đúng: %s"
+
+#: bb-includes/backpress/class.wp-http.php:808
+#: bb-includes/backpress/class.wp-http.php:981
+#, php-format
+msgid "Could not open handle for fopen() to %s"
+msgstr "Không thể xử lý fopen() cho %s"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:226
+#: bb-includes/backpress/class.wp-taxonomy.php:299
+#: bb-includes/backpress/class.wp-taxonomy.php:403
+#: bb-includes/backpress/class.wp-taxonomy.php:572
+#: bb-includes/backpress/class.wp-taxonomy.php:1116
+#: bb-includes/backpress/class.wp-taxonomy.php:1338
+#: bb-includes/class.bb-taxonomy.php:48
+#: bb-includes/class.bb-taxonomy.php:150
+#: bb-includes/class.bb-taxonomy.php:262
+msgid "Invalid Taxonomy"
+msgstr "Thẻ không hợp lệ"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:294
+msgid "Empty Term"
+msgstr "Không có từ khóa nào được nhập"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1239
+#: bb-includes/backpress/class.wp-taxonomy.php:1486
+msgid "Invalid taxonomy"
+msgstr "Thẻ không hợp lệ"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1242
+#, fuzzy
+msgid "Invalid term ID"
+msgstr "ID của cụm từ này không hợp lệ."
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1245
+#: bb-includes/backpress/class.wp-taxonomy.php:1506
+#, fuzzy
+msgid "A name is required for this term"
+msgstr "Từ khóa này phải có tên"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1276
+#: bb-includes/backpress/class.wp-taxonomy.php:1283
+msgid "Could not insert term into the database"
+msgstr "Không thể thêm từ khóa vào cơ sở dữ liệu"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1534
+#, php-format
+msgid "The slug \"%s\" is already in use by another term"
+msgstr "Chuỗi cho đường dẫn tĩnh \"%s\" đã được sử dụng."
+
+#: bb-includes/backpress/class.wp-users.php:51
+msgid "Invalid login name"
+msgstr ""
+
+#: bb-includes/backpress/class.wp-users.php:53
+#, fuzzy
+msgid "Name already exists"
+msgstr "Thư mục đã tồn tại."
+
+#: bb-includes/backpress/class.wp-users.php:58
+#, fuzzy
+msgid "Invalid nicename"
+msgstr "Thẻ không hợp lệ"
+
+#: bb-includes/backpress/class.wp-users.php:60
+#, fuzzy
+msgid "Nicename already exists"
+msgstr "Thư mục đã tồn tại."
+
+#: bb-includes/backpress/class.wp-users.php:65
+#: bb-includes/functions.bb-pluggable.php:536
+#: profile-edit.php:62
+#, fuzzy
+msgid "Invalid email address"
+msgstr "Thêm thư điện tử"
+
+#: bb-includes/backpress/class.wp-users.php:70
+#, fuzzy
+msgid "Email already exists"
+msgstr "Thư mục đã tồn tại."
+
+#: bb-includes/backpress/class.wp-users.php:90
+msgid "Invalid registration time"
+msgstr ""
+
+#: bb-includes/backpress/class.wp-users.php:93
+msgid "Invalid registration timestamp"
+msgstr ""
+
+#: bb-includes/backpress/class.wp-users.php:110
+msgid "Query failed"
+msgstr "Truy vấn không thành công"
+
+#: bb-includes/backpress/class.wp-users.php:265
+msgid "Multiple email matches.  Log in with your username."
+msgstr ""
+
+#: bb-includes/backpress/class.wp-users.php:267
+#, php-format
+msgid "Multiple %s matches"
+msgstr ""
+
+#: bb-includes/backpress/functions.core.php:1077
+msgid "BackPress &rsaquo; Error"
+msgstr "BackPress &rsaquo; Lỗi"
+
+#: bb-includes/backpress/functions.wp-cron.php:294
+msgid "Once Hourly"
+msgstr "Hàng giờ"
+
+#: bb-includes/backpress/functions.wp-cron.php:295
+msgid "Twice Daily"
+msgstr "2 lần một ngày"
+
+#: bb-includes/backpress/functions.wp-cron.php:296
+msgid "Once Daily"
+msgstr "Hàng ngày"
+
+#: bb-includes/backpress/pomo/sample/app.php:56
+#, php-format
+msgid "Welcome %s!"
+msgstr "Chào mừng %s!"
+
+#: bb-includes/backpress/pomo/sample/app.php:60
+msgid "A string with low priority!"
+msgstr ""
+
+#: bb-includes/backpress/pomo/sample/app.php:62
+msgid "Bye\n"
+msgstr ""
+
+#: bb-includes/class.bb-dir-map.php:19
+msgid "Not a valid directory"
+msgstr "Thư mục không hợp lệ"
+
+#: bb-includes/class.bb-dir-map.php:25
+msgid "Invalid arguments"
+msgstr "Truy vấn không hợp lệ"
+
+#: bb-includes/class.bb-locale.php:21
+#: bb-includes/class.bb-locale.php:31
+#: bb-includes/class.bb-locale.php:44
+msgid "Sunday"
+msgstr "Chủ Nhật"
+
+#: bb-includes/class.bb-locale.php:22
+#: bb-includes/class.bb-locale.php:32
+#: bb-includes/class.bb-locale.php:45
+msgid "Monday"
+msgstr "Thứ Hai"
+
+#: bb-includes/class.bb-locale.php:23
+#: bb-includes/class.bb-locale.php:33
+#: bb-includes/class.bb-locale.php:46
+msgid "Tuesday"
+msgstr "Thứ Ba"
+
+#: bb-includes/class.bb-locale.php:24
+#: bb-includes/class.bb-locale.php:34
+#: bb-includes/class.bb-locale.php:47
+msgid "Wednesday"
+msgstr "Thứ Tư"
+
+#: bb-includes/class.bb-locale.php:25
+#: bb-includes/class.bb-locale.php:35
+#: bb-includes/class.bb-locale.php:48
+msgid "Thursday"
+msgstr "Thứ Năm"
+
+#: bb-includes/class.bb-locale.php:26
+#: bb-includes/class.bb-locale.php:36
+#: bb-includes/class.bb-locale.php:49
+msgid "Friday"
+msgstr "Thứ Sáu"
+
+#: bb-includes/class.bb-locale.php:27
+#: bb-includes/class.bb-locale.php:37
+#: bb-includes/class.bb-locale.php:50
+msgid "Saturday"
+msgstr "Thứ Bảy"
+
+#: bb-includes/class.bb-locale.php:31
+msgid "S_Sunday_initial"
+msgstr "CN"
+
+#: bb-includes/class.bb-locale.php:32
+msgid "M_Monday_initial"
+msgstr "T2"
+
+#: bb-includes/class.bb-locale.php:33
+msgid "T_Tuesday_initial"
+msgstr "T3"
+
+#: bb-includes/class.bb-locale.php:34
+msgid "W_Wednesday_initial"
+msgstr "T4"
+
+#: bb-includes/class.bb-locale.php:35
+msgid "T_Thursday_initial"
+msgstr "T5"
+
+#: bb-includes/class.bb-locale.php:36
+msgid "F_Friday_initial"
+msgstr "T6"
+
+#: bb-includes/class.bb-locale.php:37
+msgid "S_Saturday_initial"
+msgstr "T7"
+
+#: bb-includes/class.bb-locale.php:44
+msgid "Sun"
+msgstr "CN"
+
+#: bb-includes/class.bb-locale.php:45
+msgid "Mon"
+msgstr "T2"
+
+#: bb-includes/class.bb-locale.php:46
+msgid "Tue"
+msgstr "T3"
+
+#: bb-includes/class.bb-locale.php:47
+msgid "Wed"
+msgstr "T4"
+
+#: bb-includes/class.bb-locale.php:48
+msgid "Thu"
+msgstr "T5"
+
+#: bb-includes/class.bb-locale.php:49
+msgid "Fri"
+msgstr "T6"
+
+#: bb-includes/class.bb-locale.php:50
+msgid "Sat"
+msgstr "T7"
+
+#: bb-includes/class.bb-locale.php:53
+#: bb-includes/class.bb-locale.php:68
+msgid "January"
+msgstr "Tháng Một"
+
+#: bb-includes/class.bb-locale.php:54
+#: bb-includes/class.bb-locale.php:69
+msgid "February"
+msgstr "Tháng Hai"
+
+#: bb-includes/class.bb-locale.php:55
+#: bb-includes/class.bb-locale.php:70
+msgid "March"
+msgstr "Tháng Ba"
+
+#: bb-includes/class.bb-locale.php:56
+#: bb-includes/class.bb-locale.php:71
+msgid "April"
+msgstr "Tháng Tư"
+
+#: bb-includes/class.bb-locale.php:57
+#: bb-includes/class.bb-locale.php:72
+msgid "May"
+msgstr "Tháng Năm"
+
+#: bb-includes/class.bb-locale.php:58
+#: bb-includes/class.bb-locale.php:73
+msgid "June"
+msgstr "Tháng Sáu"
+
+#: bb-includes/class.bb-locale.php:59
+#: bb-includes/class.bb-locale.php:74
+msgid "July"
+msgstr "Tháng Bảy"
+
+#: bb-includes/class.bb-locale.php:60
+#: bb-includes/class.bb-locale.php:75
+msgid "August"
+msgstr "Tháng Tám"
+
+#: bb-includes/class.bb-locale.php:61
+#: bb-includes/class.bb-locale.php:76
+msgid "September"
+msgstr "Tháng Chín"
+
+#: bb-includes/class.bb-locale.php:62
+#: bb-includes/class.bb-locale.php:77
+msgid "October"
+msgstr "Tháng Mười"
+
+#: bb-includes/class.bb-locale.php:63
+#: bb-includes/class.bb-locale.php:78
+msgid "November"
+msgstr "Tháng Mười Một"
+
+#: bb-includes/class.bb-locale.php:64
+#: bb-includes/class.bb-locale.php:79
+msgid "December"
+msgstr "Tháng Mười Hai"
+
+#: bb-includes/class.bb-locale.php:68
+msgid "Jan_January_abbreviation"
+msgstr "Tháng 1"
+
+#: bb-includes/class.bb-locale.php:69
+msgid "Feb_February_abbreviation"
+msgstr "Tháng 2"
+
+#: bb-includes/class.bb-locale.php:70
+msgid "Mar_March_abbreviation"
+msgstr "Tháng 3"
+
+#: bb-includes/class.bb-locale.php:71
+msgid "Apr_April_abbreviation"
+msgstr "Tháng 4"
+
+#: bb-includes/class.bb-locale.php:72
+msgid "May_May_abbreviation"
+msgstr "Tháng 5"
+
+#: bb-includes/class.bb-locale.php:73
+msgid "Jun_June_abbreviation"
+msgstr "Tháng 6"
+
+#: bb-includes/class.bb-locale.php:74
+msgid "Jul_July_abbreviation"
+msgstr "Tháng 7"
+
+#: bb-includes/class.bb-locale.php:75
+msgid "Aug_August_abbreviation"
+msgstr "Tháng 8"
+
+#: bb-includes/class.bb-locale.php:76
+msgid "Sep_September_abbreviation"
+msgstr "Tháng 9"
+
+#: bb-includes/class.bb-locale.php:77
+msgid "Oct_October_abbreviation"
+msgstr "Tháng 10"
+
+#: bb-includes/class.bb-locale.php:78
+msgid "Nov_November_abbreviation"
+msgstr "Tháng 11"
+
+#: bb-includes/class.bb-locale.php:79
+msgid "Dec_December_abbreviation"
+msgstr "Tháng 12"
+
+#: bb-includes/class.bb-locale.php:86
+msgid "am"
+msgstr "sáng"
+
+#: bb-includes/class.bb-locale.php:87
+msgid "pm"
+msgstr "chiều"
+
+#: bb-includes/class.bb-locale.php:88
+msgid "AM"
+msgstr "Sáng"
+
+#: bb-includes/class.bb-locale.php:89
+msgid "PM"
+msgstr "Chiều"
+
+#: bb-includes/class.bb-locale.php:94
+#, fuzzy
+msgid "number_format_decimals"
+msgstr "number_format_decimals"
+
+#: bb-includes/class.bb-locale.php:97
+msgid "number_format_decimal_point"
+msgstr ","
+
+#: bb-includes/class.bb-locale.php:100
+msgid "number_format_thousands_sep"
+msgstr " "
+
+#: bb-includes/class.bb-locale.php:105
+msgid "F j, Y - h:i A"
+msgstr "d.m.Y - H:i"
+
+#: bb-includes/class.bb-locale.php:106
+msgid "F j, Y"
+msgstr "d.m.Y"
+
+#: bb-includes/class.bb-locale.php:107
+msgid "h:i A"
+msgstr "H:i"
+
+#: bb-includes/class.bb-query.php:873
+msgid "Search &#187;"
+msgstr "Tìm kiếm &#187;"
+
+#: bb-includes/class.bb-query.php:905
+msgid "Search&#8230;"
+msgstr "Tìm kiếm&#8230;"
+
+#: bb-includes/class.bb-query.php:911
+msgid "Forum&#8230;"
+msgstr "Diễn đàn&#8230;"
+
+#: bb-includes/class.bb-query.php:912
+msgid "Any"
+msgstr "Bất kì"
+
+#: bb-includes/class.bb-query.php:918
+msgid "Tag&#8230;"
+msgstr "Thẻ&#8230;"
+
+#: bb-includes/class.bb-query.php:925
+msgid "Topic Author&#8230;"
+msgstr ""
+
+#: bb-includes/class.bb-query.php:932
+msgid "Post Author&#8230;"
+msgstr "Tác giả bài viết&#8230;"
+
+#: bb-includes/class.bb-query.php:937
+#: bb-includes/class.bb-query.php:964
+msgid "All"
+msgstr "Tất cả"
+
+#: bb-includes/class.bb-query.php:940
+msgid "Topic Status&#8230;"
+msgstr "Tình trạng bài viết&#8230;"
+
+#: bb-includes/class.bb-query.php:951
+msgid "Post Status&#8230;"
+msgstr "Tình trạng bài viết&#8230;"
+
+#: bb-includes/class.bb-query.php:962
+msgid "Open?&#8230;"
+msgstr "Mở?&#8230;"
+
+#: bb-includes/class.bb-query.php:975
+msgid "Title&#8230;"
+msgstr "Tiêu đề&#8230;"
+
+#: bb-includes/class.bb-taxonomy.php:259
+msgid "Invalid User ID"
+msgstr "Danh tính không hợp lệ."
+
+#: bb-includes/functions.bb-capabilities.php:57
+#, fuzzy
+msgid "Key Master"
+msgstr "Khóa chính"
+
+#: bb-includes/functions.bb-capabilities.php:100
+msgid "Administrator"
+msgstr "Quản lý"
+
+#: bb-includes/functions.bb-capabilities.php:135
+msgid "Moderator"
+msgstr "Điều hành viên"
+
+#: bb-includes/functions.bb-capabilities.php:166
+msgid "Member"
+msgstr "Thành viên"
+
+#: bb-includes/functions.bb-capabilities.php:180
+msgid "Inactive"
+msgstr "Không hoạt động"
+
+#: bb-includes/functions.bb-core.php:26
+#, php-format
+msgid "Using deprecated bbPress %1$s - %2$s - replace with - %3$s"
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:233
+msgid "&laquo; Previous"
+msgstr "&laquo; Trang trước"
+
+#: bb-includes/functions.bb-core.php:234
+msgid "Next &raquo;"
+msgstr "Trang sau &raquo;"
+
+#: bb-includes/functions.bb-core.php:240
+#, php-format
+msgid "Page %d"
+msgstr "Trang %d"
+
+#: bb-includes/functions.bb-core.php:241
+msgid "Previous page"
+msgstr "Trang trước"
+
+#: bb-includes/functions.bb-core.php:242
+msgid "Next page"
+msgstr "Trang sau"
+
+#: bb-includes/functions.bb-core.php:383
+msgid "year"
+msgstr "năm"
+
+#: bb-includes/functions.bb-core.php:383
+msgid "years"
+msgstr "năm"
+
+#: bb-includes/functions.bb-core.php:384
+msgid "month"
+msgstr "tháng"
+
+#: bb-includes/functions.bb-core.php:384
+msgid "months"
+msgstr "tháng"
+
+#: bb-includes/functions.bb-core.php:385
+msgid "week"
+msgstr "tuần"
+
+#: bb-includes/functions.bb-core.php:385
+msgid "weeks"
+msgstr "tuần"
+
+#: bb-includes/functions.bb-core.php:386
+msgid "day"
+msgstr "ngày"
+
+#: bb-includes/functions.bb-core.php:386
+msgid "days"
+msgstr "ngày"
+
+#: bb-includes/functions.bb-core.php:387
+msgid "hour"
+msgstr "giờ"
+
+#: bb-includes/functions.bb-core.php:388
+msgid "minute"
+msgstr "phút"
+
+#: bb-includes/functions.bb-core.php:389
+msgid "second"
+msgstr "giây"
+
+#: bb-includes/functions.bb-core.php:389
+msgid "seconds"
+msgstr "giây"
+
+#: bb-includes/functions.bb-core.php:403
+#, php-format
+msgid "%1$d %2$s"
+msgstr "%1$d %2$s"
+
+#: bb-includes/functions.bb-core.php:410
+#, php-format
+msgid ", %1$d %2$s"
+msgstr ", %1$d %2$s"
+
+#: bb-includes/functions.bb-core.php:802
+msgid "User not found."
+msgstr "Không tìm thấy thành viên."
+
+#: bb-includes/functions.bb-core.php:875
+msgid "REQUEST_URI"
+msgstr "REQUEST_URI"
+
+#: bb-includes/functions.bb-core.php:876
+msgid "should be"
+msgstr "đáng lẽ là"
+
+#: bb-includes/functions.bb-core.php:877
+msgid "full permalink"
+msgstr "đường dẫn tĩnh"
+
+#: bb-includes/functions.bb-core.php:878
+msgid "PATH_INFO"
+msgstr "PATH_INFO"
+
+#: bb-includes/functions.bb-core.php:903
+#: bb-templates/kakumei/favorites.php:3
+msgid "Favorites"
+msgstr "Yêu thích"
+
+#: bb-includes/functions.bb-core.php:953
+msgid "First name"
+msgstr "Tên"
+
+#: bb-includes/functions.bb-core.php:954
+msgid "Last name"
+msgstr "Họ"
+
+#: bb-includes/functions.bb-core.php:955
+msgid "Display name as"
+msgstr "Tên hiển thị"
+
+#: bb-includes/functions.bb-core.php:957
+msgid "Website"
+msgstr "Trang web"
+
+#: bb-includes/functions.bb-core.php:958
+msgid "Location"
+msgstr "Nơi ở"
+
+#: bb-includes/functions.bb-core.php:959
+msgid "Occupation"
+msgstr "Nghề nghiệp"
+
+#: bb-includes/functions.bb-core.php:960
+msgid "Interests"
+msgstr "Sở thích"
+
+#: bb-includes/functions.bb-core.php:967
+msgid "Custom Title"
+msgstr "Tiêu đề tùy biến"
+
+#: bb-includes/functions.bb-core.php:974
+#, php-format
+msgid "Ignore the %d second post throttling limit"
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1051
+msgid "Topics with no replies"
+msgstr "Chủ đề không có trả lời"
+
+#: bb-includes/functions.bb-core.php:1052
+msgid "Topics with no tags"
+msgstr "Chủ đề không có thẻ"
+
+#: bb-includes/functions.bb-core.php:1113
+msgid "bbPress Failure Notice"
+msgstr "Thông báo lỗi bbWordPress"
+
+#: bb-includes/functions.bb-core.php:1116
+msgid "Please try again."
+msgstr "Xin vui lòng thử lại."
+
+#: bb-includes/functions.bb-core.php:1125
+msgid "bbPress"
+msgstr "bbPress"
+
+#: bb-includes/functions.bb-core.php:1226
+#, php-format
+msgid "Back to <a href=\"%s\">%s</a>."
+msgstr "Quay lại <a href=\"%s\">%s</a>."
+
+#: bb-includes/functions.bb-core.php:1239
+#, fuzzy
+msgid "Your attempt to submit this post has failed."
+msgstr "Thêm plugin này không thành công."
+
+#: bb-includes/functions.bb-core.php:1240
+#, fuzzy
+msgid "Your attempt to edit this post has failed."
+msgstr "Chỉnh sửa bài viết này: &quot;%s&quot; không thành công."
+
+#: bb-includes/functions.bb-core.php:1241
+#, fuzzy
+msgid "Your attempt to delete this post has failed."
+msgstr "Xóa bài viết này: &quot;%s&quot; không thành công."
+
+#: bb-includes/functions.bb-core.php:1243
+msgid "Your attempt to create this topic has failed."
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1244
+msgid "Your attempt to change the resolution status of this topic has failed."
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1245
+#, fuzzy
+msgid "Your attempt to delete this topic has failed."
+msgstr "Xóa chuyên mục này: &quot;%s&quot; không thành công."
+
+#: bb-includes/functions.bb-core.php:1246
+msgid "Your attempt to change the status of this topic has failed."
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1247
+msgid "Your attempt to change the sticky status of this topic has failed."
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1248
+msgid "Your attempt to move this topic has failed."
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1250
+msgid "Your attempt to add this tag to this topic has failed."
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1251
+msgid "Your attempt to rename this tag has failed."
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1252
+msgid "Your attempt to submit these tags has failed."
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1253
+msgid "Your attempt to destroy this tag has failed."
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1254
+msgid "Your attempt to remove this tag from this topic has failed."
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1256
+msgid "Your attempt to toggle your favorite status for this topic has failed."
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1258
+#, fuzzy
+msgid "Your attempt to edit this user's profile has failed."
+msgstr "Chỉnh sửa thành viên này: &quot;%s&quot; không thành công."
+
+#: bb-includes/functions.bb-core.php:1260
+#, fuzzy
+msgid "Your attempt to add this forum has failed."
+msgstr "Thêm chuyên mục này không thành công."
+
+#: bb-includes/functions.bb-core.php:1261
+msgid "Your attempt to update your forums has failed."
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1262
+msgid "Your attempt to delete that forum has failed."
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1264
+msgid "Your attempt to recount these items has failed."
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1266
+msgid "Your attempt to switch themes has failed."
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1281
+#, fuzzy
+msgid "Your attempt to do this has failed."
+msgstr "Thêm chuyên mục này không thành công."
+
+#: bb-includes/functions.bb-core.php:1473
+#: bb-includes/functions.bb-core.php:1552
+msgid "Your search term was too short"
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1519
+msgid "Your query parameters are invalid"
+msgstr ""
+
+#: bb-includes/functions.bb-formatting.php:297
+#: bb-includes/functions.bb-formatting.php:301
+#, php-format
+msgid "[sticky] %s"
+msgstr "[Chú Ý] %s"
+
+#: bb-includes/functions.bb-formatting.php:310
+#, php-format
+msgid "[closed] %s"
+msgstr "[Khóa] %s"
+
+#: bb-includes/functions.bb-meta.php:294
+#, fuzzy
+msgid "Please give me a name!"
+msgstr "Hãy cho tôi một cái tên đi mà!"
+
+#: bb-includes/functions.bb-pluggable.php:539
+#: bb-includes/functions.bb-pluggable.php:548
+msgid "Invalid username"
+msgstr "Tên đăng nhập không hợp lệ"
+
+#: bb-includes/functions.bb-script-loader.php:15
+msgid "drag"
+msgstr ""
+
+#: bb-includes/functions.bb-script-loader.php:16
+msgid "Save Forum Order &#187;"
+msgstr "Lưu sắp xếp diễn đàn &#187;"
+
+#: bb-includes/functions.bb-script-loader.php:17
+msgid "Edit Forum Order &#187;"
+msgstr "Thứ tự diễn đàn &#187;"
+
+#: bb-includes/functions.bb-script-loader.php:27
+msgid "You do not have permission to do that."
+msgstr "Bạn không có quyền làm việc đó."
+
+#: bb-includes/functions.bb-script-loader.php:28
+msgid "An unidentified error has occurred."
+msgstr "Gặp lỗi không xác định được."
+
+#: bb-includes/functions.bb-script-loader.php:37
+msgid "Too short"
+msgstr "Quá ngắn"
+
+#: bb-includes/functions.bb-script-loader.php:38
+msgid "Bad"
+msgstr ""
+
+#: bb-includes/functions.bb-script-loader.php:39
+msgid "Good"
+msgstr ""
+
+#: bb-includes/functions.bb-script-loader.php:40
+msgid "Strong"
+msgstr "Đậm"
+
+#: bb-includes/functions.bb-script-loader.php:78
+msgid "Are you sure you wanna delete this post?"
+msgstr ""
+
+#: bb-includes/functions.bb-script-loader.php:79
+msgid "Are you sure you wanna undelete this post?"
+msgstr ""
+
+#: bb-includes/functions.bb-script-loader.php:80
+msgid "favorites"
+msgstr "yêu thích"
+
+#: bb-includes/functions.bb-script-loader.php:81
+msgid "?"
+msgstr "?"
+
+#: bb-includes/functions.bb-script-loader.php:82
+msgid "This topic is one of your %favLinkYes% [%favDel%]"
+msgstr ""
+
+#: bb-includes/functions.bb-script-loader.php:83
+msgid "%favAdd% (%favLinkNo%)"
+msgstr ""
+
+#: bb-includes/functions.bb-script-loader.php:84
+#: bb-includes/functions.bb-template.php:3062
+msgid "&times;"
+msgstr "&times;"
+
+#: bb-includes/functions.bb-script-loader.php:85
+#: bb-includes/functions.bb-template.php:3060
+msgid "Add this topic to your favorites"
+msgstr "Thêm chủ đề này vào mục yêu thích của bạn"
+
+#: bb-includes/functions.bb-template.php:222
+#: bb-templates/kakumei/profile.php:3
+msgid "Profile"
+msgstr "Lý lịch"
+
+#: bb-includes/functions.bb-template.php:263
+msgid "Reply"
+msgstr "Trả lời"
+
+#: bb-includes/functions.bb-template.php:265
+msgid "New Topic in this Forum"
+msgstr ""
+
+#: bb-includes/functions.bb-template.php:267
+msgid "Add New Topic"
+msgstr "Chủ đề mới"
+
+#: bb-includes/functions.bb-template.php:294
+#, php-format
+msgid "You must <a href=\"%s\">log in</a> to post."
+msgstr "Bạn phải <a href=\"%s\">đăng nhập</a> để gửi phản hồi."
+
+#: bb-includes/functions.bb-template.php:491
+#: bb-templates/kakumei/tag-single.php:3
+#: bb-templates/kakumei/tags.php:3
+msgid "Tags"
+msgstr "Thẻ"
+
+#: bb-includes/functions.bb-template.php:525
+#, php-format
+msgid "User Favorites: %s"
+msgstr "Yêu thích: %s"
+
+#: bb-includes/functions.bb-template.php:532
+#, php-format
+msgid "Topic: %s"
+msgstr "Chủ đề: %s"
+
+#: bb-includes/functions.bb-template.php:540
+#, php-format
+msgid "Tag: %s - Recent Posts"
+msgstr "Diễn đàn: %s - Bài viết gần đây"
+
+#: bb-includes/functions.bb-template.php:544
+#, php-format
+msgid "Tag: %s - Recent Topics"
+msgstr "Diễn đàn: %s - Chủ đề gần đây"
+
+#: bb-includes/functions.bb-template.php:552
+#, php-format
+msgid "Forum: %s - Recent Posts"
+msgstr "Diễn đàn: %s - Bài viết gần đây"
+
+#: bb-includes/functions.bb-template.php:556
+#, php-format
+msgid "Forum: %s - Recent Topics"
+msgstr "Diễn đàn: %s - Chủ đề gần đây"
+
+#: bb-includes/functions.bb-template.php:563
+#: bb-templates/kakumei/search.php:11
+msgid "Recent Posts"
+msgstr "Bài viết mới"
+
+#: bb-includes/functions.bb-template.php:567
+msgid "Recent Topics"
+msgstr "Các chủ đề gần đây"
+
+#: bb-includes/functions.bb-template.php:1335
+msgid "Are you sure you wanna delete that?"
+msgstr "Bạn chắc chắn muốn xóa không?"
+
+#: bb-includes/functions.bb-template.php:1336
+msgid "Delete entire topic"
+msgstr "Xóa hết chủ đề"
+
+#: bb-includes/functions.bb-template.php:1339
+msgid "Are you sure you wanna undelete that?"
+msgstr "Bạn chắc chắn muốn khôi phục không?"
+
+#: bb-includes/functions.bb-template.php:1340
+msgid "Undelete entire topic"
+msgstr "Khôi phục chủ đề"
+
+#: bb-includes/functions.bb-template.php:1363
+msgid "Close topic"
+msgstr "Khóa chủ đề"
+
+#: bb-includes/functions.bb-template.php:1365
+msgid "Open topic"
+msgstr "Mở chủ đề"
+
+#: bb-includes/functions.bb-template.php:1397
+msgid "Unstick topic"
+msgstr "Bỏ dấu chú ý cho chủ đề"
+
+#: bb-includes/functions.bb-template.php:1399
+msgid "Stick topic"
+msgstr "Đánh dấu chú ý cho chủ đề"
+
+#: bb-includes/functions.bb-template.php:1399
+msgid "to front"
+msgstr "tới trang chủ"
+
+#: bb-includes/functions.bb-template.php:1406
+msgid "View normal posts"
+msgstr "Xem các bài viết bình thường"
+
+#: bb-includes/functions.bb-template.php:1408
+msgid "View all posts"
+msgstr "Xem tất cả bài viết"
+
+#: bb-includes/functions.bb-template.php:1418
+#, fuzzy, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s bài viết"
+msgstr[1] ""
+
+#: bb-includes/functions.bb-template.php:1431
+#, php-format
+msgid "+%d more"
+msgstr "+%d thêm"
+
+#: bb-includes/functions.bb-template.php:1458
+msgid "Move this topic to the selected forum:"
+msgstr ""
+
+#: bb-includes/functions.bb-template.php:1462
+msgid "Move"
+msgstr "Di chuyển"
+
+#: bb-includes/functions.bb-template.php:1491
+msgid "Add New &raquo;"
+msgstr "Thêm mới &raquo;"
+
+#: bb-includes/functions.bb-template.php:1657
+msgid "Anonymous"
+msgstr "Khách"
+
+#: bb-includes/functions.bb-template.php:1859
+#: bb-includes/functions.bb-template.php:1873
+msgid "PingBack"
+msgstr "Pingback"
+
+#: bb-includes/functions.bb-template.php:1861
+#: bb-includes/functions.bb-template.php:1875
+msgid "Unregistered"
+msgstr "Khách"
+
+#: bb-includes/functions.bb-template.php:1963
+msgid "Delete User &raquo;"
+msgstr "Xóa thành viên &raquo;"
+
+#: bb-includes/functions.bb-template.php:1964
+msgid "Are you sure you want to delete this user?"
+msgstr "Bạn chắc chắn muốn xóa thành viên này không?"
+
+#: bb-includes/functions.bb-template.php:2091
+msgid "Member Since"
+msgstr "Là thành viên từ"
+
+#: bb-includes/functions.bb-template.php:2240
+#: bb-includes/functions.bb-template.php:2386
+#: bb-templates/kakumei/register.php:62
+msgid "These items are <span class=\"required\">required</span>."
+msgstr ""
+
+#: bb-includes/functions.bb-template.php:2276
+msgid "User Type"
+msgstr "Kiểu thành viên"
+
+#: bb-includes/functions.bb-template.php:2300
+msgid "Allow this user to"
+msgstr "Cho phép thành viên này"
+
+#: bb-includes/functions.bb-template.php:2389
+msgid "Inactive users can login and look around but not do anything. Blocked users just see a simple error message when they visit the site."
+msgstr ""
+
+#: bb-includes/functions.bb-template.php:2390
+msgid "<strong>Note</strong>: Blocking a user does <em>not</em> block any IP addresses."
+msgstr ""
+
+#: bb-includes/functions.bb-template.php:2412
+msgid "New password"
+msgstr "Mật khẩu mới"
+
+#: bb-includes/functions.bb-template.php:2422
+msgid "Password Strength"
+msgstr "Độ bảo mật"
+
+#: bb-includes/functions.bb-template.php:2426
+msgid "Disabled (requires JavaScript)"
+msgstr ""
+
+#: bb-includes/functions.bb-template.php:2432
+msgid "Disabled (requires jQuery)"
+msgstr ""
+
+#: bb-includes/functions.bb-template.php:2439
+msgid "Hint: Use upper and lower case characters, numbers and symbols like !\"?$%^&amp;( in your password."
+msgstr ""
+
+#: bb-includes/functions.bb-template.php:2453
+msgid "Log Out"
+msgstr "Thoát"
+
+#: bb-includes/functions.bb-template.php:2479
+msgid "Admin"
+msgstr "Quản lý"
+
+#: bb-includes/functions.bb-template.php:2498
+msgid "View your profile"
+msgstr "Xem hồ sơ của bạn"
+
+#: bb-includes/functions.bb-template.php:2793
+msgid "Add &raquo;"
+msgstr "Thêm mới &raquo;"
+
+#: bb-includes/functions.bb-template.php:2829
+msgid "Rename tag:"
+msgstr "Đổi thẻ:"
+
+#: bb-includes/functions.bb-template.php:2833
+msgid "Rename"
+msgstr "Đổi tên"
+
+#: bb-includes/functions.bb-template.php:2837
+msgid "Merge this tag into:"
+msgstr "Gộp thẻ này vào:"
+
+#: bb-includes/functions.bb-template.php:2841
+msgid "Merge"
+msgstr "Gộp"
+
+#: bb-includes/functions.bb-template.php:2842
+#, php-format
+msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified? This is permanent and cannot be undone."
+msgstr ""
+
+#: bb-includes/functions.bb-template.php:2846
+msgid "Destroy tag:"
+msgstr "Xóa thẻ: "
+
+#: bb-includes/functions.bb-template.php:2849
+msgid "Destroy"
+msgstr "Hủy"
+
+#: bb-includes/functions.bb-template.php:2850
+#, php-format
+msgid "Are you sure you want to destroy the \"%s\" tag? This is permanent and cannot be undone."
+msgstr ""
+
+#: bb-includes/functions.bb-template.php:2876
+msgid "Remove this tag"
+msgstr "Xóa thẻ"
+
+#: bb-includes/functions.bb-template.php:2932
+#, php-format
+msgid "%d topics"
+msgstr "%d chủ đề"
+
+#: bb-includes/functions.bb-template.php:2999
+msgid "- None -"
+msgstr "- Không -"
+
+#: bb-includes/functions.bb-template.php:3060
+msgid " (%?%)"
+msgstr " (%?%)"
+
+#: bb-includes/functions.bb-template.php:3062
+msgid "This topic is one of your %favorites% ["
+msgstr ""
+
+#: bb-includes/functions.bb-template.php:3062
+msgid "]"
+msgstr "]"
+
+#: bb-includes/functions.bb-users.php:9
+msgid "You've been blocked.  If you think a mistake has been made, contact this site's administrator."
+msgstr ""
+
+#: bb-includes/functions.bb-users.php:261
+msgid "The specified user does not exist."
+msgstr "Thành viên này không tồn tại."
+
+#: bb-includes/functions.bb-users.php:267
+#, php-format
+msgid ""
+"If you wanted to reset your password, you may do so by visiting the following address:\n"
+"\n"
+"%s\n"
+"\n"
+"If you don't want to reset your password, just ignore this email. Thanks!"
+msgstr ""
+
+#: bb-includes/functions.bb-users.php:277
+#: bb-templates/kakumei/password-reset.php:5
+msgid "Password Reset"
+msgstr "Tạo mật khẩu mới"
+
+#: bb-includes/functions.bb-users.php:282
+msgid "The email containing the password reset link could not be sent."
+msgstr ""
+
+#: bb-includes/functions.bb-users.php:304
+#: bb-includes/functions.bb-users.php:306
+#: bb-includes/functions.bb-users.php:321
+msgid "Key not found."
+msgstr "Không tìm thấy khóa."
+
+#: bb-includes/functions.bb-users.php:311
+msgid "You are not allowed to change your password."
+msgstr "Xin lỗi, bạn không có quyền thay đổi mật khẩu của mình."
+
+#: bb-includes/functions.bb-users.php:315
+msgid "The email containing the new password could not be sent."
+msgstr ""
+
+#: bb-includes/functions.bb-users.php:364
+#, php-format
+msgid ""
+"Your username is: %1$s \n"
+"Your password is: %2$s \n"
+"You can now log in: %3$s \n"
+"\n"
+"Enjoy!"
+msgstr ""
+
+#: bb-includes/functions.bb-users.php:368
+#: bb-templates/kakumei/profile-edit.php:20
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: bb-login.php:77
+msgid "User does not exist."
+msgstr "Thành viên này không tồn tại."
+
+#: bb-login.php:79
+msgid "Enter a username or email address."
+msgstr "Nhập tên đăng nhập hoặc địa chỉ thư điện tử."
+
+#: bb-login.php:79
+msgid "Enter a username."
+msgstr "Hãy điền tên tài khoản"
+
+#: bb-login.php:85
+msgid "Incorrect password."
+msgstr "Mật khẩu không đúng"
+
+#: bb-login.php:91
+msgid "Username and Password do not match."
+msgstr ""
+
+#: bb-plugins/akismet.php:16
+#: bb-plugins/akismet.php:21
+msgid "Akismet Configuration"
+msgstr "Cấu hình Akismet"
+
+#: bb-plugins/akismet.php:26
+msgid "Akismet Key:"
+msgstr "Khóa Akismet:"
+
+#: bb-plugins/akismet.php:30
+msgid "You do not need a key to run bbPress, but if you want to take advantage of Akismet's powerful spam blocking, you'll need one."
+msgstr ""
+
+#: bb-plugins/akismet.php:31
+msgid "You can get an Akismet key at <a href=\"http://wordpress.com/api-keys/\">WordPress.com</a>"
+msgstr "Bạn có thể tìm thấy khóa Akismet của bạn tại <a href=\"http://wordpress.com/api-keys/\">WordPress.com</a>"
+
+#: bb-plugins/akismet.php:38
+msgid "Update Configuration &raquo;"
+msgstr "Lưu thay đổi &raquo;"
+
+#: bb-plugins/akismet.php:67
+msgid "Configuration saved."
+msgstr "Đã lưu các tùy chọn."
+
+#: bb-plugins/akismet.php:260
+msgid "Akismet Spam"
+msgstr "Spam Akismet"
+
+#: bb-plugins/akismet.php:273
+#, php-format
+msgid "The API key you have specified is invalid.  Please double check the <strong>Akismet Key</strong> set in <a href=\"%s\">Akismet configuration</a>.  If you don't have an API key yet, you can get one at <a href=\"%s\">WordPress.com</a>."
+msgstr ""
+
+#: bb-plugins/akismet.php:301
+msgid "Not Spam"
+msgstr "Không phải Spam"
+
+#: bb-plugins/akismet.php:307
+msgid "Spam"
+msgstr "Spam"
+
+#: bb-plugins/bozo.php:96
+msgid "Counting bozo posts..."
+msgstr "Đang đếm bài viết bozo..."
+
+#: bb-plugins/bozo.php:116
+msgid "Done counting bozo posts."
+msgstr "Hoàn thành việc đếm bài viết bozo."
+
+#: bb-plugins/bozo.php:127
+msgid "Counting bozo topics for each user...\n"
+msgstr ""
+
+#: bb-plugins/bozo.php:156
+msgid ""
+"Done counting bozo topics.\n"
+"\n"
+msgstr ""
+"Hoàn thành việc đếm bài viết bozo.\n"
+"\n"
+
+#: bb-plugins/bozo.php:167
+msgid "Count topics to which each user has replied and count each users&#039; bozo posts"
+msgstr ""
+
+#: bb-plugins/bozo.php:168
+msgid "Count bozo posts on every topic"
+msgstr ""
+
+#: bb-plugins/bozo.php:268
+msgid "This user is a bozo"
+msgstr ""
+
+#: bb-plugins/bozo.php:278
+msgid "Bozos"
+msgstr "Bozos"
+
+#: bb-plugins/bozo.php:288
+msgid "These users have been marked as bozos"
+msgstr ""
+
+#: bb-post.php:8
+msgid "Slow down; you move too fast."
+msgstr "Bạn làm nhanh quá; từ từ thôi nào."
+
+#: bb-post.php:11
+msgid "You need to actually submit some content!"
+msgstr ""
+
+#: bb-post.php:15
+#: bb-post.php:36
+msgid "You are not allowed to post.  Are you logged in?"
+msgstr ""
+
+#: bb-post.php:18
+msgid "You are not allowed to write new topics."
+msgstr ""
+
+#: bb-post.php:26
+msgid "Please enter a topic title"
+msgstr "Hãy nhập tiêu đề cho chủ đề"
+
+#: bb-post.php:39
+msgid "This topic has been closed"
+msgstr ""
+
+#: bb-reset-password.php:10
+#, fuzzy
+msgid "No username specified"
+msgstr "Không plugin nào được chọn"
+
+#: bb-settings.php:432
+#, fuzzy
+msgid "Could not determine site URI"
+msgstr "Không thể xác định đường dẫn (URI)"
+
+#: bb-templates/kakumei/404.php:3
+#: bb-templates/kakumei/404.php:5
+msgid "Page not found!"
+msgstr "Không tìm thấy trang này!"
+
+#: bb-templates/kakumei/404.php:7
+msgid "I'm sorry, but there is nothing at this URL."
+msgstr ""
+
+#: bb-templates/kakumei/edit-form.php:15
+msgid "Edit Post &raquo;"
+msgstr "Chỉnh sửa bài viết &raquo;"
+
+#: bb-templates/kakumei/edit-form.php:19
+#: bb-templates/kakumei/post-form.php:29
+msgid "Allowed markup:"
+msgstr "Các thẻ được phép sử dụng:"
+
+#: bb-templates/kakumei/edit-form.php:19
+msgid "Put code in between <code>`backticks`</code>."
+msgstr ""
+
+#: bb-templates/kakumei/edit-post.php:2
+msgid "Edit Post"
+msgstr "Chỉnh sửa bài viết"
+
+#: bb-templates/kakumei/favorites.php:5
+#, fuzzy
+msgid "Current Favorites"
+msgstr "Yêu thích: %s"
+
+#: bb-templates/kakumei/favorites.php:7
+msgid ""
+"Your Favorites allow you to create a custom <abbr title=\"Really Simple Syndication\">RSS</abbr> feed which pulls recent replies to the topics you specify.\n"
+"To add topics to your list of favorites, just click the \"Add to Favorites\" link found on that topic&#8217;s page."
+msgstr ""
+
+#: bb-templates/kakumei/favorites.php:10
+#, php-format
+msgid "Subscribe to your favorites&#8217; <a href=\"%s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr ""
+
+#: bb-templates/kakumei/favorites.php:20
+msgid "Remove"
+msgstr "Xóa"
+
+#: bb-templates/kakumei/favorites.php:37
+msgid "You currently have no favorites."
+msgstr "Bạn hiện không có yêu thích nào."
+
+#: bb-templates/kakumei/favorites.php:41
+msgid "currently has no favorites."
+msgstr "hiện không có yêu thích nào."
+
+#: bb-templates/kakumei/footer.php:11
+#, php-format
+msgid "%1$s is proudly powered by <a href=\"%2$s\">bbPress</a>."
+msgstr "%1$s được xây dựng trên <a href=\"%2$s\">bbPress</a> - Việt hóa bởi <a href=\"http://link2caro.net/\">link2caro</a>"
+
+#: bb-templates/kakumei/forum.php:11
+#: bb-templates/kakumei/front-page.php:19
+#: bb-templates/kakumei/tag-single.php:13
+#: bb-templates/kakumei/view.php:11
+msgid "Last Poster"
+msgstr "Người gửi cuối"
+
+#: bb-templates/kakumei/forum.php:33
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this forum"
+msgstr ""
+
+#: bb-templates/kakumei/forum.php:38
+msgid "Subforums"
+msgstr "Diễn đàn con"
+
+#: bb-templates/kakumei/forum.php:42
+#: bb-templates/kakumei/front-page.php:49
+msgid "Main Theme"
+msgstr "Diễn đàn"
+
+#: bb-templates/kakumei/front-page.php:6
+msgid "Hot Tags"
+msgstr "Thẻ được chú ý"
+
+#: bb-templates/kakumei/front-page.php:13
+msgid "Latest Discussions"
+msgstr "Thảo luận gần đây"
+
+#: bb-templates/kakumei/front-page.php:70
+msgid "Views"
+msgstr "Xem"
+
+#: bb-templates/kakumei/logged-in.php:2
+#, php-format
+msgid "Welcome, %1$s!"
+msgstr "Chào %1$s!"
+
+#: bb-templates/kakumei/login-form.php:4
+#, php-format
+msgid "<a href=\"%1$s\">Register</a> or log in (<a href=\"%2$s\">lost password?</a>):"
+msgstr "<a href=\"%1$s\">Đăng ký</a> hoặc đăng nhập (<a href=\"%2$s\">quên mật khẩu?</a>):"
+
+#: bb-templates/kakumei/login-form.php:17
+#: bb-templates/kakumei/login.php:40
+msgid "Log in &raquo;"
+msgstr "Đăng nhập &raquo;"
+
+#: bb-templates/kakumei/login-form.php:22
+msgid "Remember me"
+msgstr "Tự động đăng nhập lần sau"
+
+#: bb-templates/kakumei/login.php:3
+#: bb-templates/kakumei/login.php:5
+#: bb-templates/kakumei/password-reset.php:3
+msgid "Log in"
+msgstr "Đăng nhập"
+
+#: bb-templates/kakumei/login.php:5
+msgid "Log in Failed"
+msgstr "Đăng nhập không thành công"
+
+#: bb-templates/kakumei/login.php:33
+msgid "Remember me:"
+msgstr "Tự động đăng nhập lần sau:"
+
+#: bb-templates/kakumei/login.php:40
+msgid "Try Again &raquo;"
+msgstr "Thử lại &raquo;"
+
+#: bb-templates/kakumei/login.php:48
+msgid "Password Recovery"
+msgstr "Làm mới mật khẩu"
+
+#: bb-templates/kakumei/login.php:51
+msgid "To recover your password, enter your information below."
+msgstr ""
+
+#: bb-templates/kakumei/login.php:64
+msgid "Recover Password &raquo;"
+msgstr "Làm mới mật khẩu &raquo;"
+
+#: bb-templates/kakumei/password-reset.php:12
+msgid "An email has been sent to the address we have on file for you. If you don&#8217;t get anything within a few minutes, or your email has changed, you may want to get in touch with the webmaster or forum administrator here."
+msgstr ""
+
+#: bb-templates/kakumei/password-reset.php:15
+msgid "Your password has been reset and a new one has been mailed to you."
+msgstr "Mật khẩu của bạn đã được tạo mới và gửi qua thư điện tử cho bạn."
+
+#: bb-templates/kakumei/post-form.php:3
+msgid "Title:"
+msgstr "Tiêu đề:"
+
+#: bb-templates/kakumei/post-form.php:14
+msgid "Tags (comma seperated):"
+msgstr "Thẻ (phân cách bởi dấu ','):"
+
+#: bb-templates/kakumei/post-form.php:20
+msgid "Pick a section:"
+msgstr "Chọn một mục:"
+
+#: bb-templates/kakumei/post-form.php:26
+msgid "Send Post &raquo;"
+msgstr "Gửi bài viết &raquo;"
+
+#: bb-templates/kakumei/post-form.php:29
+msgid "You can also put code in between backtick ( <code>`</code> ) characters."
+msgstr ""
+
+#: bb-templates/kakumei/post.php:11
+#, php-format
+msgid "Posted %s ago"
+msgstr "Đăng %s trước"
+
+#: bb-templates/kakumei/profile-edit.php:3
+msgid "Edit Profile"
+msgstr "Chỉnh sửa hồ sơ"
+
+#: bb-templates/kakumei/profile-edit.php:7
+msgid "Profile Info"
+msgstr "Tiểu sử"
+
+#: bb-templates/kakumei/profile-edit.php:13
+msgid "Administration"
+msgstr "Quản lý"
+
+#: bb-templates/kakumei/profile-edit.php:21
+msgid "To change your password, enter a new password twice below:"
+msgstr ""
+
+#: bb-templates/kakumei/profile-edit.php:26
+msgid "Update Profile &raquo;"
+msgstr "Cập nhật hồ sơ &raquo;"
+
+#: bb-templates/kakumei/profile.php:14
+msgid "Profile updated"
+msgstr "Hồ sơ đã được cập nhật"
+
+#: bb-templates/kakumei/profile.php:14
+msgid "Edit again &raquo;"
+msgstr "Chỉnh sửa lại &raquo;"
+
+#: bb-templates/kakumei/profile.php:18
+msgid "This is how your profile appears to a logged in member."
+msgstr ""
+
+#: bb-templates/kakumei/profile.php:21
+#, php-format
+msgid "You may <a href=\"%1$s\">edit this information</a>."
+msgstr "Bạn có thể <a href=\"%1$s\">chỉnh sửa thông tin này</a>."
+
+#: bb-templates/kakumei/profile.php:26
+#, php-format
+msgid "You can also <a href=\"%1$s\">manage your favorites</a> and subscribe to your favorites&#8217; <a href=\"%2$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr ""
+
+#: bb-templates/kakumei/profile.php:34
+msgid "User Activity"
+msgstr "Hoạt động của thành viên"
+
+#: bb-templates/kakumei/profile.php:36
+msgid "Recent Replies"
+msgstr "Trả lời gần đây"
+
+#: bb-templates/kakumei/profile.php:42
+#, php-format
+msgid "You last replied: %s ago."
+msgstr "Trả lời cuối cùng của bạn từ: %s trước."
+
+#: bb-templates/kakumei/profile.php:42
+#, php-format
+msgid "User last replied: %s ago."
+msgstr "Trả lời cuối cùng của thành viên từ: %s trước."
+
+#: bb-templates/kakumei/profile.php:46
+#, php-format
+msgid "Most recent reply: %s ago"
+msgstr "Trả lời gần đây nhất từ: %s trước."
+
+#: bb-templates/kakumei/profile.php:48
+msgid "No replies since."
+msgstr "Không có trả lời mới nào."
+
+#: bb-templates/kakumei/profile.php:54
+msgid "No more replies."
+msgstr "Không có trả lời nào khác."
+
+#: bb-templates/kakumei/profile.php:56
+msgid "No replies yet."
+msgstr "Chưa có phản hồi nào."
+
+#: bb-templates/kakumei/profile.php:61
+msgid "Topics Started"
+msgstr "Các chủ đề gần đây"
+
+#: bb-templates/kakumei/profile.php:67
+#, php-format
+msgid "Started: %s ago"
+msgstr "Bắt đầu từ %s trước"
+
+#: bb-templates/kakumei/profile.php:71
+#, php-format
+msgid "Most recent reply: %s ago."
+msgstr "Trả lời gần đây nhất từ: %s trước."
+
+#: bb-templates/kakumei/profile.php:73
+msgid "No replies."
+msgstr "Chưa có trả lời."
+
+#: bb-templates/kakumei/profile.php:79
+msgid "No more topics posted."
+msgstr "Không có chủ đề mới."
+
+#: bb-templates/kakumei/profile.php:81
+msgid "No topics posted yet."
+msgstr "Không có chủ đề mới."
+
+#: bb-templates/kakumei/register-success.php:3
+#: bb-templates/kakumei/register.php:3
+msgid "Register"
+msgstr "Đăng ký"
+
+#: bb-templates/kakumei/register-success.php:5
+msgid "Great!"
+msgstr "Tuyệt!"
+
+#: bb-templates/kakumei/register-success.php:7
+#, php-format
+msgid "Your registration as <strong>%s</strong> was successful. Within a few minutes you should receive an email with your password."
+msgstr ""
+
+#: bb-templates/kakumei/register.php:5
+msgid "Registration"
+msgstr "Đăng ký"
+
+#: bb-templates/kakumei/register.php:12
+msgid "Profile Information"
+msgstr "Thông tin hồ sơ"
+
+#: bb-templates/kakumei/register.php:14
+msgid "Your password will be emailed to the address you provide."
+msgstr ""
+
+#: bb-templates/kakumei/register.php:69
+msgid "Register &raquo;"
+msgstr "Đăng ký &raquo;"
+
+#: bb-templates/kakumei/register.php:76
+msgid "You&#8217;re already logged in, why do you need to register?"
+msgstr ""
+
+#: bb-templates/kakumei/rss2.php:18
+#: bb-templates/kakumei/search.php:3
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: bb-templates/kakumei/rss2.php:19
+msgid "Search all topics from these forums."
+msgstr ""
+
+#: bb-templates/kakumei/search-form.php:5
+msgid "Search &raquo;"
+msgstr "Tìm kiếm &raquo;"
+
+#: bb-templates/kakumei/search.php:7
+msgid "Search for"
+msgstr "Tìm kiếm cho"
+
+#: bb-templates/kakumei/search.php:16
+#: bb-templates/kakumei/search.php:28
+msgid "Posted"
+msgstr "Đã đăng"
+
+#: bb-templates/kakumei/search.php:23
+msgid "Relevant posts"
+msgstr "Các bài viết liên quan"
+
+#: bb-templates/kakumei/search.php:35
+msgid "No results found."
+msgstr "Không tìm thấy gì cả."
+
+#: bb-templates/kakumei/search.php:38
+#, php-format
+msgid "You may also try your <a href=\"http://google.com/search?q=site:%1$s %2$s\">search at Google</a>"
+msgstr ""
+
+#: bb-templates/kakumei/stats.php:3
+#: statistics.php:9
+msgid "Statistics"
+msgstr "Thống kê"
+
+#: bb-templates/kakumei/stats.php:6
+msgid "Registered Users"
+msgstr "Thành viên"
+
+#: bb-templates/kakumei/stats.php:13
+msgid "Most Popular Topics"
+msgstr ""
+
+#: bb-templates/kakumei/tag-single.php:27
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> link for this tag"
+msgstr ""
+
+#: bb-templates/kakumei/tags.php:5
+msgid "This is a collection of tags that are currently popular on the forums."
+msgstr ""
+
+#: bb-templates/kakumei/topic-tags.php:2
+msgid "Tags:"
+msgstr "Thẻ:"
+
+#: bb-templates/kakumei/topic-tags.php:10
+#, php-format
+msgid "No <a href=\"%s\">tags</a> yet."
+msgstr "Chưa có <a href=\"%s\">thẻ</a> nào."
+
+#: bb-templates/kakumei/topic.php:12
+#, php-format
+msgid "Started %1$s ago by %2$s"
+msgstr "Bắt đầu %1$s trước bởi %2$s"
+
+#: bb-templates/kakumei/topic.php:14
+#, php-format
+msgid "<a href=\"%1$s\">Latest reply</a> from %2$s"
+msgstr ""
+
+#: bb-templates/kakumei/topic.php:40
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this topic"
+msgstr ""
+
+#: bb-templates/kakumei/topic.php:46
+msgid "Topic Closed"
+msgstr "Chủ đề đã bị khóa"
+
+#: bb-templates/kakumei/topic.php:47
+msgid "This topic has been closed to new replies."
+msgstr ""
+
+#: bb-templates/kakumei/view.php:34
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this view"
+msgstr ""
+
+#: favorites.php:7
+msgid "You cannot edit those favorites.  How did you get here?"
+msgstr ""
+
+#: forum.php:10
+msgid "Forum not found."
+msgstr "Không tìm thấy diễn đàn."
+
+#: profile-edit.php:55
+#: profile-edit.php:96
+#, php-format
+msgid "%s is required."
+msgstr "%s (bắt buộc)"
+
+#: profile-edit.php:82
+#, fuzzy
+msgid "Invalid Role"
+msgstr " &mdash; chức vụ"
+
+#: profile-edit.php:84
+msgid "You are not the Gate Keeper."
+msgstr ""
+
+#: profile-edit.php:86
+msgid "You are Keymaster, so you may not demote yourself."
+msgstr ""
+
+#: profile-edit.php:113
+msgid "You must enter the same password twice."
+msgstr ""
+
+#: profile-edit.php:115
+msgid "You are not allowed to change this user's password."
+msgstr ""
+
+#: register.php:26
+#, php-format
+msgid "%s is an invalid username.  How's this one?"
+msgstr ""
+
+#: register.php:38
+#, php-format
+msgid "%s is required"
+msgstr "%s (bắt buộc)"
+
+#: rss.php:84
+#, php-format
+msgid "%1$s View: %2$s"
+msgstr "%1$s Xem: %2$s"
+
+#: rss.php:94
+#, php-format
+msgid "%1$s Topic: %2$s"
+msgstr "%1$s Chủ đề: %2$s"
+
+#: rss.php:111
+#, php-format
+msgid "%1$s User Favorites: %2$s"
+msgstr "%1$s Yêu thích: %2$s"
+
+#: rss.php:127
+#, php-format
+msgid "%1$s Tag: %2$s - Recent Topics"
+msgstr "%1$s Thẻ: %2$s - Chủ đề gần đây"
+
+#: rss.php:137
+#, php-format
+msgid "%1$s Tag: %2$s - Recent Posts"
+msgstr "%1$s Thẻ: %2$s - Bài viết gần đây"
+
+#: rss.php:151
+#, php-format
+msgid "%1$s Forum: %2$s - Recent Topics"
+msgstr "%1$s Diễn đàn: %2$s - Chủ đề gần đây"
+
+#: rss.php:159
+#, php-format
+msgid "%1$s Forum: %2$s - Recent Posts"
+msgstr "%1$s Diễn đàn: %2$s - Bài viết gần đây"
+
+#: rss.php:174
+#, php-format
+msgid "%1$s: Recent Topics"
+msgstr "%1$s: Các chủ đề gần đây"
+
+#: rss.php:184
+#, php-format
+msgid "%1$s: Recent Posts"
+msgstr "%1$s: Bài viết gần đây"
+
+#: tag-add.php:7
+msgid "You need to be logged in to add a tag."
+msgstr ""
+
+#: tag-add.php:18
+#: topic.php:14
+msgid "Topic not found."
+msgstr "Không tìm thấy chủ đề nào."
+
+#: tag-add.php:23
+msgid "The tag was not added.  Either the tag name was invalid or the topic is closed."
+msgstr ""
+
+#: tag-remove.php:17
+msgid "Invalid tag or topic."
+msgstr ""
+
+#: tag-remove.php:24
+msgid "The tag was not removed.  You cannot remove a tag from a closed topic."
+msgstr ""
+
+#: tags.php:9
+msgid "Tag not found"
+msgstr "Không tìm thấy thẻ nào."
+
+#: xmlrpc.php:207
+msgid "Authentication failed."
+msgstr "Quá trình xác nhận không thành công"
+
+#: xmlrpc.php:217
+#: xmlrpc.php:255
+msgid "You do not have permission to read this."
+msgstr "Bạn không có đủ quyền để đọc bài này."
+
+#: xmlrpc.php:245
+msgid "User switching failed, the requested user does not exist."
+msgstr ""
+
+#: xmlrpc.php:588
+#: xmlrpc.php:712
+#: xmlrpc.php:811
+#: xmlrpc.php:998
+#: xmlrpc.php:1124
+#: xmlrpc.php:1233
+#: xmlrpc.php:1344
+#: xmlrpc.php:1541
+#: xmlrpc.php:1898
+#: xmlrpc.php:2747
+msgid "The forum id is invalid."
+msgstr ""
+
+#: xmlrpc.php:593
+#: xmlrpc.php:717
+#: xmlrpc.php:1238
+#: xmlrpc.php:1349
+msgid "The forum does not exist."
+msgstr "Diễn đàn này không tồn tại"
+
+#: xmlrpc.php:738
+#: xmlrpc.php:1250
+msgid "No forums found."
+msgstr "Không tìm thấy diễn đàn nào."
+
+#: xmlrpc.php:817
+#: xmlrpc.php:1004
+#: xmlrpc.php:1130
+#: xmlrpc.php:1547
+#: xmlrpc.php:1904
+#: xmlrpc.php:2753
+msgid "No forum found."
+msgstr "Không tìm thấy diễn đàn nào."
+
+#: xmlrpc.php:876
+#: xmlrpc.php:976
+msgid "You do not have permission to manage forums."
+msgstr ""
+
+#: xmlrpc.php:887
+#: xmlrpc.php:987
+msgid "The forum data is invalid."
+msgstr ""
+
+#: xmlrpc.php:895
+#: xmlrpc.php:1024
+msgid "The forum name is invalid."
+msgstr ""
+
+#: xmlrpc.php:916
+msgid "The forum could not be created."
+msgstr "Không tạo được diễn đàn."
+
+#: xmlrpc.php:1066
+msgid "The forum could not be edited."
+msgstr ""
+
+#: xmlrpc.php:1110
+msgid "You do not have permission to delete forums."
+msgstr ""
+
+#: xmlrpc.php:1141
+msgid "You do not have permission to delete this forum."
+msgstr ""
+
+#: xmlrpc.php:1150
+msgid "The forum could not be deleted."
+msgstr ""
+
+#: xmlrpc.php:1369
+#: xmlrpc.php:2761
+#: xmlrpc.php:3072
+msgid "No topics found."
+msgstr "Không tìm thấy chủ đề nào."
+
+#: xmlrpc.php:1442
+#: xmlrpc.php:1679
+#: xmlrpc.php:1793
+#: xmlrpc.php:1880
+#: xmlrpc.php:1979
+#: xmlrpc.php:2079
+#: xmlrpc.php:2179
+#: xmlrpc.php:2271
+#: xmlrpc.php:2447
+#: xmlrpc.php:2863
+#: xmlrpc.php:2947
+#: xmlrpc.php:3161
+#: xmlrpc.php:3279
+msgid "The topic id is invalid."
+msgstr ""
+
+#: xmlrpc.php:1448
+#: xmlrpc.php:1685
+#: xmlrpc.php:1799
+#: xmlrpc.php:1886
+#: xmlrpc.php:1985
+#: xmlrpc.php:2085
+#: xmlrpc.php:2185
+#: xmlrpc.php:2277
+#: xmlrpc.php:2453
+#: xmlrpc.php:2869
+#: xmlrpc.php:2953
+#: xmlrpc.php:3167
+#: xmlrpc.php:3285
+msgid "No topic found."
+msgstr "Không tìm thấy chủ đề nào."
+
+#: xmlrpc.php:1514
+msgid "You do not have permission to write topics."
+msgstr ""
+
+#: xmlrpc.php:1518
+#: xmlrpc.php:2425
+msgid "You do not have permission to write posts."
+msgstr ""
+
+#: xmlrpc.php:1530
+#: xmlrpc.php:1668
+msgid "The topic data is invalid."
+msgstr ""
+
+#: xmlrpc.php:1556
+msgid "You do not have permission to write topics to this forum."
+msgstr ""
+
+#: xmlrpc.php:1562
+#: xmlrpc.php:1714
+msgid "The topic title is invalid."
+msgstr ""
+
+#: xmlrpc.php:1568
+#: xmlrpc.php:1720
+msgid "The topic text is invalid."
+msgstr ""
+
+#: xmlrpc.php:1584
+msgid "The topic could not be created."
+msgstr "Không tạo được chủ đề."
+
+#: xmlrpc.php:1596
+#: xmlrpc.php:2480
+msgid "The post could not be created."
+msgstr "Không tạo được bài viết."
+
+#: xmlrpc.php:1652
+msgid "You do not have permission to edit topics."
+msgstr "Bạn không có đủ quyền để chỉnh sửa chủ đề này."
+
+#: xmlrpc.php:1656
+#: xmlrpc.php:2535
+msgid "You do not have permission to edit posts."
+msgstr "Bạn không có đủ quyền để chỉnh sửa bài viết này."
+
+#: xmlrpc.php:1694
+msgid "You do not have permission to edit this topic."
+msgstr "Bạn không có đủ quyền để chỉnh sửa chủ đề này."
+
+#: xmlrpc.php:1700
+#: xmlrpc.php:2299
+msgid "No posts found."
+msgstr "Không tìm thấy bài viết nào."
+
+#: xmlrpc.php:1708
+#: xmlrpc.php:2572
+msgid "You do not have permission to edit this post."
+msgstr "Bạn không có đủ quyền để chỉnh sửa bài viết này."
+
+#: xmlrpc.php:1726
+msgid "The topic could not be edited."
+msgstr ""
+
+#: xmlrpc.php:1733
+#: xmlrpc.php:2590
+#: xmlrpc.php:2676
+msgid "The post could not be edited."
+msgstr ""
+
+#: xmlrpc.php:1779
+msgid "You do not have permission to delete topics."
+msgstr ""
+
+#: xmlrpc.php:1815
+msgid "You do not have permission to delete this topic."
+msgstr ""
+
+#: xmlrpc.php:1821
+msgid "The topic could not be deleted."
+msgstr ""
+
+#: xmlrpc.php:1866
+msgid "You do not have permission to move topics."
+msgstr ""
+
+#: xmlrpc.php:1915
+msgid "You are not allowed to move this topic to this forum."
+msgstr ""
+
+#: xmlrpc.php:1921
+msgid "The topic could not be moved."
+msgstr ""
+
+#: xmlrpc.php:1965
+msgid "You do not have permission to stick topics."
+msgstr ""
+
+#: xmlrpc.php:1994
+msgid "You do not have permission to stick this topic."
+msgstr ""
+
+#: xmlrpc.php:2008
+msgid "The topic could not be stuck."
+msgstr ""
+
+#: xmlrpc.php:2065
+msgid "You do not have permission to close topics."
+msgstr ""
+
+#: xmlrpc.php:2094
+msgid "You do not have permission to close this topic."
+msgstr ""
+
+#: xmlrpc.php:2108
+msgid "The topic could not be closed."
+msgstr ""
+
+#: xmlrpc.php:2114
+msgid "The topic could not be opened."
+msgstr ""
+
+#: xmlrpc.php:2363
+#: xmlrpc.php:2557
+#: xmlrpc.php:2649
+msgid "The post id is invalid."
+msgstr ""
+
+#: xmlrpc.php:2369
+#: xmlrpc.php:2563
+#: xmlrpc.php:2655
+msgid "No post found."
+msgstr "Không tìm thấy bài viết nào."
+
+#: xmlrpc.php:2436
+#: xmlrpc.php:2546
+msgid "The post data is invalid."
+msgstr ""
+
+#: xmlrpc.php:2462
+msgid "You do not have permission to write posts to this topic."
+msgstr ""
+
+#: xmlrpc.php:2468
+#: xmlrpc.php:2578
+msgid "The post text is invalid."
+msgstr ""
+
+#: xmlrpc.php:2635
+msgid "You do not have permission to delete posts."
+msgstr ""
+
+#: xmlrpc.php:2664
+msgid "You do not have permission to delete this post."
+msgstr "Bạn không có quyền xóa bài viết này."
+
+#: xmlrpc.php:2769
+msgid "Could not retrieve hot topic tags."
+msgstr ""
+
+#: xmlrpc.php:2773
+#: xmlrpc.php:2798
+msgid "No hot topic tags found."
+msgstr ""
+
+#: xmlrpc.php:2887
+msgid "Could not get a count of all topic tags."
+msgstr ""
+
+#: xmlrpc.php:2962
+msgid "No topic tags found."
+msgstr ""
+
+#: xmlrpc.php:2969
+msgid "Could not retrieve all topic tags."
+msgstr ""
+
+#: xmlrpc.php:3040
+#: xmlrpc.php:3368
+#: xmlrpc.php:3540
+msgid "The tag id is invalid."
+msgstr ""
+
+#: xmlrpc.php:3046
+#: xmlrpc.php:3374
+#: xmlrpc.php:3546
+msgid "No tag found."
+msgstr "Không tìm thấy thẻ nào."
+
+#: xmlrpc.php:3147
+#: xmlrpc.php:3265
+msgid "You do not have permission to edit tags."
+msgstr "Bạn không có đủ quyền để chỉnh sửa thẻ này."
+
+#: xmlrpc.php:3176
+msgid "You do not have permission to add tags to this topic."
+msgstr ""
+
+#: xmlrpc.php:3184
+#: xmlrpc.php:3302
+msgid "The tag data is invalid."
+msgstr ""
+
+#: xmlrpc.php:3190
+msgid "The tags could not be added."
+msgstr ""
+
+#: xmlrpc.php:3294
+msgid "You do not have permission to remove tags from this topic."
+msgstr ""
+
+#: xmlrpc.php:3308
+msgid "The tags could not be removed."
+msgstr ""
+
+#: xmlrpc.php:3354
+#: xmlrpc.php:3439
+#: xmlrpc.php:3526
+msgid "You do not have permission to manage tags."
+msgstr ""
+
+#: xmlrpc.php:3386
+msgid "The tag name is invalid."
+msgstr ""
+
+#: xmlrpc.php:3392
+msgid "The tag could not be renamed."
+msgstr ""
+
+#: xmlrpc.php:3454
+msgid "The old tag id is invalid."
+msgstr ""
+
+#: xmlrpc.php:3458
+msgid "The new tag id is invalid."
+msgstr ""
+
+#: xmlrpc.php:3464
+msgid "No old tag found."
+msgstr ""
+
+#: xmlrpc.php:3468
+msgid "No new tag found."
+msgstr ""
+
+#: xmlrpc.php:3478
+msgid "The tags could not be merged."
+msgstr ""
+
+#: xmlrpc.php:3555
+msgid "The tag could not be destroyed."
+msgstr ""
+
+#: xmlrpc.php:3584
+msgid "Software Name"
+msgstr "Tên phần mềm"
+
+#: xmlrpc.php:3589
+msgid "Software Version"
+msgstr "Phiên bản phần mềm"
+
+#: xmlrpc.php:3594
+msgid "Site URL"
+msgstr "Đường dẫn tới trang"
+
+#: xmlrpc.php:3601
+msgid "Site Name"
+msgstr "Tên trang"
+
+#: xmlrpc.php:3606
+msgid "Site Description"
+msgstr "Mô tả của trang"
+
+#: xmlrpc.php:3611
+msgid "Time Zone"
+msgstr "Múi giờ"
+
+#: xmlrpc.php:3616
+msgid "Date/Time Format"
+msgstr "Định dạng ngày tháng"
+
+#: xmlrpc.php:3621
+msgid "Date Format"
+msgstr "Ngày tháng"
+
+#: xmlrpc.php:3764
+msgid "You are not allowed to manage options."
+msgstr "Bạn không có quyền chỉnh sửa tùy chọn."
+
+#: xmlrpc.php:3775
+msgid "The options data is invalid."
+msgstr ""
+
+#: xmlrpc.php:3855
+msgid "This is not the site you are trying to pingback."
+msgstr ""
+
+#: xmlrpc.php:3864
+msgid "The source URL and the target URL cannot both point to the same resource."
+msgstr "Đường dẫn tới nguồn và đường dẫn tới đích không thể nào cùng là một."
+
+#: xmlrpc.php:3869
+#: xmlrpc.php:4056
+msgid "The specified target URL cannot be used as a target. It either doesn't exist, or it is not a pingback-enabled resource."
+msgstr "Đường dẫn URL đích không thể sử dụng được. Hoặc đường dẫn đó không tồn tại, hoặc nó không phải là một đường dẫn pingback."
+
+#: xmlrpc.php:3880
+msgid "The specified target topic does not contain any posts."
+msgstr ""
+
+#: xmlrpc.php:3887
+msgid "The pingback has already been registered."
+msgstr "Pingback đã được lưu từ trước."
+
+#: xmlrpc.php:3899
+msgid "The source URL does not exist."
+msgstr "Đường dẫn tới nguồn không tồn tại."
+
+#: xmlrpc.php:3919
+msgid "We cannot find a title on that page."
+msgstr "Không tìm được tiêu đề trên trang đó."
+
+#: xmlrpc.php:3974
+msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
+msgstr "Đường dẫn URL nguồn không chứa liên kết nào, do đó không thể sử dụng làm nguồn."
+
+#: xmlrpc.php:3989
+msgid "The pingback could not be added."
+msgstr ""
+
+#: xmlrpc.php:4006
+#, php-format
+msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
+msgstr "Pingback từ %1$s tới %2$s đã được lưu."
+
+#: xmlrpc.php:4037
+msgid "The requested method only accepts one parameter."
+msgstr ""
+
+#: xmlrpc.php:4050
+msgid "The specified target URL is not on this domain."
+msgstr ""
+

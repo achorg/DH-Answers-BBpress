@@ -1,0 +1,6411 @@
+# Translation of bbPress.
+# Copyright (C) 2010 bbPress
+# This file is distributed under the same license as the bbPress package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress\n"
+"Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
+"POT-Creation-Date: 2010-01-28 12:11+0000\n"
+"PO-Revision-Date: 2010-02-24 08:28+0200\n"
+"Last-Translator: René Clausen Nielsen <rcn@shevy.dk>\n"
+"Language-Team: WordPress DK <rcn@shevy.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+# C:\Documents
+#: bb-admin/admin-base.php:13
+#, fuzzy
+msgid "Page not found"
+msgstr "Tag ikke fundet"
+
+#: bb-admin/admin-base.php:15
+msgid "There is no administration page at the requested address. Please check the address you entered and try again."
+msgstr ""
+
+#: bb-admin/admin-footer.php:8
+#: bb-templates/kakumei/footer.php:11
+#, php-format
+msgid "This page generated in %s seconds, using %d queries."
+msgstr "Siden blev genereret på %s sekunder med %d forespørgsler."
+
+#: bb-admin/admin-footer.php:21
+#, php-format
+msgid "Thank you for using <a href=\"%s\">bbPress</a>. | <a href=\"%s\">Documentation</a> | <a href=\"%s\">Feedback</a>"
+msgstr "Tak for at du bruger <a href=\"%s\">bbPress</a> | <a href=\"%s\">Dokumentation</a> | <a href=\"%s\">Feedback</a>"
+
+#: bb-admin/admin-footer.php:28
+#: bb-admin/plugins.php:226
+#, php-format
+msgid "Version %s"
+msgstr "Version %s"
+
+# C:\Documents
+#: bb-admin/admin-header.php:40
+msgid "Visit Site"
+msgstr "Se side"
+
+# C:\Documents
+#: bb-admin/admin-header.php:43
+#, php-format
+msgid "Howdy, %1$s"
+msgstr "Hejsa %1$s!"
+
+# C:\Documents
+#: bb-admin/bb-forum.php:5
+msgid "You don't have the authority to mess with the forums."
+msgstr "Du har ikke status nok til at rode rundt med foraene."
+
+# C:\Documents
+#: bb-admin/bb-forum.php:17
+msgid "Bad forum name.  Go back and try again."
+msgstr "Dårligt forumnavn. Gå tilbage og prøv igen."
+
+# C:\Documents
+#: bb-admin/bb-forum.php:25
+msgid "The forum was not added"
+msgstr "Forumet blev ikke tilføjet"
+
+# C:\Documents
+#: bb-admin/bb-forum.php:32
+msgid "No forums to update!"
+msgstr "Ingen fora at opdatere!"
+
+# C:\Documents
+#: bb-admin/bb-forum.php:47
+msgid "You don't have the authority to kill off the forums."
+msgstr "Du har ikke rettigheder til at slette forummerne."
+
+#: bb-admin/bb-forum.php:53
+msgid "Error occured while trying to delete forum"
+msgstr "Der skete en fejl under sletning af forum"
+
+# C:\Documents
+#: bb-admin/delete-post.php:18
+msgid "There is a problem with that post, pardner."
+msgstr "Der er et problem med det indlæg, mester."
+
+# C:\Documents
+#: bb-admin/delete-topic.php:17
+#: bb-admin/sticky.php:9
+#: bb-admin/topic-toggle.php:8
+msgid "There is a problem with that topic, pardner."
+msgstr "Der er et problem med det emne, mester."
+
+#: bb-admin/export.php:19
+msgid "Either export is disabled or you are not allowed to export."
+msgstr "Enten er eksport deaktiveret eller også har du ikke tilladelser til at eksportere. "
+
+# C:\Documents
+#: bb-admin/forums.php:19
+msgid "<strong>Forum Updated.</strong>"
+msgstr "<strong>Forum opdateret.</strong>"
+
+#: bb-admin/forums.php:23
+#, php-format
+msgid "<strong>Forum deleted.</strong>  You should <a href=\"%s\">recount your site information</a>."
+msgstr "<strong>Forum slettet.</strong> Du bør få bbPress til at <a href=\"%s\">genoptælle sideinformationerne</a>."
+
+# C:\Documents
+#: bb-admin/forums.php:33
+#, php-format
+msgid "Are you sure you want to delete the \"<strong>%s</strong>\" forum?"
+msgstr "Er du sikker på, at du vil slette forumet \"<strong>%s</strong>\"?"
+
+# C:\Documents
+#: bb-admin/forums.php:42
+#: bb-admin/includes/functions.bb-admin.php:65
+#: bb-admin/includes/functions.bb-admin.php:66
+#: bb-templates/kakumei/front-page.php:48
+msgid "Forums"
+msgstr "Fora"
+
+# C:\Documents
+#: bb-admin/forums.php:51
+#: bb-admin/forums.php:80
+msgid "Delete Forum"
+msgstr "Slet forum"
+
+#: bb-admin/forums.php:52
+msgid "This forum contains:"
+msgstr "Dette forum indeholder:"
+
+#: bb-admin/forums.php:54
+#, php-format
+msgid "%d topic"
+msgid_plural "%d topics"
+msgstr[0] "%d emne"
+msgstr[1] "%d emner"
+
+#: bb-admin/forums.php:55
+#, php-format
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d indlæg"
+msgstr[1] "%d indlæg"
+
+# C:\Documents
+#: bb-admin/forums.php:58
+msgid "Action"
+msgstr "Handling"
+
+#: bb-admin/forums.php:61
+msgid "Delete all topics and posts in this forum. <em>This can never be undone.</em>"
+msgstr "Slet alle emner og indlæg i dette forum. <em>Dette kan ikke laves om.</em>"
+
+# C:\Documents
+#: bb-admin/forums.php:64
+msgid "Move topics from this forum into the replacement forum below."
+msgstr "Flyt emner fra dette forum til erstatningsforumet nedenfor."
+
+#: bb-admin/forums.php:69
+msgid "Replacement forum"
+msgstr "Erstatningsforum"
+
+#: bb-admin/forums.php:79
+msgid "Cancel"
+msgstr "Annuller"
+
+# C:\Documents
+#: bb-admin/forums.php:89
+#: bb-includes/class.bb-query.php:942
+#: bb-templates/kakumei/post-form.php:43
+msgid "Forum"
+msgstr "Forum"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:193
+#: bb-includes/functions.bb-core.php:1210
+msgid "bbPress &rsaquo; Error"
+msgstr "bbPress &rsaquo; Fejl"
+
+#: bb-admin/includes/class.bb-install.php:194
+msgid "Oh dear!"
+msgstr "Åhh nej!"
+
+#: bb-admin/includes/class.bb-install.php:198
+#: bb-admin/includes/class.bb-install.php:208
+#: bb-admin/includes/class.bb-install.php:218
+#: bb-admin/includes/class.bb-install.php:228
+#: bb-admin/includes/class.bb-install.php:239
+#, php-format
+msgid "%1$s &rsaquo; %2$s"
+msgstr "%1$s &rsaquo; %2$s"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:198
+#: bb-admin/includes/class.bb-install.php:208
+#: bb-admin/includes/class.bb-install.php:218
+#: bb-admin/includes/class.bb-install.php:228
+#: bb-admin/includes/class.bb-install.php:239
+msgid "bbPress installer"
+msgstr "bbPress-installer"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:198
+msgid "Welcome"
+msgstr "Velkommen"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:199
+msgid "Welcome to the bbPress installer"
+msgstr "Velkommen til bbPress-installeringen"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:203
+msgid "We're now going to go through a few steps to get you up and running."
+msgstr "Vi gennemgår nu nogle få trin, der kan få dig op at køre."
+
+#: bb-admin/includes/class.bb-install.php:204
+msgid "Ready? Then let's get started!"
+msgstr "Klar? Så lad os komme i gang!"
+
+#: bb-admin/includes/class.bb-install.php:208
+#: bb-admin/includes/class.bb-install.php:209
+msgid "Step 1"
+msgstr "Trin 1"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:209
+#: bb-admin/includes/class.bb-install.php:219
+#: bb-admin/includes/class.bb-install.php:229
+#, php-format
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:209
+msgid "Database configuration"
+msgstr "Database-konfiguration"
+
+#: bb-admin/includes/class.bb-install.php:212
+msgid "In this step you need to enter your database connection details. The installer will attempt to create a file called <code>bb-config.php</code> in the root directory of your bbPress installation."
+msgstr "Her skal du skrive dine databasedetaljer. Installeringsprogrammet vil forsøge at lave en fil, som hedder <code>bb-config.php</code>, i roden af din bbPress-installation."
+
+#: bb-admin/includes/class.bb-install.php:213
+msgid "If you're not sure what to put here, contact your web hosting provider."
+msgstr "Hvis du ikke ved, hvad du skal skrive her, kan du kontakte dit webhotel."
+
+#: bb-admin/includes/class.bb-install.php:218
+#: bb-admin/includes/class.bb-install.php:219
+msgid "Step 2"
+msgstr "Trin 2"
+
+#: bb-admin/includes/class.bb-install.php:219
+msgid "WordPress integration (optional)"
+msgstr "WorsPress-integration (valgfri)"
+
+#: bb-admin/includes/class.bb-install.php:220
+msgid "&laquo; skipped"
+msgstr "&laquo; sprunget over"
+
+#: bb-admin/includes/class.bb-install.php:222
+msgid "bbPress can integrate login and user data seamlessly with WordPress. You can safely skip this step if you do not wish to integrate with an existing WordPress install."
+msgstr "bbPress kan integrere login og brugerdata med WordPress. Du kan sagtens springe over dette trin, hvis du ikke vil integrere bbPress med en eksisterende WordPress-installation."
+
+#: bb-admin/includes/class.bb-install.php:228
+#: bb-admin/includes/class.bb-install.php:229
+msgid "Step 3"
+msgstr "Trin 3"
+
+#: bb-admin/includes/class.bb-install.php:229
+msgid "Site settings"
+msgstr "Sideindstillinger"
+
+#: bb-admin/includes/class.bb-install.php:232
+msgid "Finalize your installation by adding a name, your first user and your first forum."
+msgstr "Færdiggør installeringen ved at tilføje et navn, din første bruger og dit første forum."
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:239
+msgid "Finished"
+msgstr "Færdig"
+
+#: bb-admin/includes/class.bb-install.php:240
+#: bb-admin/includes/class.bb-install.php:2181
+msgid "Installation complete!"
+msgstr "Installation færdig!"
+
+#: bb-admin/includes/class.bb-install.php:257
+msgid "Your PHP installation appears to be missing the MySQL extension which is required for bbPress"
+msgstr "Det ser ud til, at din PHP-installation mangler MySQL-udvidelsen, som er nødvendig for at køre bbPress."
+
+#: bb-admin/includes/class.bb-install.php:262
+msgid "Please complete your installation before attempting to include WordPress within bbPress"
+msgstr "Færdiggør venligst din installering før du prøver at inkludere WordPress i bbPress."
+
+#: bb-admin/includes/class.bb-install.php:343
+msgid "Installation language"
+msgstr "Installeringssprog"
+
+#: bb-admin/includes/class.bb-install.php:355
+msgid "Sets the language to be used during the installation process only."
+msgstr "Vælg venligst hvilket sprog du vil bruge under installeringen."
+
+#: bb-admin/includes/class.bb-install.php:472
+msgid "An old <code>config.php</code> file has been detected in your installation. You should remove it and run the <a href=\"install.php\">installer</a> again. You can use the same database connection details if you do."
+msgstr "En gammel <code>config.php</code>-fil er fundet i din installation. Du bør flytte den og køre <a href=\"install.php\">installeringen</a> igen. Du kan bruge de samme databaseindstillinger, hvis du vil."
+
+#: bb-admin/includes/class.bb-install.php:485
+#: bb-admin/includes/class.bb-install.php:1117
+#: bb-admin/includes/class.bb-install.php:1125
+#: bb-admin/includes/class.bb-install.php:1137
+msgid "&laquo; completed"
+msgstr "&laquo; færdig"
+
+#: bb-admin/includes/class.bb-install.php:493
+msgid "A valid configuration file was found at <code>bb-config.php</code><br />You may continue to the next step."
+msgstr "En gyldig konfigurationsfil blev fundet i <code>bb-config.php</code><br />Du kan gå videre til næste trin."
+
+#: bb-admin/includes/class.bb-install.php:498
+msgid "An invalid configuration file was found at <code>bb-config.php</code><br />The installation cannot continue."
+msgstr "En ugyldig konfigurationsfil blev fundet i <code>bb-config.php</code><br />Installationen kan ikke fortsætte."
+
+#: bb-admin/includes/class.bb-install.php:499
+msgid "Usually this is caused by one of the database connection settings being incorrect. Make sure that the specified user has appropriate permission to access the database."
+msgstr "Dette skyldes oftest, at en af databaseindstillingerne ikke er rigtig. Sørg for, at den angivne bruger har tilstrækkelige rettigheder til at tilgå databasen."
+
+#: bb-admin/includes/class.bb-install.php:509
+msgid "bbPress is already installed, but appears to require an upgrade."
+msgstr "bbPress er allerede installeret, men det ser ud til, at en opdatering er nødvendig."
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:511
+msgid "bbPress is already installed."
+msgstr "bbPress er allerede installeret."
+
+#: bb-admin/includes/class.bb-install.php:514
+#, php-format
+msgid "Perhaps you meant to run the <a href=\"%s\">upgrade script</a> instead?"
+msgstr "Måske du ville køre en <a href=\"%s\">opdatering</a> i stedet?"
+
+#: bb-admin/includes/class.bb-install.php:524
+#: bb-admin/includes/class.bb-install.php:1323
+msgid "I could not find the file <code>bb-config-sample.php</code><br />Please upload it to the root directory of your bbPress installation."
+msgstr "Jeg kunne ikke finde filen <code>bb-config-sample.php</code><br />Upload den venligst til roden af din bbPress-installation."
+
+#: bb-admin/includes/class.bb-install.php:530
+msgid "There doesn't seem to be a <code>bb-config.php</code> file. This usually means that you want to install bbPress."
+msgstr "Det ser ikke ud til, at der er en <code>bb-config-sample.php</code>-fil. Det betyder normalt, at du vil installere bbPress."
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:617
+msgid "Go to step 1"
+msgstr "Gå til trin 1"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:625
+msgid "Database name"
+msgstr "Databasenavn"
+
+#: bb-admin/includes/class.bb-install.php:626
+msgid "The name of the database in which you want to run bbPress."
+msgstr "Navnet på databasen, hvor du vil køre bbPress."
+
+#: bb-admin/includes/class.bb-install.php:630
+msgid "Database user"
+msgstr "Databasebruger"
+
+#: bb-admin/includes/class.bb-install.php:631
+#: bb-admin/includes/class.bb-install.php:838
+#: bb-admin/options-wordpress.php:129
+msgid "The database user that has access to that database."
+msgstr "databasebruger, som har adgang til databasen."
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:637
+msgid "Database password"
+msgstr "Databasekodeord"
+
+#: bb-admin/includes/class.bb-install.php:638
+#: bb-admin/includes/class.bb-install.php:846
+#: bb-admin/options-wordpress.php:133
+msgid "That database user's password."
+msgstr "Databasebrugerens adgangskode."
+
+#: bb-admin/includes/class.bb-install.php:643
+msgid "Language"
+msgstr "Sprog"
+
+#: bb-admin/includes/class.bb-install.php:644
+#, php-format
+msgid "The language which bbPress will be presented in once installed. Your current installer language choice (%s) will be the same for the rest of the install process."
+msgstr "Sproget, som bbPress skal bruge, når det er installeret. Dit nuværende installeringssprog (%s) fortsætter under installeringen."
+
+#: bb-admin/includes/class.bb-install.php:648
+msgid "Show advanced settings"
+msgstr "Vis avancerede indstillinger"
+
+#: bb-admin/includes/class.bb-install.php:649
+msgid "These settings usually do not have to be changed."
+msgstr "Disse indstillinger behøver normalt ikke at blive ændret."
+
+#: bb-admin/includes/class.bb-install.php:655
+msgid "Database host"
+msgstr "Databasehost"
+
+#: bb-admin/includes/class.bb-install.php:656
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should remain <strong>localhost</strong>."
+msgstr "Domænenavnet eller IP-adressen på serveren hvor databasen findes. Hvis databasen er på den samme server som dit website, skal du sikkert bare beholde <strong>localhost</strong>."
+
+#: bb-admin/includes/class.bb-install.php:661
+msgid "Database character set"
+msgstr "Databasens tegnsæt"
+
+#: bb-admin/includes/class.bb-install.php:662
+#: bb-admin/includes/class.bb-install.php:859
+#: bb-admin/options-wordpress.php:141
+msgid "The best choice is <strong>utf8</strong>, but you will need to match the character set which you created the database with."
+msgstr "Det bedste valg er <strong>utf8</strong>, men du skal bruge det samme tegnsæt, som du oprettede databasen med."
+
+#: bb-admin/includes/class.bb-install.php:667
+msgid "Database character collation"
+msgstr "Databasens tegnsortering (character collation)"
+
+#: bb-admin/includes/class.bb-install.php:668
+msgid "The character collation value set when the database was created."
+msgstr "Tegnsorteringsværdien fra oprettelsen af databasen."
+
+#: bb-admin/includes/class.bb-install.php:699
+msgid "Table name prefix"
+msgstr "Tabelnavnspræfiks"
+
+#: bb-admin/includes/class.bb-install.php:700
+msgid "If you are running multiple bbPress sites in a single database, you will probably want to change this."
+msgstr "Hvis du kører flere installationer af bbPress i samme database, bør du ændre dette."
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:705
+msgid "Contents for <code>bb-config.php</code>"
+msgstr "Indhold i <code>bb-config.php</code>"
+
+#: bb-admin/includes/class.bb-install.php:706
+msgid "Once you have created the configuration file, you can check for it below."
+msgstr "Når du har lavet konfigurationsfilen, kan du tjekke den nedenfor."
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:709
+msgid "Save database configuration file"
+msgstr "Gem databasekonfigurationsfil"
+
+#: bb-admin/includes/class.bb-install.php:712
+#: bb-admin/includes/class.bb-install.php:884
+#: bb-admin/includes/class.bb-install.php:931
+msgid "&laquo; Go back"
+msgstr "&laquo; Gå tilbage"
+
+#: bb-admin/includes/class.bb-install.php:715
+msgid "Check for configuration file"
+msgstr "Tjek for konfigurationsfil"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:718
+msgid "Go to step 2"
+msgstr "Gå til trin 2"
+
+#: bb-admin/includes/class.bb-install.php:727
+msgid "Add integration settings"
+msgstr "Tilføj integrationsindstillinger"
+
+#: bb-admin/includes/class.bb-install.php:728
+msgid "If you want to integrate bbPress with an existing WordPress site."
+msgstr "Hvis du vil integrere bbPress med en eksisterende WordPress-side."
+
+#: bb-admin/includes/class.bb-install.php:733
+#: bb-admin/includes/class.bb-install.php:881
+msgid "Skip WordPress integration"
+msgstr "Spring over WordPress-integration"
+
+#: bb-admin/includes/class.bb-install.php:734
+msgid "Save WordPress integration settings"
+msgstr "Gem WordPress-integrationsindstillinger"
+
+#: bb-admin/includes/class.bb-install.php:739
+msgid "Add cookie integration settings"
+msgstr "Tilføj cookie-integrationsindstillinger:"
+
+#: bb-admin/includes/class.bb-install.php:740
+msgid "If you want to allow shared logins with an existing WordPress site."
+msgstr "Hvis du vil tillade delt login med en eksisterende Wordpress-side."
+
+#: bb-admin/includes/class.bb-install.php:747
+#: bb-admin/options-wordpress.php:67
+msgid "WordPress address (URL)"
+msgstr "WordPress-adresse (URL)"
+
+#: bb-admin/includes/class.bb-install.php:748
+#: bb-admin/options-wordpress.php:69
+msgid "This value should exactly match the <strong>WordPress address (URL)</strong> setting in your WordPress general settings."
+msgstr "Denne værdi skal være nøjagtig magen til <strong>WordPress-adresse (URL)</strong> under generelle indstillinger i WordPress."
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:753
+#: bb-admin/options-wordpress.php:72
+msgid "Blog address (URL)"
+msgstr "Blogadresse (URL)"
+
+#: bb-admin/includes/class.bb-install.php:754
+#: bb-admin/options-wordpress.php:74
+msgid "This value should exactly match the <strong>Blog address (URL)</strong> setting in your WordPress general settings."
+msgstr "Denne værdi skal være nøjagtig magen til <strong>Blogadresse (URL)</strong> under generelle indstillinger i WordPress."
+
+#: bb-admin/includes/class.bb-install.php:759
+msgid "WordPress \"auth\" cookie key"
+msgstr "WordPress \"auth\" cookie key"
+
+#: bb-admin/includes/class.bb-install.php:760
+msgid "This value must match the value of the constant named \"AUTH_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"auth\" cookie key set in the first step."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:766
+#: bb-admin/options-wordpress.php:77
+msgid "WordPress \"auth\" cookie salt"
+msgstr "WordPress \"auth\" cookie salt"
+
+#: bb-admin/includes/class.bb-install.php:767
+msgid "This must match the value of the WordPress setting named \"auth_salt\" in your WordPress site. Look for the option labeled \"auth_salt\" in <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:773
+msgid "WordPress \"secure auth\" cookie key"
+msgstr "WordPress \"secure auth\" cookie key"
+
+#: bb-admin/includes/class.bb-install.php:774
+msgid "This value must match the value of the constant named \"SECURE_AUTH_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"secure auth\" cookie key set in the first step."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:780
+#: bb-admin/options-wordpress.php:81
+msgid "WordPress \"secure auth\" cookie salt"
+msgstr "WordPress \"secure auth\" cookie salt"
+
+#: bb-admin/includes/class.bb-install.php:781
+msgid "This must match the value of the WordPress setting named \"secure_auth_salt\" in your WordPress site. Look for the option labeled \"secure_auth_salt\" in <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings. Sometimes this value is not set in WordPress, in that case you can leave this setting blank as well."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:787
+msgid "WordPress \"logged in\" cookie key"
+msgstr "WordPress \"logged in\" cookie key"
+
+#: bb-admin/includes/class.bb-install.php:788
+msgid "This value must match the value of the constant named \"LOGGED_IN_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"logged in\" cookie key set in the first step."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:794
+#: bb-admin/options-wordpress.php:85
+msgid "WordPress \"logged in\" cookie salt"
+msgstr "WordPress \"logged in\" cookie salt"
+
+#: bb-admin/includes/class.bb-install.php:795
+msgid "This must match the value of the WordPress setting named \"logged_in_salt\" in your WordPress site. Look for the option labeled \"logged_in_salt\" in <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:801
+msgid "Add user database integration settings"
+msgstr "Tilføj databaseintegrationsindstillinger:"
+
+#: bb-admin/includes/class.bb-install.php:802
+msgid "If you want to share user data with an existing WordPress site."
+msgstr "Hvis du vil dele brugerdata med en eksisterende Wordpress-side."
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:810
+#: bb-admin/options-wordpress.php:103
+msgid "User database table prefix"
+msgstr "Brugerdatabases tabelpræfiks"
+
+#: bb-admin/includes/class.bb-install.php:811
+#: bb-admin/options-wordpress.php:104
+msgid "If your bbPress and WordPress sites share the same database, then this is the same value as <code>$table_prefix</code> in your WordPress <code>wp-config.php</code> file. It is usually <strong>wp_</strong>."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:817
+#: bb-admin/options-wordpress.php:107
+msgid "WordPress MU primary blog ID"
+msgstr "WordPress MU primær blog ID"
+
+#: bb-admin/includes/class.bb-install.php:818
+#: bb-admin/options-wordpress.php:108
+msgid "If you are integrating with a WordPress MU site you need to specify the primary blog ID for that site. It is usually <strong>1</strong>. You should probably leave this blank if you are integrating with a standard WordPress site"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:823
+#: bb-admin/options-wordpress.php:111
+msgid "Show advanced database settings"
+msgstr "Vis avancerede databaseindstillinger:"
+
+#: bb-admin/includes/class.bb-install.php:824
+#: bb-admin/options-wordpress.php:115
+msgid "If your bbPress and WordPress site do not share the same database, then you will need to add advanced settings."
+msgstr "Hvis bbPress og WordPress ikke ligger i samme database, skal du tilføje nogle avancerede indstillinger."
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:831
+#: bb-admin/options-wordpress.php:124
+msgid "User database name"
+msgstr "Databasebrugernavn"
+
+#: bb-admin/includes/class.bb-install.php:832
+#: bb-admin/options-wordpress.php:125
+msgid "The name of the database in which your user tables reside."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:837
+#: bb-admin/options-wordpress.php:128
+msgid "User database user"
+msgstr "Databasebrugernavn"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:845
+#: bb-admin/options-wordpress.php:132
+msgid "User database password"
+msgstr "Databasebrugers adgangskode"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:852
+#: bb-admin/options-wordpress.php:136
+#, fuzzy
+msgid "User database host"
+msgstr "Brugernavn:"
+
+#: bb-admin/includes/class.bb-install.php:853
+#: bb-admin/options-wordpress.php:137
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should be <strong>localhost</strong>."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:858
+#: bb-admin/options-wordpress.php:140
+#, fuzzy
+msgid "User database character set"
+msgstr "Databasens tegnsæt:"
+
+#: bb-admin/includes/class.bb-install.php:864
+#: bb-admin/options-wordpress.php:144
+#, fuzzy
+msgid "User database character collation"
+msgstr "Databasens tegnsortering (character collation):"
+
+#: bb-admin/includes/class.bb-install.php:865
+#: bb-admin/options-wordpress.php:145
+#, fuzzy
+msgid "The character collation value set when the user database was created."
+msgstr "Tegnsorteringsværdien fra oprettelsen af databasen."
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:870
+#: bb-admin/options-wordpress.php:151
+#, fuzzy
+msgid "User database \"user\" table"
+msgstr "Brugernavn:"
+
+#: bb-admin/includes/class.bb-install.php:871
+#: bb-admin/includes/class.bb-install.php:877
+#: bb-admin/options-wordpress.php:152
+#: bb-admin/options-wordpress.php:156
+msgid "The complete table name, including any prefix."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:876
+#: bb-admin/options-wordpress.php:155
+#, fuzzy
+msgid "User database \"user meta\" table"
+msgstr "Brugernavn:"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:887
+#, fuzzy
+msgid "Go to step 3"
+msgstr "Første skridt &raquo;"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:896
+#, fuzzy
+msgid "Site name"
+msgstr "Sideindstillinger"
+
+#: bb-admin/includes/class.bb-install.php:897
+msgid "This is what you are going to call your bbPress site."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:901
+#, fuzzy
+msgid "Site address (URL)"
+msgstr "E-mail adresse:"
+
+#: bb-admin/includes/class.bb-install.php:902
+msgid "We have attempted to guess this; it's usually correct, but change it here if you wish."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:907
+#, fuzzy
+msgid "\"Key Master\" Username"
+msgstr "Key Master"
+
+#: bb-admin/includes/class.bb-install.php:908
+msgid "This is the user login for the initial bbPress administrator (known as a \"Key Master\")."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:914
+#, fuzzy
+msgid "\"Key Master\" Email address"
+msgstr "E-mail adresse:"
+
+#: bb-admin/includes/class.bb-install.php:915
+#, fuzzy
+msgid "The login details will be emailed to this address."
+msgstr "Din adgangskode bliver e-mailet til den adresse, du skriver."
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:924
+#, fuzzy
+msgid "First forum name"
+msgstr "Første forum"
+
+#: bb-admin/includes/class.bb-install.php:925
+msgid "This can be changed after installation, so don't worry about it too much."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:928
+#, fuzzy
+msgid "Save site settings"
+msgstr "Sideindstillinger"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:934
+#, fuzzy
+msgid "Complete the installation"
+msgstr "Ny bbPress-installering"
+
+#: bb-admin/includes/class.bb-install.php:943
+#, fuzzy
+msgid "Show installation messages"
+msgstr "Installation færdig!"
+
+#: bb-admin/includes/class.bb-install.php:947
+#, fuzzy
+msgid "Installation errors"
+msgstr "Installeret i: %s"
+
+#: bb-admin/includes/class.bb-install.php:951
+#, fuzzy
+msgid "Installation log"
+msgstr "Installeret i: %s"
+
+#: bb-admin/includes/class.bb-install.php:1252
+msgid "The table prefix can only contain letters, numbers and underscores.<br />Please review the suggestion below."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1253
+msgid "&bull; Based on your input the following prefix is suggested."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1261
+msgid "The table prefix can not be blank.<br />Please review the suggestion below."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1262
+msgid "&bull; The default prefix has been inserted."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1296
+msgid "There was a problem connecting to the database you specified.<br />Please check the settings, then try again."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1329
+msgid "Your settings have been saved to the file <code>bb-config.php</code><br />You can now continue to the next step."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1336
+msgid "Your settings could not be saved to a configuration file. You will need to save the text shown below into a file named <code>bb-config.php</code> in the root directory of your bbPress installation before you can continue."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1358
+msgid "You have chosen to skip the WordPress integration step. You can always integrate WordPress later from within the admin area of bbPress."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1434
+msgid "You must enter your settings for integration setup to complete. Choose which integration settings you wish to enter from the options below."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1452
+msgid "Your integration settings have not been processed due to errors with the items marked below."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1461
+#: bb-admin/includes/class.bb-install.php:1670
+msgid "&bull; This value is required to continue."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1464
+#: bb-admin/includes/class.bb-install.php:1673
+msgid "&bull; This does not appear to be a valid URL."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1467
+#: bb-admin/includes/class.bb-install.php:1676
+msgid "&bull; The URL must begin with \"http\" or \"https\"."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1470
+#: bb-admin/includes/class.bb-install.php:1679
+msgid "&bull; The URL does not contain a host name."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1532
+#: bb-admin/includes/class.bb-install.php:1775
+#: bb-admin/includes/class.bb-install.php:2578
+#: bb-settings.php:646
+msgid "Your user table prefix may only contain letters, numbers and underscores."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1569
+msgid "There was a problem connecting to the WordPress user database you specified. Please check the settings, then try again."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1583
+msgid "Existing WordPress user tables could not be found in the WordPress database you specified."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1585
+msgid "Existing WordPress user tables could not be found in the bbPress database you specified in step 1.<br /><br />This is probably because the database does not already contain working WordPress tables. You may need to specify advanced database settings or leave integration until after installation."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1587
+msgid "&bull; This may not be a valid user table prefix."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1604
+msgid "Your WordPress integration cookie and database settings have been successfully validated. They will be saved after the next step.<br /><br />Once you have finished installing, you should visit the WordPress integration section of the bbPress admin area for further options and integration instructions, including user mapping and the correct cookie settings to add to your WordPress configuration file."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1661
+msgid "Your site settings have not been processed due to errors with the items marked below."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1682
+msgid "&bull; Contains disallowed characters which have been removed."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1685
+msgid "&bull; The user email address appears to be invalid."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1704
+msgid "Your site settings have been saved and we are now ready to complete the installation. So what are you waiting for?"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1730
+msgid "Referrer is OK, beginning installation&hellip;"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1737
+msgid "Setting up custom user table constants"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1780
+msgid "Step 1 - Creating database tables"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1798
+#: bb-admin/includes/class.bb-install.php:1800
+msgid "Database installation failed!!!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1799
+#: bb-admin/includes/class.bb-install.php:2009
+#: bb-admin/includes/class.bb-install.php:2042
+#: bb-admin/includes/class.bb-install.php:2068
+msgid "Halting installation!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1803
+#: bb-admin/includes/class.bb-install.php:2011
+#: bb-admin/includes/class.bb-install.php:2045
+#: bb-admin/includes/class.bb-install.php:2071
+msgid "Installation failed!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1804
+msgid "The database failed to install. You may need to replace bbPress with a fresh copy and start again."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1812
+msgid "Database is already installed!!!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1817
+msgid "Step 2 - WordPress integration (optional)"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1821
+msgid "WordPress address (URL):"
+msgstr "WordPress-adresse (URL):"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:1824
+#, fuzzy
+msgid "Blog address (URL):"
+msgstr "Login-adresse"
+
+#: bb-admin/includes/class.bb-install.php:1838
+#, fuzzy
+msgid "WordPress cookie keys set."
+msgstr "WordPress cookie secret key:"
+
+#: bb-admin/includes/class.bb-install.php:1841
+#: bb-admin/includes/class.bb-install.php:1844
+#, fuzzy
+msgid "WordPress cookie keys not set."
+msgstr "WordPress cookie secret key:"
+
+#: bb-admin/includes/class.bb-install.php:1842
+msgid "Your \"bb-config.php\" file was not writable."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1843
+msgid "You will need to manually re-define \"BB_AUTH_KEY\", \"BB_SECURE_AUTH_KEY\" and \"BB_LOGGED_IN_KEY\" in your \"bb-config.php\" file."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1850
+msgid "WordPress \"auth\" cookie salt set from input."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1855
+msgid "WordPress \"secure auth\" cookie salt set from input."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1860
+msgid "WordPress \"logged in\" cookie salt set from input."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1870
+msgid "Fetching missing WordPress cookie salts."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1891
+#, fuzzy
+msgid "WordPress \"auth\" cookie salt set."
+msgstr "WordPress cookie secret key:"
+
+#: bb-admin/includes/class.bb-install.php:1893
+#: bb-admin/includes/class.bb-install.php:1896
+#, fuzzy
+msgid "WordPress \"auth\" cookie salt not set."
+msgstr "WordPress cookie secret key:"
+
+#: bb-admin/includes/class.bb-install.php:1894
+msgid "Could not fetch \"auth\" cookie salt from the WordPress options table."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1895
+msgid "You will need to manually define the \"auth\" cookie salt in your database."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1904
+#, fuzzy
+msgid "WordPress \"secure auth\" cookie salt set."
+msgstr "WordPress cookie secret key:"
+
+#: bb-admin/includes/class.bb-install.php:1907
+msgid "WordPress \"secure auth\" cookie salt not set."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1915
+#, fuzzy
+msgid "WordPress \"logged in\" cookie salt set."
+msgstr "WordPress cookie secret key:"
+
+#: bb-admin/includes/class.bb-install.php:1917
+#: bb-admin/includes/class.bb-install.php:1920
+#, fuzzy
+msgid "WordPress \"logged in\" cookie salt not set."
+msgstr "WordPress cookie secret key:"
+
+#: bb-admin/includes/class.bb-install.php:1918
+msgid "Could not fetch \"logged in\" cookie salt from the WordPress options table."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1919
+msgid "You will need to manually define the \"logged in\" cookie salt in your database."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1927
+msgid "User database table prefix:"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1932
+msgid "WordPress MU primary blog ID:"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:1938
+#, fuzzy
+msgid "User database name:"
+msgstr "Brugernavn:"
+
+#: bb-admin/includes/class.bb-install.php:1942
+msgid "User database user:"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:1946
+#, fuzzy
+msgid "User database password:"
+msgstr "Nyt kodeord:"
+
+#: bb-admin/includes/class.bb-install.php:1950
+msgid "User database host:"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1954
+msgid "User database character set:"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:1958
+#, fuzzy
+msgid "User database collation:"
+msgstr "Brugernavn:"
+
+#: bb-admin/includes/class.bb-install.php:1962
+msgid "User database \"user\" table:"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1966
+msgid "User database \"user meta\" table:"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1971
+msgid "Integration not enabled"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1976
+msgid "Step 3 - Site settings"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:1978
+#, fuzzy
+msgid "Site name:"
+msgstr "Sideindstillinger"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:1980
+#, fuzzy
+msgid "Site address (URL):"
+msgstr "E-mail adresse:"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:1982
+#, fuzzy
+msgid "From email address:"
+msgstr "E-mail adresse:"
+
+#: bb-admin/includes/class.bb-install.php:1993
+#: bb-admin/includes/class.bb-install.php:1995
+#: bb-admin/includes/class.bb-install.php:2041
+#: bb-admin/includes/class.bb-install.php:2043
+#: bb-admin/includes/class.bb-install.php:2069
+msgid "Key master could not be created!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1994
+msgid "That login is already taken!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2000
+msgid "Existing key master entered!"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:2001
+#, fuzzy
+msgid "Your bbPress password"
+msgstr "*Dit WordPress-kodeord*"
+
+#: bb-admin/includes/class.bb-install.php:2004
+msgid "Re-setting admin email address."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2008
+msgid "Existing user without key master role entered!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2012
+msgid "The key master could not be created. An existing user was found with that user login."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:2035
+#, fuzzy
+msgid "Key master created"
+msgstr "Key Master"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:2036
+#: bb-admin/includes/class.bb-install.php:2062
+#: bb-admin/install.php:359
+msgid "Username:"
+msgstr "Brugernavn:"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:2037
+#: bb-admin/includes/class.bb-install.php:2063
+msgid "Email address:"
+msgstr "E-mail adresse:"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:2038
+#: bb-admin/includes/class.bb-install.php:2064
+#: bb-admin/install.php:361
+msgid "Password:"
+msgstr "Kodeord:"
+
+#: bb-admin/includes/class.bb-install.php:2046
+msgid "The key master could not be created. You may need to replace bbPress with a fresh copy and start again."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:2060
+#, fuzzy
+msgid "Your existing password"
+msgstr "*Dit WordPress-kodeord*"
+
+#: bb-admin/includes/class.bb-install.php:2061
+msgid "Key master role assigned to existing user"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2067
+msgid "Key master role could not be assigned to existing user!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2072
+msgid "The key master could not be assigned. You may need to replace bbPress with a fresh copy and start again."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2091
+msgid "Just another bbPress community"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:2100
+msgid "Description:"
+msgstr "Beskrivelse:"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:2103
+#, fuzzy
+msgid "Forum name:"
+msgstr "Forumnavn:"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:2111
+msgid "Your first topic"
+msgstr "Dit første emne"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:2119
+msgid "First Post!  w00t."
+msgstr "Første indlæg! Woo!"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:2133
+#: bb-templates/kakumei/edit-form.php:4
+msgid "Topic:"
+msgstr "Emne:"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:2134
+#: bb-templates/kakumei/edit-form.php:10
+msgid "Post:"
+msgstr "Indlæg:"
+
+#: bb-admin/includes/class.bb-install.php:2136
+#: bb-admin/includes/class.bb-install.php:2137
+msgid "Forum could not be created!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2140
+msgid "There are existing forums in this database."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2141
+msgid "No new forum created."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:2142
+#, fuzzy
+msgid "Forums already exist!"
+msgstr "Forum startet for %s siden."
+
+#: bb-admin/includes/class.bb-install.php:2148
+#, php-format
+msgid "Making plugin directory at %s."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2155
+#, php-format
+msgid "Making theme directory at %s."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:2161
+#, fuzzy, php-format
+msgid ""
+"Your new bbPress site has been successfully set up at:\n"
+"\n"
+"%1$s\n"
+"\n"
+"You can log in to the key master account with the following information:\n"
+"\n"
+"Username: %2$s\n"
+"Password: %3$s\n"
+"\n"
+"We hope you enjoy your new forums. Thanks!\n"
+"\n"
+"--The bbPress Team\n"
+"http://bbpress.org/"
+msgstr ""
+"Din nye bbPress-side er blevet installeret på:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Du kan nu logge ind på administratorkontoen med følgende informationer:\n"
+"\n"
+"Brugernavn: %2$s\n"
+"Kodeord: %3$s\n"
+"\n"
+"Vi håber, du kommer itl at nye dine nye fora. Tak!\n"
+"\n"
+"--Holdet bag bbPress\n"
+"http://bbpress.org/\n"
+
+# C:\Documents
+#: bb-admin/includes/class.bb-install.php:2167
+msgid "New bbPress installation"
+msgstr "Ny bbPress-installering"
+
+#: bb-admin/includes/class.bb-install.php:2168
+msgid "Key master email sent"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2170
+#: bb-admin/includes/class.bb-install.php:2171
+msgid "Key master email not sent!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2176
+msgid "Installation completed with some errors!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2177
+msgid "Your installation completed with some minor errors. See the error log below for more specific information."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2178
+msgid "There were some errors encountered during installation!"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2180
+#, fuzzy
+msgid "Your installation completed successfully."
+msgstr "Installation færdig!"
+
+#: bb-admin/includes/class.bb-install.php:2622
+msgid "Please select an existing bbPress Keymaster or WordPress administrator."
+msgstr ""
+
+#: bb-admin/includes/defaults.bb-schema.php:8
+msgid "Database class not loaded."
+msgstr "Databaseklasse blev ikke loadet."
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:55
+#: bb-admin/includes/functions.bb-admin.php:56
+#: bb-admin/index.php:46
+msgid "Dashboard"
+msgstr "Kontrolpanel"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:67
+#: bb-admin/includes/functions.bb-admin.php:68
+#: bb-admin/topics.php:87
+#: bb-templates/kakumei/forum.php:46
+#: bb-templates/kakumei/front-page.php:53
+msgid "Topics"
+msgstr "Emner"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:69
+#: bb-admin/includes/functions.bb-admin.php:70
+#: bb-admin/posts.php:81
+#: bb-admin/topics.php:188
+#: bb-admin/topics.php:198
+#: bb-templates/kakumei/favorites.php:17
+#: bb-templates/kakumei/forum.php:10
+#: bb-templates/kakumei/forum.php:47
+#: bb-templates/kakumei/front-page.php:18
+#: bb-templates/kakumei/front-page.php:54
+#: bb-templates/kakumei/stats.php:8
+#: bb-templates/kakumei/tag-single.php:12
+#: bb-templates/kakumei/view.php:10
+msgid "Posts"
+msgstr "Indlæg"
+
+#: bb-admin/includes/functions.bb-admin.php:79
+msgid "Appearance"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:80
+msgid "Themes"
+msgstr "Temaer"
+
+#: bb-admin/includes/functions.bb-admin.php:81
+msgid "Plugins"
+msgstr "Plugins"
+
+#: bb-admin/includes/functions.bb-admin.php:82
+#, fuzzy
+msgid "Installed"
+msgstr "Installeret i: %s"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:83
+#: bb-admin/includes/functions.bb-admin.php:84
+#: bb-admin/includes/functions.bb-admin.php:591
+msgid "Users"
+msgstr "Brugere"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:85
+#: bb-admin/tools-recount.php:68
+#, fuzzy
+msgid "Tools"
+msgstr "Tåber"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:86
+#: bb-admin/tools-recount.php:73
+#, fuzzy
+msgid "Re-count"
+msgstr "Tæl igen"
+
+#: bb-admin/includes/functions.bb-admin.php:87
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: bb-admin/includes/functions.bb-admin.php:88
+msgid "General"
+msgstr "Generelt"
+
+#: bb-admin/includes/functions.bb-admin.php:90
+msgid "Writing"
+msgstr ""
+
+#: bb-admin/includes/functions.bb-admin.php:91
+msgid "Reading"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:92
+#, fuzzy
+msgid "Discussion"
+msgstr "Seneste diskussioner"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:93
+#, fuzzy
+msgid "Permalinks"
+msgstr "helt permalink"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:94
+msgid "WordPress Integration"
+msgstr "WordPress-integration"
+
+#: bb-admin/includes/functions.bb-admin.php:236
+#: bb-admin/options-wordpress.php:249
+#: bb-includes/functions.bb-core.php:1117
+msgid "bbPress"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:415
+#: bb-admin/includes/functions.bb-admin.php:884
+#: bb-admin/includes/functions.bb-admin.php:1107
+#: bb-admin/topics.php:212
+#, fuzzy
+msgid "View"
+msgstr "Vis"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:418
+#: bb-admin/includes/functions.bb-admin.php:886
+#: bb-includes/functions.bb-core.php:846
+#: bb-includes/functions.bb-template.php:1943
+msgid "Edit"
+msgstr "Rediger"
+
+#: bb-admin/includes/functions.bb-admin.php:419
+#, php-format
+msgid "User ID: %d"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:433
+#: bb-admin/includes/functions.bb-admin.php:1141
+#: bb-admin/topics.php:231
+#: bb-admin/topics.php:240
+#, fuzzy, php-format
+msgid "%s ago"
+msgstr "Skrevet %s siden"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:443
+#, fuzzy
+msgid "Inactive (no role)"
+msgstr "Inaktiv"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:455
+#, fuzzy
+msgid "None"
+msgstr "om"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:523
+#: bb-admin/includes/functions.bb-admin.php:705
+#, fuzzy
+msgid "<strong>No matching users were found!</strong>"
+msgstr "Ingen matchende brugere blev fundet!"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:536
+#: bb-admin/posts.php:156
+#: bb-admin/topics.php:159
+#, fuzzy, php-format
+msgid "%1$s to %2$s of %3$s"
+msgstr "%1$s - %2$s"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:574
+#, php-format
+msgid "Users Matching \"%s\" by Role"
+msgstr "Brugere, der matcher \"%s\", efter rolle"
+
+#: bb-admin/includes/functions.bb-admin.php:584
+#: bb-admin/posts.php:88
+#: bb-admin/topics.php:94
+#, fuzzy, php-format
+msgid "containing &#8220;%s&#8221;"
+msgstr "i &#8220;%s&#8221;"
+
+#: bb-admin/includes/functions.bb-admin.php:585
+#, fuzzy, php-format
+msgid "with role &#8220;%s&#8221;"
+msgstr "med tagget &#8220;%s&#8221;"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:588
+#, fuzzy, php-format
+msgid "%1$s%2$s"
+msgstr "%1$s - %2$s"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:600
+#: bb-includes/class.bb-query.php:936
+#, fuzzy
+msgid "Search term"
+msgstr "Søg efter"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:604
+#: bb-admin/includes/functions.bb-admin.php:653
+#: bb-admin/includes/functions.bb-admin.php:667
+#, fuzzy
+msgid "Role"
+msgstr "Fjern"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:624
+#: bb-includes/class.bb-query.php:1019
+#: bb-templates/kakumei/rss2.php:18
+#: bb-templates/kakumei/search.php:3
+msgid "Search"
+msgstr "Søg"
+
+#: bb-admin/includes/functions.bb-admin.php:625
+#: bb-admin/posts.php:113
+#: bb-admin/topics.php:110
+#, fuzzy
+msgid "Filter"
+msgstr "Filtrer &#187;"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:645
+#: bb-admin/includes/functions.bb-admin.php:649
+#: bb-admin/includes/functions.bb-admin.php:659
+#: bb-admin/includes/functions.bb-admin.php:663
+#: bb-templates/kakumei/login-form.php:14
+#: bb-templates/kakumei/login.php:17
+#: bb-templates/kakumei/login.php:59
+#: bb-templates/kakumei/register.php:25
+msgid "Username"
+msgstr "Brugernavn"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:646
+#: bb-admin/includes/functions.bb-admin.php:650
+#: bb-admin/includes/functions.bb-admin.php:660
+#: bb-admin/includes/functions.bb-admin.php:664
+#: bb-admin/includes/functions.bb-admin.php:926
+#, fuzzy
+msgid "Name"
+msgstr "am"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:647
+#: bb-admin/includes/functions.bb-admin.php:661
+#, fuzzy
+msgid "E-mail"
+msgstr "E-mail"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:652
+#: bb-admin/includes/functions.bb-admin.php:666
+#, fuzzy
+msgid "Registered"
+msgstr "Registrer"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:888
+#: bb-admin/posts.php:116
+#: bb-admin/topics.php:124
+#: bb-admin/topics.php:215
+#: bb-includes/functions.bb-template.php:2000
+msgid "Delete"
+msgstr "Slet"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:915
+#, fuzzy
+msgid "Edit Forum"
+msgstr "Tilføj forum"
+
+#: bb-admin/includes/functions.bb-admin.php:916
+#: bb-admin/options-discussion.php:135
+#: bb-admin/options-general.php:236
+#: bb-admin/options-permalinks.php:164
+#: bb-admin/options-reading.php:61
+#: bb-admin/options-wordpress.php:183
+#: bb-admin/options-wordpress.php:303
+#: bb-admin/options-writing.php:78
+#: bb-plugins/akismet.php:95
+msgid "Save Changes"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:919
+#: bb-admin/includes/functions.bb-admin.php:920
+msgid "Add Forum"
+msgstr "Tilføj forum"
+
+#: bb-admin/includes/functions.bb-admin.php:930
+#, fuzzy
+msgid "Slug"
+msgstr "Plugin"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:934
+#: bb-admin/plugins.php:186
+#: bb-admin/plugins.php:192
+msgid "Description"
+msgstr "Beskrivelse"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:939
+#, fuzzy
+msgid "Parent"
+msgstr "Forumforælder:"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:951
+#, fuzzy
+msgid "Position"
+msgstr "Placering:"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:956
+#, fuzzy
+msgid "Category"
+msgstr "Forumadministratorer"
+
+#: bb-admin/includes/functions.bb-admin.php:960
+msgid "Make this forum a category"
+msgstr ""
+
+#: bb-admin/includes/functions.bb-admin.php:964
+msgid "Categories are forums where new topics cannot be created. Categories usually contain a group of sub-forums."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:1074
+#: xmlrpc.php:1700
+#: xmlrpc.php:2299
+#, fuzzy
+msgid "No posts found."
+msgstr "Ingen resultater fundet."
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:1082
+#: bb-admin/includes/functions.bb-admin.php:1091
+#: bb-templates/kakumei/post-form.php:32
+msgid "Post"
+msgstr "Indlæg"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:1083
+#: bb-admin/includes/functions.bb-admin.php:1092
+#: bb-admin/topics.php:187
+#: bb-admin/topics.php:197
+#, fuzzy
+msgid "Author"
+msgstr "time"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:1084
+#: bb-admin/includes/functions.bb-admin.php:1093
+#: bb-admin/topics.php:186
+#: bb-admin/topics.php:196
+#: bb-templates/kakumei/favorites.php:16
+#: bb-templates/kakumei/forum.php:9
+#: bb-templates/kakumei/front-page.php:17
+#: bb-templates/kakumei/tag-single.php:11
+#: bb-templates/kakumei/view.php:9
+msgid "Topic"
+msgstr "Emne:"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:1085
+#: bb-admin/includes/functions.bb-admin.php:1094
+#: bb-admin/topics.php:189
+#: bb-admin/topics.php:199
+#, fuzzy
+msgid "Date"
+msgstr "Slet"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:1161
+msgid "Count posts of every topic"
+msgstr "Tæl indlæg i hvert emne"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:1162
+#, fuzzy
+msgid "Count voices of every topic"
+msgstr "Tæl indlæg i hvert emne"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:1163
+msgid "Count deleted posts on every topic"
+msgstr "Tæl slettede indlæg i hvert emne"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:1164
+#, fuzzy
+msgid "Count topics and posts in every forum"
+msgstr "Tæl emner og indlæg i hvert forum (afhænger af ovenståede)"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:1165
+msgid "Count topics to which each user has replied"
+msgstr "Tæl de emner, som hver bruger har svaret på"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:1166
+msgid "Count tags for every topic"
+msgstr "Tæl tags for hvert emne"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:1167
+msgid "Count topics for every tag"
+msgstr "Tæl emner for hvert tag"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:1168
+#, fuzzy
+msgid "Delete tags with no topics"
+msgstr "Slettede tags uden emner."
+
+#: bb-admin/includes/functions.bb-admin.php:1169
+#, fuzzy
+msgid "Remove deleted topics from users' favorites"
+msgstr "Fjerner slettede emner fra brugers favoritter..."
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:1239
+#: bb-admin/includes/functions.bb-plugin.php:307
+msgid "Visit author homepage"
+msgstr "Besøg forfatterens hjemmeside"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-admin.php:1249
+msgid "Visit porter homepage"
+msgstr "Besøg porterens hjemmeside"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-plugin.php:304
+#: bb-admin/plugins.php:228
+#, fuzzy
+msgid "Visit plugin site"
+msgstr "Besøg plugin-hjemmeside"
+
+#: bb-admin/includes/functions.bb-plugin.php:430
+msgid "Invalid plugin path."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-plugin.php:434
+#, fuzzy
+msgid "Plugin file does not exist."
+msgstr "Dette brugernavn eksisterer ikke"
+
+#: bb-admin/includes/functions.bb-plugin.php:437
+msgid "That type of plugin is not available in the specified location."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-recount.php:7
+#, fuzzy, php-format
+msgid "Counting the number of posts in each topic&hellip; %s"
+msgstr "Tæl tåbelige indlæg i hvert emne"
+
+#: bb-admin/includes/functions.bb-recount.php:8
+#: bb-admin/includes/functions.bb-recount.php:24
+#: bb-admin/includes/functions.bb-recount.php:45
+#: bb-admin/includes/functions.bb-recount.php:66
+#: bb-admin/includes/functions.bb-recount.php:82
+#: bb-admin/includes/functions.bb-recount.php:98
+#: bb-admin/includes/functions.bb-recount.php:220
+#, fuzzy
+msgid "Failed!"
+msgstr "Filtrer &#187;"
+
+#: bb-admin/includes/functions.bb-recount.php:15
+#: bb-admin/includes/functions.bb-recount.php:36
+#: bb-admin/includes/functions.bb-recount.php:57
+#: bb-admin/includes/functions.bb-recount.php:73
+#: bb-admin/includes/functions.bb-recount.php:89
+#: bb-admin/includes/functions.bb-recount.php:133
+#: bb-admin/includes/functions.bb-recount.php:266
+msgid "Complete!"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-recount.php:23
+#, fuzzy, php-format
+msgid "Counting the number of voices in each topic&hellip; %s"
+msgstr "Tæl tåbelige indlæg i hvert emne"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-recount.php:44
+#, fuzzy, php-format
+msgid "Counting the number of deleted posts in each topic&hellip; %s"
+msgstr "Tæl tåbelige indlæg i hvert emne"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-recount.php:65
+#, fuzzy, php-format
+msgid "Counting the number of topics in each forum&hellip; %s"
+msgstr "Tæl tåbelige indlæg i hvert emne"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-recount.php:81
+#, fuzzy, php-format
+msgid "Counting the number of posts in each forum&hellip; %s"
+msgstr "Tæl tåbelige indlæg i hvert emne"
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-recount.php:97
+#, fuzzy, php-format
+msgid "Counting the number of topics to which each user has replied&hellip; %s"
+msgstr "Tæller emner, som hver bruger har svaret på..."
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-recount.php:149
+#, fuzzy
+msgid "Counted topic tags"
+msgstr "Tæller emne-tags..."
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-recount.php:174
+#, fuzzy
+msgid "Counted tagged topics"
+msgstr "Tæller taggede emner..."
+
+# C:\Documents
+#: bb-admin/includes/functions.bb-recount.php:199
+#, fuzzy
+msgid "Deleted tags with no topics"
+msgstr "Slettede tags uden emner."
+
+#: bb-admin/includes/functions.bb-recount.php:219
+#, fuzzy, php-format
+msgid "Removing deleted topics from user favorites&hellip; %s"
+msgstr "Fjerner slettede emner fra brugers favoritter..."
+
+#: bb-admin/index.php:6
+#, php-format
+msgid "<span>%d</span> forum"
+msgid_plural "<span>%d</span> forums"
+msgstr[0] ""
+msgstr[1] ""
+
+#: bb-admin/index.php:9
+#: bb-admin/index.php:21
+#, php-format
+msgid "<span>%d</span> topic"
+msgid_plural "<span>%d</span> topics"
+msgstr[0] ""
+msgstr[1] ""
+
+#: bb-admin/index.php:12
+#: bb-admin/index.php:24
+#, php-format
+msgid "<span>%d</span> post"
+msgid_plural "<span>%d</span> posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: bb-admin/index.php:15
+#: bb-admin/index.php:27
+#, php-format
+msgid "<span>%d</span> user"
+msgid_plural "<span>%d</span> users"
+msgstr[0] ""
+msgstr[1] ""
+
+#: bb-admin/index.php:18
+#: bb-admin/index.php:30
+#, php-format
+msgid "<span>%d</span> tag"
+msgid_plural "<span>%d</span> tags"
+msgstr[0] ""
+msgstr[1] ""
+
+#: bb-admin/index.php:50
+msgid "Right Now"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/index.php:55
+#, fuzzy
+msgid "Totals"
+msgstr "Tags"
+
+# C:\Documents
+#: bb-admin/index.php:56
+#, fuzzy
+msgid "Per Day"
+msgstr "Indlæg pr. dag"
+
+# C:\Documents
+#: bb-admin/index.php:81
+#, fuzzy
+msgid "Change Theme"
+msgstr "Hovedtema"
+
+# C:\Documents
+#: bb-admin/index.php:81
+#, fuzzy, php-format
+msgid "Theme <a href=\"%1$s\">%2$s</a>"
+msgstr "Tilbage til <a href=\"%s\">%s</a>."
+
+#: bb-admin/index.php:82
+#, php-format
+msgid "You are using <span class=\"b\">bbPress %s</span>"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/index.php:87
+#, fuzzy
+msgid "Recently Moderated Items"
+msgstr "Modereret for nylig"
+
+# C:\Documents
+#: bb-admin/index.php:95
+#, fuzzy, php-format
+msgid "<a href=\"%1$s\">Post</a> on <a href=\"%2$s\">%3$s</a> by <a href=\"%4$s\">%5$s</a>"
+msgstr "<a href=\"%1$s\">Registrér</a> eller log ind"
+
+#: bb-admin/index.php:108
+#, php-format
+msgid "Topic titled <a href=\"%1$s\">%2$s</a> started by <a href=\"%3$s\">%4$s</a>"
+msgstr ""
+
+#: bb-admin/index.php:120
+msgid "No moderated posts or topics&#8230; you must have very well behaved members."
+msgstr ""
+
+#: bb-admin/install.php:167
+#: bb-admin/options-wordpress.php:197
+msgid "Cookies"
+msgstr ""
+
+#: bb-admin/install.php:168
+msgid "Integrating cookies allows you and your users to login to either your bbPress or your WordPress site and be automatically logged into both."
+msgstr ""
+
+#: bb-admin/install.php:169
+msgid "You may need to make changes to your WordPress configuration once installation is complete. See the \"WordPress Integration\" section of the bbPress administration area when you are done."
+msgstr ""
+
+#: bb-admin/install.php:189
+#: bb-admin/options-wordpress.php:271
+msgid "User database"
+msgstr ""
+
+#: bb-admin/install.php:190
+msgid "Integrating your WordPress database user tables allows you to store user data in one location, instead of having separate user data for both bbPress and WordPress."
+msgstr ""
+
+#: bb-admin/install.php:199
+#: bb-admin/options-wordpress.php:290
+msgid "Separate user database settings"
+msgstr ""
+
+#: bb-admin/install.php:200
+#: bb-admin/options-wordpress.php:291
+msgid "Most of the time these settings are <em>not</em> required. Look before you leap!"
+msgstr ""
+
+#: bb-admin/install.php:201
+msgid "If required, then all settings except for the character set must be specified."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/install.php:212
+#: bb-admin/options-wordpress.php:296
+#, fuzzy
+msgid "Custom user tables"
+msgstr "Selvvalgt titel"
+
+#: bb-admin/install.php:213
+msgid "Only set these options if your integrated user tables do not fit the usual mould of <em>wp_user</em> and <em>wp_usermeta</em>."
+msgstr ""
+
+#: bb-admin/install.php:357
+msgid "You can now log in with the following details:"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/install.php:363
+#, fuzzy
+msgid "Site address:"
+msgstr "E-mail adresse:"
+
+# C:\Documents
+#: bb-admin/install.php:369
+#, fuzzy
+msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you. If you lose it, you will have to delete the tables from the database yourself, and re-install bbPress."
+msgstr "<strong><em>Læg godt mærke til kodeordet!</em></strong> Det er et <em>tilfældigt</em> kodeord, som blev lavet kun til dig. Hvis du mister det, bliver du nødt til selv at slette tabellerne i databasen og geninstallere bbPress. Så for at gense:"
+
+#: bb-admin/options-discussion.php:42
+#: bb-admin/options-general.php:31
+#: bb-admin/options-reading.php:28
+#: bb-admin/options-writing.php:33
+#: bb-plugins/akismet.php:147
+#, fuzzy
+msgid "<strong>Settings saved.</strong>"
+msgstr "Plugin <strong>deaktiveret</strong>"
+
+#: bb-admin/options-discussion.php:47
+msgid "Enable Pingbacks"
+msgstr ""
+
+#: bb-admin/options-discussion.php:50
+msgid "Allow link notifications from other sites."
+msgstr ""
+
+#: bb-admin/options-discussion.php:55
+msgid "Enable Login-less Posting"
+msgstr ""
+
+#: bb-admin/options-discussion.php:58
+msgid "Allow users to create topics and posts without logging in."
+msgstr ""
+
+#: bb-admin/options-discussion.php:67
+msgid "Avatar display"
+msgstr ""
+
+#: bb-admin/options-discussion.php:70
+msgid "Don&#8217;t show avatars"
+msgstr ""
+
+#: bb-admin/options-discussion.php:71
+msgid "Show avatars"
+msgstr ""
+
+#: bb-admin/options-discussion.php:75
+msgid "Maximum rating"
+msgstr ""
+
+#: bb-admin/options-discussion.php:78
+msgid "G &#8212; Suitable for all audiences"
+msgstr ""
+
+#: bb-admin/options-discussion.php:79
+msgid "PG &#8212; Possibly offensive, usually for audiences 13 and above"
+msgstr ""
+
+#: bb-admin/options-discussion.php:80
+msgid "R &#8212; Intended for adult audiences above 17"
+msgstr ""
+
+#: bb-admin/options-discussion.php:81
+msgid "X &#8212; Even more mature than above"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/options-discussion.php:85
+#, fuzzy
+msgid "Default avatar"
+msgstr "Slet"
+
+#: bb-admin/options-discussion.php:88
+msgid "Mystery Man"
+msgstr ""
+
+#: bb-admin/options-discussion.php:89
+msgid "Blank"
+msgstr ""
+
+#: bb-admin/options-discussion.php:90
+msgid "Gravatar Logo"
+msgstr ""
+
+#: bb-admin/options-discussion.php:91
+msgid "Identicon (Generated)"
+msgstr ""
+
+#: bb-admin/options-discussion.php:92
+msgid "Wavatar (Generated)"
+msgstr ""
+
+#: bb-admin/options-discussion.php:93
+msgid "MonsterID  (Generated)"
+msgstr ""
+
+#: bb-admin/options-discussion.php:96
+msgid "For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their e-mail address."
+msgstr ""
+
+#: bb-admin/options-discussion.php:110
+msgid "Discussion Settings"
+msgstr ""
+
+#: bb-admin/options-discussion.php:122
+msgid "Avatars"
+msgstr ""
+
+#: bb-admin/options-discussion.php:124
+msgid "bbPress includes built-in support for <a href=\"http://gravatar.com/\">Gravatars</a>. A Gravatar is an image that follows you from site to site, appearing beside your name when you comment on Gravatar enabled sites. Here you can enable the display of Gravatars on your site."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/options-general.php:36
+#, fuzzy
+msgid "Site title"
+msgstr "Emne med titlen"
+
+# C:\Documents
+#: bb-admin/options-general.php:40
+#, fuzzy
+msgid "Tagline"
+msgstr "Tag"
+
+#: bb-admin/options-general.php:42
+msgid "In a few words, explain what this site is about."
+msgstr ""
+
+#: bb-admin/options-general.php:45
+#, fuzzy
+msgid "bbPress address (URL)"
+msgstr "WordPress-adresse (URL):"
+
+#: bb-admin/options-general.php:47
+msgid "The full URL of your bbPress install."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/options-general.php:50
+#, fuzzy
+msgid "E-mail address"
+msgstr "E-mail adresse:"
+
+#: bb-admin/options-general.php:51
+msgid "This address is used for admin purposes, like new user notification."
+msgstr ""
+
+#: bb-admin/options-general.php:57
+#: bb-admin/options-general.php:161
+msgid "Time zone"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/options-general.php:116
+msgid "hours"
+msgstr "timer"
+
+#: bb-admin/options-general.php:119
+msgid "Date and time format"
+msgstr ""
+
+#: bb-admin/options-general.php:124
+msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>."
+msgstr ""
+
+#: bb-admin/options-general.php:125
+msgid "Click \"Save Changes\" to update sample output."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/options-general.php:129
+#, fuzzy
+msgid "Date format"
+msgstr "Opdater forum"
+
+#: bb-admin/options-general.php:165
+msgid "Choose a city in the same time zone as you."
+msgstr ""
+
+#: bb-admin/options-general.php:166
+#: bb-admin/options-general.php:201
+#, php-format
+msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is <code>%s</code>"
+msgstr ""
+
+#: bb-admin/options-general.php:167
+#, php-format
+msgid "Local time is <code>%s</code>"
+msgstr ""
+
+#: bb-admin/options-general.php:174
+msgid "This time zone is currently in daylight savings time."
+msgstr ""
+
+#: bb-admin/options-general.php:176
+msgid "This time zone is currently in standard time."
+msgstr ""
+
+#: bb-admin/options-general.php:184
+#, php-format
+msgid "Daylight savings time begins on <code>%s</code>"
+msgstr ""
+
+#: bb-admin/options-general.php:184
+#, php-format
+msgid "Standard time begins on <code>%s</code>"
+msgstr ""
+
+#: bb-admin/options-general.php:196
+#, php-format
+msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> %s is <code>%s</code>"
+msgstr ""
+
+#: bb-admin/options-general.php:197
+msgid "Unfortunately, you have to manually update this for Daylight Savings Time."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/options-general.php:206
+#: bb-includes/backpress/functions.core.php:985
+#, fuzzy, php-format
+msgid "UTC %s"
+msgstr "Tag: %s"
+
+#: bb-admin/options-general.php:219
+msgid "General Settings"
+msgstr ""
+
+#: bb-admin/options-permalinks.php:111
+msgid "<strong>It appears that your server does not support custom permalink structures.</strong>"
+msgstr ""
+
+#: bb-admin/options-permalinks.php:116
+msgid "<strong>Rewriting on webservers other than Apache using mod_rewrite is currently unsupported, but we won&#8217;t stop you from trying.</strong>"
+msgstr ""
+
+#: bb-admin/options-permalinks.php:121
+msgid "<strong>You should update your .htaccess now.</strong>"
+msgstr ""
+
+#: bb-admin/options-permalinks.php:123
+msgid "<strong>Permalink structure updated.</strong>"
+msgstr ""
+
+#: bb-admin/options-permalinks.php:129
+msgid "Permalink type"
+msgstr ""
+
+#: bb-admin/options-permalinks.php:132
+#, php-format
+msgid "<span>None</span> <code>%s</code>"
+msgstr ""
+
+#: bb-admin/options-permalinks.php:133
+#, php-format
+msgid "<span>Numeric</span> <code>%s</code>"
+msgstr ""
+
+#: bb-admin/options-permalinks.php:134
+#, php-format
+msgid "<span>Name based</span> <code>%s</code>"
+msgstr ""
+
+#: bb-admin/options-permalinks.php:147
+#, fuzzy
+msgid "Permalink Settings"
+msgstr "Tilføj integrationsindstillinger"
+
+#: bb-admin/options-permalinks.php:153
+msgid "By default bbPress uses web URLs which have question marks and lots of numbers in them, however bbPress offers you the ability to choose an alternative URL structure for your permalinks. This can improve the aesthetics, usability, and forward-compatibility of your links."
+msgstr ""
+
+#: bb-admin/options-permalinks.php:174
+msgid "If your <code>.htaccess</code> file were <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so these are the mod_rewrite rules you should have in your <code>.htaccess</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all."
+msgstr ""
+
+#: bb-admin/options-reading.php:33
+msgid "Items per page"
+msgstr ""
+
+#: bb-admin/options-reading.php:35
+msgid "Number of topics, posts or tags to show per page."
+msgstr ""
+
+#: bb-admin/options-reading.php:47
+#, fuzzy
+msgid "Reading Settings"
+msgstr "Indstillinger"
+
+#: bb-admin/options-wordpress.php:45
+msgid "<strong>User role mapping saved.</strong>"
+msgstr ""
+
+#: bb-admin/options-wordpress.php:48
+#, fuzzy
+msgid "<strong>User integration settings saved.</strong>"
+msgstr "Tilføj integrationsindstillinger:"
+
+#: bb-admin/options-wordpress.php:54
+msgid "none|no bbPress role"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/options-wordpress.php:58
+#, fuzzy
+msgid "WordPress Administrator"
+msgstr "Forumadministratorer"
+
+# C:\Documents
+#: bb-admin/options-wordpress.php:59
+#, fuzzy
+msgid "WordPress Editor"
+msgstr "WordPress-integration"
+
+# C:\Documents
+#: bb-admin/options-wordpress.php:60
+#, fuzzy
+msgid "WordPress Author"
+msgstr "WordPress-integration"
+
+# C:\Documents
+#: bb-admin/options-wordpress.php:61
+#, fuzzy
+msgid "WordPress Contributor"
+msgstr "WordPress-integration"
+
+#: bb-admin/options-wordpress.php:62
+msgid "WordPress Subscriber"
+msgstr ""
+
+#: bb-admin/options-wordpress.php:78
+msgid "This must match the value of the WordPress setting named \"auth_salt\" in your WordPress site. Look for the option labeled \"auth_salt\" in <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:82
+msgid "This must match the value of the WordPress setting named \"secure_auth_salt\" in your WordPress site. Look for the option labeled \"secure_auth_salt\" in <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. Sometimes this value is not set in WordPress, in that case you can leave this setting blank as well."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:86
+msgid "This must match the value of the WordPress setting named \"logged_in_salt\" in your WordPress site. Look for the option labeled \"logged_in_salt\" in <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:93
+#, php-format
+msgid "You have defined the \"%s\" constant which locks this setting."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:170
+#, fuzzy
+msgid "WordPress Integration Settings"
+msgstr "Gem WordPress-integrationsindstillinger"
+
+# C:\Documents
+#: bb-admin/options-wordpress.php:175
+#, fuzzy
+msgid "User Role Map"
+msgstr "Opdater profil &raquo;"
+
+#: bb-admin/options-wordpress.php:176
+msgid "Here you can match WordPress roles to bbPress roles."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:177
+msgid "This will have no effect until your user tables are integrated below. Only standard WordPress roles are supported. Changes do not affect users with existing roles in both WordPress and bbPress."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/options-wordpress.php:190
+#, fuzzy
+msgid "User Integration"
+msgstr "Brugerregistreringer"
+
+#: bb-admin/options-wordpress.php:191
+msgid "Usually, you will have to specify both cookie integration and user database integration settings. Make sure you have a \"User role map\" setup above before trying to add user integration."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:192
+msgid "<em><strong>Note:</strong> changing the settings below may cause you to be logged out!</em>"
+msgstr ""
+
+#: bb-admin/options-wordpress.php:198
+msgid "Cookie sharing allows users to log in to either your bbPress or your WordPress site, and have access to both."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:242
+#, php-format
+msgid "To complete cookie integration, you will need to add some settings to your <code>wp-config.php</code> file in the root directory of your WordPress installation. To get those settings, you will need to install and configure the <a href=\"%s\">\"bbPress Integration\" plugin for WordPress</a>."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:243
+msgid "You will also have to manually ensure that the following constants are equivalent in WordPress' and bbPress' respective config files."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/options-wordpress.php:247
+#, fuzzy
+msgid "WordPress"
+msgstr "WordPress-integration"
+
+#: bb-admin/options-wordpress.php:272
+msgid "User database sharing allows you to store user data in your WordPress database."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:273
+msgid "You should setup a \"User role map\" before"
+msgstr ""
+
+#: bb-admin/options-wordpress.php:292
+msgid "All settings except for the character set must be specified."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:297
+msgid "Only set these values if your user tables differ from the default WordPress naming convention."
+msgstr ""
+
+#: bb-admin/options-writing.php:38
+msgid "Lock post editing after"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/options-writing.php:40
+msgid "minutes"
+msgstr "minutter"
+
+#: bb-admin/options-writing.php:41
+msgid "A user can edit a post for this many minutes after submitting."
+msgstr ""
+
+#: bb-admin/options-writing.php:47
+msgid "XML-RPC"
+msgstr ""
+
+#: bb-admin/options-writing.php:50
+msgid "Enable the bbPress XML-RPC publishing protocol."
+msgstr ""
+
+#: bb-admin/options-writing.php:63
+#, fuzzy
+msgid "Writing Settings"
+msgstr "Sideindstillinger"
+
+#: bb-admin/options-writing.php:69
+msgid "Remote Publishing"
+msgstr ""
+
+#: bb-admin/options-writing.php:71
+msgid "To interact with bbPress from a desktop client or remote website that uses the XML-RPC publishing interface you must enable it below."
+msgstr ""
+
+#: bb-admin/plugins.php:121
+#, fuzzy
+msgid "<strong>Plugin could not be activated, it produced a Fatal Error</strong>. The error is shown below."
+msgstr "Plugin kunne ikke blive aktiveret; det producerede en <strong>Fatal Error</strong>."
+
+#: bb-admin/plugins.php:125
+#, fuzzy, php-format
+msgid "<strong>\"%s\" plugin activated</strong>"
+msgstr "Plugin <strong>aktiveret</strong>"
+
+#: bb-admin/plugins.php:129
+#, fuzzy, php-format
+msgid "<strong>\"%s\" plugin deactivated</strong>"
+msgstr "Plugin <strong>deaktiveret</strong>"
+
+#: bb-admin/plugins.php:135
+msgid "<strong>\"Safe mode\" is on, all plugins are disabled even if they are listed as active.</strong>"
+msgstr ""
+
+#: bb-admin/plugins.php:145
+#, fuzzy
+msgid "Manage Plugins"
+msgstr "Plugins"
+
+#: bb-admin/plugins.php:172
+#, php-format
+msgid "All <span class=\"count\">(%d)</span>"
+msgstr ""
+
+#: bb-admin/plugins.php:173
+#, php-format
+msgid "Active <span class=\"count\">(%d)</span>"
+msgstr ""
+
+#: bb-admin/plugins.php:174
+#, php-format
+msgid "Inactive <span class=\"count\">(%d)</span>"
+msgstr ""
+
+#: bb-admin/plugins.php:175
+#, php-format
+msgid "Autoloaded <span class=\"count\">(%d)</span>"
+msgstr ""
+
+#: bb-admin/plugins.php:185
+#: bb-admin/plugins.php:191
+msgid "Plugin"
+msgstr "Plugin"
+
+# C:\Documents
+#: bb-admin/plugins.php:202
+#: bb-admin/themes.php:96
+#, fuzzy
+msgid "Activate"
+msgstr "Inaktiv"
+
+# C:\Documents
+#: bb-admin/plugins.php:209
+#, fuzzy
+msgid "Deactivate"
+msgstr "Inaktiv"
+
+#: bb-admin/plugins.php:227
+#, fuzzy, php-format
+msgid "By %s"
+msgstr "Af %s."
+
+#: bb-admin/plugins.php:239
+msgid "Autoloaded"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/plugins.php:258
+#, fuzzy
+msgid "No plugins found."
+msgstr "Ingen emner fundet"
+
+#: bb-admin/posts.php:41
+#, fuzzy, php-format
+msgid "<strong>Post undeleted.</strong>"
+msgid_plural "<strong>%s posts undeleted.</strong>"
+msgstr[0] "Plugin <strong>deaktiveret</strong>"
+msgstr[1] "Plugin <strong>deaktiveret</strong>"
+
+#: bb-admin/posts.php:44
+#, fuzzy, php-format
+msgid "<strong>Post deleted.</strong>"
+msgid_plural "<strong>%s posts deleted.</strong>"
+msgstr[0] "Plugin <strong>aktiveret</strong>"
+msgstr[1] "Plugin <strong>aktiveret</strong>"
+
+#: bb-admin/posts.php:47
+#, fuzzy, php-format
+msgid "<strong>Post spammed.</strong>"
+msgid_plural "<strong>%s posts spammed.</strong>"
+msgstr[0] "Plugin <strong>aktiveret</strong>"
+msgstr[1] "Plugin <strong>aktiveret</strong>"
+
+#: bb-admin/posts.php:50
+#, php-format
+msgid "<strong>Post removed from spam.</strong> It is now a normal post."
+msgid_plural "<strong>%s posts removed from spam.</strong> They are now normal posts."
+msgstr[0] ""
+msgstr[1] ""
+
+#: bb-admin/posts.php:53
+#, php-format
+msgid "<strong>Post removed from spam.</strong> It is now a deleted post."
+msgid_plural "<strong>%s posts removed from spam.</strong> They are nowdeleted posts."
+msgstr[0] ""
+msgstr[1] ""
+
+# C:\Documents
+#: bb-admin/posts.php:70
+#: bb-admin/topics.php:72
+msgid "Now how'd you get here?  And what did you think you'd being doing?"
+msgstr "Æhh, hvordan kom du hertil? Og hvad havde du tænkt dig at lave her?"
+
+#: bb-admin/posts.php:89
+#: bb-admin/topics.php:95
+#, php-format
+msgid "in &#8220;%s&#8221;"
+msgstr "i &#8220;%s&#8221;"
+
+#: bb-admin/posts.php:90
+#: bb-admin/topics.php:96
+#, php-format
+msgid "with tag &#8220;%s&#8221;"
+msgstr "med tagget &#8220;%s&#8221;"
+
+#: bb-admin/posts.php:91
+#: bb-admin/topics.php:97
+#, php-format
+msgid "by %s"
+msgstr "af %s"
+
+# C:\Documents
+#: bb-admin/posts.php:95
+#, fuzzy, php-format
+msgid "from IP address %s"
+msgstr "E-mail adresse:"
+
+#: bb-admin/posts.php:103
+#, php-format
+msgid "%1$s%2$s%3$s%4$s%5$s"
+msgstr "%1$s%2$s%3$s%4$s%5$s"
+
+# C:\Documents
+#: bb-admin/posts.php:117
+#: bb-admin/topics.php:125
+#: bb-admin/topics.php:215
+#: bb-includes/functions.bb-template.php:2070
+msgid "Undelete"
+msgstr "Gendan"
+
+# C:\Documents
+#: bb-admin/posts.php:142
+#: bb-admin/topics.php:145
+#, fuzzy
+msgid "Bulk Actions"
+msgstr "Handlinger"
+
+# C:\Documents
+#: bb-admin/posts.php:148
+#: bb-admin/topics.php:151
+#, fuzzy
+msgid "Apply"
+msgstr "april"
+
+# C:\Documents
+#: bb-admin/posts.php:167
+#: bb-admin/topics.php:170
+#, fuzzy
+msgid "&laquo;"
+msgstr "Tilføj &raquo;"
+
+# C:\Documents
+#: bb-admin/posts.php:168
+#: bb-admin/topics.php:171
+#, fuzzy
+msgid "&raquo;"
+msgstr "Tilføj &raquo;"
+
+# C:\Documents
+#: bb-admin/tag-destroy.php:5
+#: bb-admin/tag-merge.php:5
+#: bb-admin/tag-rename.php:5
+msgid "You are not allowed to manage tags."
+msgstr "Du har ikke lov til at håndtere tags."
+
+# C:\Documents
+#: bb-admin/tag-destroy.php:13
+#: bb-admin/tag-rename.php:14
+msgid "Tag not found."
+msgstr "Tag ikke fundet."
+
+# C:\Documents
+#: bb-admin/tag-destroy.php:16
+#, php-format
+msgid "Rows deleted from tags table: %d <br />\n"
+msgstr "Rækker slettet fra tag-tabellen: %d <br />\n"
+
+# C:\Documents
+#: bb-admin/tag-destroy.php:17
+#, php-format
+msgid "Rows deleted from tagged table: %d <br />\n"
+msgstr "Rækker slettet fra tagget tabel: %d <br />\n"
+
+# C:\Documents
+#: bb-admin/tag-destroy.php:18
+#, php-format
+msgid "<a href=\"%s\">Home</a>"
+msgstr "<a href=\"%s\">Hjem</a>"
+
+# C:\Documents
+#: bb-admin/tag-destroy.php:20
+#, php-format
+msgid ""
+"Something odd happened when attempting to destroy that tag.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"Der skete noget mærkeligt, da tagget skulle ødelægges.<br />\n"
+"<a href=\"%s\">Prøv igen?</a>"
+
+# C:\Documents
+#: bb-admin/tag-merge.php:13
+msgid "Tag specified not found."
+msgstr "Det angivne tag blev ikke fundet."
+
+# C:\Documents
+#: bb-admin/tag-merge.php:16
+msgid "Tag to be merged not found."
+msgstr "Tagget, der skulle flettes, blev ikke fundet."
+
+# C:\Documents
+#: bb-admin/tag-merge.php:19
+#, php-format
+msgid "Number of topics from which the old tag was removed: %d <br />\n"
+msgstr "Antal emner som det gamle tag blev fjernet fra: %d <br />\n"
+
+# C:\Documents
+#: bb-admin/tag-merge.php:20
+#, php-format
+msgid "Number of topics to which the new tag was added: %d <br />\n"
+msgstr "Antal emner som det nye tag blev tilføjet til: %d <br />\n"
+
+# C:\Documents
+#: bb-admin/tag-merge.php:21
+#, php-format
+msgid "Number of rows deleted from tags table:%d <br />\n"
+msgstr "Antal rækker fra tag-tabellen, som blev slettet: %d <br />\n"
+
+# C:\Documents
+#: bb-admin/tag-merge.php:22
+#, php-format
+msgid "<a href=\"%s\">New Tag</a>"
+msgstr "<a href=\"%s\">Nyt tag</a>"
+
+# C:\Documents
+#: bb-admin/tag-merge.php:24
+#, php-format
+msgid ""
+"Something odd happened when attempting to merge those tags.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"Der skete noget mærkeligt da vi forsøgte at flette de tags.<br />\n"
+"<a href=\"%s\">Prøv igen?</a>"
+
+# C:\Documents
+#: bb-admin/tag-rename.php:20
+#, php-format
+msgid "There already exists a tag by that name or the name is invalid. <a href=\"%s\">Try Again</a>"
+msgstr "Et tag med det navn eksisterer allerede eller navnet er ugyldigt. <a href=\"%s\">Prøv igen</a>"
+
+#: bb-admin/themes.php:38
+#, fuzzy, php-format
+msgid "<strong>Theme \"%s\" activated</strong>"
+msgstr "Plugin <strong>aktiveret</strong>"
+
+#: bb-admin/themes.php:43
+#, fuzzy
+msgid "<strong>Default theme is missing.</strong>"
+msgstr "Standardtemaet mangler."
+
+#: bb-admin/themes.php:47
+#, fuzzy
+msgid "<strong>Theme not found.  Default theme applied.</strong>"
+msgstr "Tema ikke fundet. Standarstema aktiveret."
+
+# C:\Documents
+#: bb-admin/themes.php:63
+#: bb-admin/themes.php:96
+#, fuzzy, php-format
+msgid "Activate \"%s\""
+msgstr "Inaktiv"
+
+#: bb-admin/themes.php:68
+#, fuzzy, php-format
+msgid "%1$s %2$s by <cite>%3$s</cite>"
+msgstr "af <cite>%s</cite>"
+
+#: bb-admin/themes.php:82
+#, fuzzy, php-format
+msgid "Ported by <cite>%s</cite>"
+msgstr ", porteret af <cite>%s</cite>"
+
+#: bb-admin/themes.php:101
+#, php-format
+msgid "All of this theme's files are located in the \"%s\" themes directory."
+msgstr ""
+
+#: bb-admin/themes.php:112
+msgid "<strong>\"Safe mode\" is on, the default theme will be used instead of the active theme indicated below.</strong>"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/themes.php:120
+#, fuzzy
+msgid "Manage Themes"
+msgstr "Hovedtema"
+
+# C:\Documents
+#: bb-admin/themes.php:123
+msgid "Current Theme"
+msgstr "Nuværende tema"
+
+# C:\Documents
+#: bb-admin/themes.php:132
+msgid "Available Themes"
+msgstr "Tilgængelige temaer"
+
+#: bb-admin/tools-recount.php:74
+msgid "To minimize database queries, bbPress keeps it's own count of various items like posts in each topic and topics in each forum. Occasionally these internal counters may become incorrect, you can manually re-count these items using this form."
+msgstr ""
+
+#: bb-admin/tools-recount.php:75
+msgid "You can also clean out some stale items here, like empty tags."
+msgstr ""
+
+#: bb-admin/tools-recount.php:82
+msgid "Items to re-count"
+msgstr ""
+
+#: bb-admin/tools-recount.php:95
+msgid "There are no re-count tools available."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/tools-recount.php:102
+#, fuzzy
+msgid "Recount Items"
+msgstr "Tæl igen"
+
+# C:\Documents
+#: bb-admin/topic-move.php:8
+msgid "Invalid topic or forum."
+msgstr "Ugyldigt emne eller forum."
+
+# C:\Documents
+#: bb-admin/topic-move.php:21
+msgid "Your topic or forum caused all manner of confusion"
+msgstr "Dit emne eller forum skabte en frygtelig masse forvirring"
+
+#: bb-admin/topics.php:53
+#, fuzzy, php-format
+msgid "<strong>Topic undeleted.</strong>"
+msgid_plural "<strong>%s topics undeleted.</strong>"
+msgstr[0] "Plugin <strong>deaktiveret</strong>"
+msgstr[1] "Plugin <strong>deaktiveret</strong>"
+
+#: bb-admin/topics.php:56
+#, fuzzy, php-format
+msgid "<strong>Topic deleted.</strong>"
+msgid_plural "<strong>%s topics deleted.</strong>"
+msgstr[0] "Plugin <strong>deaktiveret</strong>"
+msgstr[1] "Plugin <strong>deaktiveret</strong>"
+
+#: bb-admin/topics.php:59
+#, php-format
+msgid "<strong>Topic opened.</strong>"
+msgid_plural "<strong>%s topics opened.</strong>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: bb-admin/topics.php:62
+#, fuzzy, php-format
+msgid "<strong>Topic closed.</strong>"
+msgid_plural "<strong>%s topics closed.</strong>"
+msgstr[0] "Plugin <strong>aktiveret</strong>"
+msgstr[1] "Plugin <strong>aktiveret</strong>"
+
+#: bb-admin/topics.php:102
+#, fuzzy, php-format
+msgid "%1$s%2$s%3$s%4$s"
+msgstr "%1$s%2$s%3$s%4$s%5$s"
+
+# C:\Documents
+#: bb-admin/topics.php:116
+#: xmlrpc.php:1369
+#: xmlrpc.php:2761
+#: xmlrpc.php:3072
+#, fuzzy
+msgid "No topics found."
+msgstr "Ingen emner fundet"
+
+#: bb-admin/topics.php:126
+#, fuzzy
+msgid "Open"
+msgstr "Åben"
+
+# C:\Documents
+#: bb-admin/topics.php:127
+#: bb-admin/topics.php:214
+#, fuzzy
+msgid "Close"
+msgstr "Lukket"
+
+# C:\Documents
+#: bb-admin/topics.php:190
+#: bb-admin/topics.php:200
+#: bb-templates/kakumei/favorites.php:20
+#: bb-templates/kakumei/forum.php:13
+#: bb-templates/kakumei/front-page.php:21
+#: bb-templates/kakumei/tag-single.php:15
+#: bb-templates/kakumei/view.php:13
+msgid "Freshness"
+msgstr "Friskhed"
+
+#: bb-admin/topics.php:214
+#, fuzzy
+msgctxt "action"
+msgid "Open"
+msgstr "Åben"
+
+# C:\Documents
+#: bb-admin/topics.php:235
+#, fuzzy, php-format
+msgid "Last post by %s"
+msgstr "Sidste 30 indlæg"
+
+#: bb-admin/upgrade.php:49
+msgid "Beginning upgrade&hellip;"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/upgrade.php:53
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:600
+#, fuzzy
+msgid "Done"
+msgstr "om"
+
+# C:\Documents
+#: bb-admin/upgrade.php:71
+#, fuzzy
+msgid "bbPress database upgrade"
+msgstr "bbPress &rsaquo; Opdater"
+
+#: bb-admin/upgrade.php:89
+#, php-format
+msgid "Nothing to upgrade.  <a href=\"%s\">Get back to work!</a>"
+msgstr "Der er ikke noget at opdatere.  <a href=\"%s\">Gå tilbage til dit arbejde!</a>"
+
+#: bb-admin/upgrade.php:97
+msgid "Database upgrade required"
+msgstr ""
+
+#: bb-admin/upgrade.php:101
+msgid "It looks like your database is out-of-date. You can upgrade it here."
+msgstr ""
+
+# C:\Documents
+#: bb-admin/upgrade.php:107
+#, fuzzy
+msgid "Upgrade database"
+msgstr "Opdater profil &raquo;"
+
+#: bb-admin/upgrade.php:119
+msgid "Database upgrade complete"
+msgstr ""
+
+#: bb-admin/upgrade.php:123
+msgid "Your database has been successfully upgraded, enjoy!"
+msgstr ""
+
+#: bb-admin/upgrade.php:128
+#: bb-admin/upgrade.php:170
+#, fuzzy
+msgid "Show upgrade messages"
+msgstr "Installation færdig!"
+
+#: bb-admin/upgrade.php:137
+#: bb-admin/upgrade.php:189
+msgid "Upgrade log"
+msgstr ""
+
+#: bb-admin/upgrade.php:144
+#: bb-admin/upgrade.php:196
+#, fuzzy
+msgid "&laquo; Go back to forums"
+msgstr "&laquo; Gå tilbage"
+
+# C:\Documents
+#: bb-admin/upgrade.php:147
+#, fuzzy
+msgid "Go to admin"
+msgstr "Log ind &raquo;"
+
+#: bb-admin/upgrade.php:159
+msgid "Database upgrade failed"
+msgstr ""
+
+#: bb-admin/upgrade.php:163
+msgid "The upgrade process seems to have failed. Check the upgrade messages below for more information.<br /><br />Attempting to go to the admin area without resolving the listed errors will return you to this upgrade page."
+msgstr ""
+
+#: bb-admin/upgrade.php:182
+msgid "Error log"
+msgstr ""
+
+# C:\Documents
+#: bb-admin/upgrade.php:199
+#, fuzzy
+msgid "Try again"
+msgstr "Prøv igen &raquo;"
+
+# C:\Documents
+#: bb-edit.php:16
+msgid "Sorry, post is too old."
+msgstr "Indl&aelig;gget er desv&aelig;rre for gammelt."
+
+# C:\Documents
+#: bb-includes/action.subscribe.php:15
+#: tag-add.php:18
+#: topic.php:14
+msgid "Topic not found."
+msgstr "Emne ikke fundet."
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:317
+msgid "Passed variable is not a BackPress database object."
+msgstr ""
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:321
+msgid "No schema available."
+msgstr ""
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:387
+msgid "Creating table"
+msgstr ""
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:416
+#, php-format
+msgid "Adding column: %s"
+msgstr ""
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:434
+#, php-format
+msgid "Setting default on column: %s"
+msgstr ""
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:449
+#, php-format
+msgid "Changing column: %s"
+msgstr ""
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:491
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:514
+#, php-format
+msgid "Adding index: %s"
+msgstr ""
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:507
+#, php-format
+msgid "Dropping index: %s"
+msgstr ""
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:535
+msgid "Inserting data"
+msgstr ""
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:548
+msgid "Updating data"
+msgstr ""
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:566
+#, php-format
+msgid "Modifying database: %s (%s)"
+msgstr ""
+
+# C:\Documents
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:570
+#, fuzzy, php-format
+msgid "Table: %s"
+msgstr "Tag: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:582
+msgid "Skipped"
+msgstr ""
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:594
+msgid "SQL ERROR! See the error log for more detail"
+msgstr ""
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:595
+msgid "SQL ERROR!"
+msgstr ""
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:596
+#, fuzzy, php-format
+msgid "Database: %s (%s)"
+msgstr "Databasebruger:"
+
+#: bb-includes/backpress/class.wp-http.php:723
+#: bb-includes/backpress/class.wp-http.php:1341
+msgid "Too many redirects."
+msgstr ""
+
+#: bb-includes/backpress/class.wp-http.php:803
+#: bb-includes/backpress/class.wp-http.php:930
+#, php-format
+msgid "Malformed URL: %s"
+msgstr ""
+
+#: bb-includes/backpress/class.wp-http.php:814
+#: bb-includes/backpress/class.wp-http.php:987
+#, php-format
+msgid "Could not open handle for fopen() to %s"
+msgstr ""
+
+#: bb-includes/backpress/class.wp-taxonomy.php:226
+#: bb-includes/backpress/class.wp-taxonomy.php:299
+#: bb-includes/backpress/class.wp-taxonomy.php:403
+#: bb-includes/backpress/class.wp-taxonomy.php:581
+#: bb-includes/backpress/class.wp-taxonomy.php:1166
+#: bb-includes/backpress/class.wp-taxonomy.php:1400
+#: bb-includes/class.bb-taxonomy.php:48
+#: bb-includes/class.bb-taxonomy.php:151
+#: bb-includes/class.bb-taxonomy.php:275
+#, fuzzy
+msgid "Invalid Taxonomy"
+msgstr "Ugyldige argumenter"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:294
+msgid "Empty Term"
+msgstr ""
+
+# C:\Documents
+#: bb-includes/backpress/class.wp-taxonomy.php:1300
+#: bb-includes/backpress/class.wp-taxonomy.php:1549
+#, fuzzy
+msgid "Invalid taxonomy"
+msgstr "Ugyldigt tag eller emne."
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1303
+#, fuzzy
+msgid "Invalid term ID"
+msgstr "Ugyldige argumenter"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1306
+#: bb-includes/backpress/class.wp-taxonomy.php:1572
+msgid "A name is required for this term"
+msgstr ""
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1337
+#: bb-includes/backpress/class.wp-taxonomy.php:1344
+msgid "Could not insert term into the database"
+msgstr ""
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1600
+#, php-format
+msgid "The slug &#8220;%s&#8221; is already in use by another term"
+msgstr ""
+
+#: bb-includes/backpress/class.wp-taxonomy.php:2037
+#, fuzzy
+msgid "Invalid object ID"
+msgstr "Ugyldige argumenter"
+
+#: bb-includes/backpress/class.wp-users.php:51
+#, fuzzy
+msgid "Invalid login name"
+msgstr "Ugyldige argumenter"
+
+# C:\Documents
+#: bb-includes/backpress/class.wp-users.php:53
+#, fuzzy
+msgid "Name already exists"
+msgstr "Forum startet for %s siden."
+
+#: bb-includes/backpress/class.wp-users.php:58
+#, fuzzy
+msgid "Invalid nicename"
+msgstr "Ugyldige argumenter"
+
+# C:\Documents
+#: bb-includes/backpress/class.wp-users.php:60
+#, fuzzy
+msgid "Nicename already exists"
+msgstr "Forum startet for %s siden."
+
+# C:\Documents
+#: bb-includes/backpress/class.wp-users.php:65
+#: bb-includes/functions.bb-pluggable.php:588
+#: profile-edit.php:62
+#, fuzzy
+msgid "Invalid email address"
+msgstr "E-mail adresse:"
+
+# C:\Documents
+#: bb-includes/backpress/class.wp-users.php:70
+#, fuzzy
+msgid "Email already exists"
+msgstr "Forum startet for %s siden."
+
+# C:\Documents
+#: bb-includes/backpress/class.wp-users.php:90
+#, fuzzy
+msgid "Invalid registration time"
+msgstr "Ugyldigt tag eller emne."
+
+#: bb-includes/backpress/class.wp-users.php:93
+msgid "Invalid registration timestamp"
+msgstr ""
+
+#: bb-includes/backpress/class.wp-users.php:110
+msgid "Query failed"
+msgstr ""
+
+#: bb-includes/backpress/class.wp-users.php:295
+#: bb-includes/backpress/class.wp-users.php:341
+msgid "Multiple email matches.  Log in with your username."
+msgstr ""
+
+#: bb-includes/backpress/class.wp-users.php:297
+#: bb-includes/backpress/class.wp-users.php:343
+#, php-format
+msgid "Multiple %s matches"
+msgstr ""
+
+#: bb-includes/backpress/functions.core.php:957
+msgid "Select a city"
+msgstr ""
+
+#: bb-includes/backpress/functions.core.php:972
+msgid "Manual offsets"
+msgstr ""
+
+# C:\Documents
+#: bb-includes/backpress/functions.core.php:1140
+#, fuzzy
+msgid "BackPress &rsaquo; Error"
+msgstr "bbPress &rsaquo; Fejl"
+
+#. translators: opening curly quote
+#: bb-includes/backpress/functions.formatting.php:49
+#, fuzzy
+msgctxt "opening curly quote"
+msgid "&#8220;"
+msgstr "Tag&#8230;"
+
+#. translators: closing curly quote
+#: bb-includes/backpress/functions.formatting.php:51
+msgctxt "closing curly quote"
+msgid "&#8221;"
+msgstr ""
+
+#: bb-includes/backpress/functions.wp-cron.php:304
+msgid "Once Hourly"
+msgstr ""
+
+#: bb-includes/backpress/functions.wp-cron.php:305
+msgid "Twice Daily"
+msgstr ""
+
+#: bb-includes/backpress/functions.wp-cron.php:306
+msgid "Once Daily"
+msgstr ""
+
+# C:\Documents
+#: bb-includes/backpress/pomo/sample/app.php:56
+#, fuzzy, php-format
+msgid "Welcome %s!"
+msgstr "Velkommen, %1$s!"
+
+#: bb-includes/backpress/pomo/sample/app.php:60
+msgid "A string with low priority!"
+msgstr ""
+
+#: bb-includes/backpress/pomo/sample/app.php:62
+msgid "Bye\n"
+msgstr ""
+
+#: bb-includes/class.bb-dir-map.php:19
+msgid "Not a valid directory"
+msgstr "Ikke en gyldig mappe"
+
+#: bb-includes/class.bb-dir-map.php:25
+msgid "Invalid arguments"
+msgstr "Ugyldige argumenter"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:115
+#: bb-includes/class.bb-locale.php:125
+#: bb-includes/class.bb-locale.php:138
+msgid "Sunday"
+msgstr "søndag"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:116
+#: bb-includes/class.bb-locale.php:126
+#: bb-includes/class.bb-locale.php:139
+msgid "Monday"
+msgstr "mandag"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:117
+#: bb-includes/class.bb-locale.php:127
+#: bb-includes/class.bb-locale.php:140
+msgid "Tuesday"
+msgstr "tirsdag"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:118
+#: bb-includes/class.bb-locale.php:128
+#: bb-includes/class.bb-locale.php:141
+msgid "Wednesday"
+msgstr "onsdag"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:119
+#: bb-includes/class.bb-locale.php:129
+#: bb-includes/class.bb-locale.php:142
+msgid "Thursday"
+msgstr "torsdag"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:120
+#: bb-includes/class.bb-locale.php:130
+#: bb-includes/class.bb-locale.php:143
+msgid "Friday"
+msgstr "fredag"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:121
+#: bb-includes/class.bb-locale.php:131
+#: bb-includes/class.bb-locale.php:144
+msgid "Saturday"
+msgstr "lørdag"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:125
+msgid "S_Sunday_initial"
+msgstr "s"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:126
+msgid "M_Monday_initial"
+msgstr "m"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:127
+msgid "T_Tuesday_initial"
+msgstr "ti"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:128
+msgid "W_Wednesday_initial"
+msgstr "o"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:129
+msgid "T_Thursday_initial"
+msgstr "to"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:130
+msgid "F_Friday_initial"
+msgstr "f"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:131
+msgid "S_Saturday_initial"
+msgstr "l"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:138
+msgid "Sun"
+msgstr "søn"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:139
+msgid "Mon"
+msgstr "man"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:140
+msgid "Tue"
+msgstr "tirs"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:141
+msgid "Wed"
+msgstr "ons"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:142
+msgid "Thu"
+msgstr "tors"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:143
+msgid "Fri"
+msgstr "fre"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:144
+msgid "Sat"
+msgstr "lør"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:147
+#: bb-includes/class.bb-locale.php:162
+msgid "January"
+msgstr "januar"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:148
+#: bb-includes/class.bb-locale.php:163
+msgid "February"
+msgstr "februar"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:149
+#: bb-includes/class.bb-locale.php:164
+msgid "March"
+msgstr "marts"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:150
+#: bb-includes/class.bb-locale.php:165
+msgid "April"
+msgstr "april"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:151
+#: bb-includes/class.bb-locale.php:166
+msgid "May"
+msgstr "maj"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:152
+#: bb-includes/class.bb-locale.php:167
+msgid "June"
+msgstr "juni"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:153
+#: bb-includes/class.bb-locale.php:168
+msgid "July"
+msgstr "juli"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:154
+#: bb-includes/class.bb-locale.php:169
+msgid "August"
+msgstr "august"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:155
+#: bb-includes/class.bb-locale.php:170
+msgid "September"
+msgstr "september"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:156
+#: bb-includes/class.bb-locale.php:171
+msgid "October"
+msgstr "oktober"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:157
+#: bb-includes/class.bb-locale.php:172
+msgid "November"
+msgstr "november"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:158
+#: bb-includes/class.bb-locale.php:173
+msgid "December"
+msgstr "december"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:162
+msgid "Jan_January_abbreviation"
+msgstr "jan"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:163
+msgid "Feb_February_abbreviation"
+msgstr "feb"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:164
+msgid "Mar_March_abbreviation"
+msgstr "mar"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:165
+msgid "Apr_April_abbreviation"
+msgstr "apr"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:166
+msgid "May_May_abbreviation"
+msgstr "maj"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:167
+msgid "Jun_June_abbreviation"
+msgstr "jun"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:168
+msgid "Jul_July_abbreviation"
+msgstr "jul"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:169
+msgid "Aug_August_abbreviation"
+msgstr "aug"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:170
+msgid "Sep_September_abbreviation"
+msgstr "sep"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:171
+msgid "Oct_October_abbreviation"
+msgstr "okt"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:172
+msgid "Nov_November_abbreviation"
+msgstr "nov"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:173
+msgid "Dec_December_abbreviation"
+msgstr "dec"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:180
+msgid "am"
+msgstr "am"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:181
+msgid "pm"
+msgstr "pm"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:182
+msgid "AM"
+msgstr "AM"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:183
+msgid "PM"
+msgstr "PM"
+
+#. translators: $decimals argument for http://php.net/number_format, default is 0
+#: bb-includes/class.bb-locale.php:189
+msgid "number_format_decimals"
+msgstr ","
+
+#. translators: $dec_point argument for http://php.net/number_format, default is .
+#: bb-includes/class.bb-locale.php:193
+msgid "number_format_decimal_point"
+msgstr ","
+
+#. translators: $thousands_sep argument for http://php.net/number_format, default is ,
+#: bb-includes/class.bb-locale.php:197
+msgid "number_format_thousands_sep"
+msgstr "."
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:201
+#, fuzzy
+msgid "F j, Y - h:i A"
+msgstr "j. F Y, H:i"
+
+# C:\Documents
+#: bb-includes/class.bb-locale.php:202
+msgid "F j, Y"
+msgstr "j. F Y"
+
+#: bb-includes/class.bb-locale.php:203
+msgid "h:i A"
+msgstr ""
+
+# C:\Documents
+#: bb-includes/class.bb-query.php:902
+msgid "Search &#187;"
+msgstr "Søg &#187;"
+
+#: bb-includes/class.bb-query.php:943
+msgid "Any"
+msgstr "Enhver"
+
+# C:\Documents
+#: bb-includes/class.bb-query.php:949
+msgid "Tag"
+msgstr "Tag"
+
+#: bb-includes/class.bb-query.php:956
+#, fuzzy
+msgid "Topic author"
+msgstr "Emneforfatter&#8230;"
+
+#: bb-includes/class.bb-query.php:963
+#, fuzzy
+msgid "Post author"
+msgstr "Indlægsforfatter&#8230;"
+
+#: bb-includes/class.bb-query.php:968
+#: bb-includes/class.bb-query.php:1001
+msgid "All"
+msgstr "Alle"
+
+#: bb-includes/class.bb-query.php:968
+msgid "Normal"
+msgstr "Normal"
+
+# C:\Documents
+#: bb-includes/class.bb-query.php:968
+msgid "Deleted"
+msgstr "Slettet"
+
+#: bb-includes/class.bb-query.php:971
+#, fuzzy
+msgid "Topic status"
+msgstr "Emnestatus&#8230;"
+
+#: bb-includes/class.bb-query.php:982
+#, fuzzy
+msgid "Post status"
+msgstr "Indlægsstatus&#8230;"
+
+# C:\Documents
+#: bb-includes/class.bb-query.php:993
+#, fuzzy
+msgid "Poster IP address"
+msgstr "E-mail adresse:"
+
+#: bb-includes/class.bb-query.php:999
+#, fuzzy
+msgid "Open?"
+msgstr "Åben"
+
+#: bb-includes/class.bb-query.php:1001
+#, fuzzy
+msgctxt "posting status"
+msgid "Open"
+msgstr "Åben"
+
+# C:\Documents
+#: bb-includes/class.bb-query.php:1001
+msgid "Closed"
+msgstr "Lukket"
+
+#: bb-includes/class.bb-query.php:1012
+#: bb-templates/kakumei/post-form.php:3
+msgid "Title"
+msgstr ""
+
+#: bb-includes/class.bb-taxonomy.php:272
+#, fuzzy
+msgid "Invalid User ID"
+msgstr "Ugyldige argumenter"
+
+# C:\Documents
+#: bb-includes/functions.bb-capabilities.php:57
+msgid "Key Master"
+msgstr "Key Master"
+
+# C:\Documents
+#: bb-includes/functions.bb-capabilities.php:100
+msgid "Administrator"
+msgstr "Administrator"
+
+# C:\Documents
+#: bb-includes/functions.bb-capabilities.php:135
+msgid "Moderator"
+msgstr "Moderator"
+
+# C:\Documents
+#: bb-includes/functions.bb-capabilities.php:166
+msgid "Member"
+msgstr "Medlem"
+
+# C:\Documents
+#: bb-includes/functions.bb-capabilities.php:180
+msgid "Inactive"
+msgstr "Inaktiv"
+
+# C:\Documents
+#: bb-includes/functions.bb-capabilities.php:185
+msgid "Blocked"
+msgstr "Blokeret"
+
+#: bb-includes/functions.bb-core.php:26
+#, php-format
+msgid "Using deprecated bbPress %1$s - %2$s - replace with - %3$s"
+msgstr ""
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:216
+#: bb-includes/functions.bb-template.php:1298
+msgid "&laquo; Previous"
+msgstr "&laquo; Forrige"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:217
+#: bb-includes/functions.bb-template.php:1299
+msgid "Next &raquo;"
+msgstr "Næste &raquo;"
+
+#: bb-includes/functions.bb-core.php:223
+#, php-format
+msgid "Page %d"
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:224
+msgid "Previous page"
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:225
+msgid "Next page"
+msgstr ""
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:385
+#: bb-includes/functions.bb-core.php:416
+#: bb-includes/functions.bb-core.php:429
+#, fuzzy, php-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%s sekunder"
+msgstr[1] "%s sekunder"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:410
+#, fuzzy, php-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "år"
+msgstr[1] "år"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:411
+#, fuzzy, php-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "måned"
+msgstr[1] "måned"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:412
+#, fuzzy, php-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "uge"
+msgstr[1] "uge"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:413
+#, fuzzy, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "dag"
+msgstr[1] "dag"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:414
+#, fuzzy, php-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "time"
+msgstr[1] "time"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:415
+#, fuzzy, php-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "minut"
+msgstr[1] "minut"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:746
+msgid "User not found."
+msgstr "Bruger ikke fundet."
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:819
+msgid "REQUEST_URI"
+msgstr "REQUEST_URI"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:820
+msgid "should be"
+msgstr "burde være"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:821
+msgid "full permalink"
+msgstr "helt permalink"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:822
+msgid "PATH_INFO"
+msgstr "PATH_INFO"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:847
+#: bb-templates/kakumei/favorites.php:3
+msgid "Favorites"
+msgstr "Favoritter"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:897
+#, fuzzy
+msgid "First name"
+msgstr "Sideindstillinger"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:898
+#, fuzzy
+msgid "Last name"
+msgstr "Sideindstillinger"
+
+#: bb-includes/functions.bb-core.php:899
+msgid "Display name as"
+msgstr ""
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:900
+msgid "Email"
+msgstr "E-mail"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:901
+msgid "Website"
+msgstr "Webside"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:902
+msgid "Location"
+msgstr "Sted"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:903
+msgid "Occupation"
+msgstr "Beskæftigelse"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:904
+msgid "Interests"
+msgstr "Interesser"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:911
+msgid "Custom Title"
+msgstr "Selvvalgt titel"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:918
+#, fuzzy, php-format
+msgid "Ignore the %d second post throttling limit"
+msgstr "Ignorer 30 sekundersgrænsen imellem indlæg"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:995
+msgid "Topics with no replies"
+msgstr "Emner uden svar"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:996
+msgid "Topics with no tags"
+msgstr "Emner uden tags"
+
+#: bb-includes/functions.bb-core.php:1104
+msgid "bbPress Failure Notice"
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1107
+msgid "Please try again."
+msgstr ""
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:1218
+#, php-format
+msgid "Back to <a href=\"%s\">%s</a>."
+msgstr "Tilbage til <a href=\"%s\">%s</a>."
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:1231
+#, fuzzy
+msgid "Your attempt to submit this post has failed."
+msgstr "Er du sikker på, at du vil tilføje dette indlæg?"
+
+#: bb-includes/functions.bb-core.php:1232
+msgid "Your attempt to edit this post has failed."
+msgstr ""
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:1233
+#, fuzzy
+msgid "Your attempt to delete this post has failed."
+msgstr "Er du sikker på, at du vil slette dette indlæg?"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:1235
+#, fuzzy
+msgid "Your attempt to create this topic has failed."
+msgstr "Er du sikker på, at du vil tilføje dette emne?"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:1236
+#, fuzzy
+msgid "Your attempt to change the resolution status of this topic has failed."
+msgstr "Er du sikker på, at du vil ændre afgørelsesstatus for dette emne?"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:1237
+#, fuzzy
+msgid "Your attempt to delete this topic has failed."
+msgstr "Er du sikker på, at du vil slette dette emne?"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:1238
+#, fuzzy
+msgid "Your attempt to change the status of this topic has failed."
+msgstr "Er du sikker på, at du vil ændre emnets status?"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:1239
+#, fuzzy
+msgid "Your attempt to change the sticky status of this topic has failed."
+msgstr "Er du sikker på, at du vil ændre sticky-status for dette emne?"
+
+#: bb-includes/functions.bb-core.php:1240
+msgid "Your attempt to move this topic has failed."
+msgstr ""
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:1242
+#, fuzzy
+msgid "Your attempt to add this tag to this topic has failed."
+msgstr "Er du sikker på, at du vil tilføje dette tag til emnet?"
+
+#: bb-includes/functions.bb-core.php:1243
+msgid "Your attempt to rename this tag has failed."
+msgstr ""
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:1244
+#, fuzzy
+msgid "Your attempt to submit these tags has failed."
+msgstr "Er du sikker på, at du vil tilføje disse tags?"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:1245
+#, fuzzy
+msgid "Your attempt to destroy this tag has failed."
+msgstr "Er du sikker på, at du vil ødelægge dette tag?"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:1246
+#, fuzzy
+msgid "Your attempt to remove this tag from this topic has failed."
+msgstr "Er du sikker på, at du vil fjerne dette tag fra emnet?"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:1248
+#, fuzzy
+msgid "Your attempt to toggle your favorite status for this topic has failed."
+msgstr "Er du sikker på, du vil skifte din favoritstatus for dette emne?"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:1250
+#, fuzzy
+msgid "Your attempt to edit this user's profile has failed."
+msgstr "Er du sikker på, at du vil redigere denne brugers profil?"
+
+#: bb-includes/functions.bb-core.php:1252
+msgid "Your attempt to add this forum has failed."
+msgstr ""
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:1253
+#, fuzzy
+msgid "Your attempt to update your forums has failed."
+msgstr "Er du sikker på, at du vil opdatere dine fora?"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:1254
+#, fuzzy
+msgid "Your attempt to delete that forum has failed."
+msgstr "Er du sikker på, at du vil slette dette forum?"
+
+# C:\Documents
+#: bb-includes/functions.bb-core.php:1256
+#, fuzzy
+msgid "Your attempt to recount these items has failed."
+msgstr "Er du sikker på, at du vil genoptælle disse emner?"
+
+#: bb-includes/functions.bb-core.php:1258
+msgid "Your attempt to switch themes has failed."
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1273
+msgid "Your attempt to do this has failed."
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1484
+#: bb-includes/functions.bb-core.php:1617
+msgid "Your search term was too short"
+msgstr "Dit søgeord var for kort"
+
+#: bb-includes/functions.bb-core.php:1564
+msgid "Your query parameters are invalid"
+msgstr "Dine søgeparametre er ikke gyldige"
+
+#: bb-includes/functions.bb-formatting.php:297
+#: bb-includes/functions.bb-formatting.php:301
+#, php-format
+msgid "[sticky] %s"
+msgstr "[sticky] %s"
+
+# C:\Documents
+#: bb-includes/functions.bb-formatting.php:310
+#, php-format
+msgid "[closed] %s"
+msgstr "[Lukket] %s"
+
+#: bb-includes/functions.bb-meta.php:334
+msgid "Please give me a name!"
+msgstr ""
+
+#: bb-includes/functions.bb-pluggable.php:591
+#: bb-includes/functions.bb-pluggable.php:600
+#, fuzzy
+msgid "Invalid username"
+msgstr "Ugyldige argumenter"
+
+# C:\Documents
+#: bb-includes/functions.bb-posts.php:30
+#: bb-includes/functions.bb-posts.php:32
+msgid "Slow down; you move too fast."
+msgstr "Sæt farten ned; du er for hurtig."
+
+#: bb-includes/functions.bb-posts.php:482
+#, php-format
+msgid ""
+"%2$s wrote:\n"
+"\n"
+" %3$s\n"
+"\n"
+"Topic Link: %4$s\n"
+"\n"
+"You're getting this mail because you subscribed to the topic, visit the topic and login to unsubscribe."
+msgstr ""
+
+#: bb-includes/functions.bb-script-loader.php:18
+msgid ""
+"You are about to delete the selected items.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: bb-includes/functions.bb-script-loader.php:22
+msgid "drag"
+msgstr "træk"
+
+#: bb-includes/functions.bb-script-loader.php:23
+#, fuzzy
+msgid "Save Forum Order"
+msgstr "Gem forumrækkefølge &#187;"
+
+#: bb-includes/functions.bb-script-loader.php:24
+#, fuzzy
+msgid "Edit Forum Order"
+msgstr "Gem forumrækkefølge &#187;"
+
+# C:\Documents
+#: bb-includes/functions.bb-script-loader.php:34
+#, fuzzy
+msgid "You do not have permission to do that."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+#: bb-includes/functions.bb-script-loader.php:35
+msgid "An unidentified error has occurred."
+msgstr ""
+
+#: bb-includes/functions.bb-script-loader.php:44
+msgid "Too short"
+msgstr ""
+
+#: bb-includes/functions.bb-script-loader.php:45
+msgid "Bad"
+msgstr ""
+
+#: bb-includes/functions.bb-script-loader.php:46
+msgid "Good"
+msgstr ""
+
+#: bb-includes/functions.bb-script-loader.php:47
+msgid "Strong"
+msgstr ""
+
+# C:\Documents
+#: bb-includes/functions.bb-script-loader.php:87
+#, fuzzy
+msgid "Are you sure you wanna delete this post?"
+msgstr "Er du sikker på, at du vil slette det?"
+
+# C:\Documents
+#: bb-includes/functions.bb-script-loader.php:88
+#, fuzzy
+msgid "Are you sure you wanna undelete this post?"
+msgstr "Er du sikker på, at du vil genskabe det?"
+
+# C:\Documents
+#: bb-includes/functions.bb-script-loader.php:89
+#: bb-templates/kakumei/favorites.php:5
+#, fuzzy
+msgid "favorites"
+msgstr "Favoritter"
+
+#: bb-includes/functions.bb-script-loader.php:90
+msgid "?"
+msgstr ""
+
+# C:\Documents
+#: bb-includes/functions.bb-script-loader.php:91
+#, fuzzy
+msgid "This topic is one of your %favLinkYes% [%favDel%]"
+msgstr "Dette emne er en af dine %favorites% ["
+
+#: bb-includes/functions.bb-script-loader.php:92
+msgid "%favAdd% (%favLinkNo%)"
+msgstr ""
+
+#: bb-includes/functions.bb-script-loader.php:93
+#: bb-includes/functions.bb-template.php:3374
+msgid "&times;"
+msgstr ""
+
+# C:\Documents
+#: bb-includes/functions.bb-script-loader.php:94
+#: bb-includes/functions.bb-template.php:3372
+msgid "Add this topic to your favorites"
+msgstr "Tilføj dette emne til dine favoritter"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:222
+#: bb-templates/kakumei/profile.php:3
+msgid "Profile"
+msgstr "Profil"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:274
+msgid "Reply"
+msgstr "Svar"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:276
+msgid "New Topic in this Forum"
+msgstr "Nyt emne i dette forum"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:278
+#: bb-templates/kakumei/front-page.php:86
+msgid "Add New Topic"
+msgstr "Tilføj nyt emne"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:312
+#, php-format
+msgid "You must <a href=\"%s\">log in</a> to post."
+msgstr "Du skal være <a href=\"%s\">logget ind</a> for at skrive."
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:518
+#: bb-templates/kakumei/tag-single.php:3
+#: bb-templates/kakumei/tags.php:3
+msgid "Tags"
+msgstr "Tags"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:552
+#: rss.php:111
+#, fuzzy, php-format
+msgid "%1$s &raquo; User Favorites: %2$s"
+msgstr "Brugerfavoritter"
+
+#: bb-includes/functions.bb-template.php:559
+#: rss.php:94
+#, fuzzy, php-format
+msgid "%1$s &raquo; Topic: %2$s"
+msgstr "%1$s &rsaquo; %2$s"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:567
+#: rss.php:137
+#, fuzzy, php-format
+msgid "%1$s &raquo; Tag: %2$s - Recent Posts"
+msgstr "Seneste indlæg"
+
+#: bb-includes/functions.bb-template.php:571
+#: rss.php:127
+#, fuzzy, php-format
+msgid "%1$s &raquo; Tag: %2$s - Recent Topics"
+msgstr "%1$s &rsaquo; %2$s"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:579
+#: rss.php:159
+#, fuzzy, php-format
+msgid "%1$s &raquo; Forum: %2$s - Recent Posts"
+msgstr "Seneste indlæg"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:583
+#: rss.php:151
+#, fuzzy, php-format
+msgid "%1$s &raquo; Forum: %2$s - Recent Topics"
+msgstr "Seneste indlæg"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:590
+#: rss.php:184
+#, fuzzy, php-format
+msgid "%1$s &raquo; Recent Posts"
+msgstr "Seneste indlæg"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:594
+#: rss.php:174
+#, fuzzy, php-format
+msgid "%1$s &raquo; Recent Topics"
+msgstr "Seneste svar"
+
+#: bb-includes/functions.bb-template.php:603
+#: rss.php:84
+#, fuzzy, php-format
+msgid "%1$s &raquo; View: %2$s"
+msgstr "%1$s &rsaquo; %2$s"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:1400
+msgid "Are you sure you wanna delete that?"
+msgstr "Er du sikker på, at du vil slette det?"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:1401
+msgid "Delete entire topic"
+msgstr "Slet hele emnet"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:1407
+msgid "Are you sure you wanna undelete that?"
+msgstr "Er du sikker på, at du vil genskabe det?"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:1408
+msgid "Undelete entire topic"
+msgstr "Genskab hele emnet"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:1431
+msgid "Close topic"
+msgstr "Luk emne"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:1433
+msgid "Open topic"
+msgstr "Åbn emne"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:1465
+msgid "Unstick topic"
+msgstr "Unstick emne"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:1467
+msgid "Stick topic"
+msgstr "Stick emne"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:1467
+msgid "to front"
+msgstr "forrest"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:1474
+msgid "View normal posts"
+msgstr "Vis normale indlæg"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:1476
+msgid "View all posts"
+msgstr "Vis alle indlæg"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:1486
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s indlæg"
+msgstr[1] "%s indlæg"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:1499
+#, php-format
+msgid "+%d more"
+msgstr "+%d mere"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:1541
+#, fuzzy
+msgid "Move to"
+msgstr "Flyt"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:1544
+msgid "Move"
+msgstr "Flyt"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:1576
+msgid "Add New &raquo;"
+msgstr "Tilføj ny &raquo;"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:1754
+msgid "Anonymous"
+msgstr "Anonym"
+
+#: bb-includes/functions.bb-template.php:2141
+#: bb-includes/functions.bb-template.php:2155
+msgid "PingBack"
+msgstr ""
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:2143
+#: bb-includes/functions.bb-template.php:2157
+msgid "Unregistered"
+msgstr "Ikke registreret"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:2245
+msgid "Delete User &raquo;"
+msgstr "Opdater bruger &raquo;"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:2246
+msgid "Are you sure you want to delete this user?"
+msgstr "Er du sikker på, at du vil slette denne bruger?"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:2373
+msgid "Member Since"
+msgstr "Medlem siden"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:2526
+#: bb-includes/functions.bb-template.php:2675
+#: bb-templates/kakumei/register.php:65
+msgid "These items are <span class=\"required\">required</span>."
+msgstr "Disse detaljer er <span class=\"required\">p&aring;kr&aelig;vede</span>."
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:2563
+#, fuzzy
+msgid "User Type"
+msgstr "Brugertype:"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:2588
+#, fuzzy
+msgid "Allow this user to"
+msgstr "Tillad denne bruger at:"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:2678
+#, fuzzy
+msgid "Inactive users can login and look around but not do anything. Blocked users just see a simple error message when they visit the site."
+msgstr ""
+"Inaktive brugere kan logge ind og kigge rundt, men de kan ikke gøre noget.\n"
+"Blokerede brugere ser blot en simpel fejlbesked, når de besøger siden.</p>\n"
+"<p><strong>Bemærk</strong>: Når du blokerer en bruger, blokerer du <em>ikke</em> nogle IP-adresser."
+
+#: bb-includes/functions.bb-template.php:2679
+msgid "<strong>Note</strong>: Blocking a user does <em>not</em> block any IP addresses."
+msgstr ""
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:2702
+#, fuzzy
+msgid "New password"
+msgstr "Nyt kodeord:"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:2715
+#, fuzzy
+msgid "Password Strength"
+msgstr "Kodeord nulstillet"
+
+#: bb-includes/functions.bb-template.php:2719
+msgid "Disabled (requires JavaScript)"
+msgstr ""
+
+#: bb-includes/functions.bb-template.php:2725
+msgid "Disabled (requires jQuery)"
+msgstr ""
+
+#: bb-includes/functions.bb-template.php:2732
+msgid "Hint: Use upper and lower case characters, numbers and symbols like !\"?$%^&amp;( in your password."
+msgstr ""
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:2746
+#, fuzzy
+msgid "Log Out"
+msgstr "Log ud."
+
+#: bb-includes/functions.bb-template.php:2772
+msgid "Admin"
+msgstr "Admin"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:2791
+msgid "View your profile"
+msgstr "Se din profil"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:3086
+msgid "Add &raquo;"
+msgstr "Tilføj &raquo;"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:3122
+msgid "Rename tag:"
+msgstr "Omdøm tag:"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:3126
+msgid "Rename"
+msgstr "Omdøb"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:3130
+msgid "Merge this tag into:"
+msgstr "Flet dette tag ind i:"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:3134
+msgid "Merge"
+msgstr "Flet"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:3135
+#, php-format
+msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified? This is permanent and cannot be undone."
+msgstr "Er du sikker på, at du vil flette tagget \"%s\" ind i det angivne tag? Det er en permanent handling, som ikke kan laves om."
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:3139
+msgid "Destroy tag:"
+msgstr "Ødelæg tag:"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:3142
+msgid "Destroy"
+msgstr "Ødelæg"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:3143
+#, php-format
+msgid "Are you sure you want to destroy the \"%s\" tag? This is permanent and cannot be undone."
+msgstr "Er du sikker på, at du vil ødelægge tagget \"%s\"? Det er en permanent handling, som ikke kan laves om."
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:3169
+msgid "Remove this tag"
+msgstr "Fjern dette tag"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:3226
+#, php-format
+msgid "%d topics"
+msgstr "%d emner"
+
+#: bb-includes/functions.bb-template.php:3291
+msgid "- None -"
+msgstr "- Ingen -"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:3372
+msgid " (%?%)"
+msgstr " (%?%)"
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:3374
+msgid "This topic is one of your %favorites% ["
+msgstr "Dette emne er en af dine %favorites% ["
+
+# C:\Documents
+#: bb-includes/functions.bb-template.php:3374
+msgid "]"
+msgstr "]"
+
+#: bb-includes/functions.bb-template.php:3423
+msgid "Unsubscribe from Topic"
+msgstr ""
+
+#: bb-includes/functions.bb-template.php:3425
+msgid "Subscribe to Topic"
+msgstr ""
+
+# C:\Documents
+#: bb-includes/functions.bb-users.php:9
+msgid "You've been blocked.  If you think a mistake has been made, contact this site's administrator."
+msgstr "Du er blevet blokeret. Hvs du mener, at der er sket en fejl, kan du kontakte sidens administrator."
+
+# C:\Documents
+#: bb-includes/functions.bb-users.php:262
+#, fuzzy
+msgid "The specified user does not exist."
+msgstr "Dette brugernavn eksisterer ikke"
+
+# C:\Documents
+#: bb-includes/functions.bb-users.php:275
+#, php-format
+msgid ""
+"If you wanted to reset your password, you may do so by visiting the following address:\n"
+"\n"
+"%s\n"
+"\n"
+"If you don't want to reset your password, just ignore this email. Thanks!"
+msgstr ""
+"Hvis du ville nulstille dit kodeord, kan du gøre det på følgende adresse:\n"
+"\n"
+"%s\n"
+"\n"
+"Hvis du ikke vil nulstille dit kodeord, kan du bare se bort fra denne e-mail. Tak!"
+
+# C:\Documents
+#: bb-includes/functions.bb-users.php:281
+#, fuzzy, php-format
+msgid "%s: Password Reset"
+msgstr "Kodeord nulstillet"
+
+#: bb-includes/functions.bb-users.php:293
+msgid "The email containing the password reset link could not be sent."
+msgstr ""
+
+#: bb-includes/functions.bb-users.php:318
+#: bb-includes/functions.bb-users.php:322
+#: bb-includes/functions.bb-users.php:328
+#, fuzzy
+msgid "Invalid key"
+msgstr "Ugyldige argumenter"
+
+# C:\Documents
+#: bb-includes/functions.bb-users.php:336
+msgid "You are not allowed to change your password."
+msgstr "Du må ikke ændre dit kodeord."
+
+#: bb-includes/functions.bb-users.php:342
+msgid "The email containing the new password could not be sent."
+msgstr ""
+
+# C:\Documents
+#: bb-includes/functions.bb-users.php:391
+#, php-format
+msgid ""
+"Your username is: %1$s \n"
+"Your password is: %2$s \n"
+"You can now log in: %3$s \n"
+"\n"
+"Enjoy!"
+msgstr ""
+"Dit brugernavn er: %1$s \n"
+"Dit kodeord er: %2$s \n"
+"Du kan nu logge ind: %3$s \n"
+"\n"
+"God fornøjelse!"
+
+# C:\Documents
+#: bb-includes/functions.bb-users.php:399
+#, fuzzy, php-format
+msgid "%s: Password"
+msgstr "Kodeord"
+
+# C:\Documents
+#: bb-login.php:101
+#, fuzzy
+msgid "User does not exist."
+msgstr "Dette brugernavn eksisterer ikke"
+
+# C:\Documents
+#: bb-login.php:103
+#, fuzzy
+msgid "Enter a username or email address."
+msgstr "E-mail adresse:"
+
+#: bb-login.php:103
+msgid "Enter a username."
+msgstr ""
+
+# C:\Documents
+#: bb-login.php:109
+#, fuzzy
+msgid "Incorrect password."
+msgstr "Forkert kodeord"
+
+#: bb-login.php:116
+msgid "Username and Password do not match."
+msgstr ""
+
+#: bb-plugins/akismet.php:57
+#, fuzzy
+msgid "Akismet Settings"
+msgstr "Sideindstillinger"
+
+#: bb-plugins/akismet.php:62
+#, php-format
+msgid "For many people, <a href=\"%s\">Akismet</a> will greatly reduce or even completely eliminate the spam you get on your site. If one does happen to get through, simply mark it as \"spam\" and Akismet will learn from the mistakes."
+msgstr ""
+
+# C:\Documents
+#: bb-plugins/akismet.php:68
+#, fuzzy
+msgid "This key is valid"
+msgstr "Emne med titlen"
+
+#: bb-plugins/akismet.php:75
+msgid "WordPress.com API Key"
+msgstr ""
+
+#: bb-plugins/akismet.php:78
+#, php-format
+msgid "If you don't have a WordPress.com API Key, you can get one at <a href=\"%s\">WordPress.com</a>"
+msgstr ""
+
+#: bb-plugins/akismet.php:82
+msgid "Enable stats page"
+msgstr ""
+
+#: bb-plugins/akismet.php:85
+msgid "Create a page that shows spam statistics."
+msgstr ""
+
+#: bb-plugins/akismet.php:87
+msgid "This page will be viewable by moderators or higher."
+msgstr ""
+
+# C:\Documents
+#: bb-plugins/akismet.php:103
+#, fuzzy
+msgid "Akismet"
+msgstr "Akismet spam"
+
+#: bb-plugins/akismet.php:151
+msgid "<strong>The key you attempted to enter is invalid. Reverting to previous setting.</strong>"
+msgstr ""
+
+# C:\Documents
+#: bb-plugins/akismet.php:218
+#, fuzzy
+msgid "Akismet Stats"
+msgstr "Akismet spam"
+
+# C:\Documents
+#: bb-plugins/akismet.php:440
+#: bb-plugins/akismet.php:476
+msgid "Not Spam"
+msgstr "Ikke spam"
+
+# C:\Documents
+#: bb-plugins/akismet.php:446
+#: bb-plugins/akismet.php:510
+msgid "Spam"
+msgstr "Spam"
+
+#: bb-plugins/akismet.php:477
+msgid "Mark as Spam"
+msgstr ""
+
+# C:\Documents
+#: bb-plugins/bozo.php:95
+#, fuzzy
+msgid "Counted the number of bozo posts in each topic"
+msgstr "Tæl tåbelige indlæg i hvert emne"
+
+#: bb-plugins/bozo.php:123
+msgid "Counted each bozo user&#039;s total posts as well as the total topics to which they have replied"
+msgstr ""
+
+#: bb-plugins/bozo.php:171
+msgid "Count each bozo user&#039;s total posts as well as the total topics to which they have replied"
+msgstr ""
+
+# C:\Documents
+#: bb-plugins/bozo.php:172
+#, fuzzy
+msgid "Count the number of bozo posts in each topic"
+msgstr "Tæl tåbelige indlæg i hvert emne"
+
+# C:\Documents
+#: bb-plugins/bozo.php:272
+msgid "This user is a bozo"
+msgstr "Denne bruger er en tåbe"
+
+# C:\Documents
+#: bb-plugins/bozo.php:310
+#, fuzzy
+msgid "Bozos only"
+msgstr "Tåber"
+
+# C:\Documents
+#: bb-post.php:11
+msgid "You need to actually submit some content!"
+msgstr "Du bliver nødt til at skrive noget indhold!"
+
+# C:\Documents
+#: bb-post.php:17
+#: bb-post.php:36
+#: bb-post.php:57
+msgid "You are not allowed to post.  Are you logged in?"
+msgstr "Du har ikke tilladelse til at skrive. Er du logget ind?"
+
+# C:\Documents
+#: bb-post.php:20
+#, fuzzy
+msgid "You need to submit your name!"
+msgstr "Du bliver nødt til at skrive noget indhold!"
+
+# C:\Documents
+#: bb-post.php:22
+#, fuzzy
+msgid "You need to submit your email!"
+msgstr "Du bliver nødt til at skrive noget indhold!"
+
+# C:\Documents
+#: bb-post.php:39
+msgid "You are not allowed to write new topics."
+msgstr "Du har ikke tilladelse til at skrive nye emner."
+
+# C:\Documents
+#: bb-post.php:47
+msgid "Please enter a topic title"
+msgstr "Skriv venligst en emnetitel"
+
+# C:\Documents
+#: bb-post.php:60
+msgid "This topic has been closed"
+msgstr "Dette emner er lukket"
+
+#: bb-reset-password.php:10
+msgid "No username specified"
+msgstr ""
+
+#: bb-settings.php:455
+msgid "Could not determine site URI"
+msgstr ""
+
+# C:\Documents
+#: bb-templates/kakumei/404.php:3
+#: bb-templates/kakumei/404.php:5
+#, fuzzy
+msgid "Page not found!"
+msgstr "Tag ikke fundet"
+
+#: bb-templates/kakumei/404.php:7
+msgid "I'm sorry, but there is nothing at this URL."
+msgstr ""
+
+# C:\Documents
+#: bb-templates/kakumei/edit-form.php:15
+msgid "Edit Post &raquo;"
+msgstr "Rediger indlæg &raquo;"
+
+# C:\Documents
+#: bb-templates/kakumei/edit-form.php:19
+#: bb-templates/kakumei/post-form.php:52
+msgid "Allowed markup:"
+msgstr "Tilladt markup:"
+
+# C:\Documents
+#: bb-templates/kakumei/edit-form.php:19
+msgid "Put code in between <code>`backticks`</code>."
+msgstr "Indsæt kode mellem <code>`backticks`</code>."
+
+# C:\Documents
+#: bb-templates/kakumei/edit-post.php:2
+msgid "Edit Post"
+msgstr "Rediger indlæg"
+
+#: bb-templates/kakumei/favorites.php:5
+#, php-format
+msgid " - %d"
+msgstr ""
+
+# C:\Documents
+#: bb-templates/kakumei/favorites.php:7
+#, fuzzy
+msgid "Favorites allow members to create a custom <abbr title=\"Really Simple Syndication\">RSS</abbr> feed which pulls recent replies to the topics they specify."
+msgstr ""
+"Dine Favoritter gør det muligt at oprette et skræddersyet <abbr title=\"Really Simple Syndication\">RSS</abbr> feed der henter de seneste svar til de emner, du vælger.\n"
+"Hvis du vil tilføje emner til dine favoritter, skal du blot klikke på \"Tilføj til Favoritter\" linket på det pågældende emnes side."
+
+#: bb-templates/kakumei/favorites.php:9
+msgid "To add topics to your list of favorites, just click the \"Add to Favorites\" link found on that topic&#8217;s page."
+msgstr ""
+
+# C:\Documents
+#: bb-templates/kakumei/favorites.php:18
+#: bb-templates/kakumei/forum.php:11
+#: bb-templates/kakumei/front-page.php:19
+#: bb-templates/kakumei/tag-single.php:13
+#: bb-templates/kakumei/view.php:11
+#, fuzzy
+msgid "Voices"
+msgstr "Vis"
+
+# C:\Documents
+#: bb-templates/kakumei/favorites.php:19
+#: bb-templates/kakumei/forum.php:12
+#: bb-templates/kakumei/front-page.php:20
+#: bb-templates/kakumei/tag-single.php:14
+#: bb-templates/kakumei/view.php:12
+msgid "Last Poster"
+msgstr "Seneste forfatter"
+
+# C:\Documents
+#: bb-templates/kakumei/favorites.php:22
+msgid "Remove"
+msgstr "Fjern"
+
+# C:\Documents
+#: bb-templates/kakumei/favorites.php:40
+#, fuzzy
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for these favorites"
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr>-link for dette tag."
+
+# C:\Documents
+#: bb-templates/kakumei/favorites.php:46
+msgid "You currently have no favorites."
+msgstr "Du har i øjeblikket ingen favoritter."
+
+# C:\Documents
+#: bb-templates/kakumei/favorites.php:50
+msgid "currently has no favorites."
+msgstr "har i øjeblikket ingen favoritter."
+
+# C:\Documents
+#: bb-templates/kakumei/footer.php:4
+#, php-format
+msgid "%1$s is proudly powered by <a href=\"%2$s\">bbPress</a>."
+msgstr "%1$s er stolt af at køre <a href=\"%2$s\">bbPress</a>."
+
+# C:\Documents
+#: bb-templates/kakumei/forum.php:36
+#, fuzzy
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this forum"
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr>-link for dette tag."
+
+# C:\Documents
+#: bb-templates/kakumei/forum.php:41
+msgid "Subforums"
+msgstr "Subfora"
+
+# C:\Documents
+#: bb-templates/kakumei/forum.php:45
+#: bb-templates/kakumei/front-page.php:52
+msgid "Main Theme"
+msgstr "Hovedtema"
+
+# C:\Documents
+#: bb-templates/kakumei/front-page.php:6
+msgid "Hot Tags"
+msgstr "Populære tags"
+
+# C:\Documents
+#: bb-templates/kakumei/front-page.php:13
+msgid "Latest Discussions"
+msgstr "Seneste diskussioner"
+
+# C:\Documents
+#: bb-templates/kakumei/front-page.php:73
+msgid "Views"
+msgstr "Vis"
+
+# C:\Documents
+#: bb-templates/kakumei/logged-in.php:2
+#, fuzzy, php-format
+msgid "Welcome, %1$s"
+msgstr "Velkommen, %1$s!"
+
+# C:\Documents
+#: bb-templates/kakumei/login-form.php:5
+#, fuzzy, php-format
+msgid "<a href=\"%1$s\">Register</a> or log in - <a href=\"%2$s\">lost password?</a>"
+msgstr "<a href=\"%1$s\">Registrér</a> eller log ind"
+
+# C:\Documents
+#: bb-templates/kakumei/login-form.php:18
+#: bb-templates/kakumei/login.php:27
+#: bb-templates/kakumei/profile-edit.php:20
+msgid "Password"
+msgstr "Kodeord"
+
+# C:\Documents
+#: bb-templates/kakumei/login-form.php:24
+#: bb-templates/kakumei/login.php:43
+msgid "Log in &raquo;"
+msgstr "Log ind &raquo;"
+
+# C:\Documents
+#: bb-templates/kakumei/login-form.php:29
+#: bb-templates/kakumei/login.php:36
+#, fuzzy
+msgid "Remember me"
+msgstr "december"
+
+# C:\Documents
+#: bb-templates/kakumei/login.php:3
+#: bb-templates/kakumei/login.php:5
+#: bb-templates/kakumei/password-reset.php:3
+msgid "Log in"
+msgstr "Log ind"
+
+# C:\Documents
+#: bb-templates/kakumei/login.php:5
+msgid "Log in Failed"
+msgstr "Log ind lykkedes ikke"
+
+# C:\Documents
+#: bb-templates/kakumei/login.php:43
+msgid "Try Again &raquo;"
+msgstr "Prøv igen &raquo;"
+
+# C:\Documents
+#: bb-templates/kakumei/login.php:52
+#, fuzzy
+msgid "Password Recovery"
+msgstr "Kodeord nulstillet"
+
+# C:\Documents
+#: bb-templates/kakumei/login.php:55
+#, fuzzy
+msgid "To recover your password, enter your information below."
+msgstr "Hvis du vil ændre dit kodeord, kan du indtaste dit nye kodeord to gange herunder:"
+
+# C:\Documents
+#: bb-templates/kakumei/login.php:68
+msgid "Recover Password &raquo;"
+msgstr "Genskab adgangskode &raquo;"
+
+# C:\Documents
+#: bb-templates/kakumei/password-reset.php:5
+msgid "Password Reset"
+msgstr "Kodeord nulstillet"
+
+# C:\Documents
+#: bb-templates/kakumei/password-reset.php:12
+#, fuzzy
+msgid "An email has been sent to the address we have on file for you. If you don&#8217;t get anything within a few minutes, or your email has changed, you may want to get in touch with the webmaster or forum administrator here."
+msgstr "En e-mail er blevet sendt til den adresse, vi har på dig. Hvis du ikke modtager noget indenfor de næste par minutter, ellers hvis du har skiftet e-mail, bør du kontakte webmasteren eller forumadministratoren."
+
+# C:\Documents
+#: bb-templates/kakumei/password-reset.php:15
+msgid "Your password has been reset and a new one has been mailed to you."
+msgstr "Dit kodeord er blevet nulstillet, og et nyt et er blevet mailet til dig."
+
+#: bb-templates/kakumei/post-form.php:12
+msgid "Author (required)"
+msgstr ""
+
+#: bb-templates/kakumei/post-form.php:18
+msgid "Email (required)"
+msgstr ""
+
+#: bb-templates/kakumei/post-form.php:24
+msgid "URL"
+msgstr ""
+
+#: bb-templates/kakumei/post-form.php:37
+msgid "Tags (comma separated)"
+msgstr ""
+
+# C:\Documents
+#: bb-templates/kakumei/post-form.php:49
+msgid "Send Post &raquo;"
+msgstr "Send indlæg &raquo;"
+
+# C:\Documents
+#: bb-templates/kakumei/post-form.php:52
+#, fuzzy
+msgid "You can also put code in between backtick ( <code>`</code> ) characters."
+msgstr "Indsæt kode mellem <code>`backticks`</code>."
+
+# C:\Documents
+#: bb-templates/kakumei/post.php:11
+#, php-format
+msgid "Posted %s ago"
+msgstr "Skrevet %s siden"
+
+# C:\Documents
+#: bb-templates/kakumei/profile-edit.php:3
+msgid "Edit Profile"
+msgstr "Rediger profil"
+
+# C:\Documents
+#: bb-templates/kakumei/profile-edit.php:7
+msgid "Profile Info"
+msgstr "Profilinformationer"
+
+# C:\Documents
+#: bb-templates/kakumei/profile-edit.php:13
+msgid "Administration"
+msgstr "Administrering"
+
+# C:\Documents
+#: bb-templates/kakumei/profile-edit.php:21
+msgid "To change your password, enter a new password twice below:"
+msgstr "Hvis du vil ændre dit kodeord, kan du indtaste dit nye kodeord to gange herunder:"
+
+# C:\Documents
+#: bb-templates/kakumei/profile-edit.php:26
+msgid "Update Profile &raquo;"
+msgstr "Opdater profil &raquo;"
+
+# C:\Documents
+#: bb-templates/kakumei/profile.php:14
+msgid "Profile updated"
+msgstr "Profil opdateret"
+
+# C:\Documents
+#: bb-templates/kakumei/profile.php:14
+msgid "Edit again &raquo;"
+msgstr "Rediger igen &raquo;"
+
+#: bb-templates/kakumei/profile.php:18
+msgid "This is how your profile appears to a logged in member."
+msgstr ""
+
+# C:\Documents
+#: bb-templates/kakumei/profile.php:21
+#, fuzzy, php-format
+msgid "You may <a href=\"%1$s\">edit this information</a>."
+msgstr "Du skal være <a href=\"%s\">logget ind</a> for at skrive."
+
+# C:\Documents
+#: bb-templates/kakumei/profile.php:26
+#, fuzzy, php-format
+msgid "You can also <a href=\"%1$s\">manage your favorites</a> and subscribe to your favorites&#8217; <a href=\"%2$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr "Abonnér på dine favoritters <a href=\"%s\"><abbr title=\"Really Simple Syndication\">RSS</abbr>-feed</a>."
+
+# C:\Documents
+#: bb-templates/kakumei/profile.php:34
+msgid "User Activity"
+msgstr "Brugeraktivitet"
+
+# C:\Documents
+#: bb-templates/kakumei/profile.php:36
+msgid "Recent Replies"
+msgstr "Seneste svar"
+
+# C:\Documents
+#: bb-templates/kakumei/profile.php:42
+#, fuzzy, php-format
+msgid "You last replied: %s ago"
+msgstr "Du svarede sidst: %s siden."
+
+# C:\Documents
+#: bb-templates/kakumei/profile.php:42
+#, fuzzy, php-format
+msgid "User last replied: %s ago"
+msgstr "Bruger svarede sidst: %s siden."
+
+# C:\Documents
+#: bb-templates/kakumei/profile.php:46
+#: bb-templates/kakumei/profile.php:71
+#, php-format
+msgid "Most recent reply: %s ago"
+msgstr "Seneste svar: %s siden"
+
+# C:\Documents
+#: bb-templates/kakumei/profile.php:48
+#, fuzzy
+msgid "No replies since"
+msgstr "Ingen svar siden."
+
+# C:\Documents
+#: bb-templates/kakumei/profile.php:54
+msgid "No more replies."
+msgstr "Ingen svar."
+
+# C:\Documents
+#: bb-templates/kakumei/profile.php:56
+msgid "No replies yet."
+msgstr "Endnu ingen svar."
+
+# C:\Documents
+#: bb-templates/kakumei/profile.php:61
+#, fuzzy
+msgid "Topics Started"
+msgstr "Emne med titlen"
+
+# C:\Documents
+#: bb-templates/kakumei/profile.php:67
+#, php-format
+msgid "Started: %s ago"
+msgstr "Startet: %s siden"
+
+# C:\Documents
+#: bb-templates/kakumei/profile.php:73
+msgid "No replies."
+msgstr "Ingen svar."
+
+# C:\Documents
+#: bb-templates/kakumei/profile.php:79
+msgid "No more topics posted."
+msgstr "Ingen emner."
+
+# C:\Documents
+#: bb-templates/kakumei/profile.php:81
+msgid "No topics posted yet."
+msgstr "Ingen emner skrevet endnu."
+
+# C:\Documents
+#: bb-templates/kakumei/register-success.php:3
+#: bb-templates/kakumei/register.php:3
+msgid "Register"
+msgstr "Registrer"
+
+# C:\Documents
+#: bb-templates/kakumei/register-success.php:5
+msgid "Great!"
+msgstr "Super!"
+
+# C:\Documents
+#: bb-templates/kakumei/register-success.php:7
+#, php-format
+msgid "Your registration as <strong>%s</strong> was successful. Within a few minutes you should receive an email with your password."
+msgstr "Din registrering som <strong>%s</strong> blev gennemført med succes. Vent nogle får minutter, så burde du modtage en e-mail med dit kodeord."
+
+# C:\Documents
+#: bb-templates/kakumei/register.php:5
+msgid "Registration"
+msgstr "Registrering"
+
+# C:\Documents
+#: bb-templates/kakumei/register.php:12
+msgid "Profile Information"
+msgstr "Profilinformation"
+
+#: bb-templates/kakumei/register.php:14
+msgid "Your password will be emailed to the address you provide."
+msgstr "Din adgangskode bliver e-mailet til den adresse, du skriver."
+
+# C:\Documents
+#: bb-templates/kakumei/register.php:72
+msgid "Register &raquo;"
+msgstr "Registrer &raquo;"
+
+# C:\Documents
+#: bb-templates/kakumei/register.php:79
+msgid "You&#8217;re already logged in, why do you need to register?"
+msgstr "Du er allerede logget ind, hvorfor vil du registrere dig?"
+
+# C:\Documents
+#: bb-templates/kakumei/rss2.php:19
+#, fuzzy
+msgid "Search all topics from these forums."
+msgstr "Flyt emner fra dette forum til "
+
+# C:\Documents
+#: bb-templates/kakumei/rss2.php:27
+msgid "on"
+msgstr "om"
+
+# C:\Documents
+#: bb-templates/kakumei/search-form.php:3
+msgid "Search:"
+msgstr "Søg:"
+
+# C:\Documents
+#: bb-templates/kakumei/search-form.php:5
+msgid "Search &raquo;"
+msgstr "Søg &raquo;"
+
+# C:\Documents
+#: bb-templates/kakumei/search.php:7
+msgid "Search for"
+msgstr "Søg efter"
+
+# C:\Documents
+#: bb-templates/kakumei/search.php:12
+msgid "Recent Posts"
+msgstr "Seneste indlæg"
+
+# C:\Documents
+#: bb-templates/kakumei/search.php:17
+#: bb-templates/kakumei/search.php:32
+#, fuzzy, php-format
+msgid "Posted %s"
+msgstr "Skrevet %s siden"
+
+# C:\Documents
+#: bb-templates/kakumei/search.php:27
+msgid "Relevant posts"
+msgstr "Relevante indlæg"
+
+# C:\Documents
+#: bb-templates/kakumei/search.php:41
+msgid "No results found."
+msgstr "Ingen resultater fundet."
+
+# C:\Documents
+#: bb-templates/kakumei/search.php:44
+#, php-format
+msgid "You may also try your <a href=\"http://google.com/search?q=site:%1$s %2$s\">search at Google</a>"
+msgstr "Du kan også prøve at <a href=\"http://google.com/search?q=site:%1$s %2$s\">søge på Google</a>"
+
+# C:\Documents
+#: bb-templates/kakumei/stats.php:3
+#: statistics.php:9
+msgid "Statistics"
+msgstr "Statistik"
+
+# C:\Documents
+#: bb-templates/kakumei/stats.php:6
+msgid "Registered Users"
+msgstr "Registrerede brugere"
+
+# C:\Documents
+#: bb-templates/kakumei/stats.php:13
+msgid "Most Popular Topics"
+msgstr "Mest populære emner"
+
+# C:\Documents
+#: bb-templates/kakumei/tag-single.php:29
+#, fuzzy
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> link for this tag"
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr>-link for dette tag."
+
+# C:\Documents
+#: bb-templates/kakumei/tags.php:5
+msgid "This is a collection of tags that are currently popular on the forums."
+msgstr "Her er en samling af tags, der i øjeblikket er populære på foraene."
+
+# C:\Documents
+#: bb-templates/kakumei/topic-tags.php:2
+msgid "Tags:"
+msgstr "Tags:"
+
+# C:\Documents
+#: bb-templates/kakumei/topic-tags.php:10
+#, php-format
+msgid "No <a href=\"%s\">tags</a> yet."
+msgstr "Ingen <a href=\"%s\">tags</a> endnu."
+
+#: bb-templates/kakumei/topic.php:10
+#, fuzzy, php-format
+msgid "%s voice"
+msgid_plural "%s voices"
+msgstr[0] "%d emne"
+msgstr[1] "%d emner"
+
+# C:\Documents
+#: bb-templates/kakumei/topic.php:13
+#, php-format
+msgid "Started %1$s ago by %2$s"
+msgstr "Startet for %1$s siden af %2$s"
+
+# C:\Documents
+#: bb-templates/kakumei/topic.php:15
+#, php-format
+msgid "<a href=\"%1$s\">Latest reply</a> from %2$s"
+msgstr "<a href=\"%1$s\">Seneste svar</a> fra %2$s"
+
+# C:\Documents
+#: bb-templates/kakumei/topic.php:42
+#, fuzzy
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this topic"
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr>-link for dette tag."
+
+# C:\Documents
+#: bb-templates/kakumei/topic.php:48
+msgid "Topic Closed"
+msgstr "Emnet lukket"
+
+# C:\Documents
+#: bb-templates/kakumei/topic.php:49
+msgid "This topic has been closed to new replies."
+msgstr "Emnet er lukket for nye svar."
+
+# C:\Documents
+#: bb-templates/kakumei/view.php:37
+#, fuzzy
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this view"
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr>-link for dette tag."
+
+# C:\Documents
+#: favorites.php:8
+#, fuzzy
+msgid "You cannot edit those favorites. How did you get here?"
+msgstr "Du kan ikke redigere de favoritter, Hvordan kom du hertil?"
+
+# C:\Documents
+#: forum.php:10
+msgid "Forum not found."
+msgstr "Forum ikke fundet."
+
+#: profile-edit.php:55
+#: profile-edit.php:96
+#, php-format
+msgid "%s is required."
+msgstr ""
+
+#: profile-edit.php:82
+#, fuzzy
+msgid "Invalid Role"
+msgstr "Ugyldige argumenter"
+
+#: profile-edit.php:84
+msgid "You are not the Gate Keeper."
+msgstr ""
+
+#: profile-edit.php:86
+msgid "You are Keymaster, so you may not demote yourself."
+msgstr ""
+
+#: profile-edit.php:113
+msgid "You must enter the same password twice."
+msgstr ""
+
+# C:\Documents
+#: profile-edit.php:115
+#, fuzzy
+msgid "You are not allowed to change this user's password."
+msgstr "Du må ikke ændre dit kodeord."
+
+#: register.php:27
+#, php-format
+msgid "%s is an invalid username. How's this one?"
+msgstr ""
+
+#: register.php:29
+#, fuzzy, php-format
+msgid "%s is an invalid username."
+msgstr "Ugyldige argumenter"
+
+#: register.php:42
+#, php-format
+msgid "%s is required"
+msgstr ""
+
+# C:\Documents
+#: tag-add.php:7
+msgid "You need to be logged in to add a tag."
+msgstr "Du skal være logget ind for at tilføje et tag."
+
+# C:\Documents
+#: tag-add.php:23
+msgid "The tag was not added.  Either the tag name was invalid or the topic is closed."
+msgstr "Tagget blev ikke tilføjet. Enten er tag-navnet ugyldigt eller også er emnet lukket."
+
+# C:\Documents
+#: tag-remove.php:17
+msgid "Invalid tag or topic."
+msgstr "Ugyldigt tag eller emne."
+
+# C:\Documents
+#: tag-remove.php:24
+#, fuzzy
+msgid "The tag was not removed."
+msgstr "Forumet blev ikke tilføjet"
+
+# C:\Documents
+#: tags.php:9
+msgid "Tag not found"
+msgstr "Tag ikke fundet"
+
+#: xmlrpc.php:207
+msgid "Authentication failed."
+msgstr ""
+
+# C:\Documents
+#: xmlrpc.php:217
+#: xmlrpc.php:255
+#, fuzzy
+msgid "You do not have permission to read this."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+#: xmlrpc.php:245
+msgid "User switching failed, the requested user does not exist."
+msgstr ""
+
+# C:\Documents
+#: xmlrpc.php:588
+#: xmlrpc.php:712
+#: xmlrpc.php:811
+#: xmlrpc.php:998
+#: xmlrpc.php:1124
+#: xmlrpc.php:1233
+#: xmlrpc.php:1344
+#: xmlrpc.php:1541
+#: xmlrpc.php:1898
+#: xmlrpc.php:2747
+#, fuzzy
+msgid "The forum id is invalid."
+msgstr "Forumet blev ikke tilføjet"
+
+# C:\Documents
+#: xmlrpc.php:593
+#: xmlrpc.php:717
+#: xmlrpc.php:1238
+#: xmlrpc.php:1349
+#, fuzzy
+msgid "The forum does not exist."
+msgstr "Dette brugernavn eksisterer ikke"
+
+# C:\Documents
+#: xmlrpc.php:738
+#: xmlrpc.php:1250
+#, fuzzy
+msgid "No forums found."
+msgstr "Ingen resultater fundet."
+
+# C:\Documents
+#: xmlrpc.php:817
+#: xmlrpc.php:1004
+#: xmlrpc.php:1130
+#: xmlrpc.php:1547
+#: xmlrpc.php:1904
+#: xmlrpc.php:2753
+#, fuzzy
+msgid "No forum found."
+msgstr "Ingen resultater fundet."
+
+# C:\Documents
+#: xmlrpc.php:876
+#: xmlrpc.php:976
+#, fuzzy
+msgid "You do not have permission to manage forums."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+# C:\Documents
+#: xmlrpc.php:887
+#: xmlrpc.php:987
+#, fuzzy
+msgid "The forum data is invalid."
+msgstr "Forumet blev ikke tilføjet"
+
+# C:\Documents
+#: xmlrpc.php:895
+#: xmlrpc.php:1024
+#, fuzzy
+msgid "The forum name is invalid."
+msgstr "Forumet blev ikke tilføjet"
+
+# C:\Documents
+#: xmlrpc.php:916
+#, fuzzy
+msgid "The forum could not be created."
+msgstr "Forumet blev ikke tilføjet"
+
+# C:\Documents
+#: xmlrpc.php:1066
+#, fuzzy
+msgid "The forum could not be edited."
+msgstr "Forumet blev ikke tilføjet"
+
+# C:\Documents
+#: xmlrpc.php:1110
+#, fuzzy
+msgid "You do not have permission to delete forums."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+# C:\Documents
+#: xmlrpc.php:1141
+#, fuzzy
+msgid "You do not have permission to delete this forum."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+# C:\Documents
+#: xmlrpc.php:1150
+#, fuzzy
+msgid "The forum could not be deleted."
+msgstr "Forumet blev ikke tilføjet"
+
+#: xmlrpc.php:1442
+#: xmlrpc.php:1679
+#: xmlrpc.php:1793
+#: xmlrpc.php:1880
+#: xmlrpc.php:1979
+#: xmlrpc.php:2079
+#: xmlrpc.php:2179
+#: xmlrpc.php:2271
+#: xmlrpc.php:2447
+#: xmlrpc.php:2863
+#: xmlrpc.php:2947
+#: xmlrpc.php:3161
+#: xmlrpc.php:3279
+msgid "The topic id is invalid."
+msgstr ""
+
+# C:\Documents
+#: xmlrpc.php:1448
+#: xmlrpc.php:1685
+#: xmlrpc.php:1799
+#: xmlrpc.php:1886
+#: xmlrpc.php:1985
+#: xmlrpc.php:2085
+#: xmlrpc.php:2185
+#: xmlrpc.php:2277
+#: xmlrpc.php:2453
+#: xmlrpc.php:2869
+#: xmlrpc.php:2953
+#: xmlrpc.php:3167
+#: xmlrpc.php:3285
+#, fuzzy
+msgid "No topic found."
+msgstr "Ingen emner fundet"
+
+# C:\Documents
+#: xmlrpc.php:1514
+#, fuzzy
+msgid "You do not have permission to write topics."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+# C:\Documents
+#: xmlrpc.php:1518
+#: xmlrpc.php:2425
+#, fuzzy
+msgid "You do not have permission to write posts."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+#: xmlrpc.php:1530
+#: xmlrpc.php:1668
+msgid "The topic data is invalid."
+msgstr ""
+
+# C:\Documents
+#: xmlrpc.php:1556
+#, fuzzy
+msgid "You do not have permission to write topics to this forum."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+# C:\Documents
+#: xmlrpc.php:1562
+#: xmlrpc.php:1714
+#, fuzzy
+msgid "The topic title is invalid."
+msgstr "Emne med titlen"
+
+#: xmlrpc.php:1568
+#: xmlrpc.php:1720
+msgid "The topic text is invalid."
+msgstr ""
+
+#: xmlrpc.php:1584
+msgid "The topic could not be created."
+msgstr ""
+
+#: xmlrpc.php:1596
+#: xmlrpc.php:2480
+msgid "The post could not be created."
+msgstr ""
+
+# C:\Documents
+#: xmlrpc.php:1652
+#, fuzzy
+msgid "You do not have permission to edit topics."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+# C:\Documents
+#: xmlrpc.php:1656
+#: xmlrpc.php:2535
+#, fuzzy
+msgid "You do not have permission to edit posts."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+# C:\Documents
+#: xmlrpc.php:1694
+#, fuzzy
+msgid "You do not have permission to edit this topic."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+# C:\Documents
+#: xmlrpc.php:1708
+#: xmlrpc.php:2572
+#, fuzzy
+msgid "You do not have permission to edit this post."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+#: xmlrpc.php:1726
+msgid "The topic could not be edited."
+msgstr ""
+
+#: xmlrpc.php:1733
+#: xmlrpc.php:2590
+#: xmlrpc.php:2676
+msgid "The post could not be edited."
+msgstr ""
+
+# C:\Documents
+#: xmlrpc.php:1779
+#, fuzzy
+msgid "You do not have permission to delete topics."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+# C:\Documents
+#: xmlrpc.php:1815
+#, fuzzy
+msgid "You do not have permission to delete this topic."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+#: xmlrpc.php:1821
+msgid "The topic could not be deleted."
+msgstr ""
+
+# C:\Documents
+#: xmlrpc.php:1866
+#, fuzzy
+msgid "You do not have permission to move topics."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+# C:\Documents
+#: xmlrpc.php:1915
+#, fuzzy
+msgid "You are not allowed to move this topic to this forum."
+msgstr "Du har ikke tilladelse til at skrive nye emner."
+
+#: xmlrpc.php:1921
+msgid "The topic could not be moved."
+msgstr ""
+
+# C:\Documents
+#: xmlrpc.php:1965
+#, fuzzy
+msgid "You do not have permission to stick topics."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+# C:\Documents
+#: xmlrpc.php:1994
+#, fuzzy
+msgid "You do not have permission to stick this topic."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+#: xmlrpc.php:2008
+msgid "The topic could not be stuck."
+msgstr ""
+
+# C:\Documents
+#: xmlrpc.php:2065
+#, fuzzy
+msgid "You do not have permission to close topics."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+# C:\Documents
+#: xmlrpc.php:2094
+#, fuzzy
+msgid "You do not have permission to close this topic."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+# C:\Documents
+#: xmlrpc.php:2108
+#, fuzzy
+msgid "The topic could not be closed."
+msgstr "Dette emner er lukket"
+
+# C:\Documents
+#: xmlrpc.php:2114
+#, fuzzy
+msgid "The topic could not be opened."
+msgstr "Emne ikke fundet."
+
+#: xmlrpc.php:2363
+#: xmlrpc.php:2557
+#: xmlrpc.php:2649
+msgid "The post id is invalid."
+msgstr ""
+
+# C:\Documents
+#: xmlrpc.php:2369
+#: xmlrpc.php:2563
+#: xmlrpc.php:2655
+#, fuzzy
+msgid "No post found."
+msgstr "Ingen resultater fundet."
+
+#: xmlrpc.php:2436
+#: xmlrpc.php:2546
+msgid "The post data is invalid."
+msgstr ""
+
+# C:\Documents
+#: xmlrpc.php:2462
+#, fuzzy
+msgid "You do not have permission to write posts to this topic."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+#: xmlrpc.php:2468
+#: xmlrpc.php:2578
+msgid "The post text is invalid."
+msgstr ""
+
+# C:\Documents
+#: xmlrpc.php:2635
+#, fuzzy
+msgid "You do not have permission to delete posts."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+# C:\Documents
+#: xmlrpc.php:2664
+#, fuzzy
+msgid "You do not have permission to delete this post."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+# C:\Documents
+#: xmlrpc.php:2769
+#, fuzzy
+msgid "Could not retrieve hot topic tags."
+msgstr "Tæller emne-tags..."
+
+# C:\Documents
+#: xmlrpc.php:2773
+#: xmlrpc.php:2798
+#, fuzzy
+msgid "No hot topic tags found."
+msgstr "Ingen emner fundet"
+
+# C:\Documents
+#: xmlrpc.php:2887
+#, fuzzy
+msgid "Could not get a count of all topic tags."
+msgstr "Færdig med at tælle emnetags."
+
+# C:\Documents
+#: xmlrpc.php:2962
+#, fuzzy
+msgid "No topic tags found."
+msgstr "Ingen emner fundet"
+
+# C:\Documents
+#: xmlrpc.php:2969
+#, fuzzy
+msgid "Could not retrieve all topic tags."
+msgstr "Tæller emne-tags..."
+
+#: xmlrpc.php:3040
+#: xmlrpc.php:3368
+#: xmlrpc.php:3540
+msgid "The tag id is invalid."
+msgstr ""
+
+# C:\Documents
+#: xmlrpc.php:3046
+#: xmlrpc.php:3374
+#: xmlrpc.php:3546
+#, fuzzy
+msgid "No tag found."
+msgstr "Ingen resultater fundet."
+
+# C:\Documents
+#: xmlrpc.php:3147
+#: xmlrpc.php:3265
+#, fuzzy
+msgid "You do not have permission to edit tags."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+# C:\Documents
+#: xmlrpc.php:3176
+#, fuzzy
+msgid "You do not have permission to add tags to this topic."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+#: xmlrpc.php:3184
+#: xmlrpc.php:3302
+msgid "The tag data is invalid."
+msgstr ""
+
+# C:\Documents
+#: xmlrpc.php:3190
+#, fuzzy
+msgid "The tags could not be added."
+msgstr "Forumet blev ikke tilføjet"
+
+# C:\Documents
+#: xmlrpc.php:3294
+#, fuzzy
+msgid "You do not have permission to remove tags from this topic."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+#: xmlrpc.php:3308
+msgid "The tags could not be removed."
+msgstr ""
+
+# C:\Documents
+#: xmlrpc.php:3354
+#: xmlrpc.php:3439
+#: xmlrpc.php:3526
+#, fuzzy
+msgid "You do not have permission to manage tags."
+msgstr "Det har du ikke rettigheder til at gøre."
+
+#: xmlrpc.php:3386
+msgid "The tag name is invalid."
+msgstr ""
+
+#: xmlrpc.php:3392
+msgid "The tag could not be renamed."
+msgstr ""
+
+# C:\Documents
+#: xmlrpc.php:3454
+#, fuzzy
+msgid "The old tag id is invalid."
+msgstr "Forumet blev ikke tilføjet"
+
+# C:\Documents
+#: xmlrpc.php:3458
+#, fuzzy
+msgid "The new tag id is invalid."
+msgstr "Forumet blev ikke tilføjet"
+
+# C:\Documents
+#: xmlrpc.php:3464
+#, fuzzy
+msgid "No old tag found."
+msgstr "Ingen resultater fundet."
+
+# C:\Documents
+#: xmlrpc.php:3468
+#, fuzzy
+msgid "No new tag found."
+msgstr "Ingen resultater fundet."
+
+# C:\Documents
+#: xmlrpc.php:3478
+#, fuzzy
+msgid "The tags could not be merged."
+msgstr "Forumet blev ikke tilføjet"
+
+# C:\Documents
+#: xmlrpc.php:3555
+#, fuzzy
+msgid "The tag could not be destroyed."
+msgstr "Forumet blev ikke tilføjet"
+
+# C:\Documents
+#: xmlrpc.php:3584
+#, fuzzy
+msgid "Software Name"
+msgstr "Sideindstillinger"
+
+#: xmlrpc.php:3589
+#, fuzzy
+msgid "Software Version"
+msgstr "Version"
+
+#: xmlrpc.php:3594
+msgid "Site URL"
+msgstr ""
+
+# C:\Documents
+#: xmlrpc.php:3601
+#, fuzzy
+msgid "Site Name"
+msgstr "Sideindstillinger"
+
+# C:\Documents
+#: xmlrpc.php:3606
+#, fuzzy
+msgid "Site Description"
+msgstr "Beskrivelse:"
+
+#: xmlrpc.php:3611
+msgid "Time Zone"
+msgstr ""
+
+#: xmlrpc.php:3616
+msgid "Date/Time Format"
+msgstr ""
+
+# C:\Documents
+#: xmlrpc.php:3621
+#, fuzzy
+msgid "Date Format"
+msgstr "Opdater forum"
+
+# C:\Documents
+#: xmlrpc.php:3764
+#, fuzzy
+msgid "You are not allowed to manage options."
+msgstr "Du har ikke lov til at håndtere tags."
+
+#: xmlrpc.php:3775
+msgid "The options data is invalid."
+msgstr ""
+
+#: xmlrpc.php:3855
+msgid "This is not the site you are trying to pingback."
+msgstr ""
+
+#: xmlrpc.php:3864
+msgid "The source URL and the target URL cannot both point to the same resource."
+msgstr ""
+
+#: xmlrpc.php:3869
+#: xmlrpc.php:4056
+msgid "The specified target URL cannot be used as a target. It either doesn't exist, or it is not a pingback-enabled resource."
+msgstr ""
+
+#: xmlrpc.php:3880
+msgid "The specified target topic does not contain any posts."
+msgstr ""
+
+#: xmlrpc.php:3887
+msgid "The pingback has already been registered."
+msgstr ""
+
+# C:\Documents
+#: xmlrpc.php:3899
+#, fuzzy
+msgid "The source URL does not exist."
+msgstr "Dette brugernavn eksisterer ikke"
+
+#: xmlrpc.php:3919
+msgid "We cannot find a title on that page."
+msgstr ""
+
+#: xmlrpc.php:3974
+msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
+msgstr ""
+
+#: xmlrpc.php:3989
+msgid "The pingback could not be added."
+msgstr ""
+
+#: xmlrpc.php:4006
+#, php-format
+msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
+msgstr ""
+
+#: xmlrpc.php:4037
+msgid "The requested method only accepts one parameter."
+msgstr ""
+
+#: xmlrpc.php:4050
+msgid "The specified target URL is not on this domain."
+msgstr ""
+
+# C:\Documents
+#~ msgid "Nothing to see here."
+#~ msgstr "Ikke noget at se her."
+# C:\Documents
+#, fuzzy
+#~ msgid "Counted posts"
+#~ msgstr "Tæller indlæg..."
+
+# C:\Documents
+#, fuzzy
+#~ msgid "Counted voices"
+#~ msgstr "Nuværende favoritter"
+
+# C:\Documents
+#, fuzzy
+#~ msgid "Counting deleted posts&#8230;"
+#~ msgstr "Tæller slettede indlæg..."
+
+# C:\Documents
+#, fuzzy
+#~ msgid "&#8230;counted deleted posts"
+#~ msgstr "Tæller slettede indlæg..."
+
+# C:\Documents
+#, fuzzy
+#~ msgid "&#8230;no deleted posts to count"
+#~ msgstr "Ingen slettede indlæg at tælle."
+
+# C:\Documents
+#, fuzzy
+#~ msgid "Counted forum topics and posts"
+#~ msgstr "Tæller forumemner og -indlæg..."
+
+# C:\Documents
+#, fuzzy
+#~ msgid "Counted topics to which each user has replied"
+#~ msgstr "Tæl de emner, som hver bruger har svaret på"
+
+#, fuzzy
+#~ msgid "Removed deleted topics from users' favorites"
+#~ msgstr "Fjerner slettede emner fra brugers favoritter..."
+
+# C:\Documents
+#~ msgid "Key not found."
+#~ msgstr "Key ikke fundet."
+# C:\Documents
+#~ msgid "Support forums"
+#~ msgstr "Supportfora"
+# C:\Documents
+#~ msgid "Recounting"
+#~ msgstr "Tæller igen"
+# C:\Documents
+#~ msgid "Done counting posts."
+#~ msgstr "Færdig med at tælle indlæg."
+# C:\Documents
+#~ msgid "Done counting deleted posts."
+#~ msgstr "Færdig med at tælle slettede indlæg."
+# C:\Documents
+#~ msgid "Done counting forum topics and posts."
+#~ msgstr "Færdig med at tælle forumemner og -indlæg."
+# C:\Documents
+#~ msgid "Done counting topics."
+#~ msgstr "Færdig med at tælle emner."
+# C:\Documents
+#~ msgid "Done counting tagged topics."
+#~ msgstr "Færdig med at tælle taggede emner."
+# C:\Documents
+#~ msgid "Done removing deleted topics from users' favorites."
+#~ msgstr "Færdig med at fjerne slettede indlæg fra brugernes favoritter."
+# C:\Documents
+#~ msgid "Done recounting.  The process took"
+#~ msgstr "Færdig med at tælle igen. Det tog"
+# C:\Documents
+#~ msgid "%1$d queries and %2$s seconds."
+#~ msgstr "%1$d forespørgsler og %2$s sekunder."
+# C:\Documents
+#~ msgid "Forum Management"
+#~ msgstr "Forumhåndtering"
+# C:\Documents
+#~ msgid "Update Forum"
+#~ msgstr "Opdater forum"
+# C:\Documents
+#~ msgid "Delete forum &raquo;"
+#~ msgstr "Slet forum &raquo;"
+# C:\Documents
+#~ msgid "Name &#8212; Description"
+#~ msgstr "Navn &#8212; Beskrivelse"
+#~ msgid "matching &#8220;%s&#8221;"
+#~ msgstr "matching &#8220;%s&#8221;"
+# C:\Documents
+#~ msgid "%1$sposts"
+#~ msgstr "%1$sindlæg"
+# C:\Documents
+#~ msgid "%1$s%2$stopics"
+#~ msgstr "%1$s%2$semner"
+# C:\Documents
+#~ msgid "No Topics Found"
+#~ msgstr "Ingen emner fundet"
+#~ msgid ""
+#~ "Your server is running PHP version %s but bbPress requires at least 4.3"
+#~ msgstr ""
+#~ "Din server kører PHP version %s, men bbPress kræver, at det mindst er 4.3"
+#~ msgid "bbPress \"auth\" cookie key"
+#~ msgstr "bbPress \"auth\" cookie key"
+#~ msgid ""
+#~ "This should be a unique and secret phrase, it will be used to make your "
+#~ "bbPress \"auth\" cookie unique and harder for an attacker to decipher."
+#~ msgstr ""
+#~ "Dette bør være en unik og hemmelig frase. Den bruges til at lave dine "
+#~ "bbPress-\"auth\"-cookies unikke og sværere at gennemskue ved angreb på "
+#~ "siden."
+#~ msgid "bbPress \"secure auth\" cookie key"
+#~ msgstr "bbPress \"secure auth\" cookie key"
+#~ msgid ""
+#~ "This should be a unique and secret phrase, it will be used to make your "
+#~ "bbPress \"secure auth\" cookie unique and harder for an attacker to "
+#~ "decipher."
+#~ msgstr ""
+#~ "Dette bør være en unik og hemmelig frase. Den bruges til at lave dine "
+#~ "bbPress-\"secure auth\"-cookies unikke og sværere at gennemskue ved "
+#~ "angreb på siden."
+#~ msgid "bbPress \"logged in\" cookie key"
+#~ msgstr "bbPress \"logged in\" cookie key"
+#~ msgid ""
+#~ "This should be a unique and secret phrase, it will be used to make your "
+#~ "bbPress \"logged in\" cookie unique and harder for an attacker to "
+#~ "decipher."
+#~ msgstr ""
+#~ "Dette bør være en unik og hemmelig frase. Den bruges til at lave dine "
+#~ "bbPress-\"logged in\"-cookies unikke og sværere at gennemskue ved angreb "
+#~ "på siden."
+#~ msgid "bbPress \"nonce\" key"
+#~ msgstr "bbPress \"nonce\" key"
+#~ msgid ""
+#~ "This should be a unique and secret phrase, it will be used to make form "
+#~ "submission harder for an attacker to spoof."
+#~ msgstr ""
+#~ "Dette bør være en unik og hemmelig frase. Den bruges til at gøre det "
+#~ "sværere at gennemskue form-afsendelse ved angreb på siden."
+# C:\Documents
+#, fuzzy
+#~ msgid "Forum name"
+#~ msgstr "Forumnavn:"
+
+# C:\Documents
+#, fuzzy
+#~ msgid "Message"
+#~ msgstr "Flet"
+
+#~ msgid "Manage"
+#~ msgstr "Rediger"
+
+#~ msgid "Design"
+#~ msgstr "Design"
+
+# C:\Documents
+#~ msgid "Find"
+#~ msgstr "Find"
+# C:\Documents
+#~ msgid "Moderators"
+#~ msgstr "Moderatorer"
+# C:\Documents
+#~ msgid "User List by Role"
+#~ msgstr "Brugere efter rolle"
+# C:\Documents
+#~ msgid "Search for users &raquo;"
+#~ msgstr "Søg efter brugere &raquo;"
+# C:\Documents
+#~ msgid "&laquo; Back to All Users"
+#~ msgstr "&laquo; Tilbage til Alle brugere"
+# C:\Documents
+#~ msgid "%1$s &#8211; %2$s of %3$s shown below"
+#~ msgstr "%1$s &#8211; %2$s af %3$s vises nedenfor"
+# C:\Documents
+#~ msgid "Users with no role in these forums"
+#~ msgstr "Brugere uden rolle i disse fora"
+# C:\Documents
+#~ msgid "ID"
+#~ msgstr "ID"
+# C:\Documents
+#~ msgid "Registered Since"
+#~ msgstr "Registreret siden"
+# C:\Documents
+#~ msgid "Forum Name:"
+#~ msgstr "Forumnavn:"
+# C:\Documents
+#, fuzzy
+#~ msgid "Forum Slug:"
+#~ msgstr "Forumnavn:"
+
+# C:\Documents
+#~ msgid "Forum Description:"
+#~ msgstr "Forumbeskrivelse:"
+#~ msgid "Update Forum &#187;"
+#~ msgstr "Opdater forum &#187;"
+# C:\Documents
+#~ msgid "Add Forum &#187;"
+#~ msgstr "Tilføj forum &#187;"
+# C:\Documents
+#~ msgid "Posted: %1$s in <a href=\"%2$s\">%3$s</a>"
+#~ msgstr "Skrevet: %1$s i <a href=\"%2$s\">%3$s</a>"
+# C:\Documents
+#~ msgid "DELETE tags with no topics.  Only functions if the above checked"
+#~ msgstr "SLET tags uden emner. Virker kun, hvis ovenstående er markeret"
+# C:\Documents
+#, fuzzy
+#~ msgid "REMOVE deleted topics from users' favorites"
+#~ msgstr "Tilføj dette emne til dine favoritter"
+
+# C:\Documents
+#, fuzzy
+#~ msgid "%d forum"
+
+#~ msgid_plural "%d forums"
+#~ msgstr[0] "Tilføj forum"
+#~ msgstr[1] "Tilføj forum"
+
+#, fuzzy
+#~ msgid "is %d topic"
+
+#~ msgid_plural "are %d topics"
+#~ msgstr[0] "%d emne"
+#~ msgstr[1] "%d emner"
+
+# C:\Documents
+#, fuzzy
+#~ msgid "Recent User Registrations"
+#~ msgstr "Brugerregistreringer"
+
+# C:\Documents
+#~ msgid "registered %s ago"
+#~ msgstr "registreret %s siden"
+# C:\Documents
+#~ msgid "by"
+#~ msgstr "af"
+# C:\Documents
+#~ msgid "Topic titled"
+#~ msgstr "Emne med titlen"
+# C:\Documents
+#~ msgid "started by"
+#~ msgstr "startet af"
+# C:\Documents
+#, fuzzy
+#~ msgid "\"Key master\" account"
+#~ msgstr "Key Master"
+
+# C:\Documents
+#, fuzzy
+#~ msgid "Site description"
+#~ msgstr "Beskrivelse:"
+
+# C:\Documents
+#, fuzzy
+#~ msgid "none"
+#~ msgstr "om"
+
+# C:\Documents
+#, fuzzy
+#~ msgid "bbPress %s"
+#~ msgstr "bbPress-bekræftelse"
+
+# C:\Documents
+#, fuzzy
+#~ msgid "Save User Role Map"
+#~ msgstr "Opdater profil &raquo;"
+
+#, fuzzy
+#~ msgid "User database character collation:"
+#~ msgstr "Databasens tegnsortering (character collation):"
+
+# C:\Documents
+#, fuzzy
+#~ msgid "Plugin Management"
+#~ msgstr "Forumhåndtering"
+
+#~ msgid "Automatically loaded plugins"
+#~ msgstr "Automatisk loadede plugins"
+
+#~ msgid "No Plugins Installed"
+#~ msgstr "Ingen plugins installeret"
+
+#, fuzzy
+#~ msgid "Get More Plugins"
+#~ msgstr "Plugins"
+
+# C:\Documents
+#, fuzzy
+#~ msgid ""
+#~ "The following checkboxes allow you to recalculate various numbers stored "
+#~ "in the database. These numbers are used for things like counting the "
+#~ "number of pages worth of posts a particular topic has.  You shouldn't "
+#~ "need to do do any of this unless you're upgrading from one version to "
+#~ "another or are seeing pagination oddities."
+#~ msgstr ""
+#~ "De følgende markeringsfelter gør det muligt for dig at genoptælle "
+#~ "forskellige\n"
+#~ "numre, der er gemt i databasen. Disse numre bliver brugt til ting som "
+#~ "optælling\n"
+#~ "af hvor mange sider, der skal bruges til det antal indlæg et bestemt emne "
+#~ "har.\n"
+#~ "Det burde ikke være nødvendigt at gøre det, medmindre du opdaterer fra "
+#~ "en\n"
+#~ "version til en anden eller ser mærkelige ting med siderne."
+
+# C:\Documents
+#~ msgid "Choose items to recalculate"
+#~ msgstr "Vælg emner, der skal udregnes igen"
+# C:\Documents
+#~ msgid "Count!"
+#~ msgstr "Tæl!"
+#~ msgid "Click to activate"
+#~ msgstr "Klik for at aktivere"
+# C:\Documents
+#~ msgid "These users have been blocked by the forum administrators"
+#~ msgstr "Disse brugere er blevet blokeret af forumadministratorerne"
+# C:\Documents
+#~ msgid "Forum Administrators"
+#~ msgstr "Forumadministratorer"
+# C:\Documents
+#~ msgid "IP Information"
+#~ msgstr "IP-information"
+# C:\Documents
+#~ msgid "Posted:"
+#~ msgstr "Skrevet:"
+# C:\Documents
+#~ msgid "Search&#8230;"
+#~ msgstr "Søg&#8230;"
+#~ msgid "Forum&#8230;"
+#~ msgstr "Forum&#8230;"
+#~ msgid "Open?&#8230;"
+#~ msgstr "Åbn?&#8230;"
+#~ msgid "Title&#8230;"
+#~ msgstr "Titel&#8230;"
+# C:\Documents
+#~ msgid "years"
+#~ msgstr "år"
+# C:\Documents
+#~ msgid "months"
+#~ msgstr "måneder"
+# C:\Documents
+#~ msgid "weeks"
+#~ msgstr "uger"
+# C:\Documents
+#~ msgid "days"
+#~ msgstr "dage"
+# C:\Documents
+#~ msgid "second"
+#~ msgstr "sekund"
+# C:\Documents
+#~ msgid "seconds"
+#~ msgstr "sekunder"
+# C:\Documents
+#~ msgid "%1$d %2$s"
+#~ msgstr "%1$d %2$s"
+# C:\Documents
+#~ msgid ", %1$d %2$s"
+#~ msgstr ", %1$d %2$s"
+# C:\Documents
+#, fuzzy
+#~ msgid "<a href=\"http://bbpress.org/\">bbPress</a> - simple, fast, elegant"
+#~ msgstr ""
+#~ "<a href=\"http://bbpress.org/\">bbPress</a>: Simpelt, Hurtigt, Elegant."
+
+# C:\Documents
+#~ msgid "Topic: %s"
+#~ msgstr "Emne: %s"
+# C:\Documents
+#~ msgid "Move this topic to the selected forum:"
+#~ msgstr "Flyt dette emne til at valgte forum:"
+# C:\Documents
+#~ msgid "Are you sure you want to delete this %s?"
+#~ msgstr "Er du sikker på, at du vil slette denne %s?"
+# C:\Documents
+#~ msgid "Jump to new item"
+#~ msgstr "Spring til nyt emne"
+# C:\Documents
+#~ msgid "You don't have permission to do that."
+#~ msgstr "Det har du ikke rettigheder til at gøre."
+# C:\Documents
+#~ msgid "Something strange happened.  Try refreshing the page."
+#~ msgstr "Der skete noget mærkeligt. Prøv at opdatere siden."
+# C:\Documents
+#~ msgid "Slow down, I'm still sending your data!"
+#~ msgstr "Rolig nu, jeg sender stadig data!"
+# C:\Documents
+#, fuzzy
+#~ msgid "Akismet Configuration"
+#~ msgstr "bbPress-bekræftelse"
+
+# C:\Documents
+#, fuzzy
+#~ msgid "Update Configuration &raquo;"
+#~ msgstr "Opdater profil &raquo;"
+
+# C:\Documents
+#, fuzzy
+#~ msgid ""
+#~ "The API key you have specified is invalid.  Please double check the "
+#~ "<strong>Akismet Key</strong> set in <a href=\"%s\">Akismet configuration</"
+#~ "a>.  If you don't have an API key yet, you can get one at <a href=\"%s"
+#~ "\">WordPress.com</a>."
+#~ msgstr ""
+#~ "Den API-nøgle, som du har skrevet, er ikke gyldig. Dobbelttjek din <code>"
+#~ "$bb->akismet_key</code> i <code>config.php file</code>. Hvis du ikke har "
+#~ "en API-nøgle endnu, kan du få en på <a href=\"%s\">WordPress.com</a>."
+
+# C:\Documents
+#~ msgid "Counting bozo posts..."
+#~ msgstr "Tæller tåbelige indlæg..."
+# C:\Documents
+#~ msgid "Done counting bozo posts."
+#~ msgstr "Færdig med at tælle tåbelige indlæg."
+# C:\Documents
+#~ msgid "Counting bozo topics for each user...\n"
+#~ msgstr "Tæller tåbelige indlæg for hver bruger...\n"
+# C:\Documents
+#~ msgid ""
+#~ "Done counting bozo topics.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Færdig med at tælle tåbelige indlæg.\n"
+#~ "\n"
+# C:\Documents
+#~ msgid ""
+#~ "Count topics to which each user has replied and count each users&#039; "
+#~ "bozo posts"
+#~ msgstr ""
+#~ "Tæl emner som denne bruger har svaret på og tæl hver brugers tåbeindlæg."
+# C:\Documents
+#~ msgid "These users have been marked as bozos"
+#~ msgstr "Disse brugere er blevet markeret som tåber"
+# C:\Documents
+#~ msgid ""
+#~ "Subscribe to your favorites&#8217; <a href=\"%s\"><abbr title=\"Really "
+#~ "Simple Syndication\">RSS</abbr> feed</a>."
+#~ msgstr ""
+#~ "Abonnér på dine favoritters <a href=\"%s\"><abbr title=\"Really Simple "
+#~ "Syndication\">RSS</abbr>-feed</a>."
+# C:\Documents
+#, fuzzy
+#~ msgid "Remember me:"
+#~ msgstr "december"
+
+# C:\Documents
+#~ msgid "Topic title: (be brief and descriptive)"
+#~ msgstr "Emnetitel: (vær kort og beskrivende)"
+# C:\Documents
+#~ msgid ""
+#~ "Enter a few words (called <a href=\"%s\">tags</a>) separated by commas to "
+#~ "help someone find your topic:"
+#~ msgstr ""
+#~ "Indtast nogle få ord (kaldet <a href=\"%s\">tags</a>) adskilt af "
+#~ "mellemrum for at hjælpe andre med at finde dit emne:"
+# C:\Documents
+#~ msgid "Pick a section:"
+#~ msgstr "Vælg en sektion:"
+# C:\Documents
+#~ msgid "Most recent reply: %s ago."
+#~ msgstr "Seneste svar: %s siden."
+# C:\Documents
+#~ msgid "Posted"
+#~ msgstr "Skrevet"
+# C:\Documents
+#~ msgid "User Favorites"
+#~ msgstr "Brugerfavoritter"
+# C:\Documents
+#~ msgid ""
+#~ "The tag was not removed.  You cannot remove a tag from a closed topic."
+#~ msgstr ""
+#~ "Tagget blev ikke fjernet. Du kan ikke fjerne et tag fra et lukket emne."
+# C:\Documents
+#~ msgid "Documentation"
+#~ msgstr "Dokumentation"
+# C:\Documents
+#~ msgid "Development"
+#~ msgstr "Udvikling"
+# C:\Documents
+#, fuzzy
+#~ msgid "Save site settings &raquo;"
+#~ msgstr "Opdater bruger &raquo;"
+
+# C:\Documents
+#~ msgid "Latest Activity"
+#~ msgstr "Seneste aktiviteter"
+# C:\Documents
+#~ msgid "profile"
+#~ msgstr "profil"
+# C:\Documents
+#~ msgid "Topics per day"
+#~ msgstr "Emner pr. dag"
+# C:\Documents
+#~ msgid "Registrations per day"
+#~ msgstr "Registreringer pr. dag"
+# C:\Documents
+#~ msgid "Forums started %s ago."
+#~ msgstr "Forum startet for %s siden."
+# C:\Documents
+#, fuzzy
+#~ msgid "Update Settings &raquo;"
+#~ msgstr "Opdater profil &raquo;"
+
+#~ msgid "File is not a valid plugin."
+#~ msgstr "FIlen er ikke et gyldigt plugin."
+
+#~ msgid "<strong>ERROR</strong>: bbPress %s requires MySQL 4.0.0 or higher"
+#~ msgstr "<strong>FEJL</strong>: bbPress %s kræver MySQL 4.0.0 eller nyere"
+
+# C:\Documents
+#, fuzzy
+#~ msgid "Are you sure you wanna delete this post by '%author%'?"
+#~ msgstr "Er du sikker på, at du vil slette dette indlæg af \"' + %s + '\"?"
+
+# C:\Documents
+#, fuzzy
+#~ msgid "Are you sure you want to remove the '%tag%' tag?"
+#~ msgstr "Er du sikker på, at du vil fjerne tagget \"' + %s + '\""

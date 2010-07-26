@@ -1,0 +1,3689 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR bbPress
+# This file is distributed under the same license as the PACKAGE package.
+# kazama <anotherkaz@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: BBPRESS THAI\n"
+"Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
+"POT-Creation-Date: 2009-01-02 12:11+0000\n"
+"PO-Revision-Date: 2009-01-08 22:48+0700\n"
+"Last-Translator: kazama <anotherkaz@gmail.com>\n"
+"Language-Team: wordthai <anotherkaz@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Thai\n"
+"X-Poedit-Country: THAILAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: bb-admin/admin-base.php:10
+msgid "Nothing to see here."
+msgstr "ไม่มีสิ่งใดที่นี่"
+
+#: bb-admin/admin-footer.php:3
+msgid "Documentation"
+msgstr "เอกสารประกอบ"
+
+#: bb-admin/admin-footer.php:3
+msgid "Development"
+msgstr "พัฒนา"
+
+#: bb-admin/admin-footer.php:4
+#, php-format
+msgid "%s seconds"
+msgstr "%s วินาที"
+
+#: bb-admin/admin-functions.php:48
+#: bb-admin/index.php:4
+msgid "Dashboard"
+msgstr "หน้าหลัก"
+
+#: bb-admin/admin-functions.php:49
+msgid "Users"
+msgstr "ผู้ใช้"
+
+#: bb-admin/admin-functions.php:50
+msgid "Manage"
+msgstr "จัดการ"
+
+#: bb-admin/admin-functions.php:51
+msgid "Design"
+msgstr "รูปแบบ"
+
+#: bb-admin/admin-functions.php:52
+msgid "Settings"
+msgstr "ตั้งค่า"
+
+#: bb-admin/admin-functions.php:53
+#: bb-admin/admin-functions.php:67
+#: bb-admin/plugins.php:110
+msgid "Plugins"
+msgstr "ปลั๊กอิน"
+
+#: bb-admin/admin-functions.php:56
+msgid "Find"
+msgstr "หา"
+
+#: bb-admin/admin-functions.php:57
+msgid "Moderators"
+msgstr "ผู้ควบคุม"
+
+#: bb-admin/admin-functions.php:58
+#: bb-includes/capabilities.php:164
+msgid "Blocked"
+msgstr "Blocked"
+
+#: bb-admin/admin-functions.php:60
+#: bb-admin/content.php:33
+#: bb-templates/kakumei/forum.php:45
+#: bb-templates/kakumei/front-page.php:49
+msgid "Topics"
+msgstr "กระทู้"
+
+#: bb-admin/admin-functions.php:61
+#: bb-admin/content-posts.php:29
+#: bb-templates/kakumei/favorites.php:18
+#: bb-templates/kakumei/forum.php:10
+#: bb-templates/kakumei/forum.php:46
+#: bb-templates/kakumei/front-page.php:18
+#: bb-templates/kakumei/front-page.php:50
+#: bb-templates/kakumei/stats.php:8
+#: bb-templates/kakumei/tag-single.php:12
+#: bb-templates/kakumei/view.php:10
+msgid "Posts"
+msgstr "ความเห็น"
+
+#: bb-admin/admin-functions.php:62
+#: bb-templates/kakumei/front-page.php:44
+msgid "Forums"
+msgstr "ฟอรั่ม"
+
+#: bb-admin/admin-functions.php:63
+#: bb-admin/site.php:4
+msgid "Recount"
+msgstr "นับใหม่"
+
+#: bb-admin/admin-functions.php:65
+msgid "Themes"
+msgstr "Themes"
+
+#: bb-admin/admin-functions.php:69
+msgid "General"
+msgstr "ทั่วไป"
+
+#: bb-admin/admin-functions.php:70
+#: bb-admin/options-wordpress.php:51
+msgid "WordPress Integration"
+msgstr "การเชื่อมกับเวิร์ดเพรส"
+
+#: bb-admin/admin-functions.php:214
+#: bb-admin/admin-functions.php:545
+#: bb-includes/functions.php:2090
+#: bb-includes/template-functions.php:1254
+msgid "Edit"
+msgstr "แก้ไข"
+
+#: bb-admin/admin-functions.php:267
+#: bb-admin/admin-functions.php:405
+#: bb-plugins/bozo.php:296
+msgid "No matching users were found!"
+msgstr "ไม่พบผู้ใช้ตามที่หา"
+
+#: bb-admin/admin-functions.php:327
+#, php-format
+msgid "Users Matching \"%s\" by Role"
+msgstr "ค้นหาผู้ใช้ \"%s\" โดยบทบาท"
+
+#: bb-admin/admin-functions.php:329
+msgid "User List by Role"
+msgstr "รายชื่อผู้ใช้โดยบทบาท"
+
+#: bb-admin/admin-functions.php:334
+#: bb-templates/kakumei/search-form.php:3
+msgid "Search:"
+msgstr "ค้นหา:"
+
+#: bb-admin/admin-functions.php:336
+msgid "Search for users &raquo;"
+msgstr "ค้นหาสำหรับสมาชิก &raquo;"
+
+#: bb-admin/admin-functions.php:342
+msgid "&laquo; Back to All Users"
+msgstr "&laquo; กลับไปยังสมาชิกทั้งหมด"
+
+#: bb-admin/admin-functions.php:344
+#, php-format
+msgid "%1$s &#8211; %2$s of %3$s shown below"
+msgstr "%1$s &#8211; %2$s ของ %3$s แสดงที่ด้านล่าง"
+
+#: bb-admin/admin-functions.php:354
+msgid "Users with no role in these forums"
+msgstr "ผู้ใช้ที่ไม่มีบทบาทในฟอรั่มเหล่านี้"
+
+#: bb-admin/admin-functions.php:358
+msgid "ID"
+msgstr "เลขที่"
+
+#: bb-admin/admin-functions.php:360
+#: bb-admin/admin-functions.php:363
+msgid "Username"
+msgstr "ชื่อสมาชิก"
+
+#: bb-admin/admin-functions.php:361
+#: bb-includes/functions.php:2141
+msgid "Email"
+msgstr "อีเมล์"
+
+#: bb-admin/admin-functions.php:365
+msgid "Registered Since"
+msgstr "ลงทะเบียนตั้งแต่"
+
+#: bb-admin/admin-functions.php:366
+msgid "Actions"
+msgstr "ดำเนินการ"
+
+#: bb-admin/admin-functions.php:547
+#: bb-includes/template-functions.php:1274
+msgid "Delete"
+msgstr "ลบ"
+
+#: bb-admin/admin-functions.php:567
+msgid "Forum Name:"
+msgstr "ชื่อฟอรั่ม:"
+
+#: bb-admin/admin-functions.php:570
+msgid "Forum Description:"
+msgstr "คำอธิบายฟอรั่ม:"
+
+#: bb-admin/admin-functions.php:573
+msgid "Forum Parent:"
+msgstr "ฟอรั่มหลัก:"
+
+#: bb-admin/admin-functions.php:576
+msgid "Position:"
+msgstr "ตำแหน่ง:"
+
+#: bb-admin/admin-functions.php:587
+msgid "Update Forum &#187;"
+msgstr "อัพเดตจาก &#187;"
+
+#: bb-admin/admin-functions.php:587
+msgid "Add Forum &#187;"
+msgstr "เพิ่มฟอรั่ม &#187;"
+
+#: bb-admin/admin-functions.php:744
+#, php-format
+msgid "Posted: %1$s in <a href=\"%2$s\">%3$s</a>"
+msgstr "โพสท์: %1$s ใน <a href=\"%2$s\">%3$s</a>"
+
+#: bb-admin/admin-functions.php:759
+msgid "Count posts of every topic"
+msgstr "นับความเห็นของกระทู้ทั้งหมด"
+
+#: bb-admin/admin-functions.php:760
+msgid "Count deleted posts on every topic"
+msgstr "นับความเห็นที่ถูกลบของกระทู้ทั้งหมด"
+
+#: bb-admin/admin-functions.php:761
+msgid "Count topics and posts in every forum (relies on the above)"
+msgstr "นับกระทู้และความเห็นในทุกฟอรั่ม (ขึ้นอยู่กับด้านบน)"
+
+#: bb-admin/admin-functions.php:762
+msgid "Count topics to which each user has replied"
+msgstr "นับกระทู้ที่สมาชิกแต่ละคนได้ตอบ"
+
+#: bb-admin/admin-functions.php:763
+msgid "Count tags for every topic"
+msgstr "นับแทคสำหรับทุกกระทู้"
+
+#: bb-admin/admin-functions.php:764
+msgid "Count topics for every tag"
+msgstr "นับกระทู้สำหรับทุกแทค"
+
+#: bb-admin/admin-functions.php:765
+msgid "DELETE tags with no topics.  Only functions if the above checked"
+msgstr "ลบแทคที่ไม่มีกระทู้  คำสั่งนี้ทำงานเมื่อตัวเลือกด้านบนถูกเลือก"
+
+#: bb-admin/admin-functions.php:766
+msgid "REMOVE deleted topics from users' favorites"
+msgstr "ลบกระทู้ที่ถูกลบออกจากกระทู้ชื่นชอบของสมาชิก"
+
+#: bb-admin/admin-functions.php:908
+msgid "Visit plugin homepage"
+msgstr "เยี่ยมชมเวบปลั๊คอิน"
+
+#: bb-admin/admin-functions.php:911
+#: bb-admin/admin-functions.php:959
+msgid "Visit author homepage"
+msgstr "เยี่ยมชมเวบผู้เขียน"
+
+#: bb-admin/admin-functions.php:965
+msgid "Visit porter homepage"
+msgstr "เยี่ยมชมเวบ porter"
+
+#: bb-admin/admin-header.php:18
+msgid "Visit Site"
+msgstr "เยี่ยมชมเวบไซต์"
+
+#: bb-admin/admin-header.php:22
+#: bb-templates/kakumei/logged-in.php:2
+#, php-format
+msgid "Welcome, %1$s!"
+msgstr "ยินดีต้อนรับ %1$s!"
+
+#: bb-admin/bb-do-counts.php:12
+msgid "Recounting"
+msgstr "กำลังนับอีกครั้ง"
+
+#: bb-admin/bb-do-counts.php:19
+msgid "Counting posts..."
+msgstr "กำลังนับความเห็น..."
+
+#: bb-admin/bb-do-counts.php:24
+msgid "Done counting posts."
+msgstr "นับความเห็นเสร็จแล้ว"
+
+#: bb-admin/bb-do-counts.php:33
+msgid "Counting deleted posts..."
+msgstr "กำลังนับความเห็นที่ถูกลบ..."
+
+#: bb-admin/bb-do-counts.php:43
+msgid "Done counting deleted posts."
+msgstr "นับความเห็นที่ถูกลบเสร็จแล้ว"
+
+#: bb-admin/bb-do-counts.php:45
+msgid "No deleted posts to count."
+msgstr "ไม่มีกระทู้ที่ถูกลบให้นับ"
+
+#: bb-admin/bb-do-counts.php:53
+msgid "Counting forum topics and posts..."
+msgstr "กำลังนับกระทู้ฟอรั่มและความเห็น..."
+
+#: bb-admin/bb-do-counts.php:67
+msgid "Done counting forum topics and posts."
+msgstr "นับกระทู้ฟอรั่มและความเห็นเสร็จแล้ว"
+
+#: bb-admin/bb-do-counts.php:74
+msgid "Counting topics to which each user has replied..."
+msgstr "กำลังนับกระทู้ที่ผู้ใช้แต่ละคนตอบ..."
+
+#: bb-admin/bb-do-counts.php:79
+msgid "Done counting topics."
+msgstr "นับกระทู้เสร็จแล้ว"
+
+#: bb-admin/bb-do-counts.php:86
+msgid "Counting topic tags..."
+msgstr "กำลังนับแทคของกระทู้..."
+
+#: bb-admin/bb-do-counts.php:96
+msgid "Done counting topic tags."
+msgstr "นับแทคของกระทู้เสร็จแล้ว"
+
+#: bb-admin/bb-do-counts.php:103
+msgid "Counting tagged topics..."
+msgstr "กำลังนับกระทู้ที่ถูกแทค..."
+
+#: bb-admin/bb-do-counts.php:115
+msgid "Done counting tagged topics."
+msgstr "นับกระทู้ที่ถูกแทคเสร็จแล้ว"
+
+#: bb-admin/bb-do-counts.php:121
+msgid "Deleted tags with no topics."
+msgstr "ลบแทคที่ไม่มีกระทู้"
+
+#: bb-admin/bb-do-counts.php:130
+msgid "Removing deleted topics from users' favorites..."
+msgstr "กำลังลบกระทู้ออกจากกระทู้ชื่นชอบของสมาชิก"
+
+#: bb-admin/bb-do-counts.php:139
+msgid "Done removing deleted topics from users' favorites."
+msgstr "ลบกระทู้ออกจากกระทู้ชื่นชอบของสมาชิกเสร็จแล้ว"
+
+#: bb-admin/bb-do-counts.php:148
+msgid "Done recounting.  The process took"
+msgstr "นับเสร็จแล้ว  ดำเนินการไปแล้ว"
+
+#: bb-admin/bb-do-counts.php:149
+#, php-format
+msgid "%1$d queries and %2$s seconds."
+msgstr "%1$d queries และ %2$s วินาที"
+
+#: bb-admin/bb-forum.php:5
+msgid "You don't have the authority to mess with the forums."
+msgstr "คุณไม่มีอำนาจสำหรับฟอรั่มนี้"
+
+#: bb-admin/bb-forum.php:15
+msgid "Bad forum name.  Go back and try again."
+msgstr "ชื่อฟอรั่มไม่เหมาะสม  กลับไปตั้งชื่อใหม่อีกครั้ง"
+
+#: bb-admin/bb-forum.php:23
+msgid "The forum was not added"
+msgstr "ฟอรั่มยังไม่ถูกสร้าง"
+
+#: bb-admin/bb-forum.php:30
+msgid "No forums to update!"
+msgstr "ไม่มีฟอรั่มใดให้อัพเดต"
+
+#: bb-admin/bb-forum.php:45
+msgid "You don't have the authority to kill off the forums."
+msgstr "คุณไม่มีอำนาจสำหรับฟอรั่มนี้"
+
+#: bb-admin/bb-forum.php:51
+msgid "Error occured while trying to delete forum"
+msgstr "มีความผิดพลาดในขณะที่พยายามลบฟอรั่ม"
+
+#: bb-admin/class-install.php:136
+#: bb-includes/functions.php:2321
+msgid "bbPress &rsaquo; Error"
+msgstr "bbPress &rsaquo; ผิดพลาด"
+
+#: bb-admin/class-install.php:137
+msgid "Oh dear!"
+msgstr "โอ๊ว ไม่นะ (- -')"
+
+#: bb-admin/class-install.php:141
+#: bb-admin/class-install.php:151
+#: bb-admin/class-install.php:162
+#: bb-admin/class-install.php:173
+#: bb-admin/class-install.php:185
+#, php-format
+msgid "%1$s &rsaquo; %2$s"
+msgstr "%1$s &rsaquo; %2$s"
+
+#: bb-admin/class-install.php:141
+#: bb-admin/class-install.php:151
+#: bb-admin/class-install.php:162
+#: bb-admin/class-install.php:173
+#: bb-admin/class-install.php:185
+msgid "bbPress installer"
+msgstr "ตัวติดตั้ง bbPress"
+
+#: bb-admin/class-install.php:141
+msgid "Welcome"
+msgstr "ยินดีต้อนรับ"
+
+#: bb-admin/class-install.php:142
+#: bb-admin/class-install.php:152
+#: bb-admin/class-install.php:163
+#: bb-admin/class-install.php:174
+#: bb-admin/class-install.php:186
+msgid "Welcome to the bbPress installer"
+msgstr "ยินดีต้อนรับสู่ตัวติดตั้ง bbPress"
+
+#: bb-admin/class-install.php:145
+msgid "We're now going to go through a few steps to get you up and running."
+msgstr "เรากำลังอยู่ในขั้นตอนบางอย่างที่จะทำให้คุณใช้งานได้"
+
+#: bb-admin/class-install.php:147
+#, php-format
+msgid "Ready? Then <a href=\"%s\">let's get started!</a>"
+msgstr "คุณพร้อมหรือยัง  ถ้าพร้อมแล้ว <a href=\"%s\">มาเริ่มกันเลย!</a>"
+
+#: bb-admin/class-install.php:151
+#: bb-admin/class-install.php:153
+msgid "Step 1"
+msgstr "ขั้นตอนที่ 1"
+
+#: bb-admin/class-install.php:153
+#: bb-admin/class-install.php:164
+#: bb-admin/class-install.php:175
+#, php-format
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: bb-admin/class-install.php:153
+msgid "Database configuration"
+msgstr "การตั้งค่าฐานข้อมูล"
+
+#: bb-admin/class-install.php:156
+msgid "Here you need to enter your database connection details. The installer will attempt to create a file called <code>bb-config.php</code> in the root directory of your bbPress installation."
+msgstr "คุณต้องใส่ข้อมูลการเชื่อมต่อกับฐานข้อมูล  การติดตั้งจะพยายามสร้างไฟล์ที่ชื่อ <code>bb-config.php</code> ในไดเรคทอรีหลักที่คุณติดตั้ง bbPress"
+
+#: bb-admin/class-install.php:157
+msgid "If you're not sure what to put here, contact your web hosting provider."
+msgstr "ถ้าคุณไม่แน่ใจว่าต้องใส่อะไรบ้าง  กรุณาติดต่อผู้ให้บริการโฮสท์ของคุณ"
+
+#: bb-admin/class-install.php:162
+#: bb-admin/class-install.php:164
+msgid "Step 2"
+msgstr "ขั้นตอนที่ 2"
+
+#: bb-admin/class-install.php:164
+msgid "WordPress integration (optional)"
+msgstr "การเชื่อมต่อกับเวิร์ดเพรส (ทางเลือก)"
+
+#: bb-admin/class-install.php:165
+msgid "&laquo; skipped"
+msgstr "&laquo; ถูกข้าม"
+
+#: bb-admin/class-install.php:167
+msgid "bbPress can integrate login and user data seamlessly with WordPress. You can safely skip this section if you do not wish to integrate with an existing WordPress install."
+msgstr "bbPress สามารถเชื่อมต่อการเข้าสู่ระบบและข้อมูลผู้ใช้กับเวิร์ดเพรสได้อย่างราบรื่น  คุณสามารถข้ามขั้นตอนนี้ไปได้ถ้าคุณไม่ต้องการเชื่อมต่อกับเวิร์ดเพรสที่คุณลงไว้แล้ว"
+
+#: bb-admin/class-install.php:173
+#: bb-admin/class-install.php:175
+msgid "Step 3"
+msgstr "ขั้นตอนที่ 3"
+
+#: bb-admin/class-install.php:175
+msgid "Site settings"
+msgstr "การตั้งค่าเวบไซต์"
+
+#: bb-admin/class-install.php:178
+msgid "Finalize your installation by adding a name, your first user and your first forum."
+msgstr "จบขั้นตอนการติดตั้งโดยการใส่ชื่อผู้ใช้คนแรกและชื่อฟอรั่มแรกของคุณ"
+
+#: bb-admin/class-install.php:185
+msgid "Finished"
+msgstr "เสร็จแล้ว"
+
+#: bb-admin/class-install.php:187
+#: bb-admin/class-install.php:1827
+msgid "Installation complete!"
+msgstr "การติดตั้งสำเร็จแล้ว"
+
+#: bb-admin/class-install.php:204
+#, php-format
+msgid "Your server is running PHP version %s but bbPress requires at least 4.3"
+msgstr "เซิร์ฟเวอร์ของคุณใช้ PHP รุ่น %s  แต่ bbPress นั้นต้องทำงานโดยใช้รุ่น 4.3 เป็นอย่างต่ำ"
+
+#: bb-admin/class-install.php:210
+msgid "Your PHP installation appears to be missing the MySQL extension which is required for bbPress"
+msgstr "การติดตั้ง PHP ของคุณนั้นไม่มีการลงในส่วนเพิ่มของ MySQL ซึ่งส่วนนี้สำคัญต่อการทำงานของ bbPress"
+
+#: bb-admin/class-install.php:220
+msgid "Please complete your installation before attempting to include WordPress within bbPress"
+msgstr "กรุณาทำการติดตั้งให้เสร็จก่อนที่จะพยายามรวม WordPress ใน bbPress"
+
+#: bb-admin/class-install.php:308
+msgid "Please select the language you wish to use during installation -"
+msgstr "กรุณาเลือกภาษาที่คุณต้องการใช้ในการติดตั้ง -"
+
+#: bb-admin/class-install.php:414
+msgid "An old <code>config.php</code> file has been detected in your installation. You should remove it and run the <a href=\"install.php\">installer</a> again. You can use the same database connection details if you do."
+msgstr "การติดตั้งพบว่ามีไฟล์ <code>config.php</code> เก่าอยู่  คุณควรจะลบมันก่อนแล้วทำการ <a href=\"install.php\">ติดตั้ง</a> อีกครั้ง  คุณสามารถใช้ข้อมูลการเชื่อมต่อเดิมถ้าคุณต้องการ"
+
+#: bb-admin/class-install.php:427
+#: bb-admin/class-install.php:853
+#: bb-admin/class-install.php:861
+#: bb-admin/class-install.php:873
+msgid "&laquo; completed"
+msgstr "&laquo; เสร็จแล้ว"
+
+#: bb-admin/class-install.php:435
+msgid "A valid configuration file was found at <code>bb-config.php</code><br />You may continue to the next step."
+msgstr "ระบบพบไฟล์การเชื่อมต่อที่ทำงานได้คือไฟล์ <code>bb-config.php</code><br />คุณอาจจะทำการติดตั้งในขั้นต่อไป"
+
+#: bb-admin/class-install.php:440
+msgid "An invalid configuration file was found at <code>bb-config.php</code><br />The installation cannot continue."
+msgstr "ระบบพบว่ามีไฟล์ <code>bb-config.php</code> ที่ตั้งค่าไม่สมบูรณ์อยู่<br /> การติดตั้งจึงไม่อาจทำต่อได้"
+
+#: bb-admin/class-install.php:441
+msgid "Usually this is caused by one of the database connection settings being incorrect. Make sure that the specified user has appropriate permission to access the database."
+msgstr "โดยปกติแล้วนี่เป็นสาเหตุจากการตั้งค่าเชื่อมต่อกับฐานข้อมูลอย่างใดอย่างหนึ่งไม่ถูกต้อง  โปรดแน่ใจว่าผู้ใช้ที่ระบุนั้นมีสิทธิเข้าใช้งานฐานข้อมูล"
+
+#: bb-admin/class-install.php:451
+msgid "bbPress is already installed, but appears to require an upgrade."
+msgstr "bbPress ถูกติดตั้งเรียบร้อยแล้ว  แต่เหมือนว่าระบบต้องการการอัปเกรด"
+
+#: bb-admin/class-install.php:452
+#, php-format
+msgid "Perhaps you meant to run the <a href=\"%s\">upgrade script</a> instead?"
+msgstr "บางทีคุณอาจจะต้องการ <a href=\"%s\">อัปเกรด script</a>"
+
+#: bb-admin/class-install.php:465
+#: bb-admin/class-install.php:970
+msgid "I could not find the file <code>bb-config-sample.php</code><br />Please upload it to the root directory of your bbPress installation."
+msgstr "ระบบไม่พบไฟล์ <code>bb-config-sample.php</code><br />  กรุณาอัปโหลดไฟล์นี้ลงในไดเรคทอรีหลักของการติดตั้ง bbPress"
+
+#: bb-admin/class-install.php:471
+msgid "There doesn't seem to be a <code>bb-config.php</code> file. This usually means that you want to install bbPress."
+msgstr "ดูเหมือนว่าไม่มีไฟล์ <code>bb-config.php</code> ซึ่งหมายความว่าคุณต้องการจะติดตั้ง bbPress"
+
+#: bb-admin/class-install.php:541
+msgid "Database name:"
+msgstr "ชื่อฐานข้อมูล:"
+
+#: bb-admin/class-install.php:542
+msgid "The name of the database in which you want to run bbPress."
+msgstr "ชื่อของฐานข้อมูลที่คุณต้องการลง bbPress"
+
+#: bb-admin/class-install.php:546
+msgid "Database user:"
+msgstr "ชื่อผู้ใช้ฐานข้อมูล:"
+
+#: bb-admin/class-install.php:547
+#: bb-admin/class-install.php:694
+#: bb-admin/options-wordpress.php:185
+msgid "The database user that has access to that database."
+msgstr "ผู้ใช้ฐานข้อมูลที่มีสิทธิ์เข้าถึงฐานข้อมูลนั้น"
+
+#: bb-admin/class-install.php:552
+msgid "Database password:"
+msgstr "รหัสผ่านฐานข้อมูบ:"
+
+#: bb-admin/class-install.php:553
+#: bb-admin/class-install.php:701
+#: bb-admin/options-wordpress.php:192
+msgid "That database user's password."
+msgstr "รหัสผ่านฐานข้อมูลผู้ใช้นั้น"
+
+#: bb-admin/class-install.php:557
+msgid "Language"
+msgstr "ภาษา"
+
+#: bb-admin/class-install.php:558
+#, php-format
+msgid "The language which bbPress will be presented in once installed. Your current language choice (%s) will remain for the rest of the install process."
+msgstr "ภาษาที่ bbPress จะนำไปแสดงภายหลังจากติดตั้งแล้ว  ภาษาปัจจุบันของคุณ (%s) จะถูกคงไว้จนกว่าจะสิ้นสุดการติดตั้ง"
+
+#: bb-admin/class-install.php:562
+msgid "Show advanced settings:"
+msgstr "แสดงการตั้งค่าขั้นสูง:"
+
+#: bb-admin/class-install.php:563
+#, php-format
+msgid "99% of the time these settings will not have to be changed."
+msgstr "99% of the time these settings will not have to be changed."
+
+#: bb-admin/class-install.php:569
+msgid "Database host:"
+msgstr "โฮสท์ฐานข้อมูล:"
+
+#: bb-admin/class-install.php:570
+#: bb-admin/options-wordpress.php:199
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should remain <strong>localhost</strong>."
+msgstr "ชื่อเว็บหรือ IP address ของเซิฟเวอร์ที่ซึ่งฐานข้อมูลอยู่  ถ้าฐานข้อมูลอยู่บนเซิฟเวอร์เดียวกับเว็บไซต์แล้ว ค่านี้ควรจะเป็น <strong>localhost</strong>"
+
+#: bb-admin/class-install.php:575
+msgid "Database character set:"
+msgstr "รูปแบบตัวอักษรฐานข้อมูล:"
+
+#: bb-admin/class-install.php:576
+#: bb-admin/class-install.php:713
+#: bb-admin/options-wordpress.php:206
+msgid "The best choice is <strong>utf8</strong>, but you will need to match the character set which you created the database with."
+msgstr "ตัวเลือกที่ดีที่สุดคือ <strong>utf8</strong> แต่คุณต้องตั้งค่าชุดตัวอักษรให้ตรงกันกับฐานข้อมูลที่คุณสร้าง"
+
+#: bb-admin/class-install.php:581
+msgid "Database character collation:"
+msgstr "การตรวจเทียบตัวอักษรฐานข้อมูล:"
+
+#: bb-admin/class-install.php:582
+msgid "The character collation value set when the database was created."
+msgstr "การตั้งค่าตรวจเทียบตัวอักษรเมื่อฐานข้อมูลถูกสร้าง"
+
+#: bb-admin/class-install.php:587
+msgid "bbPress cookie secret key:"
+msgstr "bbPress cookie secret key:"
+
+#: bb-admin/class-install.php:588
+msgid "This should be a unique and secret phrase, it will be used to make your bbPress cookies unique and harder for an attacker to decipher."
+msgstr "ควรใช้ชื่อเฉพาะและเป็นความลับ  มันจะถูกใช้เป็น bbPress cookies ของคุณ ซึ่งควรตั้งให้ยากแก่คนอื่นจะมาถอดรหัสของคุณ"
+
+#: bb-admin/class-install.php:593
+msgid "Table name prefix:"
+msgstr "คำนำหน้าตารางในฐานข้อมูล:"
+
+#: bb-admin/class-install.php:594
+msgid "If you are running multiple bbPress installations in a single database, you will probably want to change this."
+msgstr "ถ้าคุณต้องการลง bbPress หลาย ๆ การติดตั้งในฐานข้อมูลเดียว  คุณต้องเปลี่ยนสิ่งนี้"
+
+#: bb-admin/class-install.php:599
+msgid "Contents for <code>bb-config.php</code>:"
+msgstr "เนื้อหาสำหรับ <code>bb-config.php</code>:"
+
+#: bb-admin/class-install.php:600
+msgid "Once you have created the configuration file, you can check for it below."
+msgstr "เมื่อคุณได้ทำการสร้างไฟล์การตั้งค่าแล้ว  คุณสามารถตรวจสอบได้ที่ด้านล่าง"
+
+#: bb-admin/class-install.php:603
+msgid "Save database configuration file &raquo;"
+msgstr "บันทึกไฟล์การตั้งค่าฐานข้อมูล &raquo;"
+
+#: bb-admin/class-install.php:606
+#: bb-admin/class-install.php:732
+#: bb-admin/class-install.php:777
+#: bb-admin/content-forums.php:60
+msgid "&laquo; Go back"
+msgstr "&laquo; กลับไป"
+
+#: bb-admin/class-install.php:609
+msgid "Check for configuration file &raquo;"
+msgstr "ตรวจสอบสำหรับไฟล์การตั้งค่า &raquo;"
+
+#: bb-admin/class-install.php:612
+msgid "Go to step 2 &raquo;"
+msgstr "ไปที่ขั้นตอนที่ 2 &raquo;"
+
+#: bb-admin/class-install.php:621
+msgid "Add integration settings:"
+msgstr "เพิ่มการตั้งค่าเชื่อมต่อ:"
+
+#: bb-admin/class-install.php:622
+msgid "If you want to integrate bbPress with an existing WordPress installation."
+msgstr "ถ้าคุณต้องการเชื่อมต่อ bbPress กับ เวิร์ดเพรสที่ติดตั้งอยู่แล้ว"
+
+#: bb-admin/class-install.php:627
+#: bb-admin/class-install.php:729
+msgid "Skip WordPress integration &raquo;"
+msgstr "ข้ามการเชื่อมต่อกับเวิร์ดเพรส &raquo;"
+
+#: bb-admin/class-install.php:628
+msgid "Save WordPress integration settings &raquo;"
+msgstr "บันทึกการตั้งค่าเชื่อมต่อกับเวิร์ดเพรส &raquo;"
+
+#: bb-admin/class-install.php:633
+msgid "Add cookie integration settings:"
+msgstr "เพิ่มการตั้งค่าการเชื่อมต่อ cookie:"
+
+#: bb-admin/class-install.php:634
+msgid "If you want to allow shared logins with an existing WordPress installation."
+msgstr "ถ้าคุณต้องการแชร์ข้อมูลผู้ใช้กับเวิร์ดเพรสที่ติดตั้งอยู่แล้ว"
+
+#: bb-admin/class-install.php:641
+#: bb-admin/class-install.php:1530
+#: bb-admin/options-wordpress.php:66
+msgid "WordPress address (URL):"
+msgstr "ที่อยู่ของเวิร์ดเพรส (URL):"
+
+#: bb-admin/class-install.php:642
+#: bb-admin/options-wordpress.php:70
+msgid "This value should exactly match the <strong>WordPress address (URL)</strong> setting in your WordPress general settings."
+msgstr "ค่านี้ต้องตรงกับการตั้งค่า <strong>URL ของเวิร์ดเพรส</strong> ในการตั้งค่าทั่วไปของเวิร์ดเพรสของคุณ"
+
+#: bb-admin/class-install.php:647
+#: bb-admin/class-install.php:1533
+#: bb-admin/options-wordpress.php:73
+msgid "Blog address (URL):"
+msgstr "ที่อยู่ของบล็อก (URL):"
+
+#: bb-admin/class-install.php:648
+#: bb-admin/options-wordpress.php:77
+msgid "This value should exactly match the <strong>Blog address (URL)</strong> setting in your WordPress general settings."
+msgstr "ค่านี้ต้องตรงกับการตั้งค่า <strong>URL ของที่อยู่บล็อก</strong> ในการตั้งค่าทั่วไปของเวิร์ดเพรสของคุณ"
+
+#: bb-admin/class-install.php:653
+msgid "WordPress cookie secret key:"
+msgstr "WordPress cookie secret key:"
+
+#: bb-admin/class-install.php:654
+msgid "This value must match the value of the constant named \"SECRET_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress cookie secret key set in the first step."
+msgstr "ค่านี้ต้องตรงกับค่าที่มีชื่อว่า \"SECRET_KEY\" ในไฟล์ <code>wp-config.php</code> เวิร์ดเพรสของคุณ  ค่านี้จะแทนที่ค่า bbPress cookie secret key ในขั้นตอนแรก"
+
+#: bb-admin/class-install.php:659
+msgid "WordPress database secret:"
+msgstr "WordPress database secret:"
+
+#: bb-admin/class-install.php:660
+msgid "This must match the value of the WordPress setting named \"secret\" in your WordPress installation. Look for the option labeled \"secret\" in <a href=\"#\" id=\"getSecretOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings."
+msgstr "ค่านี้ต้องตรงกับการตั้งค่าเวิร์ดเพรสที่มีชื่อว่า \"secret\" ในการติดตั้งเวิร์ดเพรสของคุณ  โปรดดูที่ \"secret\" ใน <a href=\"#\" id=\"getSecretOption\" onclick=\"window.open(this.href); return false;\">หน้าควบคุมเวิร์ดเพรสนี้</a> ถ้าคุณไม่ใส่ค่านี้  การติดตั้งจะพยายามแทนที่ค่านี้จากการตั้งค่าเชื่อมต่อฐานข้อมูลเวิร์ดเพรสของคุณ"
+
+#: bb-admin/class-install.php:665
+msgid "Add user database integration settings:"
+msgstr "เพิ่มการตั้งค่าการเชื่อมต่อฐานข้อมูลผู้ใช้"
+
+#: bb-admin/class-install.php:666
+msgid "If you want to share user data with an existing WordPress installation."
+msgstr "ถ้าคุณต้องการแชร์ข้อมูลผู้ใช้ร่วมกับเวิร์ดเพรสที่ติดตั้งอยู่แล้ว"
+
+#: bb-admin/class-install.php:673
+#: bb-admin/class-install.php:1609
+#: bb-admin/options-wordpress.php:132
+msgid "User database table prefix:"
+msgstr "ชื่อตารางฐานข้อมูลผู้ใช้:"
+
+#: bb-admin/class-install.php:674
+msgid "If your bbPress and WordPress installations share the same database, then this is the same value as <code>$wp_table_prefix</code> in your WordPress <code>wp-config.php</code> file. It is usually <strong>wp_</strong>."
+msgstr "ถ้า bbPress และ Wordpress ของคุณไม่ได้ลงในฐานข้อมูลเดียวกัน   นี่คือค่าการตั้งค่า <code>$wp_table_prefix</code> ในไฟล์ <code>wp-config.php</code> ของเวิร์ดเพรสของคุณ  file ซึ่งโดยปกติจะเป็น <strong>wp_</strong>."
+
+#: bb-admin/class-install.php:679
+#: bb-admin/options-wordpress.php:140
+msgid "Show advanced database settings:"
+msgstr "แสดงการตั้งค่าฐานข้อมูลขั้นสูง"
+
+#: bb-admin/class-install.php:680
+#: bb-admin/options-wordpress.php:164
+msgid "If your bbPress and WordPress installation do not share the same database, then you will need to add advanced settings."
+msgstr "ถ้า bbPress และ Wordpress ของคุณไม่ได้ลงในฐานข้อมูลเดียวกัน  คุณต้องทำการตั้งค่าขั้นสูงเพิ่มเติม"
+
+#: bb-admin/class-install.php:687
+#: bb-admin/class-install.php:1615
+#: bb-admin/options-wordpress.php:174
+msgid "User database name:"
+msgstr "ชื่อฐานข้อมูลผู้ใช้:"
+
+#: bb-admin/class-install.php:688
+#: bb-admin/options-wordpress.php:178
+msgid "The name of the database in which your user tables reside."
+msgstr "ชื่อของฐานข้อมูลที่ตารางผู้ใช้ของคุณอยู่ในนั้น"
+
+#: bb-admin/class-install.php:693
+#: bb-admin/class-install.php:1619
+#: bb-admin/options-wordpress.php:181
+msgid "User database user:"
+msgstr "ผู้ใช้ของฐานข้อมูลผู้ใช้:"
+
+#: bb-admin/class-install.php:700
+#: bb-admin/class-install.php:1623
+#: bb-admin/options-wordpress.php:188
+msgid "User database password:"
+msgstr "รหัสผ่านของฐานข้อมูลผู้ใช้:"
+
+#: bb-admin/class-install.php:706
+#: bb-admin/class-install.php:1627
+#: bb-admin/options-wordpress.php:195
+msgid "User database host:"
+msgstr "โฮสท์ของฐานข้อมูลผู้ใช้:"
+
+#: bb-admin/class-install.php:707
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should be <strong>localhost</strong>."
+msgstr "ชื่อเว็บหรือ IP address ของเซิฟเวอร์ที่ฐานข้อมูลนั้นอยู่  ถ้าฐานข้อมูลอยู่บนเซิฟเวอร์เดียวกับเว็บไซต์  ค่านี้ควรจะเป็น <strong>localhost</strong>"
+
+#: bb-admin/class-install.php:712
+#: bb-admin/class-install.php:1631
+#: bb-admin/options-wordpress.php:202
+msgid "User database character set:"
+msgstr "รูปแบบตัวอักษรของฐานข้อมูลผู้ใช้:"
+
+#: bb-admin/class-install.php:718
+#: bb-admin/class-install.php:1635
+#: bb-admin/options-wordpress.php:215
+msgid "User database \"user\" table:"
+msgstr "ตารางฐานข้อมูลผู้ใช้ \"ผู้ใช้\" :"
+
+#: bb-admin/class-install.php:719
+#: bb-admin/class-install.php:725
+#: bb-admin/options-wordpress.php:219
+#: bb-admin/options-wordpress.php:226
+msgid "The complete table name, including any prefix."
+msgstr "ชื่อเต็มของตารางซึ่งรวมคำนำหน้าด้วย"
+
+#: bb-admin/class-install.php:724
+#: bb-admin/class-install.php:1639
+#: bb-admin/options-wordpress.php:222
+msgid "User database \"user meta\" table:"
+msgstr "ตารางฐานข้อมูล \"user meta\" ผู้ใช้:"
+
+#: bb-admin/class-install.php:735
+msgid "Go to step 3 &raquo;"
+msgstr "ไปที่ขั้นตอนที่ 3 &raquo;"
+
+#: bb-admin/class-install.php:744
+#: bb-admin/class-install.php:1651
+msgid "Site name:"
+msgstr "ชื่อเวบไซต์:"
+
+#: bb-admin/class-install.php:745
+msgid "This is what you are going to call your bbPress installation."
+msgstr "ชื่อนี้จะเป็นชื่อ bbPress ที่คุณติดตั้ง"
+
+#: bb-admin/class-install.php:749
+#: bb-admin/class-install.php:1653
+msgid "Site address (URL):"
+msgstr "ที่อยู่เวบไซต์ (URL):"
+
+#: bb-admin/class-install.php:750
+msgid "We have attempted to guess this, it's usually correct, but change it here if you wish."
+msgstr "ระบบพยายามที่จะเดาซึ่งมักจะถูกต้องเสมอ  แต่คุณสามารถเปลี่ยนมันได้ที่นี่ถ้าต้องการ"
+
+#: bb-admin/class-install.php:755
+#: bb-admin/class-install.php:1705
+#: bb-admin/class-install.php:1727
+#: bb-admin/install.php:355
+#: bb-templates/kakumei/login-form.php:10
+#: bb-templates/kakumei/login.php:12
+#: bb-templates/kakumei/login.php:22
+#: bb-templates/kakumei/login.php:32
+#: bb-templates/kakumei/login.php:63
+#: bb-templates/kakumei/register.php:15
+#: bb-templates/kakumei/register.php:21
+msgid "Username:"
+msgstr "ชื่อสมาชิก:"
+
+#: bb-admin/class-install.php:756
+msgid "This is the user login for the initial bbPress administrator (known as a \"key master\")."
+msgstr "นี่คือชื่อผู้ใช้ของผู้ควบคุมเวบ bbPress (ซึ่งรู้จักกันในชื่อ \"key master\")."
+
+#: bb-admin/class-install.php:761
+#: bb-admin/class-install.php:1706
+#: bb-admin/class-install.php:1728
+msgid "Email address:"
+msgstr "อีเมล์:"
+
+#: bb-admin/class-install.php:762
+msgid "The login details will be emailed to this address."
+msgstr "ข้อมูลในการเข้าสู่ระบบจะถูกส่งอีเมล์ไปยังอีเมล์ของคุณ"
+
+#: bb-admin/class-install.php:770
+#: bb-admin/class-install.php:1763
+msgid "Forum name:"
+msgstr "ชื่อฟอรั่ม:"
+
+#: bb-admin/class-install.php:771
+msgid "This can be changed after installation, so don't worry about it too much."
+msgstr "คุณสามารถเปลี่ยนสิ่งนี้ได้หลังการติดตั้ง  ดังนั้นไม่ต้องกังวลกับมันมากนัก"
+
+#: bb-admin/class-install.php:774
+msgid "Save site settings &raquo;"
+msgstr "บันทึกการตั้งค่าเว็บ &raquo;"
+
+#: bb-admin/class-install.php:780
+msgid "Complete the installation &raquo;"
+msgstr "จบขั้นตอนการติดตั้ง &raquo;"
+
+#: bb-admin/class-install.php:789
+msgid "Show installation messages:"
+msgstr "แสดงข้อความการติดตั้ง:"
+
+#: bb-admin/class-install.php:793
+msgid "Installation errors:"
+msgstr "ผิดพลาดในการติดตั้ง:"
+
+#: bb-admin/class-install.php:797
+msgid "Installation log:"
+msgstr "ล็อก (log) ของการติดตั้ง:"
+
+#: bb-admin/class-install.php:986
+msgid "There was a problem connecting to the database you specified.<br />Please check the settings, then try again."
+msgstr "มีปัญหาเกิดขึ้นในการเชื่อมต่อกับฐานข้อมูลที่คุณระบุ  <br /> กรุณาเช็คการตั้งค่า แล้วลองใหม่อีกครั้ง"
+
+#: bb-admin/class-install.php:1052
+msgid "Your settings have been saved to the file <code>bb-config.php</code><br />You can now continue to the next step."
+msgstr "การตั้งค่าของคุณถูกบันทึกลงในไฟล์ <code>bb-config.php</code>แล้ว<br /> คุณสามารถดำเนินการขั้นต่อไปได้"
+
+#: bb-admin/class-install.php:1063
+msgid "Your settings could not be saved to a configuration file. You will need to save the text shown below into a file named <code>bb-config.php</code> in the root directory of your bbPress installation before you can continue."
+msgstr "การตั้งค่าของคุณไม่สามารถบันทึกลงในไฟล์ตั้งค่าได้  คุณต้องบันทึกข้อความที่แสดงด้านล่างลงในไฟล์ชื่อ <code>bb-config.php</code> ลงในไดเรกทอรีหลักของการติดตั้ง bbPress ก่อนที่คุณจะทำขั้นต่อไป"
+
+#: bb-admin/class-install.php:1080
+msgid "You have chosen to skip the WordPress integration step. You can always integrate WordPress later from within the admin area of bbPress."
+msgstr "คุณเลือกที่จะข้ามขั้นตอนเชื่อมต่อกับเวิร์ดเพรสไป  คุณสามารถทำการตั้งค่าเชื่อมต่อกับเวิร์ดเพรสภายหลังได้ทุกเมื่อจากส่วนควบคุมของ bbPress"
+
+#: bb-admin/class-install.php:1140
+msgid "You must enter your settings for integration setup to complete. Choose which integration settings you wish to enter from the options below."
+msgstr "คุณต้องใส่การตั้งค่าของคุณสำหรับการตั้งค่าการเชื่อมต่อเพื่อจบขั้นตอน  เลือกการตั้งค่าที่คุณต้องการจากตัวเลือกด้านล่าง"
+
+#: bb-admin/class-install.php:1158
+msgid "Your integration settings have not been processed due to errors with the items marked below."
+msgstr "การตั้งค่าเชื่อมต่อของคุณไม่สามารถทำงานได้เนื่องจากความผิดพลาดจากสิ่งที่ปรากฎด้านล่าง"
+
+#: bb-admin/class-install.php:1167
+#: bb-admin/class-install.php:1358
+msgid "&bull; This value is required to continue."
+msgstr "&bull; ต้องใส่ค่านี้เพื่อทำงานต่อไป"
+
+#: bb-admin/class-install.php:1170
+#: bb-admin/class-install.php:1361
+msgid "&bull; This does not appear to be a valid URL."
+msgstr "&bull; URL นี้ดูเหมือนว่าใช้งานไม่ได้"
+
+#: bb-admin/class-install.php:1173
+#: bb-admin/class-install.php:1364
+msgid "&bull; The URL must begin with \"http\" or \"https\"."
+msgstr "&bull; URL ต้องขึ้นต้นด้วย \"http\" หรือ \"https\"."
+
+#: bb-admin/class-install.php:1176
+#: bb-admin/class-install.php:1367
+msgid "&bull; The URL does not contain a host name."
+msgstr "&bull; URL นี้ไม่มีชื่อ host"
+
+#: bb-admin/class-install.php:1256
+msgid "There was a problem connecting to the WordPress user database you specified. Please check the settings, then try again."
+msgstr "มีปัญหาในการเชื่อมต่อกับฐานข้อมูลผู้ใช้เวิร์ดเพรสที่คุณระบุมา  กรุณาตรวจสอบการตั้งค่าแล้วลองอีกครั้ง"
+
+#: bb-admin/class-install.php:1272
+msgid "Existing WordPress user tables could not be found in the WordPress database you specified."
+msgstr "ไม่พบตารางผู้ใช้เวิร์ดเพรสที่มีอยู่ในฐานข้อมูลเวิร์ดเพรสที่คุณระบุ"
+
+#: bb-admin/class-install.php:1274
+msgid "Existing WordPress user tables could not be found in the bbPress database you specified in step 1.<br /><br />This is probably because the database does not already contain working WordPress tables. You may need to specify advanced database settings or leave integration until after installation."
+msgstr "ไม่พบตารางผู้ใช้เวิร์ดเพรสที่มีอยู่ในฐานข้อมูล bbPress ที่คุณระบุ ในขั้นตอนที่ 1<br /><br />นี่อาจะเป็นเพราะว่าฐานข้อมูลนั้นไม่มีตารางเวิร์ดเพรสอยู่  คุณต้องทำการระบุการตั้งค่าฐานข้อมูลขั้นสูง  หรือออกจากขั้นตอนการเชื่อมต่อหลังจากเสร็จสิ้นการติดตั้ง"
+
+#: bb-admin/class-install.php:1276
+msgid "&bull; This may not be a valid user table prefix."
+msgstr "&bull; นี่ไม่ใช่คำนำหน้าตารางที่สามารถใช้ได้"
+
+#: bb-admin/class-install.php:1294
+msgid "Your WordPress integration cookie and database settings have been successfully validated. They will be saved after the next step.<br /><br />Once you have finished installing, you should visit the WordPress integration section of the bbPress admin area for further options and integration instructions, including user mapping and the correct cookie settings to add to your WordPress configuration file."
+msgstr ""
+
+#: bb-admin/class-install.php:1349
+msgid "Your site settings have not been processed due to errors with the items marked below."
+msgstr "การตั้งค่าเว็บของคุณไม่สามารถทำงานได้เนื่องจากความผิดพลาดจากสิ่งที่ปรากฎด้านล่าง"
+
+#: bb-admin/class-install.php:1370
+msgid "&bull; Contains disallowed characters which have been removed."
+msgstr "&bull; มีตัวอักษรที่ห้ามใช้ซึ่งถูกลบออกไปแล้ว"
+
+#: bb-admin/class-install.php:1373
+msgid "&bull; The user email address appears to be invalid."
+msgstr "&bull; อีเมล์ผู้ใช้นี้ดูเหมือนว่าใช้ไม่ได้"
+
+#: bb-admin/class-install.php:1392
+msgid "Your site settings have been saved and we are now ready to complete the installation. So what are you waiting for?"
+msgstr "เว็บของคุณได้ถูกบันทึกแล้ว  ตอนนี้ระบบพร้อมที่จะจบขั้นตอนการติดตั้งแล้ว  คุณไม่จำเป็นต้องรออะไรอีก"
+
+#: bb-admin/class-install.php:1426
+msgid "Referrer is OK, beginning installation&hellip;"
+msgstr "ชื่อผู้แนะนำใช้ได้ เริ่มต้นการติดตั้ง&hellip;"
+
+#: bb-admin/class-install.php:1433
+msgid "Setting up custom user table constants"
+msgstr "การตั้งค่าตัวแปลตารางผู้ใช้"
+
+#: bb-admin/class-install.php:1441
+msgid "Removed user tables from schema"
+msgstr "ลบตารางผู้ใช้ออกจาก schema"
+
+#: bb-admin/class-install.php:1456
+msgid "Removed users table from schema"
+msgstr "ลบตารางผู้ใช้ออกจาก schema"
+
+#: bb-admin/class-install.php:1461
+msgid "Removed usermeta table from schema"
+msgstr "ลบตาราง usermeta ออกจาก schema"
+
+#: bb-admin/class-install.php:1481
+msgid "Step 1 - Creating database tables"
+msgstr "ขั้นตอนที่ 1 สร้างตารางฐานข้อมูล"
+
+#: bb-admin/class-install.php:1504
+msgid "User tables will already exist when performing a database integrated installation."
+msgstr "ตารางผู้ใช้จะมีอยู่แล้วเมื่อดำเนินการเชื่อมฐานข้อมูลการติดตั้ง"
+
+#: bb-admin/class-install.php:1507
+#: bb-admin/class-install.php:1509
+msgid "Database installation failed!!!"
+msgstr "การติดตั้งฐานข้อมูลล้อมเหลว"
+
+#: bb-admin/class-install.php:1508
+#: bb-admin/class-install.php:1682
+#: bb-admin/class-install.php:1711
+#: bb-admin/class-install.php:1733
+msgid "Halting installation!"
+msgstr "การติดตั้งหยุดลง"
+
+#: bb-admin/class-install.php:1512
+#: bb-admin/class-install.php:1684
+#: bb-admin/class-install.php:1714
+#: bb-admin/class-install.php:1736
+msgid "Installation failed!"
+msgstr "การติดตั้งล้มเหลว"
+
+#: bb-admin/class-install.php:1513
+msgid "The database failed to install. You may need to replace bbPress with a fresh copy and start again."
+msgstr "ฐานข้อมูลผิดพลาดในการติดตั้ง  คุณอาจจะต้องการแทนที่ bbPress ด้วยไฟล์ติดตั้งใหม่  แล้วเริ่มอีกครั้ง"
+
+#: bb-admin/class-install.php:1521
+msgid "Database is already installed!!!"
+msgstr "ฐานข้อมูลถูกติดตั้งแล้ว"
+
+#: bb-admin/class-install.php:1526
+msgid "Step 2 - WordPress integration (optional)"
+msgstr "ขั้นตอนที่ 2 การเชื่อมต่อกับเวิร์ดเพรส (ทางเลือก)"
+
+#: bb-admin/class-install.php:1568
+#: bb-admin/class-install.php:1577
+msgid "WordPress cookie secret key set."
+msgstr "ตั้งค่า WordPress cookie secret key"
+
+#: bb-admin/class-install.php:1571
+#: bb-admin/class-install.php:1574
+msgid "WordPress cookie secret key not set."
+msgstr "ยังไม่ตั้งค่า WordPress cookie secret key"
+
+#: bb-admin/class-install.php:1572
+msgid "Your \"bb-config.php\" file was not writable."
+msgstr "ไฟล์ \"bb-config.php\" ของคุณไม่สามารถบันทึกได้"
+
+#: bb-admin/class-install.php:1573
+msgid "You will need to manually define the \"BB_SECRET_KEY\" in your \"bb-config.php\" file."
+msgstr "คุณจะต้องเปลี่ยน \"BB_SECRET_KEY\" ด้วยตัวเองในไฟล์ \"bb-config.php\" ของคุณ"
+
+#: bb-admin/class-install.php:1582
+#: bb-admin/class-install.php:1598
+msgid "WordPress database secret set."
+msgstr "ตั้งค่า WordPress database secret"
+
+#: bb-admin/class-install.php:1590
+msgid "Fetching WordPress database secret."
+msgstr "Fetching WordPress database secret."
+
+#: bb-admin/class-install.php:1600
+#: bb-admin/class-install.php:1603
+msgid "WordPress database secret key not set."
+msgstr "secret key ของฐานข้อมูลเวิร์ดเพรสยังไม่ถูกตั้ง"
+
+#: bb-admin/class-install.php:1601
+msgid "Could not fetch secret from the WordPress options table."
+msgstr "ไม่สามารถดึงคำลับ (secret) จากตารางตัวเลือกเวิร์ดเพรสได้"
+
+#: bb-admin/class-install.php:1602
+msgid "You will need to manually define the secret in your database."
+msgstr "คุณต้องระบุคำลับ (secret) ในฐานข้อมูลของคุณด้วยตัวเอง"
+
+#: bb-admin/class-install.php:1644
+msgid "Integration not enabled"
+msgstr "การเชื่อมต่อไม่ทำงาน"
+
+#: bb-admin/class-install.php:1649
+msgid "Step 3 - Site settings"
+msgstr "ขั้นตอนที่ 3 การตั้งค่าเว็บ"
+
+#: bb-admin/class-install.php:1655
+msgid "From email address:"
+msgstr "จากอีเมล์:"
+
+#: bb-admin/class-install.php:1666
+#: bb-admin/class-install.php:1668
+#: bb-admin/class-install.php:1710
+#: bb-admin/class-install.php:1712
+#: bb-admin/class-install.php:1734
+msgid "Key master could not be created!"
+msgstr "ไม่สามารถสร้าง Key masterได้"
+
+#: bb-admin/class-install.php:1667
+msgid "That login is already taken!"
+msgstr "ชื่อผู้ใช้นี้มีคนใช้อยู่แล้ว"
+
+#: bb-admin/class-install.php:1673
+msgid "Existing key master entered!"
+msgstr "Existing key master entered!"
+
+#: bb-admin/class-install.php:1674
+msgid "Your bbPress password"
+msgstr "รหัสผ่าน bbPress ของคุณ"
+
+#: bb-admin/class-install.php:1677
+msgid "Re-setting admin email address."
+msgstr "ตั้งค่าอีเมล์ผู้ควบคุมเวบใหม่"
+
+#: bb-admin/class-install.php:1681
+msgid "Existing user without key master role entered!"
+msgstr "Existing user without key master role entered!"
+
+#: bb-admin/class-install.php:1685
+msgid "The key master could not be created. An existing user was found with that user login."
+msgstr "ไม่สามารถสร้าง key master เพราะว่ามีสมาชิกที่เป็นอยู่แล้ว"
+
+#: bb-admin/class-install.php:1704
+msgid "Key master created"
+msgstr "Key master ถูกสร้าง"
+
+#: bb-admin/class-install.php:1707
+#: bb-admin/class-install.php:1729
+#: bb-admin/install.php:357
+#: bb-templates/kakumei/login-form.php:13
+#: bb-templates/kakumei/login.php:16
+#: bb-templates/kakumei/login.php:27
+#: bb-templates/kakumei/login.php:36
+msgid "Password:"
+msgstr "รหัสผ่าน:"
+
+#: bb-admin/class-install.php:1715
+msgid "The key master could not be created. You may need to replace bbPress with a fresh copy and start again."
+msgstr "ไม่สามารถสร้าง key masterได้ คุณอาจต้องทำการติดตั้งใหม่โดยใช้ไฟล์ bbPress ใหม่แล้วลองติดตั้งอีกครั้ง"
+
+#: bb-admin/class-install.php:1725
+msgid "Your existing password"
+msgstr "รหัสผ่านที่มีอยู่แล้วของคุณ"
+
+#: bb-admin/class-install.php:1726
+msgid "Key master role assigned to existing user"
+msgstr "บทบาท Key master ถูกมอบให้กับผู้ใช้ที่มีอยู่"
+
+#: bb-admin/class-install.php:1732
+msgid "Key master role could not be assigned to existing user!"
+msgstr "บทบาทของ Key master ไม่สามารถมอบให้กับผู้ใช้ที่มีอยู่"
+
+#: bb-admin/class-install.php:1737
+msgid "The key master could not be assigned. You may need to replace bbPress with a fresh copy and start again."
+msgstr "ไม่สามารถตั้ง key master ได้  คุณอาจต้องลง bbPress ด้วยไฟล์ใหม่แล้วเริ่มติดตั้งใหม่อีกครั้ง"
+
+#: bb-admin/class-install.php:1751
+msgid "Just another bbPress community"
+msgstr "ชุมชนนี้ใช้ bbPress"
+
+#: bb-admin/class-install.php:1760
+msgid "Description:"
+msgstr "คำอธิบาย:"
+
+#: bb-admin/class-install.php:1771
+msgid "Your first topic"
+msgstr "กระทู้แรกของคุณ"
+
+#: bb-admin/class-install.php:1779
+msgid "First Post!  w00t."
+msgstr "ความเห็นแรกของฟอรั่มนี่ :)"
+
+#: bb-admin/class-install.php:1793
+#: bb-templates/kakumei/edit-form.php:4
+msgid "Topic:"
+msgstr "กระทู้:"
+
+#: bb-admin/class-install.php:1794
+#: bb-templates/kakumei/edit-form.php:10
+#: bb-templates/kakumei/post-form.php:9
+msgid "Post:"
+msgstr "ความเห็น:"
+
+#: bb-admin/class-install.php:1796
+#: bb-admin/class-install.php:1797
+msgid "Forum could not be created!"
+msgstr "ไม่สามารถสร้างฟอรั่มได้!"
+
+#: bb-admin/class-install.php:1800
+msgid "There are existing forums in this database."
+msgstr "มีฟอรั่มอยู่แล้วในฐานข้อมูลนี้"
+
+#: bb-admin/class-install.php:1801
+msgid "No new forum created."
+msgstr "ไม่มีฟอรั่มใหม่ถูกสร้าง"
+
+#: bb-admin/class-install.php:1802
+msgid "Forums already exist!"
+msgstr "ฟอรั่มมีอยู่แล้ว"
+
+#: bb-admin/class-install.php:1807
+#, php-format
+msgid ""
+"Your new bbPress site has been successfully set up at:\n"
+"\n"
+"%1$s\n"
+"\n"
+"You can log in to the key master account with the following information:\n"
+"\n"
+"Username: %2$s\n"
+"Password: %3$s\n"
+"\n"
+"We hope you enjoy your new forums. Thanks!\n"
+"\n"
+"--The bbPress Team\n"
+"http://bbpress.org/"
+msgstr ""
+
+#: bb-admin/class-install.php:1813
+msgid "New bbPress installation"
+msgstr "การติดตั้ง bbPress ใหม่"
+
+#: bb-admin/class-install.php:1814
+msgid "Key master email sent"
+msgstr "อีเมล์ key master ถูกส่ง"
+
+#: bb-admin/class-install.php:1816
+#: bb-admin/class-install.php:1817
+msgid "Key master email not sent!"
+msgstr "อีเมล์ key master ไม่ถูกส่ง"
+
+#: bb-admin/class-install.php:1822
+msgid "Installation completed with some errors!"
+msgstr "การติดตั้งเสร็จแล้วแต่มีความผิดพลาดบางอย่าง"
+
+#: bb-admin/class-install.php:1823
+msgid "Your installation completed with some minor errors. See the error log below for more specific information."
+msgstr "การติดตั้งเสร็จแล้วแต่มีความผิดพลาดบางอย่าง  ดู log ความผิดพลาดสำหรับข้อมูลเพิ่มเติม"
+
+#: bb-admin/class-install.php:1824
+msgid "There were some errors encountered during installation!"
+msgstr "มีบางอย่างผิดปกติเกิดขึ้นระหว่างการติดตั้ง"
+
+#: bb-admin/class-install.php:1826
+msgid "Your installation completed successfully.<br />Check below for login details."
+msgstr "การติดตั้งของคุณสำเร็จสมบูรณ์แล้ว <br /> เช็คด้านล่างสำหรับข้อมูลเข้าสู่ระบบ"
+
+#: bb-admin/class-install.php:2124
+msgid "Please select an existing bbPress Keymaster or WordPress administrator."
+msgstr "กรุณาเลือก bbPress Keymaster หรือ WordPress administrator"
+
+#: bb-admin/class-install.php:2183
+msgid "Warning"
+msgstr "การเตือน"
+
+#: bb-admin/class-install.php:2183
+msgid "Message"
+msgstr "ข้อความ"
+
+#: bb-admin/content-forums.php:17
+msgid "Forum Updated."
+msgstr "ฟอรั่มอัพเดตแล้ว"
+
+#: bb-admin/content-forums.php:20
+#, php-format
+msgid "Forum deleted.  You should have bbPress <a href=\"%s\">recount your site information</a>."
+msgstr "ฟอรั่มถูกลบแล้ว คุณควรจะให้ <a href=\"%s\">นับข้อมูลเว็บของคุณใหม่</a>"
+
+#: bb-admin/content-forums.php:31
+msgid "Forum Management"
+msgstr "จัดการฟอรั่ม"
+
+#: bb-admin/content-forums.php:34
+msgid "Update Forum"
+msgstr "อัพเดตฟอรั่ม"
+
+#: bb-admin/content-forums.php:38
+#, php-format
+msgid "Are you sure you want to delete the \"<strong>%s</strong>\" forum?"
+msgstr "คุณแน่ใจที่จะลบฟอรั่ม \"<strong>%s</strong>\"?"
+
+#: bb-admin/content-forums.php:39
+msgid "This forum contains"
+msgstr "ฟอรั่มนี้ประกอบด้วย"
+
+#: bb-admin/content-forums.php:41
+#, php-format
+msgid "%d topic"
+msgid_plural "%d topics"
+msgstr[0] "%d กระทู้"
+
+#: bb-admin/content-forums.php:42
+#, php-format
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d ความเห็น"
+
+#: bb-admin/content-forums.php:47
+msgid "Delete all topics and posts in this forum. <em>This can never be undone.</em>"
+msgstr "ลบกระทู้และความเห็นทั้งหมดในฟอรั่มนี้ <em>เมื่อทำแล้วไม่สามารถยกเลิกได้</em>"
+
+#: bb-admin/content-forums.php:48
+msgid "Move topics from this forum into"
+msgstr "ย้ายกระทู้จากฟอรั่มนี้ไปยัง"
+
+#: bb-admin/content-forums.php:52
+msgid "Delete forum &raquo;"
+msgstr "ลบฟอรั่ม &raquo;"
+
+#: bb-admin/content-forums.php:69
+msgid "Name &#8212; Description"
+msgstr "ชื่อ &#8212; คำอธิบาย"
+
+#: bb-admin/content-forums.php:76
+msgid "Add Forum"
+msgstr "เพิ่มฟอรั่ม"
+
+#: bb-admin/content-posts.php:6
+#: bb-admin/content.php:6
+#: bb-plugins/akismet.php:277
+msgid "Now how'd you get here?  And what did you think you'd being doing?"
+msgstr "คุณได้มาถึงส่วนที่ไม่เกี่ยวข้องกับคุณ  คุณคิดจะทำอะไรต่อไป"
+
+#: bb-admin/content-posts.php:21
+#: bb-admin/content.php:24
+#, php-format
+msgid "matching &#8220;%s&#8221;"
+msgstr "จับคู่กับ &#8220;%s&#8221;"
+
+#: bb-admin/content-posts.php:22
+#: bb-admin/content.php:25
+#, php-format
+msgid "in &#8220;%s&#8221;"
+msgstr "ใน &#8220;%s&#8221;"
+
+#: bb-admin/content-posts.php:23
+#: bb-admin/content.php:26
+#, php-format
+msgid "with tag &#8220;%s&#8221;"
+msgstr "ด้วยแท็ก &#8220;%s&#8221;"
+
+#: bb-admin/content-posts.php:24
+#: bb-admin/content.php:27
+#, php-format
+msgid "by %s"
+msgstr "โดย %s"
+
+#: bb-admin/content-posts.php:26
+#: bb-admin/content.php:29
+#: bb-includes/classes.php:869
+msgid "Normal"
+msgstr "ปกติ"
+
+#: bb-admin/content-posts.php:26
+#: bb-admin/content.php:29
+#: bb-includes/classes.php:869
+msgid "Deleted"
+msgstr "ถูกลบแล้ว"
+
+#: bb-admin/content-posts.php:31
+#, php-format
+msgid "%1$sposts"
+msgstr "%1$sความเห็น"
+
+#: bb-admin/content-posts.php:33
+#: bb-admin/content.php:37
+#, php-format
+msgid "%1$s%2$s%3$s%4$s%5$s"
+msgstr "%1$s%2$s%3$s%4$s%5$s"
+
+#: bb-admin/content-posts.php:37
+#: bb-admin/content.php:41
+msgid "Filter &#187;"
+msgstr "ตัวกรอง &#187;"
+
+#: bb-admin/content.php:30
+#: bb-includes/classes.php:896
+msgid "Closed"
+msgstr "ปิด"
+
+#: bb-admin/content.php:30
+#: bb-includes/classes.php:896
+msgid "Open"
+msgstr "เปิด"
+
+#: bb-admin/content.php:35
+#, php-format
+msgid "%1$s%2$stopics"
+msgstr "%1$s%2$sกระทู้"
+
+#: bb-admin/content.php:47
+#: bb-templates/kakumei/favorites.php:17
+#: bb-templates/kakumei/forum.php:9
+#: bb-templates/kakumei/front-page.php:17
+#: bb-templates/kakumei/tag-single.php:11
+#: bb-templates/kakumei/view.php:9
+#: rss.php:88
+msgid "Topic"
+msgstr "กระทู้"
+
+#: bb-admin/content.php:48
+#: bb-templates/kakumei/forum.php:11
+#: bb-templates/kakumei/front-page.php:19
+#: bb-templates/kakumei/tag-single.php:13
+#: bb-templates/kakumei/view.php:11
+msgid "Last Poster"
+msgstr "ผู้แสดงความเห็นล่าสุด"
+
+#: bb-admin/content.php:49
+#: bb-templates/kakumei/favorites.php:19
+#: bb-templates/kakumei/forum.php:12
+#: bb-templates/kakumei/front-page.php:20
+#: bb-templates/kakumei/tag-single.php:14
+#: bb-templates/kakumei/view.php:12
+msgid "Freshness"
+msgstr "ความใหม่"
+
+#: bb-admin/content.php:60
+msgid "No Topics Found"
+msgstr "ไม่พบกระทู้"
+
+#: bb-admin/delete-post.php:17
+msgid "There is a problem with that post, pardner."
+msgstr "มีปัญหาเกี่ยวกับความเห็นนั้น"
+
+#: bb-admin/delete-topic.php:16
+#: bb-admin/sticky.php:9
+#: bb-admin/topic-toggle.php:8
+msgid "There is a problem with that topic, pardner."
+msgstr "มีปัญหาเกี่ยวกับกระทู้นั้น"
+
+#: bb-admin/export.php:19
+msgid "Either export is disabled or you are not allowed to export."
+msgstr "ดูเหมือนว่าการนำออกใช้การไม่ได้ หรือคุณไม่มีสิทธ์ในการนำออก"
+
+#: bb-admin/index.php:7
+msgid "Latest Activity"
+msgstr "การเคลื่อนไหวล่าสุด"
+
+#: bb-admin/index.php:8
+msgid "User Registrations"
+msgstr "การลงทะเบียนผู้ใช้"
+
+#: bb-admin/index.php:11
+msgid "profile"
+msgstr "โปรไฟล์"
+
+#: bb-admin/index.php:11
+#, php-format
+msgid "registered %s ago"
+msgstr "ลงทะเบียนเมื่อ %s ที่ผ่านมา"
+
+#: bb-admin/index.php:16
+msgid "Recently Moderated"
+msgstr "การจัดการเว็บครั้งล่าสุด"
+
+#: bb-admin/index.php:20
+msgid "Post"
+msgstr "ความเห็น"
+
+#: bb-admin/index.php:20
+#: bb-templates/kakumei/rss2.php:19
+msgid "on"
+msgstr "บน"
+
+#: bb-admin/index.php:20
+msgid "by"
+msgstr "โดย"
+
+#: bb-admin/index.php:22
+msgid "Topic titled"
+msgstr "หัวข้อกระทู้"
+
+#: bb-admin/index.php:22
+msgid "started by"
+msgstr "เริ่มโดย"
+
+#: bb-admin/index.php:29
+#: bb-templates/kakumei/stats.php:3
+#: statistics.php:9
+msgid "Statistics"
+msgstr "สถิติ"
+
+#: bb-admin/index.php:31
+msgid "Posts per day"
+msgstr "จำนวนความเห็นต่อวัน"
+
+#: bb-admin/index.php:32
+msgid "Topics per day"
+msgstr "จำนวนกระทู้ต่อวัน"
+
+#: bb-admin/index.php:33
+msgid "Registrations per day"
+msgstr "จำนวนคนลงทะเบียนต่อวัน"
+
+#: bb-admin/index.php:34
+#, php-format
+msgid "Forums started %s ago."
+msgstr "ฟอรั่มเริ่มเมื่อ %s ที่ผ่านมา"
+
+#: bb-admin/install.php:174
+#: bb-admin/options-wordpress.php:63
+msgid "Cookies"
+msgstr "Cookies"
+
+#: bb-admin/install.php:175
+msgid "Integrating cookies allows you and your users to login to either your bbPress or your WordPress site and be automatically logged into both."
+msgstr "การอนุญาตใช้ cookies ร่วมกันจะทำให้คุณและผู้ใช้ของคุณสามารถเข้าสู่ระบบ bbPress และ เวิร์ดเพรสได้โดยไม่ต้องเข้าสู่ระบบใหม่"
+
+#: bb-admin/install.php:176
+msgid "You may need to make changes to your WordPress configuration once installation is complete. See the \"WordPress Integration\" section of the bbPress administration area when you are done."
+msgstr ""
+
+#: bb-admin/install.php:192
+#: bb-admin/options-wordpress.php:129
+msgid "User database"
+msgstr "ฐานข้อมูลผู้ใช้"
+
+#: bb-admin/install.php:193
+msgid "Integrating your WordPress database user tables allows you to store user data in one location, instead of having separate user data for both bbPress and WordPress."
+msgstr ""
+
+#: bb-admin/install.php:201
+#: bb-admin/options-wordpress.php:168
+msgid "Separate user database settings"
+msgstr "ตั้งค่าฐานข้อมูลสมาชิกแยกกัน"
+
+#: bb-admin/install.php:202
+#: bb-admin/options-wordpress.php:170
+msgid "Most of the time these settings are <em>not</em> required. Look before you leap!"
+msgstr "ส่วนใหญ่ในการตั้งค่าเหล่านี้ <em>ไม่</em> เป็นที่ต้องการ  คุณสามารถข้ามไปได้"
+
+#: bb-admin/install.php:203
+#: bb-admin/options-wordpress.php:171
+msgid "All settings except for the character set must be specified."
+msgstr "การตั้งค่าทั้งหมดยกเว้นค่าตัวอักษรต้องถูกระบุ"
+
+#: bb-admin/install.php:213
+#: bb-admin/options-wordpress.php:210
+msgid "Custom user tables"
+msgstr "ปรับแต่งตารางสมาชิก"
+
+#: bb-admin/install.php:214
+msgid "Only set these options if your integrated user tables do not fit the usual mould of <em>wp_user</em> and <em>wp_usermeta</em>."
+msgstr "Only set these options if your integrated user tables do not fit the usual mould of <em>wp_user</em> และ <em>wp_usermeta</em>."
+
+#: bb-admin/install.php:295
+msgid "\"Key master\" account"
+msgstr "บัญชีของ \"Key master\""
+
+#: bb-admin/install.php:312
+msgid "First forum"
+msgstr "ฟอรั่มแรก"
+
+#: bb-admin/install.php:353
+msgid "You can now log in with the following details:"
+msgstr "คุณสามารถเข้าสู้ระบบได้ด้วยข้อมูลต่อไปนี้:"
+
+#: bb-admin/install.php:359
+msgid "Site address:"
+msgstr "ที่อยู่เวบไซต์:"
+
+#: bb-admin/install.php:365
+msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you. If you lose it, you will have to delete the tables from the database yourself, and re-install bbPress."
+msgstr "<strong><em>จำรหัสผ่าน</em></strong> ให้ดี  เพราะมันเป็นรหัสผ่านที่ถูก<em>สุ่มขึ้นมา</em>เพื่อคุณเท่านั้น  ถ้าคุณจำมันไม่ได้  คุณจะต้องลบตารางฐานข้อมูลของคุณและทำการติดตั้ง bbPress ใหม่อีกครั้ง"
+
+#: bb-admin/options-general.php:35
+#: bb-admin/options-wordpress.php:40
+msgid "Settings saved."
+msgstr "บันทึกการตั้งค่า."
+
+#: bb-admin/options-general.php:41
+msgid "General Settings"
+msgstr "การตั้งค่าทั่วไป"
+
+#: bb-admin/options-general.php:46
+msgid "Site title:"
+msgstr "หัวข้อเวบไซต์:"
+
+#: bb-admin/options-general.php:52
+msgid "Site description:"
+msgstr "คำอธิบายเวบไซต์:"
+
+#: bb-admin/options-general.php:58
+msgid "bbPress address (URL):"
+msgstr "bbPress address (URL):"
+
+#: bb-admin/options-general.php:62
+msgid "The full URL of your bbPress install."
+msgstr "URL ของไดเรคทอรีที่ติดตั้ง bbPress"
+
+#: bb-admin/options-general.php:65
+msgid "E-mail address:"
+msgstr "อีเมล์:"
+
+#: bb-admin/options-general.php:69
+msgid "Emails sent by the site will appear to come from this address."
+msgstr "อีเมล์ที่ถูกส่งโดยเว็บนี้จะขึ้นว่าถูกส่งจาก ชื่ออีเมล์นี้"
+
+#: bb-admin/options-general.php:72
+msgid "Pretty permalink type:"
+msgstr "รูปแบบ permalink ที่อ่านง่าย:"
+
+#: bb-admin/options-general.php:80
+#: bb-admin/options-general.php:199
+msgid "None"
+msgstr "ไม่มี"
+
+#: bb-admin/options-general.php:81
+msgid "Numeric"
+msgstr "แบบตัวเลข"
+
+#: bb-admin/options-general.php:82
+msgid "Name based"
+msgstr "อิงจากชื่อ"
+
+#: bb-admin/options-general.php:89
+msgid "Items per page:"
+msgstr "จำนวนต่อหน้า:"
+
+#: bb-admin/options-general.php:93
+msgid "Number of topics, posts or tags to show per page."
+msgstr "จำนวนของกระทู้ ความเห็นหรือแทคที่จะแสดงต่อหน้า"
+
+#: bb-admin/options-general.php:96
+msgid "Lock post editing after:"
+msgstr "ล็อคการแก้ไขความเห็นหลังจาก:"
+
+#: bb-admin/options-general.php:100
+#: bb-includes/functions.php:1859
+msgid "minutes"
+msgstr "นาที"
+
+#: bb-admin/options-general.php:101
+msgid "A user can edit a post for this many minutes after submitting."
+msgstr "ผู้ใช้สามารถแก้ไขโพสท์หลังจากส่งข้อความแล้วหลายนาที"
+
+#: bb-admin/options-general.php:105
+msgid "Date and Time"
+msgstr "วันและเวลา"
+
+#: bb-admin/options-general.php:107
+msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is:"
+msgstr "เวลา <abbr title=\"Coordinated Universal Time\">UTC</abbr> คือ:"
+
+#: bb-admin/options-general.php:110
+msgid "Y-m-d g:i:s a"
+msgstr "Y-m-d g:i:s a"
+
+#: bb-admin/options-general.php:113
+msgid "Times should differ from UTC by:"
+msgstr "เวลาควรจะแตกต่างจาก UTC โดย:"
+
+#: bb-admin/options-general.php:117
+#: bb-includes/functions.php:1858
+msgid "hours"
+msgstr "ชั่วโมง"
+
+#: bb-admin/options-general.php:118
+msgid "Example: -7 for Pacific Daylight Time."
+msgstr "ตัวอย่าง: -7 สำหรับเขต Pacific เวลากลางวัน"
+
+#: bb-admin/options-general.php:121
+msgid "Date and time format:"
+msgstr "รูปแบบวันและเวลา:"
+
+#: bb-admin/options-general.php:125
+#: bb-admin/options-general.php:132
+#, php-format
+msgid "Output: <strong>%s</strong>"
+msgstr "ผลลัพท์: <strong>%s</strong>"
+
+#: bb-admin/options-general.php:128
+msgid "Date format:"
+msgstr "รูปแบบวันที่:"
+
+#: bb-admin/options-general.php:133
+msgid "Click \"Update settings\" to update sample output."
+msgstr "กด \"อัปเดตการตั้งค่า\" เพื่ออัปเดตผลลัพท์ตัวอย่าง"
+
+#: bb-admin/options-general.php:134
+msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>."
+msgstr "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">คู่มือบนรูปแบบวันที่</a>"
+
+#: bb-admin/options-general.php:138
+msgid "Avatars"
+msgstr "รูปแทนตัว (Avatars)"
+
+#: bb-admin/options-general.php:140
+msgid "bbPress includes built-in support for <a href=\"http://gravatar.com/\">Gravatars</a>, you can enable this feature here."
+msgstr "bbPress สนับสนุนการใช้งาน <a href=\"http://gravatar.com/\">Gravatars</a> คุณสามารถเปิดใช้งานได้ที่นี่"
+
+#: bb-admin/options-general.php:143
+msgid "Show avatars:"
+msgstr "แสดงรูปแทนตัว:"
+
+#: bb-admin/options-general.php:156
+msgid "Gravatar default image"
+msgstr "รูป Gravatar มาตรฐาน"
+
+#: bb-admin/options-general.php:164
+#: bb-admin/options-general.php:175
+msgid "Default"
+msgstr "ค่ามาตรฐาน"
+
+#: bb-admin/options-general.php:165
+#: bb-admin/options-general.php:178
+msgid "Gravatar Logo"
+msgstr "โลโก้ของ Gravatar"
+
+#: bb-admin/options-general.php:166
+#: bb-admin/options-general.php:181
+msgid "MonsterID"
+msgstr "MonsterID"
+
+#: bb-admin/options-general.php:167
+#: bb-admin/options-general.php:184
+msgid "Wavatar"
+msgstr "Wavatar"
+
+#: bb-admin/options-general.php:168
+#: bb-admin/options-general.php:187
+msgid "Identicon"
+msgstr "Identicon"
+
+#: bb-admin/options-general.php:191
+msgid "Gravatar maximum rating:"
+msgstr "การจัดอันดับสูงสุดของ Gravatar:"
+
+#: bb-admin/options-general.php:200
+msgid "X"
+msgstr "X"
+
+#: bb-admin/options-general.php:201
+msgid "R"
+msgstr "R"
+
+#: bb-admin/options-general.php:202
+msgid "PG"
+msgstr "PG"
+
+#: bb-admin/options-general.php:203
+msgid "G"
+msgstr "G"
+
+#: bb-admin/options-general.php:210
+msgid "X rated gravatars may contain hardcore sexual imagery or extremely disturbing violence."
+msgstr "X rated gravatars may contain hardcore sexual imagery or extremely disturbing violence."
+
+#: bb-admin/options-general.php:214
+msgid "R rated gravatars may contain such things as harsh profanity, intense violence, nudity, or hard drug use."
+msgstr "R rated gravatars may contain such things as harsh profanity, intense violence, nudity, or hard drug use."
+
+#: bb-admin/options-general.php:218
+msgid "PG rated gravatars may contain rude gestures, provocatively dressed individuals, the lesser swear words, or mild violence."
+msgstr "PG rated gravatars may contain rude gestures, provocatively dressed individuals, the lesser swear words, or mild violence."
+
+#: bb-admin/options-general.php:222
+msgid "A G rated gravatar is suitable for display on all websites with any audience type."
+msgstr "A G rated gravatar is suitable for display on all websites with any audience type."
+
+#: bb-admin/options-general.php:230
+#: bb-admin/options-wordpress.php:277
+msgid "Update Settings &raquo;"
+msgstr "อัพเดตการตั้งค่า &raquo;"
+
+#: bb-admin/options-wordpress.php:44
+msgid "User role mapping saved."
+msgstr "บันทึกการมอบหมายบทบาทสมาชิก"
+
+#: bb-admin/options-wordpress.php:54
+msgid "Usually, you will have to specify both cookie sharing and user database sharing settings."
+msgstr "ปกติแล้ว คุณต้องระบุการแชร์ cookie และการตั้งค่าการแชร์ฐานข้อมูลผู้ใช้"
+
+#: bb-admin/options-wordpress.php:58
+msgid "<strong>Note:</strong> updating these settings may cause you to be logged out!"
+msgstr "<strong>หมายเหตุ:</strong> การอัปเดตการตั้งค่าอาจจะทำให้คุณต้องออกจากระบบ"
+
+#: bb-admin/options-wordpress.php:64
+msgid "Cookie sharing allows users to log in to either your bbPress or your WordPress site, and have access to both."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:80
+msgid "WordPress database secret"
+msgstr "WordPress database secret"
+
+#: bb-admin/options-wordpress.php:84
+msgid "This must match the value of the WordPress setting named \"secret\" in your WordPress installation. Look for the option labeled \"secret\" in <a href=\"#\" id=\"getSecretOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:121
+msgid "bbPress has automatically determined the best cookie settings for WordPress. In some cases integration may work without these settings, but if not add the following code to your <code>wp-config.php</code> file in the root directory of your WordPress installation."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:125
+msgid "Also make sure that the \"SECRET_KEY\" in your WordPress <code>wp-config.php</code> file matches the \"BB_SECRET_KEY\" in your bbPress <code>bb-config.php</code> file."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:130
+msgid "User database sharing allows you to store user data in your WordPress database."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:136
+msgid "If your bbPress and WordPress installations share the same database, then this is the same value as <code>$wp_table_prefix</code> in your WordPress <code>wp-config.php</code> file."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:137
+msgid "In any case, it is usually <strong>wp_</strong>"
+msgstr "โดยปกติแล้วมักจะใช้ <strong>wp_</strong>"
+
+#: bb-admin/options-wordpress.php:212
+msgid "Only set these values if your user tables do not fit the usual mould of <strong>\"wordpressprefix+user\"</strong> and <strong>\"wordpressprefix+usermeta\"</strong>."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:231
+msgid "Show manual config settings:"
+msgstr "แสดงการตั้งค่าด้วยตัวเอง:"
+
+#: bb-admin/options-wordpress.php:271
+msgid "If your integration settings will not change, you can help speed up bbPress by adding the following code to your <code>bb-config.php</code> file in the root directory of your bbPress installation. Afterwards, the settings in this form will reflect the hard coded values, but you will not be able to edit them here."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:282
+msgid "User role map"
+msgstr "แผนที่บทบาทสมาชิก"
+
+#: bb-admin/options-wordpress.php:285
+msgid "Here you can match WordPress roles to bbPress roles. This will not work if your user tables are not shared. Only standard WordPress roles are supported. Changes do not affect users with existing roles in both WordPress and bbPress."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:292
+msgid "none"
+msgstr "ไม่มี"
+
+#: bb-admin/options-wordpress.php:325
+msgid "WordPress role"
+msgstr "บทบาทของเวิร์ดเพรส"
+
+#: bb-admin/options-wordpress.php:326
+msgid "bbPress role"
+msgstr "บทบาทของbbPress"
+
+#: bb-admin/options-wordpress.php:354
+msgid "Update User Role Map &raquo;"
+msgstr "อัปเดตแผนที่บทบาทสมาชิก &raquo;"
+
+#: bb-admin/plugins.php:93
+msgid "Plugin could not be activated; it produced a <strong>Fatal Error</strong>."
+msgstr "ไม่สามารถใช้งานปลั๊กอินได้  เพราะจะทำให้เกิด <strong>ความผิดพลาด</strong>."
+
+#: bb-admin/plugins.php:96
+msgid "File is not a valid plugin."
+msgstr "ไฟล์นี้ไม่ใช่ปลั๊กอินที่ใช้งานได้"
+
+#: bb-admin/plugins.php:99
+#, php-format
+msgid "Plugin \"%s\" <strong>activated</strong>"
+msgstr "ปลั๊กอิน \"%s\" <strong>ถูกใช้งาน</strong>"
+
+#: bb-admin/plugins.php:102
+#, php-format
+msgid "Plugin \"%s\" <strong>deactivated</strong>"
+msgstr "ปลั๊กอิน \"%s\" <strong>เลิกใช้งาน</strong>"
+
+#: bb-admin/plugins.php:119
+#: bb-admin/plugins.php:183
+msgid "Plugin"
+msgstr "ปลั๊คอิน"
+
+#: bb-admin/plugins.php:120
+#: bb-admin/plugins.php:184
+msgid "Version"
+msgstr "รุ่น"
+
+#: bb-admin/plugins.php:121
+#: bb-admin/plugins.php:185
+msgid "Description"
+msgstr "คำอธิบาย"
+
+#: bb-admin/plugins.php:122
+msgid "Action"
+msgstr "กระทำ"
+
+#: bb-admin/plugins.php:132
+msgid "Activate"
+msgstr "เปิดใช้งาน"
+
+#: bb-admin/plugins.php:137
+msgid "Deactivate"
+msgstr "เลิกใช้งาน"
+
+#: bb-admin/plugins.php:158
+#: bb-admin/plugins.php:203
+#, php-format
+msgid "By %s."
+msgstr "โดย %s"
+
+#: bb-admin/plugins.php:178
+msgid "Automatically loaded plugins"
+msgstr "โหลดปลั๊กอินอัตโนมัติ"
+
+#: bb-admin/plugins.php:231
+msgid "No Plugins Installed"
+msgstr "ไม่มีปลั๊กอินถูกติดตั้ง"
+
+#: bb-admin/site.php:5
+msgid ""
+"The following checkboxes allow you to recalculate various numbers stored in\n"
+"the database.  These numbers are used for things like counting the number of\n"
+"pages worth of posts a particular topic has.  You shouldn't need to do do any of\n"
+"this unless you're upgrading from one version to another or are seeing\n"
+"pagination oddities."
+msgstr ""
+
+#: bb-admin/site.php:13
+msgid "Choose items to recalculate"
+msgstr "เลือกเพื่อนำมาคำนวณใหม่"
+
+#: bb-admin/site.php:19
+msgid "Count!"
+msgstr "นับ"
+
+#: bb-admin/tag-destroy.php:5
+#: bb-admin/tag-merge.php:5
+#: bb-admin/tag-rename.php:5
+msgid "You are not allowed to manage tags."
+msgstr "คุณไม่มีสิทธิจัดการแท็ก"
+
+#: bb-admin/tag-destroy.php:13
+#: bb-admin/tag-rename.php:14
+msgid "Tag not found."
+msgstr "ไม่พบแท็ก"
+
+#: bb-admin/tag-destroy.php:16
+#, php-format
+msgid "Rows deleted from tags table: %d <br />\n"
+msgstr "แถวที่ถูกลบออกจากตารางแท็ก: %d <br />\n"
+
+#: bb-admin/tag-destroy.php:17
+#, php-format
+msgid "Rows deleted from tagged table: %d <br />\n"
+msgstr "แถวที่ถูกลบออกจากตารางที่ถูกแท็ก: %d <br />\n"
+
+#: bb-admin/tag-destroy.php:18
+#, php-format
+msgid "<a href=\"%s\">Home</a>"
+msgstr "<a href=\"%s\">หน้าหลัก</a>"
+
+#: bb-admin/tag-destroy.php:20
+#, php-format
+msgid ""
+"Something odd happened when attempting to destroy that tag.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"มีบางสิ่งผิดปกติในขณะที่กำลังลบแท็ก<br />\n"
+"<a href=\"%s\">ลองใหม่อีกครั้ง</a>"
+
+#: bb-admin/tag-merge.php:13
+msgid "Tag specified not found."
+msgstr "ไม่พบแท็กที่ระบุ"
+
+#: bb-admin/tag-merge.php:16
+msgid "Tag to be merged not found."
+msgstr "ไม่พบแท็กที่จะรวม"
+
+#: bb-admin/tag-merge.php:19
+#, php-format
+msgid "Number of topics from which the old tag was removed: %d <br />\n"
+msgstr "จำนวนของกระทู้ที่ซึ่งแท็กเก่าจะถูกลบออก: %d <br />\n"
+
+#: bb-admin/tag-merge.php:20
+#, php-format
+msgid "Number of topics to which the new tag was added: %d <br />\n"
+msgstr "จำนวนของกระทู้ที่ซึ่งแท็กใหม่จะถูกเพิ่ม: %d <br />\n"
+
+#: bb-admin/tag-merge.php:21
+#, php-format
+msgid "Number of rows deleted from tags table:%d <br />\n"
+msgstr "จำนวนของแถวที่ถูกลบออกจากตารางแท็ก:%d <br />\n"
+
+#: bb-admin/tag-merge.php:22
+#, php-format
+msgid "<a href=\"%s\">New Tag</a>"
+msgstr "<a href=\"%s\">แท็กใหม่</a>"
+
+#: bb-admin/tag-merge.php:24
+#, php-format
+msgid ""
+"Something odd happened when attempting to merge those tags.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"มีบางสิ่งผิดปกติในขณะที่กำลังรวมแท็ก<br />\n"
+"<a href=\"%s\">ลองใหม่อีกครั้ง</a>"
+
+#: bb-admin/tag-rename.php:20
+#, php-format
+msgid "There already exists a tag by that name or the name is invalid. <a href=\"%s\">Try Again</a>"
+msgstr "มีแท็กที่ชื่อนี้อยู่แล้ว หรือชื่อแท็กนี้ไม่สามารถใช้ได้ <a href=\"%s\">ลองใหม่อีกครั้ง</a>"
+
+#: bb-admin/themes.php:38
+#, php-format
+msgid "Theme \"%s\" <strong>activated</strong>"
+msgstr "Theme \"%s\" <strong>ถูกใช้งาน</strong>"
+
+#: bb-admin/themes.php:43
+msgid "Default theme is missing."
+msgstr "theme มาตราฐานหายไป"
+
+#: bb-admin/themes.php:47
+msgid "Theme not found.  Default theme applied."
+msgstr "ไม่พบ Theme ดังนั้น Theme มาตรฐานจะถูกใช้แทน"
+
+#: bb-admin/themes.php:58
+#: bb-admin/themes.php:60
+msgid "Click to activate"
+msgstr "กดเพื่อดำเนินงาน"
+
+#: bb-admin/themes.php:62
+#, php-format
+msgid "by <cite>%s</cite>"
+msgstr "โดย <cite>%s</cite>"
+
+#: bb-admin/themes.php:62
+#, php-format
+msgid ", ported by <cite>%s</cite>"
+msgstr ", ported by <cite>%s</cite>"
+
+#: bb-admin/themes.php:64
+#, php-format
+msgid "Installed in: %s"
+msgstr "ติดตั้งใน: %s"
+
+#: bb-admin/themes.php:64
+msgid "Core themes -&gt; "
+msgstr "Theme หลัก -&gt; "
+
+#: bb-admin/themes.php:64
+msgid "User installed themes -&gt; "
+msgstr "ผู้ใช้ติดตั้ง themes -&gt; "
+
+#: bb-admin/themes.php:74
+msgid "Current Theme"
+msgstr "Theme ปัจจุบัน"
+
+#: bb-admin/themes.php:80
+msgid "Available Themes"
+msgstr "Theme ที่ใช้งานได้"
+
+#: bb-admin/topic-move.php:8
+msgid "Invalid topic or forum."
+msgstr "กระทู้หรือฟอรั่มใช้งานไม่ได้"
+
+#: bb-admin/topic-move.php:21
+msgid "Your topic or forum caused all manner of confusion"
+msgstr "กระทู้หรือฟอรั่มของคุณทำให้การทำงานผิดปกติ"
+
+#: bb-admin/upgrade-schema.php:8
+msgid "Database class not loaded."
+msgstr "class ของฐานข้อมูลไม่ถูกโหลด"
+
+#: bb-admin/upgrade.php:58
+msgid "bbPress database upgrade"
+msgstr "อัปเกรดฐานข้อมูล bbPress"
+
+#: bb-admin/upgrade.php:76
+#, php-format
+msgid "Nothing to upgrade.  <a href=\"%s\">Get back to work!</a>"
+msgstr "ไม่มีสิ่งใดให้อัปเกรด  <a href=\"%s\">กลับไปสั่งการต่อ!</a>"
+
+#: bb-admin/upgrade.php:85
+msgid "Database upgrade required"
+msgstr "ต้องการการอัปเกรดฐานข้อมูล"
+
+#: bb-admin/upgrade.php:87
+msgid "It looks like your database is out-of-date.<br />You can update it here."
+msgstr "ดูเหมือนว่าฐานข้อมูลของคุณล้าสมัยแล้ว<br /> คุณสามารถอัปเดตได้ที่นี่"
+
+#: bb-admin/upgrade.php:93
+msgid "Upgrade database &raquo;"
+msgstr "อัปเกรดฐานข้อมูล &raquo;"
+
+#: bb-admin/upgrade.php:107
+msgid "Database upgrade complete"
+msgstr "อัปเกรดฐานข้อมูลสำเร็จ"
+
+#: bb-admin/upgrade.php:109
+msgid "Your database has been successfully updated.<br />Enjoy!"
+msgstr "ฐานข้อมูลของคุณอัปเดตสำเร็จแล้ว <br /> ยินดีด้วย"
+
+#: bb-admin/upgrade.php:113
+#: bb-admin/upgrade.php:147
+msgid "Show upgrade log:"
+msgstr "แสดงการอัพเกรด log:"
+
+#: bb-admin/upgrade.php:119
+#: bb-admin/upgrade.php:153
+msgid "Upgrade log:"
+msgstr "อัพเกรด log:"
+
+#: bb-admin/upgrade.php:126
+msgid "Go to admin &raquo;"
+msgstr "ไปที่หน้าผู้ควบคุม &raquo;"
+
+#: bb-admin/upgrade.php:140
+msgid "Database upgrade failed"
+msgstr "ล้มเหลวในการอัพเกรดฐานข้อมูล"
+
+#: bb-admin/upgrade.php:142
+#, php-format
+msgid "The upgrade process seems to have failed, you can either try again here, or go <a href=\"%s\">back to your forums</a>.<br /><br />Attempting to go to the admin area will launch the database upgrader again."
+msgstr "ดูเหมือนว่าการอัปเกรดล้มเหลว  คุณอาจจะลองใหม่อีกครั้งที่นี่ หรือกลับไปที่ <a href=\"%s\">ฟอรั่มของคุณ</a><br /><br /> และพยายามเข้าไปในส่วนผู้ควบคุมเพื่อทำใช้การอัปเกรดฐานข้อมูลอีกครั้ง"
+
+#: bb-admin/upgrade.php:160
+msgid "Try again &raquo;"
+msgstr "ลองอีกครั้ง &raquo;"
+
+#: bb-admin/users-blocked.php:9
+msgid "These users have been blocked by the forum administrators"
+msgstr "ผู้ใช้เหล่านี้ถูกบล็อคโดยผู้ควบคุมฟอรั่ม"
+
+#: bb-admin/users-moderators.php:9
+msgid "Forum Administrators"
+msgstr "ผู้ควบคุมฟอรั่ม"
+
+#: bb-admin/view-ip.php:15
+msgid "IP Information"
+msgstr "ข้อมูล IP"
+
+#: bb-admin/view-ip.php:16
+msgid "Last 30 posts"
+msgstr "30 ความเห็นล่าสุด"
+
+#: bb-admin/view-ip.php:33
+msgid "Posted:"
+msgstr "ถูกโพสท์:"
+
+#: bb-edit.php:16
+msgid "Sorry, post is too old."
+msgstr "ขอโทษด้วย ความเห็นนี้เก่าเกินไป"
+
+#: bb-includes/capabilities.php:27
+msgid "Key Master"
+msgstr "Key Master"
+
+#: bb-includes/capabilities.php:72
+msgid "Administrator"
+msgstr "ผู้ควบคุม"
+
+#: bb-includes/capabilities.php:109
+msgid "Moderator"
+msgstr "ผู้ดูแล"
+
+#: bb-includes/capabilities.php:141
+msgid "Member"
+msgstr "สมาชิก"
+
+#: bb-includes/capabilities.php:157
+msgid "Inactive"
+msgstr "ไม่ใช้งาน"
+
+#: bb-includes/classes.php:806
+msgid "Search &#187;"
+msgstr "ค้นหา &#187;"
+
+#: bb-includes/classes.php:837
+msgid "Search&#8230;"
+msgstr "ค้นหา&#8230;"
+
+#: bb-includes/classes.php:843
+msgid "Forum&#8230;"
+msgstr "ฟอรั่ม&#8230;"
+
+#: bb-includes/classes.php:844
+msgid "Any"
+msgstr "ใด ๆ"
+
+#: bb-includes/classes.php:850
+msgid "Tag&#8230;"
+msgstr "แทค&#8230;"
+
+#: bb-includes/classes.php:857
+msgid "Topic Author&#8230;"
+msgstr "ผู้เขียนกระทู้&#8230;"
+
+#: bb-includes/classes.php:864
+msgid "Post Author&#8230;"
+msgstr "ผู้เขียนความเห็น&#8230;"
+
+#: bb-includes/classes.php:869
+#: bb-includes/classes.php:896
+msgid "All"
+msgstr "ทั้งหมด"
+
+#: bb-includes/classes.php:872
+msgid "Topic Status&#8230;"
+msgstr "สถานะกระทู้&#8230;"
+
+#: bb-includes/classes.php:883
+msgid "Post Status&#8230;"
+msgstr "สถานะความเห็น&#8230;"
+
+#: bb-includes/classes.php:894
+msgid "Open?&#8230;"
+msgstr "เปิดหรือไม่?&#8230;"
+
+#: bb-includes/classes.php:907
+msgid "Title&#8230;"
+msgstr "หัวข้อ&#8230;"
+
+#: bb-includes/classes.php:937
+msgid "Not a valid directory"
+msgstr "ไดเรคทอรีนี้ใช้งานไม่ได้"
+
+#: bb-includes/classes.php:943
+msgid "Invalid arguments"
+msgstr "arguments ใช้งานไม่ได้"
+
+#: bb-includes/db.php:478
+#, php-format
+msgid "<strong>ERROR</strong>: bbPress %s requires MySQL 4.0.0 or higher"
+msgstr "<strong>ผิดพลาด</strong>: bbPress %s ต้องการ MySQL 4.0.0 หรือสูงกว่า"
+
+#: bb-includes/default-filters.php:82
+msgid "Topics with no replies"
+msgstr "กระทู้ที่ไม่มีการตอบ"
+
+#: bb-includes/default-filters.php:83
+msgid "Topics with no tags"
+msgstr "กระทู้ที่ไม่มีแทค"
+
+#: bb-includes/formatting-functions.php:267
+#: bb-includes/formatting-functions.php:271
+#, php-format
+msgid "[sticky] %s"
+msgstr "[ปักหมุด] %s"
+
+#: bb-includes/formatting-functions.php:280
+#, php-format
+msgid "[closed] %s"
+msgstr "[ปิด] %s"
+
+#: bb-includes/functions.php:1151
+msgid "You've been blocked.  If you think a mistake has been made, contact this site's administrator."
+msgstr "คุณได้ถูกบล็อคจากเว็บนี้  ถ้าคุณคิดว่านี่เป็นความผิดพลาด กรุณาติดต่อผู้ควบคุมเวบ"
+
+#: bb-includes/functions.php:1540
+msgid "Please give me a name!"
+msgstr "กรุณาใส่ชื่อของคุณด้วย"
+
+#: bb-includes/functions.php:1854
+msgid "year"
+msgstr "ปี"
+
+#: bb-includes/functions.php:1854
+msgid "years"
+msgstr "ปี"
+
+#: bb-includes/functions.php:1855
+msgid "month"
+msgstr "เดือน"
+
+#: bb-includes/functions.php:1855
+msgid "months"
+msgstr "เดือน"
+
+#: bb-includes/functions.php:1856
+msgid "week"
+msgstr "สัปดาห์"
+
+#: bb-includes/functions.php:1856
+msgid "weeks"
+msgstr "สัปดาห์"
+
+#: bb-includes/functions.php:1857
+msgid "day"
+msgstr "วัน"
+
+#: bb-includes/functions.php:1857
+msgid "days"
+msgstr "วัน"
+
+#: bb-includes/functions.php:1858
+msgid "hour"
+msgstr "ชั่วโมง"
+
+#: bb-includes/functions.php:1859
+msgid "minute"
+msgstr "นาที"
+
+#: bb-includes/functions.php:1860
+msgid "second"
+msgstr "วินาที"
+
+#: bb-includes/functions.php:1860
+msgid "seconds"
+msgstr "วินาที"
+
+#: bb-includes/functions.php:1874
+#, php-format
+msgid "%1$d %2$s"
+msgstr "%1$d %2$s"
+
+#: bb-includes/functions.php:1881
+#, php-format
+msgid ", %1$d %2$s"
+msgstr ", %1$d %2$s"
+
+#: bb-includes/functions.php:1992
+msgid "User not found."
+msgstr "ไม่พบสมาชิกนี้"
+
+#: bb-includes/functions.php:2063
+msgid "REQUEST_URI"
+msgstr "REQUEST_URI"
+
+#: bb-includes/functions.php:2065
+msgid "should be"
+msgstr "ควรจะเป็น"
+
+#: bb-includes/functions.php:2067
+msgid "full permalink"
+msgstr "ชื่อ permalink แบบเต็ม"
+
+#: bb-includes/functions.php:2069
+msgid "PATH_INFO"
+msgstr "PATH_INFO"
+
+#: bb-includes/functions.php:2091
+#: bb-templates/kakumei/favorites.php:3
+msgid "Favorites"
+msgstr "ชื่นชอบ"
+
+#: bb-includes/functions.php:2142
+msgid "Website"
+msgstr "เวบไซต์"
+
+#: bb-includes/functions.php:2143
+msgid "Location"
+msgstr "ที่อยู่"
+
+#: bb-includes/functions.php:2144
+msgid "Occupation"
+msgstr "อาชีพ"
+
+#: bb-includes/functions.php:2145
+msgid "Interests"
+msgstr "ความสนใจ"
+
+#: bb-includes/functions.php:2152
+msgid "Custom Title"
+msgstr "คำขยายความ"
+
+#: bb-includes/functions.php:2159
+#, php-format
+msgid "Ignore the %d second post throttling limit"
+msgstr "ไม่แสดง %d วินาทีที่ระบบรอก่อนส่งเข้าฟอรั่ม"
+
+#: bb-includes/functions.php:2248
+msgid "bbPress Failure Notice"
+msgstr "ข้อสังเกตความผิดพลาดของ bbPress"
+
+#: bb-includes/functions.php:2251
+msgid "Please try again."
+msgstr "โปรดลองอีกครั้ง"
+
+#: bb-includes/functions.php:2260
+msgid "bbPress"
+msgstr "bbPress"
+
+#: bb-includes/functions.php:2307
+msgid "<a href=\"http://bbpress.org/\">bbPress</a> - simple, fast, elegant"
+msgstr "<a href=\"http://bbpress.org/\">bbPress</a> - เรียบง่าย รวดเร็วและสวยงาม"
+
+#: bb-includes/functions.php:2329
+#, php-format
+msgid "Back to <a href=\"%s\">%s</a>."
+msgstr "กลับไป <a href=\"%s\">%s</a>."
+
+#: bb-includes/functions.php:2342
+msgid "Your attempt to submit this post has failed."
+msgstr "ความพยายามในการส่งความเห็นนี้ล้มเหลว"
+
+#: bb-includes/functions.php:2343
+msgid "Your attempt to edit this post has failed."
+msgstr "ความพยายามในการแก้ไขความเห็นนี้ล้มเหลว"
+
+#: bb-includes/functions.php:2344
+msgid "Your attempt to delete this post has failed."
+msgstr "ความพยายามในการลบความเห็นนี้ล้มเหลว"
+
+#: bb-includes/functions.php:2346
+msgid "Your attempt to create this topic has failed."
+msgstr "ความพยายามในการสร้างกระทู้นี้ล้มเหลว"
+
+#: bb-includes/functions.php:2347
+msgid "Your attempt to change the resolution status of this topic has failed."
+msgstr "ความพยายามในการเปลี่ยนสถานะแสดงผลของกระทู้นี้ล้มเหลว"
+
+#: bb-includes/functions.php:2348
+msgid "Your attempt to delete this topic has failed."
+msgstr "ความพยายามในการลบกระทู้นี้ล้มเหลว"
+
+#: bb-includes/functions.php:2349
+msgid "Your attempt to change the status of this topic has failed."
+msgstr "ความพยายามในการเปลี่ยนสถานะกระทู้นี้ล้มเหลว"
+
+#: bb-includes/functions.php:2350
+msgid "Your attempt to change the sticky status of this topic has failed."
+msgstr "ความพยายามในการเปลี่ยนสถานะปักหมุดของกระทู้นี้ล้มเหลว"
+
+#: bb-includes/functions.php:2351
+msgid "Your attempt to move this topic has failed."
+msgstr "ความพยายามในการย้ายกระทู้นี้ล้มเหลว"
+
+#: bb-includes/functions.php:2353
+msgid "Your attempt to add this tag to this topic has failed."
+msgstr "ความพยายามในการเพิ่มแท็กในกระทู้นี้ล้มเหลว"
+
+#: bb-includes/functions.php:2354
+msgid "Your attempt to rename this tag has failed."
+msgstr "ความพยายามในการเปลี่ยนชื่อแท็กนี้ล้มเหลว"
+
+#: bb-includes/functions.php:2355
+msgid "Your attempt to submit these tags has failed."
+msgstr "ความพยายามในการส่งแท็กเหล่านี้ล้มเหลว"
+
+#: bb-includes/functions.php:2356
+msgid "Your attempt to destroy this tag has failed."
+msgstr "ความพยายามในการทำลายแท็กนี้ล้มเหลว"
+
+#: bb-includes/functions.php:2357
+msgid "Your attempt to remove this tag from this topic has failed."
+msgstr "ความพยายามในการลบแท็กนี้ออกจากกระทู้นี้ล้มเหลว"
+
+#: bb-includes/functions.php:2359
+msgid "Your attempt to toggle your favorite status for this topic has failed."
+msgstr "ความพยายามในการเปลี่ยนสถานะชื่นชอบของคุณต่อกระทู้นี้ล้มเหลว"
+
+#: bb-includes/functions.php:2361
+msgid "Your attempt to edit this user's profile has failed."
+msgstr "ความพยายามในการแก้ไขโปรไฟล์ผู้ใช้นี้ล้มเหลว"
+
+#: bb-includes/functions.php:2363
+msgid "Your attempt to add this forum has failed."
+msgstr "ความพยายามในการเพิ่มฟอรั่มนี้ล้มเหลว"
+
+#: bb-includes/functions.php:2364
+msgid "Your attempt to update your forums has failed."
+msgstr "ความพยายามในการอัปเดตฟอรั่มล้มเหลว"
+
+#: bb-includes/functions.php:2365
+msgid "Your attempt to delete that forum has failed."
+msgstr "ความพยายามในการลบฟอรั่มนี้ล้มเหลว"
+
+#: bb-includes/functions.php:2367
+msgid "Your attempt to recount these items has failed."
+msgstr "ความพยายามในการนับซ้ำสิ่งเหล่านี้ล้มเหลว"
+
+#: bb-includes/functions.php:2369
+msgid "Your attempt to switch themes has failed."
+msgstr "ความพยายามในการเปลี่ยน themes ล้มเหลว"
+
+#: bb-includes/functions.php:2384
+msgid "Your attempt to do this has failed."
+msgstr "ความพยายามในการทำสิ่งนี้ล้มเหลว"
+
+#: bb-includes/functions.php:2533
+#: bb-includes/functions.php:2605
+msgid "Your search term was too short"
+msgstr "คำที่คุณใช้ค้นหาสั้นเกินไป"
+
+#: bb-includes/functions.php:2579
+msgid "Your query parameters are invalid"
+msgstr "query parameters ของคุณไม่ถูกต้อง"
+
+#: bb-includes/js/list-manipulation-js.php:3
+#, php-format
+msgid "Are you sure you want to delete this %s?"
+msgstr "คุณแน่ใจที่จะลบ %s?"
+
+#: bb-includes/js/list-manipulation-js.php:50
+msgid "Jump to new item"
+msgstr "ไปยัง item ใหม่"
+
+#: bb-includes/js/wp-ajax-js.php:57
+msgid "You don't have permission to do that."
+msgstr "คุณไม่ได้รับอนุญาตให้ทำสิ่งนี้"
+
+#: bb-includes/js/wp-ajax-js.php:60
+msgid "Something strange happened.  Try refreshing the page."
+msgstr "มีความผิดพลาดเกิดขึ้น  กรุณาลองรีเฟรชหน้าจอใหม่"
+
+#: bb-includes/js/wp-ajax-js.php:84
+msgid "Slow down, I'm still sending your data!"
+msgstr "ได้โปรดช้าลงหน่อย  ระบบกำลังส่งช้อมูลคุณอยู่"
+
+#: bb-includes/locale.php:22
+#: bb-includes/locale.php:32
+#: bb-includes/locale.php:45
+msgid "Sunday"
+msgstr "วันอาทิตย์"
+
+#: bb-includes/locale.php:23
+#: bb-includes/locale.php:33
+#: bb-includes/locale.php:46
+msgid "Monday"
+msgstr "วันจันทร์"
+
+#: bb-includes/locale.php:24
+#: bb-includes/locale.php:34
+#: bb-includes/locale.php:47
+msgid "Tuesday"
+msgstr "วันอังคาร"
+
+#: bb-includes/locale.php:25
+#: bb-includes/locale.php:35
+#: bb-includes/locale.php:48
+msgid "Wednesday"
+msgstr "วันพุธ"
+
+#: bb-includes/locale.php:26
+#: bb-includes/locale.php:36
+#: bb-includes/locale.php:49
+msgid "Thursday"
+msgstr "วันพฤหัสบดี"
+
+#: bb-includes/locale.php:27
+#: bb-includes/locale.php:37
+#: bb-includes/locale.php:50
+msgid "Friday"
+msgstr "วันศุกร์"
+
+#: bb-includes/locale.php:28
+#: bb-includes/locale.php:38
+#: bb-includes/locale.php:51
+msgid "Saturday"
+msgstr "วันเสาร์"
+
+#: bb-includes/locale.php:32
+msgid "S_Sunday_initial"
+msgstr "อา."
+
+#: bb-includes/locale.php:33
+msgid "M_Monday_initial"
+msgstr "จ."
+
+#: bb-includes/locale.php:34
+msgid "T_Tuesday_initial"
+msgstr "อ."
+
+#: bb-includes/locale.php:35
+msgid "W_Wednesday_initial"
+msgstr "พ."
+
+#: bb-includes/locale.php:36
+msgid "T_Thursday_initial"
+msgstr "พฤ."
+
+#: bb-includes/locale.php:37
+msgid "F_Friday_initial"
+msgstr "ศ."
+
+#: bb-includes/locale.php:38
+msgid "S_Saturday_initial"
+msgstr "ส."
+
+#: bb-includes/locale.php:45
+msgid "Sun"
+msgstr "อาทิตย์"
+
+#: bb-includes/locale.php:46
+msgid "Mon"
+msgstr "จันทร์"
+
+#: bb-includes/locale.php:47
+msgid "Tue"
+msgstr "อังคาร"
+
+#: bb-includes/locale.php:48
+msgid "Wed"
+msgstr "พุธ"
+
+#: bb-includes/locale.php:49
+msgid "Thu"
+msgstr "พฤหัส"
+
+#: bb-includes/locale.php:50
+msgid "Fri"
+msgstr "ศุกร์"
+
+#: bb-includes/locale.php:51
+msgid "Sat"
+msgstr "เสาร์"
+
+#: bb-includes/locale.php:54
+#: bb-includes/locale.php:69
+msgid "January"
+msgstr "มกราคม"
+
+#: bb-includes/locale.php:55
+#: bb-includes/locale.php:70
+msgid "February"
+msgstr "กุมภาพันธ์"
+
+#: bb-includes/locale.php:56
+#: bb-includes/locale.php:71
+msgid "March"
+msgstr "มีนาคม"
+
+#: bb-includes/locale.php:57
+#: bb-includes/locale.php:72
+msgid "April"
+msgstr "เมษายน"
+
+#: bb-includes/locale.php:58
+#: bb-includes/locale.php:73
+msgid "May"
+msgstr "พฤษภาคม"
+
+#: bb-includes/locale.php:59
+#: bb-includes/locale.php:74
+msgid "June"
+msgstr "มิถุนายน"
+
+#: bb-includes/locale.php:60
+#: bb-includes/locale.php:75
+msgid "July"
+msgstr "กรกฎาคม"
+
+#: bb-includes/locale.php:61
+#: bb-includes/locale.php:76
+msgid "August"
+msgstr "สิงหาคม"
+
+#: bb-includes/locale.php:62
+#: bb-includes/locale.php:77
+msgid "September"
+msgstr "กันยายน"
+
+#: bb-includes/locale.php:63
+#: bb-includes/locale.php:78
+msgid "October"
+msgstr "ตุลาคม"
+
+#: bb-includes/locale.php:64
+#: bb-includes/locale.php:79
+msgid "November"
+msgstr "พฤศจิกายน"
+
+#: bb-includes/locale.php:65
+#: bb-includes/locale.php:80
+msgid "December"
+msgstr "ธันวาคม"
+
+#: bb-includes/locale.php:69
+msgid "Jan_January_abbreviation"
+msgstr "ม.ค."
+
+#: bb-includes/locale.php:70
+msgid "Feb_February_abbreviation"
+msgstr "ก.พ."
+
+#: bb-includes/locale.php:71
+msgid "Mar_March_abbreviation"
+msgstr "มี.ค."
+
+#: bb-includes/locale.php:72
+msgid "Apr_April_abbreviation"
+msgstr "เม.ย."
+
+#: bb-includes/locale.php:73
+msgid "May_May_abbreviation"
+msgstr "พ.ค."
+
+#: bb-includes/locale.php:74
+msgid "Jun_June_abbreviation"
+msgstr "มิ.ย."
+
+#: bb-includes/locale.php:75
+msgid "Jul_July_abbreviation"
+msgstr "ก.ค."
+
+#: bb-includes/locale.php:76
+msgid "Aug_August_abbreviation"
+msgstr "ส.ค."
+
+#: bb-includes/locale.php:77
+msgid "Sep_September_abbreviation"
+msgstr "ก.ย."
+
+#: bb-includes/locale.php:78
+msgid "Oct_October_abbreviation"
+msgstr "ต.ค."
+
+#: bb-includes/locale.php:79
+msgid "Nov_November_abbreviation"
+msgstr "พ.ย."
+
+#: bb-includes/locale.php:80
+msgid "Dec_December_abbreviation"
+msgstr "ธ.ค."
+
+#: bb-includes/locale.php:87
+msgid "am"
+msgstr "am"
+
+#: bb-includes/locale.php:88
+msgid "pm"
+msgstr "pm"
+
+#: bb-includes/locale.php:89
+msgid "AM"
+msgstr "AM"
+
+#: bb-includes/locale.php:90
+msgid "PM"
+msgstr "PM"
+
+#: bb-includes/locale.php:95
+msgid "number_format_decimals"
+msgstr "number_format_decimals"
+
+#: bb-includes/locale.php:98
+msgid "number_format_decimal_point"
+msgstr "number_format_decimal_point"
+
+#: bb-includes/locale.php:101
+msgid "number_format_thousands_sep"
+msgstr "number_format_thousands_sep"
+
+#: bb-includes/locale.php:106
+msgid "F j, Y - h:i A"
+msgstr "F j, Y - h:i A"
+
+#: bb-includes/locale.php:107
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: bb-includes/locale.php:108
+msgid "h:i A"
+msgstr "h:i A"
+
+#: bb-includes/registration-functions.php:47
+#, php-format
+msgid ""
+"If you wanted to reset your password, you may do so by visiting the following address:\n"
+"\n"
+"%s\n"
+"\n"
+"If you don't want to reset your password, just ignore this email. Thanks!"
+msgstr ""
+"ถ้าคุณต้องการกู้คืนรหัสผ่านของคุณ คุณอาจจะต้องเข้าดูที่หน้าต่อไปนี้:\n"
+"\n"
+"%s\n"
+"\n"
+"ถ้าคุณไม่ต้องการกู้คืนรหัสผ่านของคุณ  ก็ไม่ต้องสนใจอีเมล์นี้  ขอบคุณ"
+
+#: bb-includes/registration-functions.php:49
+#: bb-templates/kakumei/password-reset.php:5
+msgid "Password Reset"
+msgstr "ตั้งค่ารหัสผ่านใหม่"
+
+#: bb-includes/registration-functions.php:56
+#: bb-includes/registration-functions.php:58
+#: bb-includes/registration-functions.php:69
+msgid "Key not found."
+msgstr "ไม่พบ key"
+
+#: bb-includes/registration-functions.php:63
+msgid "You are not allowed to change your password."
+msgstr "คุณไได้รับอนุญาตให้เปลี่ยนรหัสผ่านของคุณ"
+
+#: bb-includes/registration-functions.php:91
+#, php-format
+msgid ""
+"Your username is: %1$s \n"
+"Your password is: %2$s \n"
+"You can now log in: %3$s \n"
+"\n"
+"Enjoy!"
+msgstr ""
+"ชื่อผู้ใช้ของคุณคือ: %1$s \n"
+"รหัสผ่านของคุณคือ: %2$s \n"
+"ตอนนี้คุณสามารถเข้าสู่ระบบในชื่อ: %3$s \n"
+"\n"
+"ขอให้สนุกกับการใช้งาน!"
+
+#: bb-includes/registration-functions.php:95
+#: bb-templates/kakumei/profile-edit.php:20
+msgid "Password"
+msgstr "รหัสผ่าน"
+
+#: bb-includes/script-loader.php:25
+msgid "drag"
+msgstr "ลาก"
+
+#: bb-includes/script-loader.php:26
+msgid "Save Forum Order &#187;"
+msgstr "บันทึกการเรียงฟอรั่ม &#187;"
+
+#: bb-includes/script-loader.php:27
+msgid "Edit Forum Order &#187;"
+msgstr "แก้ไขการเรียงฟอรั่ม &#187;"
+
+#: bb-includes/script-loader.php:327
+msgid "Are you sure you wanna delete this post by '%author%'?"
+msgstr "คุณแน่ใจหรือไม่ที่จะลบความเห็นนี้โดย '%author%'?"
+
+#: bb-includes/script-loader.php:328
+msgid "Are you sure you want to remove the '%tag%' tag?"
+msgstr "คุณแน่ใจหรือไม่ที่จะลบ '%tag%' แท็ก?"
+
+#: bb-includes/script-loader.php:329
+msgid "favorites"
+msgstr "ชื่นชอบ"
+
+#: bb-includes/script-loader.php:330
+msgid "?"
+msgstr "?"
+
+#: bb-includes/script-loader.php:331
+msgid "This topic is one of your %favLinkYes% [%favDel%]"
+msgstr "กระทู้นี้เป็นหนึ่งใน %favLinkYes% [%favDel%] ของคุณ"
+
+#: bb-includes/script-loader.php:332
+msgid "%favAdd% (%favLinkNo%)"
+msgstr "%favAdd% (%favLinkNo%)"
+
+#: bb-includes/script-loader.php:333
+#: bb-includes/template-functions.php:2134
+msgid "&times;"
+msgstr "&times;"
+
+#: bb-includes/script-loader.php:334
+#: bb-includes/template-functions.php:2132
+msgid "Add this topic to your favorites"
+msgstr "เพิ่มกระทู้นี้ลงใน favorites ของคุณ"
+
+#: bb-includes/template-functions.php:98
+#: bb-templates/kakumei/profile.php:3
+msgid "Profile"
+msgstr "ข้อมูลส่วนตัว"
+
+#: bb-includes/template-functions.php:135
+msgid "Reply"
+msgstr "ตอบกลับ"
+
+#: bb-includes/template-functions.php:137
+msgid "New Topic in this Forum"
+msgstr "กระทู้ใหม่ในฟอรั่มนี้"
+
+#: bb-includes/template-functions.php:139
+msgid "Add New Topic"
+msgstr "สร้างกระทู้ใหม่"
+
+#: bb-includes/template-functions.php:165
+#, php-format
+msgid "You must <a href=\"%s\">log in</a> to post."
+msgstr "คุณต้อง <a href=\"%s\">เข้าสู่ระบบ</a> เพื่อโพสท์"
+
+#: bb-includes/template-functions.php:336
+#: bb-templates/kakumei/tag-single.php:3
+#: bb-templates/kakumei/tags.php:3
+msgid "Tags"
+msgstr "แท็ก"
+
+#: bb-includes/template-functions.php:370
+#, php-format
+msgid "User Favorites: %s"
+msgstr "Favorites ของสมาชิก: %s"
+
+#: bb-includes/template-functions.php:377
+#, php-format
+msgid "Topic: %s"
+msgstr "กระทู้: %s"
+
+#: bb-includes/template-functions.php:385
+#, php-format
+msgid "Tag: %s"
+msgstr "แทค: %s"
+
+#: bb-includes/template-functions.php:393
+#, php-format
+msgid "Forum: %s - Recent Posts"
+msgstr "ฟอรั่ม: %s - ความเห็นล่าสุด"
+
+#: bb-includes/template-functions.php:397
+#, php-format
+msgid "Forum: %s - Recent Topics"
+msgstr "ฟอรั่ม: %s - กระทู้ล่าสุด"
+
+#: bb-includes/template-functions.php:404
+#: bb-templates/kakumei/search.php:11
+#: rss.php:123
+#: rss.php:144
+msgid "Recent Posts"
+msgstr "ความเห็นล่าสุด"
+
+#: bb-includes/template-functions.php:408
+#: rss.php:117
+#: rss.php:136
+msgid "Recent Topics"
+msgstr "กระทู้ล่าสุด"
+
+#: bb-includes/template-functions.php:954
+msgid "Are you sure you wanna delete that?"
+msgstr "คุณแน่ใจแล้วที่จะลบหัวข้อ?"
+
+#: bb-includes/template-functions.php:954
+msgid "Delete entire topic"
+msgstr "ลบทั้งหมดในกระทู้"
+
+#: bb-includes/template-functions.php:956
+#: bb-includes/template-functions.php:1272
+msgid "Are you sure you wanna undelete that?"
+msgstr "คุณแน่ใจแล้วที่จะคืนสภาพกระทู้ (ที่ถูกลบ)?"
+
+#: bb-includes/template-functions.php:956
+msgid "Undelete entire topic"
+msgstr "คืนสภาพทั้งหมดในกระทู้ (ที่ถูกลบ)"
+
+#: bb-includes/template-functions.php:969
+msgid "Close topic"
+msgstr "ปิดกระทู้"
+
+#: bb-includes/template-functions.php:969
+msgid "Open topic"
+msgstr "กระทู้เปิด"
+
+#: bb-includes/template-functions.php:984
+msgid "Unstick topic"
+msgstr "กระทู้ไม่ปักหมุด"
+
+#: bb-includes/template-functions.php:986
+msgid "Stick topic"
+msgstr "กระทู้ปักหมุด"
+
+#: bb-includes/template-functions.php:986
+msgid "to front"
+msgstr "ไปด้านหน้า"
+
+#: bb-includes/template-functions.php:993
+msgid "View normal posts"
+msgstr "ดูความเห็นปกติ"
+
+#: bb-includes/template-functions.php:995
+msgid "View all posts"
+msgstr "ดูความเห็นทั้งหมด"
+
+#: bb-includes/template-functions.php:1001
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s ความเห็น"
+
+#: bb-includes/template-functions.php:1012
+#, php-format
+msgid "+%d more"
+msgstr "+%d เพิ่มเติม"
+
+#: bb-includes/template-functions.php:1037
+msgid "Move this topic to the selected forum:"
+msgstr "ย้ายกระทู้นี้ไปยังฟอรั่มที่ถูกเลือก:"
+
+#: bb-includes/template-functions.php:1041
+msgid "Move"
+msgstr "ย้าย"
+
+#: bb-includes/template-functions.php:1063
+msgid "Add New &raquo;"
+msgstr "สร้างใหม่ &raquo;"
+
+#: bb-includes/template-functions.php:1186
+msgid "Anonymous"
+msgstr "นิรนาม"
+
+#: bb-includes/template-functions.php:1272
+msgid "Undelete"
+msgstr "ไม่ลบ"
+
+#: bb-includes/template-functions.php:1291
+#: bb-includes/template-functions.php:1306
+msgid "Unregistered"
+msgstr "ไม่ลงทะเบียน"
+
+#: bb-includes/template-functions.php:1381
+msgid "Delete User &raquo;"
+msgstr "ลบผู้ใช้ &raquo;"
+
+#: bb-includes/template-functions.php:1382
+msgid "Are you sure you want to delete this user?"
+msgstr "คุณแน่ใจที่จะต้องการลบผู้ใช้นี้"
+
+#: bb-includes/template-functions.php:1478
+msgid "Member Since"
+msgstr "สมาชิกตั้งแต่"
+
+#: bb-includes/template-functions.php:1566
+#: bb-includes/template-functions.php:1693
+#: bb-templates/kakumei/register.php:39
+msgid "These items are <span class=\"required\">required</span>."
+msgstr "สิ่งนี้ <span class=\"required\">เป็นที่ต้องการ</span>."
+
+#: bb-includes/template-functions.php:1600
+msgid "User Type"
+msgstr "ชนิดผู้ใช้"
+
+#: bb-includes/template-functions.php:1611
+msgid "Allow this user to"
+msgstr "อนุญาตให้สมาชิกนี้"
+
+#: bb-includes/template-functions.php:1696
+msgid ""
+"Inactive users can login and look around but not do anything.\n"
+"Blocked users just see a simple error message when they visit the site.</p>\n"
+"<p><strong>Note</strong>: Blocking a user does <em>not</em> block any IP addresses."
+msgstr ""
+"ผู้ใช้ที่ไม่ activer จะสามารถเข้าสู่ระบบและดูกระทู้ได้แต่ไม่สามารถทำอะไรได้\n"
+"ผู้ใช้ที่ถูกบล็อคจะเห็นข้อความผิดพลาดเมื่อพวกเขาเข้ามาที่เว็บไซต์</p>\n"
+"<p><strong>หมายเหตุ</strong>: การบล็อกผู้ใช้นั้น <em>ไม่</em> ได้บล็อค IP addresses"
+
+#: bb-includes/template-functions.php:1720
+msgid "New password"
+msgstr "รหัสผ่านใหม่"
+
+#: bb-includes/template-functions.php:1743
+msgid "Log Out"
+msgstr "ออกจากระบบ"
+
+#: bb-includes/template-functions.php:1762
+msgid "Admin"
+msgstr "ผู้ควบคุมเวบ"
+
+#: bb-includes/template-functions.php:1779
+msgid "View your profile"
+msgstr "ดูข้อมูลของคุณ"
+
+#: bb-includes/template-functions.php:1925
+msgid "Rename tag:"
+msgstr "ตั้งชื่อแท็กใหม่:"
+
+#: bb-includes/template-functions.php:1929
+msgid "Rename"
+msgstr "ตั้งชื่อใหม่"
+
+#: bb-includes/template-functions.php:1933
+msgid "Merge this tag into:"
+msgstr "รวมแท็กนี้เข้ากับ:"
+
+#: bb-includes/template-functions.php:1937
+msgid "Merge"
+msgstr "รวมกับ"
+
+#: bb-includes/template-functions.php:1938
+#, php-format
+msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified? This is permanent and cannot be undone."
+msgstr "คุณแน่ใจที่จะรวมแท็ก  \"%s\" เข้ากับแท็กที่คุณระบุ  การรวมนี้เป็นการถาวรและไม่สามารถแก้ไขได้"
+
+#: bb-includes/template-functions.php:1942
+msgid "Destroy tag:"
+msgstr "ทำลายแท็ก:"
+
+#: bb-includes/template-functions.php:1945
+msgid "Destroy"
+msgstr "ทำลาย"
+
+#: bb-includes/template-functions.php:1946
+#, php-format
+msgid "Are you sure you want to destroy the \"%s\" tag? This is permanent and cannot be undone."
+msgstr "คุณแน่ใจที่จะทำลายแท็ก  \"%s\" การทำลายนี้เป็นการถาวรและไม่สามารถแก้ไขได้"
+
+#: bb-includes/template-functions.php:1961
+msgid "Remove this tag"
+msgstr "ลบแท็กนี้"
+
+#: bb-includes/template-functions.php:2041
+#, php-format
+msgid "%d topics"
+msgstr "%d กระทู้"
+
+#: bb-includes/template-functions.php:2102
+msgid "- None -"
+msgstr "- ไม่มี -"
+
+#: bb-includes/template-functions.php:2132
+msgid " (%?%)"
+msgstr " (%?%)"
+
+#: bb-includes/template-functions.php:2134
+msgid "This topic is one of your %favorites% ["
+msgstr "กระทู้นี้เป็นหนึ่งใน %favorites% ของคุณ ["
+
+#: bb-includes/template-functions.php:2134
+msgid "]"
+msgstr "]"
+
+#: bb-includes/wp-functions.php:990
+msgid "&laquo; Previous"
+msgstr "&laquo; ก่อนหน้า"
+
+#: bb-includes/wp-functions.php:991
+msgid "Next &raquo;"
+msgstr "ต่อไป &raquo;"
+
+#: bb-plugins/akismet.php:16
+#: bb-plugins/akismet.php:21
+msgid "Akismet Configuration"
+msgstr "การตั้งค่า Akismet"
+
+#: bb-plugins/akismet.php:26
+msgid "Akismet Key:"
+msgstr "Akismet Key:"
+
+#: bb-plugins/akismet.php:30
+msgid "You do not need a key to run bbPress, but if you want to take advantage of Akismet's powerful spam blocking, you'll need one."
+msgstr "คุณไม่ต้องใช้ key ในการทำงานของ bbPress แต่ถ้าคุณต้องการใช้งาน Akismet (เครื่องมือป้องกันการ spam ที่มีประสิทธิภาพ)  คุณต้องใช้ key ในการทำงานของ Akismet"
+
+#: bb-plugins/akismet.php:31
+msgid "You can get an Akismet key at <a href=\"http://wordpress.com/api-keys/\">WordPress.com</a>"
+msgstr "คุณสามารถหา Akismet key ได้ที่ <a href=\"http://wordpress.com/api-keys/\">WordPress.com</a>"
+
+#: bb-plugins/akismet.php:38
+msgid "Update Configuration &raquo;"
+msgstr "อัปเดตการตั้งค่า &raquo;"
+
+#: bb-plugins/akismet.php:67
+msgid "Configuration saved."
+msgstr "บันทึกการตั้งค่า"
+
+#: bb-plugins/akismet.php:260
+msgid "Akismet Spam"
+msgstr "Akismet Spam"
+
+#: bb-plugins/akismet.php:273
+#, php-format
+msgid "The API key you have specified is invalid.  Please double check the <strong>Akismet Key</strong> set in <a href=\"%s\">Akismet configuration</a>.  If you don't have an API key yet, you can get one at <a href=\"%s\">WordPress.com</a>."
+msgstr "API key ที่คุณระบุใช้งานไม่ได้  กรุณาตรวจสอบการตั้งค่า <strong>Akismet Key</strong> ใน <a href=\"%s\">การตั้งค่า Akismet (Akismet configuration)</a>.  ถ้าคุณยังไม่มี API key คุณสามารถขอได้ที่ <a href=\"%s\">WordPress.com</a>."
+
+#: bb-plugins/akismet.php:295
+msgid "Not Spam"
+msgstr "ไม่ใช่สแปม"
+
+#: bb-plugins/akismet.php:297
+msgid "Spam"
+msgstr "สแปม"
+
+#: bb-plugins/bozo.php:91
+msgid "Counting bozo posts..."
+msgstr "กำลังนับความเห็นป่วน..."
+
+#: bb-plugins/bozo.php:111
+msgid "Done counting bozo posts."
+msgstr "นับความเห็นป่วนเสร็จแล้ว"
+
+#: bb-plugins/bozo.php:122
+msgid "Counting bozo topics for each user...\n"
+msgstr "กำลังนับกระทู้ป่วนสำหรับแต่ละสมาชิก...\n"
+
+#: bb-plugins/bozo.php:151
+msgid ""
+"Done counting bozo topics.\n"
+"\n"
+msgstr ""
+"นับกระทู้ป่วนเสร็จแล้ว\n"
+"\n"
+
+#: bb-plugins/bozo.php:162
+msgid "Count topics to which each user has replied and count each users&#039; bozo posts"
+msgstr "นับกระทู้ที่สมาชิกแต่ละคนได้ตอบและนับความเห็นป่วนผู้ใช้แต่ละคน"
+
+#: bb-plugins/bozo.php:163
+msgid "Count bozo posts on every topic"
+msgstr "นับความเห็นป่วนบนทุกกระทู้"
+
+#: bb-plugins/bozo.php:263
+msgid "This user is a bozo"
+msgstr "สมาชิกคนนี้มีพฤติกรรมป่วน"
+
+#: bb-plugins/bozo.php:273
+msgid "Bozos"
+msgstr "คนป่วนฟอรั่ม"
+
+#: bb-plugins/bozo.php:283
+msgid "These users have been marked as bozos"
+msgstr "สมาชิกเหล่านี้ถูกบันทึกว่ามีพฤติกรรมป่วน"
+
+#: bb-post.php:8
+msgid "Slow down; you move too fast."
+msgstr "กรุณาช้าลงหน่อย  คุณทำสิ่งต่าง ๆ เร็วเกินไป"
+
+#: bb-post.php:11
+msgid "You need to actually submit some content!"
+msgstr "คุณต้องส่งเนื้อหาจริง ๆ"
+
+#: bb-post.php:15
+#: bb-post.php:36
+msgid "You are not allowed to post.  Are you logged in?"
+msgstr "คุณไม่ได้รับอนุญาตให้โพสท์ข้อความ  คุณได้เข้าสู่ระบบแล้วหรือยัง"
+
+#: bb-post.php:18
+msgid "You are not allowed to write new topics."
+msgstr "คุณไม่ได้รับอนุญาตให้เริ่มกระทู้ใหม่"
+
+#: bb-post.php:26
+msgid "Please enter a topic title"
+msgstr "โปรดใส่หัวข้อกระทู้"
+
+#: bb-post.php:39
+msgid "This topic has been closed"
+msgstr "กระทู้นี้ถูกปิดแล้ว"
+
+#: bb-settings.php:95
+msgid "Your table prefix may only contain letters, numbers and underscores."
+msgstr "คำนำหน้าตารางฐานข้อมูลของคุณประกอบด้วยตัวอักษร ตัวเลขและ underscores \"_\" เท่านั้น"
+
+#: bb-settings.php:163
+msgid "Could not determine site URI"
+msgstr "ไม่สามารถกำหนด URI ของเว็บได้"
+
+#: bb-settings.php:231
+msgid "Your user table prefix may only contain letters, numbers and underscores."
+msgstr "คำนำหน้าตารางฐานข้อมูลผู้ใช้ของคุณประกอบด้วยตัวอักษร ตัวเลขและ underscores \"_\" เท่านั้น"
+
+#: bb-templates/kakumei/edit-form.php:15
+msgid "Edit Post &raquo;"
+msgstr "แก้ไขความเห็น &raquo;"
+
+#: bb-templates/kakumei/edit-form.php:19
+#: bb-templates/kakumei/post-form.php:31
+msgid "Allowed markup:"
+msgstr "อนุญาต markup:"
+
+#: bb-templates/kakumei/edit-form.php:19
+msgid "Put code in between <code>`backticks`</code>."
+msgstr "ใส่ code ลงในระหว่าง <code>`backticks`</code>."
+
+#: bb-templates/kakumei/edit-post.php:2
+msgid "Edit Post"
+msgstr "แก้ไขความเห็น"
+
+#: bb-templates/kakumei/favorites.php:5
+msgid "Current Favorites"
+msgstr "Favourites ในปัจจุบัน"
+
+#: bb-templates/kakumei/favorites.php:7
+msgid ""
+"Your Favorites allow you to create a custom <abbr title=\"Really Simple Syndication\">RSS</abbr> feed which pulls recent replies to the topics you specify.\n"
+"To add topics to your list of favorites, just click the \"Add to Favorites\" link found on that topic&#8217;s page."
+msgstr ""
+"Favorites ของคุณอนุญาตให้คุณสร้าง <abbr title=\"Really Simple Syndication\">RSS</abbr> feed เฉพาะของคุณที่จะดึงความเห็นล่าสุดของกระทู้ที่คุณระบุได้\n"
+"เพื่อเพิ่มกระทู้ลงในรายชื่อ favorites ของคุณ  เพียงกดที่ลิงก์ \"เพิ่มใน Favorites\" ที่ปรากฎอยู่ในแต่ละหน้ากระทู้"
+
+#: bb-templates/kakumei/favorites.php:10
+#, php-format
+msgid "Subscribe to your favorites&#8217; <a href=\"%s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr "ใช้งาน <a href=\"%s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a> favourites ของคุณ"
+
+#: bb-templates/kakumei/favorites.php:20
+msgid "Remove"
+msgstr "ย้ายออก"
+
+#: bb-templates/kakumei/favorites.php:39
+msgid "You currently have no favorites."
+msgstr "คุณไม่มี favorites ในตอนนี้"
+
+#: bb-templates/kakumei/favorites.php:43
+msgid "currently has no favorites."
+msgstr "ตอนนี้ไม่มี favorites"
+
+#: bb-templates/kakumei/footer.php:11
+#, php-format
+msgid "%1$s is proudly powered by <a href=\"%2$s\">bbPress</a>."
+msgstr "%1$s ทำงานโดยใช้ <a href=\"%2$s\">bbPress</a>"
+
+#: bb-templates/kakumei/forum.php:33
+msgid "RSS feed for this forum"
+msgstr "RSS feed สำหรับฟอรั่มนี้"
+
+#: bb-templates/kakumei/forum.php:40
+msgid "Subforums"
+msgstr "ฟอรั่มย่อย"
+
+#: bb-templates/kakumei/forum.php:44
+#: bb-templates/kakumei/front-page.php:48
+msgid "Main Theme"
+msgstr "Theme หลัก"
+
+#: bb-templates/kakumei/front-page.php:6
+msgid "Hot Tags"
+msgstr "แท็กยอดนิยม"
+
+#: bb-templates/kakumei/front-page.php:13
+msgid "Latest Discussions"
+msgstr "พูดคุยล่าสุด"
+
+#: bb-templates/kakumei/front-page.php:64
+msgid "Views"
+msgstr "ดู"
+
+#: bb-templates/kakumei/login-form.php:4
+#, php-format
+msgid "<a href=\"%1$s\">Register</a> or log in (<a href=\"%2$s\">lost password?</a>):"
+msgstr "<a href=\"%1$s\">ลงทะเบียน</a> หรือเข้าสู่ระบบ (<a href=\"%2$s\">ลืมรหัสผ่าน?</a>):"
+
+#: bb-templates/kakumei/login-form.php:18
+#: bb-templates/kakumei/login.php:48
+msgid "Log in &raquo;"
+msgstr "เข้าสู่ระบบ &raquo;"
+
+#: bb-templates/kakumei/login-form.php:23
+msgid "Remember me"
+msgstr "จดจำฉัน"
+
+#: bb-templates/kakumei/login.php:3
+#: bb-templates/kakumei/login.php:5
+#: bb-templates/kakumei/password-reset.php:3
+msgid "Log in"
+msgstr "เข้าสู่ระบบ"
+
+#: bb-templates/kakumei/login.php:5
+msgid "Log in Failed"
+msgstr "เข้าสู่ระบบล้มเหลว"
+
+#: bb-templates/kakumei/login.php:18
+msgid "Incorrect password"
+msgstr "รหัสผ่านไม่ถูกต้อง"
+
+#: bb-templates/kakumei/login.php:24
+msgid "This username does not exist."
+msgstr "ชื่อผู้ใช้นี้ไม่มีอยู่จริง"
+
+#: bb-templates/kakumei/login.php:24
+msgid "Register it?"
+msgstr "ต้องการลงทะเบียน?"
+
+#: bb-templates/kakumei/login.php:41
+msgid "Remember me:"
+msgstr "จดจำฉัน:"
+
+#: bb-templates/kakumei/login.php:48
+msgid "Try Again &raquo;"
+msgstr "ลองอีกครั้ง &raquo;"
+
+#: bb-templates/kakumei/login.php:56
+msgid "Password Recovery"
+msgstr "การกู้คืนรหัสผ่าน"
+
+#: bb-templates/kakumei/login.php:59
+msgid "To recover your password, enter your information below."
+msgstr "เพื่อกู้คืนรหัสผ่านของคุณ  กรุณาใส่ข้อมูลของคุณด้านล่าง"
+
+#: bb-templates/kakumei/login.php:72
+msgid "Recover Password &raquo;"
+msgstr "กู้คืนรหัสผ่าน &raquo;"
+
+#: bb-templates/kakumei/password-reset.php:8
+msgid "Your password has been reset and a new one has been mailed to you."
+msgstr "รหัสผ่านของคุณได้ถูกตั้งค่าใหม่  และรหัสผ่านใหม่ได้ถูกส่งอีเมล์ไปหาคุณ"
+
+#: bb-templates/kakumei/password-reset.php:10
+msgid "An email has been sent to the address we have on file for you. If you don&#8217;t get anything within a few minutes, or your email has changed, you may want to get in touch with the webmaster or forum administrator here."
+msgstr "อีเมล์ได้ถูกส่งไปให้ตามอีเมล์ที่คุณระบุ  ถ้าคุณไม่ได้รับภายในสองสามนาที  หรือคุณเปลี่ยนอีเมล์  คุณอาจจะต้องติดต่อกับ webmaster หรือผู้ควบคุมฟอรั่มที่นี่"
+
+#: bb-templates/kakumei/post-form.php:3
+msgid "Topic title: (be brief and descriptive)"
+msgstr "หัวข้อกระทู้: (สั้น ๆ และได้ใจความ)"
+
+#: bb-templates/kakumei/post-form.php:15
+#, php-format
+msgid "Enter a few words (called <a href=\"%s\">tags</a>) separated by commas to help someone find your topic:"
+msgstr "ใส่คำสองสามคำ (ที่เรียกกันว่า <a href=\"%s\">แท็ก</a>) แยกแต่ละคำด้วยคอมม่า  แท็กนั้นช่วยให้ผู้อื่นหากระทู้คุณได้ง่าย:"
+
+#: bb-templates/kakumei/post-form.php:22
+msgid "Pick a section:"
+msgstr "เลือกส่วน:"
+
+#: bb-templates/kakumei/post-form.php:28
+msgid "Send Post &raquo;"
+msgstr "ส่งความเห็น &raquo;"
+
+#: bb-templates/kakumei/post-form.php:31
+msgid "You can also put code in between backtick ( <code>`</code> ) characters."
+msgstr "คุณสามารถใส่ code ได้โดยใส่ในระหว่างสัญลักษณ์ backtick ( <code>`</code> )"
+
+#: bb-templates/kakumei/post.php:11
+#, php-format
+msgid "Posted %s ago"
+msgstr "โพสท์เมื่อ %s มาแล้ว"
+
+#: bb-templates/kakumei/profile-edit.php:3
+msgid "Edit Profile"
+msgstr "แก้ไขโปรไฟล์"
+
+#: bb-templates/kakumei/profile-edit.php:7
+msgid "Profile Info"
+msgstr "รายละเอียด Profile"
+
+#: bb-templates/kakumei/profile-edit.php:13
+msgid "Administration"
+msgstr "การควบคุมเวบ"
+
+#: bb-templates/kakumei/profile-edit.php:21
+msgid "To change your password, enter a new password twice below:"
+msgstr "เพื่อเปลี่ยนรหัสผ่านของคุณ  ใส่รหัสผ่านใหม่สองครั้งด้านล่าง"
+
+#: bb-templates/kakumei/profile-edit.php:26
+msgid "Update Profile &raquo;"
+msgstr "อัปเดตข้อมูลส่วนตัว &raquo;"
+
+#: bb-templates/kakumei/profile.php:9
+msgid "Profile updated"
+msgstr "ข้อมูลส่วนตัวถูกอัปเดต"
+
+#: bb-templates/kakumei/profile.php:9
+msgid "Edit again &raquo;"
+msgstr "แก้ไขอีกครั้ง &raquo;"
+
+#: bb-templates/kakumei/profile.php:13
+msgid "This is how your profile appears to a logged in member."
+msgstr "วิธีที่ข้อมูลส่วนตัวของคุณแสดงต่อสมาชิกที่เข้าสู่ระบบ"
+
+#: bb-templates/kakumei/profile.php:16
+#, php-format
+msgid "You may <a href=\"%1$s\">edit this information</a>."
+msgstr "คุณอาจจะ <a href=\"%1$s\">แก้ไขข้อมูลนี้</a>."
+
+#: bb-templates/kakumei/profile.php:21
+#, php-format
+msgid "You can also <a href=\"%1$s\">manage your favorites</a> and subscribe to your favorites&#8217; <a href=\"%2$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr "คุณยังสามารถ <a href=\"%1$s\">จัดการ favorites ของคุณ</a> และสามารถใช้งาน <a href=\"%2$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a> ของ favorites  ของคุณ"
+
+#: bb-templates/kakumei/profile.php:27
+msgid "User Activity"
+msgstr "กิจกรรมของผู้ใช้"
+
+#: bb-templates/kakumei/profile.php:29
+msgid "Recent Replies"
+msgstr "ตอบกลับล่าสุด"
+
+#: bb-templates/kakumei/profile.php:35
+#, php-format
+msgid "You last replied: %s ago."
+msgstr "การตอบครั้งสุดท้ายของคุณ: เมื่อ %s ที่ผ่านมา"
+
+#: bb-templates/kakumei/profile.php:35
+#, php-format
+msgid "User last replied: %s ago."
+msgstr "การตอบครั้งสุดท้ายของผู้ใช้: เมื่อ %s ที่ผ่านมา"
+
+#: bb-templates/kakumei/profile.php:39
+#, php-format
+msgid "Most recent reply: %s ago"
+msgstr "ตอบกลับล่าสุดมากสุด: เมื่อ %s ที่ผ่านมา"
+
+#: bb-templates/kakumei/profile.php:41
+msgid "No replies since."
+msgstr "ไม่มีการตอบตั้งแต่"
+
+#: bb-templates/kakumei/profile.php:47
+msgid "No more replies."
+msgstr "ไม่มีความเห็นมากกว่านี้"
+
+#: bb-templates/kakumei/profile.php:49
+msgid "No replies yet."
+msgstr "ยังไม่มีความเห็น"
+
+#: bb-templates/kakumei/profile.php:54
+msgid "Topics Started"
+msgstr "กระทู้เริ่ม"
+
+#: bb-templates/kakumei/profile.php:60
+#, php-format
+msgid "Started: %s ago"
+msgstr "เริ่มต้นเมื่อ: %s ที่ผ่านมา"
+
+#: bb-templates/kakumei/profile.php:64
+#, php-format
+msgid "Most recent reply: %s ago."
+msgstr "ตอบกลับล่าสุดมากสุด: เมื่อ %s ที่ผ่านมา"
+
+#: bb-templates/kakumei/profile.php:66
+msgid "No replies."
+msgstr "ไม่มีความเห็น"
+
+#: bb-templates/kakumei/profile.php:72
+msgid "No more topics posted."
+msgstr "ไม่มีกระทู้มากกว่านี้"
+
+#: bb-templates/kakumei/profile.php:74
+msgid "No topics posted yet."
+msgstr "ยังไม่มีกระทู้"
+
+#: bb-templates/kakumei/register-success.php:3
+#: bb-templates/kakumei/register.php:3
+msgid "Register"
+msgstr "ลงทะเบียน"
+
+#: bb-templates/kakumei/register-success.php:5
+msgid "Great!"
+msgstr "เยี่ยมมาก"
+
+#: bb-templates/kakumei/register-success.php:7
+#, php-format
+msgid "Your registration as <strong>%s</strong> was successful. Within a few minutes you should receive an email with your password."
+msgstr "การลงทะเบียนของคุณในชื่อ <strong>%s</strong> สำเร็จแล้ว  ภายในไม่กี่นาทีคุณควรจะได้รับอีเมล์ที่ระบุรหัสผ่านของคุณ"
+
+#: bb-templates/kakumei/register.php:5
+msgid "Registration"
+msgstr "การลงทะเบียน"
+
+#: bb-templates/kakumei/register.php:10
+msgid "Profile Information"
+msgstr "รายละเอียดข้อมูลส่วนตัว"
+
+#: bb-templates/kakumei/register.php:11
+msgid "Your password will be emailed to the address you provide."
+msgstr "รหัสผ่านของคุณจะถูกส่งไปยังที่อยู่อีเมล์ที่คุณให้ไว้"
+
+#: bb-templates/kakumei/register.php:17
+msgid "Your username was not valid, please try again"
+msgstr "ชื่อผู้ใช้ของคุณไม่สามารถใช้งานได้  โปรดลองใหม่อีกครั้ง"
+
+#: bb-templates/kakumei/register.php:31
+msgid "<br />There was a problem with your email; please check it."
+msgstr "<br />มีปัญหาเกี่ยวกับอีเมล์ของคุณ โปรดตรวจสอบ"
+
+#: bb-templates/kakumei/register.php:33
+msgid "<br />The above field is required."
+msgstr "<br />คุณต้องใส่ข้อมูลช่องด้านบน"
+
+#: bb-templates/kakumei/register.php:45
+msgid "Register &raquo;"
+msgstr "ลงทะเบียน &raquo;"
+
+#: bb-templates/kakumei/register.php:49
+msgid "You&#8217;re already logged in, why do you need to register?"
+msgstr "คุณได้เข้าสู่ระบบอยู่แล้ว  ไม่จำเป็นต้องลงทะเบียนอีก"
+
+#: bb-templates/kakumei/search-form.php:7
+msgid "Search &raquo;"
+msgstr "ค้นหา &raquo;"
+
+#: bb-templates/kakumei/search-form.php:9
+msgid "Search again &raquo;"
+msgstr "ค้นหาอีกครั้ง &raquo;"
+
+#: bb-templates/kakumei/search.php:3
+msgid "Search"
+msgstr "ค้นหา"
+
+#: bb-templates/kakumei/search.php:7
+msgid "Search for"
+msgstr "ค้นหาสำหรับ"
+
+#: bb-templates/kakumei/search.php:16
+#: bb-templates/kakumei/search.php:28
+msgid "Posted"
+msgstr "ถูกโพสท์แล้ว"
+
+#: bb-templates/kakumei/search.php:23
+msgid "Relevant posts"
+msgstr "ความเห็นที่คล้ายกัน"
+
+#: bb-templates/kakumei/search.php:35
+msgid "No results found."
+msgstr "ไม่พบผลลัพท์"
+
+#: bb-templates/kakumei/search.php:38
+#, php-format
+msgid "You may also try your <a href=\"http://google.com/search?q=site:%1$s %2$s\">search at Google</a>"
+msgstr "คุณอาจจะลอง <a href=\"http://google.com/search?q=site:%1$s %2$s\">ค้นหาที่ Google</a>"
+
+#: bb-templates/kakumei/stats.php:6
+msgid "Registered Users"
+msgstr "ผู้ใช้ลงทะเบียน"
+
+#: bb-templates/kakumei/stats.php:13
+msgid "Most Popular Topics"
+msgstr "กระทู้ยอดนิยมที่สุด"
+
+#: bb-templates/kakumei/tag-form.php:4
+msgid "Add &raquo;"
+msgstr "เพิ่ม &raquo;"
+
+#: bb-templates/kakumei/tag-single.php:27
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> link for this tag."
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> ลิงก์สำหรับแท็กนี้"
+
+#: bb-templates/kakumei/tags.php:5
+msgid "This is a collection of tags that are currently popular on the forums."
+msgstr "นี่เป็นชุดของแท็กที่กำลังนิยมอยู่ตอนนี้บนฟอรั่ม"
+
+#: bb-templates/kakumei/topic-tags.php:5
+msgid "Tags:"
+msgstr "แท็ก:"
+
+#: bb-templates/kakumei/topic-tags.php:15
+#, php-format
+msgid "No <a href=\"%s\">tags</a> yet."
+msgstr "ยังไม่มี <a href=\"%s\">แท็ก</a>"
+
+#: bb-templates/kakumei/topic.php:12
+#, php-format
+msgid "Started %1$s ago by %2$s"
+msgstr "เริ่มเมื่อ %1$s ที่ผ่านมา โดย %2$s"
+
+#: bb-templates/kakumei/topic.php:14
+#, php-format
+msgid "<a href=\"%1$s\">Latest reply</a> from %2$s"
+msgstr "<a href=\"%1$s\">ตอบกลับล่าสุด</a> จาก %2$s"
+
+#: bb-templates/kakumei/topic.php:42
+msgid "RSS feed for this topic"
+msgstr "RSS feed สำหรับกระทู้นี้"
+
+#: bb-templates/kakumei/topic.php:50
+msgid "Topic Closed"
+msgstr "กระทู้ถูกปิดแล้ว"
+
+#: bb-templates/kakumei/topic.php:51
+msgid "This topic has been closed to new replies."
+msgstr "กระทู้นี้ได้ถูกปิดจากความเห็นใหม่"
+
+#: favorites.php:7
+msgid "You cannot edit those favorites.  How did you get here?"
+msgstr "คุณไม่สามารถแก้ไข favorites เหล่านี้  คุณไม่น่าจะมาที่นี่ได้"
+
+#: forum.php:10
+msgid "Forum not found."
+msgstr "ไม่พบฟอรั่ม"
+
+#: profile-edit.php:44
+#: profile-edit.php:78
+#, php-format
+msgid "%s is required."
+msgstr "ต้องมี %s"
+
+#: profile-edit.php:51
+msgid "Invalid email address"
+msgstr "อีเมล์ใช้งานไม่ได้"
+
+#: profile-edit.php:67
+msgid "Invalid Role"
+msgstr "บทบาทใช้ไม่ได้"
+
+#: profile-edit.php:69
+msgid "You are not the Gate Keeper."
+msgstr "คุณไม่ใช่ Gate Keeper"
+
+#: profile-edit.php:71
+msgid "You, Keymaster, may not demote yourself."
+msgstr "คุณเป็น Keymaster จึงอาจจะไม่สามารถลดขั้นตัวเองได้"
+
+#: profile-edit.php:92
+msgid "You must enter the same password twice."
+msgstr "คุณต้องใส่รหัสเดิมซ้ำสองครั้ง"
+
+#: profile-edit.php:94
+msgid "You are not allowed to change this user's password."
+msgstr "คุณไม่ได้รับอนุญาตให้เปลี่ยนรหัสผ่านผู้ใช้นี้"
+
+#: rss.php:97
+msgid "User Favorites"
+msgstr "Favorites ของผู้ใช้"
+
+#: rss.php:105
+msgid "Tag"
+msgstr "แท็ก"
+
+#: rss.php:117
+#: rss.php:123
+msgid "Forum"
+msgstr "ฟอรั่ม"
+
+#: tag-add.php:7
+msgid "You need to be logged in to add a tag."
+msgstr "คุณต้องเข้าสู่ระบบก่อนเพิ่มแท็ก"
+
+#: tag-add.php:17
+#: topic.php:15
+msgid "Topic not found."
+msgstr "ไม่พบกระทู้"
+
+#: tag-add.php:22
+msgid "The tag was not added.  Either the tag name was invalid or the topic is closed."
+msgstr "แท็กยังไม่ถูกเพิ่ม  เป็นเพราะชื่อแท็กใช้งานไม่ได้ หรือ กระทู้ถูกปิดแล้ว"
+
+#: tag-remove.php:17
+msgid "Invalid tag or topic."
+msgstr "แท็กหรือกระทู้ใช้งานไม่ได้"
+
+#: tag-remove.php:24
+msgid "The tag was not removed.  You cannot remove a tag from a closed topic."
+msgstr "แท็กยังไม่ถูกลบ  คุณไม่สามารถลบแท็กจากกระทู้ที่ถูกปิดได้"
+
+#: tags.php:9
+msgid "Tag not found"
+msgstr "ไม่พบแท็ก"
+

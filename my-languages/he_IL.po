@@ -1,0 +1,3673 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress\n"
+"Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
+"POT-Creation-Date: 2009-04-09 12:11+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ran Yaniv Hartstein <ran at ranh co il>\n"
+"Language-Team: Ran Yaniv Hartstein <ran at ranh.co.il>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Hebrew\n"
+"X-Poedit-Country: ISRAEL\n"
+"X-Poedit-Basepath: C:\\ranh\\www\\bbpress\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: C:\\ranh\\www\\bbpress\n"
+
+#: bb-admin/admin-base.php:10
+msgid "Nothing to see here."
+msgstr "אין מה לראות פה"
+
+#: bb-admin/admin-footer.php:3
+msgid "Documentation"
+msgstr "תיעוד"
+
+#: bb-admin/admin-footer.php:3
+msgid "Development"
+msgstr "בלוג"
+
+#: bb-admin/admin-footer.php:4
+#, php-format
+msgid "%s seconds"
+msgstr "%s seconds"
+
+#: bb-admin/admin-functions.php:48
+#: bb-admin/index.php:4
+msgid "Dashboard"
+msgstr "לוח הבקרה"
+
+#: bb-admin/admin-functions.php:49
+msgid "Users"
+msgstr "מתשמשים"
+
+#: bb-admin/admin-functions.php:50
+msgid "Manage"
+msgstr "ניהול"
+
+#: bb-admin/admin-functions.php:51
+msgid "Design"
+msgstr "עיצוב"
+
+#: bb-admin/admin-functions.php:52
+msgid "Settings"
+msgstr "הגדרות"
+
+#: bb-admin/admin-functions.php:53
+#: bb-admin/admin-functions.php:67
+#: bb-admin/plugins.php:110
+msgid "Plugins"
+msgstr "תוספים"
+
+#: bb-admin/admin-functions.php:56
+msgid "Find"
+msgstr "חיפוש"
+
+#: bb-admin/admin-functions.php:57
+msgid "Moderators"
+msgstr ""
+
+#: bb-admin/admin-functions.php:58
+#: bb-includes/capabilities.php:164
+msgid "Blocked"
+msgstr ""
+
+#: bb-admin/admin-functions.php:60
+#: bb-admin/content.php:33
+#: bb-templates/kakumei/forum.php:45
+#: bb-templates/kakumei/front-page.php:49
+msgid "Topics"
+msgstr "שרשורים"
+
+#: bb-admin/admin-functions.php:61
+#: bb-admin/content-posts.php:29
+#: bb-templates/kakumei/favorites.php:18
+#: bb-templates/kakumei/forum.php:10
+#: bb-templates/kakumei/forum.php:46
+#: bb-templates/kakumei/front-page.php:18
+#: bb-templates/kakumei/front-page.php:50
+#: bb-templates/kakumei/stats.php:8
+#: bb-templates/kakumei/tag-single.php:12
+#: bb-templates/kakumei/view.php:10
+msgid "Posts"
+msgstr "הודעות"
+
+#: bb-admin/admin-functions.php:62
+#: bb-templates/kakumei/front-page.php:44
+msgid "Forums"
+msgstr "פורומים"
+
+#: bb-admin/admin-functions.php:63
+#: bb-admin/site.php:4
+msgid "Recount"
+msgstr "לספור מחדש"
+
+#: bb-admin/admin-functions.php:65
+msgid "Themes"
+msgstr "ערכות עיצוב"
+
+#: bb-admin/admin-functions.php:69
+msgid "General"
+msgstr "כללי"
+
+#: bb-admin/admin-functions.php:70
+#: bb-admin/options-wordpress.php:52
+msgid "WordPress Integration"
+msgstr "אינטגרציה עם וורדפרס"
+
+#: bb-admin/admin-functions.php:214
+#: bb-admin/admin-functions.php:545
+#: bb-includes/functions.php:2090
+#: bb-includes/template-functions.php:1254
+msgid "Edit"
+msgstr "לערוך"
+
+#: bb-admin/admin-functions.php:267
+#: bb-admin/admin-functions.php:405
+#: bb-plugins/bozo.php:296
+msgid "No matching users were found!"
+msgstr "לא מצאתי משתמשים מתאימים"
+
+#: bb-admin/admin-functions.php:327
+#, php-format
+msgid "Users Matching \"%s\" by Role"
+msgstr "חיפוש משתמשים \"%s\" לפי תפקיד"
+
+#: bb-admin/admin-functions.php:329
+msgid "User List by Role"
+msgstr "רשימת משתמשים לפי תפקיד"
+
+#: bb-admin/admin-functions.php:334
+#: bb-templates/kakumei/search-form.php:3
+msgid "Search:"
+msgstr "חיפוש:"
+
+#: bb-admin/admin-functions.php:336
+msgid "Search for users &raquo;"
+msgstr "לחפש &raquo;"
+
+#: bb-admin/admin-functions.php:342
+msgid "&laquo; Back to All Users"
+msgstr "&laquo; חזרה לרשימת המשתמשים המלאה"
+
+#: bb-admin/admin-functions.php:344
+#, php-format
+msgid "%1$s &#8211; %2$s of %3$s shown below"
+msgstr "%1$s &#8211; %2$s מתוך %3$s מוצגים בהמשך"
+
+#: bb-admin/admin-functions.php:354
+msgid "Users with no role in these forums"
+msgstr "משתמשים ללא דרגות בפורומים האלה"
+
+#: bb-admin/admin-functions.php:358
+msgid "ID"
+msgstr "מזהה"
+
+#: bb-admin/admin-functions.php:360
+#: bb-admin/admin-functions.php:363
+msgid "Username"
+msgstr "שם משתמש"
+
+#: bb-admin/admin-functions.php:361
+#: bb-includes/functions.php:2141
+msgid "Email"
+msgstr "אימייל"
+
+#: bb-admin/admin-functions.php:365
+msgid "Registered Since"
+msgstr "באתר מאז"
+
+#: bb-admin/admin-functions.php:366
+msgid "Actions"
+msgstr "פעולות"
+
+#: bb-admin/admin-functions.php:547
+#: bb-includes/template-functions.php:1274
+msgid "Delete"
+msgstr "למחוק"
+
+#: bb-admin/admin-functions.php:567
+msgid "Forum Name:"
+msgstr "שם הפורום\""
+
+#: bb-admin/admin-functions.php:570
+msgid "Forum Description:"
+msgstr "תיאור הפורום\""
+
+#: bb-admin/admin-functions.php:573
+msgid "Forum Parent:"
+msgstr "פורום אב:"
+
+#: bb-admin/admin-functions.php:576
+msgid "Position:"
+msgstr "מיקום:"
+
+#: bb-admin/admin-functions.php:587
+msgid "Update Forum &#187;"
+msgstr "לשמור &#187;"
+
+#: bb-admin/admin-functions.php:587
+msgid "Add Forum &#187;"
+msgstr "פורום חדש &#187;"
+
+#: bb-admin/admin-functions.php:744
+#, php-format
+msgid "Posted: %1$s in <a href=\"%2$s\">%3$s</a>"
+msgstr "פורסם: %1$s בפורום <a href=\"%2$s\">%3$s</a>"
+
+#: bb-admin/admin-functions.php:759
+msgid "Count posts of every topic"
+msgstr "לספור הודעות בכל השרשורים"
+
+#: bb-admin/admin-functions.php:760
+msgid "Count deleted posts on every topic"
+msgstr "לספור הודעות מחוקות בכל הנושאים"
+
+#: bb-admin/admin-functions.php:761
+msgid "Count topics and posts in every forum (relies on the above)"
+msgstr "לספור הודעות ושרשורים בכל פורום (לפני הנ\"ל)"
+
+#: bb-admin/admin-functions.php:762
+msgid "Count topics to which each user has replied"
+msgstr "לספור לכמה שרשורים הגיב כל משתמש"
+
+#: bb-admin/admin-functions.php:763
+msgid "Count tags for every topic"
+msgstr "לספור תגים לכל שרשור"
+
+#: bb-admin/admin-functions.php:764
+msgid "Count topics for every tag"
+msgstr "לספור שרשורים לכל תג"
+
+#: bb-admin/admin-functions.php:765
+msgid "DELETE tags with no topics.  Only functions if the above checked"
+msgstr "למחוק תגים ללא שרשורים. פועל רק אם הנ\"ל סומן"
+
+#: bb-admin/admin-functions.php:766
+msgid "REMOVE deleted topics from users' favorites"
+msgstr "להסיר שרשורים שנמחקו מרשימות מועדפים של כל המשתמשים"
+
+#: bb-admin/admin-functions.php:913
+msgid "Visit plugin homepage"
+msgstr "עמוד הבית של התוסף"
+
+#: bb-admin/admin-functions.php:916
+#: bb-admin/admin-functions.php:964
+msgid "Visit author homepage"
+msgstr "עמוד הבית של מחברי התוסף"
+
+#: bb-admin/admin-functions.php:970
+msgid "Visit porter homepage"
+msgstr "עמוד הבית של ממירי התוסף"
+
+#: bb-admin/admin-header.php:18
+msgid "Visit Site"
+msgstr "אל האתר"
+
+#: bb-admin/admin-header.php:22
+#: bb-templates/kakumei/logged-in.php:2
+#, php-format
+msgid "Welcome, %1$s!"
+msgstr "אהלן, %1$s!"
+
+#: bb-admin/bb-do-counts.php:12
+msgid "Recounting"
+msgstr "סופר מחדש"
+
+#: bb-admin/bb-do-counts.php:19
+msgid "Counting posts..."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:24
+msgid "Done counting posts."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:33
+msgid "Counting deleted posts..."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:43
+msgid "Done counting deleted posts."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:45
+msgid "No deleted posts to count."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:53
+msgid "Counting forum topics and posts..."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:67
+msgid "Done counting forum topics and posts."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:74
+msgid "Counting topics to which each user has replied..."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:79
+msgid "Done counting topics."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:86
+msgid "Counting topic tags..."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:96
+msgid "Done counting topic tags."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:103
+msgid "Counting tagged topics..."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:115
+msgid "Done counting tagged topics."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:121
+msgid "Deleted tags with no topics."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:130
+msgid "Removing deleted topics from users' favorites..."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:139
+msgid "Done removing deleted topics from users' favorites."
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:148
+msgid "Done recounting.  The process took"
+msgstr ""
+
+#: bb-admin/bb-do-counts.php:149
+#, php-format
+msgid "%1$d queries and %2$s seconds."
+msgstr "%1$d queries and %2$s seconds."
+
+#: bb-admin/bb-forum.php:5
+msgid "You don't have the authority to mess with the forums."
+msgstr "אין לך הרשאות מתאימות בשביל לשנות הגדרות של פורומים."
+
+#: bb-admin/bb-forum.php:17
+msgid "Bad forum name.  Go back and try again."
+msgstr "בחרת שם פורום לא תקני. כדאי לחזור אחורה ולשנות אותו."
+
+#: bb-admin/bb-forum.php:25
+msgid "The forum was not added"
+msgstr "לא הוספתי את הפורום"
+
+#: bb-admin/bb-forum.php:32
+msgid "No forums to update!"
+msgstr "אין פורומים לעדכן!"
+
+#: bb-admin/bb-forum.php:47
+msgid "You don't have the authority to kill off the forums."
+msgstr "אין לך הרשאות מתאימות בשביל להרוג את הפורומים."
+
+#: bb-admin/bb-forum.php:53
+msgid "Error occured while trying to delete forum"
+msgstr "קרתה שגיאה כשניסיתי למחוק את הפורום"
+
+#: bb-admin/class-install.php:136
+#: bb-includes/functions.php:2321
+msgid "bbPress &rsaquo; Error"
+msgstr "bbPress &rsaquo; שגיאה"
+
+#: bb-admin/class-install.php:137
+msgid "Oh dear!"
+msgstr "אוי ואבוי!"
+
+#: bb-admin/class-install.php:141
+#: bb-admin/class-install.php:151
+#: bb-admin/class-install.php:162
+#: bb-admin/class-install.php:173
+#: bb-admin/class-install.php:185
+#, php-format
+msgid "%1$s &rsaquo; %2$s"
+msgstr "%1$s &rsaquo; %2$s"
+
+#: bb-admin/class-install.php:141
+#: bb-admin/class-install.php:151
+#: bb-admin/class-install.php:162
+#: bb-admin/class-install.php:173
+#: bb-admin/class-install.php:185
+msgid "bbPress installer"
+msgstr "bbPress - התקנה"
+
+#: bb-admin/class-install.php:141
+msgid "Welcome"
+msgstr "ברוכים הבאים"
+
+#: bb-admin/class-install.php:142
+#: bb-admin/class-install.php:152
+#: bb-admin/class-install.php:163
+#: bb-admin/class-install.php:174
+#: bb-admin/class-install.php:186
+msgid "Welcome to the bbPress installer"
+msgstr "שלום, אני תוכנית ההתקנה של bbPress"
+
+#: bb-admin/class-install.php:145
+msgid "We're now going to go through a few steps to get you up and running."
+msgstr "אנחנו הולכים לעבור כמה שלבים פשוטים בשביל להתקין עבורך את bbPress"
+
+#: bb-admin/class-install.php:147
+#, php-format
+msgid "Ready? Then <a href=\"%s\">let's get started!</a>"
+msgstr "הכל מוכן? אז <a href=\"%s\">אפשר להתחיל!</a>"
+
+#: bb-admin/class-install.php:151
+#: bb-admin/class-install.php:153
+msgid "Step 1"
+msgstr "שלב ראשון"
+
+#: bb-admin/class-install.php:153
+#: bb-admin/class-install.php:164
+#: bb-admin/class-install.php:175
+#, php-format
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: bb-admin/class-install.php:153
+msgid "Database configuration"
+msgstr "הגדרות בסיס הנתונים"
+
+#: bb-admin/class-install.php:156
+msgid "Here you need to enter your database connection details. The installer will attempt to create a file called <code>bb-config.php</code> in the root directory of your bbPress installation."
+msgstr "אלו פרטי ההתחברות לבסיס הנתונים. תוכנית ההתקנה תנסה ליצור עבורך קובץ בשם <code>bb-config.php</code> בתיקיה הראשית של bbPress."
+
+#: bb-admin/class-install.php:157
+msgid "If you're not sure what to put here, contact your web hosting provider."
+msgstr "אפשר לברר את הפרטים האלה אצל ספקית האחסון או מנהל הרשת."
+
+#: bb-admin/class-install.php:162
+#: bb-admin/class-install.php:164
+msgid "Step 2"
+msgstr "שלב שני"
+
+#: bb-admin/class-install.php:164
+msgid "WordPress integration (optional)"
+msgstr "אינטגרציה עם וורדפרס (לא חובה)"
+
+#: bb-admin/class-install.php:165
+msgid "&laquo; skipped"
+msgstr "&laquo; נדחה"
+
+#: bb-admin/class-install.php:167
+msgid "bbPress can integrate login and user data seamlessly with WordPress. You can safely skip this section if you do not wish to integrate with an existing WordPress install."
+msgstr "bbPress יכולה לשלב את בסיס המשתמשים שלה עם וורדפרס - אפשר לדלג על השלב הזה אם אין צורך לשלב את בסיס המשתמשים כרגע."
+
+#: bb-admin/class-install.php:173
+#: bb-admin/class-install.php:175
+msgid "Step 3"
+msgstr "שלב שלישי"
+
+#: bb-admin/class-install.php:175
+msgid "Site settings"
+msgstr "הגדרות האתר"
+
+#: bb-admin/class-install.php:178
+msgid "Finalize your installation by adding a name, your first user and your first forum."
+msgstr "הפרטים האחרונים שצריך הם שם האתר, משתמש ראשון ופורום ראשון."
+
+#: bb-admin/class-install.php:185
+msgid "Finished"
+msgstr "ההתקנה הסתיימה"
+
+#: bb-admin/class-install.php:187
+#: bb-admin/class-install.php:1827
+msgid "Installation complete!"
+msgstr "ההתקנה הסתיימה!"
+
+#: bb-admin/class-install.php:204
+#, php-format
+msgid "Your server is running PHP version %s but bbPress requires at least 4.3"
+msgstr "השרת שלך מריץ PHP בגרסה %s אבל bbPress זקוקה לגרסה 4.3 לפחות"
+
+#: bb-admin/class-install.php:210
+msgid "Your PHP installation appears to be missing the MySQL extension which is required for bbPress"
+msgstr "ההתקנה של PHP שלך לא תומכת ב-MySQL - bbPress זקוקה לזה כדי לפעול"
+
+#: bb-admin/class-install.php:220
+msgid "Please complete your installation before attempting to include WordPress within bbPress"
+msgstr "צריך להשלים את ההתקנה לפני שאפשר לכלול את וורדפרס בתוך bbPress"
+
+#: bb-admin/class-install.php:308
+msgid "Please select the language you wish to use during installation -"
+msgstr "באיזו שפה להציג את תוכנית ההתקנה?"
+
+#: bb-admin/class-install.php:414
+msgid "An old <code>config.php</code> file has been detected in your installation. You should remove it and run the <a href=\"install.php\">installer</a> again. You can use the same database connection details if you do."
+msgstr "כבר יש קובץ <code>config.php</code> ישן בתיקיה של bbPress. צריך להסיר אותו ולהפעיל את ההתקנה מחדש. file has been detected in your installation. You should remove it and run the <a href=\"install.php\">installer</a> again. You can use the same database connection details if you do."
+
+#: bb-admin/class-install.php:427
+#: bb-admin/class-install.php:853
+#: bb-admin/class-install.php:861
+#: bb-admin/class-install.php:873
+msgid "&laquo; completed"
+msgstr "&laquo; הושלם"
+
+#: bb-admin/class-install.php:435
+msgid "A valid configuration file was found at <code>bb-config.php</code><br />You may continue to the next step."
+msgstr "כבר יש קובץ הגדרות תקני בתיקיה של bbPress<br />אפשר להמשיך לשלב הבא."
+
+#: bb-admin/class-install.php:440
+msgid "An invalid configuration file was found at <code>bb-config.php</code><br />The installation cannot continue."
+msgstr "קובץ הגדרות <code>bb-config.php</code> לא תקני נמצא בתיקיה של bbPress.<br />אי אפשר להמשיך בהתקנה"
+
+#: bb-admin/class-install.php:441
+msgid "Usually this is caused by one of the database connection settings being incorrect. Make sure that the specified user has appropriate permission to access the database."
+msgstr "זה בדרך כלל קורה כשהגדרות בסיס הנתונים לא נכונות. כדאי לוודא שלמשתמש שבחרת יש הרשאות מלאות לבסיס הנתונים."
+
+#: bb-admin/class-install.php:451
+msgid "bbPress is already installed, but appears to require an upgrade."
+msgstr "bbPress כבר מותקנת, אבל נראה שההתקנה זקוקה לשדרוג."
+
+#: bb-admin/class-install.php:452
+#, php-format
+msgid "Perhaps you meant to run the <a href=\"%s\">upgrade script</a> instead?"
+msgstr "אולי התכוונת להפעיל את <a href=\"%s\">תוכנית השדרוג</a> במקום?"
+
+#: bb-admin/class-install.php:465
+#: bb-admin/class-install.php:970
+msgid "I could not find the file <code>bb-config-sample.php</code><br />Please upload it to the root directory of your bbPress installation."
+msgstr "לא הצלחתי למצוא את הקובץ <code>bb-config-sample.php</code><br />צריך להעלות אותו לתיקיה הראשית של bbPress."
+
+#: bb-admin/class-install.php:471
+msgid "There doesn't seem to be a <code>bb-config.php</code> file. This usually means that you want to install bbPress."
+msgstr "לא מצאתי קובץ <code>bb-config.php</code> תקני."
+
+#: bb-admin/class-install.php:541
+msgid "Database name:"
+msgstr "שם בסיס הנתונים:"
+
+#: bb-admin/class-install.php:542
+msgid "The name of the database in which you want to run bbPress."
+msgstr "שם בסיס הנתונים של bbPress."
+
+#: bb-admin/class-install.php:546
+msgid "Database user:"
+msgstr "שם משתמש"
+
+#: bb-admin/class-install.php:547
+#: bb-admin/class-install.php:694
+#: bb-admin/options-wordpress.php:186
+msgid "The database user that has access to that database."
+msgstr "שם משתמש עם הרשאות מלאות בבסיס הנתונים הזה."
+
+#: bb-admin/class-install.php:552
+msgid "Database password:"
+msgstr "סיסמה"
+
+#: bb-admin/class-install.php:553
+#: bb-admin/class-install.php:701
+#: bb-admin/options-wordpress.php:193
+msgid "That database user's password."
+msgstr "הסיסמה של אותו משתמש."
+
+#: bb-admin/class-install.php:557
+msgid "Language"
+msgstr "שפה"
+
+#: bb-admin/class-install.php:558
+#, php-format
+msgid "The language which bbPress will be presented in once installed. Your current language choice (%s) will remain for the rest of the install process."
+msgstr "השפה בה יוצג הממשק של bbPress אחרי ההתקנה. השפה שבחרת עבור תוכנית ההתקנה (%s) לא תשתנה."
+
+#: bb-admin/class-install.php:562
+msgid "Show advanced settings:"
+msgstr "הגדרות מתקדמות:"
+
+#: bb-admin/class-install.php:563
+#, php-format
+msgid "99% of the time these settings will not have to be changed."
+msgstr ""
+
+#: bb-admin/class-install.php:569
+msgid "Database host:"
+msgstr "כתובת (hostname)"
+
+#: bb-admin/class-install.php:570
+#: bb-admin/options-wordpress.php:200
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should remain <strong>localhost</strong>."
+msgstr "הכתובת של בסיס הנתונים."
+
+#: bb-admin/class-install.php:575
+msgid "Database character set:"
+msgstr "קידוד בסיס הנתונים"
+
+#: bb-admin/class-install.php:576
+#: bb-admin/class-install.php:713
+#: bb-admin/options-wordpress.php:207
+msgid "The best choice is <strong>utf8</strong>, but you will need to match the character set which you created the database with."
+msgstr "utf-8 הוא הקידוד המומלץ, אבל הקידוד המתאים תלוי בבסיס הנתונים שלך."
+
+#: bb-admin/class-install.php:581
+msgid "Database character collation:"
+msgstr "Database character collation:"
+
+#: bb-admin/class-install.php:582
+msgid "The character collation value set when the database was created."
+msgstr "The character collation value set when the database was created."
+
+#: bb-admin/class-install.php:587
+msgid "bbPress cookie secret key:"
+msgstr "מפתח סודי לעוגיות של bbPress:"
+
+#: bb-admin/class-install.php:588
+msgid "This should be a unique and secret phrase, it will be used to make your bbPress cookies unique and harder for an attacker to decipher."
+msgstr "זהו מפתח סודי וייחודי, שמשמש להגנה על העוגיות ש-bbPress תשמור על מחשבי המשתמשים."
+
+#: bb-admin/class-install.php:593
+msgid "Table name prefix:"
+msgstr "קידומת לטבלאות:"
+
+#: bb-admin/class-install.php:594
+msgid "If you are running multiple bbPress installations in a single database, you will probably want to change this."
+msgstr "כדי להפעיל כמה התקנות של bbPress מבסיס נתונים אחד, אפשר להגדיר לכל התקנה קידומת טבלאות אחרת. ברוב המקרים לא צריך לשנות את זה."
+
+#: bb-admin/class-install.php:599
+msgid "Contents for <code>bb-config.php</code>:"
+msgstr ""
+
+#: bb-admin/class-install.php:600
+msgid "Once you have created the configuration file, you can check for it below."
+msgstr ""
+
+#: bb-admin/class-install.php:603
+msgid "Save database configuration file &raquo;"
+msgstr ""
+
+#: bb-admin/class-install.php:606
+#: bb-admin/class-install.php:732
+#: bb-admin/class-install.php:777
+#: bb-admin/content-forums.php:62
+msgid "&laquo; Go back"
+msgstr ""
+
+#: bb-admin/class-install.php:609
+msgid "Check for configuration file &raquo;"
+msgstr ""
+
+#: bb-admin/class-install.php:612
+msgid "Go to step 2 &raquo;"
+msgstr "לשלב 2 &raquo;"
+
+#: bb-admin/class-install.php:621
+msgid "Add integration settings:"
+msgstr "להציג את הגדרות האינטגרציה"
+
+#: bb-admin/class-install.php:622
+msgid "If you want to integrate bbPress with an existing WordPress installation."
+msgstr "אם רצית לשלב את ההתקנה של bbPress עם התקנה קיימת של וורדפרס."
+
+#: bb-admin/class-install.php:627
+#: bb-admin/class-install.php:729
+msgid "Skip WordPress integration &raquo;"
+msgstr "לדלג על האינטגרציה עם וורדפרס &raquo;"
+
+#: bb-admin/class-install.php:628
+msgid "Save WordPress integration settings &raquo;"
+msgstr ""
+
+#: bb-admin/class-install.php:633
+msgid "Add cookie integration settings:"
+msgstr "להציג את הגדרות האינטגרציה עם העוגיות של וורדפרס"
+
+#: bb-admin/class-install.php:634
+msgid "If you want to allow shared logins with an existing WordPress installation."
+msgstr "אינטגרציה של העוגיות מאפשרת התחברות משותפת להתקנה קיימת של וורדפרס"
+
+#: bb-admin/class-install.php:641
+#: bb-admin/class-install.php:1530
+#: bb-admin/options-wordpress.php:67
+msgid "WordPress address (URL):"
+msgstr "כתובת ההתקנה של וורדפרס (URL):"
+
+#: bb-admin/class-install.php:642
+#: bb-admin/options-wordpress.php:71
+msgid "This value should exactly match the <strong>WordPress address (URL)</strong> setting in your WordPress general settings."
+msgstr "הערך הזה צריך להיות זהה לערך <strong>כתובת ההתקנה של וורדפרס (URL)</strong> במסך ההגדרות של וורדפרס"
+
+#: bb-admin/class-install.php:647
+#: bb-admin/class-install.php:1533
+#: bb-admin/options-wordpress.php:74
+msgid "Blog address (URL):"
+msgstr "כתובת הבלוג"
+
+#: bb-admin/class-install.php:648
+#: bb-admin/options-wordpress.php:78
+msgid "This value should exactly match the <strong>Blog address (URL)</strong> setting in your WordPress general settings."
+msgstr "הערך הזה צריך להיות זהה לערך <strong>כתובת הבלוג (URL)</strong> במסך ההגדרות של וורדפרס"
+
+#: bb-admin/class-install.php:653
+msgid "WordPress cookie secret key:"
+msgstr "מפתח סודי לעוגיות של וורדפרס"
+
+#: bb-admin/class-install.php:654
+msgid "This value must match the value of the constant named \"SECRET_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress cookie secret key set in the first step."
+msgstr "הערך הזה צריך להיות זהה לערך \"SECRET_KEY\" בקובץ <code>wp-config.php</code> בהתקנה של וורדפרס. ערך זה יחליף את המפתח הסודי לעוגיות שנקבע בשלב הראשון (או בקובץ ההגדרות של bbPress)"
+
+#: bb-admin/class-install.php:659
+msgid "WordPress database secret:"
+msgstr ""
+
+#: bb-admin/class-install.php:660
+msgid "This must match the value of the WordPress setting named \"secret\" in your WordPress installation. Look for the option labeled \"secret\" in <a href=\"#\" id=\"getSecretOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings."
+msgstr ""
+
+#: bb-admin/class-install.php:665
+msgid "Add user database integration settings:"
+msgstr ""
+
+#: bb-admin/class-install.php:666
+msgid "If you want to share user data with an existing WordPress installation."
+msgstr ""
+
+#: bb-admin/class-install.php:673
+#: bb-admin/class-install.php:1609
+#: bb-admin/options-wordpress.php:133
+msgid "User database table prefix:"
+msgstr ""
+
+#: bb-admin/class-install.php:674
+msgid "If your bbPress and WordPress installations share the same database, then this is the same value as <code>$wp_table_prefix</code> in your WordPress <code>wp-config.php</code> file. It is usually <strong>wp_</strong>."
+msgstr ""
+
+#: bb-admin/class-install.php:679
+#: bb-admin/options-wordpress.php:141
+msgid "Show advanced database settings:"
+msgstr ""
+
+#: bb-admin/class-install.php:680
+#: bb-admin/options-wordpress.php:165
+msgid "If your bbPress and WordPress installation do not share the same database, then you will need to add advanced settings."
+msgstr ""
+
+#: bb-admin/class-install.php:687
+#: bb-admin/class-install.php:1615
+#: bb-admin/options-wordpress.php:175
+msgid "User database name:"
+msgstr ""
+
+#: bb-admin/class-install.php:688
+#: bb-admin/options-wordpress.php:179
+msgid "The name of the database in which your user tables reside."
+msgstr ""
+
+#: bb-admin/class-install.php:693
+#: bb-admin/class-install.php:1619
+#: bb-admin/options-wordpress.php:182
+msgid "User database user:"
+msgstr ""
+
+#: bb-admin/class-install.php:700
+#: bb-admin/class-install.php:1623
+#: bb-admin/options-wordpress.php:189
+msgid "User database password:"
+msgstr ""
+
+#: bb-admin/class-install.php:706
+#: bb-admin/class-install.php:1627
+#: bb-admin/options-wordpress.php:196
+msgid "User database host:"
+msgstr ""
+
+#: bb-admin/class-install.php:707
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should be <strong>localhost</strong>."
+msgstr ""
+
+#: bb-admin/class-install.php:712
+#: bb-admin/class-install.php:1631
+#: bb-admin/options-wordpress.php:203
+msgid "User database character set:"
+msgstr ""
+
+#: bb-admin/class-install.php:718
+#: bb-admin/class-install.php:1635
+#: bb-admin/options-wordpress.php:216
+msgid "User database \"user\" table:"
+msgstr ""
+
+#: bb-admin/class-install.php:719
+#: bb-admin/class-install.php:725
+#: bb-admin/options-wordpress.php:220
+#: bb-admin/options-wordpress.php:227
+msgid "The complete table name, including any prefix."
+msgstr ""
+
+#: bb-admin/class-install.php:724
+#: bb-admin/class-install.php:1639
+#: bb-admin/options-wordpress.php:223
+msgid "User database \"user meta\" table:"
+msgstr ""
+
+#: bb-admin/class-install.php:735
+msgid "Go to step 3 &raquo;"
+msgstr ""
+
+#: bb-admin/class-install.php:744
+#: bb-admin/class-install.php:1651
+msgid "Site name:"
+msgstr ""
+
+#: bb-admin/class-install.php:745
+msgid "This is what you are going to call your bbPress installation."
+msgstr ""
+
+#: bb-admin/class-install.php:749
+#: bb-admin/class-install.php:1653
+msgid "Site address (URL):"
+msgstr ""
+
+#: bb-admin/class-install.php:750
+msgid "We have attempted to guess this, it's usually correct, but change it here if you wish."
+msgstr ""
+
+#: bb-admin/class-install.php:755
+#: bb-admin/class-install.php:1705
+#: bb-admin/class-install.php:1727
+#: bb-admin/install.php:355
+#: bb-templates/kakumei/login-form.php:10
+#: bb-templates/kakumei/login.php:12
+#: bb-templates/kakumei/login.php:22
+#: bb-templates/kakumei/login.php:32
+#: bb-templates/kakumei/login.php:63
+#: bb-templates/kakumei/register.php:15
+#: bb-templates/kakumei/register.php:21
+msgid "Username:"
+msgstr ""
+
+#: bb-admin/class-install.php:756
+msgid "This is the user login for the initial bbPress administrator (known as a \"key master\")."
+msgstr ""
+
+#: bb-admin/class-install.php:761
+#: bb-admin/class-install.php:1706
+#: bb-admin/class-install.php:1728
+msgid "Email address:"
+msgstr ""
+
+#: bb-admin/class-install.php:762
+msgid "The login details will be emailed to this address."
+msgstr ""
+
+#: bb-admin/class-install.php:770
+#: bb-admin/class-install.php:1763
+msgid "Forum name:"
+msgstr ""
+
+#: bb-admin/class-install.php:771
+msgid "This can be changed after installation, so don't worry about it too much."
+msgstr ""
+
+#: bb-admin/class-install.php:774
+msgid "Save site settings &raquo;"
+msgstr ""
+
+#: bb-admin/class-install.php:780
+msgid "Complete the installation &raquo;"
+msgstr ""
+
+#: bb-admin/class-install.php:789
+msgid "Show installation messages:"
+msgstr ""
+
+#: bb-admin/class-install.php:793
+msgid "Installation errors:"
+msgstr ""
+
+#: bb-admin/class-install.php:797
+msgid "Installation log:"
+msgstr ""
+
+#: bb-admin/class-install.php:986
+msgid "There was a problem connecting to the database you specified.<br />Please check the settings, then try again."
+msgstr ""
+
+#: bb-admin/class-install.php:1052
+msgid "Your settings have been saved to the file <code>bb-config.php</code><br />You can now continue to the next step."
+msgstr ""
+
+#: bb-admin/class-install.php:1063
+msgid "Your settings could not be saved to a configuration file. You will need to save the text shown below into a file named <code>bb-config.php</code> in the root directory of your bbPress installation before you can continue."
+msgstr ""
+
+#: bb-admin/class-install.php:1080
+msgid "You have chosen to skip the WordPress integration step. You can always integrate WordPress later from within the admin area of bbPress."
+msgstr ""
+
+#: bb-admin/class-install.php:1140
+msgid "You must enter your settings for integration setup to complete. Choose which integration settings you wish to enter from the options below."
+msgstr ""
+
+#: bb-admin/class-install.php:1158
+msgid "Your integration settings have not been processed due to errors with the items marked below."
+msgstr ""
+
+#: bb-admin/class-install.php:1167
+#: bb-admin/class-install.php:1358
+msgid "&bull; This value is required to continue."
+msgstr ""
+
+#: bb-admin/class-install.php:1170
+#: bb-admin/class-install.php:1361
+msgid "&bull; This does not appear to be a valid URL."
+msgstr ""
+
+#: bb-admin/class-install.php:1173
+#: bb-admin/class-install.php:1364
+msgid "&bull; The URL must begin with \"http\" or \"https\"."
+msgstr ""
+
+#: bb-admin/class-install.php:1176
+#: bb-admin/class-install.php:1367
+msgid "&bull; The URL does not contain a host name."
+msgstr ""
+
+#: bb-admin/class-install.php:1256
+msgid "There was a problem connecting to the WordPress user database you specified. Please check the settings, then try again."
+msgstr ""
+
+#: bb-admin/class-install.php:1272
+msgid "Existing WordPress user tables could not be found in the WordPress database you specified."
+msgstr ""
+
+#: bb-admin/class-install.php:1274
+msgid "Existing WordPress user tables could not be found in the bbPress database you specified in step 1.<br /><br />This is probably because the database does not already contain working WordPress tables. You may need to specify advanced database settings or leave integration until after installation."
+msgstr ""
+
+#: bb-admin/class-install.php:1276
+msgid "&bull; This may not be a valid user table prefix."
+msgstr ""
+
+#: bb-admin/class-install.php:1294
+msgid "Your WordPress integration cookie and database settings have been successfully validated. They will be saved after the next step.<br /><br />Once you have finished installing, you should visit the WordPress integration section of the bbPress admin area for further options and integration instructions, including user mapping and the correct cookie settings to add to your WordPress configuration file."
+msgstr ""
+
+#: bb-admin/class-install.php:1349
+msgid "Your site settings have not been processed due to errors with the items marked below."
+msgstr ""
+
+#: bb-admin/class-install.php:1370
+msgid "&bull; Contains disallowed characters which have been removed."
+msgstr ""
+
+#: bb-admin/class-install.php:1373
+msgid "&bull; The user email address appears to be invalid."
+msgstr ""
+
+#: bb-admin/class-install.php:1392
+msgid "Your site settings have been saved and we are now ready to complete the installation. So what are you waiting for?"
+msgstr ""
+
+#: bb-admin/class-install.php:1426
+msgid "Referrer is OK, beginning installation&hellip;"
+msgstr ""
+
+#: bb-admin/class-install.php:1433
+msgid "Setting up custom user table constants"
+msgstr ""
+
+#: bb-admin/class-install.php:1441
+msgid "Removed user tables from schema"
+msgstr ""
+
+#: bb-admin/class-install.php:1456
+msgid "Removed users table from schema"
+msgstr ""
+
+#: bb-admin/class-install.php:1461
+msgid "Removed usermeta table from schema"
+msgstr ""
+
+#: bb-admin/class-install.php:1481
+msgid "Step 1 - Creating database tables"
+msgstr ""
+
+#: bb-admin/class-install.php:1504
+msgid "User tables will already exist when performing a database integrated installation."
+msgstr ""
+
+#: bb-admin/class-install.php:1507
+#: bb-admin/class-install.php:1509
+msgid "Database installation failed!!!"
+msgstr ""
+
+#: bb-admin/class-install.php:1508
+#: bb-admin/class-install.php:1682
+#: bb-admin/class-install.php:1711
+#: bb-admin/class-install.php:1733
+msgid "Halting installation!"
+msgstr ""
+
+#: bb-admin/class-install.php:1512
+#: bb-admin/class-install.php:1684
+#: bb-admin/class-install.php:1714
+#: bb-admin/class-install.php:1736
+msgid "Installation failed!"
+msgstr ""
+
+#: bb-admin/class-install.php:1513
+msgid "The database failed to install. You may need to replace bbPress with a fresh copy and start again."
+msgstr ""
+
+#: bb-admin/class-install.php:1521
+msgid "Database is already installed!!!"
+msgstr ""
+
+#: bb-admin/class-install.php:1526
+msgid "Step 2 - WordPress integration (optional)"
+msgstr ""
+
+#: bb-admin/class-install.php:1568
+#: bb-admin/class-install.php:1577
+msgid "WordPress cookie secret key set."
+msgstr ""
+
+#: bb-admin/class-install.php:1571
+#: bb-admin/class-install.php:1574
+msgid "WordPress cookie secret key not set."
+msgstr ""
+
+#: bb-admin/class-install.php:1572
+msgid "Your \"bb-config.php\" file was not writable."
+msgstr ""
+
+#: bb-admin/class-install.php:1573
+msgid "You will need to manually define the \"BB_SECRET_KEY\" in your \"bb-config.php\" file."
+msgstr ""
+
+#: bb-admin/class-install.php:1582
+#: bb-admin/class-install.php:1598
+msgid "WordPress database secret set."
+msgstr ""
+
+#: bb-admin/class-install.php:1590
+msgid "Fetching WordPress database secret."
+msgstr ""
+
+#: bb-admin/class-install.php:1600
+#: bb-admin/class-install.php:1603
+msgid "WordPress database secret key not set."
+msgstr ""
+
+#: bb-admin/class-install.php:1601
+msgid "Could not fetch secret from the WordPress options table."
+msgstr ""
+
+#: bb-admin/class-install.php:1602
+msgid "You will need to manually define the secret in your database."
+msgstr ""
+
+#: bb-admin/class-install.php:1644
+msgid "Integration not enabled"
+msgstr ""
+
+#: bb-admin/class-install.php:1649
+msgid "Step 3 - Site settings"
+msgstr ""
+
+#: bb-admin/class-install.php:1655
+msgid "From email address:"
+msgstr ""
+
+#: bb-admin/class-install.php:1666
+#: bb-admin/class-install.php:1668
+#: bb-admin/class-install.php:1710
+#: bb-admin/class-install.php:1712
+#: bb-admin/class-install.php:1734
+msgid "Key master could not be created!"
+msgstr ""
+
+#: bb-admin/class-install.php:1667
+msgid "That login is already taken!"
+msgstr ""
+
+#: bb-admin/class-install.php:1673
+msgid "Existing key master entered!"
+msgstr ""
+
+#: bb-admin/class-install.php:1674
+msgid "Your bbPress password"
+msgstr ""
+
+#: bb-admin/class-install.php:1677
+msgid "Re-setting admin email address."
+msgstr ""
+
+#: bb-admin/class-install.php:1681
+msgid "Existing user without key master role entered!"
+msgstr ""
+
+#: bb-admin/class-install.php:1685
+msgid "The key master could not be created. An existing user was found with that user login."
+msgstr ""
+
+#: bb-admin/class-install.php:1704
+msgid "Key master created"
+msgstr ""
+
+#: bb-admin/class-install.php:1707
+#: bb-admin/class-install.php:1729
+#: bb-admin/install.php:357
+#: bb-templates/kakumei/login-form.php:13
+#: bb-templates/kakumei/login.php:16
+#: bb-templates/kakumei/login.php:27
+#: bb-templates/kakumei/login.php:36
+msgid "Password:"
+msgstr ""
+
+#: bb-admin/class-install.php:1715
+msgid "The key master could not be created. You may need to replace bbPress with a fresh copy and start again."
+msgstr ""
+
+#: bb-admin/class-install.php:1725
+msgid "Your existing password"
+msgstr ""
+
+#: bb-admin/class-install.php:1726
+msgid "Key master role assigned to existing user"
+msgstr ""
+
+#: bb-admin/class-install.php:1732
+msgid "Key master role could not be assigned to existing user!"
+msgstr ""
+
+#: bb-admin/class-install.php:1737
+msgid "The key master could not be assigned. You may need to replace bbPress with a fresh copy and start again."
+msgstr ""
+
+#: bb-admin/class-install.php:1751
+msgid "Just another bbPress community"
+msgstr ""
+
+#: bb-admin/class-install.php:1760
+msgid "Description:"
+msgstr ""
+
+#: bb-admin/class-install.php:1771
+msgid "Your first topic"
+msgstr ""
+
+#: bb-admin/class-install.php:1779
+msgid "First Post!  w00t."
+msgstr ""
+
+#: bb-admin/class-install.php:1793
+#: bb-templates/kakumei/edit-form.php:4
+msgid "Topic:"
+msgstr "שרשור:"
+
+#: bb-admin/class-install.php:1794
+#: bb-templates/kakumei/edit-form.php:10
+#: bb-templates/kakumei/post-form.php:9
+msgid "Post:"
+msgstr "הודעה:"
+
+#: bb-admin/class-install.php:1796
+#: bb-admin/class-install.php:1797
+msgid "Forum could not be created!"
+msgstr ""
+
+#: bb-admin/class-install.php:1800
+msgid "There are existing forums in this database."
+msgstr ""
+
+#: bb-admin/class-install.php:1801
+msgid "No new forum created."
+msgstr ""
+
+#: bb-admin/class-install.php:1802
+msgid "Forums already exist!"
+msgstr ""
+
+#: bb-admin/class-install.php:1807
+#, php-format
+msgid ""
+"Your new bbPress site has been successfully set up at:\n"
+"\n"
+"%1$s\n"
+"\n"
+"You can log in to the key master account with the following information:\n"
+"\n"
+"Username: %2$s\n"
+"Password: %3$s\n"
+"\n"
+"We hope you enjoy your new forums. Thanks!\n"
+"\n"
+"--The bbPress Team\n"
+"http://bbpress.org/"
+msgstr ""
+
+#: bb-admin/class-install.php:1813
+msgid "New bbPress installation"
+msgstr ""
+
+#: bb-admin/class-install.php:1814
+msgid "Key master email sent"
+msgstr ""
+
+#: bb-admin/class-install.php:1816
+#: bb-admin/class-install.php:1817
+msgid "Key master email not sent!"
+msgstr ""
+
+#: bb-admin/class-install.php:1822
+msgid "Installation completed with some errors!"
+msgstr ""
+
+#: bb-admin/class-install.php:1823
+msgid "Your installation completed with some minor errors. See the error log below for more specific information."
+msgstr ""
+
+#: bb-admin/class-install.php:1824
+msgid "There were some errors encountered during installation!"
+msgstr ""
+
+#: bb-admin/class-install.php:1826
+msgid "Your installation completed successfully.<br />Check below for login details."
+msgstr ""
+
+#: bb-admin/class-install.php:2124
+msgid "Please select an existing bbPress Keymaster or WordPress administrator."
+msgstr ""
+
+#: bb-admin/class-install.php:2183
+msgid "Warning"
+msgstr ""
+
+#: bb-admin/class-install.php:2183
+msgid "Message"
+msgstr ""
+
+#: bb-admin/content-forums.php:19
+msgid "Forum Updated."
+msgstr ""
+
+#: bb-admin/content-forums.php:22
+#, php-format
+msgid "Forum deleted.  You should have bbPress <a href=\"%s\">recount your site information</a>."
+msgstr ""
+
+#: bb-admin/content-forums.php:33
+msgid "Forum Management"
+msgstr ""
+
+#: bb-admin/content-forums.php:36
+msgid "Update Forum"
+msgstr ""
+
+#: bb-admin/content-forums.php:40
+#, php-format
+msgid "Are you sure you want to delete the \"<strong>%s</strong>\" forum?"
+msgstr ""
+
+#: bb-admin/content-forums.php:41
+msgid "This forum contains"
+msgstr ""
+
+#: bb-admin/content-forums.php:43
+#, php-format
+msgid "%d topic"
+msgid_plural "%d topics"
+msgstr[0] ""
+msgstr[1] ""
+
+#: bb-admin/content-forums.php:44
+#, php-format
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: bb-admin/content-forums.php:49
+msgid "Delete all topics and posts in this forum. <em>This can never be undone.</em>"
+msgstr ""
+
+#: bb-admin/content-forums.php:50
+msgid "Move topics from this forum into"
+msgstr ""
+
+#: bb-admin/content-forums.php:54
+msgid "Delete forum &raquo;"
+msgstr ""
+
+#: bb-admin/content-forums.php:71
+msgid "Name &#8212; Description"
+msgstr ""
+
+#: bb-admin/content-forums.php:78
+msgid "Add Forum"
+msgstr ""
+
+#: bb-admin/content-posts.php:6
+#: bb-admin/content.php:6
+#: bb-plugins/akismet.php:277
+msgid "Now how'd you get here?  And what did you think you'd being doing?"
+msgstr ""
+
+#: bb-admin/content-posts.php:21
+#: bb-admin/content.php:24
+#, php-format
+msgid "matching &#8220;%s&#8221;"
+msgstr ""
+
+#: bb-admin/content-posts.php:22
+#: bb-admin/content.php:25
+#, php-format
+msgid "in &#8220;%s&#8221;"
+msgstr ""
+
+#: bb-admin/content-posts.php:23
+#: bb-admin/content.php:26
+#, php-format
+msgid "with tag &#8220;%s&#8221;"
+msgstr ""
+
+#: bb-admin/content-posts.php:24
+#: bb-admin/content.php:27
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: bb-admin/content-posts.php:26
+#: bb-admin/content.php:29
+#: bb-includes/classes.php:869
+msgid "Normal"
+msgstr ""
+
+#: bb-admin/content-posts.php:26
+#: bb-admin/content.php:29
+#: bb-includes/classes.php:869
+msgid "Deleted"
+msgstr ""
+
+#: bb-admin/content-posts.php:31
+#, php-format
+msgid "%1$sposts"
+msgstr ""
+
+#: bb-admin/content-posts.php:33
+#: bb-admin/content.php:37
+#, php-format
+msgid "%1$s%2$s%3$s%4$s%5$s"
+msgstr ""
+
+#: bb-admin/content-posts.php:37
+#: bb-admin/content.php:41
+msgid "Filter &#187;"
+msgstr ""
+
+#: bb-admin/content.php:30
+#: bb-includes/classes.php:896
+msgid "Closed"
+msgstr ""
+
+#: bb-admin/content.php:30
+#: bb-includes/classes.php:896
+msgid "Open"
+msgstr ""
+
+#: bb-admin/content.php:35
+#, php-format
+msgid "%1$s%2$stopics"
+msgstr ""
+
+#: bb-admin/content.php:47
+#: bb-templates/kakumei/favorites.php:17
+#: bb-templates/kakumei/forum.php:9
+#: bb-templates/kakumei/front-page.php:17
+#: bb-templates/kakumei/tag-single.php:11
+#: bb-templates/kakumei/view.php:9
+#: rss.php:88
+msgid "Topic"
+msgstr "שרשור"
+
+#: bb-admin/content.php:48
+#: bb-templates/kakumei/forum.php:11
+#: bb-templates/kakumei/front-page.php:19
+#: bb-templates/kakumei/tag-single.php:13
+#: bb-templates/kakumei/view.php:11
+msgid "Last Poster"
+msgstr "הודעה אחרונה מאת"
+
+#: bb-admin/content.php:49
+#: bb-templates/kakumei/favorites.php:19
+#: bb-templates/kakumei/forum.php:12
+#: bb-templates/kakumei/front-page.php:20
+#: bb-templates/kakumei/tag-single.php:14
+#: bb-templates/kakumei/view.php:12
+msgid "Freshness"
+msgstr "טריות"
+
+#: bb-admin/content.php:60
+msgid "No Topics Found"
+msgstr "לא נמצאו שרשורים מתאימים"
+
+#: bb-admin/delete-post.php:17
+msgid "There is a problem with that post, pardner."
+msgstr "יש בעיה עם ההודעה הזו."
+
+#: bb-admin/delete-topic.php:16
+#: bb-admin/sticky.php:9
+#: bb-admin/topic-toggle.php:8
+msgid "There is a problem with that topic, pardner."
+msgstr "יש בעיה עם השרשור הזה."
+
+#: bb-admin/export.php:19
+msgid "Either export is disabled or you are not allowed to export."
+msgstr "או שאפשרות הייצוא נחסמה או שאין לך הרשאות מתאימות לייצוא באתר הזה."
+
+#: bb-admin/index.php:7
+msgid "Latest Activity"
+msgstr "עדכונים אחרונים"
+
+#: bb-admin/index.php:9
+msgid "User Registrations"
+msgstr "משתמשים חדשים"
+
+#: bb-admin/index.php:12
+msgid "profile"
+msgstr "פרופיל"
+
+#: bb-admin/index.php:12
+#, php-format
+msgid "registered %s ago"
+msgstr "לפני %s"
+
+#: bb-admin/index.php:18
+msgid "Recently Moderated"
+msgstr "מודרציה"
+
+#: bb-admin/index.php:22
+msgid "Post"
+msgstr "הודעה"
+
+#: bb-admin/index.php:22
+#: bb-templates/kakumei/rss2.php:19
+msgid "on"
+msgstr "בשרשור"
+
+#: bb-admin/index.php:22
+msgid "by"
+msgstr "מאת"
+
+#: bb-admin/index.php:24
+msgid "Topic titled"
+msgstr ""
+
+#: bb-admin/index.php:24
+msgid "started by"
+msgstr "מאת"
+
+#: bb-admin/index.php:31
+#: bb-templates/kakumei/stats.php:3
+#: statistics.php:9
+msgid "Statistics"
+msgstr "סטטיסטיקה"
+
+#: bb-admin/index.php:33
+msgid "Posts per day"
+msgstr "הודעות ביום"
+
+#: bb-admin/index.php:34
+msgid "Topics per day"
+msgstr "שרשורים ביום"
+
+#: bb-admin/index.php:35
+msgid "Registrations per day"
+msgstr "משתמשים חדשים ביום"
+
+#: bb-admin/index.php:36
+#, php-format
+msgid "Forums started %s ago."
+msgstr "הפורום נפתח לפני %s."
+
+#: bb-admin/install.php:174
+#: bb-admin/options-wordpress.php:64
+msgid "Cookies"
+msgstr "עוכיות"
+
+#: bb-admin/install.php:175
+msgid "Integrating cookies allows you and your users to login to either your bbPress or your WordPress site and be automatically logged into both."
+msgstr ""
+
+#: bb-admin/install.php:176
+msgid "You may need to make changes to your WordPress configuration once installation is complete. See the \"WordPress Integration\" section of the bbPress administration area when you are done."
+msgstr ""
+
+#: bb-admin/install.php:192
+#: bb-admin/options-wordpress.php:130
+msgid "User database"
+msgstr ""
+
+#: bb-admin/install.php:193
+msgid "Integrating your WordPress database user tables allows you to store user data in one location, instead of having separate user data for both bbPress and WordPress."
+msgstr ""
+
+#: bb-admin/install.php:201
+#: bb-admin/options-wordpress.php:169
+msgid "Separate user database settings"
+msgstr ""
+
+#: bb-admin/install.php:202
+#: bb-admin/options-wordpress.php:171
+msgid "Most of the time these settings are <em>not</em> required. Look before you leap!"
+msgstr ""
+
+#: bb-admin/install.php:203
+#: bb-admin/options-wordpress.php:172
+msgid "All settings except for the character set must be specified."
+msgstr ""
+
+#: bb-admin/install.php:213
+#: bb-admin/options-wordpress.php:211
+msgid "Custom user tables"
+msgstr ""
+
+#: bb-admin/install.php:214
+msgid "Only set these options if your integrated user tables do not fit the usual mould of <em>wp_user</em> and <em>wp_usermeta</em>."
+msgstr ""
+
+#: bb-admin/install.php:295
+msgid "\"Key master\" account"
+msgstr ""
+
+#: bb-admin/install.php:312
+msgid "First forum"
+msgstr ""
+
+#: bb-admin/install.php:353
+msgid "You can now log in with the following details:"
+msgstr ""
+
+#: bb-admin/install.php:359
+msgid "Site address:"
+msgstr ""
+
+#: bb-admin/install.php:365
+msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you. If you lose it, you will have to delete the tables from the database yourself, and re-install bbPress."
+msgstr ""
+
+#: bb-admin/options-general.php:35
+#: bb-admin/options-wordpress.php:41
+msgid "Settings saved."
+msgstr ""
+
+#: bb-admin/options-general.php:41
+msgid "General Settings"
+msgstr ""
+
+#: bb-admin/options-general.php:46
+msgid "Site title:"
+msgstr ""
+
+#: bb-admin/options-general.php:52
+msgid "Site description:"
+msgstr ""
+
+#: bb-admin/options-general.php:58
+msgid "bbPress address (URL):"
+msgstr ""
+
+#: bb-admin/options-general.php:62
+msgid "The full URL of your bbPress install."
+msgstr ""
+
+#: bb-admin/options-general.php:65
+msgid "E-mail address:"
+msgstr ""
+
+#: bb-admin/options-general.php:69
+msgid "Emails sent by the site will appear to come from this address."
+msgstr ""
+
+#: bb-admin/options-general.php:72
+msgid "Pretty permalink type:"
+msgstr ""
+
+#: bb-admin/options-general.php:80
+#: bb-admin/options-general.php:199
+msgid "None"
+msgstr ""
+
+#: bb-admin/options-general.php:81
+msgid "Numeric"
+msgstr ""
+
+#: bb-admin/options-general.php:82
+msgid "Name based"
+msgstr ""
+
+#: bb-admin/options-general.php:89
+msgid "Items per page:"
+msgstr ""
+
+#: bb-admin/options-general.php:93
+msgid "Number of topics, posts or tags to show per page."
+msgstr ""
+
+#: bb-admin/options-general.php:96
+msgid "Lock post editing after:"
+msgstr ""
+
+#: bb-admin/options-general.php:100
+#: bb-includes/functions.php:1859
+msgid "minutes"
+msgstr "דקות"
+
+#: bb-admin/options-general.php:101
+msgid "A user can edit a post for this many minutes after submitting."
+msgstr ""
+
+#: bb-admin/options-general.php:105
+msgid "Date and Time"
+msgstr ""
+
+#: bb-admin/options-general.php:107
+msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is:"
+msgstr ""
+
+#: bb-admin/options-general.php:110
+msgid "Y-m-d g:i:s a"
+msgstr ""
+
+#: bb-admin/options-general.php:113
+msgid "Times should differ from UTC by:"
+msgstr ""
+
+#: bb-admin/options-general.php:117
+#: bb-includes/functions.php:1858
+msgid "hours"
+msgstr "שעות"
+
+#: bb-admin/options-general.php:118
+msgid "Example: -7 for Pacific Daylight Time."
+msgstr ""
+
+#: bb-admin/options-general.php:121
+msgid "Date and time format:"
+msgstr ""
+
+#: bb-admin/options-general.php:125
+#: bb-admin/options-general.php:132
+#, php-format
+msgid "Output: <strong>%s</strong>"
+msgstr ""
+
+#: bb-admin/options-general.php:128
+msgid "Date format:"
+msgstr ""
+
+#: bb-admin/options-general.php:133
+msgid "Click \"Update settings\" to update sample output."
+msgstr ""
+
+#: bb-admin/options-general.php:134
+msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>."
+msgstr ""
+
+#: bb-admin/options-general.php:138
+msgid "Avatars"
+msgstr ""
+
+#: bb-admin/options-general.php:140
+msgid "bbPress includes built-in support for <a href=\"http://gravatar.com/\">Gravatars</a>, you can enable this feature here."
+msgstr ""
+
+#: bb-admin/options-general.php:143
+msgid "Show avatars:"
+msgstr ""
+
+#: bb-admin/options-general.php:156
+msgid "Gravatar default image"
+msgstr ""
+
+#: bb-admin/options-general.php:164
+#: bb-admin/options-general.php:175
+msgid "Default"
+msgstr ""
+
+#: bb-admin/options-general.php:165
+#: bb-admin/options-general.php:178
+msgid "Gravatar Logo"
+msgstr ""
+
+#: bb-admin/options-general.php:166
+#: bb-admin/options-general.php:181
+msgid "MonsterID"
+msgstr ""
+
+#: bb-admin/options-general.php:167
+#: bb-admin/options-general.php:184
+msgid "Wavatar"
+msgstr ""
+
+#: bb-admin/options-general.php:168
+#: bb-admin/options-general.php:187
+msgid "Identicon"
+msgstr ""
+
+#: bb-admin/options-general.php:191
+msgid "Gravatar maximum rating:"
+msgstr ""
+
+#: bb-admin/options-general.php:200
+msgid "X"
+msgstr ""
+
+#: bb-admin/options-general.php:201
+msgid "R"
+msgstr ""
+
+#: bb-admin/options-general.php:202
+msgid "PG"
+msgstr ""
+
+#: bb-admin/options-general.php:203
+msgid "G"
+msgstr ""
+
+#: bb-admin/options-general.php:210
+msgid "X rated gravatars may contain hardcore sexual imagery or extremely disturbing violence."
+msgstr ""
+
+#: bb-admin/options-general.php:214
+msgid "R rated gravatars may contain such things as harsh profanity, intense violence, nudity, or hard drug use."
+msgstr ""
+
+#: bb-admin/options-general.php:218
+msgid "PG rated gravatars may contain rude gestures, provocatively dressed individuals, the lesser swear words, or mild violence."
+msgstr ""
+
+#: bb-admin/options-general.php:222
+msgid "A G rated gravatar is suitable for display on all websites with any audience type."
+msgstr ""
+
+#: bb-admin/options-general.php:230
+#: bb-admin/options-wordpress.php:278
+msgid "Update Settings &raquo;"
+msgstr ""
+
+#: bb-admin/options-wordpress.php:45
+msgid "User role mapping saved."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:55
+msgid "Usually, you will have to specify both cookie sharing and user database sharing settings."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:59
+msgid "<strong>Note:</strong> updating these settings may cause you to be logged out!"
+msgstr ""
+
+#: bb-admin/options-wordpress.php:65
+msgid "Cookie sharing allows users to log in to either your bbPress or your WordPress site, and have access to both."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:81
+msgid "WordPress database secret"
+msgstr ""
+
+#: bb-admin/options-wordpress.php:85
+msgid "This must match the value of the WordPress setting named \"secret\" in your WordPress installation. Look for the option labeled \"secret\" in <a href=\"#\" id=\"getSecretOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:122
+msgid "bbPress has automatically determined the best cookie settings for WordPress. In some cases integration may work without these settings, but if not add the following code to your <code>wp-config.php</code> file in the root directory of your WordPress installation."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:126
+msgid "Also make sure that the \"SECRET_KEY\" in your WordPress <code>wp-config.php</code> file matches the \"BB_SECRET_KEY\" in your bbPress <code>bb-config.php</code> file."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:131
+msgid "User database sharing allows you to store user data in your WordPress database."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:137
+msgid "If your bbPress and WordPress installations share the same database, then this is the same value as <code>$wp_table_prefix</code> in your WordPress <code>wp-config.php</code> file."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:138
+msgid "In any case, it is usually <strong>wp_</strong>"
+msgstr ""
+
+#: bb-admin/options-wordpress.php:213
+msgid "Only set these values if your user tables do not fit the usual mould of <strong>\"wordpressprefix+user\"</strong> and <strong>\"wordpressprefix+usermeta\"</strong>."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:232
+msgid "Show manual config settings:"
+msgstr ""
+
+#: bb-admin/options-wordpress.php:272
+msgid "If your integration settings will not change, you can help speed up bbPress by adding the following code to your <code>bb-config.php</code> file in the root directory of your bbPress installation. Afterwards, the settings in this form will reflect the hard coded values, but you will not be able to edit them here."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:283
+msgid "User role map"
+msgstr ""
+
+#: bb-admin/options-wordpress.php:286
+msgid "Here you can match WordPress roles to bbPress roles. This will not work if your user tables are not shared. Only standard WordPress roles are supported. Changes do not affect users with existing roles in both WordPress and bbPress."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:293
+msgid "none"
+msgstr ""
+
+#: bb-admin/options-wordpress.php:326
+msgid "WordPress role"
+msgstr ""
+
+#: bb-admin/options-wordpress.php:327
+msgid "bbPress role"
+msgstr ""
+
+#: bb-admin/options-wordpress.php:355
+msgid "Update User Role Map &raquo;"
+msgstr ""
+
+#: bb-admin/plugins.php:93
+msgid "Plugin could not be activated; it produced a <strong>Fatal Error</strong>."
+msgstr ""
+
+#: bb-admin/plugins.php:96
+msgid "File is not a valid plugin."
+msgstr ""
+
+#: bb-admin/plugins.php:99
+#, php-format
+msgid "Plugin \"%s\" <strong>activated</strong>"
+msgstr ""
+
+#: bb-admin/plugins.php:102
+#, php-format
+msgid "Plugin \"%s\" <strong>deactivated</strong>"
+msgstr ""
+
+#: bb-admin/plugins.php:119
+#: bb-admin/plugins.php:183
+msgid "Plugin"
+msgstr ""
+
+#: bb-admin/plugins.php:120
+#: bb-admin/plugins.php:184
+msgid "Version"
+msgstr ""
+
+#: bb-admin/plugins.php:121
+#: bb-admin/plugins.php:185
+msgid "Description"
+msgstr ""
+
+#: bb-admin/plugins.php:122
+msgid "Action"
+msgstr ""
+
+#: bb-admin/plugins.php:132
+msgid "Activate"
+msgstr ""
+
+#: bb-admin/plugins.php:137
+msgid "Deactivate"
+msgstr ""
+
+#: bb-admin/plugins.php:158
+#: bb-admin/plugins.php:203
+#, php-format
+msgid "By %s."
+msgstr ""
+
+#: bb-admin/plugins.php:178
+msgid "Automatically loaded plugins"
+msgstr ""
+
+#: bb-admin/plugins.php:231
+msgid "No Plugins Installed"
+msgstr ""
+
+#: bb-admin/site.php:5
+msgid ""
+"The following checkboxes allow you to recalculate various numbers stored in\n"
+"the database.  These numbers are used for things like counting the number of\n"
+"pages worth of posts a particular topic has.  You shouldn't need to do do any of\n"
+"this unless you're upgrading from one version to another or are seeing\n"
+"pagination oddities."
+msgstr ""
+
+#: bb-admin/site.php:13
+msgid "Choose items to recalculate"
+msgstr ""
+
+#: bb-admin/site.php:19
+msgid "Count!"
+msgstr ""
+
+#: bb-admin/tag-destroy.php:5
+#: bb-admin/tag-merge.php:5
+#: bb-admin/tag-rename.php:5
+msgid "You are not allowed to manage tags."
+msgstr ""
+
+#: bb-admin/tag-destroy.php:13
+#: bb-admin/tag-rename.php:14
+msgid "Tag not found."
+msgstr ""
+
+#: bb-admin/tag-destroy.php:16
+#, php-format
+msgid "Rows deleted from tags table: %d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-destroy.php:17
+#, php-format
+msgid "Rows deleted from tagged table: %d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-destroy.php:18
+#, php-format
+msgid "<a href=\"%s\">Home</a>"
+msgstr ""
+
+#: bb-admin/tag-destroy.php:20
+#, php-format
+msgid ""
+"Something odd happened when attempting to destroy that tag.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+
+#: bb-admin/tag-merge.php:13
+msgid "Tag specified not found."
+msgstr ""
+
+#: bb-admin/tag-merge.php:16
+msgid "Tag to be merged not found."
+msgstr ""
+
+#: bb-admin/tag-merge.php:19
+#, php-format
+msgid "Number of topics from which the old tag was removed: %d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-merge.php:20
+#, php-format
+msgid "Number of topics to which the new tag was added: %d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-merge.php:21
+#, php-format
+msgid "Number of rows deleted from tags table:%d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-merge.php:22
+#, php-format
+msgid "<a href=\"%s\">New Tag</a>"
+msgstr ""
+
+#: bb-admin/tag-merge.php:24
+#, php-format
+msgid ""
+"Something odd happened when attempting to merge those tags.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+
+#: bb-admin/tag-rename.php:20
+#, php-format
+msgid "There already exists a tag by that name or the name is invalid. <a href=\"%s\">Try Again</a>"
+msgstr ""
+
+#: bb-admin/themes.php:38
+#, php-format
+msgid "Theme \"%s\" <strong>activated</strong>"
+msgstr ""
+
+#: bb-admin/themes.php:43
+msgid "Default theme is missing."
+msgstr ""
+
+#: bb-admin/themes.php:47
+msgid "Theme not found.  Default theme applied."
+msgstr ""
+
+#: bb-admin/themes.php:58
+#: bb-admin/themes.php:60
+msgid "Click to activate"
+msgstr ""
+
+#: bb-admin/themes.php:62
+#, php-format
+msgid "by <cite>%s</cite>"
+msgstr ""
+
+#: bb-admin/themes.php:62
+#, php-format
+msgid ", ported by <cite>%s</cite>"
+msgstr ""
+
+#: bb-admin/themes.php:64
+#, php-format
+msgid "Installed in: %s"
+msgstr ""
+
+#: bb-admin/themes.php:64
+msgid "Core themes -&gt; "
+msgstr ""
+
+#: bb-admin/themes.php:64
+msgid "User installed themes -&gt; "
+msgstr ""
+
+#: bb-admin/themes.php:74
+msgid "Current Theme"
+msgstr ""
+
+#: bb-admin/themes.php:80
+msgid "Available Themes"
+msgstr ""
+
+#: bb-admin/topic-move.php:8
+msgid "Invalid topic or forum."
+msgstr ""
+
+#: bb-admin/topic-move.php:21
+msgid "Your topic or forum caused all manner of confusion"
+msgstr ""
+
+#: bb-admin/upgrade-schema.php:8
+msgid "Database class not loaded."
+msgstr ""
+
+#: bb-admin/upgrade.php:58
+msgid "bbPress database upgrade"
+msgstr ""
+
+#: bb-admin/upgrade.php:76
+#, php-format
+msgid "Nothing to upgrade.  <a href=\"%s\">Get back to work!</a>"
+msgstr ""
+
+#: bb-admin/upgrade.php:85
+msgid "Database upgrade required"
+msgstr ""
+
+#: bb-admin/upgrade.php:87
+msgid "It looks like your database is out-of-date.<br />You can update it here."
+msgstr ""
+
+#: bb-admin/upgrade.php:93
+msgid "Upgrade database &raquo;"
+msgstr ""
+
+#: bb-admin/upgrade.php:107
+msgid "Database upgrade complete"
+msgstr ""
+
+#: bb-admin/upgrade.php:109
+msgid "Your database has been successfully updated.<br />Enjoy!"
+msgstr ""
+
+#: bb-admin/upgrade.php:113
+#: bb-admin/upgrade.php:147
+msgid "Show upgrade log:"
+msgstr ""
+
+#: bb-admin/upgrade.php:119
+#: bb-admin/upgrade.php:153
+msgid "Upgrade log:"
+msgstr ""
+
+#: bb-admin/upgrade.php:126
+msgid "Go to admin &raquo;"
+msgstr ""
+
+#: bb-admin/upgrade.php:140
+msgid "Database upgrade failed"
+msgstr ""
+
+#: bb-admin/upgrade.php:142
+#, php-format
+msgid "The upgrade process seems to have failed, you can either try again here, or go <a href=\"%s\">back to your forums</a>.<br /><br />Attempting to go to the admin area will launch the database upgrader again."
+msgstr ""
+
+#: bb-admin/upgrade.php:160
+msgid "Try again &raquo;"
+msgstr ""
+
+#: bb-admin/users-blocked.php:9
+msgid "These users have been blocked by the forum administrators"
+msgstr ""
+
+#: bb-admin/users-moderators.php:9
+msgid "Forum Administrators"
+msgstr ""
+
+#: bb-admin/view-ip.php:15
+msgid "IP Information"
+msgstr ""
+
+#: bb-admin/view-ip.php:16
+msgid "Last 30 posts"
+msgstr ""
+
+#: bb-admin/view-ip.php:33
+msgid "Posted:"
+msgstr ""
+
+#: bb-edit.php:16
+msgid "Sorry, post is too old."
+msgstr ""
+
+#: bb-includes/capabilities.php:27
+msgid "Key Master"
+msgstr ""
+
+#: bb-includes/capabilities.php:72
+msgid "Administrator"
+msgstr ""
+
+#: bb-includes/capabilities.php:109
+msgid "Moderator"
+msgstr ""
+
+#: bb-includes/capabilities.php:141
+msgid "Member"
+msgstr ""
+
+#: bb-includes/capabilities.php:157
+msgid "Inactive"
+msgstr ""
+
+#: bb-includes/classes.php:806
+msgid "Search &#187;"
+msgstr ""
+
+#: bb-includes/classes.php:837
+msgid "Search&#8230;"
+msgstr ""
+
+#: bb-includes/classes.php:843
+msgid "Forum&#8230;"
+msgstr ""
+
+#: bb-includes/classes.php:844
+msgid "Any"
+msgstr ""
+
+#: bb-includes/classes.php:850
+msgid "Tag&#8230;"
+msgstr ""
+
+#: bb-includes/classes.php:857
+msgid "Topic Author&#8230;"
+msgstr ""
+
+#: bb-includes/classes.php:864
+msgid "Post Author&#8230;"
+msgstr ""
+
+#: bb-includes/classes.php:869
+#: bb-includes/classes.php:896
+msgid "All"
+msgstr ""
+
+#: bb-includes/classes.php:872
+msgid "Topic Status&#8230;"
+msgstr ""
+
+#: bb-includes/classes.php:883
+msgid "Post Status&#8230;"
+msgstr "Post Status&#8230;"
+
+#: bb-includes/classes.php:894
+msgid "Open?&#8230;"
+msgstr "Open?&#8230;"
+
+#: bb-includes/classes.php:907
+msgid "Title&#8230;"
+msgstr "Title&#8230;"
+
+#: bb-includes/classes.php:937
+msgid "Not a valid directory"
+msgstr "Not a valid directory"
+
+#: bb-includes/classes.php:943
+msgid "Invalid arguments"
+msgstr "Invalid arguments"
+
+#: bb-includes/db.php:478
+#, php-format
+msgid "<strong>ERROR</strong>: bbPress %s requires MySQL 4.0.0 or higher"
+msgstr "<strong>ERROR</strong>: bbPress %s requires MySQL 4.0.0 or higher"
+
+#: bb-includes/default-filters.php:82
+msgid "Topics with no replies"
+msgstr "שרשורים ללא תגובות"
+
+#: bb-includes/default-filters.php:83
+msgid "Topics with no tags"
+msgstr "שרשורים ללא תגים"
+
+#: bb-includes/formatting-functions.php:267
+#: bb-includes/formatting-functions.php:271
+#, php-format
+msgid "[sticky] %s"
+msgstr "[דביק] %s"
+
+#: bb-includes/formatting-functions.php:280
+#, php-format
+msgid "[closed] %s"
+msgstr "[סגור] %s"
+
+#: bb-includes/functions.php:1151
+msgid "You've been blocked.  If you think a mistake has been made, contact this site's administrator."
+msgstr "החשבון שלך חסום. אם לדעתך זו טעות - אפשר ליצור קשר עם הנהלת האתר."
+
+#: bb-includes/functions.php:1540
+msgid "Please give me a name!"
+msgstr "לא כתבת את השם שלך!"
+
+#: bb-includes/functions.php:1854
+msgid "year"
+msgstr "שנה"
+
+#: bb-includes/functions.php:1854
+msgid "years"
+msgstr "שנים"
+
+#: bb-includes/functions.php:1855
+msgid "month"
+msgstr "חודש"
+
+#: bb-includes/functions.php:1855
+msgid "months"
+msgstr "חודשים"
+
+#: bb-includes/functions.php:1856
+msgid "week"
+msgstr "שבוע"
+
+#: bb-includes/functions.php:1856
+msgid "weeks"
+msgstr "שבועות"
+
+#: bb-includes/functions.php:1857
+msgid "day"
+msgstr "יום"
+
+#: bb-includes/functions.php:1857
+msgid "days"
+msgstr "ימים"
+
+#: bb-includes/functions.php:1858
+msgid "hour"
+msgstr "שעה"
+
+#: bb-includes/functions.php:1859
+msgid "minute"
+msgstr "דקה"
+
+#: bb-includes/functions.php:1860
+msgid "second"
+msgstr "שניה"
+
+#: bb-includes/functions.php:1860
+msgid "seconds"
+msgstr "שניות"
+
+#: bb-includes/functions.php:1874
+#, php-format
+msgid "%1$d %2$s"
+msgstr ""
+
+#: bb-includes/functions.php:1881
+#, php-format
+msgid ", %1$d %2$s"
+msgstr ""
+
+#: bb-includes/functions.php:1992
+msgid "User not found."
+msgstr ""
+
+#: bb-includes/functions.php:2063
+msgid "REQUEST_URI"
+msgstr ""
+
+#: bb-includes/functions.php:2065
+msgid "should be"
+msgstr ""
+
+#: bb-includes/functions.php:2067
+msgid "full permalink"
+msgstr ""
+
+#: bb-includes/functions.php:2069
+msgid "PATH_INFO"
+msgstr ""
+
+#: bb-includes/functions.php:2091
+#: bb-templates/kakumei/favorites.php:3
+msgid "Favorites"
+msgstr "מועדפים"
+
+#: bb-includes/functions.php:2142
+msgid "Website"
+msgstr "אתר"
+
+#: bb-includes/functions.php:2143
+msgid "Location"
+msgstr "מקום מגורים"
+
+#: bb-includes/functions.php:2144
+msgid "Occupation"
+msgstr "עיסוק"
+
+#: bb-includes/functions.php:2145
+msgid "Interests"
+msgstr "תחומי עניין"
+
+#: bb-includes/functions.php:2152
+msgid "Custom Title"
+msgstr "כותרת מותאמת אישית"
+
+#: bb-includes/functions.php:2159
+#, php-format
+msgid "Ignore the %d second post throttling limit"
+msgstr "להתעלם ממגבלת פרסום הפוסטים (%d שניות)"
+
+#: bb-includes/functions.php:2248
+msgid "bbPress Failure Notice"
+msgstr ""
+
+#: bb-includes/functions.php:2251
+msgid "Please try again."
+msgstr "כדאי לנסות שוב."
+
+#: bb-includes/functions.php:2260
+msgid "bbPress"
+msgstr ""
+
+#: bb-includes/functions.php:2307
+msgid "<a href=\"http://bbpress.org/\">bbPress</a> - simple, fast, elegant"
+msgstr "<a href=\"http://bbpress.org/\">bbPress</a> - מערכת פורומים חופשית"
+
+#: bb-includes/functions.php:2329
+#, php-format
+msgid "Back to <a href=\"%s\">%s</a>."
+msgstr "בחזרה אל <a href=\"%s\">%s</a>."
+
+#: bb-includes/functions.php:2342
+msgid "Your attempt to submit this post has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2343
+msgid "Your attempt to edit this post has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2344
+msgid "Your attempt to delete this post has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2346
+msgid "Your attempt to create this topic has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2347
+msgid "Your attempt to change the resolution status of this topic has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2348
+msgid "Your attempt to delete this topic has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2349
+msgid "Your attempt to change the status of this topic has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2350
+msgid "Your attempt to change the sticky status of this topic has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2351
+msgid "Your attempt to move this topic has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2353
+msgid "Your attempt to add this tag to this topic has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2354
+msgid "Your attempt to rename this tag has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2355
+msgid "Your attempt to submit these tags has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2356
+msgid "Your attempt to destroy this tag has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2357
+msgid "Your attempt to remove this tag from this topic has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2359
+msgid "Your attempt to toggle your favorite status for this topic has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2361
+msgid "Your attempt to edit this user's profile has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2363
+msgid "Your attempt to add this forum has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2364
+msgid "Your attempt to update your forums has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2365
+msgid "Your attempt to delete that forum has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2367
+msgid "Your attempt to recount these items has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2369
+msgid "Your attempt to switch themes has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2384
+msgid "Your attempt to do this has failed."
+msgstr ""
+
+#: bb-includes/functions.php:2533
+#: bb-includes/functions.php:2605
+msgid "Your search term was too short"
+msgstr ""
+
+#: bb-includes/functions.php:2579
+msgid "Your query parameters are invalid"
+msgstr ""
+
+#: bb-includes/js/list-manipulation-js.php:3
+#, php-format
+msgid "Are you sure you want to delete this %s?"
+msgstr ""
+
+#: bb-includes/js/list-manipulation-js.php:50
+msgid "Jump to new item"
+msgstr ""
+
+#: bb-includes/js/wp-ajax-js.php:57
+msgid "You don't have permission to do that."
+msgstr ""
+
+#: bb-includes/js/wp-ajax-js.php:60
+msgid "Something strange happened.  Try refreshing the page."
+msgstr ""
+
+#: bb-includes/js/wp-ajax-js.php:84
+msgid "Slow down, I'm still sending your data!"
+msgstr ""
+
+#: bb-includes/locale.php:22
+#: bb-includes/locale.php:32
+#: bb-includes/locale.php:45
+msgid "Sunday"
+msgstr "יום ראשון"
+
+#: bb-includes/locale.php:23
+#: bb-includes/locale.php:33
+#: bb-includes/locale.php:46
+msgid "Monday"
+msgstr "יום שני"
+
+#: bb-includes/locale.php:24
+#: bb-includes/locale.php:34
+#: bb-includes/locale.php:47
+msgid "Tuesday"
+msgstr "יום שלישי"
+
+#: bb-includes/locale.php:25
+#: bb-includes/locale.php:35
+#: bb-includes/locale.php:48
+msgid "Wednesday"
+msgstr "יום רביע"
+
+#: bb-includes/locale.php:26
+#: bb-includes/locale.php:36
+#: bb-includes/locale.php:49
+msgid "Thursday"
+msgstr "יום חמישי"
+
+#: bb-includes/locale.php:27
+#: bb-includes/locale.php:37
+#: bb-includes/locale.php:50
+msgid "Friday"
+msgstr "יום שישי"
+
+#: bb-includes/locale.php:28
+#: bb-includes/locale.php:38
+#: bb-includes/locale.php:51
+msgid "Saturday"
+msgstr "יום שבת"
+
+#: bb-includes/locale.php:32
+msgid "S_Sunday_initial"
+msgstr "א"
+
+#: bb-includes/locale.php:33
+msgid "M_Monday_initial"
+msgstr "ב"
+
+#: bb-includes/locale.php:34
+msgid "T_Tuesday_initial"
+msgstr "ג"
+
+#: bb-includes/locale.php:35
+msgid "W_Wednesday_initial"
+msgstr "ד"
+
+#: bb-includes/locale.php:36
+msgid "T_Thursday_initial"
+msgstr "ה"
+
+#: bb-includes/locale.php:37
+msgid "F_Friday_initial"
+msgstr "ו"
+
+#: bb-includes/locale.php:38
+msgid "S_Saturday_initial"
+msgstr "ש"
+
+#: bb-includes/locale.php:45
+msgid "Sun"
+msgstr "א"
+
+#: bb-includes/locale.php:46
+msgid "Mon"
+msgstr "ב"
+
+#: bb-includes/locale.php:47
+msgid "Tue"
+msgstr "ג"
+
+#: bb-includes/locale.php:48
+msgid "Wed"
+msgstr "ד"
+
+#: bb-includes/locale.php:49
+msgid "Thu"
+msgstr "ה"
+
+#: bb-includes/locale.php:50
+msgid "Fri"
+msgstr "ו"
+
+#: bb-includes/locale.php:51
+msgid "Sat"
+msgstr "ש"
+
+#: bb-includes/locale.php:54
+#: bb-includes/locale.php:69
+msgid "January"
+msgstr "ינואר"
+
+#: bb-includes/locale.php:55
+#: bb-includes/locale.php:70
+msgid "February"
+msgstr "פברואר"
+
+#: bb-includes/locale.php:56
+#: bb-includes/locale.php:71
+msgid "March"
+msgstr "מרץ"
+
+#: bb-includes/locale.php:57
+#: bb-includes/locale.php:72
+msgid "April"
+msgstr "אפריל"
+
+#: bb-includes/locale.php:58
+#: bb-includes/locale.php:73
+msgid "May"
+msgstr "מאי"
+
+#: bb-includes/locale.php:59
+#: bb-includes/locale.php:74
+msgid "June"
+msgstr "יוני"
+
+#: bb-includes/locale.php:60
+#: bb-includes/locale.php:75
+msgid "July"
+msgstr "יולי"
+
+#: bb-includes/locale.php:61
+#: bb-includes/locale.php:76
+msgid "August"
+msgstr "אוגוסט"
+
+#: bb-includes/locale.php:62
+#: bb-includes/locale.php:77
+msgid "September"
+msgstr "ספטמבר"
+
+#: bb-includes/locale.php:63
+#: bb-includes/locale.php:78
+msgid "October"
+msgstr "אוקטובר"
+
+#: bb-includes/locale.php:64
+#: bb-includes/locale.php:79
+msgid "November"
+msgstr "נובמבר"
+
+#: bb-includes/locale.php:65
+#: bb-includes/locale.php:80
+msgid "December"
+msgstr "דצמבר"
+
+#: bb-includes/locale.php:69
+msgid "Jan_January_abbreviation"
+msgstr "ינו'"
+
+#: bb-includes/locale.php:70
+msgid "Feb_February_abbreviation"
+msgstr "פבר'"
+
+#: bb-includes/locale.php:71
+msgid "Mar_March_abbreviation"
+msgstr "מרץ"
+
+#: bb-includes/locale.php:72
+msgid "Apr_April_abbreviation"
+msgstr "אפר'"
+
+#: bb-includes/locale.php:73
+msgid "May_May_abbreviation"
+msgstr "מאי"
+
+#: bb-includes/locale.php:74
+msgid "Jun_June_abbreviation"
+msgstr "יונ'"
+
+#: bb-includes/locale.php:75
+msgid "Jul_July_abbreviation"
+msgstr "יול'"
+
+#: bb-includes/locale.php:76
+msgid "Aug_August_abbreviation"
+msgstr "אוג'"
+
+#: bb-includes/locale.php:77
+msgid "Sep_September_abbreviation"
+msgstr "ספט'"
+
+#: bb-includes/locale.php:78
+msgid "Oct_October_abbreviation"
+msgstr "אוק'"
+
+#: bb-includes/locale.php:79
+msgid "Nov_November_abbreviation"
+msgstr "נוב'"
+
+#: bb-includes/locale.php:80
+msgid "Dec_December_abbreviation"
+msgstr "דצמ'"
+
+#: bb-includes/locale.php:87
+msgid "am"
+msgstr "AM"
+
+#: bb-includes/locale.php:88
+msgid "pm"
+msgstr "PX"
+
+#: bb-includes/locale.php:89
+msgid "AM"
+msgstr "AM"
+
+#: bb-includes/locale.php:90
+msgid "PM"
+msgstr "PM"
+
+#: bb-includes/locale.php:95
+msgid "number_format_decimals"
+msgstr "0"
+
+#: bb-includes/locale.php:98
+msgid "number_format_decimal_point"
+msgstr "."
+
+#: bb-includes/locale.php:101
+msgid "number_format_thousands_sep"
+msgstr ","
+
+#: bb-includes/locale.php:106
+msgid "F j, Y - h:i A"
+msgstr "j בF Y בשעה G:i"
+
+#: bb-includes/locale.php:107
+msgid "F j, Y"
+msgstr "j בF Y"
+
+#: bb-includes/locale.php:108
+msgid "h:i A"
+msgstr "G:i"
+
+#: bb-includes/registration-functions.php:47
+#, php-format
+msgid ""
+"If you wanted to reset your password, you may do so by visiting the following address:\n"
+"\n"
+"%s\n"
+"\n"
+"If you don't want to reset your password, just ignore this email. Thanks!"
+msgstr ""
+
+#: bb-includes/registration-functions.php:49
+#: bb-templates/kakumei/password-reset.php:5
+msgid "Password Reset"
+msgstr ""
+
+#: bb-includes/registration-functions.php:56
+#: bb-includes/registration-functions.php:58
+#: bb-includes/registration-functions.php:69
+msgid "Key not found."
+msgstr ""
+
+#: bb-includes/registration-functions.php:63
+msgid "You are not allowed to change your password."
+msgstr ""
+
+#: bb-includes/registration-functions.php:91
+#, php-format
+msgid ""
+"Your username is: %1$s \n"
+"Your password is: %2$s \n"
+"You can now log in: %3$s \n"
+"\n"
+"Enjoy!"
+msgstr ""
+
+#: bb-includes/registration-functions.php:95
+#: bb-templates/kakumei/profile-edit.php:20
+msgid "Password"
+msgstr ""
+
+#: bb-includes/script-loader.php:25
+msgid "drag"
+msgstr ""
+
+#: bb-includes/script-loader.php:26
+msgid "Save Forum Order &#187;"
+msgstr ""
+
+#: bb-includes/script-loader.php:27
+msgid "Edit Forum Order &#187;"
+msgstr ""
+
+#: bb-includes/script-loader.php:327
+msgid "Are you sure you wanna delete this post by '%author%'?"
+msgstr ""
+
+#: bb-includes/script-loader.php:328
+msgid "Are you sure you want to remove the '%tag%' tag?"
+msgstr ""
+
+#: bb-includes/script-loader.php:329
+msgid "favorites"
+msgstr "מועדפים"
+
+#: bb-includes/script-loader.php:330
+msgid "?"
+msgstr ""
+
+#: bb-includes/script-loader.php:331
+msgid "This topic is one of your %favLinkYes% [%favDel%]"
+msgstr "שרשור מועדף %favLinkYes% [%favDel%]"
+
+#: bb-includes/script-loader.php:332
+msgid "%favAdd% (%favLinkNo%)"
+msgstr ""
+
+#: bb-includes/script-loader.php:333
+#: bb-includes/template-functions.php:2134
+msgid "&times;"
+msgstr ""
+
+#: bb-includes/script-loader.php:334
+#: bb-includes/template-functions.php:2132
+msgid "Add this topic to your favorites"
+msgstr "להוסיף למועדפים"
+
+#: bb-includes/template-functions.php:98
+#: bb-templates/kakumei/profile.php:3
+msgid "Profile"
+msgstr "פרופיל"
+
+#: bb-includes/template-functions.php:135
+msgid "Reply"
+msgstr "תגובה"
+
+#: bb-includes/template-functions.php:137
+msgid "New Topic in this Forum"
+msgstr "שרשור חדש"
+
+#: bb-includes/template-functions.php:139
+msgid "Add New Topic"
+msgstr "להוסיף שרשור חדש"
+
+#: bb-includes/template-functions.php:165
+#, php-format
+msgid "You must <a href=\"%s\">log in</a> to post."
+msgstr "צריך <a href=\"%s\">להכנס למערכת</a> כדי להתחיל שרשור חדש."
+
+#: bb-includes/template-functions.php:336
+#: bb-templates/kakumei/tag-single.php:3
+#: bb-templates/kakumei/tags.php:3
+msgid "Tags"
+msgstr "תגים"
+
+#: bb-includes/template-functions.php:370
+#, php-format
+msgid "User Favorites: %s"
+msgstr "מועדפים: %s"
+
+#: bb-includes/template-functions.php:377
+#, php-format
+msgid "Topic: %s"
+msgstr "שרשור: %s"
+
+#: bb-includes/template-functions.php:385
+#, php-format
+msgid "Tag: %s"
+msgstr "תג: %s"
+
+#: bb-includes/template-functions.php:393
+#, php-format
+msgid "Forum: %s - Recent Posts"
+msgstr "פורום: %s - הודעות אחרונות"
+
+#: bb-includes/template-functions.php:397
+#, php-format
+msgid "Forum: %s - Recent Topics"
+msgstr "פורום: %s - שרשורים אחרונים"
+
+#: bb-includes/template-functions.php:404
+#: bb-templates/kakumei/search.php:11
+#: rss.php:123
+#: rss.php:144
+msgid "Recent Posts"
+msgstr "הודעות אחרונות"
+
+#: bb-includes/template-functions.php:408
+#: rss.php:117
+#: rss.php:136
+msgid "Recent Topics"
+msgstr "שרשורים אחרונים"
+
+#: bb-includes/template-functions.php:954
+msgid "Are you sure you wanna delete that?"
+msgstr ""
+
+#: bb-includes/template-functions.php:954
+msgid "Delete entire topic"
+msgstr "למחוק את כל השרשור"
+
+#: bb-includes/template-functions.php:956
+#: bb-includes/template-functions.php:1272
+msgid "Are you sure you wanna undelete that?"
+msgstr ""
+
+#: bb-includes/template-functions.php:956
+msgid "Undelete entire topic"
+msgstr "לשחזר שרשור מחוק"
+
+#: bb-includes/template-functions.php:969
+msgid "Close topic"
+msgstr "לסגור את השרשור"
+
+#: bb-includes/template-functions.php:969
+msgid "Open topic"
+msgstr "לפתוח את השרשור"
+
+#: bb-includes/template-functions.php:984
+msgid "Unstick topic"
+msgstr "לשרשור שרשור מודבק"
+
+#: bb-includes/template-functions.php:986
+msgid "Stick topic"
+msgstr "להדביק את השרשור"
+
+#: bb-includes/template-functions.php:986
+msgid "to front"
+msgstr "לעמוד הראשי"
+
+#: bb-includes/template-functions.php:993
+msgid "View normal posts"
+msgstr "להציג הודעות רגילות"
+
+#: bb-includes/template-functions.php:995
+msgid "View all posts"
+msgstr "להציג את כל ההודעות"
+
+#: bb-includes/template-functions.php:1001
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "פוסט אחד"
+msgstr[1] "%s פוסטים"
+
+#: bb-includes/template-functions.php:1012
+#, php-format
+msgid "+%d more"
+msgstr "+%d more"
+
+#: bb-includes/template-functions.php:1037
+msgid "Move this topic to the selected forum:"
+msgstr "להעביר את השרשור הזה לפורום:"
+
+#: bb-includes/template-functions.php:1041
+msgid "Move"
+msgstr "להעביר"
+
+#: bb-includes/template-functions.php:1063
+msgid "Add New &raquo;"
+msgstr "להוסיף שרשור חדש &raquo;"
+
+#: bb-includes/template-functions.php:1186
+msgid "Anonymous"
+msgstr "אנונימי"
+
+#: bb-includes/template-functions.php:1272
+msgid "Undelete"
+msgstr "לבטל מחיקה"
+
+#: bb-includes/template-functions.php:1291
+#: bb-includes/template-functions.php:1306
+msgid "Unregistered"
+msgstr "לא רשום"
+
+#: bb-includes/template-functions.php:1381
+msgid "Delete User &raquo;"
+msgstr "למחוק משתמש &raquo;"
+
+#: bb-includes/template-functions.php:1382
+msgid "Are you sure you want to delete this user?"
+msgstr ""
+
+#: bb-includes/template-functions.php:1478
+msgid "Member Since"
+msgstr "מועד רישום לאתר"
+
+#: bb-includes/template-functions.php:1566
+#: bb-includes/template-functions.php:1693
+#: bb-templates/kakumei/register.php:39
+msgid "These items are <span class=\"required\">required</span>."
+msgstr "שדות <span class=\"required\">חובה</span>."
+
+#: bb-includes/template-functions.php:1600
+msgid "User Type"
+msgstr "דרגת משתמש"
+
+#: bb-includes/template-functions.php:1611
+msgid "Allow this user to"
+msgstr "ביטול הגנה מפני ספאם"
+
+#: bb-includes/template-functions.php:1696
+msgid ""
+"Inactive users can login and look around but not do anything.\n"
+"Blocked users just see a simple error message when they visit the site.</p>\n"
+"<p><strong>Note</strong>: Blocking a user does <em>not</em> block any IP addresses."
+msgstr ""
+"משתמשים לא פעילים יכולים להתחבר ולהעיף מבט אבל לא יכולים לעשות כלום.\n"
+"משתמשים חסומים פשוט מקבלים הודעת שגיאה מנומסת כשהם מנסים להכנס לאתר.</p>\n"
+"<p><strong>חשוב</strong>: חסימת משתמש <em>לא חוסמת</em> אף כתובת IP."
+
+#: bb-includes/template-functions.php:1720
+msgid "New password"
+msgstr "סיסמה חדשה"
+
+#: bb-includes/template-functions.php:1743
+msgid "Log Out"
+msgstr "לצאת"
+
+#: bb-includes/template-functions.php:1762
+msgid "Admin"
+msgstr "ניהול"
+
+#: bb-includes/template-functions.php:1779
+msgid "View your profile"
+msgstr "להציג את הפרופיל שלך"
+
+#: bb-includes/template-functions.php:1925
+msgid "Rename tag:"
+msgstr "לערוך תג:"
+
+#: bb-includes/template-functions.php:1929
+msgid "Rename"
+msgstr "לשמור"
+
+#: bb-includes/template-functions.php:1933
+msgid "Merge this tag into:"
+msgstr "למזג את התג הזה לתוך:"
+
+#: bb-includes/template-functions.php:1937
+msgid "Merge"
+msgstr "למזג"
+
+#: bb-includes/template-functions.php:1938
+#, php-format
+msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified? This is permanent and cannot be undone."
+msgstr "ביקשת למזג את התג \"%s\" לתג שנבחר. התהליך הזה בלתי הפיך - ההחלטה סופית?"
+
+#: bb-includes/template-functions.php:1942
+msgid "Destroy tag:"
+msgstr "למחוק תג:"
+
+#: bb-includes/template-functions.php:1945
+msgid "Destroy"
+msgstr "למחוק"
+
+#: bb-includes/template-functions.php:1946
+#, php-format
+msgid "Are you sure you want to destroy the \"%s\" tag? This is permanent and cannot be undone."
+msgstr "ביקשת למחוק את התג \"%s\". התהליך הזה בלתי הפיך - ההחלטה סופית?"
+
+#: bb-includes/template-functions.php:1961
+msgid "Remove this tag"
+msgstr "להסיר את התג הזה"
+
+#: bb-includes/template-functions.php:2041
+#, php-format
+msgid "%d topics"
+msgstr "%d נושאים"
+
+#: bb-includes/template-functions.php:2102
+msgid "- None -"
+msgstr "- אין -"
+
+#: bb-includes/template-functions.php:2132
+msgid " (%?%)"
+msgstr " (%?%)"
+
+#: bb-includes/template-functions.php:2134
+msgid "This topic is one of your %favorites% ["
+msgstr "השרשור הזה נמצא ברשימת  %המועדפים% שלך ["
+
+#: bb-includes/template-functions.php:2134
+msgid "]"
+msgstr "]"
+
+#: bb-includes/wp-functions.php:1105
+msgid "&laquo; Previous"
+msgstr "&laquo; הקודם"
+
+#: bb-includes/wp-functions.php:1106
+msgid "Next &raquo;"
+msgstr "הבא &raquo;"
+
+#: bb-plugins/akismet.php:16
+#: bb-plugins/akismet.php:21
+msgid "Akismet Configuration"
+msgstr "הגדרות אקיזמט"
+
+#: bb-plugins/akismet.php:26
+msgid "Akismet Key:"
+msgstr "מפתח אקיזמט:"
+
+#: bb-plugins/akismet.php:30
+msgid "You do not need a key to run bbPress, but if you want to take advantage of Akismet's powerful spam blocking, you'll need one."
+msgstr "אין צורך במפתח כדי להשתמש ב-bbPress, אבל המפתח נחוץ כדי להפעיל את התמיכה של bbPress באקיזמט לסינון ספאם."
+
+#: bb-plugins/akismet.php:31
+msgid "You can get an Akismet key at <a href=\"http://wordpress.com/api-keys/\">WordPress.com</a>"
+msgstr "אפשר להשיג מפתח לאקיזמט באתר <a href=\"http://wordpress.com/api-keys/\">WordPress.com</a>"
+
+#: bb-plugins/akismet.php:38
+msgid "Update Configuration &raquo;"
+msgstr "לשמור &raquo;"
+
+#: bb-plugins/akismet.php:67
+msgid "Configuration saved."
+msgstr "שמרתי את ההגדרות"
+
+#: bb-plugins/akismet.php:260
+msgid "Akismet Spam"
+msgstr "ספאם אקיזמט"
+
+#: bb-plugins/akismet.php:273
+#, php-format
+msgid "The API key you have specified is invalid.  Please double check the <strong>Akismet Key</strong> set in <a href=\"%s\">Akismet configuration</a>.  If you don't have an API key yet, you can get one at <a href=\"%s\">WordPress.com</a>."
+msgstr ""
+
+#: bb-plugins/akismet.php:295
+msgid "Not Spam"
+msgstr ""
+
+#: bb-plugins/akismet.php:297
+msgid "Spam"
+msgstr ""
+
+#: bb-plugins/bozo.php:91
+msgid "Counting bozo posts..."
+msgstr ""
+
+#: bb-plugins/bozo.php:111
+msgid "Done counting bozo posts."
+msgstr ""
+
+#: bb-plugins/bozo.php:122
+msgid "Counting bozo topics for each user...\n"
+msgstr ""
+
+#: bb-plugins/bozo.php:151
+msgid ""
+"Done counting bozo topics.\n"
+"\n"
+msgstr ""
+
+#: bb-plugins/bozo.php:162
+msgid "Count topics to which each user has replied and count each users&#039; bozo posts"
+msgstr ""
+
+#: bb-plugins/bozo.php:163
+msgid "Count bozo posts on every topic"
+msgstr "הודעות אידיוטיות בכל השרשורים"
+
+#: bb-plugins/bozo.php:263
+msgid "This user is a bozo"
+msgstr "המשתמש הזה אידיוט"
+
+#: bb-plugins/bozo.php:273
+msgid "Bozos"
+msgstr "אידיוט"
+
+#: bb-plugins/bozo.php:283
+msgid "These users have been marked as bozos"
+msgstr ""
+
+#: bb-post.php:8
+msgid "Slow down; you move too fast."
+msgstr ""
+
+#: bb-post.php:11
+msgid "You need to actually submit some content!"
+msgstr ""
+
+#: bb-post.php:15
+#: bb-post.php:36
+msgid "You are not allowed to post.  Are you logged in?"
+msgstr ""
+
+#: bb-post.php:18
+msgid "You are not allowed to write new topics."
+msgstr ""
+
+#: bb-post.php:26
+msgid "Please enter a topic title"
+msgstr ""
+
+#: bb-post.php:39
+msgid "This topic has been closed"
+msgstr "השרשור הזה נסגר"
+
+#: bb-settings.php:95
+msgid "Your table prefix may only contain letters, numbers and underscores."
+msgstr ""
+
+#: bb-settings.php:163
+msgid "Could not determine site URI"
+msgstr ""
+
+#: bb-settings.php:231
+msgid "Your user table prefix may only contain letters, numbers and underscores."
+msgstr ""
+
+#: bb-templates/kakumei/edit-form.php:15
+msgid "Edit Post &raquo;"
+msgstr ""
+
+#: bb-templates/kakumei/edit-form.php:19
+#: bb-templates/kakumei/post-form.php:31
+msgid "Allowed markup:"
+msgstr "תגי HTML מותרים:"
+
+#: bb-templates/kakumei/edit-form.php:19
+msgid "Put code in between <code>`backticks`</code>."
+msgstr "אפשר להשתמש בגרשיים הפוכים ( <code>`</code> ) כדי להוסיף קוד להודעה."
+
+#: bb-templates/kakumei/edit-post.php:2
+msgid "Edit Post"
+msgstr "לערוך"
+
+#: bb-templates/kakumei/favorites.php:5
+msgid "Current Favorites"
+msgstr "מועדפים"
+
+#: bb-templates/kakumei/favorites.php:7
+msgid ""
+"Your Favorites allow you to create a custom <abbr title=\"Really Simple Syndication\">RSS</abbr> feed which pulls recent replies to the topics you specify.\n"
+"To add topics to your list of favorites, just click the \"Add to Favorites\" link found on that topic&#8217;s page."
+msgstr ""
+"רשימת המועדפים מאפשרת ליצור פיד RSS מותאת אישית שמציג את התגובות האחרונות מהשרשורים שבחרת.\n"
+"להוספת שרשור לרשימה, יש ללחוץ על הקישור \"להוסיף למועדפים\" בעמוד השרשור."
+
+#: bb-templates/kakumei/favorites.php:10
+#, php-format
+msgid "Subscribe to your favorites&#8217; <a href=\"%s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr "להרשם <a href=\"%s\">לפיד RSS</a> של השרשורים המועדפים שלך."
+
+#: bb-templates/kakumei/favorites.php:20
+msgid "Remove"
+msgstr "להסיר"
+
+#: bb-templates/kakumei/favorites.php:39
+msgid "You currently have no favorites."
+msgstr "אין לך שרשורים מועדפים."
+
+#: bb-templates/kakumei/favorites.php:43
+msgid "currently has no favorites."
+msgstr ""
+
+#: bb-templates/kakumei/footer.php:11
+#, php-format
+msgid "%1$s is proudly powered by <a href=\"%2$s\">bbPress</a>."
+msgstr "%1$s פועל על <a href=\"%2$s\">bbPress</a>."
+
+#: bb-templates/kakumei/forum.php:33
+msgid "RSS feed for this forum"
+msgstr ""
+
+#: bb-templates/kakumei/forum.php:40
+msgid "Subforums"
+msgstr ""
+
+#: bb-templates/kakumei/forum.php:44
+#: bb-templates/kakumei/front-page.php:48
+msgid "Main Theme"
+msgstr "נושא ראשי"
+
+#: bb-templates/kakumei/front-page.php:6
+msgid "Hot Tags"
+msgstr "תגים חמים"
+
+#: bb-templates/kakumei/front-page.php:13
+msgid "Latest Discussions"
+msgstr "שרשורים אחרונים"
+
+#: bb-templates/kakumei/front-page.php:64
+msgid "Views"
+msgstr "תצוגות מיוחדות"
+
+#: bb-templates/kakumei/login-form.php:4
+#, php-format
+msgid "<a href=\"%1$s\">Register</a> or log in (<a href=\"%2$s\">lost password?</a>):"
+msgstr ""
+
+#: bb-templates/kakumei/login-form.php:18
+#: bb-templates/kakumei/login.php:48
+msgid "Log in &raquo;"
+msgstr "להתחבר &raquo;"
+
+#: bb-templates/kakumei/login-form.php:23
+msgid "Remember me"
+msgstr "לזכור אותי"
+
+#: bb-templates/kakumei/login.php:3
+#: bb-templates/kakumei/login.php:5
+#: bb-templates/kakumei/password-reset.php:3
+msgid "Log in"
+msgstr "התחברות"
+
+#: bb-templates/kakumei/login.php:5
+msgid "Log in Failed"
+msgstr "ההתחברות לא הצליחה"
+
+#: bb-templates/kakumei/login.php:18
+msgid "Incorrect password"
+msgstr "סיסמה לא נכונה"
+
+#: bb-templates/kakumei/login.php:24
+msgid "This username does not exist."
+msgstr "שם המשתמש שהזנת לא קיים"
+
+#: bb-templates/kakumei/login.php:24
+msgid "Register it?"
+msgstr "רוצה לרשום אותו?"
+
+#: bb-templates/kakumei/login.php:41
+msgid "Remember me:"
+msgstr "לזכור אותי:"
+
+#: bb-templates/kakumei/login.php:48
+msgid "Try Again &raquo;"
+msgstr "לנסות שוב &raquo;"
+
+#: bb-templates/kakumei/login.php:56
+msgid "Password Recovery"
+msgstr "שחזור סיסמה"
+
+#: bb-templates/kakumei/login.php:59
+msgid "To recover your password, enter your information below."
+msgstr "לשחזור הסיסמה, יש להזין את המידע בהמשך"
+
+#: bb-templates/kakumei/login.php:72
+msgid "Recover Password &raquo;"
+msgstr "לשחזר סיסמה &raquo;"
+
+#: bb-templates/kakumei/password-reset.php:8
+msgid "Your password has been reset and a new one has been mailed to you."
+msgstr "הסיסמה שלך אופסה. סיסמה חדשה תשלח אליך באימייל."
+
+#: bb-templates/kakumei/password-reset.php:10
+msgid "An email has been sent to the address we have on file for you. If you don&#8217;t get anything within a few minutes, or your email has changed, you may want to get in touch with the webmaster or forum administrator here."
+msgstr ""
+
+#: bb-templates/kakumei/post-form.php:3
+msgid "Topic title: (be brief and descriptive)"
+msgstr "כותרת: (קצרה ותמציתית)"
+
+#: bb-templates/kakumei/post-form.php:15
+#, php-format
+msgid "Enter a few words (called <a href=\"%s\">tags</a>) separated by commas to help someone find your topic:"
+msgstr "<a href=\"%s\">תגים</a> - מספר מילות מפתח מופרדות בפסיקים, לתיאור נושאי השרשור העיקריים"
+
+#: bb-templates/kakumei/post-form.php:22
+msgid "Pick a section:"
+msgstr "איזור:"
+
+#: bb-templates/kakumei/post-form.php:28
+msgid "Send Post &raquo;"
+msgstr "לפרסם &raquo;"
+
+#: bb-templates/kakumei/post-form.php:31
+msgid "You can also put code in between backtick ( <code>`</code> ) characters."
+msgstr "אפשר להשתמש בגרשיים הפוכים ( <code>`</code> ) כדי להוסיף קוד להודעה."
+
+#: bb-templates/kakumei/post.php:11
+#, php-format
+msgid "Posted %s ago"
+msgstr "פורסם לפני %s"
+
+#: bb-templates/kakumei/profile-edit.php:3
+msgid "Edit Profile"
+msgstr ""
+
+#: bb-templates/kakumei/profile-edit.php:7
+msgid "Profile Info"
+msgstr ""
+
+#: bb-templates/kakumei/profile-edit.php:13
+msgid "Administration"
+msgstr "הנהלה"
+
+#: bb-templates/kakumei/profile-edit.php:21
+msgid "To change your password, enter a new password twice below:"
+msgstr "לשינוי הסיסמה, יש להזין את הסיסמה החדשה:"
+
+#: bb-templates/kakumei/profile-edit.php:26
+msgid "Update Profile &raquo;"
+msgstr "לשמור &raquo;"
+
+#: bb-templates/kakumei/profile.php:9
+msgid "Profile updated"
+msgstr "הפרופיל עודכן"
+
+#: bb-templates/kakumei/profile.php:9
+msgid "Edit again &raquo;"
+msgstr ""
+
+#: bb-templates/kakumei/profile.php:13
+msgid "This is how your profile appears to a logged in member."
+msgstr "כך נראה הפרופיל שלך למשתמשים רשומים."
+
+#: bb-templates/kakumei/profile.php:16
+#, php-format
+msgid "You may <a href=\"%1$s\">edit this information</a>."
+msgstr "אפשר <a href=\"%1$s\">לערוך את המידע הזה</a>."
+
+#: bb-templates/kakumei/profile.php:21
+#, php-format
+msgid "You can also <a href=\"%1$s\">manage your favorites</a> and subscribe to your favorites&#8217; <a href=\"%2$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr "אפשר <a href=\"%1$s\">לנהל רשימת שרשורים מועדפים</a> ולהרשם <a href=\"%2$s\">לפיד RSS</a> של כל השרשורים המועדפים ברשימה."
+
+#: bb-templates/kakumei/profile.php:27
+msgid "User Activity"
+msgstr "פעילות"
+
+#: bb-templates/kakumei/profile.php:29
+msgid "Recent Replies"
+msgstr "תגובות אחרונות"
+
+#: bb-templates/kakumei/profile.php:35
+#, php-format
+msgid "You last replied: %s ago."
+msgstr "תגובה אחרונה שלך: לפני %s."
+
+#: bb-templates/kakumei/profile.php:35
+#, php-format
+msgid "User last replied: %s ago."
+msgstr "תגובה אחרונה מאת המשתמש המדובר: לפני %s."
+
+#: bb-templates/kakumei/profile.php:39
+#, php-format
+msgid "Most recent reply: %s ago"
+msgstr "תגובה אחרונה: לפני %s"
+
+#: bb-templates/kakumei/profile.php:41
+msgid "No replies since."
+msgstr "לא היו תגובות נוספות מאז."
+
+#: bb-templates/kakumei/profile.php:47
+msgid "No more replies."
+msgstr "לא היו תגובות נוספות."
+
+#: bb-templates/kakumei/profile.php:49
+msgid "No replies yet."
+msgstr "אין תגובות עדיין."
+
+#: bb-templates/kakumei/profile.php:54
+msgid "Topics Started"
+msgstr "שרשורים אחרונים"
+
+#: bb-templates/kakumei/profile.php:60
+#, php-format
+msgid "Started: %s ago"
+msgstr "נפתח: לפני %s"
+
+#: bb-templates/kakumei/profile.php:64
+#, php-format
+msgid "Most recent reply: %s ago."
+msgstr "תגובה אחרונה: לפני %s"
+
+#: bb-templates/kakumei/profile.php:66
+msgid "No replies."
+msgstr "אין תגובות."
+
+#: bb-templates/kakumei/profile.php:72
+msgid "No more topics posted."
+msgstr "אין שרשורים נוספים."
+
+#: bb-templates/kakumei/profile.php:74
+msgid "No topics posted yet."
+msgstr "אין."
+
+#: bb-templates/kakumei/register-success.php:3
+#: bb-templates/kakumei/register.php:3
+msgid "Register"
+msgstr "הרשמה"
+
+#: bb-templates/kakumei/register-success.php:5
+msgid "Great!"
+msgstr ""
+
+#: bb-templates/kakumei/register-success.php:7
+#, php-format
+msgid "Your registration as <strong>%s</strong> was successful. Within a few minutes you should receive an email with your password."
+msgstr ""
+
+#: bb-templates/kakumei/register.php:5
+msgid "Registration"
+msgstr ""
+
+#: bb-templates/kakumei/register.php:10
+msgid "Profile Information"
+msgstr ""
+
+#: bb-templates/kakumei/register.php:11
+msgid "Your password will be emailed to the address you provide."
+msgstr ""
+
+#: bb-templates/kakumei/register.php:17
+msgid "Your username was not valid, please try again"
+msgstr ""
+
+#: bb-templates/kakumei/register.php:31
+msgid "<br />There was a problem with your email; please check it."
+msgstr ""
+
+#: bb-templates/kakumei/register.php:33
+msgid "<br />The above field is required."
+msgstr ""
+
+#: bb-templates/kakumei/register.php:45
+msgid "Register &raquo;"
+msgstr ""
+
+#: bb-templates/kakumei/register.php:49
+msgid "You&#8217;re already logged in, why do you need to register?"
+msgstr ""
+
+#: bb-templates/kakumei/search-form.php:7
+msgid "Search &raquo;"
+msgstr ""
+
+#: bb-templates/kakumei/search-form.php:9
+msgid "Search again &raquo;"
+msgstr ""
+
+#: bb-templates/kakumei/search.php:3
+msgid "Search"
+msgstr ""
+
+#: bb-templates/kakumei/search.php:7
+msgid "Search for"
+msgstr ""
+
+#: bb-templates/kakumei/search.php:16
+#: bb-templates/kakumei/search.php:28
+msgid "Posted"
+msgstr ""
+
+#: bb-templates/kakumei/search.php:23
+msgid "Relevant posts"
+msgstr ""
+
+#: bb-templates/kakumei/search.php:35
+msgid "No results found."
+msgstr ""
+
+#: bb-templates/kakumei/search.php:38
+#, php-format
+msgid "You may also try your <a href=\"http://google.com/search?q=site:%1$s %2$s\">search at Google</a>"
+msgstr ""
+
+#: bb-templates/kakumei/stats.php:6
+msgid "Registered Users"
+msgstr ""
+
+#: bb-templates/kakumei/stats.php:13
+msgid "Most Popular Topics"
+msgstr ""
+
+#: bb-templates/kakumei/tag-form.php:4
+msgid "Add &raquo;"
+msgstr "להוסיף &raquo;"
+
+#: bb-templates/kakumei/tag-single.php:27
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> link for this tag."
+msgstr ""
+
+#: bb-templates/kakumei/tags.php:5
+msgid "This is a collection of tags that are currently popular on the forums."
+msgstr ""
+
+#: bb-templates/kakumei/topic-tags.php:5
+msgid "Tags:"
+msgstr "תגים"
+
+#: bb-templates/kakumei/topic-tags.php:15
+#, php-format
+msgid "No <a href=\"%s\">tags</a> yet."
+msgstr "עדיין אין <a href=\"%s\">תגים</a>."
+
+#: bb-templates/kakumei/topic.php:12
+#, php-format
+msgid "Started %1$s ago by %2$s"
+msgstr "נפתח לפני %1$s על ידי %2$s"
+
+#: bb-templates/kakumei/topic.php:14
+#, php-format
+msgid "<a href=\"%1$s\">Latest reply</a> from %2$s"
+msgstr "<a href=\"%1$s\">התגובה האחרונה</a> מאת %2$s"
+
+#: bb-templates/kakumei/topic.php:42
+msgid "RSS feed for this topic"
+msgstr "פיד RSS לשרשור הזה"
+
+#: bb-templates/kakumei/topic.php:50
+msgid "Topic Closed"
+msgstr ""
+
+#: bb-templates/kakumei/topic.php:51
+msgid "This topic has been closed to new replies."
+msgstr ""
+
+#: favorites.php:7
+msgid "You cannot edit those favorites.  How did you get here?"
+msgstr ""
+
+#: forum.php:10
+msgid "Forum not found."
+msgstr ""
+
+#: profile-edit.php:44
+#: profile-edit.php:78
+#, php-format
+msgid "%s is required."
+msgstr ""
+
+#: profile-edit.php:51
+msgid "Invalid email address"
+msgstr ""
+
+#: profile-edit.php:67
+msgid "Invalid Role"
+msgstr ""
+
+#: profile-edit.php:69
+msgid "You are not the Gate Keeper."
+msgstr ""
+
+#: profile-edit.php:71
+msgid "You, Keymaster, may not demote yourself."
+msgstr ""
+
+#: profile-edit.php:92
+msgid "You must enter the same password twice."
+msgstr ""
+
+#: profile-edit.php:94
+msgid "You are not allowed to change this user's password."
+msgstr ""
+
+#: rss.php:97
+msgid "User Favorites"
+msgstr ""
+
+#: rss.php:105
+msgid "Tag"
+msgstr ""
+
+#: rss.php:117
+#: rss.php:123
+msgid "Forum"
+msgstr ""
+
+#: tag-add.php:7
+msgid "You need to be logged in to add a tag."
+msgstr ""
+
+#: tag-add.php:17
+#: topic.php:15
+msgid "Topic not found."
+msgstr ""
+
+#: tag-add.php:22
+msgid "The tag was not added.  Either the tag name was invalid or the topic is closed."
+msgstr ""
+
+#: tag-remove.php:17
+msgid "Invalid tag or topic."
+msgstr ""
+
+#: tag-remove.php:24
+msgid "The tag was not removed.  You cannot remove a tag from a closed topic."
+msgstr ""
+
+#: tags.php:9
+msgid "Tag not found"
+msgstr "לא מצאתי את התג שחיפשת"
+

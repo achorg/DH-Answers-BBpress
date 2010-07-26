@@ -1,0 +1,5184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2009 bbPress
+# This file is distributed under the same license as the PACKAGE package.
+# Uyghur Translation Team <uyghur.translation@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress Uighur\n"
+"Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
+"POT-Creation-Date: 2009-07-29 12:11+0000\n"
+"PO-Revision-Date: 2009-08-02 17:56+0900\n"
+"Last-Translator: Yidayet Z. Begzad <begzad0826@yahoo.co.jp>\n"
+"Language-Team: Uyghur Translation Team <uyghur.translation@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Uighur\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: bb-admin/admin-base.php:13
+msgid "Nothing to see here."
+msgstr "بۇ يەردە كۆرىدىغان ھېچنىمە يوقكەن."
+
+#: bb-admin/admin-footer.php:8
+#: bb-templates/kakumei/footer.php:11
+#, php-format
+msgid "This page generated in %s seconds, using %d queries."
+msgstr "بۇ بەت %s سېكۇنتتا ھاسىل قىلىندى، %d ھالقىلىق سۆز ئىشلىتىلدى."
+
+#: bb-admin/admin-footer.php:21
+#, php-format
+msgid "Thank you for using <a href=\"%s\">bbPress</a>. | <a href=\"%s\">Documentation</a> | <a href=\"%s\">Feedback</a>"
+msgstr "<a href=\"%s\">bbPress</a> نى ئىشلەتكەنلىكىڭىزگە رەھمەت. | <a href=\"%s\">ئارخىپلار</a> | <a href=\"%s\">Feedback</a>"
+
+#: bb-admin/admin-footer.php:28
+#: bb-admin/plugins.php:226
+#, php-format
+msgid "Version %s"
+msgstr "نەشرى %s"
+
+#: bb-admin/admin-header.php:40
+msgid "Visit Site"
+msgstr "تور بەتنى كۆرۈش"
+
+#: bb-admin/admin-header.php:43
+#, php-format
+msgid "Howdy, %1$s"
+msgstr "قانداق ئەھۋالىڭىز، %1$s"
+
+#: bb-admin/bb-forum.php:5
+msgid "You don't have the authority to mess with the forums."
+msgstr "بۇ مۇنبەرنى باشقۇرۇش ھوقۇقىڭىز يوق."
+
+#: bb-admin/bb-forum.php:17
+msgid "Bad forum name.  Go back and try again."
+msgstr "مۇنبەر نامى ئىناۋەتسىز. قايتىپ قايتا سىناڭ."
+
+#: bb-admin/bb-forum.php:25
+msgid "The forum was not added"
+msgstr "مۇنبەر قوشۇلمىدى"
+
+#: bb-admin/bb-forum.php:32
+msgid "No forums to update!"
+msgstr "يېڭىلايدىغان مۇنبەر يوق!"
+
+#: bb-admin/bb-forum.php:47
+msgid "You don't have the authority to kill off the forums."
+msgstr "بۇ مۇنبەرنى ئۆچۈرۈش ھوقۇقىڭىز يوق."
+
+#: bb-admin/bb-forum.php:53
+msgid "Error occured while trying to delete forum"
+msgstr "مۇنبەرنى ئۆچۈرۈشتە خاتالىق سادىر بولدى"
+
+#: bb-admin/delete-post.php:18
+msgid "There is a problem with that post, pardner."
+msgstr "بۇ يازمىدا بىر مەسىلە بار."
+
+#: bb-admin/delete-topic.php:17
+#: bb-admin/sticky.php:9
+#: bb-admin/topic-toggle.php:8
+msgid "There is a problem with that topic, pardner."
+msgstr "بۇ تېمىدا بىر مەسىلە بار."
+
+#: bb-admin/export.php:19
+msgid "Either export is disabled or you are not allowed to export."
+msgstr "ئېكسپورتلاش چەكلىۋېتىلگەن ياكى سىز ئېكسپورتلاشقا رۇخسەت قىلمىغان."
+
+#: bb-admin/forums.php:19
+msgid "<strong>Forum Updated.</strong>"
+msgstr "<strong>مۇنبەر يېڭىلاندى.</strong>"
+
+#: bb-admin/forums.php:23
+#, php-format
+msgid "<strong>Forum deleted.</strong>  You should <a href=\"%s\">recount your site information</a>."
+msgstr "<strong>مۇنبەر ئۆچۈرۈلدى.</strong> ئەمدى <a href=\"%s\">تور بەت ئۇچۇرلىرىڭىزنى يېڭىلاڭ</a>."
+
+#: bb-admin/forums.php:33
+#, php-format
+msgid "Are you sure you want to delete the \"<strong>%s</strong>\" forum?"
+msgstr "\"<strong>%s</strong>\" مۇنبىرىنى راستتىنلا ئۆچۈرەمسىز؟"
+
+#: bb-admin/forums.php:42
+#: bb-admin/includes/functions.bb-admin.php:65
+#: bb-admin/includes/functions.bb-admin.php:66
+#: bb-templates/kakumei/front-page.php:48
+msgid "Forums"
+msgstr "مۇنبەرلەر"
+
+#: bb-admin/forums.php:51
+#: bb-admin/forums.php:80
+msgid "Delete Forum"
+msgstr "مۇنبەرنى ئۆچۈرۈش"
+
+#: bb-admin/forums.php:52
+msgid "This forum contains:"
+msgstr "مۇنبەر مەزمۇنى:"
+
+#: bb-admin/forums.php:54
+#, php-format
+msgid "%d topic"
+msgid_plural "%d topics"
+msgstr[0] "%d پارچە تېما"
+msgstr[1] "%d پارچە تېما"
+
+#: bb-admin/forums.php:55
+#, php-format
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d يازما"
+msgstr[1] "%d يازما"
+
+#: bb-admin/forums.php:58
+msgid "Action"
+msgstr "مەشغۇلات"
+
+#: bb-admin/forums.php:61
+msgid "Delete all topics and posts in this forum. <em>This can never be undone.</em>"
+msgstr "بۇ مۇنبەردىكى بارلىق تېما ۋە يازمىلار ئۆچۈرۈلىدۇ. <em>كېيىن ئەسلىگە كەلتۈرۈش مۇمكىن ئەمەس.</em>"
+
+#: bb-admin/forums.php:64
+msgid "Move topics from this forum into the replacement forum below."
+msgstr "تېمىلار بۇ مۇنبەردىن تۆۋەندىكى ئالماشتۇرۇلما مۇنبەرگە يۆتكىلىدۇ."
+
+#: bb-admin/forums.php:69
+msgid "Replacement forum"
+msgstr "ئالماشتۇرۇلما مۇنبەر"
+
+#: bb-admin/forums.php:79
+msgid "Cancel"
+msgstr "بىكار قىلىش"
+
+#: bb-admin/forums.php:89
+#: bb-includes/class.bb-query.php:942
+#: bb-templates/kakumei/post-form.php:20
+msgid "Forum"
+msgstr "مۇنبەر"
+
+#: bb-admin/includes/class.bb-install.php:193
+#: bb-includes/functions.bb-core.php:1175
+msgid "bbPress &rsaquo; Error"
+msgstr "bbPress &rsaquo; خاتالىق"
+
+#: bb-admin/includes/class.bb-install.php:194
+msgid "Oh dear!"
+msgstr "ۋاي ئاللا!"
+
+#: bb-admin/includes/class.bb-install.php:198
+#: bb-admin/includes/class.bb-install.php:208
+#: bb-admin/includes/class.bb-install.php:218
+#: bb-admin/includes/class.bb-install.php:228
+#: bb-admin/includes/class.bb-install.php:239
+#, php-format
+msgid "%1$s &rsaquo; %2$s"
+msgstr "%1$s &rsaquo; %2$s"
+
+#: bb-admin/includes/class.bb-install.php:198
+#: bb-admin/includes/class.bb-install.php:208
+#: bb-admin/includes/class.bb-install.php:218
+#: bb-admin/includes/class.bb-install.php:228
+#: bb-admin/includes/class.bb-install.php:239
+msgid "bbPress installer"
+msgstr "bbPress قاچىلاش پروگراممىسى"
+
+#: bb-admin/includes/class.bb-install.php:198
+msgid "Welcome"
+msgstr "مەرھابا"
+
+#: bb-admin/includes/class.bb-install.php:199
+msgid "Welcome to the bbPress installer"
+msgstr "bbPress قاچىلاش پروگراممىسىغا خۇش كەپسىز"
+
+#: bb-admin/includes/class.bb-install.php:203
+msgid "We're now going to go through a few steps to get you up and running."
+msgstr "ئەمدى بىر قانچە قەدەم ئارقىلىق مۇنبەرنى ئىشلەتكىلى بولىدىغان قىلىمىز."
+
+#: bb-admin/includes/class.bb-install.php:204
+msgid "Ready? Then let's get started!"
+msgstr "تەييار بولدىڭىزمۇ؟ ئۇنداقتا باشلايلى!"
+
+#: bb-admin/includes/class.bb-install.php:208
+#: bb-admin/includes/class.bb-install.php:209
+msgid "Step 1"
+msgstr "1- قەدەم"
+
+#: bb-admin/includes/class.bb-install.php:209
+#: bb-admin/includes/class.bb-install.php:219
+#: bb-admin/includes/class.bb-install.php:229
+#, php-format
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: bb-admin/includes/class.bb-install.php:209
+msgid "Database configuration"
+msgstr "ساندان سەپلىمىلىرى"
+
+#: bb-admin/includes/class.bb-install.php:212
+msgid "In this step you need to enter your database connection details. The installer will attempt to create a file called <code>bb-config.php</code> in the root directory of your bbPress installation."
+msgstr "بۇ يەردە ساندان ئۇلىنىش ئۇچۇرلىرىنى تەپسىلىي كىرگۈزۈڭ. قاچىلاش پروگراممىسى bbPress قاچىلاش مۇندەرىجىسى ئاستىغا <code>bb-config.php</code> نامىدا بىر ھۆججەت قۇرۇشقا ھەرىكەت قىلىدۇ."
+
+#: bb-admin/includes/class.bb-install.php:213
+msgid "If you're not sure what to put here, contact your web hosting provider."
+msgstr "ئەگەر بۇ يەرگە نېمە نەرسە قويىدىغاننى بىلەلمىسىڭىز، ئۇنداقتا تور مۇلازىمەتچىڭىز بىلەن ئالاقىلىشىڭ."
+
+#: bb-admin/includes/class.bb-install.php:218
+#: bb-admin/includes/class.bb-install.php:219
+msgid "Step 2"
+msgstr "2- قەدەم"
+
+#: bb-admin/includes/class.bb-install.php:219
+msgid "WordPress integration (optional)"
+msgstr "ۋوردپرەسكە باغلاش (ئىختىيارى)"
+
+#: bb-admin/includes/class.bb-install.php:220
+msgid "&laquo; skipped"
+msgstr "&laquo; ئاتلاپ ئۆتۈلدى"
+
+#: bb-admin/includes/class.bb-install.php:222
+msgid "bbPress can integrate login and user data seamlessly with WordPress. You can safely skip this step if you do not wish to integrate with an existing WordPress install."
+msgstr "bbPress تە ۋوردپرەسكە كىرىش ۋە قوللانچى سانلىق مەلۇماتلىرىنى ئاسانلا بىرلەشتۈرگىلى بولىدۇ. ئەگەر ۋوردپرەس بىلەن بىرلەشتۈرگۈڭىز بولمىسا، بۇ باسقۇچتىن ئاتلاپ كەتسىڭىز بولىدۇ. "
+
+#: bb-admin/includes/class.bb-install.php:228
+#: bb-admin/includes/class.bb-install.php:229
+msgid "Step 3"
+msgstr "3- قەدەم"
+
+#: bb-admin/includes/class.bb-install.php:229
+msgid "Site settings"
+msgstr "تور بەت تەڭشەكلىرى "
+
+#: bb-admin/includes/class.bb-install.php:232
+msgid "Finalize your installation by adding a name, your first user and your first forum."
+msgstr "ئىسىم، تۇنجى قوللانچى ۋە تۇنجى مۇنبەرنى قوشۇپ، قاچىلاشنى ئاياقلاشتۇرۇڭ."
+
+#: bb-admin/includes/class.bb-install.php:239
+msgid "Finished"
+msgstr "تۈگىدى"
+
+#: bb-admin/includes/class.bb-install.php:240
+#: bb-admin/includes/class.bb-install.php:2178
+msgid "Installation complete!"
+msgstr "قاچىلاش تاماملاندى!"
+
+#: bb-admin/includes/class.bb-install.php:257
+msgid "Your PHP installation appears to be missing the MySQL extension which is required for bbPress"
+msgstr "مۇلازىمېتىرىڭىزدىكى PHP دا bbPress كە لازىملىق MySQL كېڭەيتىلمە نامىنى ئىشلەتكىلى بولمايدىكەن."
+
+#: bb-admin/includes/class.bb-install.php:262
+msgid "Please complete your installation before attempting to include WordPress within bbPress"
+msgstr "bbPress بىلەن ۋوردپرەسنى بىرلەشتۈرۈشتىن ئاۋال قاچىلاشنى تاماملىغايسىز."
+
+#: bb-admin/includes/class.bb-install.php:340
+msgid "Installation language"
+msgstr "قاچىلاش تىلى"
+
+#: bb-admin/includes/class.bb-install.php:352
+msgid "Sets the language to be used during the installation process only."
+msgstr "قاچىلاش پروگراممىسى ئۈچۈن ئىشلىتىلىدىغان تىلنى بەلگىلەڭ."
+
+#: bb-admin/includes/class.bb-install.php:469
+msgid "An old <code>config.php</code> file has been detected in your installation. You should remove it and run the <a href=\"install.php\">installer</a> again. You can use the same database connection details if you do."
+msgstr "قاچىلاش داۋامىدا بۇرۇنقى <code>config.php</code> ھۆججىتى بايقالدى. ئۇنى ئۆچۈرۈۋەتكەندىن كېيىن <a href=\"install.php\">قاچىلاش پروگراممىسىنى</a> قايتا ئىجرا قىلىڭ. ئوخشاش بولغان ساندان ئۇلىنىش تەپسىلاتلىرىنى قايتا ئىشلەتسىڭىز بولىدۇ. "
+
+#: bb-admin/includes/class.bb-install.php:482
+#: bb-admin/includes/class.bb-install.php:1114
+#: bb-admin/includes/class.bb-install.php:1122
+#: bb-admin/includes/class.bb-install.php:1134
+msgid "&laquo; completed"
+msgstr "&laquo; تاماملاندى"
+
+#: bb-admin/includes/class.bb-install.php:490
+msgid "A valid configuration file was found at <code>bb-config.php</code><br />You may continue to the next step."
+msgstr "ئىناۋەتلىك سەپلىمە ھۆججىتى <code>bb-config.php</code> دىن تېپىلدى<br />كېيىنكى قەدەمگە يۆتكەلسىڭىز بولىدۇ."
+
+#: bb-admin/includes/class.bb-install.php:495
+msgid "An invalid configuration file was found at <code>bb-config.php</code><br />The installation cannot continue."
+msgstr "<code>bb-config.php</code> دا بىر ئىناۋەتسىز سەپلىمە ھۆججىتى بايقالدى.<br />قاچىلاشنى داۋاملاشتۇرغىلى بولمايدۇ."
+
+#: bb-admin/includes/class.bb-install.php:496
+msgid "Usually this is caused by one of the database connection settings being incorrect. Make sure that the specified user has appropriate permission to access the database."
+msgstr "ئادەتتە بۇ ئەھۋال ساندان ئۇلىنىش تەڭشەكلىرىنىڭ بىرەرسى توغرا بولمىغاندا كۆرۈلىدۇ. كۆرسىتىلگەن قوللانچىنىڭ سانداننى زىيارەت قىلىش ھوقۇقىنىڭ بار- يوقلۇقىنى تەكشۈرۈپ بېقىڭ."
+
+#: bb-admin/includes/class.bb-install.php:506
+msgid "bbPress is already installed, but appears to require an upgrade."
+msgstr "bbPress قاچىلاپ بولۇنغان ئىكەن، لېكىن يېڭىلاش لازىمدەك قىلىدۇ."
+
+#: bb-admin/includes/class.bb-install.php:508
+msgid "bbPress is already installed."
+msgstr "bbPress قاچىلاپ بولۇنغان."
+
+#: bb-admin/includes/class.bb-install.php:511
+#, php-format
+msgid "Perhaps you meant to run the <a href=\"%s\">upgrade script</a> instead?"
+msgstr "دېمەكچى بولغىنىڭىز بۇنىڭ ئورنىغا <a href=\"%s\">يېڭىلاش پروگراممىسى</a> نى ئىجرا قىلىشمۇ قانداق؟"
+
+#: bb-admin/includes/class.bb-install.php:521
+#: bb-admin/includes/class.bb-install.php:1320
+msgid "I could not find the file <code>bb-config-sample.php</code><br />Please upload it to the root directory of your bbPress installation."
+msgstr "<code>bb-config-sample.php</code> ھۆججىتىنى تاپالمىدىم.<br />ئۇنى bbPress نى قاچىلايدىغان غول مۇندەرىجىگە يۈكلەپ بېرىڭ."
+
+#: bb-admin/includes/class.bb-install.php:527
+msgid "There doesn't seem to be a <code>bb-config.php</code> file. This usually means that you want to install bbPress."
+msgstr "بۇ يەردە <code>bb-config.php</code> ھۆججىتى يوق ئىكەن. مۇنداقچە ئېيتقاندا bbPress نى قاچىلاش لازىمكەن."
+
+#: bb-admin/includes/class.bb-install.php:614
+msgid "Go to step 1"
+msgstr "1- قەدەمگە يۆتكىلىش"
+
+#: bb-admin/includes/class.bb-install.php:622
+msgid "Database name"
+msgstr "ساندان نامى"
+
+#: bb-admin/includes/class.bb-install.php:623
+msgid "The name of the database in which you want to run bbPress."
+msgstr "bbPress نى ئىشلىتىشتە لازىم بولىدىغان سانداننىڭ نامى."
+
+#: bb-admin/includes/class.bb-install.php:627
+msgid "Database user"
+msgstr "ساندان قوللانچىسى"
+
+#: bb-admin/includes/class.bb-install.php:628
+#: bb-admin/includes/class.bb-install.php:835
+#: bb-admin/options-wordpress.php:129
+msgid "The database user that has access to that database."
+msgstr "سانداننى زىيارەت قىلىش ھوقۇقىغا ئىگە ساندان قوللانچىسى."
+
+#: bb-admin/includes/class.bb-install.php:634
+msgid "Database password"
+msgstr "ساندان پارولى"
+
+#: bb-admin/includes/class.bb-install.php:635
+#: bb-admin/includes/class.bb-install.php:843
+#: bb-admin/options-wordpress.php:133
+msgid "That database user's password."
+msgstr "شۇ ساندان قوللانچىسىنىڭ پارولى."
+
+#: bb-admin/includes/class.bb-install.php:640
+msgid "Language"
+msgstr "تىل"
+
+#: bb-admin/includes/class.bb-install.php:641
+#, php-format
+msgid "The language which bbPress will be presented in once installed. Your current installer language choice (%s) will be the same for the rest of the install process."
+msgstr "قاچىلانغاندىن كېيىنكى bbPress ئىشلىتىدىغان تىل. قاچىلاش داۋامىدا يەنىلا نۆۋەتتە تاللىغان تىل (%s) ئىشلىتىلىدۇ."
+
+#: bb-admin/includes/class.bb-install.php:645
+msgid "Show advanced settings"
+msgstr "تەپسىلىي تەڭشەكلەرنى كۆرسىتىش"
+
+#: bb-admin/includes/class.bb-install.php:646
+msgid "These settings usually do not have to be changed."
+msgstr "ئادەتتە بۇ تەڭشەكلەر ئۆزگەرتىلمىسىمۇ بولىدۇ."
+
+#: bb-admin/includes/class.bb-install.php:652
+msgid "Database host"
+msgstr "ساندان مۇلازىمېتىرى"
+
+#: bb-admin/includes/class.bb-install.php:653
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should remain <strong>localhost</strong>."
+msgstr "ساندان جايلاشقان مۇلازىمېتىرنىڭ نامى ياكى IP ئادرېسى. ئەگەر ساندان تور بەت قويۇلغان مۇلازىمېتىردا بولسا، ئۇ ھالدا <strong>localhost</strong> پېتى تۇرسا بولىدۇ."
+
+#: bb-admin/includes/class.bb-install.php:658
+msgid "Database character set"
+msgstr "ئەسلى كودلىنىشى:"
+
+#: bb-admin/includes/class.bb-install.php:659
+#: bb-admin/includes/class.bb-install.php:856
+#: bb-admin/options-wordpress.php:141
+msgid "The best choice is <strong>utf8</strong>, but you will need to match the character set which you created the database with."
+msgstr "ئەڭ ياخشىسى <strong>utf8</strong> بولسىمۇ، لېكىن سانداننى قۇرغان چاغدىكى كودلىنىش بىلەن ئوخشاش قىلىشىڭىزغا توغرا كېلىدۇ."
+
+#: bb-admin/includes/class.bb-install.php:664
+msgid "Database character collation"
+msgstr "ساندان ھەرپبەلگە سېلىشتۇرمىسى"
+
+#: bb-admin/includes/class.bb-install.php:665
+msgid "The character collation value set when the database was created."
+msgstr "ساندان قۇرۇلغان چاغدىكى كودلىنىشنى سېلىشتۇرۇش تەرتىپىنىڭ قىممىتى."
+
+#: bb-admin/includes/class.bb-install.php:696
+msgid "Table name prefix"
+msgstr "جەدۋەل نامى ئالدى قوشۇمچىسى"
+
+#: bb-admin/includes/class.bb-install.php:697
+msgid "If you are running multiple bbPress sites in a single database, you will probably want to change this."
+msgstr "ئەگەر بىر قانچە bbPress نى ئوخشاش بىر ساندانغا قاچىلىغان بولسىڭىز، ئۇنداقتا بۇنى ئۆزگەرتىشىڭىزگە توغرا كېلىشى مۇمكىن."
+
+#: bb-admin/includes/class.bb-install.php:702
+msgid "Contents for <code>bb-config.php</code>"
+msgstr "<code>bb-config.php</code> نىڭ مەزمۇنى"
+
+#: bb-admin/includes/class.bb-install.php:703
+msgid "Once you have created the configuration file, you can check for it below."
+msgstr "سەپلىمە ھۆججىتىنى قۇرۇپ بولغاندىن كېيىن ئۇنى تۆۋەندە تەكشۈرەلەيسىز."
+
+#: bb-admin/includes/class.bb-install.php:706
+msgid "Save database configuration file"
+msgstr "ساندان سەپلىمە ھۆججىتىنى ساقلاش"
+
+#: bb-admin/includes/class.bb-install.php:709
+#: bb-admin/includes/class.bb-install.php:881
+#: bb-admin/includes/class.bb-install.php:928
+msgid "&laquo; Go back"
+msgstr "&laquo; قايتىش"
+
+#: bb-admin/includes/class.bb-install.php:712
+msgid "Check for configuration file"
+msgstr "سەپلىمە ھۆججىتىنى تەكشۈرۈش"
+
+#: bb-admin/includes/class.bb-install.php:715
+msgid "Go to step 2"
+msgstr "2- قەدەمگە يۆتكىلىش"
+
+#: bb-admin/includes/class.bb-install.php:724
+msgid "Add integration settings"
+msgstr "باغلاش تەڭشەكلىرىنى قوشۇش"
+
+#: bb-admin/includes/class.bb-install.php:725
+msgid "If you want to integrate bbPress with an existing WordPress site."
+msgstr "bbPress نى نۆۋەتتىكى ۋوردپرەس بىلەن بىرلەشتۈرمەكچى بولغان ئەھۋالدا."
+
+#: bb-admin/includes/class.bb-install.php:730
+#: bb-admin/includes/class.bb-install.php:878
+msgid "Skip WordPress integration"
+msgstr "ۋوردپرەسكە باغلاشتىن ئاتلاپ كېتىش"
+
+#: bb-admin/includes/class.bb-install.php:731
+msgid "Save WordPress integration settings"
+msgstr "ۋوردپرەسكە باغلاش تەڭشەكلىرىنى ساقلاش"
+
+#: bb-admin/includes/class.bb-install.php:736
+msgid "Add cookie integration settings"
+msgstr "Cookie باغلاش تەڭشەكلىرىنى قوشۇش"
+
+#: bb-admin/includes/class.bb-install.php:737
+msgid "If you want to allow shared logins with an existing WordPress site."
+msgstr "نۆۋەتتىكى ۋوردپرەس بىلەن ئورتاق ھالدا تىزىملىتىپ كىرىشكە رۇخسەت قىلماقچى بولغان ئەھۋالدا."
+
+#: bb-admin/includes/class.bb-install.php:744
+#: bb-admin/options-wordpress.php:67
+msgid "WordPress address (URL)"
+msgstr "ۋوردپرەس ئادرېسى (URL)"
+
+#: bb-admin/includes/class.bb-install.php:745
+#: bb-admin/options-wordpress.php:69
+msgid "This value should exactly match the <strong>WordPress address (URL)</strong> setting in your WordPress general settings."
+msgstr "بۇ قىممەتنى ۋوردپرەسنىڭ «ئاساسىي تەكشەكلەر» بېتىدىكى <strong>ۋوردپرەسنىڭ ئادرېسى (URL)</strong> بىلەن بىردەك قىلىڭ."
+
+#: bb-admin/includes/class.bb-install.php:750
+#: bb-admin/options-wordpress.php:72
+msgid "Blog address (URL)"
+msgstr "بلوگ ئادرېسى (URL)"
+
+#: bb-admin/includes/class.bb-install.php:751
+#: bb-admin/options-wordpress.php:74
+msgid "This value should exactly match the <strong>Blog address (URL)</strong> setting in your WordPress general settings."
+msgstr "بۇ قىممەتنى ۋوردپرەسنىڭ «ئاساسىي تەكشەكلەر» بېتىدىكى <strong>بلوگ ئادرېسى (URL)</strong> بىلەن بىردەك قىلىڭ."
+
+#: bb-admin/includes/class.bb-install.php:756
+msgid "WordPress \"auth\" cookie key"
+msgstr "WordPress \"auth\" cookie ئاچقۇچى"
+
+#: bb-admin/includes/class.bb-install.php:757
+msgid "This value must match the value of the constant named \"AUTH_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"auth\" cookie key set in the first step."
+msgstr "بۇ قىممەت ۋوردپرەسنىڭ <code>wp-config.php</code> ھۆججىتىدىكى \"AUTH_KEY\" ناملىق تۇراقلىق مىقدارنىڭ قىممىتى بىلەن بىردەك بولۇشى كېرەك. بۇ، 1- قەدەمدە بەلگىلەنگەن bbPress \"auth\" cookie سىنىڭ ئاچقۇچىنىڭ ئورنىنى ئالىدۇ."
+
+#: bb-admin/includes/class.bb-install.php:763
+#: bb-admin/options-wordpress.php:77
+msgid "WordPress \"auth\" cookie salt"
+msgstr "ۋوردپرەس \"auth\" cookie مەخپىي ئاچقۇچى"
+
+#: bb-admin/includes/class.bb-install.php:764
+msgid "This must match the value of the WordPress setting named \"auth_salt\" in your WordPress site. Look for the option labeled \"auth_salt\" in <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:770
+msgid "WordPress \"secure auth\" cookie key"
+msgstr "ۋوردپرەس \"secure auth\" cookie ئاچقۇچى"
+
+#: bb-admin/includes/class.bb-install.php:771
+msgid "This value must match the value of the constant named \"SECURE_AUTH_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"secure auth\" cookie key set in the first step."
+msgstr "بۇ قىممەت ۋوردپرەسنىڭ <code>wp-config.php</code> ھۆججىتىدىكى \"SECURE_AUTH_KEY\" ناملىق تۇراقلىق مىقدارنىڭ قىممىتى بىلەن بىردەك بولۇشى كېرەك. بۇ، 1- قەدەمدە بەلگىلەنگەن bbPress \"secure auth\" cookie سىنىڭ ئاچقۇچىنىڭ ئورنىنى ئالىدۇ."
+
+#: bb-admin/includes/class.bb-install.php:777
+#: bb-admin/options-wordpress.php:81
+msgid "WordPress \"secure auth\" cookie salt"
+msgstr "ۋوردپرەس \"secure auth\" cookie مەخپىي ئاچقۇچى"
+
+#: bb-admin/includes/class.bb-install.php:778
+msgid "This must match the value of the WordPress setting named \"secure_auth_salt\" in your WordPress site. Look for the option labeled \"secure_auth_salt\" in <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings. Sometimes this value is not set in WordPress, in that case you can leave this setting blank as well."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:784
+msgid "WordPress \"logged in\" cookie key"
+msgstr "ۋوردپرەس \"logged in\" cookie ئاچقۇچى"
+
+#: bb-admin/includes/class.bb-install.php:785
+msgid "This value must match the value of the constant named \"LOGGED_IN_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"logged in\" cookie key set in the first step."
+msgstr "بۇ قىممەت ۋوردپرەسنىڭ <code>wp-config.php</code> ھۆججىتىدىكى  \"LOGGED_IN_KEY\" ناملىق تۇراقلىق مىقدارنىڭ قىممىتى بىلەن بىردەك بولۇشى كېرەك. بۇ، 1- قەدەمدە بەلگىلەنگەن bbPress \"logged in\" cookie سىنىڭ ئاچقۇچىنىڭ ئورنىنى ئالىدۇ."
+
+#: bb-admin/includes/class.bb-install.php:791
+#: bb-admin/options-wordpress.php:85
+msgid "WordPress \"logged in\" cookie salt"
+msgstr "ۋوردپرەس \"logged in\" cookie مەخپىي ئاچقۇچى"
+
+#: bb-admin/includes/class.bb-install.php:792
+msgid "This must match the value of the WordPress setting named \"logged_in_salt\" in your WordPress site. Look for the option labeled \"logged_in_salt\" in <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:798
+msgid "Add user database integration settings"
+msgstr "قوللانچى ساندانى بىرلەشتۈرۈش تەڭشەكلىرىنى قوشۇش"
+
+#: bb-admin/includes/class.bb-install.php:799
+msgid "If you want to share user data with an existing WordPress site."
+msgstr "قوللانچى سانلىق مەلۇماتلىرىنى نۆۋەتتىكى ۋوردپرەس بىلەن ئورتاق ئىشلىتىشكە رۇخسەت قىلماقچى بولغان ئەھۋالدا."
+
+#: bb-admin/includes/class.bb-install.php:807
+#: bb-admin/options-wordpress.php:103
+msgid "User database table prefix"
+msgstr "قوللانچى ساندانى ئالدى قوشۇمچىسى"
+
+#: bb-admin/includes/class.bb-install.php:808
+#: bb-admin/options-wordpress.php:104
+msgid "If your bbPress and WordPress sites share the same database, then this is the same value as <code>$table_prefix</code> in your WordPress <code>wp-config.php</code> file. It is usually <strong>wp_</strong>."
+msgstr "سىز ئىشلىتىۋاتقان bbPress ۋە ۋوردپرەس ئوخشاش ساندان ئىشلەتسە، ئۇنداقتا بۇ قىممەت <code>wp-config.php</code> ھۆججىتىڭىزدىكى <code>$table_prefix</code> بىلەن ئوخشاش بولىدۇ. ئادەتتە <strong>wp_</strong> بولىدۇ."
+
+#: bb-admin/includes/class.bb-install.php:814
+#: bb-admin/options-wordpress.php:107
+msgid "WordPress MU primary blog ID"
+msgstr "ۋوردپرەس كۆپ تىللىق نەشرى ئاساسىي بلوگ ID سى"
+
+#: bb-admin/includes/class.bb-install.php:815
+#: bb-admin/options-wordpress.php:108
+msgid "If you are integrating with a WordPress MU site you need to specify the primary blog ID for that site. It is usually <strong>1</strong>. You should probably leave this blank if you are integrating with a standard WordPress site"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:820
+#: bb-admin/options-wordpress.php:111
+msgid "Show advanced database settings"
+msgstr "يۇقۇرى دەرىجىلىك ساندان تەڭشەكلەرنى كۆرسىتىش"
+
+#: bb-admin/includes/class.bb-install.php:821
+#: bb-admin/options-wordpress.php:115
+msgid "If your bbPress and WordPress site do not share the same database, then you will need to add advanced settings."
+msgstr "سىز ئىشلىتىۋاتقان bbPress ۋە ۋوردپرەس سانداننى ئورتاق ئىشلەتمىسە، ئۇنداقتا يۇقۇرى دەرىجىلىق تەڭشەكلەرنى قوشۇشىڭىزغا توغرا كېلىدۇ."
+
+#: bb-admin/includes/class.bb-install.php:828
+#: bb-admin/options-wordpress.php:124
+msgid "User database name"
+msgstr "قوللانچى ساندانىنىڭ نامى"
+
+#: bb-admin/includes/class.bb-install.php:829
+#: bb-admin/options-wordpress.php:125
+msgid "The name of the database in which your user tables reside."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:834
+#: bb-admin/options-wordpress.php:128
+msgid "User database user"
+msgstr "قوللانچى ساندانىنىڭ قوللانچىسى"
+
+#: bb-admin/includes/class.bb-install.php:842
+#: bb-admin/options-wordpress.php:132
+msgid "User database password"
+msgstr "قوللانچى ساندانىنىڭ پارولى"
+
+#: bb-admin/includes/class.bb-install.php:849
+#: bb-admin/options-wordpress.php:136
+msgid "User database host"
+msgstr "قوللانچى ساندانىنىڭ مۇلازىمېتىرى"
+
+#: bb-admin/includes/class.bb-install.php:850
+#: bb-admin/options-wordpress.php:137
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should be <strong>localhost</strong>."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:855
+#: bb-admin/options-wordpress.php:140
+msgid "User database character set"
+msgstr "قوللانچى ساندانىنىڭ كودلىنىشى"
+
+#: bb-admin/includes/class.bb-install.php:861
+#: bb-admin/options-wordpress.php:144
+msgid "User database character collation"
+msgstr "قوللانچى ساندانىنىڭ ھەرپبەلگە سېلىشتۇرمىسى"
+
+#: bb-admin/includes/class.bb-install.php:862
+#: bb-admin/options-wordpress.php:145
+msgid "The character collation value set when the user database was created."
+msgstr "ھەرپبەلگە سېلىشتۇرۇش قىممىتى قوللانچى ساندانى قۇرۇلغاندا بەلگىلەنسۇن."
+
+#: bb-admin/includes/class.bb-install.php:867
+#: bb-admin/options-wordpress.php:151
+msgid "User database \"user\" table"
+msgstr "قوللانچى ساندانى \"user\" جەدۋىلى"
+
+#: bb-admin/includes/class.bb-install.php:868
+#: bb-admin/includes/class.bb-install.php:874
+#: bb-admin/options-wordpress.php:152
+#: bb-admin/options-wordpress.php:156
+msgid "The complete table name, including any prefix."
+msgstr "جەدۋەل ئالدى قوشۇمچىسىنى ئۆز .ىچىگە ئالغان تولۇق جەدۋەل نامى."
+
+#: bb-admin/includes/class.bb-install.php:873
+#: bb-admin/options-wordpress.php:155
+msgid "User database \"user meta\" table"
+msgstr "قوللانچى ساندانى \"user meta\" جەدۋىلى"
+
+#: bb-admin/includes/class.bb-install.php:884
+msgid "Go to step 3"
+msgstr "3- قەدەمگە يۆتكىلىش"
+
+#: bb-admin/includes/class.bb-install.php:893
+msgid "Site name"
+msgstr "تور بەت نامى"
+
+#: bb-admin/includes/class.bb-install.php:894
+msgid "This is what you are going to call your bbPress site."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:898
+msgid "Site address (URL)"
+msgstr "تور بەت ئادرېسى (URL)"
+
+#: bb-admin/includes/class.bb-install.php:899
+msgid "We have attempted to guess this, it's usually correct, but change it here if you wish."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:904
+msgid "\"Key Master\" Username"
+msgstr "\"ئاچقۇچ ئىگىسى\" قوللانچى نامى"
+
+#: bb-admin/includes/class.bb-install.php:905
+msgid "This is the user login for the initial bbPress administrator (known as a \"Key Master\")."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:911
+msgid "\"Key Master\" Email address"
+msgstr "\"ئاچقۇچ ئىگىسى\" ئېلخەت ئادرېسى"
+
+#: bb-admin/includes/class.bb-install.php:912
+msgid "The login details will be emailed to this address."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:921
+msgid "First forum name"
+msgstr "تۇنجى مۇنبەر نامى"
+
+#: bb-admin/includes/class.bb-install.php:922
+msgid "This can be changed after installation, so don't worry about it too much."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:925
+msgid "Save site settings"
+msgstr "تور بەت تەڭشەكلىرىنى ساقلاش "
+
+#: bb-admin/includes/class.bb-install.php:931
+msgid "Complete the installation"
+msgstr "قاچىلاشنى تاماملاش"
+
+#: bb-admin/includes/class.bb-install.php:940
+msgid "Show installation messages"
+msgstr "قاچىلاش ئۇچۇرلىرىنى كۆرسىتىش"
+
+#: bb-admin/includes/class.bb-install.php:944
+msgid "Installation errors"
+msgstr "قاچىلاش جەريانىدىكى خاتالىقلار"
+
+#: bb-admin/includes/class.bb-install.php:948
+msgid "Installation log"
+msgstr "قاچىلاش خاتىرىسى"
+
+#: bb-admin/includes/class.bb-install.php:1249
+msgid "The table prefix can only contain letters, numbers and underscores.<br />Please review the suggestion below."
+msgstr "جەدۋەل ئالدى قوشۇلغۇچىسى ئۈچۈن ھەرپلەر، سانلار ۋە ئاستى سىزىقچىنىلا ئىشلىتەلەيسىز.<br />تۆۋەندىكى تەۋسىيىنى كۆرۈپ چىقىڭ."
+
+#: bb-admin/includes/class.bb-install.php:1250
+msgid "&bull; Based on your input the following prefix is suggested."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1258
+msgid "The table prefix can not be blank.<br />Please review the suggestion below."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1259
+msgid "&bull; The default prefix has been inserted."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1293
+msgid "There was a problem connecting to the database you specified.<br />Please check the settings, then try again."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1326
+msgid "Your settings have been saved to the file <code>bb-config.php</code><br />You can now continue to the next step."
+msgstr "تەڭشەكلىرىڭىز <code>bb-config.php</code> نامىدىكى ھۆججەتكە ساقلاپ قويۇلدى.<br /> ئەمدى كېيىنكى قەدەمگە ئۆتسىڭىز بولىدۇ."
+
+#: bb-admin/includes/class.bb-install.php:1333
+msgid "Your settings could not be saved to a configuration file. You will need to save the text shown below into a file named <code>bb-config.php</code> in the root directory of your bbPress installation before you can continue."
+msgstr "تەڭشەكلىرىڭىز سەپلىمە ھۆججىتىگە ساقلانمىدى. داۋاملاشتۇرۇشتىن بۇرۇن تۆۋەندە كۆرسىتىلگەن تېكىستنى bbPress قاچىلانغان غول مۇندەرىجىنىڭ ئاستىغا <code>bb-config.php</code> نامىدىكى ھۆججەتكە ساقلاپ قويۇشىڭىز كېرەك."
+
+#: bb-admin/includes/class.bb-install.php:1355
+msgid "You have chosen to skip the WordPress integration step. You can always integrate WordPress later from within the admin area of bbPress."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1431
+msgid "You must enter your settings for integration setup to complete. Choose which integration settings you wish to enter from the options below."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1449
+msgid "Your integration settings have not been processed due to errors with the items marked below."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1458
+#: bb-admin/includes/class.bb-install.php:1667
+msgid "&bull; This value is required to continue."
+msgstr "&bull; داۋاملاشتۇرۇش ئۈچۈن بۇ قىممەت بېرىلىشى زۆرۈر."
+
+#: bb-admin/includes/class.bb-install.php:1461
+#: bb-admin/includes/class.bb-install.php:1670
+msgid "&bull; This does not appear to be a valid URL."
+msgstr "&bull; بۇ ئىناۋەتلىك ئادرېستەك قىلمايدۇ."
+
+#: bb-admin/includes/class.bb-install.php:1464
+#: bb-admin/includes/class.bb-install.php:1673
+msgid "&bull; The URL must begin with \"http\" or \"https\"."
+msgstr "&bull; ئادرېس چوقۇم \"http\" ياكى \"https\" دىن باشلىنىشى كېرەك."
+
+#: bb-admin/includes/class.bb-install.php:1467
+#: bb-admin/includes/class.bb-install.php:1676
+msgid "&bull; The URL does not contain a host name."
+msgstr "&bull; ئادرېس مۇلازىمېتىر نامىنى ئۆز ئىچىگە ئالمىغان."
+
+#: bb-admin/includes/class.bb-install.php:1529
+#: bb-admin/includes/class.bb-install.php:1772
+#: bb-admin/includes/class.bb-install.php:2575
+#: bb-settings.php:646
+msgid "Your user table prefix may only contain letters, numbers and underscores."
+msgstr "قوللانچى جەدۋىلىنىڭ ئالدى قوشۇلغۇچىسى ئۈچۈن ھەرپلەر، سانلار ۋە ئاستى سىزىقچىنىلا ئىشلىتەلەيسىز."
+
+#: bb-admin/includes/class.bb-install.php:1566
+msgid "There was a problem connecting to the WordPress user database you specified. Please check the settings, then try again."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1580
+msgid "Existing WordPress user tables could not be found in the WordPress database you specified."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1582
+msgid "Existing WordPress user tables could not be found in the bbPress database you specified in step 1.<br /><br />This is probably because the database does not already contain working WordPress tables. You may need to specify advanced database settings or leave integration until after installation."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1584
+msgid "&bull; This may not be a valid user table prefix."
+msgstr "&bull; بۇ ئىناۋەتلىك جەدۋەل ئالدى قوشۇمچىسى ئەمەستەك قىلىدۇ."
+
+#: bb-admin/includes/class.bb-install.php:1601
+msgid "Your WordPress integration cookie and database settings have been successfully validated. They will be saved after the next step.<br /><br />Once you have finished installing, you should visit the WordPress integration section of the bbPress admin area for further options and integration instructions, including user mapping and the correct cookie settings to add to your WordPress configuration file."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1658
+msgid "Your site settings have not been processed due to errors with the items marked below."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1679
+msgid "&bull; Contains disallowed characters which have been removed."
+msgstr "&bull; ئىشلىتىش چەكلەنگەن ھەرپ- بەلگىلەر بولغاچقا، ئۇلار ئۆچۈرۈپ تاشلاندى."
+
+#: bb-admin/includes/class.bb-install.php:1682
+msgid "&bull; The user email address appears to be invalid."
+msgstr "&bull; قوللانچىنىڭ ئېلخەت ئادرېسى ئىناۋەتسىزدەك قىلىدۇ."
+
+#: bb-admin/includes/class.bb-install.php:1701
+msgid "Your site settings have been saved and we are now ready to complete the installation. So what are you waiting for?"
+msgstr "تور بەت تەڭشەكلىرىڭىز ساقلىنىپ بولدى، نۆۋەتتە قاچىلاشنى تاماملاشقا تەييار ھالەتتە تۇرۇۋاتىمىز. يەنە نېمىنى ساقلايسىز؟"
+
+#: bb-admin/includes/class.bb-install.php:1727
+msgid "Referrer is OK, beginning installation&hellip;"
+msgstr "تونۇشتۇرغۇچى تەكشۈرۈلدى، قاچىلاش باشلىنىدۇ &hellip;"
+
+#: bb-admin/includes/class.bb-install.php:1734
+msgid "Setting up custom user table constants"
+msgstr "ئۆزى بەلگىلىگەن قوللانچى جەدۋىلى تۇراقلىق مىقدارلىرى بەلگىلىنىۋاتىدۇ"
+
+#: bb-admin/includes/class.bb-install.php:1777
+msgid "Step 1 - Creating database tables"
+msgstr "1- قەدەم: ساندان جەدۋەللىرىنى قۇرۇش"
+
+#: bb-admin/includes/class.bb-install.php:1795
+#: bb-admin/includes/class.bb-install.php:1797
+msgid "Database installation failed!!!"
+msgstr "سانداننى قاچىلاش مەغلۇپ بولدى!!!"
+
+#: bb-admin/includes/class.bb-install.php:1796
+#: bb-admin/includes/class.bb-install.php:2006
+#: bb-admin/includes/class.bb-install.php:2039
+#: bb-admin/includes/class.bb-install.php:2065
+msgid "Halting installation!"
+msgstr "قاچىلاش توختاپ قالدى!"
+
+#: bb-admin/includes/class.bb-install.php:1800
+#: bb-admin/includes/class.bb-install.php:2008
+#: bb-admin/includes/class.bb-install.php:2042
+#: bb-admin/includes/class.bb-install.php:2068
+msgid "Installation failed!"
+msgstr "قاچىلاش مەغلۇپ بولدى!"
+
+#: bb-admin/includes/class.bb-install.php:1801
+msgid "The database failed to install. You may need to replace bbPress with a fresh copy and start again."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1809
+msgid "Database is already installed!!!"
+msgstr "ساندان قاچىلىنىپ بولغان!!!"
+
+#: bb-admin/includes/class.bb-install.php:1814
+msgid "Step 2 - WordPress integration (optional)"
+msgstr "2- قەدەم: ۋوردپرەسكە باغلاش (ئىختىيارى)"
+
+#: bb-admin/includes/class.bb-install.php:1818
+msgid "WordPress address (URL):"
+msgstr "ۋوردپرەس ئادرېسى (URL):"
+
+#: bb-admin/includes/class.bb-install.php:1821
+msgid "Blog address (URL):"
+msgstr "بلوگ ئادرېسى (URL):"
+
+#: bb-admin/includes/class.bb-install.php:1835
+msgid "WordPress cookie keys set."
+msgstr "ۋوردپرەس cookie ئاچقۇچى بەلگىلەندى."
+
+#: bb-admin/includes/class.bb-install.php:1838
+#: bb-admin/includes/class.bb-install.php:1841
+msgid "WordPress cookie keys not set."
+msgstr "ۋوردپرەس cookie ئاچقۇچى بەلگىلەنمىدى."
+
+#: bb-admin/includes/class.bb-install.php:1839
+msgid "Your \"bb-config.php\" file was not writable."
+msgstr "«bb-config.php» ھۆججىتىڭىزگە يازغىلى بولمايدىكەن."
+
+#: bb-admin/includes/class.bb-install.php:1840
+msgid "You will need to manually re-define \"BB_AUTH_KEY\", \"BB_SECURE_AUTH_KEY\" and \"BB_LOGGED_IN_KEY\" in your \"bb-config.php\" file."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1847
+msgid "WordPress \"auth\" cookie salt set from input."
+msgstr "ۋوردپرەس  \"auth\" cookie مەخپىي ئاچقۇچى كىرگۈزۈلگەن قىممەتتىن بەلگىلەندى."
+
+#: bb-admin/includes/class.bb-install.php:1852
+msgid "WordPress \"secure auth\" cookie salt set from input."
+msgstr "ۋوردپرەس  \"secure auth\" cookie مەخپىي ئاچقۇچى كىرگۈزۈلگەن قىممەتتىن بەلگىلەندى."
+
+#: bb-admin/includes/class.bb-install.php:1857
+msgid "WordPress \"logged in\" cookie salt set from input."
+msgstr "ۋوردپرەس  \"logged in\" cookie مەخپىي ئاچقۇچى كىرگۈزۈلگەن قىممەتتىن بەلگىلەندى."
+
+#: bb-admin/includes/class.bb-install.php:1867
+msgid "Fetching missing WordPress cookie salts."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1888
+msgid "WordPress \"auth\" cookie salt set."
+msgstr "ۋوردپرەس \"auth\" cookie مەخپىي ئاچقۇچى بەلگىلەندى."
+
+#: bb-admin/includes/class.bb-install.php:1890
+#: bb-admin/includes/class.bb-install.php:1893
+msgid "WordPress \"auth\" cookie salt not set."
+msgstr "ۋوردپرەس \"auth\" cookie مەخپىي ئاچقۇچى بەلگىلەنمىدى."
+
+#: bb-admin/includes/class.bb-install.php:1891
+msgid "Could not fetch \"auth\" cookie salt from the WordPress options table."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1892
+msgid "You will need to manually define the \"auth\" cookie salt in your database."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1901
+msgid "WordPress \"secure auth\" cookie salt set."
+msgstr "ۋوردپرەس \"secure auth\" cookie مەخپىي ئاچقۇچى بەلگىلەندى."
+
+#: bb-admin/includes/class.bb-install.php:1904
+msgid "WordPress \"secure auth\" cookie salt not set."
+msgstr "ۋوردپرەس \"secure auth\" cookie مەخپىي ئاچقۇچى بەلگىلەنمىدى."
+
+#: bb-admin/includes/class.bb-install.php:1912
+msgid "WordPress \"logged in\" cookie salt set."
+msgstr "ۋوردپرەس  \"logged in\" cookie مەخپىي ئاچقۇچى بەلگىلەندى."
+
+#: bb-admin/includes/class.bb-install.php:1914
+#: bb-admin/includes/class.bb-install.php:1917
+msgid "WordPress \"logged in\" cookie salt not set."
+msgstr "ۋوردپرەس \"logged in\" cookie مەخپىي ئاچقۇچى بەلگىلەنمىدى."
+
+#: bb-admin/includes/class.bb-install.php:1915
+msgid "Could not fetch \"logged in\" cookie salt from the WordPress options table."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1916
+msgid "You will need to manually define the \"logged in\" cookie salt in your database."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:1924
+msgid "User database table prefix:"
+msgstr "ئىشلەتكۈچى ساندانى ئالدى قوشۇمچىسى:"
+
+#: bb-admin/includes/class.bb-install.php:1929
+msgid "WordPress MU primary blog ID:"
+msgstr "ۋوردپرەس كۆپ تىللىق نەشرى ئاساسىي بلوگ IDسى:"
+
+#: bb-admin/includes/class.bb-install.php:1935
+msgid "User database name:"
+msgstr "ئىشلەتكۈچىنىڭ ساندان نامى:"
+
+#: bb-admin/includes/class.bb-install.php:1939
+msgid "User database user:"
+msgstr "ئىشلەتكۈچىنىڭ ساندان قوللانچىسى:"
+
+#: bb-admin/includes/class.bb-install.php:1943
+msgid "User database password:"
+msgstr "ئىشلەتكۈچىنىڭ ساندان پارولى:"
+
+#: bb-admin/includes/class.bb-install.php:1947
+msgid "User database host:"
+msgstr "ئىشلەتكۈچىنىڭ ساندان مۇلازىمېتىرى:"
+
+#: bb-admin/includes/class.bb-install.php:1951
+msgid "User database character set:"
+msgstr "قوللانچى ساندانىنىڭ كودلىنىشى:"
+
+#: bb-admin/includes/class.bb-install.php:1955
+msgid "User database collation:"
+msgstr "قوللانچى ساندانىنىڭ سېلىشتۇرمىسى:"
+
+#: bb-admin/includes/class.bb-install.php:1959
+msgid "User database \"user\" table:"
+msgstr "ئىشلەتكۈچى ساندانى «قوللانچى» جەدۋىلى:"
+
+#: bb-admin/includes/class.bb-install.php:1963
+msgid "User database \"user meta\" table:"
+msgstr "قوللانچى ساندانى \"user meta\" جەدۋىلى:"
+
+#: bb-admin/includes/class.bb-install.php:1968
+msgid "Integration not enabled"
+msgstr "باغلاپ ئىشلەتكىلى بولمايدۇ"
+
+#: bb-admin/includes/class.bb-install.php:1973
+msgid "Step 3 - Site settings"
+msgstr "3- قەدەم: تور بەت تەڭشەكلىرى"
+
+#: bb-admin/includes/class.bb-install.php:1975
+msgid "Site name:"
+msgstr "تور بەت نامى:"
+
+#: bb-admin/includes/class.bb-install.php:1977
+msgid "Site address (URL):"
+msgstr "تور بەت ئادرېسى (URL):"
+
+#: bb-admin/includes/class.bb-install.php:1979
+msgid "From email address:"
+msgstr "ئېلخەت ئادرېسىدىن:"
+
+#: bb-admin/includes/class.bb-install.php:1990
+#: bb-admin/includes/class.bb-install.php:1992
+#: bb-admin/includes/class.bb-install.php:2038
+#: bb-admin/includes/class.bb-install.php:2040
+#: bb-admin/includes/class.bb-install.php:2066
+msgid "Key master could not be created!"
+msgstr "ئاچقۇچ ئىگىسىنى قۇرغىلى بولمىدى!"
+
+#: bb-admin/includes/class.bb-install.php:1991
+msgid "That login is already taken!"
+msgstr "بۇ ئىسىم ئىشلىتىلىپ بولۇنغان!"
+
+#: bb-admin/includes/class.bb-install.php:1997
+msgid "Existing key master entered!"
+msgstr "مەۋجۇد ئاچقۇچ ئىگىسى كىرگۈزۈلدى!"
+
+#: bb-admin/includes/class.bb-install.php:1998
+msgid "Your bbPress password"
+msgstr "bbPress پارولىڭىز"
+
+#: bb-admin/includes/class.bb-install.php:2001
+msgid "Re-setting admin email address."
+msgstr "باشقۇرغۇچى ئېلخەت ئادرېسى قايتا بەلگىلەنسۇن."
+
+#: bb-admin/includes/class.bb-install.php:2005
+msgid "Existing user without key master role entered!"
+msgstr "ئاچقۇچ ئىگىسى بولمىغان مەۋجۇد قوللانچى!"
+
+#: bb-admin/includes/class.bb-install.php:2009
+msgid "The key master could not be created. An existing user was found with that user login."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2032
+msgid "Key master created"
+msgstr "ئاچقۇچ ئىگىسى قۇرۇلدى."
+
+#: bb-admin/includes/class.bb-install.php:2033
+#: bb-admin/includes/class.bb-install.php:2059
+#: bb-admin/install.php:359
+msgid "Username:"
+msgstr "قوللانچى نامى:"
+
+#: bb-admin/includes/class.bb-install.php:2034
+#: bb-admin/includes/class.bb-install.php:2060
+msgid "Email address:"
+msgstr "ئېلخەت ئادرېسى:"
+
+#: bb-admin/includes/class.bb-install.php:2035
+#: bb-admin/includes/class.bb-install.php:2061
+#: bb-admin/install.php:361
+msgid "Password:"
+msgstr "پارول:"
+
+#: bb-admin/includes/class.bb-install.php:2043
+msgid "The key master could not be created. You may need to replace bbPress with a fresh copy and start again."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2057
+msgid "Your existing password"
+msgstr "نۆۋەتتىكى پارولىڭىز"
+
+#: bb-admin/includes/class.bb-install.php:2058
+msgid "Key master role assigned to existing user"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2064
+msgid "Key master role could not be assigned to existing user!"
+msgstr "ئاچقۇچ ئىگىسى دەرىجىسىنى مەۋجۇد قوللانچىغا بەرگىلى بولمايدۇ!"
+
+#: bb-admin/includes/class.bb-install.php:2069
+msgid "The key master could not be assigned. You may need to replace bbPress with a fresh copy and start again."
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2088
+msgid "Just another bbPress community"
+msgstr "يەنە بىر bbPress جەمئىيىتى"
+
+#: bb-admin/includes/class.bb-install.php:2097
+msgid "Description:"
+msgstr "چۈشەندۈرۈش:"
+
+#: bb-admin/includes/class.bb-install.php:2100
+msgid "Forum name:"
+msgstr "مۇنبەر نامى:"
+
+#: bb-admin/includes/class.bb-install.php:2108
+msgid "Your first topic"
+msgstr "تۇنجى تېمىڭىز"
+
+#: bb-admin/includes/class.bb-install.php:2116
+msgid "First Post!  w00t."
+msgstr "تۇنجى يازما! ئاھھاي."
+
+#: bb-admin/includes/class.bb-install.php:2130
+#: bb-templates/kakumei/edit-form.php:4
+msgid "Topic:"
+msgstr ":تېما"
+
+#: bb-admin/includes/class.bb-install.php:2131
+#: bb-templates/kakumei/edit-form.php:10
+msgid "Post:"
+msgstr "يازما:"
+
+#: bb-admin/includes/class.bb-install.php:2133
+#: bb-admin/includes/class.bb-install.php:2134
+msgid "Forum could not be created!"
+msgstr "مۇنبەرنى قۇرغىلى بولمىدى!"
+
+#: bb-admin/includes/class.bb-install.php:2137
+msgid "There are existing forums in this database."
+msgstr "بۇ سانداندا مەۋجۇد مۇنبەرلەر بار ئىكەن."
+
+#: bb-admin/includes/class.bb-install.php:2138
+msgid "No new forum created."
+msgstr "ھېچقانداق يېڭى مۇنبەر قۇرۇلمىدى."
+
+#: bb-admin/includes/class.bb-install.php:2139
+msgid "Forums already exist!"
+msgstr "مۇنبەر مەۋجۇد ئىكەن!"
+
+#: bb-admin/includes/class.bb-install.php:2145
+#, php-format
+msgid "Making plugin directory at %s."
+msgstr "%s دا قىستۇرما مۇندەرىجىسى قۇرۇلدى."
+
+#: bb-admin/includes/class.bb-install.php:2152
+#, php-format
+msgid "Making theme directory at %s."
+msgstr "%s دا ئۇسلۇب مۇندەرىجىسى قۇرۇلدى."
+
+#: bb-admin/includes/class.bb-install.php:2158
+#, php-format
+msgid ""
+"Your new bbPress site has been successfully set up at:\n"
+"\n"
+"%1$s\n"
+"\n"
+"You can log in to the key master account with the following information:\n"
+"\n"
+"Username: %2$s\n"
+"Password: %3$s\n"
+"\n"
+"We hope you enjoy your new forums. Thanks!\n"
+"\n"
+"--The bbPress Team\n"
+"http://bbpress.org/"
+msgstr ""
+
+#: bb-admin/includes/class.bb-install.php:2164
+msgid "New bbPress installation"
+msgstr "يېڭى bbPress قاچىلانمىسى"
+
+#: bb-admin/includes/class.bb-install.php:2165
+msgid "Key master email sent"
+msgstr "ئاچقۇچ ئىگىسىگە ئېلخەت يوللاندى"
+
+#: bb-admin/includes/class.bb-install.php:2167
+#: bb-admin/includes/class.bb-install.php:2168
+msgid "Key master email not sent!"
+msgstr "ئاچقۇچ ئىگىسىگە ئېلخەت يوللانمىدى!"
+
+#: bb-admin/includes/class.bb-install.php:2173
+msgid "Installation completed with some errors!"
+msgstr "قاچىلاش بەزىبىر خاتالىقلار بىلەن ئاياقلاشتى!"
+
+#: bb-admin/includes/class.bb-install.php:2174
+msgid "Your installation completed with some minor errors. See the error log below for more specific information."
+msgstr "قاچىلاش بىر قىسىم كىچىك خاتالىقلار بىلەن ئاياقلاشتى. تەپسىلىي ئۇچۇرلارنى تۆۋەندىكى خاتالىق خاتىرىسىدىن كۆرۈڭ."
+
+#: bb-admin/includes/class.bb-install.php:2175
+msgid "There were some errors encountered during installation!"
+msgstr "قاچىلاش جەريانىدا بىر قىسىم خاتالىقلار يۈز بەردى!"
+
+#: bb-admin/includes/class.bb-install.php:2177
+msgid "Your installation completed successfully."
+msgstr "قاچىلاش مۇۋەپپەقىيەتلىك تاماملاندى."
+
+#: bb-admin/includes/class.bb-install.php:2619
+msgid "Please select an existing bbPress Keymaster or WordPress administrator."
+msgstr "مەۋجۇد بولغان bbPress ئاچقۇچ ئىگىسى ياكى ۋوردپرەس باشقۇرغۇچىسىنى تاللاڭ."
+
+#: bb-admin/includes/defaults.bb-schema.php:8
+msgid "Database class not loaded."
+msgstr "ساندان بۆلىكى ئوقۇلمىدى."
+
+#: bb-admin/includes/functions.bb-admin.php:55
+#: bb-admin/includes/functions.bb-admin.php:56
+#: bb-admin/index.php:38
+msgid "Dashboard"
+msgstr "باشقۇرۇش بېتى"
+
+#: bb-admin/includes/functions.bb-admin.php:67
+#: bb-admin/includes/functions.bb-admin.php:68
+#: bb-admin/topics.php:41
+#: bb-templates/kakumei/forum.php:46
+#: bb-templates/kakumei/front-page.php:53
+msgid "Topics"
+msgstr "تېمىلار"
+
+#: bb-admin/includes/functions.bb-admin.php:69
+#: bb-admin/includes/functions.bb-admin.php:70
+#: bb-admin/posts.php:47
+#: bb-admin/topics.php:103
+#: bb-admin/topics.php:112
+#: bb-templates/kakumei/favorites.php:17
+#: bb-templates/kakumei/forum.php:10
+#: bb-templates/kakumei/forum.php:47
+#: bb-templates/kakumei/front-page.php:18
+#: bb-templates/kakumei/front-page.php:54
+#: bb-templates/kakumei/stats.php:8
+#: bb-templates/kakumei/tag-single.php:12
+#: bb-templates/kakumei/view.php:10
+msgid "Posts"
+msgstr "يازمىلار"
+
+#: bb-admin/includes/functions.bb-admin.php:79
+msgid "Appearance"
+msgstr "كۆرۈنمىلەر"
+
+#: bb-admin/includes/functions.bb-admin.php:80
+msgid "Themes"
+msgstr "ئۇسلۇبلار"
+
+#: bb-admin/includes/functions.bb-admin.php:81
+msgid "Plugins"
+msgstr "قىستۇرمىلار"
+
+#: bb-admin/includes/functions.bb-admin.php:82
+msgid "Installed"
+msgstr "قاچىلانغانلار"
+
+#: bb-admin/includes/functions.bb-admin.php:83
+#: bb-admin/includes/functions.bb-admin.php:84
+#: bb-admin/includes/functions.bb-admin.php:572
+msgid "Users"
+msgstr "قوللانچىلار"
+
+#: bb-admin/includes/functions.bb-admin.php:85
+#: bb-admin/tools-recount.php:173
+msgid "Tools"
+msgstr "قوراللار"
+
+#: bb-admin/includes/functions.bb-admin.php:86
+#: bb-admin/tools-recount.php:178
+msgid "Re-count"
+msgstr "قايتا ساناش"
+
+#: bb-admin/includes/functions.bb-admin.php:87
+msgid "Settings"
+msgstr "تەڭشەكلەر"
+
+#: bb-admin/includes/functions.bb-admin.php:88
+msgid "General"
+msgstr "ئاساسىي"
+
+#: bb-admin/includes/functions.bb-admin.php:90
+msgid "Writing"
+msgstr "يېزىش"
+
+#: bb-admin/includes/functions.bb-admin.php:91
+msgid "Reading"
+msgstr "ئوقۇش"
+
+#: bb-admin/includes/functions.bb-admin.php:92
+msgid "Discussion"
+msgstr "مۇھاكىمە"
+
+#: bb-admin/includes/functions.bb-admin.php:93
+msgid "Permalinks"
+msgstr "مۇقىم ئۇلانمىلار"
+
+#: bb-admin/includes/functions.bb-admin.php:94
+msgid "WordPress Integration"
+msgstr "ۋوردپرەسكە باغلاش"
+
+#: bb-admin/includes/functions.bb-admin.php:220
+#: bb-admin/options-wordpress.php:249
+#: bb-includes/functions.bb-core.php:1082
+msgid "bbPress"
+msgstr "bbPress"
+
+#: bb-admin/includes/functions.bb-admin.php:399
+#: bb-admin/includes/functions.bb-admin.php:865
+#: bb-admin/includes/functions.bb-admin.php:1085
+#: bb-admin/topics.php:125
+msgid "View"
+msgstr "كۆرۈش"
+
+#: bb-admin/includes/functions.bb-admin.php:401
+#: bb-admin/includes/functions.bb-admin.php:867
+#: bb-includes/functions.bb-core.php:811
+#: bb-includes/functions.bb-template.php:1930
+msgid "Edit"
+msgstr "تەھرىرلەش"
+
+#: bb-admin/includes/functions.bb-admin.php:414
+#: bb-admin/includes/functions.bb-admin.php:1119
+#: bb-admin/topics.php:144
+#: bb-admin/topics.php:153
+#, php-format
+msgid "%s ago"
+msgstr "%s بۇرۇن"
+
+#: bb-admin/includes/functions.bb-admin.php:424
+msgid "Inactive (no role)"
+msgstr "قوزغىتىلمىغان (دەرىجىسى يوق)"
+
+#: bb-admin/includes/functions.bb-admin.php:436
+msgid "None"
+msgstr "يوق"
+
+#: bb-admin/includes/functions.bb-admin.php:504
+#: bb-admin/includes/functions.bb-admin.php:686
+msgid "<strong>No matching users were found!</strong>"
+msgstr "<strong>ماس كېلىدىغان قوللانچى تېپىلمىدى!</strong>"
+
+#: bb-admin/includes/functions.bb-admin.php:517
+#: bb-admin/posts.php:83
+#: bb-admin/topics.php:70
+#, php-format
+msgid "%1$s to %2$s of %3$s"
+msgstr ""
+
+#: bb-admin/includes/functions.bb-admin.php:555
+#, php-format
+msgid "Users Matching \"%s\" by Role"
+msgstr "دەرىجە بويىچە \"%s\" غا ماس كېلىدىغان قوللانچىلار"
+
+#: bb-admin/includes/functions.bb-admin.php:565
+#: bb-admin/posts.php:54
+#: bb-admin/topics.php:48
+#, php-format
+msgid "containing &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221; نى ئۆز ئىچىگە ئالغان"
+
+#: bb-admin/includes/functions.bb-admin.php:566
+#, php-format
+msgid "with role &#8220;%s&#8221;"
+msgstr "دەرىجىسى &#8220;%s&#8221; بولغان"
+
+#: bb-admin/includes/functions.bb-admin.php:569
+#, php-format
+msgid "%1$s%2$s"
+msgstr "%1$s%2$s"
+
+#: bb-admin/includes/functions.bb-admin.php:581
+#: bb-includes/class.bb-query.php:936
+msgid "Search term"
+msgstr "ئىزدىلىدىغان ئاتالغۇ"
+
+#: bb-admin/includes/functions.bb-admin.php:585
+#: bb-admin/includes/functions.bb-admin.php:634
+#: bb-admin/includes/functions.bb-admin.php:648
+msgid "Role"
+msgstr "دەرىجىسى"
+
+#: bb-admin/includes/functions.bb-admin.php:605
+#: bb-includes/class.bb-query.php:1017
+#: bb-templates/kakumei/rss2.php:18
+#: bb-templates/kakumei/search.php:3
+msgid "Search"
+msgstr "ئىزدەش"
+
+#: bb-admin/includes/functions.bb-admin.php:606
+#: bb-admin/posts.php:77
+#: bb-admin/topics.php:64
+msgid "Filter"
+msgstr "سۈزۈش"
+
+#: bb-admin/includes/functions.bb-admin.php:626
+#: bb-admin/includes/functions.bb-admin.php:630
+#: bb-admin/includes/functions.bb-admin.php:640
+#: bb-admin/includes/functions.bb-admin.php:644
+#: bb-templates/kakumei/login-form.php:14
+#: bb-templates/kakumei/login.php:17
+#: bb-templates/kakumei/login.php:59
+#: bb-templates/kakumei/register.php:25
+msgid "Username"
+msgstr "قوللانچى نامى"
+
+#: bb-admin/includes/functions.bb-admin.php:627
+#: bb-admin/includes/functions.bb-admin.php:631
+#: bb-admin/includes/functions.bb-admin.php:641
+#: bb-admin/includes/functions.bb-admin.php:645
+#: bb-admin/includes/functions.bb-admin.php:907
+msgid "Name"
+msgstr "ئىسىم"
+
+#: bb-admin/includes/functions.bb-admin.php:628
+#: bb-admin/includes/functions.bb-admin.php:642
+msgid "E-mail"
+msgstr "ئېلخەت"
+
+#: bb-admin/includes/functions.bb-admin.php:633
+#: bb-admin/includes/functions.bb-admin.php:647
+msgid "Registered"
+msgstr "تىزىملاتقان ۋاقتى"
+
+#: bb-admin/includes/functions.bb-admin.php:869
+#: bb-admin/topics.php:128
+#: bb-includes/functions.bb-template.php:1987
+msgid "Delete"
+msgstr "ئۆچۈرۈش"
+
+#: bb-admin/includes/functions.bb-admin.php:896
+msgid "Edit Forum"
+msgstr "مۇنبەرنى تەھرىرلەش"
+
+#: bb-admin/includes/functions.bb-admin.php:897
+#: bb-admin/options-discussion.php:123
+#: bb-admin/options-general.php:236
+#: bb-admin/options-permalinks.php:164
+#: bb-admin/options-reading.php:61
+#: bb-admin/options-wordpress.php:183
+#: bb-admin/options-wordpress.php:303
+#: bb-admin/options-writing.php:78
+#: bb-plugins/akismet.php:95
+msgid "Save Changes"
+msgstr "ئۆزگەرتىشلەرنى ساقلاش"
+
+#: bb-admin/includes/functions.bb-admin.php:900
+#: bb-admin/includes/functions.bb-admin.php:901
+msgid "Add Forum"
+msgstr "مۇنبەر قوشۇش"
+
+#: bb-admin/includes/functions.bb-admin.php:911
+msgid "Slug"
+msgstr "باشقا نام"
+
+#: bb-admin/includes/functions.bb-admin.php:915
+#: bb-admin/plugins.php:186
+#: bb-admin/plugins.php:192
+msgid "Description"
+msgstr "چۈشەندۈرۈش"
+
+#: bb-admin/includes/functions.bb-admin.php:920
+msgid "Parent"
+msgstr "ئانا مۇنبەر"
+
+#: bb-admin/includes/functions.bb-admin.php:932
+msgid "Position"
+msgstr "ئورۇن"
+
+#: bb-admin/includes/functions.bb-admin.php:937
+msgid "Category"
+msgstr "كاتېگورىيە"
+
+#: bb-admin/includes/functions.bb-admin.php:941
+msgid "Make this forum a category"
+msgstr "بۇ مۇنبەرنى بىر كاتېگورىيە قىلىش"
+
+#: bb-admin/includes/functions.bb-admin.php:945
+msgid "Categories are forums where new topics cannot be created. Categories usually contain a group of sub-forums."
+msgstr "يېڭى تېمىلارنى قۇرغىلى بولمىغان جايلاردا كاتېگورىيىلەر مۇنبەر بولىدۇ. كاتېگورىيىلەر ئادەتتە بىر گۇرۇپپا قىسمىي مۇنبەرلەرنى ئۆز ئىچىگە ئالىدۇ."
+
+#: bb-admin/includes/functions.bb-admin.php:1055
+#: xmlrpc.php:1700
+#: xmlrpc.php:2299
+msgid "No posts found."
+msgstr "يازما تېپىلمىدى."
+
+#: bb-admin/includes/functions.bb-admin.php:1062
+#: bb-admin/includes/functions.bb-admin.php:1070
+#: bb-templates/kakumei/post-form.php:9
+msgid "Post"
+msgstr "يازما"
+
+#: bb-admin/includes/functions.bb-admin.php:1063
+#: bb-admin/includes/functions.bb-admin.php:1071
+#: bb-admin/topics.php:102
+#: bb-admin/topics.php:111
+msgid "Author"
+msgstr "ئاپتور"
+
+#: bb-admin/includes/functions.bb-admin.php:1064
+#: bb-admin/includes/functions.bb-admin.php:1072
+#: bb-admin/topics.php:101
+#: bb-admin/topics.php:110
+#: bb-templates/kakumei/favorites.php:16
+#: bb-templates/kakumei/forum.php:9
+#: bb-templates/kakumei/front-page.php:17
+#: bb-templates/kakumei/tag-single.php:11
+#: bb-templates/kakumei/view.php:9
+msgid "Topic"
+msgstr "تېما"
+
+#: bb-admin/includes/functions.bb-admin.php:1065
+#: bb-admin/includes/functions.bb-admin.php:1073
+#: bb-admin/topics.php:104
+#: bb-admin/topics.php:113
+msgid "Date"
+msgstr "چېسلا"
+
+#: bb-admin/includes/functions.bb-admin.php:1139
+msgid "Count posts of every topic"
+msgstr "ھەر بىر تېمىدىكى يازما سانالسۇن"
+
+#: bb-admin/includes/functions.bb-admin.php:1140
+msgid "Count voices of every topic"
+msgstr "ھەر بىر تېمىدىكى ئاۋاز سانالسۇن"
+
+#: bb-admin/includes/functions.bb-admin.php:1141
+msgid "Count deleted posts on every topic"
+msgstr "ھەر بىر يازمىدىكى ئۆچۈرۈلگەن يازما سانالسۇن"
+
+#: bb-admin/includes/functions.bb-admin.php:1142
+msgid "Count topics and posts in every forum"
+msgstr "ھەر بىر مۇنبەردىكى تېما ۋە يازما سانالسۇن"
+
+#: bb-admin/includes/functions.bb-admin.php:1143
+msgid "Count topics to which each user has replied"
+msgstr "ھەر بىر قوللانچى جاۋاب يازغان تېما سانالسۇن"
+
+#: bb-admin/includes/functions.bb-admin.php:1144
+msgid "Count tags for every topic"
+msgstr "ھەر بىر تېمىدىكى خەتكۈچ سانالسۇن"
+
+#: bb-admin/includes/functions.bb-admin.php:1145
+msgid "Count topics for every tag"
+msgstr "ھەر بىر خەتكۈچ ئۈچۈن تېما سانالسۇن"
+
+#: bb-admin/includes/functions.bb-admin.php:1146
+msgid "Delete tags with no topics"
+msgstr "تېمىغا ئىشلىتىلمىگەن خەتكۈچلەر ئۆچۈرۈۋېتىلسۇن"
+
+#: bb-admin/includes/functions.bb-admin.php:1147
+msgid "Remove deleted topics from users' favorites"
+msgstr "ئۆچۈرۈلگەن تېمىلار قوللانچى ساقلانمىسىدىنمۇ ئۆچۈرۈۋېتىلسۇن"
+
+#: bb-admin/includes/functions.bb-admin.php:1217
+#: bb-admin/includes/functions.bb-plugin.php:307
+msgid "Visit author homepage"
+msgstr "ئاپتورنىڭ تور بېتىنى زىيارەت قىلىش"
+
+#: bb-admin/includes/functions.bb-admin.php:1227
+msgid "Visit porter homepage"
+msgstr "porter باش بېتىنى زىيارەت قىلىش"
+
+#: bb-admin/includes/functions.bb-plugin.php:304
+#: bb-admin/plugins.php:228
+msgid "Visit plugin site"
+msgstr "قىستۇرما بېتىنى كۆرۈش"
+
+#: bb-admin/includes/functions.bb-plugin.php:430
+msgid "Invalid plugin path."
+msgstr "قىستۇرما ئادرېسى ئىناۋەتسىز."
+
+#: bb-admin/includes/functions.bb-plugin.php:434
+msgid "Plugin file does not exist."
+msgstr "قىستۇرما ھۆججىتى مەۋجۇت ئەمەس."
+
+#: bb-admin/includes/functions.bb-plugin.php:437
+msgid "That type of plugin is not available in the specified location."
+msgstr "كۆرسىتىلگەن ئورۇندا ئۇنداق تىپتىكى قىستۇرما يوق ئىكەن."
+
+#: bb-admin/index.php:6
+#, php-format
+msgid "<span>%d</span> forum"
+msgid_plural "<span>%d</span> forums"
+msgstr[0] "<span>%d</span> مۇنبەر"
+msgstr[1] "<span>%d</span> مۇنبەر"
+
+#: bb-admin/index.php:9
+#: bb-admin/index.php:21
+#, php-format
+msgid "<span>%d</span> topic"
+msgid_plural "<span>%d</span> topics"
+msgstr[0] "<span>%d</span> تېما"
+msgstr[1] "<span>%d</span> تېما"
+
+#: bb-admin/index.php:12
+#: bb-admin/index.php:24
+#, php-format
+msgid "<span>%d</span> post"
+msgid_plural "<span>%d</span> posts"
+msgstr[0] "<span>%d</span> يازما"
+msgstr[1] "<span>%d</span> يازما"
+
+#: bb-admin/index.php:15
+#: bb-admin/index.php:27
+#, php-format
+msgid "<span>%d</span> user"
+msgid_plural "<span>%d</span> users"
+msgstr[0] "<span>%d</span> قوللانچى"
+msgstr[1] "<span>%d</span> قوللانچى"
+
+#: bb-admin/index.php:18
+#: bb-admin/index.php:30
+#, php-format
+msgid "<span>%d</span> tag"
+msgid_plural "<span>%d</span> tags"
+msgstr[0] "<span>%d</span> خەتكۈچ"
+msgstr[1] "<span>%d</span> خەتكۈچ"
+
+#: bb-admin/index.php:42
+msgid "Right Now"
+msgstr "نۆۋەتتىكى ھالەت"
+
+#: bb-admin/index.php:47
+msgid "Totals"
+msgstr "جەمئىي"
+
+#: bb-admin/index.php:48
+msgid "Per Day"
+msgstr "كۈندىلىك"
+
+#: bb-admin/index.php:77
+msgid "Change Theme"
+msgstr "ئۇسلۇب ئۆزگەرتىش"
+
+#: bb-admin/index.php:77
+#, php-format
+msgid "Theme <a href=\"%1$s\">%2$s</a>"
+msgstr "ئۇسلۇب <a href=\"%1$s\">%2$s</a>"
+
+#: bb-admin/index.php:78
+#, php-format
+msgid "You are using <span class=\"b\">bbPress %s</span>"
+msgstr "ئىشلىتىۋاتقىنىڭىز <span class=\"b\">bbPress %s نەشرى</span>"
+
+#: bb-admin/index.php:83
+msgid "Recently Moderated Items"
+msgstr "يېقىندا تەستىقلانغان تۈرلەر"
+
+#: bb-admin/index.php:91
+#, php-format
+msgid "<a href=\"%1$s\">Post</a> on <a href=\"%2$s\">%3$s</a> by <a href=\"%4$s\">%5$s</a>"
+msgstr "<a href=\"%1$s\">يوللانغان</a> :ۋاقىت <a href=\"%2$s\">%3$s</a> ئاپتور: <a href=\"%4$s\">%5$s</a>"
+
+#: bb-admin/index.php:104
+#, php-format
+msgid "Topic titled <a href=\"%1$s\">%2$s</a> started by <a href=\"%3$s\">%4$s</a>"
+msgstr "<a href=\"%1$s\">%2$s</a> ماۋزۇسىدىكى تېما <a href=\"%3$s\">%4$s</a> تەرىپىدىن باشلاندى"
+
+#: bb-admin/index.php:116
+msgid "No moderated posts or topics&#8230; you must have very well behaved members."
+msgstr "تەستىقلانغان يازما ياكى تېما يوق&#8230; ئەزالىرىڭىز ئاكتىپ ھەم ئەستايىدىل بولۇشى كېرەك."
+
+#: bb-admin/install.php:167
+#: bb-admin/options-wordpress.php:197
+msgid "Cookies"
+msgstr "Cookies"
+
+#: bb-admin/install.php:168
+msgid "Integrating cookies allows you and your users to login to either your bbPress or your WordPress site and be automatically logged into both."
+msgstr ""
+
+#: bb-admin/install.php:169
+msgid "You may need to make changes to your WordPress configuration once installation is complete. See the \"WordPress Integration\" section of the bbPress administration area when you are done."
+msgstr ""
+
+#: bb-admin/install.php:189
+#: bb-admin/options-wordpress.php:271
+msgid "User database"
+msgstr "قوللانچى ساندانى"
+
+#: bb-admin/install.php:190
+msgid "Integrating your WordPress database user tables allows you to store user data in one location, instead of having separate user data for both bbPress and WordPress."
+msgstr ""
+
+#: bb-admin/install.php:199
+#: bb-admin/options-wordpress.php:290
+msgid "Separate user database settings"
+msgstr "قوللانچى ساندان تەڭشەكلىرىنى ئايرىش"
+
+#: bb-admin/install.php:200
+#: bb-admin/options-wordpress.php:291
+msgid "Most of the time these settings are <em>not</em> required. Look before you leap!"
+msgstr "كۆپ ۋاقىتلاردا بۇ تەڭشەكلەر زۆرۈر <em>ئەمەس</em>. ئايرىلىشتىن بۇرۇن تەكشۈرۈپ بېقىڭ!"
+
+#: bb-admin/install.php:201
+msgid "If required, then all settings except for the character set must be specified."
+msgstr "تەلەپ قىلىنسا، كودلىنىشتىن باشقا بارلىق تەڭشەكلەر كۆرسىتىلىشى كېرەك."
+
+#: bb-admin/install.php:212
+#: bb-admin/options-wordpress.php:296
+msgid "Custom user tables"
+msgstr "ئۆزى بەلگىلىگەن قوللانچى جەدۋىلى"
+
+#: bb-admin/install.php:213
+msgid "Only set these options if your integrated user tables do not fit the usual mould of <em>wp_user</em> and <em>wp_usermeta</em>."
+msgstr ""
+
+#: bb-admin/install.php:357
+msgid "You can now log in with the following details:"
+msgstr "تۆۋەندىكى تەپسىلاتلار بويىچە تىزىملىتىپ كىرسىڭىز بولىدۇ:"
+
+#: bb-admin/install.php:363
+msgid "Site address:"
+msgstr "تور بەت ئادرېسى:"
+
+#: bb-admin/install.php:369
+msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you. If you lose it, you will have to delete the tables from the database yourself, and re-install bbPress."
+msgstr ""
+
+#: bb-admin/options-discussion.php:38
+#: bb-admin/options-general.php:31
+#: bb-admin/options-reading.php:28
+#: bb-admin/options-writing.php:33
+#: bb-plugins/akismet.php:147
+msgid "<strong>Settings saved.</strong>"
+msgstr "<strong>تەڭشەكلەر ساقلاندى.</strong>"
+
+#: bb-admin/options-discussion.php:43
+msgid "Enable Pingbacks"
+msgstr "Pingback كە رۇخسەت"
+
+#: bb-admin/options-discussion.php:46
+msgid "Allow link notifications from other sites."
+msgstr "باشقا تور بەتلەردىن ئۇلانغانلىق ئۇقتۇرۇشى تاپشۇرۇۋېلىشقا رۇخسەت قىلىنسۇن."
+
+#: bb-admin/options-discussion.php:55
+msgid "Avatar display"
+msgstr "باش سۈرەتنى كۆرسىتىش"
+
+#: bb-admin/options-discussion.php:58
+msgid "Don&#8217;t show avatars"
+msgstr "باش سۈرەت كۆرسىتىلمىسۇن"
+
+#: bb-admin/options-discussion.php:59
+msgid "Show avatars"
+msgstr "باش سۈرەت كۆرسىتىلسۇن"
+
+#: bb-admin/options-discussion.php:63
+msgid "Maximum rating"
+msgstr "ماكسىمۇم دەرىجىسى"
+
+#: bb-admin/options-discussion.php:66
+msgid "G &#8212; Suitable for all audiences"
+msgstr "G &#8212; ئادەتتىكى دەرىجە، ھەر قانداق ياشتىكىلەر كۆرەلەيدۇ"
+
+#: bb-admin/options-discussion.php:67
+msgid "PG &#8212; Possibly offensive, usually for audiences 13 and above"
+msgstr "PG &#8212; كىشىنى بىئارام قىلىدىغان سۈرەت، 13 ياشتىن ئاشقانلارلا كۆرەلەيدۇ"
+
+#: bb-admin/options-discussion.php:68
+msgid "R &#8212; Intended for adult audiences above 17"
+msgstr "R &#8212;17 ياشتىن ئاشقان قۇرامىغا يەتكەنلەرگە ماس كېلىدۇ"
+
+#: bb-admin/options-discussion.php:69
+msgid "X &#8212; Even more mature than above"
+msgstr "X &#8212; ئەڭ يۇقىرى دەرىجە، كۆپلىگەن كىشىلەرنىڭ كۆرۈشىگە ماس كەلمەيدۇ"
+
+#: bb-admin/options-discussion.php:73
+msgid "Default avatar"
+msgstr "كۆڭۈلدىكى باش سۈرەت"
+
+#: bb-admin/options-discussion.php:76
+msgid "Mystery Man"
+msgstr "سىرلىق ئادەم"
+
+#: bb-admin/options-discussion.php:77
+msgid "Blank"
+msgstr "قۇرۇق"
+
+#: bb-admin/options-discussion.php:78
+msgid "Gravatar Logo"
+msgstr "Gravatar تۇغى"
+
+#: bb-admin/options-discussion.php:79
+msgid "Identicon (Generated)"
+msgstr "كىرىشتۈرۈلمە سۈرەت (ئاپتوماتىك)"
+
+#: bb-admin/options-discussion.php:80
+msgid "Wavatar (Generated)"
+msgstr "Wavatar (ئاپتوماتىك)"
+
+#: bb-admin/options-discussion.php:81
+msgid "MonsterID  (Generated)"
+msgstr "غەلىتە مەخلۇقچاق (ئاپتوماتىك)"
+
+#: bb-admin/options-discussion.php:84
+msgid "For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their e-mail address."
+msgstr "ئۆزىنىڭ كارتون باش رەسىمى بولمىغان قوللانچىلار ئۈچۈن سىز بىر ئۇنىۋېرسال باش رەسىمى ياكى ئۇلارنىڭ ئېلخەت ئادرېسىغا ئاساسەن ھاسىل قىلىنغان باش رەسىمىنى كۆرسەتسىڭىز بولىدۇ."
+
+#: bb-admin/options-discussion.php:98
+msgid "Discussion Settings"
+msgstr "مۇھاكىمە تەڭشەكلىرى"
+
+#: bb-admin/options-discussion.php:110
+msgid "Avatars"
+msgstr "باش سۈرەتلەر"
+
+#: bb-admin/options-discussion.php:112
+msgid "bbPress includes built-in support for <a href=\"http://gravatar.com/\">Gravatars</a>. A Gravatar is an image that follows you from site to site, appearing beside your name when you comment on Gravatar enabled sites. Here you can enable the display of Gravatars on your site."
+msgstr "bbPress ئۆزىدە <a href=\"http://gravatar.com/\">Gravatars</a> نى قوللاش ئىقتىدارى بار. Gravatar (باش سۈرەت) بولسا باش سۈرەتنى كۆرسىتىش ئىقتىدارى ئېچىلغان تور بەتلەردە ئىنكاس يازغىنىڭىزدا ئىسمىڭىزنىڭ يان تەرىپىدە چىقىپ تۇرىدىغان باش سۈرىتى بولۇپ، بۇ يەردە ئۆز تور بېتىڭىزنىڭ باش سۈرەت كۆرسىتىش ئىقتىدارىنى ئاچالايسىز."
+
+#: bb-admin/options-general.php:36
+msgid "Site title"
+msgstr "تور بەت تېمىسى"
+
+#: bb-admin/options-general.php:40
+msgid "Tagline"
+msgstr "بلوگ يانداش تېمىسى"
+
+#: bb-admin/options-general.php:42
+msgid "In a few words, explain what this site is about."
+msgstr "بۇ بلوگ ھەققىدە ئىككى كەلىمە چۈشەندۈرۈش بېرىڭ."
+
+#: bb-admin/options-general.php:45
+msgid "bbPress address (URL)"
+msgstr "bbPress ئادرېسى (URL)"
+
+#: bb-admin/options-general.php:47
+msgid "The full URL of your bbPress install."
+msgstr "bbPress قاچىلانغان تولۇق ئادرېس."
+
+#: bb-admin/options-general.php:50
+msgid "E-mail address"
+msgstr "ئېلخەت ئادرېسى"
+
+#: bb-admin/options-general.php:51
+msgid "This address is used for admin purposes, like new user notification."
+msgstr "بۇ ئادرېس پەقەت باشقۇرغۇچى ئۈچۈنلا، يېڭى قوللانچىدىن خەۋەر بېرىش قاتارلىقلاردا ئىشلىتىلىدۇ."
+
+#: bb-admin/options-general.php:57
+#: bb-admin/options-general.php:161
+msgid "Time zone"
+msgstr "ۋاقىت رايونى"
+
+#: bb-admin/options-general.php:116
+msgid "hours"
+msgstr "سائەت"
+
+#: bb-admin/options-general.php:119
+msgid "Date and time format"
+msgstr "چېسلا ۋە ۋاقىت ئىپادىلىنىشى"
+
+#: bb-admin/options-general.php:124
+msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>."
+msgstr "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">چېسلا ئىپادىلەشكە مۇناسىۋەتلىك ئارخىپلار</a>."
+
+#: bb-admin/options-general.php:125
+msgid "Click \"Save Changes\" to update sample output."
+msgstr "ئۈلگە كۆرسەتمىنى يېڭىلاش ئۈچۈن «ئۆزگەرتىشلەرنى ساقلاش» نى چېكىڭ"
+
+#: bb-admin/options-general.php:129
+msgid "Date format"
+msgstr "چېسلا ئىپادىلىنىشى"
+
+#: bb-admin/options-general.php:165
+msgid "Choose a city in the same time zone as you."
+msgstr "ئۆز ۋاقىت رايونىڭىزدىكى بىر شەھەرنى تاللاڭ."
+
+#: bb-admin/options-general.php:166
+#: bb-admin/options-general.php:201
+#, php-format
+msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is <code>%s</code>"
+msgstr "نۆۋەتتىكى <abbr title=\"خەلقئارا ئۆلچەملىك ۋاقىت\">خەلقئارا ئۆلچەملىك ۋاقىت</abbr>: <code>%s</code>"
+
+#: bb-admin/options-general.php:167
+#, php-format
+msgid "Local time is <code>%s</code>"
+msgstr "يەرلىك ۋاقىت: <code>%s</code>"
+
+#: bb-admin/options-general.php:174
+msgid "This time zone is currently in daylight savings time."
+msgstr "نۆۋەتتە بۇ ۋاقىت رايونىدا يازلىق ۋاقىت ئىشلىتىلمەكتە."
+
+#: bb-admin/options-general.php:176
+msgid "This time zone is currently in standard time."
+msgstr "نۆۋەتتە بۇ ۋاقىت رايونىدا ئۆلچەملىك ۋاقىت ئىشلىتىلمەكتە."
+
+#: bb-admin/options-general.php:184
+#, php-format
+msgid "Daylight savings time begins on <code>%s</code>"
+msgstr "يازلىق ۋاقىتنىڭ باشلىنىش ۋاقتى: <code>%s</code>"
+
+#: bb-admin/options-general.php:184
+#, php-format
+msgid "Standard time begins on <code>%s</code>"
+msgstr "ئۆلچەملىك ۋاقىتنىڭ باشلىنىش ۋاقتى: <code>%s</code>"
+
+#: bb-admin/options-general.php:196
+#, php-format
+msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> %s is <code>%s</code>"
+msgstr "<abbr title=\"خەلقئارا ئۆلچەملىك ۋاقىت\">خەلقئارا ئۆلچەملىك ۋاقىت</abbr>%s: <code>%s</code>"
+
+#: bb-admin/options-general.php:197
+msgid "Unfortunately, you have to manually update this for Daylight Savings Time."
+msgstr "ئەپسۇسلىنارلىقى شۇكى، يازلىق ۋاقىت ئۈچۈن بۇ يېڭىلاشنى قولدا قىلىشىڭىز كېرەك."
+
+#: bb-admin/options-general.php:206
+#: bb-includes/backpress/functions.core.php:985
+#, php-format
+msgid "UTC %s"
+msgstr "UTC %s"
+
+#: bb-admin/options-general.php:219
+msgid "General Settings"
+msgstr "ئاساسلىق تەڭشەكلەر"
+
+#: bb-admin/options-permalinks.php:111
+msgid "<strong>It appears that your server does not support custom permalink structures.</strong>"
+msgstr ""
+
+#: bb-admin/options-permalinks.php:116
+msgid "<strong>Rewriting on webservers other than Apache using mod_rewrite is currently unsupported, but we won&#8217;t stop you from trying.</strong>"
+msgstr ""
+
+#: bb-admin/options-permalinks.php:121
+msgid "<strong>You should update your .htaccess now.</strong>"
+msgstr "<strong>.htaccess ھۆججىتىڭىزنى ھازىرلا يېڭىلىشىڭىز كېرەك.</strong>"
+
+#: bb-admin/options-permalinks.php:123
+msgid "<strong>Permalink structure updated.</strong>"
+msgstr "<strong>مۇقىم ئۇلانما قۇرۇلمىسى يېڭىلاندى.</strong>"
+
+#: bb-admin/options-permalinks.php:129
+msgid "Permalink type"
+msgstr "مۇقىم ئۇلانما تىپى"
+
+#: bb-admin/options-permalinks.php:132
+#, php-format
+msgid "<span>None</span> <code>%s</code>"
+msgstr "<span>يوق</span> <code>%s</code>"
+
+#: bb-admin/options-permalinks.php:133
+#, php-format
+msgid "<span>Numeric</span> <code>%s</code>"
+msgstr "<span>سان</span> <code>%s</code>"
+
+#: bb-admin/options-permalinks.php:134
+#, php-format
+msgid "<span>Name based</span> <code>%s</code>"
+msgstr "<span>ئىسىم ئاساسىدا</span> <code>%s</code>"
+
+#: bb-admin/options-permalinks.php:147
+msgid "Permalink Settings"
+msgstr "مۇقىم ئۇلانما تەڭشەكلىرى"
+
+#: bb-admin/options-permalinks.php:153
+msgid "By default bbPress uses web URLs which have question marks and lots of numbers in them, however bbPress offers you the ability to choose an alternative URL structure for your permalinks. This can improve the aesthetics, usability, and forward-compatibility of your links."
+msgstr "ئادەتتە bbPress سوئال بەلگىسى ۋە نۇرغۇن رەقەملەردىن تەركىب تاپقان ئادرېسلارنى ئىشلەتسىمۇ، لېكىن مۇقىم ئۇلانما ۋە ئارخىپلار ئۈچۈن ئادرېس قۇرۇلمىسىنى ئۆزى بەلگىلەشكىمۇ رۇخسەت قىلىدۇ. بۇ ئارقىلىق ئۇلانمىلارنى تېخىمۇ يېقىملىق كۆرۈنىدىغان قىلغىلى ۋە تېخىمۇ ياخشى ئىشلەتكىلى، ۋارسلىق قىلغىلى بولىدۇ."
+
+#: bb-admin/options-permalinks.php:174
+msgid "If your <code>.htaccess</code> file were <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so these are the mod_rewrite rules you should have in your <code>.htaccess</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all."
+msgstr "ئەگەر <code>.htaccess</code> ھۆججىتىڭىز <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">يېزىش ھالىتىدە بولسا</a> بىز بۇنى ئاپتوماتىك ئورۇنلايمىز. لېكىن ھازىر ئۇنداق ھالەتتە ئەمەسكەن. تۆۋەندىكىلەر <code>.htaccess</code> ھۆججىتىدە بولۇشقا تېگىشلىك mod_rewrite قائىدىلىرى. ھەممىنى تاللاش ئۈچۈن رامكا ئۈستىدە مائۇسنى بىر چېكىپ <kbd>CTRL + a</kbd> كۇنۇپكىسىنى بېسىڭ."
+
+#: bb-admin/options-reading.php:33
+msgid "Items per page"
+msgstr "ھەر بەتتىكى تۈر سانى"
+
+#: bb-admin/options-reading.php:35
+msgid "Number of topics, posts or tags to show per page."
+msgstr "ھەر بەتتە كۆرسىتىلىدىغان تېما، يازما ياكى خەتكۈچ سانى."
+
+#: bb-admin/options-reading.php:47
+msgid "Reading Settings"
+msgstr "ئوقۇش تەڭشەكلىرى"
+
+#: bb-admin/options-wordpress.php:45
+msgid "<strong>User role mapping saved.</strong>"
+msgstr "<strong>قوللانچى دەرىجىسى خەرىتىسى ساقلاندى.</strong>"
+
+#: bb-admin/options-wordpress.php:48
+msgid "<strong>User integration settings saved.</strong>"
+msgstr "<strong>قوللانچى بىرلەشتۈرۈش تەڭشەكلىرى ساقلاندى.</strong>"
+
+#: bb-admin/options-wordpress.php:54
+msgid "none|no bbPress role"
+msgstr "يوق"
+
+#: bb-admin/options-wordpress.php:58
+msgid "WordPress Administrator"
+msgstr "ۋوردپرەس باشقۇرغۇچىسى"
+
+#: bb-admin/options-wordpress.php:59
+msgid "WordPress Editor"
+msgstr "ۋوردپرەس تەھرىرى"
+
+#: bb-admin/options-wordpress.php:60
+msgid "WordPress Author"
+msgstr "ۋوردپرەس ئاپتورى"
+
+#: bb-admin/options-wordpress.php:61
+msgid "WordPress Contributor"
+msgstr "ۋوردپرەس يازغۇچىسى"
+
+#: bb-admin/options-wordpress.php:62
+msgid "WordPress Subscriber"
+msgstr "ۋوردپرەس مۇشتەرىسى"
+
+#: bb-admin/options-wordpress.php:78
+msgid "This must match the value of the WordPress setting named \"auth_salt\" in your WordPress site. Look for the option labeled \"auth_salt\" in <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:82
+msgid "This must match the value of the WordPress setting named \"secure_auth_salt\" in your WordPress site. Look for the option labeled \"secure_auth_salt\" in <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. Sometimes this value is not set in WordPress, in that case you can leave this setting blank as well."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:86
+msgid "This must match the value of the WordPress setting named \"logged_in_salt\" in your WordPress site. Look for the option labeled \"logged_in_salt\" in <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:93
+#, php-format
+msgid "You have defined the \"%s\" constant which locks this setting."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:170
+msgid "WordPress Integration Settings"
+msgstr "ۋوردپرەس باغلاش تەڭشەكلىرى"
+
+#: bb-admin/options-wordpress.php:175
+msgid "User Role Map"
+msgstr "قوللانچىنىڭ دەرىجىسى"
+
+#: bb-admin/options-wordpress.php:176
+msgid "Here you can match WordPress roles to bbPress roles."
+msgstr "بۇ يەردە ۋوردپرەس دەرىجىلىرىنى bbPress دەرىجىلىرى بىلەن ماسلاشتۇرسىڭىز بولىدۇ."
+
+#: bb-admin/options-wordpress.php:177
+msgid "This will have no effect until your user tables are integrated below. Only standard WordPress roles are supported. Changes do not affect users with existing roles in both WordPress and bbPress."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:190
+msgid "User Integration"
+msgstr "قوللانچى بىرلەشتۈرۈش"
+
+#: bb-admin/options-wordpress.php:191
+msgid "Usually, you will have to specify both cookie integration and user database integration settings. Make sure you have a \"User role map\" setup above before trying to add user integration."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:192
+msgid "<em><strong>Note:</strong> changing the settings below may cause you to be logged out!</em>"
+msgstr "<em><strong>ئەسكەرتمە:</strong> تۆۋەندىكى تەڭشەكلەر ئۆزگەرتىلىشى بىلەن سىز چىقىپ كېتىشىڭىز مۇمكىن!</em>"
+
+#: bb-admin/options-wordpress.php:198
+msgid "Cookie sharing allows users to log in to either your bbPress or your WordPress site, and have access to both."
+msgstr "Cookie نى ئورتاق ئىشلەتكەندە bbPress كە ياكى ۋوردپرەسكە ياكى ھەر ئىككىسىگە تەڭلا كىرىشكە مۇمكىن بولىدۇ."
+
+#: bb-admin/options-wordpress.php:242
+#, php-format
+msgid "To complete cookie integration, you will need to add some settings to your <code>wp-config.php</code> file in the root directory of your WordPress installation. To get those settings, you will need to install and configure the <a href=\"%s\">\"bbPress Integration\" plugin for WordPress</a>."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:243
+msgid "You will also have to manually ensure that the following constants are equivalent in WordPress' and bbPress' respective config files."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:247
+msgid "WordPress"
+msgstr "ۋوردپرەس"
+
+#: bb-admin/options-wordpress.php:272
+msgid "User database sharing allows you to store user data in your WordPress database."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:273
+msgid "You should setup a \"User role map\" before"
+msgstr "ئاۋال «قوللانچى دەرىجە خەرىتىسى» نى قاچىلىشىڭىز كېرەك"
+
+#: bb-admin/options-wordpress.php:292
+msgid "All settings except for the character set must be specified."
+msgstr ""
+
+#: bb-admin/options-wordpress.php:297
+msgid "Only set these values if your user tables differ from the default WordPress naming convention."
+msgstr ""
+
+#: bb-admin/options-writing.php:38
+msgid "Lock post editing after"
+msgstr "يازمىنىڭ تەھرىرلەش ۋاقىت چېكى:"
+
+#: bb-admin/options-writing.php:40
+msgid "minutes"
+msgstr "مىنۇت"
+
+#: bb-admin/options-writing.php:41
+msgid "A user can edit a post for this many minutes after submitting."
+msgstr "قوللانچى يازمىنى يوللاپ شۇنچىلىك ۋاقىتتىن كېيىن تەھرىرلىيەلەيدۇ."
+
+#: bb-admin/options-writing.php:47
+msgid "XML-RPC"
+msgstr "XML-RPC"
+
+#: bb-admin/options-writing.php:50
+msgid "Enable the bbPress XML-RPC publishing protocol."
+msgstr "bbPress XML-RPC ئېلان قىلىش كېلىشىمى ئىشلىتىلسۇن."
+
+#: bb-admin/options-writing.php:63
+msgid "Writing Settings"
+msgstr "يېزىش تەڭشەكلىرى"
+
+#: bb-admin/options-writing.php:69
+msgid "Remote Publishing"
+msgstr "يىراقتا تۇرۇپ ئېلان قىلىش"
+
+#: bb-admin/options-writing.php:71
+msgid "To interact with bbPress from a desktop client or remote website that uses the XML-RPC publishing interface you must enable it below."
+msgstr "ئۈستەل كومپيۇتېرىڭىز ياكى يىراق توردا XML-RPC ئېلان قىلىش ئارا يۈزى ئارقىلىق bbPress بىلەن ئۇچۇر ئالماشتۇرماقچى بولسىڭىز ئۇنى تۆۋەندە قوزغىتىشىڭىز كېرەك."
+
+#: bb-admin/plugins.php:121
+msgid "<strong>Plugin could not be activated, it produced a Fatal Error</strong>. The error is shown below."
+msgstr "<strong>بۇ قىستۇرما ئەجەللىك خاتالىق سادىر قىلغاچقا قوزغىتىلمىدى</strong>. خاتالىق تۆۋەندە كۆرسىتىلدى."
+
+#: bb-admin/plugins.php:125
+#, php-format
+msgid "<strong>\"%s\" plugin activated</strong>"
+msgstr "<strong>\"%s\" قىستۇرما قوزغىتىلدى</strong>"
+
+#: bb-admin/plugins.php:129
+#, php-format
+msgid "<strong>\"%s\" plugin deactivated</strong>"
+msgstr "<strong>\"%s\" قىستۇرما ئىشلىتىشتىن توختىتىلدى</strong>"
+
+#: bb-admin/plugins.php:135
+msgid "<strong>\"Safe mode\" is on, all plugins are disabled even if they are listed as active.</strong>"
+msgstr "<strong>\"Safe mode\" ھالىتىگە كىردى، قوزغىتىلغان ھالەتتىكى قىستۇرمىلاردىن تارتىپ ھەممىسى توختىتىلدى. </strong>"
+
+#: bb-admin/plugins.php:145
+msgid "Manage Plugins"
+msgstr "قىستۇرمىلارنى باشقۇرۇش"
+
+#: bb-admin/plugins.php:172
+#, php-format
+msgid "All <span class=\"count\">(%d)</span>"
+msgstr "بارلىق <span class=\"count\">(%d)</span>"
+
+#: bb-admin/plugins.php:173
+#, php-format
+msgid "Active <span class=\"count\">(%d)</span>"
+msgstr "قوزغىتىلغانلار <span class=\"count\">(%d)</span>"
+
+#: bb-admin/plugins.php:174
+#, php-format
+msgid "Inactive <span class=\"count\">(%d)</span>"
+msgstr "قوزغىتىلمىغان <span class=\"count\">(%d)</span>"
+
+#: bb-admin/plugins.php:175
+#, php-format
+msgid "Autoloaded <span class=\"count\">(%d)</span>"
+msgstr "ئاپتوماتىك قوزغىتىلغانلار <span class=\"count\">(%d)</span>"
+
+#: bb-admin/plugins.php:185
+#: bb-admin/plugins.php:191
+msgid "Plugin"
+msgstr "قىستۇرما"
+
+#: bb-admin/plugins.php:202
+#: bb-admin/themes.php:96
+msgid "Activate"
+msgstr "قوزغىتىش"
+
+#: bb-admin/plugins.php:209
+msgid "Deactivate"
+msgstr "توختىتىش"
+
+#: bb-admin/plugins.php:227
+#, php-format
+msgid "By %s"
+msgstr "ئاپتورى: %s"
+
+#: bb-admin/plugins.php:239
+msgid "Autoloaded"
+msgstr "ئۆزلۈكىدىن قوزغىتىلغان"
+
+#: bb-admin/plugins.php:258
+msgid "No plugins found."
+msgstr "قىستۇرما تېپىلمىدى!"
+
+#: bb-admin/posts.php:7
+msgid "<strong>Post undeleted.</strong>"
+msgstr "<strong>يازما ئەسلىگە كەلتۈرۈلدى.</strong>"
+
+#: bb-admin/posts.php:10
+msgid "<strong>Post deleted.</strong>"
+msgstr "<strong>يازما ئۆچۈرۈلدى.</strong>"
+
+#: bb-admin/posts.php:13
+msgid "<strong>Post spammed.</strong>"
+msgstr "<strong>يازما سپەملەندى.</strong>"
+
+#: bb-admin/posts.php:16
+msgid "<strong>Post removed from spam.</strong> It is now a normal post."
+msgstr "<strong>يازما سپەملەشتىن قالدۇرۇلدى.</strong> ئەمدى ئۇ نورمال يازما بولدى."
+
+#: bb-admin/posts.php:19
+msgid "<strong>Post removed from spam.</strong> It is now a deleted post."
+msgstr "<strong>يازما سپەملەشتىن قالدۇرۇلدى.</strong> ئەمدى ئۇ ئۆچۈرۈلگەن يازما قىلىندى."
+
+#: bb-admin/posts.php:36
+#: bb-admin/topics.php:26
+msgid "Now how'd you get here?  And what did you think you'd being doing?"
+msgstr "بۇ يەرگە قانداق كېلىپ قالدىڭىز؟ ئۆزىڭىزنىڭ نېمە قىلىۋاتقانلىقىڭىزنى بىلەمسىز؟"
+
+#: bb-admin/posts.php:55
+#: bb-admin/topics.php:49
+#, php-format
+msgid "in &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221; دىكىلەر"
+
+#: bb-admin/posts.php:56
+#: bb-admin/topics.php:50
+#, php-format
+msgid "with tag &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221; بىلەن خەتكۈچلەنگەنلەر"
+
+#: bb-admin/posts.php:57
+#: bb-admin/topics.php:51
+#, php-format
+msgid "by %s"
+msgstr "ئاپتورى: %s"
+
+#: bb-admin/posts.php:61
+#, php-format
+msgid "from IP address %s"
+msgstr "IP ئادرېسى %s دىن"
+
+#: bb-admin/posts.php:69
+#, php-format
+msgid "%1$s%2$s%3$s%4$s%5$s"
+msgstr ""
+
+#: bb-admin/posts.php:94
+#: bb-admin/topics.php:81
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: bb-admin/posts.php:95
+#: bb-admin/topics.php:82
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: bb-admin/tag-destroy.php:5
+#: bb-admin/tag-merge.php:5
+#: bb-admin/tag-rename.php:5
+msgid "You are not allowed to manage tags."
+msgstr "خەتكۈچلەرنى باشقۇرۇشىڭىزغا ئىجازەت بېرىلمىگەن."
+
+#: bb-admin/tag-destroy.php:13
+#: bb-admin/tag-rename.php:14
+msgid "Tag not found."
+msgstr "خەتكۈچ تېپىلمىدى."
+
+#: bb-admin/tag-destroy.php:16
+#, php-format
+msgid "Rows deleted from tags table: %d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-destroy.php:17
+#, php-format
+msgid "Rows deleted from tagged table: %d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-destroy.php:18
+#, php-format
+msgid "<a href=\"%s\">Home</a>"
+msgstr "<a href=\"%s\">باش بەت</a>"
+
+#: bb-admin/tag-destroy.php:20
+#, php-format
+msgid ""
+"Something odd happened when attempting to destroy that tag.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+
+#: bb-admin/tag-merge.php:13
+msgid "Tag specified not found."
+msgstr "كۆرسىتىلگەن خەتكۈچ تېپىلمىدى."
+
+#: bb-admin/tag-merge.php:16
+msgid "Tag to be merged not found."
+msgstr "بىرلەشتۈرىدىغان خەتكۈچ يوق."
+
+#: bb-admin/tag-merge.php:19
+#, php-format
+msgid "Number of topics from which the old tag was removed: %d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-merge.php:20
+#, php-format
+msgid "Number of topics to which the new tag was added: %d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-merge.php:21
+#, php-format
+msgid "Number of rows deleted from tags table:%d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-merge.php:22
+#, php-format
+msgid "<a href=\"%s\">New Tag</a>"
+msgstr "<a href=\"%s\">يېڭى خەتكۈچ</a>"
+
+#: bb-admin/tag-merge.php:24
+#, php-format
+msgid ""
+"Something odd happened when attempting to merge those tags.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+
+#: bb-admin/tag-rename.php:20
+#, php-format
+msgid "There already exists a tag by that name or the name is invalid. <a href=\"%s\">Try Again</a>"
+msgstr "بۇ يەردە ئوخشاش نامدىكى خەتكۈچ بار ياكى بۇ نام ئىناۋەتسىز. <a href=\"%s\">قايتا سىناڭ</a>"
+
+#: bb-admin/themes.php:38
+#, php-format
+msgid "<strong>Theme \"%s\" activated</strong>"
+msgstr "<strong>ئۇسلۇب \"%s\" قوزغىتىلدى</strong>"
+
+#: bb-admin/themes.php:43
+msgid "<strong>Default theme is missing.</strong>"
+msgstr "<strong>كۆڭۈلدىكى ئۇسلۇبتا خاتالىق بار.</strong>"
+
+#: bb-admin/themes.php:47
+msgid "<strong>Theme not found.  Default theme applied.</strong>"
+msgstr "<strong>ئۇسلۇب تېپىلمىدى. كۆڭۈلدىكى ئۇسلۇبقا قايتۇرۇلدى.</strong>"
+
+#: bb-admin/themes.php:63
+#: bb-admin/themes.php:96
+#, php-format
+msgid "Activate \"%s\""
+msgstr "\"%s\" نى قوزغىتىش "
+
+#: bb-admin/themes.php:68
+#, php-format
+msgid "%1$s %2$s by <cite>%3$s</cite>"
+msgstr ""
+
+#: bb-admin/themes.php:82
+#, php-format
+msgid "Ported by <cite>%s</cite>"
+msgstr ""
+
+#: bb-admin/themes.php:101
+#, php-format
+msgid "All of this theme's files are located in the \"%s\" themes directory."
+msgstr "بۇ ئۇسلۇبنىڭ بارلىق ھۆججەتلىرى  \"%s\" ئۇسلۇب مۇندەرىجىسى ئىچىدە."
+
+#: bb-admin/themes.php:112
+msgid "<strong>\"Safe mode\" is on, the default theme will be used instead of the active theme indicated below.</strong>"
+msgstr "<strong>\"Safe mode\" ھالىتىگە كىردى، تۆۋەندە كۆرسىتىلگەن ئۇسلۇب ئورنىغا كۆڭۈلدىكى ئۇسلۇب ئىشلىتىلدى.</strong>"
+
+#: bb-admin/themes.php:120
+msgid "Manage Themes"
+msgstr "ئۇسلۇب باشقۇرۇش"
+
+#: bb-admin/themes.php:123
+msgid "Current Theme"
+msgstr "نۆۋەتتىكى ئۇسلۇب"
+
+#: bb-admin/themes.php:132
+msgid "Available Themes"
+msgstr "ئىشلىتىشكە بولىدىغان ئۇسلۇبلار"
+
+#: bb-admin/tools-recount.php:10
+msgid "Counted posts"
+msgstr "سانالغان يازمىلار"
+
+#: bb-admin/tools-recount.php:21
+msgid "Counted voices"
+msgstr "سانالغان ئاۋازلار"
+
+#: bb-admin/tools-recount.php:37
+msgid "Counting deleted posts&#8230;"
+msgstr "ئۆچۈرۈۋېتىلگەن يازمىلار سانىلىۋاتىدۇ&#8230;"
+
+#: bb-admin/tools-recount.php:47
+msgid "&#8230;counted deleted posts"
+msgstr "&#8230;سانالغان ئۆچۈرۈۋېتىلگەن يازمىلار"
+
+#: bb-admin/tools-recount.php:49
+msgid "&#8230;no deleted posts to count"
+msgstr "&#8230;سانىلىدىغان ئۆچۈرۈلگەن يازما يوق"
+
+#: bb-admin/tools-recount.php:55
+msgid "Counted forum topics and posts"
+msgstr "سانالغان مۇنبەر تېمىلىرى ۋە يازمىلىرى"
+
+#: bb-admin/tools-recount.php:72
+msgid "Counted topics to which each user has replied"
+msgstr "ھەر بىر قوللانچى جاۋاب يازغان تېمىلار سانالدى"
+
+#: bb-admin/tools-recount.php:87
+msgid "Counted topic tags"
+msgstr "تېما خەتكۈچلىرى سانالدى"
+
+#: bb-admin/tools-recount.php:106
+msgid "Counted tagged topics"
+msgstr "خەتكۈچلەنگەن تېمىلار سانالدى"
+
+#: bb-admin/tools-recount.php:125
+msgid "Deleted tags with no topics"
+msgstr "تېمىغا ئىشلىتىلمىگەن خەتكۈچلەر ئۆچۈرۈۋېتىلدى"
+
+#: bb-admin/tools-recount.php:142
+msgid "Removed deleted topics from users' favorites"
+msgstr "ئۆچۈرۈلگەن تېمىلار قوللانچى ساقلانمىسىدىنمۇ ئۆچۈرۈۋېتىلسۇن"
+
+#: bb-admin/tools-recount.php:179
+msgid "To minimize database queries, bbPress keeps it's own count of various items like posts in each topic and topics in each forum. Occasionally these internal counters may become incorrect, you can manually re-count these items using this form."
+msgstr "سانداندىن ئىزدەشنى ئاسانلاشتۇرۇش ئۈچۈن bbPress ھەر بىر تېمىدىكى يازما سانى ۋە ھەر بىر مۇنبەردىكى تېما سانى قاتارلىق ھەر خىل تۈرلەرنىڭ سانىنى ئېلىپ تۇرىدۇ. بەزىدە بۇ سانلار خاتا بولۇپ قالىدۇ. شۇنداق ئەھۋالدا سىز بۇ يەردە ئۇ تۈرلەرنى قايتىدىن سانىتالايسىز."
+
+#: bb-admin/tools-recount.php:180
+msgid "You can also clean out some stale items here, like empty tags."
+msgstr "سىز يەنە قۇرۇق خەتكۈچ دېگەندەك ۋاقتى ئۆتكەن تۈرلەرنى تازىلىيالايسىز."
+
+#: bb-admin/tools-recount.php:187
+msgid "Items to re-count"
+msgstr "قايتا سانىلىدىغان تۈرلەر"
+
+#: bb-admin/tools-recount.php:200
+msgid "There are no re-count tools available."
+msgstr "قايتا ساناش قورالى يوق ئىكەن."
+
+#: bb-admin/tools-recount.php:207
+msgid "Recount Items"
+msgstr "تۈرلەرنى قايتا ساناش"
+
+#: bb-admin/topic-move.php:8
+msgid "Invalid topic or forum."
+msgstr "تېما ياكى مۇنبەر ئىناۋەتسىز."
+
+#: bb-admin/topic-move.php:21
+msgid "Your topic or forum caused all manner of confusion"
+msgstr ""
+
+#: bb-admin/topics.php:7
+msgid "<strong>Topic undeleted.</strong>"
+msgstr "<strong>تېما ئەسلىگە كەلتۈرۈلدى.</strong>"
+
+#: bb-admin/topics.php:10
+msgid "<strong>Topic deleted.</strong>"
+msgstr "<strong>تېما ئۆچۈرۈلدى.</strong>"
+
+#: bb-admin/topics.php:13
+msgid "<strong>Topic opened.</strong>"
+msgstr "<strong>تېما ئېچىلدى.</strong>"
+
+#: bb-admin/topics.php:16
+msgid "<strong>Topic closed.</strong>"
+msgstr "<strong>تېما تاقالدى.</strong>"
+
+#: bb-admin/topics.php:56
+#, php-format
+msgid "%1$s%2$s%3$s%4$s"
+msgstr ""
+
+#: bb-admin/topics.php:94
+#: xmlrpc.php:1369
+#: xmlrpc.php:2761
+#: xmlrpc.php:3072
+msgid "No topics found."
+msgstr "تېما تېپىلمىدى."
+
+#: bb-admin/topics.php:105
+#: bb-admin/topics.php:114
+#: bb-templates/kakumei/favorites.php:20
+#: bb-templates/kakumei/forum.php:13
+#: bb-templates/kakumei/front-page.php:21
+#: bb-templates/kakumei/tag-single.php:15
+#: bb-templates/kakumei/view.php:13
+msgid "Freshness"
+msgstr "ئۆتكەن ۋاقىت"
+
+#: bb-admin/topics.php:127
+msgid "Close"
+msgstr "يېپىش"
+
+#: bb-admin/topics.php:127
+msgctxt "action"
+msgid "Open"
+msgstr "ئېچىش"
+
+#: bb-admin/topics.php:128
+#: bb-includes/functions.bb-template.php:2057
+msgid "Undelete"
+msgstr "ئەسلىگە كەلتۈرۈش"
+
+#: bb-admin/topics.php:148
+#, php-format
+msgid "Last post by %s"
+msgstr "ئاخىرقى يازما ئاپتورى: %s"
+
+#: bb-admin/upgrade.php:49
+msgid "Beginning upgrade&hellip;"
+msgstr "يېڭىلاش باشلىنىۋاتىدۇ&hellip;"
+
+#: bb-admin/upgrade.php:53
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:600
+msgid "Done"
+msgstr "تۈگىدى"
+
+#: bb-admin/upgrade.php:71
+msgid "bbPress database upgrade"
+msgstr "bbPress ساندانىنى يېڭىلاش"
+
+#: bb-admin/upgrade.php:89
+#, php-format
+msgid "Nothing to upgrade.  <a href=\"%s\">Get back to work!</a>"
+msgstr "يېڭىلايدىغان ھېەنىمە يوقكەن. <a href=\"%s\">ئىشىمىزغا قايتايلى!</a>"
+
+#: bb-admin/upgrade.php:97
+msgid "Database upgrade required"
+msgstr "سانداننى يېڭىلاش زۆرۈر"
+
+#: bb-admin/upgrade.php:101
+msgid "It looks like your database is out-of-date. You can upgrade it here."
+msgstr "ساندانىڭىزنىڭ ۋاقتى ئۆتكەندەك قىلىدۇ. بۇ يەردىن يېڭىلىۋېلىڭ."
+
+#: bb-admin/upgrade.php:107
+msgid "Upgrade database"
+msgstr "سانداننى يېڭىلاش"
+
+#: bb-admin/upgrade.php:119
+msgid "Database upgrade complete"
+msgstr "سانداننى يېڭىلاش ئاياقلاشتى"
+
+#: bb-admin/upgrade.php:123
+msgid "Your database has been successfully upgraded, enjoy!"
+msgstr "ساندانىڭىز مۇۋەپپەقىيەتلىك يېڭىلاندى، كوڭۈللۈك ئىشلەتكەيسىز!"
+
+#: bb-admin/upgrade.php:128
+#: bb-admin/upgrade.php:170
+msgid "Show upgrade messages"
+msgstr "يېڭىلاش ئۇچۇرلىرىنى كۆرسىتىش"
+
+#: bb-admin/upgrade.php:137
+#: bb-admin/upgrade.php:189
+msgid "Upgrade log"
+msgstr "يېڭىلاش خاتىرىسى"
+
+#: bb-admin/upgrade.php:144
+#: bb-admin/upgrade.php:196
+msgid "&laquo; Go back to forums"
+msgstr "&laquo; مۇنبەرگە قايتىش"
+
+#: bb-admin/upgrade.php:147
+msgid "Go to admin"
+msgstr "باشقۇرۇش بېتىگە يۆتكىلىش"
+
+#: bb-admin/upgrade.php:159
+msgid "Database upgrade failed"
+msgstr "سانداننى يېڭىلاش مەغلۇپ بولدى"
+
+#: bb-admin/upgrade.php:163
+msgid "The upgrade process seems to have failed. Check the upgrade messages below for more information.<br /><br />Attempting to go to the admin area without resolving the listed errors will return you to this upgrade page."
+msgstr "يېڭىلاش مەشغۇلاتى مەغلۇب بولغاندەك قىلىدۇ. تەپسىلىي ئۇچۇرلارنى تۆۋەندىكى يېڭىلاش ئۇچۇرلىرىدىن تەكشۈرۈڭ.<br /><br />كۆرسىتىلگەن خاتالىقلارنى تۈزەتمەستىنلا باشقۇرۇش رايونىغا بارماقچى بولسىڭىز يەنىلا بۇ يېڭىلاش بېتىگە قايتۇرۇلىسىز."
+
+#: bb-admin/upgrade.php:182
+msgid "Error log"
+msgstr "خاتالىقلار خاتىرىسى"
+
+#: bb-admin/upgrade.php:199
+msgid "Try again"
+msgstr "قايتا سىناڭ"
+
+#: bb-edit.php:16
+msgid "Sorry, post is too old."
+msgstr "كەچۈرۈڭ، يازما بەك كونا ئىكەن."
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:317
+msgid "Passed variable is not a BackPress database object."
+msgstr "بېرىلگەن ئۆزگەرگۈچى BackPress ساندان ئوبيېكتى ئەمەس."
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:321
+msgid "No schema available."
+msgstr "ئىشلىتىشكە بولىدىغان schema يوق."
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:387
+msgid "Creating table"
+msgstr "جەدۋەل قۇرۇلۇۋاتىدۇ"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:416
+#, php-format
+msgid "Adding column: %s"
+msgstr "قوشۇلۇۋاتقان ئىستون: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:434
+#, php-format
+msgid "Setting default on column: %s"
+msgstr ""
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:449
+#, php-format
+msgid "Changing column: %s"
+msgstr "ئۆزگەرتىلىۋاتقان ئىستون: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:491
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:514
+#, php-format
+msgid "Adding index: %s"
+msgstr "قوشۇلۇۋاتقان ئىندېكس: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:507
+#, php-format
+msgid "Dropping index: %s"
+msgstr "ئىندېكسلىنىۋاتقىنى: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:535
+msgid "Inserting data"
+msgstr "سانلىق مەلۇماتلار قىستۇرۇلۇۋاتىدۇ"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:548
+msgid "Updating data"
+msgstr "سانلىق مەلۇماتلار يېڭىلىنىۋاتىدۇ"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:566
+#, php-format
+msgid "Modifying database: %s (%s)"
+msgstr "يېڭىلىنىۋاتقان ساندان: %s (%s)"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:570
+#, php-format
+msgid "Table: %s"
+msgstr "جەدۋەل: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:582
+msgid "Skipped"
+msgstr "ئاتلاپ ئۆتۈلگەن"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:594
+msgid "SQL ERROR! See the error log for more detail"
+msgstr "SQL خاتالىقى! تەپسىلاتى ئۈچۈن خاتالىق خاتىرىسىگە قاراڭ."
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:595
+msgid "SQL ERROR!"
+msgstr "SQL خاتا!"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:596
+#, php-format
+msgid "Database: %s (%s)"
+msgstr "ساندان: %s (%s)"
+
+#: bb-includes/backpress/class.wp-http.php:723
+#: bb-includes/backpress/class.wp-http.php:1341
+msgid "Too many redirects."
+msgstr "بەت ئالماشتۇرۇش بەك كۆپ بولۇپ كەتكەن."
+
+#: bb-includes/backpress/class.wp-http.php:803
+#: bb-includes/backpress/class.wp-http.php:930
+#, php-format
+msgid "Malformed URL: %s"
+msgstr "نامۇۋاپىق ئادرېس: %s"
+
+#: bb-includes/backpress/class.wp-http.php:814
+#: bb-includes/backpress/class.wp-http.php:987
+#, php-format
+msgid "Could not open handle for fopen() to %s"
+msgstr "%s ئۈچۈن fopen() مەشغۇلاتىنى ئورۇنلىغىلى بولمىدى."
+
+#: bb-includes/backpress/class.wp-taxonomy.php:226
+#: bb-includes/backpress/class.wp-taxonomy.php:299
+#: bb-includes/backpress/class.wp-taxonomy.php:403
+#: bb-includes/backpress/class.wp-taxonomy.php:581
+#: bb-includes/backpress/class.wp-taxonomy.php:1166
+#: bb-includes/backpress/class.wp-taxonomy.php:1400
+#: bb-includes/class.bb-taxonomy.php:48
+#: bb-includes/class.bb-taxonomy.php:151
+#: bb-includes/class.bb-taxonomy.php:275
+msgid "Invalid Taxonomy"
+msgstr "ئىناۋەتسىز كلاسسىفىكاتسىيە"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:294
+msgid "Empty Term"
+msgstr "ئاتالغۇ قۇرۇق"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1300
+#: bb-includes/backpress/class.wp-taxonomy.php:1549
+msgid "Invalid taxonomy"
+msgstr "ئىناۋەتسىز كلاسسىفىكاتسىيە"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1303
+msgid "Invalid term ID"
+msgstr "ئاتالغۇ IDسى ئىناۋەتسىز"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1306
+#: bb-includes/backpress/class.wp-taxonomy.php:1572
+msgid "A name is required for this term"
+msgstr "ئاتالغۇ نامىنى كىرگۈزۈشىڭىز كېرەك"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1337
+#: bb-includes/backpress/class.wp-taxonomy.php:1344
+msgid "Could not insert term into the database"
+msgstr "ھالقىلىق سۆزنى ساندانغا قىستۇرغىلى بولمىدى"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1600
+#, php-format
+msgid "The slug &#8220;%s&#8221; is already in use by another term"
+msgstr "باشقا نام &#8220;%s&#8221; باشقا بىر ئاتالغۇغا ئىشلىتىلىپ بولۇنغان."
+
+#: bb-includes/backpress/class.wp-taxonomy.php:2037
+msgid "Invalid object ID"
+msgstr "ئوبيېكت ID سى ئىناۋەتسىز"
+
+#: bb-includes/backpress/class.wp-users.php:51
+msgid "Invalid login name"
+msgstr "كىرىش ئىسمى ئىناۋەتسىز"
+
+#: bb-includes/backpress/class.wp-users.php:53
+msgid "Name already exists"
+msgstr "ئىسىم مەۋجۇت ئىكەن"
+
+#: bb-includes/backpress/class.wp-users.php:58
+msgid "Invalid nicename"
+msgstr "تەخەللۇس ئىناۋەتسىز"
+
+#: bb-includes/backpress/class.wp-users.php:60
+msgid "Nicename already exists"
+msgstr "تەخەللۇس مەۋجۇت ئىكەن"
+
+#: bb-includes/backpress/class.wp-users.php:65
+#: bb-includes/functions.bb-pluggable.php:583
+#: profile-edit.php:62
+msgid "Invalid email address"
+msgstr "ئېلخەت ئادرېسى ئىناۋەتسىز"
+
+#: bb-includes/backpress/class.wp-users.php:70
+msgid "Email already exists"
+msgstr "ئېلخەت ئادرېسى مەۋجۇت ئىكەن"
+
+#: bb-includes/backpress/class.wp-users.php:90
+msgid "Invalid registration time"
+msgstr "تىزىملىتىلغان ۋاقىت ئىناۋەتسىز"
+
+#: bb-includes/backpress/class.wp-users.php:93
+msgid "Invalid registration timestamp"
+msgstr "تىزىملاتقان ۋاقىت ئىناۋەتسىز"
+
+#: bb-includes/backpress/class.wp-users.php:110
+msgid "Query failed"
+msgstr "تۈرلەش مەغلۇپ بولدى"
+
+#: bb-includes/backpress/class.wp-users.php:295
+#: bb-includes/backpress/class.wp-users.php:341
+msgid "Multiple email matches.  Log in with your username."
+msgstr "بىر نەچچە ئېلخەت ماس كەلدى. ئۆزىڭىزنىڭ قوللانچى نامىدا كىرىڭ."
+
+#: bb-includes/backpress/class.wp-users.php:297
+#: bb-includes/backpress/class.wp-users.php:343
+#, php-format
+msgid "Multiple %s matches"
+msgstr "كۆپلىگەن %s ماس كەلدى"
+
+#: bb-includes/backpress/functions.core.php:957
+msgid "Select a city"
+msgstr "بىر شەھەرنى تاللاڭ"
+
+#: bb-includes/backpress/functions.core.php:972
+msgid "Manual offsets"
+msgstr "Manual offsets"
+
+#: bb-includes/backpress/functions.core.php:1140
+msgid "BackPress &rsaquo; Error"
+msgstr "BackPress &rsaquo; خاتالىق"
+
+#. translators: opening curly quote
+#: bb-includes/backpress/functions.formatting.php:46
+msgctxt "opening curly quote"
+msgid "&#8220;"
+msgstr "&#8221;"
+
+#. translators: closing curly quote
+#: bb-includes/backpress/functions.formatting.php:48
+msgctxt "closing curly quote"
+msgid "&#8221;"
+msgstr "&#8221;"
+
+#: bb-includes/backpress/functions.wp-cron.php:301
+msgid "Once Hourly"
+msgstr "ھەر سائەتتە بىر"
+
+#: bb-includes/backpress/functions.wp-cron.php:302
+msgid "Twice Daily"
+msgstr "كۈندە ئىككى قېتىم"
+
+#: bb-includes/backpress/functions.wp-cron.php:303
+msgid "Once Daily"
+msgstr "ھەر كۈندە بىر"
+
+#: bb-includes/backpress/pomo/sample/app.php:56
+#, php-format
+msgid "Welcome %s!"
+msgstr "مەرھابا %s!"
+
+#: bb-includes/backpress/pomo/sample/app.php:60
+msgid "A string with low priority!"
+msgstr ""
+
+#: bb-includes/backpress/pomo/sample/app.php:62
+msgid "Bye\n"
+msgstr "خوش\n"
+
+#: bb-includes/class.bb-dir-map.php:19
+msgid "Not a valid directory"
+msgstr "ئىناۋەتلىك مۇندەرىجە ئەمەس"
+
+#: bb-includes/class.bb-dir-map.php:25
+msgid "Invalid arguments"
+msgstr "پارامېتىر ئىناۋەتسىز"
+
+#: bb-includes/class.bb-locale.php:115
+#: bb-includes/class.bb-locale.php:125
+#: bb-includes/class.bb-locale.php:138
+msgid "Sunday"
+msgstr "يەكشەنبە"
+
+#: bb-includes/class.bb-locale.php:116
+#: bb-includes/class.bb-locale.php:126
+#: bb-includes/class.bb-locale.php:139
+msgid "Monday"
+msgstr "دۈشەنبە"
+
+#: bb-includes/class.bb-locale.php:117
+#: bb-includes/class.bb-locale.php:127
+#: bb-includes/class.bb-locale.php:140
+msgid "Tuesday"
+msgstr "سەيشەنبە"
+
+#: bb-includes/class.bb-locale.php:118
+#: bb-includes/class.bb-locale.php:128
+#: bb-includes/class.bb-locale.php:141
+msgid "Wednesday"
+msgstr "چارشەنبە"
+
+#: bb-includes/class.bb-locale.php:119
+#: bb-includes/class.bb-locale.php:129
+#: bb-includes/class.bb-locale.php:142
+msgid "Thursday"
+msgstr "پەيشەنبە"
+
+#: bb-includes/class.bb-locale.php:120
+#: bb-includes/class.bb-locale.php:130
+#: bb-includes/class.bb-locale.php:143
+msgid "Friday"
+msgstr "جۈمە"
+
+#: bb-includes/class.bb-locale.php:121
+#: bb-includes/class.bb-locale.php:131
+#: bb-includes/class.bb-locale.php:144
+msgid "Saturday"
+msgstr "شەنبە"
+
+#: bb-includes/class.bb-locale.php:125
+msgid "S_Sunday_initial"
+msgstr "يە"
+
+#: bb-includes/class.bb-locale.php:126
+msgid "M_Monday_initial"
+msgstr "دۈ"
+
+#: bb-includes/class.bb-locale.php:127
+msgid "T_Tuesday_initial"
+msgstr "سە"
+
+#: bb-includes/class.bb-locale.php:128
+msgid "W_Wednesday_initial"
+msgstr "چا"
+
+#: bb-includes/class.bb-locale.php:129
+msgid "T_Thursday_initial"
+msgstr "پە"
+
+#: bb-includes/class.bb-locale.php:130
+msgid "F_Friday_initial"
+msgstr "جۈ"
+
+#: bb-includes/class.bb-locale.php:131
+msgid "S_Saturday_initial"
+msgstr "شە"
+
+#: bb-includes/class.bb-locale.php:138
+msgid "Sun"
+msgstr "يە"
+
+#: bb-includes/class.bb-locale.php:139
+msgid "Mon"
+msgstr "دۈ"
+
+#: bb-includes/class.bb-locale.php:140
+msgid "Tue"
+msgstr "سە"
+
+#: bb-includes/class.bb-locale.php:141
+msgid "Wed"
+msgstr "چا"
+
+#: bb-includes/class.bb-locale.php:142
+msgid "Thu"
+msgstr "پە"
+
+#: bb-includes/class.bb-locale.php:143
+msgid "Fri"
+msgstr "جۈ"
+
+#: bb-includes/class.bb-locale.php:144
+msgid "Sat"
+msgstr "شە"
+
+#: bb-includes/class.bb-locale.php:147
+#: bb-includes/class.bb-locale.php:162
+msgid "January"
+msgstr "يانۋار"
+
+#: bb-includes/class.bb-locale.php:148
+#: bb-includes/class.bb-locale.php:163
+msgid "February"
+msgstr "فېۋرال"
+
+#: bb-includes/class.bb-locale.php:149
+#: bb-includes/class.bb-locale.php:164
+msgid "March"
+msgstr "مارت"
+
+#: bb-includes/class.bb-locale.php:150
+#: bb-includes/class.bb-locale.php:165
+msgid "April"
+msgstr "ئاپرېل"
+
+#: bb-includes/class.bb-locale.php:151
+#: bb-includes/class.bb-locale.php:166
+msgid "May"
+msgstr "ماي"
+
+#: bb-includes/class.bb-locale.php:152
+#: bb-includes/class.bb-locale.php:167
+msgid "June"
+msgstr "ئىيۇن"
+
+#: bb-includes/class.bb-locale.php:153
+#: bb-includes/class.bb-locale.php:168
+msgid "July"
+msgstr "ئىيۇل"
+
+#: bb-includes/class.bb-locale.php:154
+#: bb-includes/class.bb-locale.php:169
+msgid "August"
+msgstr "ئاۋغۇست"
+
+#: bb-includes/class.bb-locale.php:155
+#: bb-includes/class.bb-locale.php:170
+msgid "September"
+msgstr "سېنتەبىر"
+
+#: bb-includes/class.bb-locale.php:156
+#: bb-includes/class.bb-locale.php:171
+msgid "October"
+msgstr "ئۆكتەبىر"
+
+#: bb-includes/class.bb-locale.php:157
+#: bb-includes/class.bb-locale.php:172
+msgid "November"
+msgstr "نويابىر"
+
+#: bb-includes/class.bb-locale.php:158
+#: bb-includes/class.bb-locale.php:173
+msgid "December"
+msgstr "دېكابىر"
+
+#: bb-includes/class.bb-locale.php:162
+msgid "Jan_January_abbreviation"
+msgstr "يانۋار"
+
+#: bb-includes/class.bb-locale.php:163
+msgid "Feb_February_abbreviation"
+msgstr "فېۋرال"
+
+#: bb-includes/class.bb-locale.php:164
+msgid "Mar_March_abbreviation"
+msgstr "مارت"
+
+#: bb-includes/class.bb-locale.php:165
+msgid "Apr_April_abbreviation"
+msgstr "ئاپرېل"
+
+#: bb-includes/class.bb-locale.php:166
+msgid "May_May_abbreviation"
+msgstr "ماي"
+
+#: bb-includes/class.bb-locale.php:167
+msgid "Jun_June_abbreviation"
+msgstr "ئىيۇن"
+
+#: bb-includes/class.bb-locale.php:168
+msgid "Jul_July_abbreviation"
+msgstr "ئىيۇل"
+
+#: bb-includes/class.bb-locale.php:169
+msgid "Aug_August_abbreviation"
+msgstr "ئاۋغۇست"
+
+#: bb-includes/class.bb-locale.php:170
+msgid "Sep_September_abbreviation"
+msgstr "سېنتەبىر"
+
+#: bb-includes/class.bb-locale.php:171
+msgid "Oct_October_abbreviation"
+msgstr "ئۆكتەبىر"
+
+#: bb-includes/class.bb-locale.php:172
+msgid "Nov_November_abbreviation"
+msgstr "نويابىر"
+
+#: bb-includes/class.bb-locale.php:173
+msgid "Dec_December_abbreviation"
+msgstr "دېكابىر"
+
+#: bb-includes/class.bb-locale.php:180
+msgid "am"
+msgstr "am"
+
+#: bb-includes/class.bb-locale.php:181
+msgid "pm"
+msgstr "pm"
+
+#: bb-includes/class.bb-locale.php:182
+msgid "AM"
+msgstr "سەھەر"
+
+#: bb-includes/class.bb-locale.php:183
+msgid "PM"
+msgstr "كەچ"
+
+#. translators: $decimals argument for http://php.net/number_format, default is 0
+#: bb-includes/class.bb-locale.php:189
+msgid "number_format_decimals"
+msgstr "number_format_decimals"
+
+#. translators: $dec_point argument for http://php.net/number_format, default is .
+#: bb-includes/class.bb-locale.php:193
+msgid "number_format_decimal_point"
+msgstr "number_format_decimal_point"
+
+#. translators: $thousands_sep argument for http://php.net/number_format, default is ,
+#: bb-includes/class.bb-locale.php:197
+msgid "number_format_thousands_sep"
+msgstr "number_format_thousands_sep"
+
+#: bb-includes/class.bb-locale.php:201
+msgid "F j, Y - h:i A"
+msgstr "Y-يىل j-F h:i A"
+
+#: bb-includes/class.bb-locale.php:202
+msgid "F j, Y"
+msgstr "Y-يىل j-F"
+
+#: bb-includes/class.bb-locale.php:203
+msgid "h:i A"
+msgstr "h:i A"
+
+#: bb-includes/class.bb-query.php:902
+msgid "Search &#187;"
+msgstr "ئىزدەش &#187;"
+
+#: bb-includes/class.bb-query.php:943
+msgid "Any"
+msgstr "خالىغان"
+
+#: bb-includes/class.bb-query.php:949
+msgid "Tag"
+msgstr "خەتكۈچ"
+
+#: bb-includes/class.bb-query.php:956
+msgid "Topic author"
+msgstr "تېما ئاپتورى"
+
+#: bb-includes/class.bb-query.php:963
+msgid "Post author"
+msgstr "يازما ئاپتورى"
+
+#: bb-includes/class.bb-query.php:968
+#: bb-includes/class.bb-query.php:1001
+msgid "All"
+msgstr "ھەممىسى"
+
+#: bb-includes/class.bb-query.php:968
+msgid "Normal"
+msgstr "نورمال"
+
+#: bb-includes/class.bb-query.php:968
+msgid "Deleted"
+msgstr "ئۆچۈرۈلگەن"
+
+#: bb-includes/class.bb-query.php:971
+msgid "Topic status"
+msgstr "تېما ھالىتى"
+
+#: bb-includes/class.bb-query.php:982
+msgid "Post status"
+msgstr "يازما ھالىتى"
+
+#: bb-includes/class.bb-query.php:993
+msgid "Poster IP address"
+msgstr "يوللىغۇچىنىڭ IP ئادرېسى"
+
+#: bb-includes/class.bb-query.php:999
+msgid "Open?"
+msgstr "ئاچامسىز؟"
+
+#: bb-includes/class.bb-query.php:1001
+msgctxt "posting status"
+msgid "Open"
+msgstr "ئېچىش"
+
+#: bb-includes/class.bb-query.php:1001
+msgid "Closed"
+msgstr "ئېتىۋېتىلگەن"
+
+#: bb-includes/class.bb-query.php:1012
+#: bb-templates/kakumei/post-form.php:3
+msgid "Title"
+msgstr "ماۋزۇ"
+
+#: bb-includes/class.bb-taxonomy.php:272
+msgid "Invalid User ID"
+msgstr "قوللانچى ID سى ئىناۋەتسىز."
+
+#: bb-includes/functions.bb-capabilities.php:57
+msgid "Key Master"
+msgstr "ئاچقۇچ ئىگىسى"
+
+#: bb-includes/functions.bb-capabilities.php:100
+msgid "Administrator"
+msgstr "باشقۇرغۇچى"
+
+#: bb-includes/functions.bb-capabilities.php:135
+msgid "Moderator"
+msgstr "تەستىقلىغۇچى"
+
+#: bb-includes/functions.bb-capabilities.php:166
+msgid "Member"
+msgstr "ئەزا"
+
+#: bb-includes/functions.bb-capabilities.php:180
+msgid "Inactive"
+msgstr "قوزغىتىلمىغانلار"
+
+#: bb-includes/functions.bb-capabilities.php:185
+msgid "Blocked"
+msgstr "توسۇۋېتىلگەنلەر"
+
+#: bb-includes/functions.bb-core.php:26
+#, php-format
+msgid "Using deprecated bbPress %1$s - %2$s - replace with - %3$s"
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:216
+#: bb-includes/functions.bb-template.php:1288
+msgid "&laquo; Previous"
+msgstr "&laquo; ئالدىنقى"
+
+#: bb-includes/functions.bb-core.php:217
+#: bb-includes/functions.bb-template.php:1289
+msgid "Next &raquo;"
+msgstr "كېيىنكى &raquo;"
+
+#: bb-includes/functions.bb-core.php:223
+#, php-format
+msgid "Page %d"
+msgstr "بەت %d"
+
+#: bb-includes/functions.bb-core.php:224
+msgid "Previous page"
+msgstr "ئالدىنقى بەت"
+
+#: bb-includes/functions.bb-core.php:225
+msgid "Next page"
+msgstr "كېيىنكى بەت"
+
+#: bb-includes/functions.bb-core.php:385
+#, php-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d يىل"
+msgstr[1] "%d يىل"
+
+#: bb-includes/functions.bb-core.php:386
+#, php-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d ئاي"
+msgstr[1] "%d ئاي"
+
+#: bb-includes/functions.bb-core.php:387
+#, php-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d ھەپتە"
+msgstr[1] "%d ھەپتە"
+
+#: bb-includes/functions.bb-core.php:388
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d كۈن"
+msgstr[1] "%d كۈن"
+
+#: bb-includes/functions.bb-core.php:389
+#, php-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d سائەت"
+msgstr[1] "%d سائەت"
+
+#: bb-includes/functions.bb-core.php:390
+#, php-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d مىنۇت"
+msgstr[1] "%d مىنۇت"
+
+#: bb-includes/functions.bb-core.php:391
+#, php-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d سېكۇنت"
+msgstr[1] "%d سېكۇنت"
+
+#: bb-includes/functions.bb-core.php:711
+msgid "User not found."
+msgstr "قوللانچى تېپىلمىدى."
+
+#: bb-includes/functions.bb-core.php:784
+msgid "REQUEST_URI"
+msgstr "REQUEST_URI"
+
+#: bb-includes/functions.bb-core.php:785
+msgid "should be"
+msgstr "بولۇشى كېرەك"
+
+#: bb-includes/functions.bb-core.php:786
+msgid "full permalink"
+msgstr "مۇقىم ئۇلانمىنىڭ تولۇق ئادرېسى"
+
+#: bb-includes/functions.bb-core.php:787
+msgid "PATH_INFO"
+msgstr "PATH_INFO"
+
+#: bb-includes/functions.bb-core.php:812
+#: bb-templates/kakumei/favorites.php:3
+msgid "Favorites"
+msgstr "ساقلانمىلار"
+
+#: bb-includes/functions.bb-core.php:862
+msgid "First name"
+msgstr "ئىسىم"
+
+#: bb-includes/functions.bb-core.php:863
+msgid "Last name"
+msgstr "فامىلە"
+
+#: bb-includes/functions.bb-core.php:864
+msgid "Display name as"
+msgstr "ئاشكارا كۆرسىتىلىدىغان ئىسىم:"
+
+#: bb-includes/functions.bb-core.php:865
+msgid "Email"
+msgstr "ئېلخەت"
+
+#: bb-includes/functions.bb-core.php:866
+msgid "Website"
+msgstr "تور بەت"
+
+#: bb-includes/functions.bb-core.php:867
+msgid "Location"
+msgstr "ئورۇن"
+
+#: bb-includes/functions.bb-core.php:868
+msgid "Occupation"
+msgstr "كەسپى"
+
+#: bb-includes/functions.bb-core.php:869
+msgid "Interests"
+msgstr "قىزىقىش"
+
+#: bb-includes/functions.bb-core.php:876
+msgid "Custom Title"
+msgstr "ئۆزى بەلگىلىگەن تېما"
+
+#: bb-includes/functions.bb-core.php:883
+#, php-format
+msgid "Ignore the %d second post throttling limit"
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:960
+msgid "Topics with no replies"
+msgstr "جاۋاب يېزىلمىغان تېمىلار"
+
+#: bb-includes/functions.bb-core.php:961
+msgid "Topics with no tags"
+msgstr "خەتكۈچى يوق تېمىلار"
+
+#: bb-includes/functions.bb-core.php:1069
+msgid "bbPress Failure Notice"
+msgstr "bbPress خاتالىق ئەسكەرتىشى"
+
+#: bb-includes/functions.bb-core.php:1072
+msgid "Please try again."
+msgstr "قايتا سىناپ بېقىڭ."
+
+#: bb-includes/functions.bb-core.php:1183
+#, php-format
+msgid "Back to <a href=\"%s\">%s</a>."
+msgstr "<a href=\"%s\">%s</a> گە قايتىش"
+
+#: bb-includes/functions.bb-core.php:1196
+msgid "Your attempt to submit this post has failed."
+msgstr "بۇ يازمىنى يوللاش مەشغۇلاتىڭىز مەغلۇپ بولدى."
+
+#: bb-includes/functions.bb-core.php:1197
+msgid "Your attempt to edit this post has failed."
+msgstr "بۇ يازمىنى تەھرىرلەش مەشغۇلاتىڭىز مەغلۇپ بولدى."
+
+#: bb-includes/functions.bb-core.php:1198
+msgid "Your attempt to delete this post has failed."
+msgstr "بۇ يازمىنى ئۆچۈرۈش مەشغۇلاتىڭىز مەغلۇپ بولدى."
+
+#: bb-includes/functions.bb-core.php:1200
+msgid "Your attempt to create this topic has failed."
+msgstr "بۇ تېمىنى قۇرۇش مەشغۇلاتىڭىز مەغلۇپ بولدى."
+
+#: bb-includes/functions.bb-core.php:1201
+msgid "Your attempt to change the resolution status of this topic has failed."
+msgstr "بۇ تېمىنىڭ ئېنىقلىق ھالىتىنى ئۆزگەرتىش مەشغۇلاتىڭىز مەغلۇب بولدى."
+
+#: bb-includes/functions.bb-core.php:1202
+msgid "Your attempt to delete this topic has failed."
+msgstr "بۇ تېمىنى ئۆچۈرۈش مەشغۇلاتىڭىز مەغلۇپ بولدى."
+
+#: bb-includes/functions.bb-core.php:1203
+msgid "Your attempt to change the status of this topic has failed."
+msgstr "تېما ھالىتىنى ئۆزگەرتىش مەشغۇلاتىڭىز مەغلۇب بولدى."
+
+#: bb-includes/functions.bb-core.php:1204
+msgid "Your attempt to change the sticky status of this topic has failed."
+msgstr "تېمىنىڭ چوققىلاش ھالىتىنى ئۆزگەرتىش مەشغۇلاتىڭىز مەغلۇب بولدى."
+
+#: bb-includes/functions.bb-core.php:1205
+msgid "Your attempt to move this topic has failed."
+msgstr "بۇ تېمىنى يۆتكەش مەشغۇلاتىڭىز مەغلۇپ بولدى."
+
+#: bb-includes/functions.bb-core.php:1207
+msgid "Your attempt to add this tag to this topic has failed."
+msgstr "بۇ خەتكۈچنى تېمىغا قوشۇش مەشغۇلاتىڭىز مەغلۇب بولدى."
+
+#: bb-includes/functions.bb-core.php:1208
+msgid "Your attempt to rename this tag has failed."
+msgstr "بۇ خەتكۈچنىڭ نامىنى ئۆزگەرتىش مەشغۇلاتىڭىز مەغلۇپ بولدى."
+
+#: bb-includes/functions.bb-core.php:1209
+msgid "Your attempt to submit these tags has failed."
+msgstr "خەتكۈچلەرنى يوللاش مەشغۇلاتىڭىز مەغلۇب بولدى."
+
+#: bb-includes/functions.bb-core.php:1210
+msgid "Your attempt to destroy this tag has failed."
+msgstr "بۇ خەتكۈچنى ئۆچۈرۈش مەشغۇلاتىڭىز مەغلۇپ بولدى."
+
+#: bb-includes/functions.bb-core.php:1211
+msgid "Your attempt to remove this tag from this topic has failed."
+msgstr "بۇ خەتكۈچنى تېمىدىن ئۆچۈرۈش مەشغۇلاتىڭىز مەغلۇب بولدى."
+
+#: bb-includes/functions.bb-core.php:1213
+msgid "Your attempt to toggle your favorite status for this topic has failed."
+msgstr ""
+
+#: bb-includes/functions.bb-core.php:1215
+msgid "Your attempt to edit this user's profile has failed."
+msgstr "بۇ قوللانچىنىڭ شەخسىي ئارخىپىنى تەھرىرلەش مەشغۇلاتىڭىز مەغلۇپ بولدى."
+
+#: bb-includes/functions.bb-core.php:1217
+msgid "Your attempt to add this forum has failed."
+msgstr "بۇ مۇنبەرنى قوشۇش مەشغۇلاتىڭىز مەغلۇپ بولدى."
+
+#: bb-includes/functions.bb-core.php:1218
+msgid "Your attempt to update your forums has failed."
+msgstr "مۇنبەرنى يېڭىلاش مەشغۇلاتىڭىز مەغلۇپ بولدى."
+
+#: bb-includes/functions.bb-core.php:1219
+msgid "Your attempt to delete that forum has failed."
+msgstr "مۇنبەرنى ئۆچۈرۈش مەشغۇلاتىڭىز مەغلۇپ بولدى."
+
+#: bb-includes/functions.bb-core.php:1221
+msgid "Your attempt to recount these items has failed."
+msgstr "بۇ تۈرلەرنى قايتا ساناش مەشغۇلاتىڭىز مەغلۇب بولدى."
+
+#: bb-includes/functions.bb-core.php:1223
+msgid "Your attempt to switch themes has failed."
+msgstr "ئۇسلۇب ئالماشتۇرۇش مەشغۇلاتىڭىز مەغلۇپ بولدى."
+
+#: bb-includes/functions.bb-core.php:1238
+msgid "Your attempt to do this has failed."
+msgstr "بۇ مەشغۇلاتىڭىز مەغلۇپ بولدى."
+
+#: bb-includes/functions.bb-core.php:1449
+#: bb-includes/functions.bb-core.php:1582
+msgid "Your search term was too short"
+msgstr "ئىزدىمەكچى بولغان ھالقىلىق سۆزىڭىز بەك قىسقا ئىكەن"
+
+#: bb-includes/functions.bb-core.php:1529
+msgid "Your query parameters are invalid"
+msgstr "ئىزدەش پارامېتىرلىرىڭىز ئىناۋەتسىز"
+
+#: bb-includes/functions.bb-formatting.php:297
+#: bb-includes/functions.bb-formatting.php:301
+#, php-format
+msgid "[sticky] %s"
+msgstr "[چوققىلانغان] %s"
+
+#: bb-includes/functions.bb-formatting.php:310
+#, php-format
+msgid "[closed] %s"
+msgstr "[ئېتىۋېتىلگەن] %s"
+
+#: bb-includes/functions.bb-meta.php:334
+msgid "Please give me a name!"
+msgstr "ئىسمىڭىزنى ئېيتىپ بېرىڭ!"
+
+#: bb-includes/functions.bb-pluggable.php:586
+#: bb-includes/functions.bb-pluggable.php:595
+msgid "Invalid username"
+msgstr "قوللانچى نامى ئىناۋەتسىز"
+
+#: bb-includes/functions.bb-script-loader.php:18
+msgid ""
+"You are about to delete the selected items.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"تاللانغان تۈرلەرنى ئۆچۈرمەكچى بولۇۋاتىسىز.\n"
+"بىكار قىلىش ئۈچۈن 'Cancel' نى، ئۆچۈرۈش ئۈچۈن 'OK' نى بېسىڭ."
+
+#: bb-includes/functions.bb-script-loader.php:22
+msgid "drag"
+msgstr "تارتىپ ئەكىلىش"
+
+#: bb-includes/functions.bb-script-loader.php:23
+msgid "Save Forum Order"
+msgstr "مۇنبەر تەرتىپىنى ساقلاش"
+
+#: bb-includes/functions.bb-script-loader.php:24
+msgid "Edit Forum Order"
+msgstr "مۇنبەر تەرتىپىنى تەھرىرلەش"
+
+#: bb-includes/functions.bb-script-loader.php:34
+msgid "You do not have permission to do that."
+msgstr "بۇنداق قىلىشىڭىزغا ھوقۇق بېرىلمىگەن."
+
+#: bb-includes/functions.bb-script-loader.php:35
+msgid "An unidentified error has occurred."
+msgstr "نامەلۇم خاتالىق كۆرۈلدى."
+
+#: bb-includes/functions.bb-script-loader.php:44
+msgid "Too short"
+msgstr "بەك قىسقا"
+
+#: bb-includes/functions.bb-script-loader.php:45
+msgid "Bad"
+msgstr "ناچار"
+
+#: bb-includes/functions.bb-script-loader.php:46
+msgid "Good"
+msgstr "ياخشى"
+
+#: bb-includes/functions.bb-script-loader.php:47
+msgid "Strong"
+msgstr "كۈچلۈك"
+
+#: bb-includes/functions.bb-script-loader.php:87
+msgid "Are you sure you wanna delete this post?"
+msgstr "بۇ يازمىنى راستىنلا ئۆچۈرەمسىز؟"
+
+#: bb-includes/functions.bb-script-loader.php:88
+msgid "Are you sure you wanna undelete this post?"
+msgstr "بۇ يازمىنى راستىنلا ئەسلىگە كەلتۈرەمسىز؟"
+
+#: bb-includes/functions.bb-script-loader.php:89
+#: bb-templates/kakumei/favorites.php:5
+msgid "favorites"
+msgstr "ساقلانمىلار"
+
+#: bb-includes/functions.bb-script-loader.php:90
+msgid "?"
+msgstr "؟"
+
+#: bb-includes/functions.bb-script-loader.php:91
+msgid "This topic is one of your %favLinkYes% [%favDel%]"
+msgstr "بۇ تېما سىزنىڭ %favLinkYes% [%favDel%] دىكى بىرى"
+
+#: bb-includes/functions.bb-script-loader.php:92
+msgid "%favAdd% (%favLinkNo%)"
+msgstr "%favAdd% (%favLinkNo%)"
+
+#: bb-includes/functions.bb-script-loader.php:93
+#: bb-includes/functions.bb-template.php:3361
+msgid "&times;"
+msgstr "&times;"
+
+#: bb-includes/functions.bb-script-loader.php:94
+#: bb-includes/functions.bb-template.php:3359
+msgid "Add this topic to your favorites"
+msgstr "بۇ تېمىنى ساقلانمىڭىزغا قوشۇۋېلىڭ"
+
+#: bb-includes/functions.bb-template.php:222
+#: bb-templates/kakumei/profile.php:3
+msgid "Profile"
+msgstr "شەخسىي ئارخىپ"
+
+#: bb-includes/functions.bb-template.php:274
+msgid "Reply"
+msgstr "جاۋاب"
+
+#: bb-includes/functions.bb-template.php:276
+msgid "New Topic in this Forum"
+msgstr "بۇ مۇنبەردىكى يېڭى تېما"
+
+#: bb-includes/functions.bb-template.php:278
+#: bb-templates/kakumei/front-page.php:86
+msgid "Add New Topic"
+msgstr "يېڭى تېما قوشۇش"
+
+#: bb-includes/functions.bb-template.php:311
+#, php-format
+msgid "You must <a href=\"%s\">log in</a> to post."
+msgstr "يازما يېزىش ئۈچۈن چوقۇم <a href=\"%s\">تىزىملىتىپ كىرىشىڭىز</a> كېرەك."
+
+#: bb-includes/functions.bb-template.php:509
+#: bb-templates/kakumei/tag-single.php:3
+#: bb-templates/kakumei/tags.php:3
+msgid "Tags"
+msgstr "خەتكۈچلەر"
+
+#: bb-includes/functions.bb-template.php:543
+#: rss.php:111
+#, php-format
+msgid "%1$s &raquo; User Favorites: %2$s"
+msgstr "%1$s &raquo; قوللانچى ساقلانمىسى: %2$s"
+
+#: bb-includes/functions.bb-template.php:550
+#: rss.php:94
+#, php-format
+msgid "%1$s &raquo; Topic: %2$s"
+msgstr "%1$s &rsaquo; تېما: %2$s"
+
+#: bb-includes/functions.bb-template.php:558
+#: rss.php:137
+#, php-format
+msgid "%1$s &raquo; Tag: %2$s - Recent Posts"
+msgstr "%1$s &raquo; خەتكۈچ: %2$s - يېقىنقى يازمىلار"
+
+#: bb-includes/functions.bb-template.php:562
+#: rss.php:127
+#, php-format
+msgid "%1$s &raquo; Tag: %2$s - Recent Topics"
+msgstr "%1$s &raquo; خەتكۈچ: %2$s - يېقىنقى تېمىلار"
+
+#: bb-includes/functions.bb-template.php:570
+#: rss.php:159
+#, php-format
+msgid "%1$s &raquo; Forum: %2$s - Recent Posts"
+msgstr "%1$s &raquo; مۇنبەر: %2$s - يېقىنقى يازمىلار"
+
+#: bb-includes/functions.bb-template.php:574
+#: rss.php:151
+#, php-format
+msgid "%1$s &raquo; Forum: %2$s - Recent Topics"
+msgstr "%1$s &raquo; مۇنبەر: %2$s - يېقىنقى تېمىلار"
+
+#: bb-includes/functions.bb-template.php:581
+#: rss.php:184
+#, php-format
+msgid "%1$s &raquo; Recent Posts"
+msgstr "%1$s &raquo; يېقىنقى يازمىلار"
+
+#: bb-includes/functions.bb-template.php:585
+#: rss.php:174
+#, php-format
+msgid "%1$s &raquo; Recent Topics"
+msgstr "%1$s &raquo; يېقىنقى تېمىلار"
+
+#: bb-includes/functions.bb-template.php:594
+#: rss.php:84
+#, php-format
+msgid "%1$s &raquo; View: %2$s"
+msgstr "%1$s &rsaquo; كۆرۈش: %2$s"
+
+#: bb-includes/functions.bb-template.php:1390
+msgid "Are you sure you wanna delete that?"
+msgstr "ئۇنى راستىنلا ئۆچۈرەمسىز؟"
+
+#: bb-includes/functions.bb-template.php:1391
+msgid "Delete entire topic"
+msgstr "پۈتۈن تېمىنى ئۆچۈرۈش"
+
+#: bb-includes/functions.bb-template.php:1394
+msgid "Are you sure you wanna undelete that?"
+msgstr "ئۇنى راستىنلا ئەسلىگە كەلتۈرەمسىز؟"
+
+#: bb-includes/functions.bb-template.php:1395
+msgid "Undelete entire topic"
+msgstr "پۈتۈن تېمىنى ئەسلىگە قايتۇرۇش"
+
+#: bb-includes/functions.bb-template.php:1418
+msgid "Close topic"
+msgstr "تېمىنى يېپىش"
+
+#: bb-includes/functions.bb-template.php:1420
+msgid "Open topic"
+msgstr "تېمىنى باشلاش"
+
+#: bb-includes/functions.bb-template.php:1452
+msgid "Unstick topic"
+msgstr "تېمىنى چوققىدىن قالدۇرۇش"
+
+#: bb-includes/functions.bb-template.php:1454
+msgid "Stick topic"
+msgstr "تېمىنى چوققىلاش"
+
+#: bb-includes/functions.bb-template.php:1454
+msgid "to front"
+msgstr "ئالدىغا يۆتكەش"
+
+#: bb-includes/functions.bb-template.php:1461
+msgid "View normal posts"
+msgstr "نورمال يازمىلارنى كۆرۈش"
+
+#: bb-includes/functions.bb-template.php:1463
+msgid "View all posts"
+msgstr "بارلىق يازمىلارنى كۆرۈش"
+
+#: bb-includes/functions.bb-template.php:1473
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s يازما"
+msgstr[1] "%s يازما"
+
+#: bb-includes/functions.bb-template.php:1486
+#, php-format
+msgid "+%d more"
+msgstr "+%d تېخىمۇ كۆپ"
+
+#: bb-includes/functions.bb-template.php:1530
+msgid "Move to"
+msgstr "يۆتكەش"
+
+#: bb-includes/functions.bb-template.php:1533
+msgid "Move"
+msgstr "يۆتكەش"
+
+#: bb-includes/functions.bb-template.php:1567
+msgid "Add New &raquo;"
+msgstr "يېڭىدىن  قوشۇش &raquo;"
+
+#: bb-includes/functions.bb-template.php:1743
+msgid "Anonymous"
+msgstr "نامسىز"
+
+#: bb-includes/functions.bb-template.php:2128
+#: bb-includes/functions.bb-template.php:2142
+msgid "PingBack"
+msgstr "Pingback"
+
+#: bb-includes/functions.bb-template.php:2130
+#: bb-includes/functions.bb-template.php:2144
+msgid "Unregistered"
+msgstr "تىزىملىتىلمىغان"
+
+#: bb-includes/functions.bb-template.php:2232
+msgid "Delete User &raquo;"
+msgstr "قوللانچىنى ئۆچۈرش &raquo;"
+
+#: bb-includes/functions.bb-template.php:2233
+msgid "Are you sure you want to delete this user?"
+msgstr "بۇ قوللانچىنى راستتىنلا ئۆچۈرەمسىز؟"
+
+#: bb-includes/functions.bb-template.php:2360
+msgid "Member Since"
+msgstr "ئەزا بولغان ۋاقتى:"
+
+#: bb-includes/functions.bb-template.php:2513
+#: bb-includes/functions.bb-template.php:2662
+#: bb-templates/kakumei/register.php:65
+msgid "These items are <span class=\"required\">required</span>."
+msgstr "بۇ تۈرلەر <span class=\"required\">زۆرۈر</span>."
+
+#: bb-includes/functions.bb-template.php:2550
+msgid "User Type"
+msgstr "قوللانچى تىپى"
+
+#: bb-includes/functions.bb-template.php:2575
+msgid "Allow this user to"
+msgstr "بۇ قوللانچىغا رۇخسەت:"
+
+#: bb-includes/functions.bb-template.php:2665
+msgid "Inactive users can login and look around but not do anything. Blocked users just see a simple error message when they visit the site."
+msgstr ""
+
+#: bb-includes/functions.bb-template.php:2666
+msgid "<strong>Note</strong>: Blocking a user does <em>not</em> block any IP addresses."
+msgstr "<strong>ئەسكەرتىش</strong>: قوللانچىنىڭ چەكلىنىشى بىلەن IP ئادرېس <em>چەكلەنگەن بولمايدۇ</em>."
+
+#: bb-includes/functions.bb-template.php:2689
+msgid "New password"
+msgstr "يېڭى پارول"
+
+#: bb-includes/functions.bb-template.php:2702
+msgid "Password Strength"
+msgstr "پارول كۈچلۈكلۈكى"
+
+#: bb-includes/functions.bb-template.php:2706
+msgid "Disabled (requires JavaScript)"
+msgstr "ئېتىۋېتىلگەن (JavaScript نى تەلەپ قىلىدۇ)"
+
+#: bb-includes/functions.bb-template.php:2712
+msgid "Disabled (requires jQuery)"
+msgstr "چەكلەش (jQuery لازىم)"
+
+#: bb-includes/functions.bb-template.php:2719
+msgid "Hint: Use upper and lower case characters, numbers and symbols like !\"?$%^&amp;( in your password."
+msgstr "ئەسكەرتمە: پارولىڭىزغا چوڭ ۋە كىچىك يېزىلىشتىكى ھەرپلەر، سانلار ۋە !\"?$%^&amp;( دېگەندەك بەلگىلەرنى ئارىلاشتۇرۇپ ئىشلىتىڭ."
+
+#: bb-includes/functions.bb-template.php:2733
+msgid "Log Out"
+msgstr "چېكىنىش"
+
+#: bb-includes/functions.bb-template.php:2759
+msgid "Admin"
+msgstr "باشقۇرغۇچى"
+
+#: bb-includes/functions.bb-template.php:2778
+msgid "View your profile"
+msgstr "شەخسىي ئارخپىڭىزنى كۆرۈڭ"
+
+#: bb-includes/functions.bb-template.php:3073
+msgid "Add &raquo;"
+msgstr "قوشۇش &raquo;"
+
+#: bb-includes/functions.bb-template.php:3109
+msgid "Rename tag:"
+msgstr "خەتكۈچ نامىنى ئۆزگەرتىش:"
+
+#: bb-includes/functions.bb-template.php:3113
+msgid "Rename"
+msgstr "نامىنى ئۆزگەرتىش"
+
+#: bb-includes/functions.bb-template.php:3117
+msgid "Merge this tag into:"
+msgstr "خەتكۈچلەرنى بىرلەشتۈرۈش:"
+
+#: bb-includes/functions.bb-template.php:3121
+msgid "Merge"
+msgstr "بىرلەشتۈرۈش"
+
+#: bb-includes/functions.bb-template.php:3122
+#, php-format
+msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified? This is permanent and cannot be undone."
+msgstr "خەتكۈچ \"%s\" نى راستىنلا كۆرسىتىلگەن خەتكۈچ بىلەن بىرلەشتۈرەمسىز؟ بىرلەشتۈرگەندىن كېيىن ئەسلىگە كەلتۈرۈش مۇمكىن ئەمەس."
+
+#: bb-includes/functions.bb-template.php:3126
+msgid "Destroy tag:"
+msgstr "خەتكۈچنى بىكار قىلىش:"
+
+#: bb-includes/functions.bb-template.php:3129
+msgid "Destroy"
+msgstr "ئۆچۈرۈش"
+
+#: bb-includes/functions.bb-template.php:3130
+#, php-format
+msgid "Are you sure you want to destroy the \"%s\" tag? This is permanent and cannot be undone."
+msgstr "\"%s\" خەتكۈچىنى راستىنلا ئۆچۈرەمسىز؟ ئۆچۈرگەندىن كېيىن ئەسلىگە كەلتۈرۈش مۇمكىن ئەمەس."
+
+#: bb-includes/functions.bb-template.php:3156
+msgid "Remove this tag"
+msgstr "بۇ خەتكۈچنى يۆتكىۋېتىش"
+
+#: bb-includes/functions.bb-template.php:3213
+#, php-format
+msgid "%d topics"
+msgstr "%d تېما"
+
+#: bb-includes/functions.bb-template.php:3278
+msgid "- None -"
+msgstr "- يوق -"
+
+#: bb-includes/functions.bb-template.php:3359
+msgid " (%?%)"
+msgstr " (%?%)"
+
+#: bb-includes/functions.bb-template.php:3361
+msgid "This topic is one of your %favorites% ["
+msgstr "%بۇ تېما %ساقلانمىڭىز دىكى بىرى ["
+
+#: bb-includes/functions.bb-template.php:3361
+msgid "]"
+msgstr "]"
+
+#: bb-includes/functions.bb-users.php:9
+msgid "You've been blocked.  If you think a mistake has been made, contact this site's administrator."
+msgstr "سىز چەكلەپ قويۇلغان. ئەگەر بىرەر خاتالىق يۈز بەردى دەپ قارىسىڭىز، بۇ تور بەتنىڭ باشقۇرغۇچىسى بىلەن ئالاقىلىشىڭ."
+
+#: bb-includes/functions.bb-users.php:261
+msgid "The specified user does not exist."
+msgstr "كۆرسىتىلگەن قوللانچى مەۋجۇت ئەمەس"
+
+#: bb-includes/functions.bb-users.php:267
+#, php-format
+msgid ""
+"If you wanted to reset your password, you may do so by visiting the following address:\n"
+"\n"
+"%s\n"
+"\n"
+"If you don't want to reset your password, just ignore this email. Thanks!"
+msgstr ""
+"Parolingizni qayta belgilimekchi bolsingiz, towendiki adresni ziyfrgt qiling:\n"
+"\n"
+"%s\n"
+"\n"
+"Parolingizni qayta belgileshni xalimisingiz, undaqta bu elxet bilen karingiz bolmisun. Rehmet!"
+
+#: bb-includes/functions.bb-users.php:277
+#: bb-templates/kakumei/password-reset.php:5
+msgid "Password Reset"
+msgstr "پارولنى قايتا بەلگىلەش"
+
+#: bb-includes/functions.bb-users.php:282
+msgid "The email containing the password reset link could not be sent."
+msgstr "پارولنى قايتا بەلگىلەش ئۇلانمىسىنى ئۆز ئىچىگە ئالغان ئېلخەتنى يوللىغىلى بولمىدى."
+
+#: bb-includes/functions.bb-users.php:304
+#: bb-includes/functions.bb-users.php:306
+#: bb-includes/functions.bb-users.php:321
+msgid "Key not found."
+msgstr "ئاچقۇچ تېپىلمىدى."
+
+#: bb-includes/functions.bb-users.php:311
+msgid "You are not allowed to change your password."
+msgstr "سىزگە پارولىڭىزنى ئۆزگەرتىش ھوقۇقى بېرىلمىگەن."
+
+#: bb-includes/functions.bb-users.php:315
+msgid "The email containing the new password could not be sent."
+msgstr "يېڭى پارولنى ئۆز ئىچىگە ئالغان ئېلخەتنى يوللىغىلى بولمىدى."
+
+#: bb-includes/functions.bb-users.php:364
+#, php-format
+msgid ""
+"Your username is: %1$s \n"
+"Your password is: %2$s \n"
+"You can now log in: %3$s \n"
+"\n"
+"Enjoy!"
+msgstr ""
+"قوللانچى نامىڭىز: %1$s \n"
+"پارولىڭىز: %2$s \n"
+"ئەمدى كىرسىڭىز بولىدۇ: %3$s \n"
+"\n"
+"تاماشا قىلىڭ!"
+
+#: bb-includes/functions.bb-users.php:368
+#: bb-templates/kakumei/login-form.php:18
+#: bb-templates/kakumei/login.php:27
+#: bb-templates/kakumei/profile-edit.php:20
+msgid "Password"
+msgstr "پارول"
+
+#: bb-login.php:78
+msgid "User does not exist."
+msgstr "قوللانچى مەۋجۇت ئەمەس."
+
+#: bb-login.php:80
+msgid "Enter a username or email address."
+msgstr "قوللانچى نامى ياكى ئېلخەت ئادرېسىنى كىرگۈزۈڭ."
+
+#: bb-login.php:80
+msgid "Enter a username."
+msgstr "قوللانچى نامىنى كىرگۈزۈڭ."
+
+#: bb-login.php:86
+msgid "Incorrect password."
+msgstr "پارول خاتا."
+
+#: bb-login.php:93
+msgid "Username and Password do not match."
+msgstr "قوللانچى نامى بىلەن پارول ماس كەلمەيدۇ."
+
+#: bb-plugins/akismet.php:57
+msgid "Akismet Settings"
+msgstr "Akismet تەڭشەكلىرى"
+
+#: bb-plugins/akismet.php:62
+#, php-format
+msgid "For many people, <a href=\"%s\">Akismet</a> will greatly reduce or even completely eliminate the spam you get on your site. If one does happen to get through, simply mark it as \"spam\" and Akismet will learn from the mistakes."
+msgstr "كۆپلىگەن كىشىلەرگە نىسبەتەن، <a href=\"%s\">Akismet</a> تور بەتكە كېلىدىغان زور مىقداردىكى سپەملەرنى ئازايتىدۇ ياكى پۈتۈنلەي ئۆچۈرۈپ تاشلايدۇ. ناۋادا سپەملەر تور بەتكە كىرىپ قالغان بولسا، تەستىقلاش بېتىدە ئۇلارغا «سپەم» دەپ بەلگە ئۇرۇپ قويۇلسا، Akismet بۇ خاتالىقنى ئېسىدە تۇتۇۋالىدۇ."
+
+#: bb-plugins/akismet.php:68
+msgid "This key is valid"
+msgstr "بۇ ئاچقۇچ ئىناۋەتلىك."
+
+#: bb-plugins/akismet.php:75
+msgid "WordPress.com API Key"
+msgstr "WordPress.com API ئاچقۇچى"
+
+#: bb-plugins/akismet.php:78
+#, php-format
+msgid "If you don't have a WordPress.com API Key, you can get one at <a href=\"%s\">WordPress.com</a>"
+msgstr "ئەگەر WordPress.com API ئاچقۇچىڭىز بولمىسا، <a href=\"%s\">WordPress.com</a> دىن بىرنى ئىلتىماس قىلسىڭىز بولىدۇ"
+
+#: bb-plugins/akismet.php:82
+msgid "Enable stats page"
+msgstr "ئىستاتىستىكا بېتىنى ئىشلىتىشكە رۇخسەت"
+
+#: bb-plugins/akismet.php:85
+msgid "Create a page that shows spam statistics."
+msgstr "سپەم ئىستاتىكىلىرىنى كۆرسىتىدىغان بىر بەت قۇرۇلسۇن."
+
+#: bb-plugins/akismet.php:87
+msgid "This page will be viewable by moderators or higher."
+msgstr "بۇ بەتنى تەستىقلىغۇچى ياكى ئۇنىڭدىن يۇقۇرىلار كۆرەلەيدۇ."
+
+#: bb-plugins/akismet.php:103
+msgid "Akismet"
+msgstr "Akismet"
+
+#: bb-plugins/akismet.php:151
+msgid "<strong>The key you attempted to enter is invalid. Reverting to previous setting.</strong>"
+msgstr "<strong>كىرگۈزمەكچى بولغان ئاچقۇچىڭىز ئىناۋەتسىز. ئەسلىدىكى تەڭشەككە قايتۇرۇلىدۇ.</strong>"
+
+#: bb-plugins/akismet.php:218
+msgid "Akismet Stats"
+msgstr "Akismet ستاتىستىكىسى"
+
+#: bb-plugins/akismet.php:440
+msgid "Not Spam"
+msgstr "سپەم ئەمەس"
+
+#: bb-plugins/akismet.php:446
+#: bb-plugins/akismet.php:476
+msgid "Spam"
+msgstr "سپەم"
+
+#: bb-plugins/bozo.php:95
+msgid "Counted the number of bozo posts in each topic"
+msgstr "ھەر بىر تېمىدىكى بوزو يازمىلار سانالدى"
+
+#: bb-plugins/bozo.php:123
+msgid "Counted each bozo user&#039;s total posts as well as the total topics to which they have replied"
+msgstr ""
+
+#: bb-plugins/bozo.php:171
+msgid "Count each bozo user&#039;s total posts as well as the total topics to which they have replied"
+msgstr ""
+
+#: bb-plugins/bozo.php:172
+msgid "Count the number of bozo posts in each topic"
+msgstr "ھەر بىر تېمىدىكى بوزو يازمىلار سانالسۇن"
+
+#: bb-plugins/bozo.php:272
+msgid "This user is a bozo"
+msgstr "بۇ قوللانچى بوزو ئىكەن"
+
+#: bb-plugins/bozo.php:310
+msgid "Bozos only"
+msgstr "پەقەت بوزولارلا"
+
+#: bb-post.php:8
+msgid "Slow down; you move too fast."
+msgstr "ئاستىراق؛ سىز بەك تېز يۆتكەيدىكەنسىز."
+
+#: bb-post.php:11
+msgid "You need to actually submit some content!"
+msgstr "سىز چوقۇم بەلگىلىك مەزمۇننى يوللىشىڭىز كېرەك!"
+
+#: bb-post.php:15
+#: bb-post.php:36
+msgid "You are not allowed to post.  Are you logged in?"
+msgstr "يازما يېزىشىڭىزغا رۇخسەت بېرىلمىگەن. سىز تىزىملىتىپ كىردىڭىزمۇ؟"
+
+#: bb-post.php:18
+msgid "You are not allowed to write new topics."
+msgstr "يېڭى تېما يېزىشىڭىزغا ئىجازەت بېرىلمىەەن."
+
+#: bb-post.php:26
+msgid "Please enter a topic title"
+msgstr "تېما نامىنى كىرگۈزۈڭ"
+
+#: bb-post.php:39
+msgid "This topic has been closed"
+msgstr "بۇ تېما تاقىۋېتىلگەن"
+
+#: bb-reset-password.php:10
+msgid "No username specified"
+msgstr "قوللانچى نامى كۆرسىتىپ بېرىلمىگەن"
+
+#: bb-settings.php:455
+msgid "Could not determine site URI"
+msgstr "تور بەت ئادرېسىنى بېكىتىشكە بولمىدى"
+
+#: bb-templates/kakumei/404.php:3
+#: bb-templates/kakumei/404.php:5
+msgid "Page not found!"
+msgstr "بەت تېپىلمىدى!"
+
+#: bb-templates/kakumei/404.php:7
+msgid "I'm sorry, but there is nothing at this URL."
+msgstr "كەچۈرۈڭ، بۇ ئۇلانمىدا ھېچنەرسە يوق ئىكەن."
+
+#: bb-templates/kakumei/edit-form.php:15
+msgid "Edit Post &raquo;"
+msgstr "يازما تەھرىرلەش &raquo;"
+
+#: bb-templates/kakumei/edit-form.php:19
+#: bb-templates/kakumei/post-form.php:29
+msgid "Allowed markup:"
+msgstr "ئىشلىتىشكە بولىدىغان بەلگىلەر:"
+
+#: bb-templates/kakumei/edit-form.php:19
+msgid "Put code in between <code>`backticks`</code>."
+msgstr "كودنى <code>`يالاڭ پەش`</code> ئىچىگە يېزىڭ."
+
+#: bb-templates/kakumei/edit-post.php:2
+msgid "Edit Post"
+msgstr "يازما تەھرىرلەش"
+
+#: bb-templates/kakumei/favorites.php:5
+#, php-format
+msgid " - %d"
+msgstr " - %d"
+
+#: bb-templates/kakumei/favorites.php:7
+msgid "Favorites allow members to create a custom <abbr title=\"Really Simple Syndication\">RSS</abbr> feed which pulls recent replies to the topics they specify."
+msgstr "ساقلانمىلار ئەزالارنى ماس ھالدىكى تېمىلارغا يېزىلغان ئەڭ يېڭى جاۋابلار ئۈچۈن <abbr title=\"Really Simple Syndication\">RSS</abbr> feed لىرىنى قۇرۇشقا مۇۋەپپەق قىلىدۇ."
+
+#: bb-templates/kakumei/favorites.php:9
+msgid "To add topics to your list of favorites, just click the \"Add to Favorites\" link found on that topic&#8217;s page."
+msgstr "تېمىلارنى ساقلانمىڭىزغا قوشۇش ئۈچۈن تېما بېتىدىكى \"ساقلىۋېلىش\" ئۇلانمىسىنى چېكىڭ."
+
+#: bb-templates/kakumei/favorites.php:18
+#: bb-templates/kakumei/forum.php:11
+#: bb-templates/kakumei/front-page.php:19
+#: bb-templates/kakumei/tag-single.php:13
+#: bb-templates/kakumei/view.php:11
+msgid "Voices"
+msgstr "ئاۋازلار"
+
+#: bb-templates/kakumei/favorites.php:19
+#: bb-templates/kakumei/forum.php:12
+#: bb-templates/kakumei/front-page.php:20
+#: bb-templates/kakumei/tag-single.php:14
+#: bb-templates/kakumei/view.php:12
+msgid "Last Poster"
+msgstr "ئاخىرقى ئاپتور"
+
+#: bb-templates/kakumei/favorites.php:22
+msgid "Remove"
+msgstr "يۆتكىۋېتىش"
+
+#: bb-templates/kakumei/favorites.php:40
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for these favorites"
+msgstr "بۇ ساقلانمىلارنىڭ <abbr title=\"Really Simple Syndication\">RSS</abbr> feed لىرى"
+
+#: bb-templates/kakumei/favorites.php:46
+msgid "You currently have no favorites."
+msgstr "تېخى ساقلانمىڭىز يوق."
+
+#: bb-templates/kakumei/favorites.php:50
+msgid "currently has no favorites."
+msgstr "نۆۋەتتە ساقلانما يوق."
+
+#: bb-templates/kakumei/footer.php:4
+#, php-format
+msgid "%1$s is proudly powered by <a href=\"%2$s\">bbPress</a>."
+msgstr "%1$s پەخىرلىك <a href=\"%2$s\">bbPress</a> تە قۇرۇلدى."
+
+#: bb-templates/kakumei/forum.php:36
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this forum"
+msgstr "بۇ مۇنبەرنىڭ <abbr title=\"Really Simple Syndication\">RSS</abbr> feed لىرى"
+
+#: bb-templates/kakumei/forum.php:41
+msgid "Subforums"
+msgstr "تارماق مۇنبەرلەر"
+
+#: bb-templates/kakumei/forum.php:45
+#: bb-templates/kakumei/front-page.php:52
+msgid "Main Theme"
+msgstr "ئاساسىي ئۇسلۇب"
+
+#: bb-templates/kakumei/front-page.php:6
+msgid "Hot Tags"
+msgstr "ئاۋات خەتكۈچلەر"
+
+#: bb-templates/kakumei/front-page.php:13
+msgid "Latest Discussions"
+msgstr "ئەڭ يېڭى مۇنازىرە"
+
+#: bb-templates/kakumei/front-page.php:73
+msgid "Views"
+msgstr "كۆرۈلۈشى"
+
+#: bb-templates/kakumei/logged-in.php:2
+#, php-format
+msgid "Welcome, %1$s"
+msgstr "مەرھابا، %1$s"
+
+#: bb-templates/kakumei/login-form.php:5
+#, php-format
+msgid "<a href=\"%1$s\">Register</a> or log in - <a href=\"%2$s\">lost password?</a>"
+msgstr "<a href=\"%1$s\">تىزىملىتىڭ</a> ياكى كىرىڭ - <a href=\"%2$s\">پارولنى ئۇنتۇپسىزمۇ؟</a>"
+
+#: bb-templates/kakumei/login-form.php:24
+#: bb-templates/kakumei/login.php:43
+msgid "Log in &raquo;"
+msgstr "كىرىش &raquo;"
+
+#: bb-templates/kakumei/login-form.php:29
+#: bb-templates/kakumei/login.php:36
+msgid "Remember me"
+msgstr "مېنى ئەستە ساقلا"
+
+#: bb-templates/kakumei/login.php:3
+#: bb-templates/kakumei/login.php:5
+#: bb-templates/kakumei/password-reset.php:3
+msgid "Log in"
+msgstr "كىرىش"
+
+#: bb-templates/kakumei/login.php:5
+msgid "Log in Failed"
+msgstr "كىرگىلى بولمىدى"
+
+#: bb-templates/kakumei/login.php:43
+msgid "Try Again &raquo;"
+msgstr "قايتا سىناش &raquo;"
+
+#: bb-templates/kakumei/login.php:52
+msgid "Password Recovery"
+msgstr "پارولنى تېپىش"
+
+#: bb-templates/kakumei/login.php:55
+msgid "To recover your password, enter your information below."
+msgstr "پارولىڭىزنى تېپىش ئۈچۈن تۆۋەندىكى ئۇچۇرلىرىڭىزنى كىرگۈزۈڭ."
+
+#: bb-templates/kakumei/login.php:68
+msgid "Recover Password &raquo;"
+msgstr "پارولنى تېپىش &raquo;"
+
+#: bb-templates/kakumei/password-reset.php:12
+msgid "An email has been sent to the address we have on file for you. If you don&#8217;t get anything within a few minutes, or your email has changed, you may want to get in touch with the webmaster or forum administrator here."
+msgstr "تىزىملاتقان ئادرېسىڭىزغا ئېلخەت ئەۋەتىلدى. بىر نەچچە مىنۇتقىچە ئېلخەتنى تاپشۇرۇپ ئالمىسىڭىز، ياكى ئېلخەت ئادرېسىڭىز ئۆزگەرگەن بولسا، بۇ مۇنبەرنىڭ ئېگىسى ياكى باشقۇرغۇچىسى بىلەن ئالاقىلىشىڭ."
+
+#: bb-templates/kakumei/password-reset.php:15
+msgid "Your password has been reset and a new one has been mailed to you."
+msgstr "پارولىڭىز قايتا بەلگىلەندى. يېڭى پارول ئېلخەتتە يوللاپ بېرىلدى."
+
+#: bb-templates/kakumei/post-form.php:14
+msgid "Tags (comma seperated)"
+msgstr "خەتكۈچ (پەش بىلەن ئايرىڭ)"
+
+#: bb-templates/kakumei/post-form.php:26
+msgid "Send Post &raquo;"
+msgstr "يازما يوللاش &raquo;"
+
+#: bb-templates/kakumei/post-form.php:29
+msgid "You can also put code in between backtick ( <code>`</code> ) characters."
+msgstr "سىز يەنە يالاڭ پەش  ( <code>`</code> )  ئىچىگە كود يازالايسىز."
+
+#: bb-templates/kakumei/post.php:11
+#, php-format
+msgid "Posted %s ago"
+msgstr "%s بۇرۇن يېزىلغان"
+
+#: bb-templates/kakumei/profile-edit.php:3
+msgid "Edit Profile"
+msgstr "ئارخىپنى تەھرىرلەش"
+
+#: bb-templates/kakumei/profile-edit.php:7
+msgid "Profile Info"
+msgstr "شەخسىي ئارخىپ ئۇچۇرلىرى"
+
+#: bb-templates/kakumei/profile-edit.php:13
+msgid "Administration"
+msgstr "باشقۇرۇش"
+
+#: bb-templates/kakumei/profile-edit.php:21
+msgid "To change your password, enter a new password twice below:"
+msgstr "پارولىڭىزنى ئۆزگەرتىش ئۈچۈن تۆۋەندىكى ئورۇنغا يېڭى پارولنى ئىككى قېتىم كىرگۈزۈڭ:"
+
+#: bb-templates/kakumei/profile-edit.php:26
+msgid "Update Profile &raquo;"
+msgstr "شەخسىي ئارخىپنى يېڭىلاش &raquo;"
+
+#: bb-templates/kakumei/profile.php:14
+msgid "Profile updated"
+msgstr "شەخسىي ئارخىپ يېڭىلاندى"
+
+#: bb-templates/kakumei/profile.php:14
+msgid "Edit again &raquo;"
+msgstr "قايتا تەھرىرلەش &raquo;"
+
+#: bb-templates/kakumei/profile.php:18
+msgid "This is how your profile appears to a logged in member."
+msgstr "ئارخىپىڭىز تىزىملىتىپ كىرگەن ئەزالارغا مۇشۇنداق كۆرۈنىدۇ."
+
+#: bb-templates/kakumei/profile.php:21
+#, php-format
+msgid "You may <a href=\"%1$s\">edit this information</a>."
+msgstr "<a href=\"%1$s\">بۇ ئۇچۇرلارنى تەھرىرلىۋېتىڭ</a>."
+
+#: bb-templates/kakumei/profile.php:26
+#, php-format
+msgid "You can also <a href=\"%1$s\">manage your favorites</a> and subscribe to your favorites&#8217; <a href=\"%2$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr "سىز يەنە <a href=\"%1$s\">خەتكۈچلىرىڭىزنى باشقۇرالايسىز</a> خەتكۈچلىرىڭىزنىڭ <a href=\"%2$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a> لىرىغا مۇشتەرى بولالايسىز."
+
+#: bb-templates/kakumei/profile.php:34
+msgid "User Activity"
+msgstr "قوللانچى مەشغۇلاتلىرى"
+
+#: bb-templates/kakumei/profile.php:36
+msgid "Recent Replies"
+msgstr "يېقىنقى جاۋابلار"
+
+#: bb-templates/kakumei/profile.php:42
+#, php-format
+msgid "You last replied: %s ago"
+msgstr "ئەڭ ئاخىرقى جاۋابىڭىز %s ئىلگىرى يېزىلغان."
+
+#: bb-templates/kakumei/profile.php:42
+#, php-format
+msgid "User last replied: %s ago"
+msgstr "قوللانچىنىڭ ئەڭ يېڭى جاۋابى %s ئىلگىرى يېزىلغان."
+
+#: bb-templates/kakumei/profile.php:46
+#: bb-templates/kakumei/profile.php:71
+#, php-format
+msgid "Most recent reply: %s ago"
+msgstr "ئەڭ يېڭى جاۋاب %s ئىلگىرى يېزىلغان."
+
+#: bb-templates/kakumei/profile.php:48
+msgid "No replies since"
+msgstr "ئاخىرقى جاۋاب:"
+
+#: bb-templates/kakumei/profile.php:54
+msgid "No more replies."
+msgstr "بۇنىڭدىن باشقا جاۋاب يوق."
+
+#: bb-templates/kakumei/profile.php:56
+msgid "No replies yet."
+msgstr "تېخى جاۋاب يوق."
+
+#: bb-templates/kakumei/profile.php:61
+msgid "Topics Started"
+msgstr "تېما باشلاندى"
+
+#: bb-templates/kakumei/profile.php:67
+#, php-format
+msgid "Started: %s ago"
+msgstr "%s ئىلگىرى باشلانغان."
+
+#: bb-templates/kakumei/profile.php:73
+msgid "No replies."
+msgstr "جاۋاب يوق."
+
+#: bb-templates/kakumei/profile.php:79
+msgid "No more topics posted."
+msgstr "بۇنىڭدىن باشقا تېما يېزىلمىغان."
+
+#: bb-templates/kakumei/profile.php:81
+msgid "No topics posted yet."
+msgstr "تېخى تېما يېزىلمىدى."
+
+#: bb-templates/kakumei/register-success.php:3
+#: bb-templates/kakumei/register.php:3
+msgid "Register"
+msgstr "تىزىملىتىش"
+
+#: bb-templates/kakumei/register-success.php:5
+msgid "Great!"
+msgstr "تىزىملاتقىنىڭىزغا رەھمەت!"
+
+#: bb-templates/kakumei/register-success.php:7
+#, php-format
+msgid "Your registration as <strong>%s</strong> was successful. Within a few minutes you should receive an email with your password."
+msgstr "<strong>%s</strong> نامىدا غەلىبىلىك تىزىملاتتىڭىز. سەل تۇرۇپ پارول يېزىلغان ئېلخەتنى تاپشۇرۇپ ئالىسىز."
+
+#: bb-templates/kakumei/register.php:5
+msgid "Registration"
+msgstr "تىزىملىتىش"
+
+#: bb-templates/kakumei/register.php:12
+msgid "Profile Information"
+msgstr "ئارخىپ ئۇچۇرلىرى"
+
+#: bb-templates/kakumei/register.php:14
+msgid "Your password will be emailed to the address you provide."
+msgstr "پارول سىزنىڭ ئېلخەت ئادرېسىڭىزغا ئەۋەتىپ بېرىلىدۇ."
+
+#: bb-templates/kakumei/register.php:72
+msgid "Register &raquo;"
+msgstr "تىزىملىتىش &raquo;"
+
+#: bb-templates/kakumei/register.php:79
+msgid "You&#8217;re already logged in, why do you need to register?"
+msgstr "سىز كىرىپ بولغان. نېمىشقا تىزىملاتماقچى بولۇپ قالدىڭىز؟"
+
+#: bb-templates/kakumei/rss2.php:19
+msgid "Search all topics from these forums."
+msgstr "بۇ مۇنبەرلەردىكى بارلىق تېمىلاردىن ئىزدەلسۇن."
+
+#: bb-templates/kakumei/rss2.php:27
+msgid "on"
+msgstr ":"
+
+#: bb-templates/kakumei/search-form.php:3
+msgid "Search:"
+msgstr "ئىزدەش:"
+
+#: bb-templates/kakumei/search-form.php:5
+msgid "Search &raquo;"
+msgstr "ئىزدەش &raquo;"
+
+#: bb-templates/kakumei/search.php:7
+msgid "Search for"
+msgstr "ئىزدەش:"
+
+#: bb-templates/kakumei/search.php:12
+msgid "Recent Posts"
+msgstr "يېقىنقى يازمىلار"
+
+#: bb-templates/kakumei/search.php:17
+#: bb-templates/kakumei/search.php:32
+#, php-format
+msgid "Posted %s"
+msgstr ":يوللانغان ۋاقتى %s"
+
+#: bb-templates/kakumei/search.php:27
+msgid "Relevant posts"
+msgstr "ئالاقىدار يازمىلار"
+
+#: bb-templates/kakumei/search.php:41
+msgid "No results found."
+msgstr "نەتىجە تېپىلمىدى."
+
+#: bb-templates/kakumei/search.php:44
+#, php-format
+msgid "You may also try your <a href=\"http://google.com/search?q=site:%1$s %2$s\">search at Google</a>"
+msgstr "<a href=\"http://google.co.jp/search?q=site:%1$s %2$s\">گۇگۇلدىن ئىزدەپ</a> باقسىڭىزمۇ بولىدۇ"
+
+#: bb-templates/kakumei/stats.php:3
+#: statistics.php:9
+msgid "Statistics"
+msgstr "ستاتىستىكىلار"
+
+#: bb-templates/kakumei/stats.php:6
+msgid "Registered Users"
+msgstr "تىزىملاتقان قوللانچىلار"
+
+#: bb-templates/kakumei/stats.php:13
+msgid "Most Popular Topics"
+msgstr "ئەڭ ئاۋات تېمىلار"
+
+#: bb-templates/kakumei/tag-single.php:29
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> link for this tag"
+msgstr "بۇ خەتكۈچنىڭ <abbr title=\"Really Simple Syndication\">RSS</abbr> ئۇلانمىسى"
+
+#: bb-templates/kakumei/tags.php:5
+msgid "This is a collection of tags that are currently popular on the forums."
+msgstr "بۇ بولسا نۆۋەتتە مۇنبەردىكى ئەڭ ئاۋات خەتكۈچلەرنىڭ توپلىمىدىن ئىبارەت."
+
+#: bb-templates/kakumei/topic-tags.php:2
+msgid "Tags:"
+msgstr "خەتكۈچلەر:"
+
+#: bb-templates/kakumei/topic-tags.php:10
+#, php-format
+msgid "No <a href=\"%s\">tags</a> yet."
+msgstr "تېخى <a href=\"%s\">خەتكۈچ</a> يوق."
+
+#: bb-templates/kakumei/topic.php:10
+#, php-format
+msgid "%s voice"
+msgid_plural "%s voices"
+msgstr[0] "%s ئاۋاز"
+msgstr[1] "%s ئاۋاز"
+
+#: bb-templates/kakumei/topic.php:13
+#, php-format
+msgid "Started %1$s ago by %2$s"
+msgstr "%2$s تەرىپىدىن %1$s بۇرۇن باشلاندى"
+
+#: bb-templates/kakumei/topic.php:15
+#, php-format
+msgid "<a href=\"%1$s\">Latest reply</a> from %2$s"
+msgstr "%2$s نىڭ <a href=\"%1$s\">يېقىنقى جاۋابلىرى</a>"
+
+#: bb-templates/kakumei/topic.php:41
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this topic"
+msgstr "بۇ تېمىنىڭ <abbr title=\"Really Simple Syndication\">RSS</abbr> feed لىرى"
+
+#: bb-templates/kakumei/topic.php:47
+msgid "Topic Closed"
+msgstr "تېما تاقىۋېتىلگەن"
+
+#: bb-templates/kakumei/topic.php:48
+msgid "This topic has been closed to new replies."
+msgstr "بۇ تېما تاقىۋېتىلگەچكە جاۋاب يازغىلى بولمايدۇ."
+
+#: bb-templates/kakumei/view.php:37
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this view"
+msgstr "بۇ كۆرۈشنىڭ<abbr title=\"Really Simple Syndication\">RSS</abbr> feed لىرى"
+
+#: favorites.php:8
+msgid "You cannot edit those favorites. How did you get here?"
+msgstr "بۇ خەتكۈچلەرنى تەھرىرلىسىڭىز بولمايدۇ. بۇ يەرگە قانداق كىرىپ قالدىڭىز؟"
+
+#: forum.php:10
+msgid "Forum not found."
+msgstr "مۇنبەر تېپىلمىدى."
+
+#: profile-edit.php:55
+#: profile-edit.php:96
+#, php-format
+msgid "%s is required."
+msgstr "%s كىرگۈزۈلۈشى شەرت."
+
+#: profile-edit.php:82
+msgid "Invalid Role"
+msgstr "ئىناۋەتسىز Role"
+
+#: profile-edit.php:84
+msgid "You are not the Gate Keeper."
+msgstr "سىز دەرۋازىۋەن ئەمەسكەنسىز."
+
+#: profile-edit.php:86
+msgid "You are Keymaster, so you may not demote yourself."
+msgstr "سىز ئاچقۇچ ئىگىسى بولغانلىقىڭىز ئۈچۈن ئۆز دەرىجىڭىزنى تۆۋەنلىتەلمەيسىز."
+
+#: profile-edit.php:113
+msgid "You must enter the same password twice."
+msgstr "ئوخشاش پارولنى ئىككى قېتىم كىرگۈزۈشىڭىز كېرەك."
+
+#: profile-edit.php:115
+msgid "You are not allowed to change this user's password."
+msgstr "بۇ قوللانچىنىڭ پارولىنى ئۆزگەرتىشىڭىزگە رۇخسەت بېرىلمىگەن."
+
+#: register.php:27
+#, php-format
+msgid "%s is an invalid username. How's this one?"
+msgstr "%s ئىناۋەتلىك قوللانچى نامى ئەمەس. بۇ قانداقراق؟"
+
+#: register.php:29
+#, php-format
+msgid "%s is an invalid username."
+msgstr "قوللانچى نامى %s ئىناۋەتسىز."
+
+#: register.php:42
+#, php-format
+msgid "%s is required"
+msgstr "%s بولۇشى زۆرۈر"
+
+#: tag-add.php:7
+msgid "You need to be logged in to add a tag."
+msgstr "خەتكۈچ قوشۇش ئۈچۈن تىزىملىتىپ كىرىشىڭىز كېرەك."
+
+#: tag-add.php:18
+#: topic.php:14
+msgid "Topic not found."
+msgstr "تېما تېپىلمىدى."
+
+#: tag-add.php:23
+msgid "The tag was not added.  Either the tag name was invalid or the topic is closed."
+msgstr "خەتكۈچ قوشۇلمىدى. خەتكۈچ نامى ئىناۋەتسىز ياكى تېما تاقالغان."
+
+#: tag-remove.php:17
+msgid "Invalid tag or topic."
+msgstr "خەتكۈچ ياكى تېما ئىناۋەتسىز."
+
+#: tag-remove.php:24
+msgid "The tag was not removed."
+msgstr "خەتكۈچ يۆتكىۋېتىلمىدى."
+
+#: tags.php:9
+msgid "Tag not found"
+msgstr "خەتكۈچ تېپىلمىدى."
+
+#: xmlrpc.php:207
+msgid "Authentication failed."
+msgstr "تەكشۈرۈش مەغلۇپ بولدى."
+
+#: xmlrpc.php:217
+#: xmlrpc.php:255
+msgid "You do not have permission to read this."
+msgstr "بۇنى ئوقۇشىڭىزغا ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:245
+msgid "User switching failed, the requested user does not exist."
+msgstr "قوللانچى ئالماشتۇرۇش مەغلۇب بولدى. كۆرسىتىلگەن قوللانچى مەۋجۇد ئەمەس."
+
+#: xmlrpc.php:588
+#: xmlrpc.php:712
+#: xmlrpc.php:811
+#: xmlrpc.php:998
+#: xmlrpc.php:1124
+#: xmlrpc.php:1233
+#: xmlrpc.php:1344
+#: xmlrpc.php:1541
+#: xmlrpc.php:1898
+#: xmlrpc.php:2747
+msgid "The forum id is invalid."
+msgstr "مۇنبەر id سى ئىناۋەتسىز."
+
+#: xmlrpc.php:593
+#: xmlrpc.php:717
+#: xmlrpc.php:1238
+#: xmlrpc.php:1349
+msgid "The forum does not exist."
+msgstr "مۇنبەر مەۋجۇت ئەمەس."
+
+#: xmlrpc.php:738
+#: xmlrpc.php:1250
+msgid "No forums found."
+msgstr "مۇنبەرلەر تېپىلمىدى."
+
+#: xmlrpc.php:817
+#: xmlrpc.php:1004
+#: xmlrpc.php:1130
+#: xmlrpc.php:1547
+#: xmlrpc.php:1904
+#: xmlrpc.php:2753
+msgid "No forum found."
+msgstr "مۇنبەر تېپىلمىدى."
+
+#: xmlrpc.php:876
+#: xmlrpc.php:976
+msgid "You do not have permission to manage forums."
+msgstr "مۇنبەرلەرنى باشقۇرۇشىڭىزغا ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:887
+#: xmlrpc.php:987
+msgid "The forum data is invalid."
+msgstr "مۇنبەر ئۇچۇرلىرى ئىناۋەتسىز."
+
+#: xmlrpc.php:895
+#: xmlrpc.php:1024
+msgid "The forum name is invalid."
+msgstr "مۇنبەر نامى ئىناۋەتسىز."
+
+#: xmlrpc.php:916
+msgid "The forum could not be created."
+msgstr "مۇنبەرنى قۇرغىلى بولمىدى."
+
+#: xmlrpc.php:1066
+msgid "The forum could not be edited."
+msgstr "مۇنبەرنى تەھرىرلىگىلى بولمىدى."
+
+#: xmlrpc.php:1110
+msgid "You do not have permission to delete forums."
+msgstr "مۇنبەرلەرنى ئۆچۈرۈشىڭىزگە ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:1141
+msgid "You do not have permission to delete this forum."
+msgstr "بۇ مۇنبەرنى ئۆچۈرۈشىڭىزگە ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:1150
+msgid "The forum could not be deleted."
+msgstr "مۇنبەرنى ئۆچۈرگىلى بولمىدى."
+
+#: xmlrpc.php:1442
+#: xmlrpc.php:1679
+#: xmlrpc.php:1793
+#: xmlrpc.php:1880
+#: xmlrpc.php:1979
+#: xmlrpc.php:2079
+#: xmlrpc.php:2179
+#: xmlrpc.php:2271
+#: xmlrpc.php:2447
+#: xmlrpc.php:2863
+#: xmlrpc.php:2947
+#: xmlrpc.php:3161
+#: xmlrpc.php:3279
+msgid "The topic id is invalid."
+msgstr "تېما id سى ئىناۋەتسىز."
+
+#: xmlrpc.php:1448
+#: xmlrpc.php:1685
+#: xmlrpc.php:1799
+#: xmlrpc.php:1886
+#: xmlrpc.php:1985
+#: xmlrpc.php:2085
+#: xmlrpc.php:2185
+#: xmlrpc.php:2277
+#: xmlrpc.php:2453
+#: xmlrpc.php:2869
+#: xmlrpc.php:2953
+#: xmlrpc.php:3167
+#: xmlrpc.php:3285
+msgid "No topic found."
+msgstr "تېما تېپىلمىدى."
+
+#: xmlrpc.php:1514
+msgid "You do not have permission to write topics."
+msgstr "تېما يېزىشىڭىزغا ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:1518
+#: xmlrpc.php:2425
+msgid "You do not have permission to write posts."
+msgstr "يازما يېزىشىڭىزغا ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:1530
+#: xmlrpc.php:1668
+msgid "The topic data is invalid."
+msgstr "تېما ئۇچۇرلىرى ئىناۋەتسىز."
+
+#: xmlrpc.php:1556
+msgid "You do not have permission to write topics to this forum."
+msgstr "بۇ مۇنبەردە تېما يېزىشىڭىزغا ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:1562
+#: xmlrpc.php:1714
+msgid "The topic title is invalid."
+msgstr "تېما ماۋزۇسى ئىناۋەتسىز."
+
+#: xmlrpc.php:1568
+#: xmlrpc.php:1720
+msgid "The topic text is invalid."
+msgstr "تېما تېكىستى ئىناۋەتسىز."
+
+#: xmlrpc.php:1584
+msgid "The topic could not be created."
+msgstr "تېمىنى قۇرغىلى بولمىدى."
+
+#: xmlrpc.php:1596
+#: xmlrpc.php:2480
+msgid "The post could not be created."
+msgstr "يازمىنى قۇرغىلى بولمىدى."
+
+#: xmlrpc.php:1652
+msgid "You do not have permission to edit topics."
+msgstr "تېمىلارنى تەھرىرلىشىڭىزگە ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:1656
+#: xmlrpc.php:2535
+msgid "You do not have permission to edit posts."
+msgstr "يازمىلارنى تەھرىرلىشىڭىزگە ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:1694
+msgid "You do not have permission to edit this topic."
+msgstr "بۇ تېمىنى تەھرىرلىشىڭىزگە ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:1708
+#: xmlrpc.php:2572
+msgid "You do not have permission to edit this post."
+msgstr "بۇ يازمىنى تەھرىرلىشىڭىزگە ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:1726
+msgid "The topic could not be edited."
+msgstr "تېمىنى تەھرىرلەشكە مۇمكىن بولمىدى."
+
+#: xmlrpc.php:1733
+#: xmlrpc.php:2590
+#: xmlrpc.php:2676
+msgid "The post could not be edited."
+msgstr "يازمىنى تەھرىرلەشكە مۇمكىن بولمىدى."
+
+#: xmlrpc.php:1779
+msgid "You do not have permission to delete topics."
+msgstr "تېمىلارنى ئۆچۈرۈشىڭىزگە ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:1815
+msgid "You do not have permission to delete this topic."
+msgstr "بۇ تېمىنى ئۆچۈرۈشىڭىزگە ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:1821
+msgid "The topic could not be deleted."
+msgstr "تېمىنى ئۆچۈرۈشكە مۇمكىن بولمىدى."
+
+#: xmlrpc.php:1866
+msgid "You do not have permission to move topics."
+msgstr "تېمىلارنى يۆتكىشىڭىزگە ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:1915
+msgid "You are not allowed to move this topic to this forum."
+msgstr "بۇ تېمىنى بۇ مۇنبەرگە يۆتكىشىڭىزگە رۇخسەت بېرىلمىگەن."
+
+#: xmlrpc.php:1921
+msgid "The topic could not be moved."
+msgstr "تېمىنى يۆتكەشكە مۇمكىن بولمىدى."
+
+#: xmlrpc.php:1965
+msgid "You do not have permission to stick topics."
+msgstr "تېمىلارنى چوققىلىشىڭىزغا ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:1994
+msgid "You do not have permission to stick this topic."
+msgstr "بۇ تېمىنى چوققىلىشىڭىزغا ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:2008
+msgid "The topic could not be stuck."
+msgstr "تېمىنى چوققىلاشقا مۇمكىن بولمىدى."
+
+#: xmlrpc.php:2065
+msgid "You do not have permission to close topics."
+msgstr "تېمىلارنى تاقىشىڭىزغا ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:2094
+msgid "You do not have permission to close this topic."
+msgstr "بۇ تېمىنى تاقىشىڭىزغا ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:2108
+msgid "The topic could not be closed."
+msgstr "تېمىنى تاقاشقا مۇمكىن بولمىدى."
+
+#: xmlrpc.php:2114
+msgid "The topic could not be opened."
+msgstr "تېمىنى ئېچىشقا مۇمكىن بولمىدى."
+
+#: xmlrpc.php:2363
+#: xmlrpc.php:2557
+#: xmlrpc.php:2649
+msgid "The post id is invalid."
+msgstr "يازما id سى ئىناۋەتسىز."
+
+#: xmlrpc.php:2369
+#: xmlrpc.php:2563
+#: xmlrpc.php:2655
+msgid "No post found."
+msgstr "يازما تېپىلمىدى."
+
+#: xmlrpc.php:2436
+#: xmlrpc.php:2546
+msgid "The post data is invalid."
+msgstr "يازما ئۇچۇرلىرى ئىناۋەتسىز."
+
+#: xmlrpc.php:2462
+msgid "You do not have permission to write posts to this topic."
+msgstr "بۇ تېمىغا يازما يوللىشىڭىزغا ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:2468
+#: xmlrpc.php:2578
+msgid "The post text is invalid."
+msgstr "يازما تېكىستى ئىناۋەتسىز."
+
+#: xmlrpc.php:2635
+msgid "You do not have permission to delete posts."
+msgstr "يازمىلارنى ئۆچۈرۈشىڭىزگە ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:2664
+msgid "You do not have permission to delete this post."
+msgstr "بۇ يازمىنى ئۆچۈرۈشىڭىزگە ھوقۇق بېرىلمىگەن."
+
+#: xmlrpc.php:2769
+msgid "Could not retrieve hot topic tags."
+msgstr "ئاۋات تېما خەتكۈچلىرىگە ئېرىشكىلى بولمىدى."
+
+#: xmlrpc.php:2773
+#: xmlrpc.php:2798
+msgid "No hot topic tags found."
+msgstr "ئاۋات تېما خەتكۈچى تېپىلمىدى."
+
+#: xmlrpc.php:2887
+msgid "Could not get a count of all topic tags."
+msgstr "بارلىق تېما خەتكۈچلىرىنىڭ سانى ئېلىنمىدى."
+
+#: xmlrpc.php:2962
+msgid "No topic tags found."
+msgstr "تېما خەتكۈچى تېپىلمىدى."
+
+#: xmlrpc.php:2969
+msgid "Could not retrieve all topic tags."
+msgstr "بارلىق تېما خەتكۈچلىرىگە ئېرىشكىلى بولمىدى."
+
+#: xmlrpc.php:3040
+#: xmlrpc.php:3368
+#: xmlrpc.php:3540
+msgid "The tag id is invalid."
+msgstr "خەتكۈچ ئىناۋەتسىز."
+
+#: xmlrpc.php:3046
+#: xmlrpc.php:3374
+#: xmlrpc.php:3546
+msgid "No tag found."
+msgstr "خەتكۈچ تېپىلمىدى."
+
+#: xmlrpc.php:3147
+#: xmlrpc.php:3265
+msgid "You do not have permission to edit tags."
+msgstr "خەتكۈچلەرنى تەھرىرلەش ھوقۇقىڭىز يوق."
+
+#: xmlrpc.php:3176
+msgid "You do not have permission to add tags to this topic."
+msgstr "بۇ تېمىغا خەتكۈچ قوشۇش ھوقۇقىڭىز يوق."
+
+#: xmlrpc.php:3184
+#: xmlrpc.php:3302
+msgid "The tag data is invalid."
+msgstr "خەتكۈچ ئۇچۇرلىرى ئىناۋەتسىز."
+
+#: xmlrpc.php:3190
+msgid "The tags could not be added."
+msgstr "خەتكۈچلەرنى قوشقىلى بولمىدى."
+
+#: xmlrpc.php:3294
+msgid "You do not have permission to remove tags from this topic."
+msgstr "بۇ تېمىدىكى خەتكۈچلەرنى يۆتكىۋېتىشكە ھوقۇقىڭىز يوق."
+
+#: xmlrpc.php:3308
+msgid "The tags could not be removed."
+msgstr "خەتكۈچلەرنى يۆتكىۋەتكىلى بولمىدى!"
+
+#: xmlrpc.php:3354
+#: xmlrpc.php:3439
+#: xmlrpc.php:3526
+msgid "You do not have permission to manage tags."
+msgstr "خەتكۈچلەرنى باشقۇرۇش ھوقۇقىڭىز يوق."
+
+#: xmlrpc.php:3386
+msgid "The tag name is invalid."
+msgstr "خەتكۈچ نامى ئىناۋەتسىز."
+
+#: xmlrpc.php:3392
+msgid "The tag could not be renamed."
+msgstr "خەتكۈچ نامىنى ئۆزگەرتكىلى بولمىدى."
+
+#: xmlrpc.php:3454
+msgid "The old tag id is invalid."
+msgstr "كونا خەتكۈچ id سى ئىناۋەتسىز."
+
+#: xmlrpc.php:3458
+msgid "The new tag id is invalid."
+msgstr "يېڭى خەتكۈچ id سى ئىناۋەتسىز."
+
+#: xmlrpc.php:3464
+msgid "No old tag found."
+msgstr "كونا خەتكۈچ ئۇچرىمىدى."
+
+#: xmlrpc.php:3468
+msgid "No new tag found."
+msgstr "يېڭى خەتكۈچ ئۇچرىمىدى."
+
+#: xmlrpc.php:3478
+msgid "The tags could not be merged."
+msgstr "خەتكۈچلەرنى بىرلەشتۈرگىلى بولمىدى."
+
+#: xmlrpc.php:3555
+msgid "The tag could not be destroyed."
+msgstr "خەتكۈچنى ئۆچۈرگىلى بولمىدى."
+
+#: xmlrpc.php:3584
+msgid "Software Name"
+msgstr "يۇمشاق دېتال نامى"
+
+#: xmlrpc.php:3589
+msgid "Software Version"
+msgstr "يۇمشاق دېتال نەشرى"
+
+#: xmlrpc.php:3594
+msgid "Site URL"
+msgstr "تور بەت ئادرېسى"
+
+#: xmlrpc.php:3601
+msgid "Site Name"
+msgstr "تور بەت نامى"
+
+#: xmlrpc.php:3606
+msgid "Site Description"
+msgstr "تور بەت چۈشەندۈرۈشى"
+
+#: xmlrpc.php:3611
+msgid "Time Zone"
+msgstr "ۋاقىت رايونى"
+
+#: xmlrpc.php:3616
+msgid "Date/Time Format"
+msgstr "چېسلا/ۋاقىت ئىپادىلىنىشى"
+
+#: xmlrpc.php:3621
+msgid "Date Format"
+msgstr "چېسلا ئىپادىلىنىشى"
+
+#: xmlrpc.php:3764
+msgid "You are not allowed to manage options."
+msgstr "تاللاشلارنى باشقۇرۇشىڭىزغا ئىجازەت بېرىلمىگەن."
+
+#: xmlrpc.php:3775
+msgid "The options data is invalid."
+msgstr "تاللاش ئۇچۇرلىرى ئىناۋەتسىز."
+
+#: xmlrpc.php:3855
+msgid "This is not the site you are trying to pingback."
+msgstr "بۇ سىز pingback قىلماقچى بولغان تور بەت ئەمەس."
+
+#: xmlrpc.php:3864
+msgid "The source URL and the target URL cannot both point to the same resource."
+msgstr "مەنبە ۋە نىشان ئادرېسىنىڭ ھەر ئىككىسىنى ئوخشاش بايلىققا توغرىلاشقا بولمايدۇ."
+
+#: xmlrpc.php:3869
+#: xmlrpc.php:4056
+msgid "The specified target URL cannot be used as a target. It either doesn't exist, or it is not a pingback-enabled resource."
+msgstr "بەلگىلەنگەن نىشان ئادرېسى مەۋجۇت ئەمەس ياكى pingback ئىجازىتى يوق. شۇڭا ئۇنى نىشان قىلغىلى بولمايدۇ."
+
+#: xmlrpc.php:3880
+msgid "The specified target topic does not contain any posts."
+msgstr "كۆرسىتىلگەن نىشان تېمىدا ھېچقانداق يازما يوق."
+
+#: xmlrpc.php:3887
+msgid "The pingback has already been registered."
+msgstr "pingback تىزىملىتىپ بولۇنغان."
+
+#: xmlrpc.php:3899
+msgid "The source URL does not exist."
+msgstr "مەنبە ئادرېسى مەۋجۇت ئەمەس."
+
+#: xmlrpc.php:3919
+msgid "We cannot find a title on that page."
+msgstr "بۇ بەتتىن بىرەر تېما تېپىلمىدى."
+
+#: xmlrpc.php:3974
+msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
+msgstr "مەنبە ئادرېس نىشان ئادرېسىنىڭ ئۇلانمىسىنى ئۆز ئىچىگە ئالمىغان، شۇڭلاشقا مەنبە قىلىشقا بولمايدۇ."
+
+#: xmlrpc.php:3989
+msgid "The pingback could not be added."
+msgstr "pingback نى قوشقىلى بولمىدى."
+
+#: xmlrpc.php:4006
+#, php-format
+msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
+msgstr "%1$s دىن %2$s غا بولغان Pingback تىزىملىتىلدى. توردا پاراڭلىشىۋېرىڭ! :-)"
+
+#: xmlrpc.php:4037
+msgid "The requested method only accepts one parameter."
+msgstr "تەلەپ قىلىنغان فۇنكسىيە پەقەت بىرلا پارامېتىر ئالىدۇ."
+
+#: xmlrpc.php:4050
+msgid "The specified target URL is not on this domain."
+msgstr "كۆرسىتىلگەن نىشان ئادرېس بۇ مۇلازىمېتىردا ئەمەس."
+
+#~ msgid "User Favorites: %s"
+#~ msgstr "قوللانچى ساقلانمىلىرى: %s"
+#~ msgid "Topic: %s"
+#~ msgstr "تېما: %s"
+#~ msgid "Tag: %s - Recent Posts"
+#~ msgstr "خەتكۈچ: %s - يېقىنقى يازمىلار"
+#~ msgid "Tag: %s - Recent Topics"
+#~ msgstr "خەتكۈچ: %s - يېقىنقى تېمىلار"
+#~ msgid "Forum: %s - Recent Posts"
+#~ msgstr "مۇنبەر: %s - يېقىنقى يازمىلار"
+#~ msgid "Forum: %s - Recent Topics"
+#~ msgstr "مۇنبەر: %s - يېقىنقى تېمىلار"
+#~ msgid "Recent Topics"
+#~ msgstr "يېقىنقى تېمىلار"
+#~ msgid "Move this topic to the selected forum:"
+#~ msgstr "بۇ تېما تاللانغان مۇنبەرگە يۆتكەلسۇن:"
+#~ msgid "%1$s View: %2$s"
+#~ msgstr "%1$s كۆرۈش: %2$s"
+#~ msgid "%1$s Topic: %2$s"
+#~ msgstr "%1$s تېما: %2$s"
+#~ msgid "Documentation"
+#~ msgstr "دوكۇمېنتلار"
+#~ msgid "Development"
+#~ msgstr "تەتقىقات نەشرى"
+#~ msgid "Manage"
+#~ msgstr "باشقۇرۇش"
+#~ msgid "Design"
+#~ msgstr "كۆرۈنۈش"
+#~ msgid "Find"
+#~ msgstr "تېپىش"
+#~ msgid "Moderators"
+#~ msgstr "تەستىقلىغۇچىلار"
+#~ msgid "User List by Role"
+#~ msgstr "قوللانچىنىڭ دەرىجە بويىچە تىزىملىكى"
+#~ msgid "Search for users &raquo;"
+#~ msgstr "قوللانچىلاردىن ئىزدەش &raquo;"
+#~ msgid "&laquo; Back to All Users"
+#~ msgstr "&laquo; بارلىق قوللانچىلار بېتىگە قايتىش"
+#~ msgid "%1$s &#8211; %2$s of %3$s shown below"
+#~ msgstr "%1$s &#8211; %3$s نىڭ %2$s لىرى تۆۋەندە كۆرسىتىلدى"
+#~ msgid "ID"
+#~ msgstr "ID"
+#~ msgid "Registered Since"
+#~ msgstr "تىزىملاتقان ۋاقتى:"
+#~ msgid "Actions"
+#~ msgstr "مەشغۇلاتلار"
+#~ msgid "Forum Name:"
+#~ msgstr "مۇنبەر نامى:"
+#~ msgid "Forum Description:"
+#~ msgstr "مۇنبەر چۈشەندۈرۈشى:"
+#~ msgid "Update Forum &#187;"
+#~ msgstr "مۇنبەرنى يېڭىلاش &#187;"
+#~ msgid "Add Forum &#187;"
+#~ msgstr "مۇنبەر قوشۇش &#187;"
+#~ msgid "Posted: %1$s in <a href=\"%2$s\">%3$s</a>"
+#~ msgstr "يېزىلغان: <a href=\"%2$s\">%3$s</a> دىكى %1$s"
+#~ msgid "DELETE tags with no topics.  Only functions if the above checked"
+#~ msgstr ""
+#~ "بىرەرمۇ تېمىدا ئىشلىتىلمىگەن خەتكۈچ ئۆچۈرۈلىدۇ. يۇقارقى تاللاشتىلا كۈچكە "
+#~ "ئىگە"
+#~ msgid "REMOVE deleted topics from users' favorites"
+#~ msgstr "قوللانچى خەتكۈچىدىن ئۆچۈرۈۋېتىلگەن تېمىلارنى ئۆچۈرۈش"
+#~ msgid "Recounting"
+#~ msgstr "قايتا ساناۋاتىدۇ"
+#~ msgid "Done counting posts."
+#~ msgstr "يازمىلار ساناپ بولۇندى."
+#~ msgid "Done counting deleted posts."
+#~ msgstr "ئۆچۈرۈۋېتىلگەن يازمىلار ساناپ بولۇندى..."
+#~ msgid "Done counting forum topics and posts."
+#~ msgstr "مۇنبەردىكى تېما ۋە يازمىلار ساناپ چىقىلدى."
+#~ msgid "Counting topics to which each user has replied..."
+#~ msgstr "ھەر بىر قوللانچى جاۋاب يازغان تېما سانىلىۋاتىدۇ..."
+#~ msgid "Done counting topics."
+#~ msgstr "تېمىلار ساناپ بولۇندى."
+#~ msgid "Done counting tagged topics."
+#~ msgstr "خەتكۈچلەنگەن تېمىلار ساناپ چىقىلدى."
+#~ msgid "Done removing deleted topics from users' favorites."
+#~ msgstr "ئۆچۈرۈلگەن تېمىلار قوللانچى ساقلانمىسىدىنمۇ ئۆچۈرۈپ بولۇندى."
+#~ msgid "Done recounting.  The process took"
+#~ msgstr "قايتا سانىلىپ بولۇندى. بۇ مەشغۇلاتقا "
+#~ msgid "%1$d queries and %2$s seconds."
+#~ msgstr "%1$d queries ۋە %2$s سېكۇنت ۋاقىت كەتتى."
+#~ msgid ""
+#~ "Your server is running PHP version %s but bbPress requires at least 4.3"
+#~ msgstr ""
+#~ "مۇلازىمېتىرىڭىزدىكى PHP نىڭ نەشرى %s ئىكەن. ۋوردپرەس بولسا ئەڭ كامىدا 4.3 "
+#~ "بولۇشىنى تەلەپ قىلىدۇ."
+#~ msgid "bbPress cookie secret key:"
+#~ msgstr "bbPress cookie مەخپىي ئاچقۇچى:"
+#~ msgid ""
+#~ "This should be a unique and secret phrase, it will be used to make your "
+#~ "bbPress cookies unique and harder for an attacker to decipher."
+#~ msgstr ""
+#~ "خاس ھەم مەخپىي ھەرپ تىزمىسىنى ئىشلىتىڭ، بۇنىڭدىن مەقسەت bbPress تە Cookie "
+#~ "نى مەخسۇس ئىشلىتىدىغان قىلىش ئارقىلىق خاككىرلارنىڭ يېشىۋېتىشىنىڭ ئالدىنى "
+#~ "ئېلىش ئۈچۈندۇر."
+#~ msgid "WordPress database secret:"
+#~ msgstr "ۋوردپرەس ساندان مەخپىيەتلىكى:"
+#~ msgid "Save site settings &raquo;"
+#~ msgstr "تور بەت تەڭشەكلىرىنى ساقلاش &raquo;"
+#~ msgid "WordPress database secret set."
+#~ msgstr "ۋوردپرەس ساندانىغا مەخپىيەتلىك بەلگىلەندى."
+#~ msgid "WordPress database secret key not set."
+#~ msgstr "ۋوردپرەس ساندانىنىڭ مەخپىي ئاچقۇچى بەلگىلەنمىدى."
+#~ msgid "Forum Management"
+#~ msgstr "مۇنبەر باشقۇرۇش"
+#~ msgid "Update Forum"
+#~ msgstr "مۇنبەرنى يېڭىلاش"
+#~ msgid "Name &#8212; Description"
+#~ msgstr "نامى &#8212; چۈشەندۈرۈش"
+#~ msgid "matching &#8220;%s&#8221;"
+#~ msgstr "سېلىشتۇرۇش &#8220;%s&#8221;"
+#~ msgid "Latest Activity"
+#~ msgstr "يېقىنقى مەشغۇلاتلار"
+#~ msgid "profile"
+#~ msgstr "شەخسىي ئارخىپ"
+#~ msgid "registered %s ago"
+#~ msgstr "%s بۇرۇن تىزىملاتقان"
+#~ msgid "by"
+#~ msgstr "ئاپتور"
+#~ msgid "started by"
+#~ msgstr "باشلىغۇچى: "
+#~ msgid "Topics per day"
+#~ msgstr "كۈندىلىك تېما سانى"
+#~ msgid "Registrations per day"
+#~ msgstr "كۈندىلىك تىزىملىتىش سانى"
+#~ msgid "Forums started %s ago."
+#~ msgstr "مۇنبەر %s بۇرۇن باشلاندى."
+#~ msgid "\"Key master\" account"
+#~ msgstr "\"ئاچقۇچ ئىگىسى\" ھېساباتى"
+#~ msgid "Settings saved."
+#~ msgstr "تەڭشەكلەر ساقلاندى."
+#~ msgid "Numeric"
+#~ msgstr "سان ھالىتىدە"
+#~ msgid "Name based"
+#~ msgstr "نامى"
+#~ msgid "Date and Time"
+#~ msgstr "چېسلا ۋە ۋاقىت"
+#~ msgid "Y-m-d g:i:s a"
+#~ msgstr "Y-يىل j-F g:i:s a"
+#~ msgid "Gravatar default image"
+#~ msgstr "Gravatar نىڭ كۆڭۈلدىكى سۈرىتى"
+#~ msgid "MonsterID"
+#~ msgstr "غەلىتە مەخلۇقچاق (ئاپتوماتىك)"
+#~ msgid "Wavatar"
+#~ msgstr "Wavatar (ئاپتوماتىك)"
+#~ msgid "X"
+#~ msgstr "X"
+#~ msgid "R"
+#~ msgstr "R"
+#~ msgid "PG"
+#~ msgstr "PG"
+#~ msgid "G"
+#~ msgstr "G"
+#~ msgid "Update Settings &raquo;"
+#~ msgstr "تەڭشەكلەرنى يېڭىلاش &raquo;"
+#~ msgid "WordPress database secret"
+#~ msgstr "ۋوردپرەس ساندان مەخپىيەتلىكى"
+#~ msgid "none"
+#~ msgstr "يوق"
+#~ msgid "File is not a valid plugin."
+#~ msgstr "ئىناۋەتلىك قىستۇرما ھۆججىتى ئەمەس."
+#~ msgid "Plugin \"%s\" <strong>activated</strong>"
+#~ msgstr "قىستۇرما \"%s\" <strong>قوزغىتىلدى</strong>."
+#~ msgid "Automatically loaded plugins"
+#~ msgstr "ئاپتوماتىك قوزغىتىلغان قىستۇرمىلار"
+#~ msgid "No Plugins Installed"
+#~ msgstr "ھېچقانداق قىستۇرما قاچىلانمىدى"
+#~ msgid "Choose items to recalculate"
+#~ msgstr "قايتا ھېسابلايدىغان تۈرلەرنى تاللاڭ"
+#~ msgid "Count!"
+#~ msgstr "سانا!"
+#~ msgid "Click to activate"
+#~ msgstr "قوزغىتىش ئۈچۈن چېكىڭ"
+#~ msgid "Core themes -&gt; "
+#~ msgstr "ئاساسىي ئۇسلۇبلار -&gt; "
+#~ msgid "IP Information"
+#~ msgstr "IP ئۇچۇرلىرى"
+#~ msgid "Posted:"
+#~ msgstr "يېزىلغان ۋاقتى:"
+#~ msgid "Search&#8230;"
+#~ msgstr "ئىزدەش&#8230;"
+#~ msgid "Forum&#8230;"
+#~ msgstr "مۇنبەر&#8230;"
+#~ msgid "Open?&#8230;"
+#~ msgstr "باشلانسۇنمۇ؟&#8230;"
+#~ msgid "Title&#8230;"
+#~ msgstr "تېما&#8230;"
+#~ msgid "<strong>ERROR</strong>: bbPress %s requires MySQL 4.0.0 or higher"
+#~ msgstr ""
+#~ "<strong>خاتا</strong>: bbPress %s نەشرى MySQL نىڭ 4.0.0 دىن يۇقىرى "
+#~ "بولۇشىنى تەلەپ قىلىدۇ"
+#~ msgid "years"
+#~ msgstr "يىل"
+#~ msgid "months"
+#~ msgstr "ئاي"
+#~ msgid "weeks"
+#~ msgstr "ھەپتە"
+#~ msgid "days"
+#~ msgstr "كۈن"
+#~ msgid "second"
+#~ msgstr "سېكۇنت"
+#~ msgid "seconds"
+#~ msgstr "سېكۇنت"
+#~ msgid "Are you sure you want to delete this %s?"
+#~ msgstr "بۇ %s نى راستتىنلا ئۆچۈرەمسىز؟"
+#~ msgid "Jump to new item"
+#~ msgstr "يېڭى تۈرگە يۆتكىلىش"
+#~ msgid "Something strange happened.  Try refreshing the page."
+#~ msgstr "كۈتۈلمىگەن خاتالىق سادىر بولدى. بەتنى يېڭىلاپ بېقىڭ."
+#~ msgid "Slow down, I'm still sending your data!"
+#~ msgstr "ئاستىراق، مەن تېخىچە سانلىق مەلۇماتلىرىڭىزنى يوللاۋاتىمەن!"
+#~ msgid "Are you sure you wanna delete this post by '%author%'?"
+#~ msgstr "«%author%» تەرىپىدىن يېزىلغان بۇ يازمىنى راستتىنلا ئۆچۈرەمسىز؟"
+#~ msgid "Are you sure you want to remove the '%tag%' tag?"
+#~ msgstr "خەتكۈچ « %tag% » نى راستىنلا ئۆچۈرەمسىز؟"
+#~ msgid "Akismet Configuration"
+#~ msgstr "Akismet سەپلىمىلىرى"
+#~ msgid "Update Configuration &raquo;"
+#~ msgstr "سەپلىمىلەرنى يېڭىلاش &raquo;"
+#~ msgid "Configuration saved."
+#~ msgstr "سەپلىمىلەر ساقلاندى."
+#~ msgid "Counting bozo posts..."
+#~ msgstr "بوزو يازمىلار سانىلىۋاتىدۇ..."
+#~ msgid "Done counting bozo posts."
+#~ msgstr "بوزو يازمىلار سانىلىپ بولۇندى."
+#~ msgid "Counting bozo topics for each user...\n"
+#~ msgstr "ھەر بىر قوللانچى ئۈچۈن بوزو يازمىلار سانىلىۋاتىدۇ...\n"
+#~ msgid ""
+#~ "Done counting bozo topics.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "بوزو تېمىلار سانىلىپ بولۇندى.\n"
+#~ "\n"
+#~ msgid "These users have been marked as bozos"
+#~ msgstr "بۇ قوللانچىلارغا بوزو دەپ بەلگە قويۇلغان"
+#~ msgid ""
+#~ "Subscribe to your favorites&#8217; <a href=\"%s\"><abbr title=\"Really "
+#~ "Simple Syndication\">RSS</abbr> feed</a>."
+#~ msgstr ""
+#~ "ساقلانمىڭىزنىڭ <a href=\"%s\"><abbr title=\"Really Simple Syndication"
+#~ "\">RSS</abbr>  feed  ىغا مۇشتەرى بولىمەن</a>."
+#~ msgid "RSS feed for this forum"
+#~ msgstr "بۇ مۇنبەرنىڭ RSS Feed سى"
+#~ msgid "Register it?"
+#~ msgstr "تىزىملىتامسىز؟"
+#~ msgid "Remember me:"
+#~ msgstr "مېنى ئەستە ساقلا:"
+#~ msgid "Topic title: (be brief and descriptive)"
+#~ msgstr "تېما: (ئىخچام ۋە چۈشىنىشلىك بولسۇن)"
+#~ msgid ""
+#~ "Enter a few words (called <a href=\"%s\">tags</a>) separated by commas to "
+#~ "help someone find your topic:"
+#~ msgstr ""
+#~ "باشقىلارنىڭ تېمىلىرىڭىزنى ئىزدەپ تېپىشىغا قولايلىق بولسۇن ئۈچۈن <em>پەش</"
+#~ "em> بىلەن ئايرىپ بىر قانچە <a href=\"%s\">خەتكۈچ</a> كىرگۈزۈڭ"
+#~ msgid "Most recent reply: %s ago."
+#~ msgstr "ئەڭ يېڭى جاۋاب %s ئىلگىرى يېزىلغان."
+#~ msgid "Your username was not valid, please try again"
+#~ msgstr "قوللانچى نامى توغرا ئەمەس، قايتا سىناپ بېقىڭ"
+#~ msgid "<br />There was a problem with your email; please check it."
+#~ msgstr "<br />ئېلخەتتە خاتالىق بار؛ تەكشۈرۈپ بېقىڭ."
+#~ msgid "<br />The above field is required."
+#~ msgstr "<br />ئۈستىدىكى تۈرنى تولدۇرۇش شەرت."
+#~ msgid "Search again &raquo;"
+#~ msgstr "قايتا ئىزدەش &raquo;"
+#~ msgid "Posted"
+#~ msgstr "يېزىلغان ۋاقتى"
+#~ msgid "RSS feed for this topic"
+#~ msgstr "بۇ تېمىنىڭ RSS Feed سى"
+#~ msgid "User Favorites"
+#~ msgstr "قوللانچى خەتكۈچى"
+#~ msgid ""
+#~ "The tag was not removed.  You cannot remove a tag from a closed topic."
+#~ msgstr "خەتكۈچ ئۆچۈرۈلمىدى. تاقالغان تېمىدىكى خەتكۈچنى ئۆچۈرەلمەيسىز."
+

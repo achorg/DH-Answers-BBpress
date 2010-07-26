@@ -1,0 +1,5131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress în Română\n"
+"Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
+"POT-Creation-Date: 2010-04-04 12:11+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Stas Sușcov <stas@softwareliber.ro>\n"
+"Language-Team: Echipa de localizare WordPress în Română <wp@softwareliber.ro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Romanian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: ROMANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Bookmarks: -1,525,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
+#: bb-admin/admin-base.php:13
+msgid "Page not found"
+msgstr "Pagina nu a fost găsită!"
+
+#: bb-admin/admin-base.php:15
+msgid "There is no administration page at the requested address. Please check the address you entered and try again."
+msgstr "Pagina de administrare nu există la adresa cerută. Verifică adresa tastată."
+
+#: bb-admin/admin-footer.php:8
+#: bb-templates/kakumei/footer.php:11
+#, php-format
+msgid "This page generated in %s seconds, using %d queries."
+msgstr "Pagină a fost generată în %s secunde, folosind %d cereri."
+
+#: bb-admin/admin-footer.php:21
+#, php-format
+msgid "Thank you for using <a href=\"%s\">bbPress</a>. | <a href=\"%s\">Documentation</a> | <a href=\"%s\">Feedback</a>"
+msgstr "Mulțumim pentru că folosești <a href=\"%s\">bbPress</a>. | <a href=\"%s\">Documentaţie</a> | <a href=\"%s\">Reacţii</a>"
+
+#: bb-admin/admin-footer.php:28
+#: bb-admin/plugins.php:226
+#, php-format
+msgid "Version %s"
+msgstr "Versiunea %s"
+
+#: bb-admin/admin-header.php:45
+msgid "Visit Site"
+msgstr "Spre site"
+
+#: bb-admin/admin-header.php:48
+#, php-format
+msgid "Howdy, %1$s"
+msgstr "Salut, %1$s"
+
+#: bb-admin/bb-forum.php:5
+msgid "You don't have the authority to mess with the forums."
+msgstr "Nu ai permisiuni pentru a modifica forumurile."
+
+#: bb-admin/bb-forum.php:17
+msgid "Bad forum name.  Go back and try again."
+msgstr "Numele forumului nu este bun. Mergi înapoi și mai încercă odată."
+
+#: bb-admin/bb-forum.php:25
+msgid "The forum was not added"
+msgstr "Forumul nu a fost adăugat"
+
+#: bb-admin/bb-forum.php:32
+msgid "No forums to update!"
+msgstr "Niciun forum nu necesită actualizare!"
+
+#: bb-admin/bb-forum.php:47
+msgid "You don't have the authority to kill off the forums."
+msgstr "Nu ai permisiuni pentru a șterge forumurile."
+
+#: bb-admin/bb-forum.php:53
+msgid "Error occured while trying to delete forum"
+msgstr "A avut loc o eroare în timp ce se încerca ștergerea forumului."
+
+#: bb-admin/delete-post.php:18
+msgid "There is a problem with that post, pardner."
+msgstr "A apărut o problemă cu acest mesaj, amice."
+
+#: bb-admin/delete-topic.php:17
+#: bb-admin/sticky.php:9
+#: bb-admin/topic-toggle.php:8
+msgid "There is a problem with that topic, pardner."
+msgstr "A apărut o problemă cu acest subiect, amice."
+
+#: bb-admin/export.php:19
+msgid "Either export is disabled or you are not allowed to export."
+msgstr "Sau funția de exportare nu este activată, sau nu ai permisiuni pentru a o folosi."
+
+#: bb-admin/forums.php:19
+msgid "<strong>Forum Updated.</strong>"
+msgstr "<strong>Forum actualizat.</strong>"
+
+#: bb-admin/forums.php:23
+#, php-format
+msgid "<strong>Forum deleted.</strong>  You should <a href=\"%s\">recount your site information</a>."
+msgstr "<strong>Forum șters.</strong>  Ar trebui să <a href=\"%s\">revizuiești informațiile site-ului</a>."
+
+#: bb-admin/forums.php:33
+#, php-format
+msgid "Are you sure you want to delete the \"<strong>%s</strong>\" forum?"
+msgstr "Ești sigur că vrei să ştergi forumul  \"<strong>%s</strong>\"?"
+
+#: bb-admin/forums.php:42
+#: bb-admin/includes/functions.bb-admin.php:65
+#: bb-admin/includes/functions.bb-admin.php:66
+#: bb-templates/kakumei/front-page.php:48
+msgid "Forums"
+msgstr "Forumuri"
+
+#: bb-admin/forums.php:51
+#: bb-admin/forums.php:80
+msgid "Delete Forum"
+msgstr "Șterge forum"
+
+#: bb-admin/forums.php:52
+msgid "This forum contains:"
+msgstr "Acest forum conține:"
+
+#: bb-admin/forums.php:54
+#, php-format
+msgid "%d topic"
+msgid_plural "%d topics"
+msgstr[0] "%d subiect"
+msgstr[1] "%d subiecte"
+
+#: bb-admin/forums.php:55
+#, php-format
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d mesaj"
+msgstr[1] "%d mesaje"
+
+#: bb-admin/forums.php:58
+msgid "Action"
+msgstr "Acțiune"
+
+#: bb-admin/forums.php:61
+msgid "Delete all topics and posts in this forum. <em>This can never be undone.</em>"
+msgstr "Șterge toate subiectele și toate mesajele din acest forum. <em>Acțiunea nu va putea fi anulată.</em>"
+
+#: bb-admin/forums.php:64
+msgid "Move topics from this forum into the replacement forum below."
+msgstr "Mută subiecte din acest forum în forumul înlocuitor de mai jos."
+
+#: bb-admin/forums.php:69
+msgid "Replacement forum"
+msgstr "Forum înlocuitor"
+
+#: bb-admin/forums.php:79
+msgid "Cancel"
+msgstr "Anulează"
+
+#: bb-admin/forums.php:89
+#: bb-includes/class.bb-query.php:942
+#: bb-templates/kakumei/post-form.php:43
+msgid "Forum"
+msgstr "Forum"
+
+#: bb-admin/includes/class.bb-install.php:193
+#: bb-includes/functions.bb-core.php:1208
+msgid "bbPress &rsaquo; Error"
+msgstr "bbPress &rsaquo; Eroare"
+
+#: bb-admin/includes/class.bb-install.php:194
+msgid "Oh dear!"
+msgstr "O, vai!"
+
+#: bb-admin/includes/class.bb-install.php:198
+#: bb-admin/includes/class.bb-install.php:208
+#: bb-admin/includes/class.bb-install.php:218
+#: bb-admin/includes/class.bb-install.php:228
+#: bb-admin/includes/class.bb-install.php:239
+#, php-format
+msgid "%1$s &rsaquo; %2$s"
+msgstr "%1$s &rsaquo; %2$s"
+
+#: bb-admin/includes/class.bb-install.php:198
+#: bb-admin/includes/class.bb-install.php:208
+#: bb-admin/includes/class.bb-install.php:218
+#: bb-admin/includes/class.bb-install.php:228
+#: bb-admin/includes/class.bb-install.php:239
+msgid "bbPress installer"
+msgstr "Instalatorul bbPress"
+
+#: bb-admin/includes/class.bb-install.php:198
+msgid "Welcome"
+msgstr "Bine ai venit"
+
+#: bb-admin/includes/class.bb-install.php:199
+msgid "Welcome to the bbPress installer"
+msgstr "Bine ai venit la instalatorul bbPress"
+
+#: bb-admin/includes/class.bb-install.php:203
+msgid "We're now going to go through a few steps to get you up and running."
+msgstr "Sunt de parcurs câțiva pași pentru a termina treaba."
+
+#: bb-admin/includes/class.bb-install.php:204
+msgid "Ready? Then let's get started!"
+msgstr "Ești gata? Atunci hai să începem!"
+
+#: bb-admin/includes/class.bb-install.php:208
+#: bb-admin/includes/class.bb-install.php:209
+msgid "Step 1"
+msgstr "Pasul 1"
+
+#: bb-admin/includes/class.bb-install.php:209
+#: bb-admin/includes/class.bb-install.php:219
+#: bb-admin/includes/class.bb-install.php:229
+#, php-format
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: bb-admin/includes/class.bb-install.php:209
+msgid "Database configuration"
+msgstr "Configurarea bazei de date"
+
+#: bb-admin/includes/class.bb-install.php:212
+msgid "In this step you need to enter your database connection details. The installer will attempt to create a file called <code>bb-config.php</code> in the root directory of your bbPress installation."
+msgstr "În acest pas, trebuie să introduci detaliile pentru conectarea la baza de date. Instalatorul va încerca să creeze un fișier pe nume <code>bb-config.php</code> în directorul rădăcină bbPress."
+
+#: bb-admin/includes/class.bb-install.php:213
+msgid "If you're not sure what to put here, contact your web hosting provider."
+msgstr "Dacă nu ești sigur ce trebuie scris, i-a legătură cu echipa de asistență ce oferă găzduirea web."
+
+#: bb-admin/includes/class.bb-install.php:218
+#: bb-admin/includes/class.bb-install.php:219
+msgid "Step 2"
+msgstr "Pasul 2"
+
+#: bb-admin/includes/class.bb-install.php:219
+msgid "WordPress integration (optional)"
+msgstr "Integrarea cu WordPress (opțională)"
+
+#: bb-admin/includes/class.bb-install.php:220
+msgid "&laquo; skipped"
+msgstr "&laquo; s-a sărit peste"
+
+#: bb-admin/includes/class.bb-install.php:222
+msgid "bbPress can integrate login and user data seamlessly with WordPress. You can safely skip this step if you do not wish to integrate with an existing WordPress install."
+msgstr "bbPress poate integra fără probleme datele utilizatorilor și datele de autentificare cu WordPress. Poți sări fără grijă peste acest pas dacă nu doreşti să integrezi bbPress cu o instalare de WordPress."
+
+#: bb-admin/includes/class.bb-install.php:228
+#: bb-admin/includes/class.bb-install.php:229
+msgid "Step 3"
+msgstr "Pasul 3"
+
+#: bb-admin/includes/class.bb-install.php:229
+msgid "Site settings"
+msgstr "Setări site"
+
+#: bb-admin/includes/class.bb-install.php:232
+msgid "Finalize your installation by adding a name, your first user and your first forum."
+msgstr "Finalizează instalarea prin adăugarea unui nume, crearea primului utilizator și forum."
+
+#: bb-admin/includes/class.bb-install.php:239
+msgid "Finished"
+msgstr "Finalizat"
+
+#: bb-admin/includes/class.bb-install.php:240
+#: bb-admin/includes/class.bb-install.php:2181
+msgid "Installation complete!"
+msgstr "Instalarea s-a încheiat!"
+
+#: bb-admin/includes/class.bb-install.php:257
+msgid "Your PHP installation appears to be missing the MySQL extension which is required for bbPress"
+msgstr "Instalarea PHP nu are extensia MySQL care este necesară pentru bbPress"
+
+#: bb-admin/includes/class.bb-install.php:262
+msgid "Please complete your installation before attempting to include WordPress within bbPress"
+msgstr "Trebuie să completezi instalarea înainte de a încerca să integrezi WordPress cu bbPress"
+
+#: bb-admin/includes/class.bb-install.php:343
+msgid "Installation language"
+msgstr "Limba de instalare"
+
+#: bb-admin/includes/class.bb-install.php:355
+msgid "Sets the language to be used during the installation process only."
+msgstr "Setează limba ce va fi folosită pe parcursul instalării."
+
+#: bb-admin/includes/class.bb-install.php:472
+msgid "An old <code>config.php</code> file has been detected in your installation. You should remove it and run the <a href=\"install.php\">installer</a> again. You can use the same database connection details if you do."
+msgstr "Un fișier vechi <code>config.php</code> a fost detectat în instalarea curentă. Acesta trebuie șters şi apoi rulat <a href=\"install.php\">instalatorul</a> din nou. Se poate folosi aceeaşi conexiune la baza de date."
+
+#: bb-admin/includes/class.bb-install.php:485
+#: bb-admin/includes/class.bb-install.php:1117
+#: bb-admin/includes/class.bb-install.php:1125
+#: bb-admin/includes/class.bb-install.php:1137
+msgid "&laquo; completed"
+msgstr "&laquo; finișat"
+
+#: bb-admin/includes/class.bb-install.php:493
+msgid "A valid configuration file was found at <code>bb-config.php</code><br />You may continue to the next step."
+msgstr "A fost găsit un fișier valid <code>bb-config.php</code><br />Se poate continua la pasul următor."
+
+#: bb-admin/includes/class.bb-install.php:498
+msgid "An invalid configuration file was found at <code>bb-config.php</code><br />The installation cannot continue."
+msgstr "A fost găsit un fișier <code>bb-config.php</code> care nu este valid<br />Instalarea nu poate continua."
+
+#: bb-admin/includes/class.bb-install.php:499
+msgid "Usually this is caused by one of the database connection settings being incorrect. Make sure that the specified user has appropriate permission to access the database."
+msgstr "De obicei acest lucru se întâmplă din cauza faptului că setările pentru baza de date nu sunt corecte. Verifică dacă utilizatorul specificat are permisiunile necesare pentru a accesa baza de date."
+
+#: bb-admin/includes/class.bb-install.php:509
+msgid "bbPress is already installed, but appears to require an upgrade."
+msgstr "bbPress este deja instalat, dar se pare că necesită o actualizare."
+
+#: bb-admin/includes/class.bb-install.php:511
+msgid "bbPress is already installed."
+msgstr "bbPress este deja instalat."
+
+#: bb-admin/includes/class.bb-install.php:514
+#, php-format
+msgid "Perhaps you meant to run the <a href=\"%s\">upgrade script</a> instead?"
+msgstr "Probabil cauți să rulezi <a href=\"%s\">script-ul pentru actualizare</a>?"
+
+#: bb-admin/includes/class.bb-install.php:524
+#: bb-admin/includes/class.bb-install.php:1323
+msgid "I could not find the file <code>bb-config-sample.php</code><br />Please upload it to the root directory of your bbPress installation."
+msgstr "Nu s-a putut găsi fișierul <code>bb-config-sample.php</code><br />Acesta trebuie încărcat în directorul rădăcină a instalării bbPress."
+
+#: bb-admin/includes/class.bb-install.php:530
+msgid "There doesn't seem to be a <code>bb-config.php</code> file. This usually means that you want to install bbPress."
+msgstr "Se pare că nu există fișierul <code>bb-config.php</code>. De obicei acest lucru spune că bbPress trebuie instalat."
+
+#: bb-admin/includes/class.bb-install.php:617
+msgid "Go to step 1"
+msgstr "Mergi la pasul 1"
+
+#: bb-admin/includes/class.bb-install.php:625
+msgid "Database name"
+msgstr "Numele bazei de date"
+
+#: bb-admin/includes/class.bb-install.php:626
+msgid "The name of the database in which you want to run bbPress."
+msgstr "Numele bazei de date care va fi folosită de bbPress."
+
+#: bb-admin/includes/class.bb-install.php:630
+msgid "Database user"
+msgstr "Utilizatorul bazei de date"
+
+#: bb-admin/includes/class.bb-install.php:631
+#: bb-admin/includes/class.bb-install.php:838
+#: bb-admin/options-wordpress.php:129
+msgid "The database user that has access to that database."
+msgstr "Utilizatorul care are acces la baza de date."
+
+#: bb-admin/includes/class.bb-install.php:637
+msgid "Database password"
+msgstr "Parola bazei de date"
+
+#: bb-admin/includes/class.bb-install.php:638
+#: bb-admin/includes/class.bb-install.php:846
+#: bb-admin/options-wordpress.php:133
+msgid "That database user's password."
+msgstr "Parola utilizatorului bazei de date."
+
+#: bb-admin/includes/class.bb-install.php:643
+msgid "Language"
+msgstr "Limba"
+
+#: bb-admin/includes/class.bb-install.php:644
+#, php-format
+msgid "The language which bbPress will be presented in once installed. Your current installer language choice (%s) will be the same for the rest of the install process."
+msgstr "Limba care bbPress o va folosi după instalare. Limba actuală a instalatorului (%s) va rămâne aceeași pentru tot restul procesului de instalare."
+
+#: bb-admin/includes/class.bb-install.php:648
+msgid "Show advanced settings"
+msgstr "Arată setările avansate"
+
+#: bb-admin/includes/class.bb-install.php:649
+msgid "These settings usually do not have to be changed."
+msgstr "Aceste setări de obicei nu necesită modificări."
+
+#: bb-admin/includes/class.bb-install.php:655
+msgid "Database host"
+msgstr "Gazda bazei de date"
+
+#: bb-admin/includes/class.bb-install.php:656
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should remain <strong>localhost</strong>."
+msgstr "Domeniul sau adresa IP a serverului pe care stă baza de date. Dacă baza de date se află pe același server, atunci probabil aceasta poate rămâne <strong>localhost</strong>."
+
+#: bb-admin/includes/class.bb-install.php:661
+msgid "Database character set"
+msgstr "Setul de caractere folosit de baza de date"
+
+#: bb-admin/includes/class.bb-install.php:662
+#: bb-admin/includes/class.bb-install.php:859
+#: bb-admin/options-wordpress.php:141
+msgid "The best choice is <strong>utf8</strong>, but you will need to match the character set which you created the database with."
+msgstr "Cea mai bună alegere este <strong>utf8</strong>, însă trebuie verificat setul cu baza de date creată deja."
+
+#: bb-admin/includes/class.bb-install.php:667
+msgid "Database character collation"
+msgstr "Colaționarea caracterelor la baza de date"
+
+#: bb-admin/includes/class.bb-install.php:668
+msgid "The character collation value set when the database was created."
+msgstr "Valoarea pentru colaționarea caracterelor aleasă la crearea bazei de date."
+
+#: bb-admin/includes/class.bb-install.php:699
+msgid "Table name prefix"
+msgstr "Prefixul pentru tabele"
+
+#: bb-admin/includes/class.bb-install.php:700
+msgid "If you are running multiple bbPress sites in a single database, you will probably want to change this."
+msgstr "Dacă vor rula mai multe instanțe bbPress folosind o singură bază de date, atunci probabil trebuie să schimbi asta."
+
+#: bb-admin/includes/class.bb-install.php:705
+msgid "Contents for <code>bb-config.php</code>"
+msgstr "Conținutul pentru <code>bb-config.php</code>"
+
+#: bb-admin/includes/class.bb-install.php:706
+msgid "Once you have created the configuration file, you can check for it below."
+msgstr "Odată ce a fost creat fișierul de configurare, îl poți verifica mai jos."
+
+#: bb-admin/includes/class.bb-install.php:709
+msgid "Save database configuration file"
+msgstr "Salvează fișierul de configurare pentru baza de date"
+
+#: bb-admin/includes/class.bb-install.php:712
+#: bb-admin/includes/class.bb-install.php:884
+#: bb-admin/includes/class.bb-install.php:931
+msgid "&laquo; Go back"
+msgstr "&laquo; Mergi înapoi"
+
+#: bb-admin/includes/class.bb-install.php:715
+msgid "Check for configuration file"
+msgstr "Caută fișierul de configurare"
+
+#: bb-admin/includes/class.bb-install.php:718
+msgid "Go to step 2"
+msgstr "Mergi la pasul 2"
+
+#: bb-admin/includes/class.bb-install.php:727
+msgid "Add integration settings"
+msgstr "Adaugă suportul pentru integrare"
+
+#: bb-admin/includes/class.bb-install.php:728
+msgid "If you want to integrate bbPress with an existing WordPress site."
+msgstr "Dacă încerci integrarea bbPress cu o instanță existentă WordPress."
+
+#: bb-admin/includes/class.bb-install.php:733
+#: bb-admin/includes/class.bb-install.php:881
+msgid "Skip WordPress integration"
+msgstr "Sări peste integrarea cu WordPress"
+
+#: bb-admin/includes/class.bb-install.php:734
+msgid "Save WordPress integration settings"
+msgstr "Salvează setările pentru integrarea cu WordPress"
+
+#: bb-admin/includes/class.bb-install.php:739
+msgid "Add cookie integration settings"
+msgstr "Adăugă setări de integrare folosind cookie-urile."
+
+#: bb-admin/includes/class.bb-install.php:740
+msgid "If you want to allow shared logins with an existing WordPress site."
+msgstr "Dacă încerci să obții autentificarea partajată cu o instanță WordPress."
+
+#: bb-admin/includes/class.bb-install.php:747
+#: bb-admin/options-wordpress.php:67
+msgid "WordPress address (URL)"
+msgstr "Adresa WordPress-ului (URL)"
+
+#: bb-admin/includes/class.bb-install.php:748
+#: bb-admin/options-wordpress.php:69
+msgid "This value should exactly match the <strong>WordPress address (URL)</strong> setting in your WordPress general settings."
+msgstr "Această valoare ar trebui să fie exact aceeași valoare găsită la <strong>Adresa WordPress (URL)</strong> din setările generale la WordPress."
+
+#: bb-admin/includes/class.bb-install.php:753
+#: bb-admin/options-wordpress.php:72
+msgid "Blog address (URL)"
+msgstr "Adresa blogului (URL)"
+
+#: bb-admin/includes/class.bb-install.php:754
+#: bb-admin/options-wordpress.php:74
+msgid "This value should exactly match the <strong>Blog address (URL)</strong> setting in your WordPress general settings."
+msgstr "Această valoare ar trebui să fie exact aceeași valoare găsită la <strong>Adresa blogului (URL)</strong> din setările generale la WordPress."
+
+#: bb-admin/includes/class.bb-install.php:759
+msgid "WordPress \"auth\" cookie key"
+msgstr "WordPress \"auth\" cookie key"
+
+#: bb-admin/includes/class.bb-install.php:760
+msgid "This value must match the value of the constant named \"AUTH_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"auth\" cookie key set in the first step."
+msgstr "Această valoare trebuie să se potrivească cu constanta numită \"AUTH_KEY\" din fișierul <code>wp-config.php</code> la WordPress. Aceasta va înlocui bbPress \"auth\" cookie key selectată în primul pas."
+
+#: bb-admin/includes/class.bb-install.php:766
+#: bb-admin/options-wordpress.php:77
+msgid "WordPress \"auth\" cookie salt"
+msgstr "WordPress \"auth\" cookie "
+
+#: bb-admin/includes/class.bb-install.php:767
+msgid "This must match the value of the WordPress setting named \"auth_salt\" in your WordPress site. Look for the option labeled \"auth_salt\" in <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings."
+msgstr "Aceasta trebuie să se potrivească cu valoarea setării WordPress numită \"auth_salt\" de pe situl dumneavoastră de WordPress. Căutați opţiunea etichetată \"auth_salt\" din <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">această pagină de administrare WordPress</a>. Dacă lăsaţi acest câmp necompletat, instalatorul ca încerca să obţină această valoare pe baza setărilor de integrare cu baza de date a WordPress."
+
+#: bb-admin/includes/class.bb-install.php:773
+msgid "WordPress \"secure auth\" cookie key"
+msgstr "WordPress \"secure auth\" cookie key"
+
+#: bb-admin/includes/class.bb-install.php:774
+msgid "This value must match the value of the constant named \"SECURE_AUTH_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"secure auth\" cookie key set in the first step."
+msgstr "Această valoare trebuie să se potrivească cu constanta numită \"SECURE_AUTH_KEY\" din fișierul de WordPress <code>wp-config.php</code> file. Aceasta va înlocui bbPress \"secure auth\" cookie key selectată în primul pas."
+
+#: bb-admin/includes/class.bb-install.php:780
+#: bb-admin/options-wordpress.php:81
+msgid "WordPress \"secure auth\" cookie salt"
+msgstr "WordPress \"secure auth\" cookie salt"
+
+#: bb-admin/includes/class.bb-install.php:781
+msgid "This must match the value of the WordPress setting named \"secure_auth_salt\" in your WordPress site. Look for the option labeled \"secure_auth_salt\" in <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings. Sometimes this value is not set in WordPress, in that case you can leave this setting blank as well."
+msgstr "Aceasta trebuie să se potrivească cu valoarea setării WordPress numită \"secure_auth_salt\" de pe situl tău WordPress. Căută opțiunea etichetată \"secure_auth_salt\" din <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">această pagină de administrare WordPress</a>. Dacă lăși acest câmp necompletat, instalatorul ca încerca să obţină această valoare pe baza setărilor de integrare cu baza de date a WordPress. Uneori această valoare nu este setată în WordPress, în acest caz poţi lăsa şi acest câmp necompletat."
+
+#: bb-admin/includes/class.bb-install.php:787
+msgid "WordPress \"logged in\" cookie key"
+msgstr "WordPress \"logged in\" cookie key"
+
+#: bb-admin/includes/class.bb-install.php:788
+msgid "This value must match the value of the constant named \"LOGGED_IN_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"logged in\" cookie key set in the first step."
+msgstr "Această valoare trebuie să se potrivească cu constanta numită \"LOGGED_IN_KEY\" din fișierul de WordPress <code>wp-config.php</code> file. Aceasta va înlocui bbPress \"logged in\" cookie key selectată în primul pas."
+
+#: bb-admin/includes/class.bb-install.php:794
+#: bb-admin/options-wordpress.php:85
+msgid "WordPress \"logged in\" cookie salt"
+msgstr "WordPress \"logged in\" cookie salt"
+
+#: bb-admin/includes/class.bb-install.php:795
+msgid "This must match the value of the WordPress setting named \"logged_in_salt\" in your WordPress site. Look for the option labeled \"logged_in_salt\" in <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings."
+msgstr "Aceasta trebuie să se potrivească cu valoarea setării WordPress numită \"logged_in_salt\" de pe situl tău  WordPress. Căutați opţiunea etichetată \"logged_in_salt\" din <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">această pagină de administrare WordPress</a>. Dacă lași acest câmp necompletat, instalatorul ca încerca să obţină această valoare pe baza setărilor de integrare cu baza de date a WordPress."
+
+#: bb-admin/includes/class.bb-install.php:801
+msgid "Add user database integration settings"
+msgstr "Adăugare setari de integrare pentru baza de date a utilizatorilor"
+
+#: bb-admin/includes/class.bb-install.php:802
+msgid "If you want to share user data with an existing WordPress site."
+msgstr "Dacă dorești să foloseşti datele utilizatorilor a unui site WordPress deja existent."
+
+#: bb-admin/includes/class.bb-install.php:810
+#: bb-admin/options-wordpress.php:103
+msgid "User database table prefix"
+msgstr "Prefixul tabelului bazei de date a utilizatorilor"
+
+#: bb-admin/includes/class.bb-install.php:811
+#: bb-admin/options-wordpress.php:104
+msgid "If your bbPress and WordPress sites share the same database, then this is the same value as <code>$table_prefix</code> in your WordPress <code>wp-config.php</code> file. It is usually <strong>wp_</strong>."
+msgstr "Dacă bbPress și WordPress folosesc aceeaşi bază de date, atunci aceasta este aceeaşi valoare ca şi <code>$table_prefix</code> din fişierul tău WordPress <code>wp-config.php</code>. De obicei este  <strong>wp_</strong>."
+
+#: bb-admin/includes/class.bb-install.php:817
+#: bb-admin/options-wordpress.php:107
+msgid "WordPress MU primary blog ID"
+msgstr "ID-ul blogului principal de WordPress MU"
+
+#: bb-admin/includes/class.bb-install.php:818
+#: bb-admin/options-wordpress.php:108
+msgid "If you are integrating with a WordPress MU site you need to specify the primary blog ID for that site. It is usually <strong>1</strong>. You should probably leave this blank if you are integrating with a standard WordPress site"
+msgstr "Dacă faci integrarea cu un site WordPress MU, trebuie să specifici ID-ul blogului principal pentru acel site. De obicei este <strong>1</strong>. Probabil că ar trebui să lăși acest câmp necompletat dacă faci integrarea cu un site WordPress standard."
+
+#: bb-admin/includes/class.bb-install.php:823
+#: bb-admin/options-wordpress.php:111
+msgid "Show advanced database settings"
+msgstr "Afișare setări avansate pentru baza de date"
+
+#: bb-admin/includes/class.bb-install.php:824
+#: bb-admin/options-wordpress.php:115
+msgid "If your bbPress and WordPress site do not share the same database, then you will need to add advanced settings."
+msgstr "Dacă bbPress și WordPress nu folosesc aceeaşi bază de date, atunci va trebui să adăugi setări avansate."
+
+#: bb-admin/includes/class.bb-install.php:831
+#: bb-admin/options-wordpress.php:124
+msgid "User database name"
+msgstr "Numele bazei de date a utilizatorilor"
+
+#: bb-admin/includes/class.bb-install.php:832
+#: bb-admin/options-wordpress.php:125
+msgid "The name of the database in which your user tables reside."
+msgstr "Numele bazei de date în care se află tabelul cu utilizatori."
+
+#: bb-admin/includes/class.bb-install.php:837
+#: bb-admin/options-wordpress.php:128
+msgid "User database user"
+msgstr "Utilizatorul bazei de date cu utilizatori"
+
+#: bb-admin/includes/class.bb-install.php:845
+#: bb-admin/options-wordpress.php:132
+msgid "User database password"
+msgstr "Parola bazei de date cu utilizatori"
+
+#: bb-admin/includes/class.bb-install.php:852
+#: bb-admin/options-wordpress.php:136
+msgid "User database host"
+msgstr "Gazda bazei de date cu utilizatori"
+
+#: bb-admin/includes/class.bb-install.php:853
+#: bb-admin/options-wordpress.php:137
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should be <strong>localhost</strong>."
+msgstr "Domeniul sau adresa IP a serverului unde baza de date este localizată. Dacă baza de date este pe același server ca şi situl web, atunci probabil că ar trebui completat <strong>localhost</strong>."
+
+#: bb-admin/includes/class.bb-install.php:858
+#: bb-admin/options-wordpress.php:140
+msgid "User database character set"
+msgstr "Setul de caractere al bazei de date cu utilizatori"
+
+#: bb-admin/includes/class.bb-install.php:864
+#: bb-admin/options-wordpress.php:144
+msgid "User database character collation"
+msgstr "Colaționarea de caractere a bazei de date cu utilizatori"
+
+#: bb-admin/includes/class.bb-install.php:865
+#: bb-admin/options-wordpress.php:145
+msgid "The character collation value set when the user database was created."
+msgstr "Valoarea pentru colațioanrea de caractere pe care ai ales-o când ai creat baza de date cu utilizatori."
+
+#: bb-admin/includes/class.bb-install.php:870
+#: bb-admin/options-wordpress.php:151
+msgid "User database \"user\" table"
+msgstr "Tabelul \"user\" din baza de date cu utilizatori"
+
+#: bb-admin/includes/class.bb-install.php:871
+#: bb-admin/includes/class.bb-install.php:877
+#: bb-admin/options-wordpress.php:152
+#: bb-admin/options-wordpress.php:156
+msgid "The complete table name, including any prefix."
+msgstr "Numele complet al tabelului, inclusiv prefixul, dacă există."
+
+#: bb-admin/includes/class.bb-install.php:876
+#: bb-admin/options-wordpress.php:155
+msgid "User database \"user meta\" table"
+msgstr "Tabelul \"user meta\" din baza de date cu utilizatori"
+
+#: bb-admin/includes/class.bb-install.php:887
+msgid "Go to step 3"
+msgstr "Mergi la pasul 3"
+
+#: bb-admin/includes/class.bb-install.php:896
+msgid "Site name"
+msgstr "Numele sitului"
+
+#: bb-admin/includes/class.bb-install.php:897
+msgid "This is what you are going to call your bbPress site."
+msgstr "Acesta este numele sitului bbPress."
+
+#: bb-admin/includes/class.bb-install.php:901
+msgid "Site address (URL)"
+msgstr "Adresa (URL-ul) sitului"
+
+#: bb-admin/includes/class.bb-install.php:902
+msgid "We have attempted to guess this; it's usually correct, but change it here if you wish."
+msgstr "Am încercat să deducem, de obicei este corect, dar se poate schimba."
+
+#: bb-admin/includes/class.bb-install.php:907
+msgid "\"Key Master\" Username"
+msgstr "Numele de utilizator pentru \"Superutilizator\""
+
+#: bb-admin/includes/class.bb-install.php:908
+msgid "This is the user login for the initial bbPress administrator (known as a \"Key Master\")."
+msgstr "Acesta este numele de autentificare pentru administratorul initial bbPress (cunoscut ca un \"Superutilizator\")."
+
+#: bb-admin/includes/class.bb-install.php:914
+msgid "\"Key Master\" Email address"
+msgstr "Adresa de e-mail pentru \"Superutilizator\""
+
+#: bb-admin/includes/class.bb-install.php:915
+msgid "The login details will be emailed to this address."
+msgstr "Detaliile de autentificare vor fi trimise la această adresă."
+
+#: bb-admin/includes/class.bb-install.php:924
+msgid "First forum name"
+msgstr "Numele primului forum"
+
+#: bb-admin/includes/class.bb-install.php:925
+msgid "This can be changed after installation, so don't worry about it too much."
+msgstr "Acesta poate fi schimbat după instalare, așa că nu îți face prea multe griji."
+
+#: bb-admin/includes/class.bb-install.php:928
+msgid "Save site settings"
+msgstr "Salvare setări site"
+
+#: bb-admin/includes/class.bb-install.php:934
+msgid "Complete the installation"
+msgstr "Finalizarea instalării"
+
+#: bb-admin/includes/class.bb-install.php:943
+msgid "Show installation messages"
+msgstr "Afișare mesaje instalare"
+
+#: bb-admin/includes/class.bb-install.php:947
+msgid "Installation errors"
+msgstr "Erori de instalare"
+
+#: bb-admin/includes/class.bb-install.php:951
+msgid "Installation log"
+msgstr "Registru de instalare"
+
+#: bb-admin/includes/class.bb-install.php:1252
+msgid "The table prefix can only contain letters, numbers and underscores.<br />Please review the suggestion below."
+msgstr "Prefixul tabelelor poate conține doar litere, cifre și underscore.<br />Te rugăm să iei în calcul una dintre sugestiile de mai jos."
+
+#: bb-admin/includes/class.bb-install.php:1253
+msgid "&bull; Based on your input the following prefix is suggested."
+msgstr "&bull; Pe baza a ceea ce ați ales, noi sugerăm următorul prefix."
+
+#: bb-admin/includes/class.bb-install.php:1261
+msgid "The table prefix can not be blank.<br />Please review the suggestion below."
+msgstr "Prefixul tabelelor nu poate rămâne necompletat.<br />Te rugăm să iei în calcul sugestia de mai jos."
+
+#: bb-admin/includes/class.bb-install.php:1262
+msgid "&bull; The default prefix has been inserted."
+msgstr "&bull; Prefixul implicit a fost inserat."
+
+#: bb-admin/includes/class.bb-install.php:1296
+msgid "There was a problem connecting to the database you specified.<br />Please check the settings, then try again."
+msgstr "A avut loc o problemă cu conectarea la baza de date pe care ai specificat-o.<br />Te rugăm să verifici setările, iar apoi să încerci din nou."
+
+#: bb-admin/includes/class.bb-install.php:1329
+msgid "Your settings have been saved to the file <code>bb-config.php</code><br />You can now continue to the next step."
+msgstr "Setările au fost salvate în fișierul <code>bb-config.php</code><br />Acum poți continua cu pasul următor."
+
+#: bb-admin/includes/class.bb-install.php:1336
+msgid "Your settings could not be saved to a configuration file. You will need to save the text shown below into a file named <code>bb-config.php</code> in the root directory of your bbPress installation before you can continue."
+msgstr "Setările n-au putut fi salvate într-un fișier de configurare. Trebuie să salvezi textul de mai jos într-un fişier pe nume <code>bb-config.php</code> din directorul rădăcină a instalării bbPress înainte de a putea continua."
+
+#: bb-admin/includes/class.bb-install.php:1358
+msgid "You have chosen to skip the WordPress integration step. You can always integrate WordPress later from within the admin area of bbPress."
+msgstr "Ai decis să sari peste pasul de integrare cu WordPress. Poți oricând să integrezi WordPress mai târziu din zona de administrare a bbPress."
+
+#: bb-admin/includes/class.bb-install.php:1434
+msgid "You must enter your settings for integration setup to complete. Choose which integration settings you wish to enter from the options below."
+msgstr "Trebuie să introduci setările pentru integrare ca să continui instalarea. Alege care setări de integrare dorești să le introduci din formularul de mai jos."
+
+#: bb-admin/includes/class.bb-install.php:1452
+msgid "Your integration settings have not been processed due to errors with the items marked below."
+msgstr "Setările de integrare nu au fost procesate datorită unor erori cu elementele marcate mai jos."
+
+#: bb-admin/includes/class.bb-install.php:1461
+#: bb-admin/includes/class.bb-install.php:1670
+msgid "&bull; This value is required to continue."
+msgstr "&bull; Această valoare este necesară pentru a continua."
+
+#: bb-admin/includes/class.bb-install.php:1464
+#: bb-admin/includes/class.bb-install.php:1673
+msgid "&bull; This does not appear to be a valid URL."
+msgstr "&bull; Acesta nu pare a fi un URL valid."
+
+#: bb-admin/includes/class.bb-install.php:1467
+#: bb-admin/includes/class.bb-install.php:1676
+msgid "&bull; The URL must begin with \"http\" or \"https\"."
+msgstr "&bull; URL-ul trebuie să înceapă cu  \"http\" sau \"https\"."
+
+#: bb-admin/includes/class.bb-install.php:1470
+#: bb-admin/includes/class.bb-install.php:1679
+msgid "&bull; The URL does not contain a host name."
+msgstr "&bull; URL-ul nu conține numele gazdei."
+
+#: bb-admin/includes/class.bb-install.php:1532
+#: bb-admin/includes/class.bb-install.php:1775
+#: bb-admin/includes/class.bb-install.php:2578
+#: bb-settings.php:648
+msgid "Your user table prefix may only contain letters, numbers and underscores."
+msgstr "Prefixul tabelului poate conține doar litere, cifre și underscore."
+
+#: bb-admin/includes/class.bb-install.php:1569
+msgid "There was a problem connecting to the WordPress user database you specified. Please check the settings, then try again."
+msgstr "Este o problemă cu conectarea la baza de date a utilizatorilor de WordPress pe care ai specificat-o. Te rugăm să verifici setările, și apoi să mai încerci odată."
+
+#: bb-admin/includes/class.bb-install.php:1583
+msgid "Existing WordPress user tables could not be found in the WordPress database you specified."
+msgstr "Tabelul cu utilizatori WordPress nu a putut fi găsit în baza de date a WordPress-ului pe care ai specificat-o."
+
+#: bb-admin/includes/class.bb-install.php:1585
+msgid "Existing WordPress user tables could not be found in the bbPress database you specified in step 1.<br /><br />This is probably because the database does not already contain working WordPress tables. You may need to specify advanced database settings or leave integration until after installation."
+msgstr "Tabelul cu utilizatori WordPress nu a putut fi găsit în baza de date bbPress pe care ai specificat-o la pasul 1.<br /><br />Cauza probabilă este faptul că baza de date nu conține deja tabele WordPress funcţionale. S-ar putea să fie nevoie să specifici setări avansate pentru baza de date sau să lași integrarea pe mai târziu."
+
+#: bb-admin/includes/class.bb-install.php:1587
+msgid "&bull; This may not be a valid user table prefix."
+msgstr "&bull; Acesta s-ar putea să nu fie un prefix valid pentur tabelul de utilizatori."
+
+#: bb-admin/includes/class.bb-install.php:1604
+msgid "Your WordPress integration cookie and database settings have been successfully validated. They will be saved after the next step.<br /><br />Once you have finished installing, you should visit the WordPress integration section of the bbPress admin area for further options and integration instructions, including user mapping and the correct cookie settings to add to your WordPress configuration file."
+msgstr "Setările de integrare cu cookie-urile și cu baza de date au fost validate cu succes. Acestea vor fi salvate după pasul următor.<br /><br />Odată ce ai finalizat instalarea, ar trebui să vizitezi secțiunea de integrare cu WordPress din zona de administrare a bbPress pentru a accesa mai multe opţiuni şi instrucţiuni de integrare, inclusiv maparea utilizatorilor şi setările corecte pentru cookie-uri care vor trebui adăugate în fişierul de configurare WordPress."
+
+#: bb-admin/includes/class.bb-install.php:1661
+msgid "Your site settings have not been processed due to errors with the items marked below."
+msgstr "Setările nu au fost procesate datorită unor erori cu elementele marcate mai jos."
+
+#: bb-admin/includes/class.bb-install.php:1682
+msgid "&bull; Contains disallowed characters which have been removed."
+msgstr "&bull; Conține caractere care nu sunt permise, și au fost eliminate."
+
+#: bb-admin/includes/class.bb-install.php:1685
+msgid "&bull; The user email address appears to be invalid."
+msgstr "&bull; Adresa de e-mail a utilizatorului nu pare să fie validă."
+
+#: bb-admin/includes/class.bb-install.php:1704
+msgid "Your site settings have been saved and we are now ready to complete the installation. So what are you waiting for?"
+msgstr "Setările au fost salvate și acum suntem gata să finalizăm instalarea. Aşa că, ce mai aştepți?"
+
+#: bb-admin/includes/class.bb-install.php:1730
+msgid "Referrer is OK, beginning installation&hellip;"
+msgstr "Referrer-ul este OK, se începe instalarea&hellip;"
+
+#: bb-admin/includes/class.bb-install.php:1737
+msgid "Setting up custom user table constants"
+msgstr "Se setează constantele personalizate pentru tabelul de utilizatori"
+
+#: bb-admin/includes/class.bb-install.php:1780
+msgid "Step 1 - Creating database tables"
+msgstr "Pasul 1 - Crearea tabelelor din baza de date"
+
+#: bb-admin/includes/class.bb-install.php:1798
+#: bb-admin/includes/class.bb-install.php:1800
+msgid "Database installation failed!!!"
+msgstr "Instalarea bazei de date a eșuat!!!"
+
+#: bb-admin/includes/class.bb-install.php:1799
+#: bb-admin/includes/class.bb-install.php:2009
+#: bb-admin/includes/class.bb-install.php:2042
+#: bb-admin/includes/class.bb-install.php:2068
+msgid "Halting installation!"
+msgstr "Instalarea s-a oprit!"
+
+#: bb-admin/includes/class.bb-install.php:1803
+#: bb-admin/includes/class.bb-install.php:2011
+#: bb-admin/includes/class.bb-install.php:2045
+#: bb-admin/includes/class.bb-install.php:2071
+msgid "Installation failed!"
+msgstr "Instalarea a eșuat!"
+
+#: bb-admin/includes/class.bb-install.php:1804
+msgid "The database failed to install. You may need to replace bbPress with a fresh copy and start again."
+msgstr "Baza de date a nu s-a putut instala. S-ar trebui să trebuiască să înlocuiești bbPress cu o copie nouă şi să o iei de la capăt."
+
+#: bb-admin/includes/class.bb-install.php:1812
+msgid "Database is already installed!!!"
+msgstr "Baza de date este deja instalată!!!"
+
+#: bb-admin/includes/class.bb-install.php:1817
+msgid "Step 2 - WordPress integration (optional)"
+msgstr "Pasul 2 - Integrarea cu WordPress (opțională)"
+
+#: bb-admin/includes/class.bb-install.php:1821
+msgid "WordPress address (URL):"
+msgstr "Adresa (URL-ul) WordPress:"
+
+#: bb-admin/includes/class.bb-install.php:1824
+msgid "Blog address (URL):"
+msgstr "Adresa (URL-ul) blogului:"
+
+#: bb-admin/includes/class.bb-install.php:1838
+msgid "WordPress cookie keys set."
+msgstr "Cheile cookie de la WordPress au fot setate."
+
+#: bb-admin/includes/class.bb-install.php:1841
+#: bb-admin/includes/class.bb-install.php:1844
+msgid "WordPress cookie keys not set."
+msgstr "Cheile cookie de la WordPress nu au fost setate."
+
+#: bb-admin/includes/class.bb-install.php:1842
+msgid "Your \"bb-config.php\" file was not writable."
+msgstr "Fișierul \"bb-config.php\" nu are permisiuni de scriere."
+
+#: bb-admin/includes/class.bb-install.php:1843
+msgid "You will need to manually re-define \"BB_AUTH_KEY\", \"BB_SECURE_AUTH_KEY\" and \"BB_LOGGED_IN_KEY\" in your \"bb-config.php\" file."
+msgstr "Vor trebui re-definite manual \"BB_AUTH_KEY\", \"BB_SECURE_AUTH_KEY\" și \"BB_LOGGED_IN_KEY\" în fişierul \"bb-config.php\"."
+
+#: bb-admin/includes/class.bb-install.php:1850
+msgid "WordPress \"auth\" cookie salt set from input."
+msgstr "Cheia cookie \"auth\" de la WordPress a fost setată la citire."
+
+#: bb-admin/includes/class.bb-install.php:1855
+msgid "WordPress \"secure auth\" cookie salt set from input."
+msgstr "Cheia cookie \"secure auth\" de la WordPress a fost setată la citire."
+
+#: bb-admin/includes/class.bb-install.php:1860
+msgid "WordPress \"logged in\" cookie salt set from input."
+msgstr "Cheia cookie \"logged in\" de la WordPress a fost setată la citire."
+
+#: bb-admin/includes/class.bb-install.php:1870
+msgid "Fetching missing WordPress cookie salts."
+msgstr "Se obțin cheile cookie de la WordPress care lipsesc."
+
+#: bb-admin/includes/class.bb-install.php:1891
+msgid "WordPress \"auth\" cookie salt set."
+msgstr "Cheia cookie \"auth\" de la WordPress a fost setată."
+
+#: bb-admin/includes/class.bb-install.php:1893
+#: bb-admin/includes/class.bb-install.php:1896
+msgid "WordPress \"auth\" cookie salt not set."
+msgstr "Cheia cookie \"auth\" de la WordPress nu a fost setată."
+
+#: bb-admin/includes/class.bb-install.php:1894
+msgid "Could not fetch \"auth\" cookie salt from the WordPress options table."
+msgstr "Nu s-a putut obține cheia cookie \"auth\" din tabelul de opțiuni WordPress."
+
+#: bb-admin/includes/class.bb-install.php:1895
+msgid "You will need to manually define the \"auth\" cookie salt in your database."
+msgstr "Va trebui definită manual cheia cookie \"auth\" în baza de date."
+
+#: bb-admin/includes/class.bb-install.php:1904
+msgid "WordPress \"secure auth\" cookie salt set."
+msgstr "Cheia cookie \"secure auth\" de la WordPress a fost setată."
+
+#: bb-admin/includes/class.bb-install.php:1907
+msgid "WordPress \"secure auth\" cookie salt not set."
+msgstr "Cheia cookie \"secure auth\" de la WordPress nu a fost setată."
+
+#: bb-admin/includes/class.bb-install.php:1915
+msgid "WordPress \"logged in\" cookie salt set."
+msgstr "Cheia cookie \"logged in\" de la WordPress a fost setată."
+
+#: bb-admin/includes/class.bb-install.php:1917
+#: bb-admin/includes/class.bb-install.php:1920
+msgid "WordPress \"logged in\" cookie salt not set."
+msgstr "Cheia cookie \"logged in\" de la WordPress nu a fost setată."
+
+#: bb-admin/includes/class.bb-install.php:1918
+msgid "Could not fetch \"logged in\" cookie salt from the WordPress options table."
+msgstr "Nu s-a putut obține cheia cookie \"logged in\" din tabelul de opţiuni WordPress."
+
+#: bb-admin/includes/class.bb-install.php:1919
+msgid "You will need to manually define the \"logged in\" cookie salt in your database."
+msgstr "Va trebui definită manual cheia cookie \"logged in\" în baza de date."
+
+#: bb-admin/includes/class.bb-install.php:1927
+msgid "User database table prefix:"
+msgstr "Prefixul tabelului cu utilizatori din baza de date:"
+
+#: bb-admin/includes/class.bb-install.php:1932
+msgid "WordPress MU primary blog ID:"
+msgstr "ID-ul blogului principal din WordPress MU:"
+
+#: bb-admin/includes/class.bb-install.php:1938
+msgid "User database name:"
+msgstr "Numele bazei de date cu utilizatori:"
+
+#: bb-admin/includes/class.bb-install.php:1942
+msgid "User database user:"
+msgstr "Utilizatorul bazei de date cu utilizatori:"
+
+#: bb-admin/includes/class.bb-install.php:1946
+msgid "User database password:"
+msgstr "Parola bazei de date cu utilizatori:"
+
+#: bb-admin/includes/class.bb-install.php:1950
+msgid "User database host:"
+msgstr "Gazda bazei de date cu utilizatori:"
+
+#: bb-admin/includes/class.bb-install.php:1954
+msgid "User database character set:"
+msgstr "Setul de caractere al bazei de date cu utilizatori:"
+
+#: bb-admin/includes/class.bb-install.php:1958
+msgid "User database collation:"
+msgstr "Colaționarea de caractere a bazei de date cu utilizatori:"
+
+#: bb-admin/includes/class.bb-install.php:1962
+msgid "User database \"user\" table:"
+msgstr "Tabelul \"user\" al bazei de date cu utilizatori:"
+
+#: bb-admin/includes/class.bb-install.php:1966
+msgid "User database \"user meta\" table:"
+msgstr "Tabelul \"user meta\" al bazei de date cu utilizatori:"
+
+#: bb-admin/includes/class.bb-install.php:1971
+msgid "Integration not enabled"
+msgstr "Integrarea nu este activată"
+
+#: bb-admin/includes/class.bb-install.php:1976
+msgid "Step 3 - Site settings"
+msgstr "Pasul 3 - Setări site"
+
+#: bb-admin/includes/class.bb-install.php:1978
+msgid "Site name:"
+msgstr "Numele site-ului:"
+
+#: bb-admin/includes/class.bb-install.php:1980
+msgid "Site address (URL):"
+msgstr "Adresa (URL-ul) site-ului:"
+
+#: bb-admin/includes/class.bb-install.php:1982
+msgid "From email address:"
+msgstr "De la adresa de e-mail (From):"
+
+#: bb-admin/includes/class.bb-install.php:1993
+#: bb-admin/includes/class.bb-install.php:1995
+#: bb-admin/includes/class.bb-install.php:2041
+#: bb-admin/includes/class.bb-install.php:2043
+#: bb-admin/includes/class.bb-install.php:2069
+msgid "Key master could not be created!"
+msgstr "Superutilizatorul nu a putut fi creat!"
+
+#: bb-admin/includes/class.bb-install.php:1994
+msgid "That login is already taken!"
+msgstr "Acest login este deja luat!"
+
+#: bb-admin/includes/class.bb-install.php:2000
+msgid "Existing key master entered!"
+msgstr "Superutilizatorul existent a fost introdus!"
+
+#: bb-admin/includes/class.bb-install.php:2001
+msgid "Your bbPress password"
+msgstr "Parola ta bbPress"
+
+#: bb-admin/includes/class.bb-install.php:2004
+msgid "Re-setting admin email address."
+msgstr "Se re-setează adresa de e-mail a administratorului."
+
+#: bb-admin/includes/class.bb-install.php:2008
+msgid "Existing user without key master role entered!"
+msgstr "Utilizatorul existent este fără rolul de Superutilizator!"
+
+#: bb-admin/includes/class.bb-install.php:2012
+msgid "The key master could not be created. An existing user was found with that user login."
+msgstr "Superutilizatorul nu a putut fi creat. A fost găsit un utilizator cu același nume de utilizator."
+
+#: bb-admin/includes/class.bb-install.php:2035
+msgid "Key master created"
+msgstr "Superutilizatorul a fost creat"
+
+#: bb-admin/includes/class.bb-install.php:2036
+#: bb-admin/includes/class.bb-install.php:2062
+#: bb-admin/install.php:359
+msgid "Username:"
+msgstr "Numele de utilizator:"
+
+#: bb-admin/includes/class.bb-install.php:2037
+#: bb-admin/includes/class.bb-install.php:2063
+msgid "Email address:"
+msgstr "Adresă e-mail:"
+
+#: bb-admin/includes/class.bb-install.php:2038
+#: bb-admin/includes/class.bb-install.php:2064
+#: bb-admin/install.php:361
+msgid "Password:"
+msgstr "Parola:"
+
+#: bb-admin/includes/class.bb-install.php:2046
+msgid "The key master could not be created. You may need to replace bbPress with a fresh copy and start again."
+msgstr "Superutilizatorul nu a putut fi creat. S-ar putea să fie nevoie să înlocuiești bbPress cu o copie nouă şi să o iei de la capăt."
+
+#: bb-admin/includes/class.bb-install.php:2060
+msgid "Your existing password"
+msgstr "Parola ta actuală"
+
+#: bb-admin/includes/class.bb-install.php:2061
+msgid "Key master role assigned to existing user"
+msgstr "Rolul de Superutilizator a fost atribuit utilizatorului existent"
+
+#: bb-admin/includes/class.bb-install.php:2067
+msgid "Key master role could not be assigned to existing user!"
+msgstr "Rolul de Superutilizator nu a putut fi atribuit utilizatorului existent!"
+
+#: bb-admin/includes/class.bb-install.php:2072
+msgid "The key master could not be assigned. You may need to replace bbPress with a fresh copy and start again."
+msgstr "Rolul de Superutilizator nu a putut fi atribuit. S-ar putea să fie nevoie să înlocuiești bbPress cu o copie nouă şi să o iei de la capăt."
+
+#: bb-admin/includes/class.bb-install.php:2091
+msgid "Just another bbPress community"
+msgstr "Doar o altă comunitate bbPress"
+
+#: bb-admin/includes/class.bb-install.php:2100
+msgid "Description:"
+msgstr "Descriere:"
+
+#: bb-admin/includes/class.bb-install.php:2103
+msgid "Forum name:"
+msgstr "Numele forumului:"
+
+#: bb-admin/includes/class.bb-install.php:2111
+msgid "Your first topic"
+msgstr "Primul tău subiect"
+
+#: bb-admin/includes/class.bb-install.php:2119
+msgid "First Post!  w00t."
+msgstr "Primul mesaj!  Super."
+
+#: bb-admin/includes/class.bb-install.php:2133
+#: bb-templates/kakumei/edit-form.php:4
+msgid "Topic:"
+msgstr "Subiect:"
+
+#: bb-admin/includes/class.bb-install.php:2134
+#: bb-templates/kakumei/edit-form.php:10
+msgid "Post:"
+msgstr "Mesaj:"
+
+#: bb-admin/includes/class.bb-install.php:2136
+#: bb-admin/includes/class.bb-install.php:2137
+msgid "Forum could not be created!"
+msgstr "Forumul nu a putut fi creat!"
+
+#: bb-admin/includes/class.bb-install.php:2140
+msgid "There are existing forums in this database."
+msgstr "Mai există forumuri în această bază de date."
+
+#: bb-admin/includes/class.bb-install.php:2141
+msgid "No new forum created."
+msgstr "Nu a fost creat niciun forum nou."
+
+#: bb-admin/includes/class.bb-install.php:2142
+msgid "Forums already exist!"
+msgstr "Forumurile există deja!"
+
+#: bb-admin/includes/class.bb-install.php:2148
+#, php-format
+msgid "Making plugin directory at %s."
+msgstr "Se face directorul de module la %s."
+
+#: bb-admin/includes/class.bb-install.php:2155
+#, php-format
+msgid "Making theme directory at %s."
+msgstr "Se face directorul de șabloane la %s."
+
+#: bb-admin/includes/class.bb-install.php:2161
+#, php-format
+msgid ""
+"Your new bbPress site has been successfully set up at:\n"
+"\n"
+"%1$s\n"
+"\n"
+"You can log in to the key master account with the following information:\n"
+"\n"
+"Username: %2$s\n"
+"Password: %3$s\n"
+"\n"
+"We hope you enjoy your new forums. Thanks!\n"
+"\n"
+"--The bbPress Team\n"
+"http://bbpress.org/"
+msgstr ""
+"Noul tău site bbPress a fost instalat cu succes la:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Te poți autentifica cu contul de Superutilizator folosind următoarele informaţii:\n"
+"\n"
+"Nume de utilizator: %2$s\n"
+"Parolă: %3$s\n"
+"\n"
+"Sperăm că ești mulțumit. Îți mulţumim și noi!\n"
+"\n"
+"--Echipa bbPress\n"
+"http://bbpress.org/ | http://ro.forums.wordpress.org/forum/bbpress"
+
+#: bb-admin/includes/class.bb-install.php:2167
+msgid "New bbPress installation"
+msgstr "O nouă instanță bbPress"
+
+#: bb-admin/includes/class.bb-install.php:2168
+msgid "Key master email sent"
+msgstr "Mesajul e-mail a fost trimis Superutilizatorului."
+
+#: bb-admin/includes/class.bb-install.php:2170
+#: bb-admin/includes/class.bb-install.php:2171
+msgid "Key master email not sent!"
+msgstr "Mesajul e-mail nu a fost trimis Superutilizatorului!"
+
+#: bb-admin/includes/class.bb-install.php:2176
+msgid "Installation completed with some errors!"
+msgstr "Instalarea a fost finalizată, dar cu erori!"
+
+#: bb-admin/includes/class.bb-install.php:2177
+msgid "Your installation completed with some minor errors. See the error log below for more specific information."
+msgstr "Instalarea este finalizată, dar cu ceva erori minore. Vezi registrul de erori de mai jos pentru informații mai detaliate."
+
+#: bb-admin/includes/class.bb-install.php:2178
+msgid "There were some errors encountered during installation!"
+msgstr "Au fost întâlnite câteva erori în timpul instalării!"
+
+#: bb-admin/includes/class.bb-install.php:2180
+msgid "Your installation completed successfully."
+msgstr "Procesul de instalare a fost finalizat cu succes."
+
+#: bb-admin/includes/class.bb-install.php:2622
+msgid "Please select an existing bbPress Keymaster or WordPress administrator."
+msgstr "Te rugăm să selectezi un Superutilizator bbPress existent sau un administrator WordPress."
+
+#: bb-admin/includes/defaults.bb-schema.php:8
+msgid "Database class not loaded."
+msgstr "Clasa pentru baza de date nu a putut fi încărcată."
+
+#: bb-admin/includes/functions.bb-admin.php:55
+#: bb-admin/includes/functions.bb-admin.php:56
+#: bb-admin/index.php:46
+msgid "Dashboard"
+msgstr "Panou de control"
+
+#: bb-admin/includes/functions.bb-admin.php:67
+#: bb-admin/includes/functions.bb-admin.php:68
+#: bb-admin/topics.php:87
+#: bb-templates/kakumei/forum.php:46
+#: bb-templates/kakumei/front-page.php:53
+msgid "Topics"
+msgstr "Subiecte"
+
+#: bb-admin/includes/functions.bb-admin.php:69
+#: bb-admin/includes/functions.bb-admin.php:70
+#: bb-admin/posts.php:81
+#: bb-admin/topics.php:188
+#: bb-admin/topics.php:198
+#: bb-templates/kakumei/favorites.php:17
+#: bb-templates/kakumei/forum.php:10
+#: bb-templates/kakumei/forum.php:47
+#: bb-templates/kakumei/front-page.php:18
+#: bb-templates/kakumei/front-page.php:54
+#: bb-templates/kakumei/stats.php:8
+#: bb-templates/kakumei/tag-single.php:12
+#: bb-templates/kakumei/view.php:10
+msgid "Posts"
+msgstr "Mesaje"
+
+#: bb-admin/includes/functions.bb-admin.php:79
+msgid "Appearance"
+msgstr "Aspect"
+
+#: bb-admin/includes/functions.bb-admin.php:80
+msgid "Themes"
+msgstr "Șabloane"
+
+#: bb-admin/includes/functions.bb-admin.php:81
+msgid "Plugins"
+msgstr "Module"
+
+#: bb-admin/includes/functions.bb-admin.php:82
+msgid "Installed"
+msgstr "Instalate"
+
+#: bb-admin/includes/functions.bb-admin.php:83
+#: bb-admin/includes/functions.bb-admin.php:84
+#: bb-admin/includes/functions.bb-admin.php:591
+msgid "Users"
+msgstr "Utilizatori"
+
+#: bb-admin/includes/functions.bb-admin.php:85
+#: bb-admin/tools-recount.php:68
+msgid "Tools"
+msgstr "Unelte"
+
+#: bb-admin/includes/functions.bb-admin.php:86
+#: bb-admin/tools-recount.php:73
+msgid "Re-count"
+msgstr "Re-calculare"
+
+#: bb-admin/includes/functions.bb-admin.php:87
+msgid "Settings"
+msgstr "Setări"
+
+#: bb-admin/includes/functions.bb-admin.php:88
+msgid "General"
+msgstr "General"
+
+#: bb-admin/includes/functions.bb-admin.php:90
+msgid "Writing"
+msgstr "Scriere"
+
+#: bb-admin/includes/functions.bb-admin.php:91
+msgid "Reading"
+msgstr "Citire"
+
+#: bb-admin/includes/functions.bb-admin.php:92
+msgid "Discussion"
+msgstr "Discuții"
+
+#: bb-admin/includes/functions.bb-admin.php:93
+msgid "Permalinks"
+msgstr "Legături permanente"
+
+#: bb-admin/includes/functions.bb-admin.php:94
+msgid "WordPress Integration"
+msgstr "Integrarea cu WordPress"
+
+#: bb-admin/includes/functions.bb-admin.php:236
+#: bb-admin/options-wordpress.php:249
+#: bb-includes/functions.bb-core.php:1115
+msgid "bbPress"
+msgstr "bbPress"
+
+#: bb-admin/includes/functions.bb-admin.php:415
+#: bb-admin/includes/functions.bb-admin.php:884
+#: bb-admin/includes/functions.bb-admin.php:1107
+#: bb-admin/topics.php:212
+msgid "View"
+msgstr "Vezi"
+
+#: bb-admin/includes/functions.bb-admin.php:418
+#: bb-admin/includes/functions.bb-admin.php:886
+#: bb-includes/functions.bb-core.php:844
+#: bb-includes/functions.bb-template.php:1942
+msgid "Edit"
+msgstr "Editează"
+
+#: bb-admin/includes/functions.bb-admin.php:419
+#, php-format
+msgid "User ID: %d"
+msgstr "ID utilizator: %d"
+
+#: bb-admin/includes/functions.bb-admin.php:433
+#: bb-admin/includes/functions.bb-admin.php:1141
+#: bb-admin/topics.php:231
+#: bb-admin/topics.php:240
+#, php-format
+msgid "%s ago"
+msgstr "acum %s"
+
+#: bb-admin/includes/functions.bb-admin.php:443
+msgid "Inactive (no role)"
+msgstr "Inactiv (fără rol)"
+
+#: bb-admin/includes/functions.bb-admin.php:455
+msgid "None"
+msgstr "Nici unul"
+
+#: bb-admin/includes/functions.bb-admin.php:523
+#: bb-admin/includes/functions.bb-admin.php:705
+msgid "<strong>No matching users were found!</strong>"
+msgstr "<strong>Nu a fost găsit niciun utilizator!</strong>"
+
+#: bb-admin/includes/functions.bb-admin.php:536
+#: bb-admin/posts.php:156
+#: bb-admin/topics.php:159
+#, php-format
+msgid "%1$s to %2$s of %3$s"
+msgstr "de la %1$s la %2$s din %3$s"
+
+#: bb-admin/includes/functions.bb-admin.php:574
+#, php-format
+msgid "Users Matching \"%s\" by Role"
+msgstr "Utilizatori \"%s\" ordonați după rol"
+
+#: bb-admin/includes/functions.bb-admin.php:584
+#: bb-admin/posts.php:88
+#: bb-admin/topics.php:94
+#, php-format
+msgid "containing &#8220;%s&#8221;"
+msgstr "care conțin &#8220;%s&#8221;"
+
+#: bb-admin/includes/functions.bb-admin.php:585
+#, php-format
+msgid "with role &#8220;%s&#8221;"
+msgstr "cu rolul &#8220;%s&#8221;"
+
+#: bb-admin/includes/functions.bb-admin.php:588
+#, php-format
+msgid "%1$s%2$s"
+msgstr "%1$s%2$s"
+
+#: bb-admin/includes/functions.bb-admin.php:600
+#: bb-includes/class.bb-query.php:936
+msgid "Search term"
+msgstr "Termen de căutare"
+
+#: bb-admin/includes/functions.bb-admin.php:604
+#: bb-admin/includes/functions.bb-admin.php:653
+#: bb-admin/includes/functions.bb-admin.php:667
+msgid "Role"
+msgstr "Rol"
+
+#: bb-admin/includes/functions.bb-admin.php:624
+#: bb-includes/class.bb-query.php:1019
+#: bb-templates/kakumei/rss2.php:18
+#: bb-templates/kakumei/search.php:3
+msgid "Search"
+msgstr "Căută"
+
+#: bb-admin/includes/functions.bb-admin.php:625
+#: bb-admin/posts.php:113
+#: bb-admin/topics.php:110
+msgid "Filter"
+msgstr "Filtrează"
+
+#: bb-admin/includes/functions.bb-admin.php:645
+#: bb-admin/includes/functions.bb-admin.php:649
+#: bb-admin/includes/functions.bb-admin.php:659
+#: bb-admin/includes/functions.bb-admin.php:663
+#: bb-templates/kakumei/login-form.php:14
+#: bb-templates/kakumei/login.php:17
+#: bb-templates/kakumei/login.php:59
+#: bb-templates/kakumei/register.php:25
+msgid "Username"
+msgstr "Nume utilizator"
+
+#: bb-admin/includes/functions.bb-admin.php:646
+#: bb-admin/includes/functions.bb-admin.php:650
+#: bb-admin/includes/functions.bb-admin.php:660
+#: bb-admin/includes/functions.bb-admin.php:664
+#: bb-admin/includes/functions.bb-admin.php:926
+msgid "Name"
+msgstr "Nume"
+
+#: bb-admin/includes/functions.bb-admin.php:647
+#: bb-admin/includes/functions.bb-admin.php:661
+msgid "E-mail"
+msgstr "Adresă e-mail"
+
+#: bb-admin/includes/functions.bb-admin.php:652
+#: bb-admin/includes/functions.bb-admin.php:666
+msgid "Registered"
+msgstr "Înregistrat"
+
+#: bb-admin/includes/functions.bb-admin.php:888
+#: bb-admin/posts.php:116
+#: bb-admin/topics.php:124
+#: bb-admin/topics.php:215
+#: bb-includes/functions.bb-template.php:1999
+msgid "Delete"
+msgstr "Șterge"
+
+#: bb-admin/includes/functions.bb-admin.php:915
+msgid "Edit Forum"
+msgstr "Editează forumul"
+
+#: bb-admin/includes/functions.bb-admin.php:916
+#: bb-admin/options-discussion.php:135
+#: bb-admin/options-general.php:236
+#: bb-admin/options-permalinks.php:164
+#: bb-admin/options-reading.php:61
+#: bb-admin/options-wordpress.php:183
+#: bb-admin/options-wordpress.php:303
+#: bb-admin/options-writing.php:84
+#: bb-plugins/akismet.php:95
+msgid "Save Changes"
+msgstr "Salvează schimbările"
+
+#: bb-admin/includes/functions.bb-admin.php:919
+#: bb-admin/includes/functions.bb-admin.php:920
+msgid "Add Forum"
+msgstr "Adăugare forum"
+
+#: bb-admin/includes/functions.bb-admin.php:930
+msgid "Slug"
+msgstr "Slug"
+
+#: bb-admin/includes/functions.bb-admin.php:934
+#: bb-admin/plugins.php:186
+#: bb-admin/plugins.php:192
+msgid "Description"
+msgstr "Descriere"
+
+#: bb-admin/includes/functions.bb-admin.php:939
+msgid "Parent"
+msgstr "Părinte"
+
+#: bb-admin/includes/functions.bb-admin.php:951
+msgid "Position"
+msgstr "Poziție"
+
+#: bb-admin/includes/functions.bb-admin.php:956
+msgid "Category"
+msgstr "Categorie"
+
+#: bb-admin/includes/functions.bb-admin.php:960
+msgid "Make this forum a category"
+msgstr "Transforma acest forum într-o categorie"
+
+#: bb-admin/includes/functions.bb-admin.php:964
+msgid "Categories are forums where new topics cannot be created. Categories usually contain a group of sub-forums."
+msgstr "Categoriile sunt forumuri în care nu pot fi adăugate noi subiecte. Categoriile conțin de obicei un grup de sub-forumuri."
+
+#: bb-admin/includes/functions.bb-admin.php:1074
+#: xmlrpc.php:1700
+#: xmlrpc.php:2299
+msgid "No posts found."
+msgstr "Nu s-a găsit nici un mesaj."
+
+#: bb-admin/includes/functions.bb-admin.php:1082
+#: bb-admin/includes/functions.bb-admin.php:1091
+#: bb-templates/kakumei/post-form.php:32
+msgid "Post"
+msgstr "Mesaj"
+
+#: bb-admin/includes/functions.bb-admin.php:1083
+#: bb-admin/includes/functions.bb-admin.php:1092
+#: bb-admin/topics.php:187
+#: bb-admin/topics.php:197
+msgid "Author"
+msgstr "Autor"
+
+#: bb-admin/includes/functions.bb-admin.php:1084
+#: bb-admin/includes/functions.bb-admin.php:1093
+#: bb-admin/topics.php:186
+#: bb-admin/topics.php:196
+#: bb-templates/kakumei/favorites.php:16
+#: bb-templates/kakumei/forum.php:9
+#: bb-templates/kakumei/front-page.php:17
+#: bb-templates/kakumei/tag-single.php:11
+#: bb-templates/kakumei/view.php:9
+msgid "Topic"
+msgstr "Subiect"
+
+#: bb-admin/includes/functions.bb-admin.php:1085
+#: bb-admin/includes/functions.bb-admin.php:1094
+#: bb-admin/topics.php:189
+#: bb-admin/topics.php:199
+msgid "Date"
+msgstr "Data"
+
+#: bb-admin/includes/functions.bb-admin.php:1161
+msgid "Count posts of every topic"
+msgstr "Numără mesajele din fiecare subiect"
+
+#: bb-admin/includes/functions.bb-admin.php:1162
+msgid "Count voices of every topic"
+msgstr "Numără participanții din fiecare subiect"
+
+#: bb-admin/includes/functions.bb-admin.php:1163
+msgid "Count deleted posts on every topic"
+msgstr "Numără mesajele șterse din fiecare subiect"
+
+#: bb-admin/includes/functions.bb-admin.php:1164
+msgid "Count topics and posts in every forum"
+msgstr "Numără subiectele și mesajele din toate forumurile"
+
+#: bb-admin/includes/functions.bb-admin.php:1165
+msgid "Count topics to which each user has replied"
+msgstr "Numără subiectele la care fiecare utilizator a răspuns"
+
+#: bb-admin/includes/functions.bb-admin.php:1166
+msgid "Count tags for every topic"
+msgstr "Numără etichetele pentru fiecare subiect"
+
+#: bb-admin/includes/functions.bb-admin.php:1167
+msgid "Count topics for every tag"
+msgstr "Numără subiectele pentru fiecare etichetă"
+
+#: bb-admin/includes/functions.bb-admin.php:1168
+msgid "Delete tags with no topics"
+msgstr "Șterge etichete care nu au nici un subiect"
+
+#: bb-admin/includes/functions.bb-admin.php:1169
+msgid "Remove deleted topics from users' favorites"
+msgstr "Scoate subiectele șterse din subiectele favorite ale utilizatorilor"
+
+#: bb-admin/includes/functions.bb-admin.php:1239
+#: bb-admin/includes/functions.bb-plugin.php:307
+msgid "Visit author homepage"
+msgstr "Mergi la pagina autorului"
+
+#: bb-admin/includes/functions.bb-admin.php:1249
+msgid "Visit porter homepage"
+msgstr "Mergi la pagina portului"
+
+#: bb-admin/includes/functions.bb-plugin.php:304
+#: bb-admin/plugins.php:228
+msgid "Visit plugin site"
+msgstr "Mergi la pagina modulului"
+
+#: bb-admin/includes/functions.bb-plugin.php:430
+msgid "Invalid plugin path."
+msgstr "Calea spre modul nu este validă."
+
+#: bb-admin/includes/functions.bb-plugin.php:434
+msgid "Plugin file does not exist."
+msgstr "Fișierul modulului nu există."
+
+#: bb-admin/includes/functions.bb-plugin.php:437
+msgid "That type of plugin is not available in the specified location."
+msgstr "Acest tip de modul nu este disponibil la locația specificată."
+
+#: bb-admin/includes/functions.bb-recount.php:7
+#, php-format
+msgid "Counting the number of posts in each topic&hellip; %s"
+msgstr "Se calculează numărul de mesaje în fiecare subiect&hellip; %s"
+
+#: bb-admin/includes/functions.bb-recount.php:8
+#: bb-admin/includes/functions.bb-recount.php:24
+#: bb-admin/includes/functions.bb-recount.php:45
+#: bb-admin/includes/functions.bb-recount.php:66
+#: bb-admin/includes/functions.bb-recount.php:82
+#: bb-admin/includes/functions.bb-recount.php:98
+#: bb-admin/includes/functions.bb-recount.php:220
+msgid "Failed!"
+msgstr "A eșuat!"
+
+#: bb-admin/includes/functions.bb-recount.php:15
+#: bb-admin/includes/functions.bb-recount.php:36
+#: bb-admin/includes/functions.bb-recount.php:57
+#: bb-admin/includes/functions.bb-recount.php:73
+#: bb-admin/includes/functions.bb-recount.php:89
+#: bb-admin/includes/functions.bb-recount.php:133
+#: bb-admin/includes/functions.bb-recount.php:266
+msgid "Complete!"
+msgstr "Finalizat!"
+
+#: bb-admin/includes/functions.bb-recount.php:23
+#, php-format
+msgid "Counting the number of voices in each topic&hellip; %s"
+msgstr "Se calculează numărul de participanți în fiecare subiect&hellip; %s"
+
+#: bb-admin/includes/functions.bb-recount.php:44
+#, php-format
+msgid "Counting the number of deleted posts in each topic&hellip; %s"
+msgstr "Se calculează numărul de mesaje șterse în fiecare subiect&hellip; %s"
+
+#: bb-admin/includes/functions.bb-recount.php:65
+#, php-format
+msgid "Counting the number of topics in each forum&hellip; %s"
+msgstr "Se calculează numărul de subiecte în fiecare forum&hellip; %s"
+
+#: bb-admin/includes/functions.bb-recount.php:81
+#, php-format
+msgid "Counting the number of posts in each forum&hellip; %s"
+msgstr "Se calculează numărul de mesaje în fiecare forum&hellip; %s"
+
+#: bb-admin/includes/functions.bb-recount.php:97
+#, php-format
+msgid "Counting the number of topics to which each user has replied&hellip; %s"
+msgstr "Se calculează numărul de de subiecte la care a răspuns fiecare utilizator&hellip; %s"
+
+#: bb-admin/includes/functions.bb-recount.php:149
+msgid "Counted topic tags"
+msgstr "Etichete numărate"
+
+#: bb-admin/includes/functions.bb-recount.php:174
+msgid "Counted tagged topics"
+msgstr "Subiecte etichetate numărate"
+
+#: bb-admin/includes/functions.bb-recount.php:199
+msgid "Deleted tags with no topics"
+msgstr "Etichete șterse fără nici un subiect"
+
+#: bb-admin/includes/functions.bb-recount.php:219
+#, php-format
+msgid "Removing deleted topics from user favorites&hellip; %s"
+msgstr "Se elimină subiectele șterse din favoritele utilizatorului&hellip; %s"
+
+#: bb-admin/index.php:6
+#, php-format
+msgid "<span>%d</span> forum"
+msgid_plural "<span>%d</span> forums"
+msgstr[0] "<span>%d</span> forum"
+msgstr[1] "<span>%d</span> forumuri"
+
+#: bb-admin/index.php:9
+#: bb-admin/index.php:21
+#, php-format
+msgid "<span>%d</span> topic"
+msgid_plural "<span>%d</span> topics"
+msgstr[0] "<span>%d</span> subiect"
+msgstr[1] "<span>%d</span> subiecte"
+
+#: bb-admin/index.php:12
+#: bb-admin/index.php:24
+#, php-format
+msgid "<span>%d</span> post"
+msgid_plural "<span>%d</span> posts"
+msgstr[0] "<span>%d</span> mesaj"
+msgstr[1] "<span>%d</span> mesaje"
+
+#: bb-admin/index.php:15
+#: bb-admin/index.php:27
+#, php-format
+msgid "<span>%d</span> user"
+msgid_plural "<span>%d</span> users"
+msgstr[0] "<span>%d</span> utilizator"
+msgstr[1] "<span>%d</span> utilizatori"
+
+#: bb-admin/index.php:18
+#: bb-admin/index.php:30
+#, php-format
+msgid "<span>%d</span> tag"
+msgid_plural "<span>%d</span> tags"
+msgstr[0] "<span>%d</span> etichetă"
+msgstr[1] "<span>%d</span> etichete"
+
+#: bb-admin/index.php:50
+msgid "Right Now"
+msgstr "Chiar acum"
+
+#: bb-admin/index.php:55
+msgid "Totals"
+msgstr "Total"
+
+#: bb-admin/index.php:56
+msgid "Per Day"
+msgstr "Pe zi"
+
+#: bb-admin/index.php:81
+msgid "Change Theme"
+msgstr "Schimbă șablonul"
+
+#: bb-admin/index.php:81
+#, php-format
+msgid "Theme <a href=\"%1$s\">%2$s</a>"
+msgstr "Șablonul <a href=\"%1$s\">%2$s</a>"
+
+#: bb-admin/index.php:82
+#, php-format
+msgid "You are using <span class=\"b\">bbPress %s</span>"
+msgstr "Folosiți <span class=\"b\">bbPress %s</span>"
+
+#: bb-admin/index.php:87
+msgid "Recently Moderated Items"
+msgstr "Elemente recent moderate"
+
+#: bb-admin/index.php:95
+#, php-format
+msgid "<a href=\"%1$s\">Post</a> on <a href=\"%2$s\">%3$s</a> by <a href=\"%4$s\">%5$s</a>"
+msgstr "<a href=\"%1$s\">Mesaj</a> la <a href=\"%2$s\">%3$s</a> de la <a href=\"%4$s\">%5$s</a>"
+
+#: bb-admin/index.php:108
+#, php-format
+msgid "Topic titled <a href=\"%1$s\">%2$s</a> started by <a href=\"%3$s\">%4$s</a>"
+msgstr "Subiectul <a href=\"%1$s\">%2$s</a> pornit de <a href=\"%3$s\">%4$s</a>"
+
+#: bb-admin/index.php:120
+msgid "No moderated posts or topics&#8230; you must have very well behaved members."
+msgstr "Nu există niciun mesaj sau subiect moderat&#8230; probabil că participanții sunt foarte civilizați."
+
+#: bb-admin/install.php:167
+#: bb-admin/options-wordpress.php:197
+msgid "Cookies"
+msgstr "Cookie-uri"
+
+#: bb-admin/install.php:168
+msgid "Integrating cookies allows you and your users to login to either your bbPress or your WordPress site and be automatically logged into both."
+msgstr "Integrarea cookie-urilor permite utilizatorilor să se autentifice sau pe site-ul bbPress sau pe site-ul WordPress și vor avea acceptate conturile în ambele locații."
+
+#: bb-admin/install.php:169
+msgid "You may need to make changes to your WordPress configuration once installation is complete. See the \"WordPress Integration\" section of the bbPress administration area when you are done."
+msgstr "S-ar putea să fie nevoie să modifici setările WordPress odată ce instalarea s-a finalizat. Vezi secțiunea \"Integrarea cu WordPress\" din zona de administrare bbPress."
+
+#: bb-admin/install.php:189
+#: bb-admin/options-wordpress.php:271
+msgid "User database"
+msgstr "Baza de date cu utilizatori"
+
+#: bb-admin/install.php:190
+msgid "Integrating your WordPress database user tables allows you to store user data in one location, instead of having separate user data for both bbPress and WordPress."
+msgstr "Integrarea tabelelor cu utilizatori WordPress iți permite să stochezi informaţia într-o singură locaţie, în loc să ai seturi separate de date pentru utilizatorii bbPress și cei WordPress."
+
+#: bb-admin/install.php:199
+#: bb-admin/options-wordpress.php:290
+msgid "Separate user database settings"
+msgstr "Setări la baza de date separată"
+
+#: bb-admin/install.php:200
+#: bb-admin/options-wordpress.php:291
+msgid "Most of the time these settings are <em>not</em> required. Look before you leap!"
+msgstr "De obicei aceste setări <em>nu</em> sunt necesare. Graba strică treaba!"
+
+#: bb-admin/install.php:201
+msgid "If required, then all settings except for the character set must be specified."
+msgstr "Dacă este necesar, atunci toate setările în afară de setul de caractere trebuie specificate."
+
+#: bb-admin/install.php:212
+#: bb-admin/options-wordpress.php:296
+msgid "Custom user tables"
+msgstr "Tabele de utilizatori speciale"
+
+#: bb-admin/install.php:213
+msgid "Only set these options if your integrated user tables do not fit the usual mould of <em>wp_user</em> and <em>wp_usermeta</em>."
+msgstr "Setează aceste opțiuni doar dacă tabelele integrate de utilizatori nu sunt pe formatul uzual <em>wp_user</em> și <em>wp_usermeta</em>."
+
+#: bb-admin/install.php:357
+msgid "You can now log in with the following details:"
+msgstr "Acum te poți autentifica cu următoarele detalii:"
+
+#: bb-admin/install.php:363
+msgid "Site address:"
+msgstr "Adresa site-ului:"
+
+#: bb-admin/install.php:369
+msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you. If you lose it, you will have to delete the tables from the database yourself, and re-install bbPress."
+msgstr "<strong><em>Notează parola</em></strong> cu atenție! Este o parolă generată <em>aleator</em> special pentru tine. Dacă o pierzi, va trebui să ștergi tabelele din baza de date şi să re-instalezi bbPress de la capăt."
+
+#: bb-admin/options-discussion.php:42
+#: bb-admin/options-general.php:31
+#: bb-admin/options-reading.php:28
+#: bb-admin/options-writing.php:33
+#: bb-plugins/akismet.php:147
+msgid "<strong>Settings saved.</strong>"
+msgstr "<strong>Setări salvate.</strong>"
+
+#: bb-admin/options-discussion.php:47
+msgid "Enable Pingbacks"
+msgstr "Permite pingback-uri."
+
+#: bb-admin/options-discussion.php:50
+msgid "Allow link notifications from other sites."
+msgstr "Permite notificări cu legături dinspre alte site-uri."
+
+#: bb-admin/options-discussion.php:55
+msgid "Enable Login-less Posting"
+msgstr "Pornește publicarea fără autentificări dese."
+
+#: bb-admin/options-discussion.php:58
+msgid "Allow users to create topics and posts without logging in."
+msgstr "Permite utilizitatorilor crearea subiectelor și trimiterea mesajelor fără autentificare."
+
+#: bb-admin/options-discussion.php:67
+msgid "Avatar display"
+msgstr "Afișarea avatarului"
+
+#: bb-admin/options-discussion.php:70
+msgid "Don&#8217;t show avatars"
+msgstr "Nu afișa avataruri"
+
+#: bb-admin/options-discussion.php:71
+msgid "Show avatars"
+msgstr "Afișează avataruri"
+
+#: bb-admin/options-discussion.php:75
+msgid "Maximum rating"
+msgstr "Rating-ul maxim"
+
+#: bb-admin/options-discussion.php:78
+msgid "G &#8212; Suitable for all audiences"
+msgstr "G &#8212; Potrivit pentru întreaga audiență"
+
+#: bb-admin/options-discussion.php:79
+msgid "PG &#8212; Possibly offensive, usually for audiences 13 and above"
+msgstr "PG &#8212; Posibil ofensiv, de obicei pentru audiențe de 13 ani sau mai mult."
+
+#: bb-admin/options-discussion.php:80
+msgid "R &#8212; Intended for adult audiences above 17"
+msgstr "R &#8212; Pentru audiențe de adulţi, peste 17 ani"
+
+#: bb-admin/options-discussion.php:81
+msgid "X &#8212; Even more mature than above"
+msgstr "X &#8212; Chiar mai mult pentru maturi decât cea de mai sus"
+
+#: bb-admin/options-discussion.php:85
+msgid "Default avatar"
+msgstr "Avatar implicit"
+
+#: bb-admin/options-discussion.php:88
+msgid "Mystery Man"
+msgstr "Omul misterios"
+
+#: bb-admin/options-discussion.php:89
+msgid "Blank"
+msgstr "Blanc"
+
+#: bb-admin/options-discussion.php:90
+msgid "Gravatar Logo"
+msgstr "Logo Gravatar"
+
+#: bb-admin/options-discussion.php:91
+msgid "Identicon (Generated)"
+msgstr "Identicon (Generat)"
+
+#: bb-admin/options-discussion.php:92
+msgid "Wavatar (Generated)"
+msgstr "Wavatar (Generat)"
+
+#: bb-admin/options-discussion.php:93
+msgid "MonsterID  (Generated)"
+msgstr "MonsterID  (Generat)"
+
+#: bb-admin/options-discussion.php:96
+msgid "For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their e-mail address."
+msgstr "Pentru utilizatorii care nu au un avatar personalizat, poți sau să afișezi un logo generic sau unul generat pe baza adresei lor de e-mail."
+
+#: bb-admin/options-discussion.php:110
+msgid "Discussion Settings"
+msgstr "Setări pentru discuții"
+
+#: bb-admin/options-discussion.php:122
+msgid "Avatars"
+msgstr "Avatar"
+
+#: bb-admin/options-discussion.php:124
+msgid "bbPress includes built-in support for <a href=\"http://gravatar.com/\">Gravatars</a>. A Gravatar is an image that follows you from site to site, appearing beside your name when you comment on Gravatar enabled sites. Here you can enable the display of Gravatars on your site."
+msgstr "bbPress oferă suport pentru <a href=\"http://gravatar.com/\">Gravatar</a>. Un Gravatar este o imagine care te urmărește din site în site, şi apare lângă numele tău atunci când scrii pe site-uri care au Gravatar-ul activat. Aici poți activa Gravatar şi pe site-ul tău."
+
+#: bb-admin/options-general.php:36
+msgid "Site title"
+msgstr "Titlul site-ului"
+
+#: bb-admin/options-general.php:40
+msgid "Tagline"
+msgstr "Descriere"
+
+#: bb-admin/options-general.php:42
+msgid "In a few words, explain what this site is about."
+msgstr "Explică în câteva cuvinte despre ce este site-ul tău."
+
+#: bb-admin/options-general.php:45
+msgid "bbPress address (URL)"
+msgstr "Adresa (URL-ul) bbPress"
+
+#: bb-admin/options-general.php:47
+msgid "The full URL of your bbPress install."
+msgstr "URL-ul complet al instanței bbPress."
+
+#: bb-admin/options-general.php:50
+msgid "E-mail address"
+msgstr "Adresa e-mail"
+
+#: bb-admin/options-general.php:51
+msgid "This address is used for admin purposes, like new user notification."
+msgstr "Această adresă este folosită pentru scopuri administrative, cum ar fi anunțarea creării noilor utilizatori."
+
+#: bb-admin/options-general.php:57
+#: bb-admin/options-general.php:161
+msgid "Time zone"
+msgstr "Fus orar"
+
+#: bb-admin/options-general.php:116
+msgid "hours"
+msgstr "ore"
+
+#: bb-admin/options-general.php:119
+msgid "Date and time format"
+msgstr "Formatul datei și a orei"
+
+#: bb-admin/options-general.php:124
+msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>."
+msgstr "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentația despre formatarea datei</a>."
+
+#: bb-admin/options-general.php:125
+msgid "Click \"Save Changes\" to update sample output."
+msgstr "Faceți click pe \"Salvare modificări\" pentru a actualiza exemplul."
+
+#: bb-admin/options-general.php:129
+msgid "Date format"
+msgstr "Formatul datei"
+
+#: bb-admin/options-general.php:165
+msgid "Choose a city in the same time zone as you."
+msgstr "Alegeți un oraș din acelaşi fus orar folosit."
+
+#: bb-admin/options-general.php:166
+#: bb-admin/options-general.php:201
+#, php-format
+msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is <code>%s</code>"
+msgstr "Ora <abbr title=\"Coordinated Universal Time\">UTC</abbr> este <code>%s</code>"
+
+#: bb-admin/options-general.php:167
+#, php-format
+msgid "Local time is <code>%s</code>"
+msgstr "Ora locală este <code>%s</code>"
+
+#: bb-admin/options-general.php:174
+msgid "This time zone is currently in daylight savings time."
+msgstr "Acest fus orar este în prezent la ora de vară."
+
+#: bb-admin/options-general.php:176
+msgid "This time zone is currently in standard time."
+msgstr "Acest fus orar este în prezent la ora de iarnă."
+
+#: bb-admin/options-general.php:184
+#, php-format
+msgid "Daylight savings time begins on <code>%s</code>"
+msgstr "Ora de vară începe pe data de <code>%s</code>"
+
+#: bb-admin/options-general.php:184
+#, php-format
+msgid "Standard time begins on <code>%s</code>"
+msgstr "Ora de iarnă începe pe data de <code>%s</code>"
+
+#: bb-admin/options-general.php:196
+#, php-format
+msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> %s is <code>%s</code>"
+msgstr "<abbr title=\"Coordinated Universal Time\">UTC</abbr> %s este <code>%s</code>"
+
+#: bb-admin/options-general.php:197
+msgid "Unfortunately, you have to manually update this for Daylight Savings Time."
+msgstr "Din păcat, trebuie să actualizezi manual acestea pentru ora de vară."
+
+#: bb-admin/options-general.php:206
+#: bb-includes/backpress/functions.core.php:985
+#, php-format
+msgid "UTC %s"
+msgstr "UTC %s"
+
+#: bb-admin/options-general.php:219
+msgid "General Settings"
+msgstr "Setări generale"
+
+#: bb-admin/options-permalinks.php:111
+msgid "<strong>It appears that your server does not support custom permalink structures.</strong>"
+msgstr "<strong>Se pare că serverul tău nu suportă personalizări a legăturilor permanente.</strong>"
+
+#: bb-admin/options-permalinks.php:116
+msgid "<strong>Rewriting on webservers other than Apache using mod_rewrite is currently unsupported, but we won&#8217;t stop you from trying.</strong>"
+msgstr "<strong>Rescrierea legăturilor pentru alte serere web decât Apache folosind mod_rewrite nu este posibil deocamdată, însă nu vă împiedică nimeni să încercați.</strong>"
+
+#: bb-admin/options-permalinks.php:121
+msgid "<strong>You should update your .htaccess now.</strong>"
+msgstr "<strong>Acum ar trebui actualizat fișierul .htaccess.</strong>"
+
+#: bb-admin/options-permalinks.php:123
+msgid "<strong>Permalink structure updated.</strong>"
+msgstr "<strong>Legăturile permanente au fost actualizate.</strong>"
+
+#: bb-admin/options-permalinks.php:129
+msgid "Permalink type"
+msgstr "Legături permanente"
+
+#: bb-admin/options-permalinks.php:132
+#, php-format
+msgid "<span>None</span> <code>%s</code>"
+msgstr "<span>Nici unul</span> <code>%s</code>"
+
+#: bb-admin/options-permalinks.php:133
+#, php-format
+msgid "<span>Numeric</span> <code>%s</code>"
+msgstr "<span>Numeric</span> <code>%s</code>"
+
+#: bb-admin/options-permalinks.php:134
+#, php-format
+msgid "<span>Name based</span> <code>%s</code>"
+msgstr "<span>Pe bază de nume</span> <code>%s</code>"
+
+#: bb-admin/options-permalinks.php:147
+msgid "Permalink Settings"
+msgstr "Setări pentru legăturile permanente"
+
+#: bb-admin/options-permalinks.php:153
+msgid "By default bbPress uses web URLs which have question marks and lots of numbers in them, however bbPress offers you the ability to choose an alternative URL structure for your permalinks. This can improve the aesthetics, usability, and forward-compatibility of your links."
+msgstr "Implicit, bbPress folosește URL-uri care conțin semne de întrebare şi multe numere, totuşi bbPress îţi oferă posibilitatea să alegi alternative pentru legăturile permanente. Acest lucru îţi poate îmbunătăţi legăturile din punct de vedere estetic, funcţional, şi al compatibilității pe viitor."
+
+#: bb-admin/options-permalinks.php:174
+msgid "If your <code>.htaccess</code> file were <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so these are the mod_rewrite rules you should have in your <code>.htaccess</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all."
+msgstr "Dacă fișierul <code>.htaccess</code> putea fi <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">modificat</a>, acest lucru se făcea automat, însă acesta nu este editabil, astfel uite regulile mod_rewrite care ar trebui să existe în fişierul tău <code>.htaccess</code>. Fă click pe câmp, şi apăsă <kbd>CTRL + a</kbd> pentru a selecta totul."
+
+#: bb-admin/options-reading.php:33
+msgid "Items per page"
+msgstr "Elemente pe pagină"
+
+#: bb-admin/options-reading.php:35
+msgid "Number of topics, posts or tags to show per page."
+msgstr "Numărul de subiecte, mesaje sau etichete afișate per pagină."
+
+#: bb-admin/options-reading.php:47
+msgid "Reading Settings"
+msgstr "Setări la citire"
+
+#: bb-admin/options-wordpress.php:45
+msgid "<strong>User role mapping saved.</strong>"
+msgstr "<strong>Maparea rolurilor pentru utilizatori a fost salvată.</strong>"
+
+#: bb-admin/options-wordpress.php:48
+msgid "<strong>User integration settings saved.</strong>"
+msgstr "<strong>Setările de integrare a utilizatorilor au fost salvate.</strong>"
+
+#: bb-admin/options-wordpress.php:54
+msgid "none|no bbPress role"
+msgstr "nici unul|nici un rol bbPress"
+
+#: bb-admin/options-wordpress.php:58
+msgid "WordPress Administrator"
+msgstr "Administrator WordPress"
+
+#: bb-admin/options-wordpress.php:59
+msgid "WordPress Editor"
+msgstr "Editor WordPress"
+
+#: bb-admin/options-wordpress.php:60
+msgid "WordPress Author"
+msgstr "Autor WordPress"
+
+#: bb-admin/options-wordpress.php:61
+msgid "WordPress Contributor"
+msgstr "Colaborator WordPress"
+
+#: bb-admin/options-wordpress.php:62
+msgid "WordPress Subscriber"
+msgstr "Abonat WordPress"
+
+#: bb-admin/options-wordpress.php:78
+msgid "This must match the value of the WordPress setting named \"auth_salt\" in your WordPress site. Look for the option labeled \"auth_salt\" in <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>."
+msgstr "Această valoare trebuie să se potrivească cu valoarea setată în WordPress numită \"auth_salt\" din instanța WordPress. Căută opțiunea numită \"auth_salt\" în <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">această pagină de administrare WordPress</a>."
+
+#: bb-admin/options-wordpress.php:82
+msgid "This must match the value of the WordPress setting named \"secure_auth_salt\" in your WordPress site. Look for the option labeled \"secure_auth_salt\" in <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. Sometimes this value is not set in WordPress, in that case you can leave this setting blank as well."
+msgstr "Această valoare trebuie să se potrivească cu valoarea setată în WordPress numită \"secure_auth_salt\" în instanța WordPress. Căută opțiunea numită \"auth_salt\" în <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">această pagină de administrare WordPress</a>. Uneori această valoare nu este setată în WordPress, în acel caz poţi lăsa și această setare necompletată."
+
+#: bb-admin/options-wordpress.php:86
+msgid "This must match the value of the WordPress setting named \"logged_in_salt\" in your WordPress site. Look for the option labeled \"logged_in_salt\" in <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>."
+msgstr "Această valoare trebuie să se potrivească cu valoarea setatâ în WordPress numită \"logged_in_salt\" din situl tău WordPress. Căută opțiunea numită \"logged_in_salt\" în <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">această pagină de administrare WordPress</a>."
+
+#: bb-admin/options-wordpress.php:93
+#, php-format
+msgid "You have defined the \"%s\" constant which locks this setting."
+msgstr "Ai definit constanta \"%s\" care blochează aceste setări."
+
+#: bb-admin/options-wordpress.php:170
+msgid "WordPress Integration Settings"
+msgstr "Setări de integrare cu WordPress"
+
+#: bb-admin/options-wordpress.php:175
+msgid "User Role Map"
+msgstr "Maparea rolurilor de utilizatori"
+
+#: bb-admin/options-wordpress.php:176
+msgid "Here you can match WordPress roles to bbPress roles."
+msgstr "Aici faci legătura între rolurile WordPress și rolurile din bbPress."
+
+#: bb-admin/options-wordpress.php:177
+msgid "This will have no effect until your user tables are integrated below. Only standard WordPress roles are supported. Changes do not affect users with existing roles in both WordPress and bbPress."
+msgstr "Acestea nu vor avea niciun efect cât timp tabelele cu utilizatori vor fi integrate mai jos. Sunt valabile doar rolurile WordPress standard. Schimbările nu vor afecta utilizatorii cu roluri existente atât în WordPress cât și în bbPress."
+
+#: bb-admin/options-wordpress.php:190
+msgid "User Integration"
+msgstr "Integrarea utilizatorilor"
+
+#: bb-admin/options-wordpress.php:191
+msgid "Usually, you will have to specify both cookie integration and user database integration settings. Make sure you have a \"User role map\" setup above before trying to add user integration."
+msgstr "De obicei, trebuie să specifici atât setări de integrare a cookie-urilor cât și bazei de date cu utilizatorii. Înainte de a încerca să adăugi integrarea utilizatorilor, verifică să ai o setare la \"Maparea rolurilor de utilizatori\"."
+
+#: bb-admin/options-wordpress.php:192
+msgid "<em><strong>Note:</strong> changing the settings below may cause you to be logged out!</em>"
+msgstr "<em><strong>Notă:</strong> schimbarea acestor setări s-ar putea să te deautentifice!</em>"
+
+#: bb-admin/options-wordpress.php:198
+msgid "Cookie sharing allows users to log in to either your bbPress or your WordPress site, and have access to both."
+msgstr "Partajarea cookie-urilor permite utilizatorilor să se autentifice fie pe instanța bbPress fie în WordPress, și apoi să aibă acces la ambele."
+
+#: bb-admin/options-wordpress.php:242
+#, php-format
+msgid "To complete cookie integration, you will need to add some settings to your <code>wp-config.php</code> file in the root directory of your WordPress installation. To get those settings, you will need to install and configure the <a href=\"%s\">\"bbPress Integration\" plugin for WordPress</a>."
+msgstr "Pentru a finaliza integrarea cookie-urilor, va trebui să adaugi câteva setări în fișierul <code>wp-config.php</code> din directorul rădăcină a instanței WordPress. Pentru a obține aceste setări, va trebui să instalezi şi să configurezi <a href=\"%s\">modulul \"bbPress Integration\" pentru WordPress</a>."
+
+#: bb-admin/options-wordpress.php:243
+msgid "You will also have to manually ensure that the following constants are equivalent in WordPress' and bbPress' respective config files."
+msgstr "De asemenea, va trebui să te asiguri manual că următoarele constante sunt echivalente în fișierele de configurare WordPress şi bbPress."
+
+#: bb-admin/options-wordpress.php:247
+msgid "WordPress"
+msgstr "WordPress"
+
+#: bb-admin/options-wordpress.php:272
+msgid "User database sharing allows you to store user data in your WordPress database."
+msgstr "Partajarea bazei de date cu utilizatorii îți permite să stochezi datele despre utilizatori în baza de date a WordPress."
+
+#: bb-admin/options-wordpress.php:273
+msgid "You should setup a \"User role map\" before"
+msgstr "Înainte de asta ar trebui să alegi o \"Mapare a rolurilor de utilizatori\""
+
+#: bb-admin/options-wordpress.php:292
+msgid "All settings except for the character set must be specified."
+msgstr "Toate setările în afară de setul de caractere trebuie specificate."
+
+#: bb-admin/options-wordpress.php:297
+msgid "Only set these values if your user tables differ from the default WordPress naming convention."
+msgstr "Setați aceste valori doar dacă tabelele diferă de tabelele standard WordPress"
+
+#: bb-admin/options-writing.php:38
+msgid "Lock post editing after"
+msgstr "Blochează editarea ulterioară a mesajelor"
+
+#: bb-admin/options-writing.php:40
+msgid "minutes"
+msgstr "minute"
+
+#: bb-admin/options-writing.php:41
+msgid "A user can edit a post for this many minutes after submitting."
+msgstr "Utilizatorul poate edita un mesaj atâtea minute după ce îl publică."
+
+#: bb-admin/options-writing.php:44
+msgid "Throttle time"
+msgstr "Timpul de control"
+
+#: bb-admin/options-writing.php:46
+msgid "seconds"
+msgstr "secunde"
+
+#: bb-admin/options-writing.php:47
+msgid "Users must wait this many seconds between posts. By default, moderators, administrators and keymasters are not throttled."
+msgstr "Utilizatorii trebuie să repecte limita respectivă de timp la scrierea mesajelor. Implicit, moderatorii, administratorii și superadministratorii nu au aceste limite."
+
+#: bb-admin/options-writing.php:53
+msgid "XML-RPC"
+msgstr "XML-RPC"
+
+#: bb-admin/options-writing.php:56
+msgid "Enable the bbPress XML-RPC publishing protocol."
+msgstr "Activează protocolul de publicare XML-RPC pentru bbPress."
+
+#: bb-admin/options-writing.php:69
+msgid "Writing Settings"
+msgstr "Setări pentru publicare"
+
+#: bb-admin/options-writing.php:75
+msgid "Remote Publishing"
+msgstr "Publicare de la distanță"
+
+#: bb-admin/options-writing.php:77
+msgid "To interact with bbPress from a desktop client or remote website that uses the XML-RPC publishing interface you must enable it below."
+msgstr "Pentru a putea folosi un client desktop cu bbPress, sau orice serviciu care folosește protocolul de publicare XML-RPC, acesta trebuie activat mai jos."
+
+#: bb-admin/plugins.php:121
+msgid "<strong>Plugin could not be activated, it produced a Fatal Error</strong>. The error is shown below."
+msgstr "<strong>Modulul nu a putut fi activat, acesta a produs o eroare fatală</strong>. Eroarea este afișată mai jos."
+
+#: bb-admin/plugins.php:125
+#, php-format
+msgid "<strong>\"%s\" plugin activated</strong>"
+msgstr "<strong>Modulul \"%s\" a fost activat</strong>"
+
+#: bb-admin/plugins.php:129
+#, php-format
+msgid "<strong>\"%s\" plugin deactivated</strong>"
+msgstr "<strong>Modulul \"%s\" a fost dezactivat</strong>"
+
+#: bb-admin/plugins.php:135
+msgid "<strong>\"Safe mode\" is on, all plugins are disabled even if they are listed as active.</strong>"
+msgstr "<strong>Se rulează în \"Mod protejat\", toate modulele sunt dezactivate chiar dacă sunt afișate ca fiind active.</strong>"
+
+#: bb-admin/plugins.php:145
+msgid "Manage Plugins"
+msgstr "Administrare module"
+
+#: bb-admin/plugins.php:172
+#, php-format
+msgid "All <span class=\"count\">(%d)</span>"
+msgstr "Toate <span class=\"count\">(%d)</span>"
+
+#: bb-admin/plugins.php:173
+#, php-format
+msgid "Active <span class=\"count\">(%d)</span>"
+msgstr "Active <span class=\"count\">(%d)</span>"
+
+#: bb-admin/plugins.php:174
+#, php-format
+msgid "Inactive <span class=\"count\">(%d)</span>"
+msgstr "Inactive <span class=\"count\">(%d)</span>"
+
+#: bb-admin/plugins.php:175
+#, php-format
+msgid "Autoloaded <span class=\"count\">(%d)</span>"
+msgstr "Încărcate automat <span class=\"count\">(%d)</span>"
+
+#: bb-admin/plugins.php:185
+#: bb-admin/plugins.php:191
+msgid "Plugin"
+msgstr "Modul"
+
+#: bb-admin/plugins.php:202
+#: bb-admin/themes.php:96
+msgid "Activate"
+msgstr "Activează"
+
+#: bb-admin/plugins.php:209
+msgid "Deactivate"
+msgstr "Dezactivează"
+
+#: bb-admin/plugins.php:227
+#, php-format
+msgid "By %s"
+msgstr "De %s"
+
+#: bb-admin/plugins.php:239
+msgid "Autoloaded"
+msgstr "Încărcat automat"
+
+#: bb-admin/plugins.php:258
+msgid "No plugins found."
+msgstr "Nu a fost găsit niciun modul."
+
+#: bb-admin/posts.php:41
+#, php-format
+msgid "<strong>Post undeleted.</strong>"
+msgid_plural "<strong>%s posts undeleted.</strong>"
+msgstr[0] "<strong>Mesajul a fost restaurat.</strong>"
+msgstr[1] "<strong>%s mesaje au fost restaurate.</strong>"
+
+#: bb-admin/posts.php:44
+#, php-format
+msgid "<strong>Post deleted.</strong>"
+msgid_plural "<strong>%s posts deleted.</strong>"
+msgstr[0] "<strong>Mesaj șters.</strong>"
+msgstr[1] "<strong>%s mesaje au fost șterse.</strong>"
+
+#: bb-admin/posts.php:47
+#, php-format
+msgid "<strong>Post spammed.</strong>"
+msgid_plural "<strong>%s posts spammed.</strong>"
+msgstr[0] "<strong>Mesaj marcat ca spam.</strong>"
+msgstr[1] "<strong>%s mesaje au fost marcate ca spam.</strong>"
+
+#: bb-admin/posts.php:50
+#, php-format
+msgid "<strong>Post removed from spam.</strong> It is now a normal post."
+msgid_plural "<strong>%s posts removed from spam.</strong> They are now normal posts."
+msgstr[0] "<strong>Mesaj eliminat din spam.</strong> Salvat ca mesaj ordinar."
+msgstr[1] "<strong>%s mesaje au fost eliminate din spam.</strong> Salvate ca mesaje sunt ordinare."
+
+#: bb-admin/posts.php:53
+#, php-format
+msgid "<strong>Post removed from spam.</strong> It is now a deleted post."
+msgid_plural "<strong>%s posts removed from spam.</strong> They are nowdeleted posts."
+msgstr[0] "<strong>Mesaj eliminat din spam.</strong> Salvat ca un mesaj șters."
+msgstr[1] "<strong>%s mesaje au fost eliminate din spam.</strong> Salvate ca mesaje șterse."
+
+#: bb-admin/posts.php:70
+#: bb-admin/topics.php:72
+msgid "Now how'd you get here?  And what did you think you'd being doing?"
+msgstr "Cum ai ajuns aici?  Și ce încercai să faci?"
+
+#: bb-admin/posts.php:89
+#: bb-admin/topics.php:95
+#, php-format
+msgid "in &#8220;%s&#8221;"
+msgstr "în &#8220;%s&#8221;"
+
+#: bb-admin/posts.php:90
+#: bb-admin/topics.php:96
+#, php-format
+msgid "with tag &#8220;%s&#8221;"
+msgstr "cu eticheta &#8220;%s&#8221;"
+
+#: bb-admin/posts.php:91
+#: bb-admin/topics.php:97
+#, php-format
+msgid "by %s"
+msgstr "de %s"
+
+#: bb-admin/posts.php:95
+#, php-format
+msgid "from IP address %s"
+msgstr "de la adresa IP %s"
+
+#: bb-admin/posts.php:103
+#, php-format
+msgid "%1$s%2$s%3$s%4$s%5$s"
+msgstr "%1$s%2$s%3$s%4$s%5$s"
+
+#: bb-admin/posts.php:117
+#: bb-admin/topics.php:125
+#: bb-admin/topics.php:215
+#: bb-includes/functions.bb-template.php:2069
+msgid "Undelete"
+msgstr "Anulează ștergerea"
+
+#: bb-admin/posts.php:142
+#: bb-admin/topics.php:145
+msgid "Bulk Actions"
+msgstr "Acțiuni multiple"
+
+#: bb-admin/posts.php:148
+#: bb-admin/topics.php:151
+msgid "Apply"
+msgstr "Aplică"
+
+#: bb-admin/posts.php:167
+#: bb-admin/topics.php:170
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: bb-admin/posts.php:168
+#: bb-admin/topics.php:171
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: bb-admin/tag-destroy.php:5
+#: bb-admin/tag-merge.php:5
+#: bb-admin/tag-rename.php:5
+msgid "You are not allowed to manage tags."
+msgstr "Nu ai permisiuni pentru adminstrarea etichetelor."
+
+#: bb-admin/tag-destroy.php:13
+#: bb-admin/tag-rename.php:14
+msgid "Tag not found."
+msgstr "Eticheta nu a fost găsită."
+
+#: bb-admin/tag-destroy.php:16
+#, php-format
+msgid "Rows deleted from tags table: %d <br />\n"
+msgstr "Rânduri șterse din tabelul cu etichete: %d <br />\n"
+
+#: bb-admin/tag-destroy.php:17
+#, php-format
+msgid "Rows deleted from tagged table: %d <br />\n"
+msgstr "Rânduri șterse din tabelul cu etichetate: %d <br />\n"
+
+#: bb-admin/tag-destroy.php:18
+#, php-format
+msgid "<a href=\"%s\">Home</a>"
+msgstr "<a href=\"%s\">Prima pagină</a>"
+
+#: bb-admin/tag-destroy.php:20
+#, php-format
+msgid ""
+"Something odd happened when attempting to destroy that tag.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"S-a întâmplat ceva ciudat când se încerca ștergerea etichetei.<br />\n"
+"<a href=\"%s\">Reîncerc din nou?</a>"
+
+#: bb-admin/tag-merge.php:13
+msgid "Tag specified not found."
+msgstr "Eticheta specificată nu a fost găsită."
+
+#: bb-admin/tag-merge.php:16
+msgid "Tag to be merged not found."
+msgstr "Eticheta ce trebuie combinată, nu a fost găsită."
+
+#: bb-admin/tag-merge.php:19
+#, php-format
+msgid "Number of topics from which the old tag was removed: %d <br />\n"
+msgstr "Numărul subiectelor la care vechea etichetă a fost ștearsă: %d <br />\n"
+
+#: bb-admin/tag-merge.php:20
+#, php-format
+msgid "Number of topics to which the new tag was added: %d <br />\n"
+msgstr "Numărul subiectelor la care noua etichetă a fost adăugată: %d <br />\n"
+
+#: bb-admin/tag-merge.php:21
+#, php-format
+msgid "Number of rows deleted from tags table:%d <br />\n"
+msgstr "Numărul de rânduri șterse din tabelul de etichete:%d <br />\n"
+
+#: bb-admin/tag-merge.php:22
+#, php-format
+msgid "<a href=\"%s\">New Tag</a>"
+msgstr "<a href=\"%s\">Etichetă nouă</a>"
+
+#: bb-admin/tag-merge.php:24
+#, php-format
+msgid ""
+"Something odd happened when attempting to merge those tags.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"S-a întâmplat ceva ciudat când încercam să combin acele etichete.<br />\n"
+"<a href=\"%s\">Reîncerc din nou?</a>"
+
+#: bb-admin/tag-rename.php:20
+#, php-format
+msgid "There already exists a tag by that name or the name is invalid. <a href=\"%s\">Try Again</a>"
+msgstr "Deja există o etichetă cu acel nume sau numele nu este valid. <a href=\"%s\">Mai încearcă odată</a>"
+
+#: bb-admin/themes.php:38
+#, php-format
+msgid "<strong>Theme \"%s\" activated</strong>"
+msgstr "<strong>Șablonul \"%s\" a fost activat</strong>"
+
+#: bb-admin/themes.php:43
+msgid "<strong>Default theme is missing.</strong>"
+msgstr "<strong>Șablonul implicit lipsește.</strong>"
+
+#: bb-admin/themes.php:47
+msgid "<strong>Theme not found.  Default theme applied.</strong>"
+msgstr "<strong>Șablonul nu a fost găsit. S-a aplicat șablonul implicit.</strong>"
+
+#: bb-admin/themes.php:63
+#: bb-admin/themes.php:96
+#, php-format
+msgid "Activate \"%s\""
+msgstr "Activează \"%s\""
+
+#: bb-admin/themes.php:68
+#, php-format
+msgid "%1$s %2$s by <cite>%3$s</cite>"
+msgstr "%1$s %2$s de <cite>%3$s</cite>"
+
+#: bb-admin/themes.php:82
+#, php-format
+msgid "Ported by <cite>%s</cite>"
+msgstr "Publicat de <cite>%s</cite>"
+
+#: bb-admin/themes.php:101
+#, php-format
+msgid "All of this theme's files are located in the \"%s\" themes directory."
+msgstr "Toate fișierele acestui șablon sunt localizate în directorul pentru șabloane \"%s\"."
+
+#: bb-admin/themes.php:112
+msgid "<strong>\"Safe mode\" is on, the default theme will be used instead of the active theme indicated below.</strong>"
+msgstr "<strong>Este pornit \"Modul protejat\", șablonul implicit va fi folosit în locul șablonului activ indicat mai jos.</strong>"
+
+#: bb-admin/themes.php:120
+msgid "Manage Themes"
+msgstr "Aspect"
+
+#: bb-admin/themes.php:123
+msgid "Current Theme"
+msgstr "Șablonul curent"
+
+#: bb-admin/themes.php:132
+msgid "Available Themes"
+msgstr "Șabloane disponibile"
+
+#: bb-admin/tools-recount.php:74
+msgid "To minimize database queries, bbPress keeps it's own count of various items like posts in each topic and topics in each forum. Occasionally these internal counters may become incorrect, you can manually re-count these items using this form."
+msgstr "Pentru a face cât mai puține cereri la baza de date, bbPress își ţine singur socoteala pentru anumite elemente cum ar fi mesajele din fiecare subiect şi subiectele din fiecare forum. Ocazional, aceste socoteli interne se mai întâmplă să devină învechite. Aceste elemente pot fi re-numărate folosind formularul de aici."
+
+#: bb-admin/tools-recount.php:75
+msgid "You can also clean out some stale items here, like empty tags."
+msgstr "De asemenea poți elimina de aici unele elemente învechite, cum ar fi etichetele nefolosite."
+
+#: bb-admin/tools-recount.php:82
+msgid "Items to re-count"
+msgstr "Elemente de re-numărat"
+
+#: bb-admin/tools-recount.php:95
+msgid "There are no re-count tools available."
+msgstr "Nu este disponibilă nici o unealtă de re-numărare."
+
+#: bb-admin/tools-recount.php:102
+msgid "Recount Items"
+msgstr "Re-numărare elemente"
+
+#: bb-admin/topic-move.php:8
+msgid "Invalid topic or forum."
+msgstr "Subiectul sau forumul nu este valid."
+
+#: bb-admin/topic-move.php:21
+msgid "Your topic or forum caused all manner of confusion"
+msgstr "Subiectul sau forumul a creat confuzii"
+
+#: bb-admin/topics.php:53
+#, php-format
+msgid "<strong>Topic undeleted.</strong>"
+msgid_plural "<strong>%s topics undeleted.</strong>"
+msgstr[0] "<strong>Subiectul a fost restaurat.</strong>"
+msgstr[1] "<strong>%s subiecte au fost restaurate.</strong>"
+
+#: bb-admin/topics.php:56
+#, php-format
+msgid "<strong>Topic deleted.</strong>"
+msgid_plural "<strong>%s topics deleted.</strong>"
+msgstr[0] "<strong>Subiect șters.</strong>"
+msgstr[1] "<strong>%s subiecte au fost șterse.</strong>"
+
+#: bb-admin/topics.php:59
+#, php-format
+msgid "<strong>Topic opened.</strong>"
+msgid_plural "<strong>%s topics opened.</strong>"
+msgstr[0] "<strong>Subiect deschis.</strong>"
+msgstr[1] "<strong>%s subiecte au fost deschise.</strong>"
+
+#: bb-admin/topics.php:62
+#, php-format
+msgid "<strong>Topic closed.</strong>"
+msgid_plural "<strong>%s topics closed.</strong>"
+msgstr[0] "<strong>Subiect închis.</strong>"
+msgstr[1] "<strong>%s subiecte au fost închise.</strong>"
+
+#: bb-admin/topics.php:102
+#, php-format
+msgid "%1$s%2$s%3$s%4$s"
+msgstr "%1$s%2$s%3$s%4$s"
+
+#: bb-admin/topics.php:116
+#: xmlrpc.php:1369
+#: xmlrpc.php:2761
+#: xmlrpc.php:3072
+msgid "No topics found."
+msgstr "Nu s-a găsit niciun subiect."
+
+#: bb-admin/topics.php:126
+msgid "Open"
+msgstr "Deschide"
+
+#: bb-admin/topics.php:127
+#: bb-admin/topics.php:214
+msgid "Close"
+msgstr "Închide"
+
+#: bb-admin/topics.php:190
+#: bb-admin/topics.php:200
+#: bb-templates/kakumei/favorites.php:20
+#: bb-templates/kakumei/forum.php:13
+#: bb-templates/kakumei/front-page.php:21
+#: bb-templates/kakumei/tag-single.php:15
+#: bb-templates/kakumei/view.php:13
+msgid "Freshness"
+msgstr "Actualitate"
+
+#: bb-admin/topics.php:214
+msgctxt "action"
+msgid "Open"
+msgstr "Deschide"
+
+#: bb-admin/topics.php:235
+#, php-format
+msgid "Last post by %s"
+msgstr "Ultimul mesaj scris de %s"
+
+#: bb-admin/upgrade.php:49
+msgid "Beginning upgrade&hellip;"
+msgstr "Se începe actualizarea&hellip;"
+
+#: bb-admin/upgrade.php:53
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:600
+msgid "Done"
+msgstr "Finalizat"
+
+#: bb-admin/upgrade.php:71
+msgid "bbPress database upgrade"
+msgstr "Atualizarea bazei de date bbPress"
+
+#: bb-admin/upgrade.php:89
+#, php-format
+msgid "Nothing to upgrade.  <a href=\"%s\">Get back to work!</a>"
+msgstr "Nu sunt necesare actualizări. <a href=\"%s\">Se poate continua lucrul!</a>"
+
+#: bb-admin/upgrade.php:97
+msgid "Database upgrade required"
+msgstr "Este necesară actualizarea bazei de date"
+
+#: bb-admin/upgrade.php:101
+msgid "It looks like your database is out-of-date. You can upgrade it here."
+msgstr "Se pare că baza de date este învechită. O poți actualiza aici."
+
+#: bb-admin/upgrade.php:107
+msgid "Upgrade database"
+msgstr "Actualizare bază de date"
+
+#: bb-admin/upgrade.php:119
+msgid "Database upgrade complete"
+msgstr "Actualizarea bazei de date s-a finalizat"
+
+#: bb-admin/upgrade.php:123
+msgid "Your database has been successfully upgraded, enjoy!"
+msgstr "Baza de date a fost actualizată cu succes, spor!"
+
+#: bb-admin/upgrade.php:128
+#: bb-admin/upgrade.php:170
+msgid "Show upgrade messages"
+msgstr "Afișează mesajele de la actualizare"
+
+#: bb-admin/upgrade.php:137
+#: bb-admin/upgrade.php:189
+msgid "Upgrade log"
+msgstr "Mesajele de la actualizare"
+
+#: bb-admin/upgrade.php:144
+#: bb-admin/upgrade.php:196
+msgid "&laquo; Go back to forums"
+msgstr "&laquo; Înapoi la forumuri"
+
+#: bb-admin/upgrade.php:147
+msgid "Go to admin"
+msgstr "Mergi la administrare"
+
+#: bb-admin/upgrade.php:159
+msgid "Database upgrade failed"
+msgstr "Actualizarea bazei de date a eșuat"
+
+#: bb-admin/upgrade.php:163
+msgid "The upgrade process seems to have failed. Check the upgrade messages below for more information.<br /><br />Attempting to go to the admin area without resolving the listed errors will return you to this upgrade page."
+msgstr "Se pare că procesul de actualizare a eșuat. Pentru mai multe informații verifică mesajele de la actualizare de mai jos.<br /><br />Dacă încerci să revii la panoul de administare fără a rezolva erorile listate, vei fi redirecţionat la această pagină."
+
+#: bb-admin/upgrade.php:182
+msgid "Error log"
+msgstr "Mesajele de eroare"
+
+#: bb-admin/upgrade.php:199
+msgid "Try again"
+msgstr "Încearcă din nou"
+
+#: bb-edit.php:16
+msgid "Sorry, post is too old."
+msgstr "Ne pare rău, mesajul este prea vechi."
+
+#: bb-includes/action.subscribe.php:15
+#: tag-add.php:18
+#: topic.php:14
+msgid "Topic not found."
+msgstr "Subiectul nu a fost găsit"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:317
+msgid "Passed variable is not a BackPress database object."
+msgstr "Variabila transmisă nu este un obiect de tip bază de date BackPress."
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:321
+msgid "No schema available."
+msgstr "Nu este disponibilă schema."
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:387
+msgid "Creating table"
+msgstr "Se crează tabelul"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:416
+#, php-format
+msgid "Adding column: %s"
+msgstr "Se adaugă coloana: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:434
+#, php-format
+msgid "Setting default on column: %s"
+msgstr "Se seletează valoarea implicită pentru coloana: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:449
+#, php-format
+msgid "Changing column: %s"
+msgstr "Se modifică coloana: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:491
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:514
+#, php-format
+msgid "Adding index: %s"
+msgstr "Se adaugă index-ul: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:507
+#, php-format
+msgid "Dropping index: %s"
+msgstr "Se șterge index-ul: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:535
+msgid "Inserting data"
+msgstr "Se inserează datele"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:548
+msgid "Updating data"
+msgstr "Se actualizează datele"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:566
+#, php-format
+msgid "Modifying database: %s (%s)"
+msgstr "Se modifică baza de date: %s (%s)"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:570
+#, php-format
+msgid "Table: %s"
+msgstr "Tabelul: %s"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:582
+msgid "Skipped"
+msgstr "S-a sărit peste"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:594
+msgid "SQL ERROR! See the error log for more detail"
+msgstr "EROARE SQL! Verifica mesajele de erori pentru mai multe detalii"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:595
+msgid "SQL ERROR!"
+msgstr "EROARE SQL!"
+
+#: bb-includes/backpress/class.bp-sql-schema-parser.php:596
+#, php-format
+msgid "Database: %s (%s)"
+msgstr "Baza de date: %s (%s)"
+
+#: bb-includes/backpress/class.wp-http.php:723
+#: bb-includes/backpress/class.wp-http.php:1341
+msgid "Too many redirects."
+msgstr "Prea multe redirecționări."
+
+#: bb-includes/backpress/class.wp-http.php:803
+#: bb-includes/backpress/class.wp-http.php:930
+#, php-format
+msgid "Malformed URL: %s"
+msgstr "URL malformat: %s"
+
+#: bb-includes/backpress/class.wp-http.php:814
+#: bb-includes/backpress/class.wp-http.php:987
+#, php-format
+msgid "Could not open handle for fopen() to %s"
+msgstr "Nu s-a putut folosi instanța pentru fopen() la %s"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:226
+#: bb-includes/backpress/class.wp-taxonomy.php:299
+#: bb-includes/backpress/class.wp-taxonomy.php:403
+#: bb-includes/backpress/class.wp-taxonomy.php:581
+#: bb-includes/backpress/class.wp-taxonomy.php:1166
+#: bb-includes/backpress/class.wp-taxonomy.php:1400
+#: bb-includes/class.bb-taxonomy.php:48
+#: bb-includes/class.bb-taxonomy.php:151
+#: bb-includes/class.bb-taxonomy.php:275
+msgid "Invalid Taxonomy"
+msgstr "Taxonomia nu este validă"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:294
+msgid "Empty Term"
+msgstr "Termen gol"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1300
+#: bb-includes/backpress/class.wp-taxonomy.php:1549
+msgid "Invalid taxonomy"
+msgstr "Taxonomia nu este validă"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1303
+msgid "Invalid term ID"
+msgstr "ID-ul termenului nu este valid"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1306
+#: bb-includes/backpress/class.wp-taxonomy.php:1572
+msgid "A name is required for this term"
+msgstr "Un nume este necesar pentru acest termen"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1337
+#: bb-includes/backpress/class.wp-taxonomy.php:1344
+msgid "Could not insert term into the database"
+msgstr "Nu s-a putut insera termenul în baza de date"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:1600
+#, php-format
+msgid "The slug &#8220;%s&#8221; is already in use by another term"
+msgstr "Slug-ul &#8220;%s&#8221; este deja folosit de un alt termen"
+
+#: bb-includes/backpress/class.wp-taxonomy.php:2037
+msgid "Invalid object ID"
+msgstr "ID-ul obiectului nu este valid"
+
+#: bb-includes/backpress/class.wp-users.php:51
+msgid "Invalid login name"
+msgstr "Numele de autentificare nu este valid"
+
+#: bb-includes/backpress/class.wp-users.php:53
+msgid "Name already exists"
+msgstr "Numele există deja"
+
+#: bb-includes/backpress/class.wp-users.php:58
+msgid "Invalid nicename"
+msgstr "Numele generat nu este valid"
+
+#: bb-includes/backpress/class.wp-users.php:60
+msgid "Nicename already exists"
+msgstr "Numele generat există deja"
+
+#: bb-includes/backpress/class.wp-users.php:65
+#: bb-includes/functions.bb-pluggable.php:588
+#: profile-edit.php:62
+msgid "Invalid email address"
+msgstr "Adresa de e-mail nu este validă"
+
+#: bb-includes/backpress/class.wp-users.php:70
+msgid "Email already exists"
+msgstr "Adresa de e-mail există deja"
+
+#: bb-includes/backpress/class.wp-users.php:90
+msgid "Invalid registration time"
+msgstr "Data înregistrării nu este validă"
+
+#: bb-includes/backpress/class.wp-users.php:93
+msgid "Invalid registration timestamp"
+msgstr "Timestamp-ul înregistrării nu este valid"
+
+#: bb-includes/backpress/class.wp-users.php:110
+msgid "Query failed"
+msgstr "Cererea a eșuat"
+
+#: bb-includes/backpress/class.wp-users.php:295
+#: bb-includes/backpress/class.wp-users.php:341
+msgid "Multiple email matches.  Log in with your username."
+msgstr "Adresa de e-mail a fost folosită multiplu. Autentifică-te cu numele de utilizator."
+
+#: bb-includes/backpress/class.wp-users.php:297
+#: bb-includes/backpress/class.wp-users.php:343
+#, php-format
+msgid "Multiple %s matches"
+msgstr "Au fost găsite mai multe rezultate %s"
+
+#: bb-includes/backpress/functions.core.php:957
+msgid "Select a city"
+msgstr "Alege un oraș"
+
+#: bb-includes/backpress/functions.core.php:972
+msgid "Manual offsets"
+msgstr "Decalări manual"
+
+#: bb-includes/backpress/functions.core.php:1140
+msgid "BackPress &rsaquo; Error"
+msgstr "Eroare &rsaquo; BackPress"
+
+#. translators: opening curly quote
+#: bb-includes/backpress/functions.formatting.php:49
+msgctxt "opening curly quote"
+msgid "&#8220;"
+msgstr "&#8220;"
+
+#. translators: closing curly quote
+#: bb-includes/backpress/functions.formatting.php:51
+msgctxt "closing curly quote"
+msgid "&#8221;"
+msgstr "&#8221;"
+
+#: bb-includes/backpress/functions.wp-cron.php:304
+msgid "Once Hourly"
+msgstr "O dată pe oră"
+
+#: bb-includes/backpress/functions.wp-cron.php:305
+msgid "Twice Daily"
+msgstr "De două ori pe zi"
+
+#: bb-includes/backpress/functions.wp-cron.php:306
+msgid "Once Daily"
+msgstr "O dată pe zi"
+
+#: bb-includes/backpress/pomo/sample/app.php:56
+#, php-format
+msgid "Welcome %s!"
+msgstr "Salut, %s!"
+
+#: bb-includes/backpress/pomo/sample/app.php:60
+msgid "A string with low priority!"
+msgstr "Un șir de caractere cu prioritate scăzută!"
+
+#: bb-includes/backpress/pomo/sample/app.php:62
+msgid "Bye\n"
+msgstr "Salut\n"
+
+#: bb-includes/class.bb-dir-map.php:19
+msgid "Not a valid directory"
+msgstr "Nu este un director valid"
+
+#: bb-includes/class.bb-dir-map.php:25
+msgid "Invalid arguments"
+msgstr "Argumentele nu sunt valide"
+
+#: bb-includes/class.bb-locale.php:115
+#: bb-includes/class.bb-locale.php:125
+#: bb-includes/class.bb-locale.php:138
+msgid "Sunday"
+msgstr "duminică"
+
+#: bb-includes/class.bb-locale.php:116
+#: bb-includes/class.bb-locale.php:126
+#: bb-includes/class.bb-locale.php:139
+msgid "Monday"
+msgstr "luni"
+
+#: bb-includes/class.bb-locale.php:117
+#: bb-includes/class.bb-locale.php:127
+#: bb-includes/class.bb-locale.php:140
+msgid "Tuesday"
+msgstr "marți"
+
+#: bb-includes/class.bb-locale.php:118
+#: bb-includes/class.bb-locale.php:128
+#: bb-includes/class.bb-locale.php:141
+msgid "Wednesday"
+msgstr "miercuri"
+
+#: bb-includes/class.bb-locale.php:119
+#: bb-includes/class.bb-locale.php:129
+#: bb-includes/class.bb-locale.php:142
+msgid "Thursday"
+msgstr "joi"
+
+#: bb-includes/class.bb-locale.php:120
+#: bb-includes/class.bb-locale.php:130
+#: bb-includes/class.bb-locale.php:143
+msgid "Friday"
+msgstr "vineri"
+
+#: bb-includes/class.bb-locale.php:121
+#: bb-includes/class.bb-locale.php:131
+#: bb-includes/class.bb-locale.php:144
+msgid "Saturday"
+msgstr "Sâmbătă"
+
+#: bb-includes/class.bb-locale.php:125
+msgid "S_Sunday_initial"
+msgstr "D"
+
+#: bb-includes/class.bb-locale.php:126
+msgid "M_Monday_initial"
+msgstr "L"
+
+#: bb-includes/class.bb-locale.php:127
+msgid "T_Tuesday_initial"
+msgstr "Ma"
+
+#: bb-includes/class.bb-locale.php:128
+msgid "W_Wednesday_initial"
+msgstr "Mi"
+
+#: bb-includes/class.bb-locale.php:129
+msgid "T_Thursday_initial"
+msgstr "J"
+
+#: bb-includes/class.bb-locale.php:130
+msgid "F_Friday_initial"
+msgstr "V"
+
+#: bb-includes/class.bb-locale.php:131
+msgid "S_Saturday_initial"
+msgstr "S"
+
+#: bb-includes/class.bb-locale.php:138
+msgid "Sun"
+msgstr "Dum"
+
+#: bb-includes/class.bb-locale.php:139
+msgid "Mon"
+msgstr "Luni"
+
+#: bb-includes/class.bb-locale.php:140
+msgid "Tue"
+msgstr "Mar"
+
+#: bb-includes/class.bb-locale.php:141
+msgid "Wed"
+msgstr "Mie"
+
+#: bb-includes/class.bb-locale.php:142
+msgid "Thu"
+msgstr "Joi"
+
+#: bb-includes/class.bb-locale.php:143
+msgid "Fri"
+msgstr "Vin"
+
+#: bb-includes/class.bb-locale.php:144
+msgid "Sat"
+msgstr "Sâm"
+
+#: bb-includes/class.bb-locale.php:147
+#: bb-includes/class.bb-locale.php:162
+msgid "January"
+msgstr "Ianuarie"
+
+#: bb-includes/class.bb-locale.php:148
+#: bb-includes/class.bb-locale.php:163
+msgid "February"
+msgstr "Februarie"
+
+#: bb-includes/class.bb-locale.php:149
+#: bb-includes/class.bb-locale.php:164
+msgid "March"
+msgstr "Martie"
+
+#: bb-includes/class.bb-locale.php:150
+#: bb-includes/class.bb-locale.php:165
+msgid "April"
+msgstr "Aprilie"
+
+#: bb-includes/class.bb-locale.php:151
+#: bb-includes/class.bb-locale.php:166
+msgid "May"
+msgstr "Mai"
+
+#: bb-includes/class.bb-locale.php:152
+#: bb-includes/class.bb-locale.php:167
+msgid "June"
+msgstr "Iunie"
+
+#: bb-includes/class.bb-locale.php:153
+#: bb-includes/class.bb-locale.php:168
+msgid "July"
+msgstr "Iulie"
+
+#: bb-includes/class.bb-locale.php:154
+#: bb-includes/class.bb-locale.php:169
+msgid "August"
+msgstr "August"
+
+#: bb-includes/class.bb-locale.php:155
+#: bb-includes/class.bb-locale.php:170
+msgid "September"
+msgstr "Septembrie"
+
+#: bb-includes/class.bb-locale.php:156
+#: bb-includes/class.bb-locale.php:171
+msgid "October"
+msgstr "Octombrie"
+
+#: bb-includes/class.bb-locale.php:157
+#: bb-includes/class.bb-locale.php:172
+msgid "November"
+msgstr "Noiembrie"
+
+#: bb-includes/class.bb-locale.php:158
+#: bb-includes/class.bb-locale.php:173
+msgid "December"
+msgstr "Decembrie"
+
+#: bb-includes/class.bb-locale.php:162
+msgid "Jan_January_abbreviation"
+msgstr "Ian"
+
+#: bb-includes/class.bb-locale.php:163
+msgid "Feb_February_abbreviation"
+msgstr "Feb"
+
+#: bb-includes/class.bb-locale.php:164
+msgid "Mar_March_abbreviation"
+msgstr "Mar"
+
+#: bb-includes/class.bb-locale.php:165
+msgid "Apr_April_abbreviation"
+msgstr "Apr"
+
+#: bb-includes/class.bb-locale.php:166
+msgid "May_May_abbreviation"
+msgstr "Mai"
+
+#: bb-includes/class.bb-locale.php:167
+msgid "Jun_June_abbreviation"
+msgstr "Iun"
+
+#: bb-includes/class.bb-locale.php:168
+msgid "Jul_July_abbreviation"
+msgstr "Iul"
+
+#: bb-includes/class.bb-locale.php:169
+msgid "Aug_August_abbreviation"
+msgstr "Aug"
+
+#: bb-includes/class.bb-locale.php:170
+msgid "Sep_September_abbreviation"
+msgstr "Sep"
+
+#: bb-includes/class.bb-locale.php:171
+msgid "Oct_October_abbreviation"
+msgstr "Oct"
+
+#: bb-includes/class.bb-locale.php:172
+msgid "Nov_November_abbreviation"
+msgstr "Nov"
+
+#: bb-includes/class.bb-locale.php:173
+msgid "Dec_December_abbreviation"
+msgstr "Dec"
+
+#: bb-includes/class.bb-locale.php:180
+msgid "am"
+msgstr "am"
+
+#: bb-includes/class.bb-locale.php:181
+msgid "pm"
+msgstr "pm"
+
+#: bb-includes/class.bb-locale.php:182
+msgid "AM"
+msgstr "AM"
+
+#: bb-includes/class.bb-locale.php:183
+msgid "PM"
+msgstr "PM"
+
+#. translators: $decimals argument for http://php.net/number_format, default is 0
+#: bb-includes/class.bb-locale.php:189
+msgid "number_format_decimals"
+msgstr ","
+
+#. translators: $dec_point argument for http://php.net/number_format, default is .
+#: bb-includes/class.bb-locale.php:193
+msgid "number_format_decimal_point"
+msgstr ","
+
+#. translators: $thousands_sep argument for http://php.net/number_format, default is ,
+#: bb-includes/class.bb-locale.php:197
+msgid "number_format_thousands_sep"
+msgstr " "
+
+#: bb-includes/class.bb-locale.php:201
+msgid "F j, Y - h:i A"
+msgstr "j F, Y - G:i"
+
+#: bb-includes/class.bb-locale.php:202
+msgid "F j, Y"
+msgstr "j F, Y"
+
+#: bb-includes/class.bb-locale.php:203
+msgid "h:i A"
+msgstr "G:i"
+
+#: bb-includes/class.bb-query.php:902
+msgid "Search &#187;"
+msgstr "Căutare&#187;"
+
+#: bb-includes/class.bb-query.php:943
+msgid "Any"
+msgstr "Orice"
+
+#: bb-includes/class.bb-query.php:949
+msgid "Tag"
+msgstr "Etichetă"
+
+#: bb-includes/class.bb-query.php:956
+msgid "Topic author"
+msgstr "Autorul subiectului"
+
+#: bb-includes/class.bb-query.php:963
+msgid "Post author"
+msgstr "Autorul mesajului"
+
+#: bb-includes/class.bb-query.php:968
+#: bb-includes/class.bb-query.php:1001
+msgid "All"
+msgstr "Toate"
+
+#: bb-includes/class.bb-query.php:968
+msgid "Normal"
+msgstr "Normal"
+
+#: bb-includes/class.bb-query.php:968
+msgid "Deleted"
+msgstr "Șters"
+
+#: bb-includes/class.bb-query.php:971
+msgid "Topic status"
+msgstr "Statutul subiectului"
+
+#: bb-includes/class.bb-query.php:982
+msgid "Post status"
+msgstr "Statutul mesajului"
+
+#: bb-includes/class.bb-query.php:993
+msgid "Poster IP address"
+msgstr "Adresa IP a autorului"
+
+#: bb-includes/class.bb-query.php:999
+msgid "Open?"
+msgstr "Deschis?"
+
+#: bb-includes/class.bb-query.php:1001
+msgctxt "posting status"
+msgid "Open"
+msgstr "Deschis"
+
+#: bb-includes/class.bb-query.php:1001
+msgid "Closed"
+msgstr "Închis"
+
+#: bb-includes/class.bb-query.php:1012
+#: bb-templates/kakumei/post-form.php:3
+msgid "Title"
+msgstr "Titlu"
+
+#: bb-includes/class.bb-taxonomy.php:272
+msgid "Invalid User ID"
+msgstr "ID-ul utilizatorului nu este valid"
+
+#: bb-includes/functions.bb-capabilities.php:57
+msgid "Key Master"
+msgstr "Superutilizator"
+
+#: bb-includes/functions.bb-capabilities.php:100
+msgid "Administrator"
+msgstr "Administrator"
+
+#: bb-includes/functions.bb-capabilities.php:135
+msgid "Moderator"
+msgstr "Moderator"
+
+#: bb-includes/functions.bb-capabilities.php:166
+msgid "Member"
+msgstr "Membru"
+
+#: bb-includes/functions.bb-capabilities.php:180
+msgid "Inactive"
+msgstr "Inactiv"
+
+#: bb-includes/functions.bb-capabilities.php:185
+msgid "Blocked"
+msgstr "Blocat"
+
+#: bb-includes/functions.bb-core.php:26
+#, php-format
+msgid "Using deprecated bbPress %1$s - %2$s - replace with - %3$s"
+msgstr "Se folosește un bbPress mai vechi %1$s - %2$s - înlocuieşte cu - %3$s"
+
+#: bb-includes/functions.bb-core.php:216
+#: bb-includes/functions.bb-template.php:1298
+msgid "&laquo; Previous"
+msgstr "&laquo; Precedentul"
+
+#: bb-includes/functions.bb-core.php:217
+#: bb-includes/functions.bb-template.php:1299
+msgid "Next &raquo;"
+msgstr "Următorul &raquo;"
+
+#: bb-includes/functions.bb-core.php:223
+#, php-format
+msgid "Page %d"
+msgstr "Pagina %d"
+
+#: bb-includes/functions.bb-core.php:224
+msgid "Previous page"
+msgstr "Pagina precedentă"
+
+#: bb-includes/functions.bb-core.php:225
+msgid "Next page"
+msgstr "Pagina următoare"
+
+#: bb-includes/functions.bb-core.php:385
+#: bb-includes/functions.bb-core.php:416
+#: bb-includes/functions.bb-core.php:429
+#, php-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d secundă"
+msgstr[1] "%d secunde"
+
+#: bb-includes/functions.bb-core.php:410
+#, php-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d an"
+msgstr[1] "%d ani"
+
+#: bb-includes/functions.bb-core.php:411
+#, php-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d lună"
+msgstr[1] "%d luni"
+
+#: bb-includes/functions.bb-core.php:412
+#, php-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d săptămână"
+msgstr[1] "%d săptămâni"
+
+#: bb-includes/functions.bb-core.php:413
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d zi"
+msgstr[1] "%d zile"
+
+#: bb-includes/functions.bb-core.php:414
+#, php-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d oră"
+msgstr[1] "%d ore"
+
+#: bb-includes/functions.bb-core.php:415
+#, php-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minut"
+msgstr[1] "%d minute"
+
+#: bb-includes/functions.bb-core.php:746
+msgid "User not found."
+msgstr "Utilizatorul nu a fost găsit."
+
+#: bb-includes/functions.bb-core.php:817
+msgid "REQUEST_URI"
+msgstr "REQUEST_URI"
+
+#: bb-includes/functions.bb-core.php:818
+msgid "should be"
+msgstr "ar trebui să fie"
+
+#: bb-includes/functions.bb-core.php:819
+msgid "full permalink"
+msgstr "legătura permanentă completă"
+
+#: bb-includes/functions.bb-core.php:820
+msgid "PATH_INFO"
+msgstr "PATH_INFO"
+
+#: bb-includes/functions.bb-core.php:845
+#: bb-templates/kakumei/favorites.php:3
+msgid "Favorites"
+msgstr "Favorite"
+
+#: bb-includes/functions.bb-core.php:895
+msgid "First name"
+msgstr "Prenume"
+
+#: bb-includes/functions.bb-core.php:896
+msgid "Last name"
+msgstr "Nume"
+
+#: bb-includes/functions.bb-core.php:897
+msgid "Display name as"
+msgstr "Numele pentru afișare"
+
+#: bb-includes/functions.bb-core.php:898
+msgid "Email"
+msgstr "Adresă e-mail"
+
+#: bb-includes/functions.bb-core.php:899
+msgid "Website"
+msgstr "Pagina web"
+
+#: bb-includes/functions.bb-core.php:900
+msgid "Location"
+msgstr "Locația"
+
+#: bb-includes/functions.bb-core.php:901
+msgid "Occupation"
+msgstr "Ocupația"
+
+#: bb-includes/functions.bb-core.php:902
+msgid "Interests"
+msgstr "Interese"
+
+#: bb-includes/functions.bb-core.php:909
+msgid "Custom Title"
+msgstr "Titul personalizat"
+
+#: bb-includes/functions.bb-core.php:916
+#, php-format
+msgid "Ignore the %d second post throttling limit"
+msgstr "Ignoră limita de %d secunde de așteptare la publicarea mesajului următor"
+
+#: bb-includes/functions.bb-core.php:993
+msgid "Topics with no replies"
+msgstr "Subiecte fără niciun răspuns"
+
+#: bb-includes/functions.bb-core.php:994
+msgid "Topics with no tags"
+msgstr "Subiecte fără nicio etichetă"
+
+#: bb-includes/functions.bb-core.php:1102
+msgid "bbPress Failure Notice"
+msgstr "Notificări bbPress la eșecuri"
+
+#: bb-includes/functions.bb-core.php:1105
+msgid "Please try again."
+msgstr "Mai încearcă o dată."
+
+#: bb-includes/functions.bb-core.php:1216
+#, php-format
+msgid "Back to <a href=\"%s\">%s</a>."
+msgstr "Înapoi la <a href=\"%s\">%s</a>."
+
+#: bb-includes/functions.bb-core.php:1229
+msgid "Your attempt to submit this post has failed."
+msgstr "Încercarea de a publica acest mesaj a eșuat."
+
+#: bb-includes/functions.bb-core.php:1230
+msgid "Your attempt to edit this post has failed."
+msgstr "Încercarea de a edita acest mesaj a eșuat."
+
+#: bb-includes/functions.bb-core.php:1231
+msgid "Your attempt to delete this post has failed."
+msgstr "Încercarea de a șterge acest mesaj a eşuat."
+
+#: bb-includes/functions.bb-core.php:1233
+msgid "Your attempt to create this topic has failed."
+msgstr "Încercarea de a crea acest subiect a eșuat."
+
+#: bb-includes/functions.bb-core.php:1234
+msgid "Your attempt to change the resolution status of this topic has failed."
+msgstr "Încercarea de a schimba statutul acestui subiect a eșuat."
+
+#: bb-includes/functions.bb-core.php:1235
+msgid "Your attempt to delete this topic has failed."
+msgstr "Încercarea de a șterge acest subiect a eşuat."
+
+#: bb-includes/functions.bb-core.php:1236
+msgid "Your attempt to change the status of this topic has failed."
+msgstr "Încercarea de a schimba statutul acestui subiect a eșuat."
+
+#: bb-includes/functions.bb-core.php:1237
+msgid "Your attempt to change the sticky status of this topic has failed."
+msgstr "Încercarea de a schimba statutul de lipicios la acest subiect a eșuat."
+
+#: bb-includes/functions.bb-core.php:1238
+msgid "Your attempt to move this topic has failed."
+msgstr "Încercarea de a muta acest subiect a eșuat."
+
+#: bb-includes/functions.bb-core.php:1240
+msgid "Your attempt to add this tag to this topic has failed."
+msgstr "Încercarea de a adăuga această etichetă la acest subiect a eșuat."
+
+#: bb-includes/functions.bb-core.php:1241
+msgid "Your attempt to rename this tag has failed."
+msgstr "Încercarea de a redenumi această etichetă a eșuat."
+
+#: bb-includes/functions.bb-core.php:1242
+msgid "Your attempt to submit these tags has failed."
+msgstr "Încercarea de a trimite aceste etichete a eșuat."
+
+#: bb-includes/functions.bb-core.php:1243
+msgid "Your attempt to destroy this tag has failed."
+msgstr "Încercarea de a distruge această etichetă a eșuat."
+
+#: bb-includes/functions.bb-core.php:1244
+msgid "Your attempt to remove this tag from this topic has failed."
+msgstr "Încercarea de a șterge această etichetă la acest subiect a eșuat."
+
+#: bb-includes/functions.bb-core.php:1246
+msgid "Your attempt to toggle your favorite status for this topic has failed."
+msgstr "Încercarea de a modifica statutul de favorit la acest subiect a eșuat."
+
+#: bb-includes/functions.bb-core.php:1248
+msgid "Your attempt to edit this user's profile has failed."
+msgstr "Încercarea de a edita profilul acestui utilizator a eșuat."
+
+#: bb-includes/functions.bb-core.php:1250
+msgid "Your attempt to add this forum has failed."
+msgstr "Încercarea de a adăuga acest forum a eșuat."
+
+#: bb-includes/functions.bb-core.php:1251
+msgid "Your attempt to update your forums has failed."
+msgstr "Încercarea de a actualiza forumurile a eșuat."
+
+#: bb-includes/functions.bb-core.php:1252
+msgid "Your attempt to delete that forum has failed."
+msgstr "Încercarea de a șterge acest forum a eşuat."
+
+#: bb-includes/functions.bb-core.php:1254
+msgid "Your attempt to recount these items has failed."
+msgstr "Încercarea de a re-număra aceste elemente a eșuat."
+
+#: bb-includes/functions.bb-core.php:1256
+msgid "Your attempt to switch themes has failed."
+msgstr "Încercarea de a schimba șablonul a eșuat."
+
+#: bb-includes/functions.bb-core.php:1271
+msgid "Your attempt to do this has failed."
+msgstr "Ce încercai să faci a eșuat."
+
+#: bb-includes/functions.bb-core.php:1482
+#: bb-includes/functions.bb-core.php:1615
+msgid "Your search term was too short"
+msgstr "Termenul pentru căutare a fost prea scurt"
+
+#: bb-includes/functions.bb-core.php:1562
+msgid "Your query parameters are invalid"
+msgstr "Parametrii cererii nu sunt valizi"
+
+#: bb-includes/functions.bb-formatting.php:297
+#: bb-includes/functions.bb-formatting.php:301
+#, php-format
+msgid "[sticky] %s"
+msgstr "[lipicios] %s"
+
+#: bb-includes/functions.bb-formatting.php:310
+#, php-format
+msgid "[closed] %s"
+msgstr "[închis] %s"
+
+#: bb-includes/functions.bb-meta.php:334
+msgid "Please give me a name!"
+msgstr "Te rog să-mi dai un nume!"
+
+#: bb-includes/functions.bb-pluggable.php:591
+#: bb-includes/functions.bb-pluggable.php:600
+msgid "Invalid username"
+msgstr "Numele de utilizator nu este valid"
+
+#: bb-includes/functions.bb-posts.php:30
+#: bb-includes/functions.bb-posts.php:32
+msgid "Slow down; you move too fast."
+msgstr "Mai încet; te grăbești prea tare."
+
+#: bb-includes/functions.bb-posts.php:482
+#, php-format
+msgid ""
+"%2$s wrote:\n"
+"\n"
+" %3$s\n"
+"\n"
+"Topic Link: %4$s\n"
+"\n"
+"You're getting this mail because you subscribed to the topic, visit the topic and login to unsubscribe."
+msgstr ""
+"%2$s a scris:\n"
+"\n"
+" %3$s\n"
+"\n"
+"Legătura la subiect: %4$s\n"
+"\n"
+"Primești acest mesaj pentru că ești abonat la subiectul de mai sus, accesează subiectul și autentifică-te pentru dezabonare."
+
+#: bb-includes/functions.bb-script-loader.php:18
+msgid ""
+"You are about to delete the selected items.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Ești pe cale să ştergi elementele selectate.\n"
+"  'Anulare' pentru a opri, 'OK' pentru a continua."
+
+#: bb-includes/functions.bb-script-loader.php:22
+msgid "drag"
+msgstr "trage"
+
+#: bb-includes/functions.bb-script-loader.php:23
+msgid "Save Forum Order"
+msgstr "Salvează ordinea forumurilor"
+
+#: bb-includes/functions.bb-script-loader.php:24
+msgid "Edit Forum Order"
+msgstr "Editează ordinea forumurilor"
+
+#: bb-includes/functions.bb-script-loader.php:34
+msgid "You do not have permission to do that."
+msgstr "Nu ai permisiuni să faci asta."
+
+#: bb-includes/functions.bb-script-loader.php:35
+msgid "An unidentified error has occurred."
+msgstr "A avut loc o eroare necunoscută."
+
+#: bb-includes/functions.bb-script-loader.php:44
+msgid "Too short"
+msgstr "Prea scurt"
+
+#: bb-includes/functions.bb-script-loader.php:45
+msgid "Bad"
+msgstr "Slabă"
+
+#: bb-includes/functions.bb-script-loader.php:46
+msgid "Good"
+msgstr "Bună"
+
+#: bb-includes/functions.bb-script-loader.php:47
+msgid "Strong"
+msgstr "Puternică"
+
+#: bb-includes/functions.bb-script-loader.php:87
+msgid "Are you sure you want to delete this post?"
+msgstr "Ești sigur că vrei să ştergi acest mesaj?"
+
+#: bb-includes/functions.bb-script-loader.php:88
+msgid "Are you sure you want to undelete this post?"
+msgstr "Ești sigur că vrei să anulezi ştergerea acestui mesaj?"
+
+#: bb-includes/functions.bb-script-loader.php:89
+#: bb-templates/kakumei/favorites.php:5
+msgid "favorites"
+msgstr "favorite"
+
+#: bb-includes/functions.bb-script-loader.php:90
+msgid "?"
+msgstr "?"
+
+#: bb-includes/functions.bb-script-loader.php:91
+msgid "This topic is one of your %favLinkYes% [%favDel%]"
+msgstr "Acest subiect este unul dintre subiectele tale %favLinkYes% [%favDel%]"
+
+#: bb-includes/functions.bb-script-loader.php:92
+msgid "%favAdd% (%favLinkNo%)"
+msgstr "%favAdd% (%favLinkNo%)"
+
+#: bb-includes/functions.bb-script-loader.php:93
+#: bb-includes/functions.bb-template.php:3373
+msgid "&times;"
+msgstr "&times;"
+
+#: bb-includes/functions.bb-script-loader.php:94
+#: bb-includes/functions.bb-template.php:3371
+msgid "Add this topic to your favorites"
+msgstr "Adaugă acest subiect la subiectele tale favorite"
+
+#: bb-includes/functions.bb-template.php:222
+#: bb-templates/kakumei/profile.php:3
+msgid "Profile"
+msgstr "Profil"
+
+#: bb-includes/functions.bb-template.php:274
+msgid "Reply"
+msgstr "Răspuns"
+
+#: bb-includes/functions.bb-template.php:276
+msgid "New Topic in this Forum"
+msgstr "Subiect nou în acest forum"
+
+#: bb-includes/functions.bb-template.php:278
+#: bb-templates/kakumei/front-page.php:86
+msgid "Add New Topic"
+msgstr "Adaugă un nou subiect"
+
+#: bb-includes/functions.bb-template.php:312
+#, php-format
+msgid "You must <a href=\"%s\">log in</a> to post."
+msgstr "Trebuie să fii <a href=\"%s\">autentificat</a> pentru a publica."
+
+#: bb-includes/functions.bb-template.php:518
+#: bb-templates/kakumei/tag-single.php:3
+#: bb-templates/kakumei/tags.php:3
+msgid "Tags"
+msgstr "Etichete"
+
+#: bb-includes/functions.bb-template.php:552
+#: rss.php:111
+#, php-format
+msgid "%1$s &raquo; User Favorites: %2$s"
+msgstr "%1$s &raquo; Subiectele favorite a utilizatorului: %2$s"
+
+#: bb-includes/functions.bb-template.php:559
+#: rss.php:94
+#, php-format
+msgid "%1$s &raquo; Topic: %2$s"
+msgstr "%1$s &raquo; Subiect: %2$s"
+
+#: bb-includes/functions.bb-template.php:567
+#: rss.php:137
+#, php-format
+msgid "%1$s &raquo; Tag: %2$s - Recent Posts"
+msgstr "%1$s &raquo; Etichetă: %2$s - Mesaje recente"
+
+#: bb-includes/functions.bb-template.php:571
+#: rss.php:127
+#, php-format
+msgid "%1$s &raquo; Tag: %2$s - Recent Topics"
+msgstr "%1$s &raquo; Etichetă: %2$s - Subiecte recente"
+
+#: bb-includes/functions.bb-template.php:579
+#: rss.php:159
+#, php-format
+msgid "%1$s &raquo; Forum: %2$s - Recent Posts"
+msgstr "%1$s &raquo; Forum: %2$s - Mesaje recente"
+
+#: bb-includes/functions.bb-template.php:583
+#: rss.php:151
+#, php-format
+msgid "%1$s &raquo; Forum: %2$s - Recent Topics"
+msgstr "%1$s &raquo; Forum: %2$s - Subiecte recente"
+
+#: bb-includes/functions.bb-template.php:590
+#: rss.php:184
+#, php-format
+msgid "%1$s &raquo; Recent Posts"
+msgstr "%1$s &raquo; Mesaje recente"
+
+#: bb-includes/functions.bb-template.php:594
+#: rss.php:174
+#, php-format
+msgid "%1$s &raquo; Recent Topics"
+msgstr "%1$s &raquo; Subiecte recente"
+
+#: bb-includes/functions.bb-template.php:603
+#: rss.php:84
+#, php-format
+msgid "%1$s &raquo; View: %2$s"
+msgstr "%1$s &raquo; Vizualizare: %2$s"
+
+#: bb-includes/functions.bb-template.php:1399
+msgid "Are you sure you want to delete that?"
+msgstr "Ești sigur că vrei să ştergi asta?"
+
+#: bb-includes/functions.bb-template.php:1400
+msgid "Delete entire topic"
+msgstr "Șterg întregul subiect"
+
+#: bb-includes/functions.bb-template.php:1406
+msgid "Are you sure you want to undelete that?"
+msgstr "Ești sigur că vrei să anulezi ştergerea?"
+
+#: bb-includes/functions.bb-template.php:1407
+msgid "Undelete entire topic"
+msgstr "Anulează ștergerea întregului subiect"
+
+#: bb-includes/functions.bb-template.php:1430
+msgid "Close topic"
+msgstr "Închide subiectul"
+
+#: bb-includes/functions.bb-template.php:1432
+msgid "Open topic"
+msgstr "Deschide subiectul"
+
+#: bb-includes/functions.bb-template.php:1464
+msgid "Unstick topic"
+msgstr "De-fixează subiectul"
+
+#: bb-includes/functions.bb-template.php:1466
+msgid "Stick topic"
+msgstr "Fixează subiect"
+
+#: bb-includes/functions.bb-template.php:1466
+msgid "to front"
+msgstr "în față"
+
+#: bb-includes/functions.bb-template.php:1473
+msgid "View normal posts"
+msgstr "Vizualizarea tuturor mesajelor ordinare"
+
+#: bb-includes/functions.bb-template.php:1475
+msgid "View all posts"
+msgstr "Vizualizarea tuturor mesajelor"
+
+#: bb-includes/functions.bb-template.php:1485
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s mesaj"
+msgstr[1] "%s mesaje"
+
+#: bb-includes/functions.bb-template.php:1498
+#, php-format
+msgid "+%d more"
+msgstr "+%d mai multe"
+
+#: bb-includes/functions.bb-template.php:1540
+msgid "Move to"
+msgstr "Mută în"
+
+#: bb-includes/functions.bb-template.php:1543
+msgid "Move"
+msgstr "Mută"
+
+#: bb-includes/functions.bb-template.php:1575
+msgid "Add New &raquo;"
+msgstr "Adaugă unul nou &raquo;"
+
+#: bb-includes/functions.bb-template.php:1753
+msgid "Anonymous"
+msgstr "Anonim"
+
+#: bb-includes/functions.bb-template.php:2140
+#: bb-includes/functions.bb-template.php:2154
+msgid "PingBack"
+msgstr "PingBack"
+
+#: bb-includes/functions.bb-template.php:2142
+#: bb-includes/functions.bb-template.php:2156
+msgid "Unregistered"
+msgstr "Neînregistrat"
+
+#: bb-includes/functions.bb-template.php:2244
+msgid "Delete User &raquo;"
+msgstr "Ștergere utilizatorul &raquo;"
+
+#: bb-includes/functions.bb-template.php:2245
+msgid "Are you sure you want to delete this user?"
+msgstr "Ești sigur că vrei să ştergi acest utilizator?"
+
+#: bb-includes/functions.bb-template.php:2372
+msgid "Member Since"
+msgstr "Membru din"
+
+#: bb-includes/functions.bb-template.php:2525
+#: bb-includes/functions.bb-template.php:2674
+#: bb-templates/kakumei/register.php:65
+msgid "These items are <span class=\"required\">required</span>."
+msgstr "Aceste elemente sunt <span class=\"required\">obligatorii</span>."
+
+#: bb-includes/functions.bb-template.php:2562
+msgid "User Type"
+msgstr "Tipul utilizatorului"
+
+#: bb-includes/functions.bb-template.php:2587
+msgid "Allow this user to"
+msgstr "Permite acestui utilizator să"
+
+#: bb-includes/functions.bb-template.php:2677
+msgid "Inactive users can login and look around but not do anything. Blocked users just see a simple error message when they visit the site."
+msgstr "Utilizatorii inactivi se pot autentifică și pot citi, nimic mai mult. Utilizatorii blocați vor vedea un simplu mesaj de eroare la vizitare."
+
+#: bb-includes/functions.bb-template.php:2678
+msgid "<strong>Note</strong>: Blocking a user does <em>not</em> block any IP addresses."
+msgstr "<strong>Notă</strong>: Blocarea unui utilizator <em>nu</em> blockează nici o adresă IP."
+
+#: bb-includes/functions.bb-template.php:2701
+msgid "New password"
+msgstr "Parolă nouă"
+
+#: bb-includes/functions.bb-template.php:2714
+msgid "Password Strength"
+msgstr "Complexitatea parolei"
+
+#: bb-includes/functions.bb-template.php:2718
+msgid "Disabled (requires JavaScript)"
+msgstr "Dezactivat (necesită JavaScript)"
+
+#: bb-includes/functions.bb-template.php:2724
+msgid "Disabled (requires jQuery)"
+msgstr "Dezactivat (necesită jQuery)"
+
+#: bb-includes/functions.bb-template.php:2731
+msgid "Hint: Use upper and lower case characters, numbers and symbols like !\"?$%^&amp;( in your password."
+msgstr "Sugestie: Folosește în parolă atât litere mari cât şi litere mici, cifre şi simboluri cum ar fi !\"?$%^&amp;("
+
+#: bb-includes/functions.bb-template.php:2745
+msgid "Log Out"
+msgstr "Deautentificare"
+
+#: bb-includes/functions.bb-template.php:2771
+msgid "Admin"
+msgstr "Administrare"
+
+#: bb-includes/functions.bb-template.php:2790
+msgid "View your profile"
+msgstr "Vizualizare profil"
+
+#: bb-includes/functions.bb-template.php:3085
+msgid "Add &raquo;"
+msgstr "Adaugă &raquo;"
+
+#: bb-includes/functions.bb-template.php:3121
+msgid "Rename tag:"
+msgstr "Redenumește eticheta:"
+
+#: bb-includes/functions.bb-template.php:3125
+msgid "Rename"
+msgstr "Redenumește"
+
+#: bb-includes/functions.bb-template.php:3129
+msgid "Merge this tag into:"
+msgstr "Combină această etichetă în:"
+
+#: bb-includes/functions.bb-template.php:3133
+msgid "Merge"
+msgstr "Combină"
+
+#: bb-includes/functions.bb-template.php:3134
+#, php-format
+msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified? This is permanent and cannot be undone."
+msgstr "Ești sigur că vrei să combini eticheta \"%s\" în eticheta specificată? Acțiunea este permanentă şi nu se poate anula."
+
+#: bb-includes/functions.bb-template.php:3138
+msgid "Destroy tag:"
+msgstr "Distruge etichetă:"
+
+#: bb-includes/functions.bb-template.php:3141
+msgid "Destroy"
+msgstr "Distruge"
+
+#: bb-includes/functions.bb-template.php:3142
+#, php-format
+msgid "Are you sure you want to destroy the \"%s\" tag? This is permanent and cannot be undone."
+msgstr "Ești sigur că vrei să distrugi eticheta \"%s\"? Acțiunea este permanentă şi nu se poate anula."
+
+#: bb-includes/functions.bb-template.php:3168
+msgid "Remove this tag"
+msgstr "Elimină această etichetă"
+
+#: bb-includes/functions.bb-template.php:3225
+#, php-format
+msgid "%d topics"
+msgstr "%d subiecte"
+
+#: bb-includes/functions.bb-template.php:3290
+msgid "- None -"
+msgstr "- Nici unul -"
+
+#: bb-includes/functions.bb-template.php:3371
+msgid " (%?%)"
+msgstr " (%?%)"
+
+#: bb-includes/functions.bb-template.php:3373
+msgid "This topic is one of your %favorites% ["
+msgstr "Acesta este unul dintre subictele tale %favorites% ["
+
+#: bb-includes/functions.bb-template.php:3373
+msgid "]"
+msgstr "]"
+
+#: bb-includes/functions.bb-template.php:3422
+msgid "Unsubscribe from Topic"
+msgstr "Dezabonare de la subiect"
+
+#: bb-includes/functions.bb-template.php:3424
+msgid "Subscribe to Topic"
+msgstr "Abonare la subiect"
+
+#: bb-includes/functions.bb-users.php:9
+msgid "You've been blocked.  If you think a mistake has been made, contact this site's administrator."
+msgstr "Ai fost blocat. Dacă crezi că e o greșeală, contactează un administrator."
+
+#: bb-includes/functions.bb-users.php:262
+msgid "The specified user does not exist."
+msgstr "Utilizatorul specificat nu există."
+
+#: bb-includes/functions.bb-users.php:275
+#, php-format
+msgid ""
+"If you wanted to reset your password, you may do so by visiting the following address:\n"
+"\n"
+"%s\n"
+"\n"
+"If you don't want to reset your password, just ignore this email. Thanks!"
+msgstr ""
+"Pentru resetarea parolei, mergi la următoarea adresă:\n"
+"\n"
+"%s\n"
+"\n"
+"Dacă nu dorești resetarea parolei, pur şi simplu ignoră acest mesaj. Îți mulţumim!"
+
+#: bb-includes/functions.bb-users.php:281
+#, php-format
+msgid "%s: Password Reset"
+msgstr "%s: Resetare parolă"
+
+#: bb-includes/functions.bb-users.php:293
+msgid "The email containing the password reset link could not be sent."
+msgstr "Mesajul email care conține legătura pentru resetarea parolei nu a putut fi trimis."
+
+#: bb-includes/functions.bb-users.php:318
+#: bb-includes/functions.bb-users.php:322
+#: bb-includes/functions.bb-users.php:328
+msgid "Invalid key"
+msgstr "Cheie invalidă"
+
+#: bb-includes/functions.bb-users.php:336
+msgid "You are not allowed to change your password."
+msgstr "Nu ai permisiuni pentru a schimba parola."
+
+#: bb-includes/functions.bb-users.php:342
+msgid "The email containing the new password could not be sent."
+msgstr "Mesajul email care conține noua parolă nu a putut fi trimis."
+
+#: bb-includes/functions.bb-users.php:391
+#, php-format
+msgid ""
+"Your username is: %1$s \n"
+"Your password is: %2$s \n"
+"You can now log in: %3$s \n"
+"\n"
+"Enjoy!"
+msgstr ""
+"Numele tău de utilizator este: %1$s \n"
+"Parola ta este: %2$s \n"
+"Acum te poți autentifica: %3$s \n"
+"\n"
+"Spor!"
+
+#: bb-includes/functions.bb-users.php:399
+#, php-format
+msgid "%s: Password"
+msgstr "%s: Parola"
+
+#: bb-login.php:101
+msgid "User does not exist."
+msgstr "Utilizatorul nu există."
+
+#: bb-login.php:103
+msgid "Enter a username or email address."
+msgstr "Introdu un nume de utilizator sau o adresă de e-mail."
+
+#: bb-login.php:103
+msgid "Enter a username."
+msgstr "Introdu un nume de utilizator."
+
+#: bb-login.php:109
+msgid "Incorrect password."
+msgstr "Parola este greșită."
+
+#: bb-login.php:116
+msgid "Username and Password do not match."
+msgstr "Numele de utilizator și parola nu se potrivesc."
+
+#: bb-plugins/akismet.php:57
+msgid "Akismet Settings"
+msgstr "Setări Akismet"
+
+#: bb-plugins/akismet.php:62
+#, php-format
+msgid "For many people, <a href=\"%s\">Akismet</a> will greatly reduce or even completely eliminate the spam you get on your site. If one does happen to get through, simply mark it as \"spam\" and Akismet will learn from the mistakes."
+msgstr "Cel mai des, <a href=\"%s\">Akismet</a> va reduce cu mult sau chiar elimina complet spam-ul care vine. Dacă totuși unul reuşeşte să treacă, pur şi simplu marchează-l ca şi \"spam\" şi Akismet va învăța din propriile greşeli."
+
+#: bb-plugins/akismet.php:68
+msgid "This key is valid"
+msgstr "Această cheie este validă"
+
+#: bb-plugins/akismet.php:75
+msgid "WordPress.com API Key"
+msgstr "Cheie API WordPress.com"
+
+#: bb-plugins/akismet.php:78
+#, php-format
+msgid "If you don't have a WordPress.com API Key, you can get one at <a href=\"%s\">WordPress.com</a>"
+msgstr "Dacă nu ai o cheie WordPress.com, poți obţine una la <a href=\"%s\">WordPress.com</a>"
+
+#: bb-plugins/akismet.php:82
+msgid "Enable stats page"
+msgstr "Activează pagina cu statistici"
+
+#: bb-plugins/akismet.php:85
+msgid "Create a page that shows spam statistics."
+msgstr "Crează o pagină care arată statistica pentru spam."
+
+#: bb-plugins/akismet.php:87
+msgid "This page will be viewable by moderators or higher."
+msgstr "Această pagină va fi disponibilă doar moderatorilor sau celor cu permisiuni mai multe."
+
+#: bb-plugins/akismet.php:103
+msgid "Akismet"
+msgstr "Akismet"
+
+#: bb-plugins/akismet.php:151
+msgid "<strong>The key you attempted to enter is invalid. Reverting to previous setting.</strong>"
+msgstr "<strong>Cheia pe care ai încercat să o folosești nu este validă. Revin la setările anterioare.</strong>"
+
+#: bb-plugins/akismet.php:218
+msgid "Akismet Stats"
+msgstr "Statistică Akismet"
+
+#: bb-plugins/akismet.php:440
+#: bb-plugins/akismet.php:476
+msgid "Not Spam"
+msgstr "Nu e spam"
+
+#: bb-plugins/akismet.php:446
+#: bb-plugins/akismet.php:510
+msgid "Spam"
+msgstr "Spam"
+
+#: bb-plugins/akismet.php:477
+msgid "Mark as Spam"
+msgstr "Marchează ca spam"
+
+#: bb-plugins/bozo.php:95
+msgid "Counted the number of bozo posts in each topic"
+msgstr "S-au numărat câte mesaje de la nebuni sunt în fiecare subiect"
+
+#: bb-plugins/bozo.php:123
+msgid "Counted each bozo user&#039;s total posts as well as the total topics to which they have replied"
+msgstr "S-au numărat mesajele totale și subiectele la care s-a răspuns pentru fiecare utilizator nebun"
+
+#: bb-plugins/bozo.php:171
+msgid "Count each bozo user&#039;s total posts as well as the total topics to which they have replied"
+msgstr "Numără mesajele totale și subiectele la care s-a răspuns pentru fiecare utilizator nebun"
+
+#: bb-plugins/bozo.php:172
+msgid "Count the number of bozo posts in each topic"
+msgstr "Numără câte mesaje de la nebuni sunt în fiecare subiect"
+
+#: bb-plugins/bozo.php:272
+msgid "This user is a bozo"
+msgstr "Acest utilizator este nebun"
+
+#: bb-plugins/bozo.php:310
+msgid "Bozos only"
+msgstr "Doar nebuni"
+
+#: bb-post.php:11
+msgid "You need to actually submit some content!"
+msgstr "Trebuie scris și ceva conținut!"
+
+#: bb-post.php:17
+#: bb-post.php:36
+#: bb-post.php:57
+msgid "You are not allowed to post.  Are you logged in?"
+msgstr "Nu ai voie să publici. Ești autentificat?"
+
+#: bb-post.php:20
+msgid "You need to submit your name!"
+msgstr "Trebuie completat numele."
+
+#: bb-post.php:22
+msgid "You need to submit your email!"
+msgstr "Trebuie completată adresa email."
+
+#: bb-post.php:39
+msgid "You are not allowed to write new topics."
+msgstr "Nu ai voie să pornești subiecte noi."
+
+#: bb-post.php:47
+msgid "Please enter a topic title"
+msgstr "Scrie un titlu pentru subiect"
+
+#: bb-post.php:60
+msgid "This topic has been closed"
+msgstr "Acest subiect a fost închis"
+
+#: bb-reset-password.php:10
+msgid "No username specified"
+msgstr "Nu s-a specificat niciun nume de utilizator"
+
+#: bb-settings.php:457
+msgid "Could not determine site URI"
+msgstr "Nu s-a putut determina URI-ul la site"
+
+#: bb-templates/kakumei/404.php:3
+#: bb-templates/kakumei/404.php:5
+msgid "Page not found!"
+msgstr "Pagina nu a fost găsită!"
+
+#: bb-templates/kakumei/404.php:7
+msgid "I'm sorry, but there is nothing at this URL."
+msgstr "Îmi pare rău, dar la acest URL nu se află nimic."
+
+#: bb-templates/kakumei/edit-form.php:15
+msgid "Edit Post &raquo;"
+msgstr "Editează mesajul &raquo;"
+
+#: bb-templates/kakumei/edit-form.php:19
+#: bb-templates/kakumei/post-form.php:52
+msgid "Allowed markup:"
+msgstr "Formatarea permisă:"
+
+#: bb-templates/kakumei/edit-form.php:19
+msgid "Put code in between <code>`backticks`</code>."
+msgstr "Pune codul între <code>`apostrofuri`</code>."
+
+#: bb-templates/kakumei/edit-post.php:2
+msgid "Edit Post"
+msgstr "Editează mesajul"
+
+#: bb-templates/kakumei/favorites.php:5
+#, php-format
+msgid " - %d"
+msgstr " - %d"
+
+#: bb-templates/kakumei/favorites.php:7
+msgid "Favorites allow members to create a custom <abbr title=\"Really Simple Syndication\">RSS</abbr> feed which pulls recent replies to the topics they specify."
+msgstr "Elementele favorite permit utilizatorului crearea unui flux <abbr title=\"Really Simple Syndication\">RSS</abbr> personalizat care conține actualizările recente la subiectele marcate."
+
+#: bb-templates/kakumei/favorites.php:9
+msgid "To add topics to your list of favorites, just click the \"Add to Favorites\" link found on that topic&#8217;s page."
+msgstr "Pentru a adăuga subiecte la lista de elemente favorite, pur și simplu folosește legătura \"Adaugă la favorite\" aflat pe pagina subiectului respectiv."
+
+#: bb-templates/kakumei/favorites.php:18
+#: bb-templates/kakumei/forum.php:11
+#: bb-templates/kakumei/front-page.php:19
+#: bb-templates/kakumei/tag-single.php:13
+#: bb-templates/kakumei/view.php:11
+msgid "Voices"
+msgstr "Participanți"
+
+#: bb-templates/kakumei/favorites.php:19
+#: bb-templates/kakumei/forum.php:12
+#: bb-templates/kakumei/front-page.php:20
+#: bb-templates/kakumei/tag-single.php:14
+#: bb-templates/kakumei/view.php:12
+msgid "Last Poster"
+msgstr "Ultimul autor"
+
+#: bb-templates/kakumei/favorites.php:22
+msgid "Remove"
+msgstr "Elimină"
+
+#: bb-templates/kakumei/favorites.php:40
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for these favorites"
+msgstr "Fluxul <abbr title=\"Really Simple Syndication\">RSS</abbr> pentru aceste elemente favorite"
+
+#: bb-templates/kakumei/favorites.php:46
+msgid "You currently have no favorites."
+msgstr "Deocamdată nu conține elemente favorite."
+
+#: bb-templates/kakumei/favorites.php:50
+msgid "currently has no favorites."
+msgstr "acum nu are niciun element favorit."
+
+#: bb-templates/kakumei/footer.php:4
+#, php-format
+msgid "%1$s is proudly powered by <a href=\"%2$s\">bbPress</a>."
+msgstr "%1$s propulsat de <a href=\"%2$s\">bbPress</a>."
+
+#: bb-templates/kakumei/forum.php:36
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this forum"
+msgstr "Fluxul <abbr title=\"Really Simple Syndication\">RSS</abbr> pentru acest forum"
+
+#: bb-templates/kakumei/forum.php:41
+msgid "Subforums"
+msgstr "Subforumuri"
+
+#: bb-templates/kakumei/forum.php:45
+#: bb-templates/kakumei/front-page.php:52
+msgid "Main Theme"
+msgstr "Șablonul principal"
+
+#: bb-templates/kakumei/front-page.php:6
+msgid "Hot Tags"
+msgstr "Etichete populare"
+
+#: bb-templates/kakumei/front-page.php:13
+msgid "Latest Discussions"
+msgstr "Ultimele discuții"
+
+#: bb-templates/kakumei/front-page.php:73
+msgid "Views"
+msgstr "Vizualizări"
+
+#: bb-templates/kakumei/logged-in.php:2
+#, php-format
+msgid "Welcome, %1$s"
+msgstr "Bine ai venit, %1$s"
+
+#: bb-templates/kakumei/login-form.php:5
+#, php-format
+msgid "<a href=\"%1$s\">Register</a> or log in - <a href=\"%2$s\">lost password?</a>"
+msgstr "<a href=\"%1$s\">Înregistrează-te</a> sau autentifică-te — <a href=\"%2$s\">ai uitat parola?</a>"
+
+#: bb-templates/kakumei/login-form.php:18
+#: bb-templates/kakumei/login.php:27
+#: bb-templates/kakumei/profile-edit.php:20
+msgid "Password"
+msgstr "Parola"
+
+#: bb-templates/kakumei/login-form.php:24
+#: bb-templates/kakumei/login.php:43
+msgid "Log in &raquo;"
+msgstr "Autentificare &raquo;"
+
+#: bb-templates/kakumei/login-form.php:29
+#: bb-templates/kakumei/login.php:36
+msgid "Remember me"
+msgstr "Ține-mă minte"
+
+#: bb-templates/kakumei/login.php:3
+#: bb-templates/kakumei/login.php:5
+#: bb-templates/kakumei/password-reset.php:3
+msgid "Log in"
+msgstr "Autentificare"
+
+#: bb-templates/kakumei/login.php:5
+msgid "Log in Failed"
+msgstr "Autentificarea a eșuat"
+
+#: bb-templates/kakumei/login.php:43
+msgid "Try Again &raquo;"
+msgstr "Încearcă din nou &raquo;"
+
+#: bb-templates/kakumei/login.php:52
+msgid "Password Recovery"
+msgstr "Recuperarea parolei"
+
+#: bb-templates/kakumei/login.php:55
+msgid "To recover your password, enter your information below."
+msgstr "Pentru a recupera parola, completează câmpurile de mai jos."
+
+#: bb-templates/kakumei/login.php:68
+msgid "Recover Password &raquo;"
+msgstr "Recuperează parolă &raquo;"
+
+#: bb-templates/kakumei/password-reset.php:5
+msgid "Password Reset"
+msgstr "Resetarea parolei"
+
+#: bb-templates/kakumei/password-reset.php:12
+msgid "An email has been sent to the address we have on file for you. If you don&#8217;t get anything within a few minutes, or your email has changed, you may want to get in touch with the webmaster or forum administrator here."
+msgstr "A fost trimis un email la adresa ta. Dacă nu primești nimic în câteva minute, sau folosești deja altă adresa de email, probabil va trebui să iei legătura cu un administrator."
+
+#: bb-templates/kakumei/password-reset.php:15
+msgid "Your password has been reset and a new one has been mailed to you."
+msgstr "Parola a fost resetată și cea nouă a fost trimisă prin e-mail."
+
+#: bb-templates/kakumei/post-form.php:12
+msgid "Author (required)"
+msgstr "Autor (obligatoriu)"
+
+#: bb-templates/kakumei/post-form.php:18
+msgid "Email (required)"
+msgstr "Adresa email (obligatoriu)"
+
+#: bb-templates/kakumei/post-form.php:24
+msgid "URL"
+msgstr "URL"
+
+#: bb-templates/kakumei/post-form.php:37
+msgid "Tags (comma separated)"
+msgstr "Etichete (separate prin virgulă)"
+
+#: bb-templates/kakumei/post-form.php:49
+msgid "Send Post &raquo;"
+msgstr "Trimite mesajul &raquo;"
+
+#: bb-templates/kakumei/post-form.php:52
+msgid "You can also put code in between backtick ( <code>`</code> ) characters."
+msgstr "De asemenea, poți scrie cod cuprins între apostrofuri ( <code>`</code> )."
+
+#: bb-templates/kakumei/post.php:11
+#, php-format
+msgid "Posted %s ago"
+msgstr "Publicat acum %s"
+
+#: bb-templates/kakumei/profile-edit.php:3
+msgid "Edit Profile"
+msgstr "Editare profil"
+
+#: bb-templates/kakumei/profile-edit.php:7
+msgid "Profile Info"
+msgstr "Informații profil"
+
+#: bb-templates/kakumei/profile-edit.php:13
+msgid "Administration"
+msgstr "Administrare"
+
+#: bb-templates/kakumei/profile-edit.php:21
+msgid "To change your password, enter a new password twice below:"
+msgstr "Pentru a schimba parola, scrie mai jos noua parolă de două ori:"
+
+#: bb-templates/kakumei/profile-edit.php:26
+msgid "Update Profile &raquo;"
+msgstr "Actualizare profil &raquo;"
+
+#: bb-templates/kakumei/profile.php:14
+msgid "Profile updated"
+msgstr "Profil actualizat"
+
+#: bb-templates/kakumei/profile.php:14
+msgid "Edit again &raquo;"
+msgstr "Editează din nou &raquo;"
+
+#: bb-templates/kakumei/profile.php:18
+msgid "This is how your profile appears to a logged in member."
+msgstr "Așa arată profilul tău unui membru autentificat."
+
+#: bb-templates/kakumei/profile.php:21
+#, php-format
+msgid "You may <a href=\"%1$s\">edit this information</a>."
+msgstr "Se poate <a href=\"%1$s\">edita această informație</a>."
+
+#: bb-templates/kakumei/profile.php:26
+#, php-format
+msgid "You can also <a href=\"%1$s\">manage your favorites</a> and subscribe to your favorites&#8217; <a href=\"%2$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr "De asemenea se pot <a href=\"%1$s\">administra elementele favorite</a>, iar apoi te poți abona la acestea printr-un <a href=\"%2$s\">flux <abbr title=\"Really Simple Syndication\">RSS</abbr></a>."
+
+#: bb-templates/kakumei/profile.php:34
+msgid "User Activity"
+msgstr "Activitatea utilizatorului"
+
+#: bb-templates/kakumei/profile.php:36
+msgid "Recent Replies"
+msgstr "Răspunsuri recente"
+
+#: bb-templates/kakumei/profile.php:42
+#, php-format
+msgid "You last replied: <a href=\"%1$s\">%2$s ago</a>"
+msgstr "Ultima dată ai răspuns: <a href=\"%1$s\">acum %2$s</a>"
+
+#: bb-templates/kakumei/profile.php:42
+#, php-format
+msgid "User last replied: <a href=\"%1$s\">%2$s ago</a>"
+msgstr "Ultimul răspuns al utilizatorului a fost: <a href=\"%1$s\">acum %2$s</a>"
+
+#: bb-templates/kakumei/profile.php:46
+#: bb-templates/kakumei/profile.php:71
+#, php-format
+msgid "Most recent reply: <a href=\"%1$s\">%2$s ago</a>"
+msgstr "Cel mai recent răspuns: <a href=\"%1$s\">acum %2$s</a>"
+
+#: bb-templates/kakumei/profile.php:48
+#: bb-templates/kakumei/profile.php:73
+msgid "No replies since"
+msgstr "Nu mai sunt răspunsuri de atunci"
+
+#: bb-templates/kakumei/profile.php:54
+msgid "No more replies."
+msgstr "Nu mai sunt răspunsuri."
+
+#: bb-templates/kakumei/profile.php:56
+msgid "No replies yet."
+msgstr "Încă nu a fost dat niciun răspuns."
+
+#: bb-templates/kakumei/profile.php:61
+msgid "Topics Started"
+msgstr "Subiecte pornite"
+
+#: bb-templates/kakumei/profile.php:67
+#, php-format
+msgid "Started: %s ago"
+msgstr "Pornit: acum %s"
+
+#: bb-templates/kakumei/profile.php:79
+msgid "No more topics posted."
+msgstr "Nu au mai fost publicate subiecte."
+
+#: bb-templates/kakumei/profile.php:81
+msgid "No topics posted yet."
+msgstr "Încă nu a fost publicat niciun subiect."
+
+#: bb-templates/kakumei/register-success.php:3
+#: bb-templates/kakumei/register.php:3
+msgid "Register"
+msgstr "Înregistrează-te"
+
+#: bb-templates/kakumei/register-success.php:5
+msgid "Great!"
+msgstr "Grozav!"
+
+#: bb-templates/kakumei/register-success.php:7
+#, php-format
+msgid "Your registration as <strong>%s</strong> was successful. Within a few minutes you should receive an email with your password."
+msgstr "Înregistrarea numelui de utilizator <strong>%s</strong> s-a încheiat. În câteva minute ar trebui să primești un email cu parola."
+
+#: bb-templates/kakumei/register.php:5
+msgid "Registration"
+msgstr "Înregistrare"
+
+#: bb-templates/kakumei/register.php:12
+msgid "Profile Information"
+msgstr "Informații profil"
+
+#: bb-templates/kakumei/register.php:14
+msgid "Your password will be emailed to the address you provide."
+msgstr "Parola va fi trimisă prin email la adresa specificată."
+
+#: bb-templates/kakumei/register.php:72
+msgid "Register &raquo;"
+msgstr "Înregistrează-te &raquo;"
+
+#: bb-templates/kakumei/register.php:79
+msgid "You&#8217;re already logged in, why do you need to register?"
+msgstr "Ești deja autentificat, de ce mai vrei să te înregistrezi?"
+
+#: bb-templates/kakumei/rss2.php:19
+msgid "Search all topics from these forums."
+msgstr "Caută în toate subiectele din aceste forumuri."
+
+#: bb-templates/kakumei/rss2.php:27
+msgid "on"
+msgstr "pe"
+
+#: bb-templates/kakumei/search-form.php:3
+msgid "Search:"
+msgstr "Caută:"
+
+#: bb-templates/kakumei/search-form.php:5
+msgid "Search &raquo;"
+msgstr "Caută &raquo;"
+
+#: bb-templates/kakumei/search.php:7
+msgid "Search for"
+msgstr "Caută după"
+
+#: bb-templates/kakumei/search.php:12
+msgid "Recent Posts"
+msgstr "Mesaje recente"
+
+#: bb-templates/kakumei/search.php:17
+#: bb-templates/kakumei/search.php:32
+#, php-format
+msgid "Posted %s"
+msgstr "Publicat %s"
+
+#: bb-templates/kakumei/search.php:27
+msgid "Relevant posts"
+msgstr "Mesaje relevante"
+
+#: bb-templates/kakumei/search.php:41
+msgid "No results found."
+msgstr "Nu s-a găsit niciun rezultat."
+
+#: bb-templates/kakumei/search.php:44
+#, php-format
+msgid "You may also try your <a href=\"http://google.com/search?q=site:%1$s %2$s\">search at Google</a>"
+msgstr "Poți încerca și o <a href=\"http://google.com/search?q=site:%1$s %2$s\">căutare pe Google</a>"
+
+#: bb-templates/kakumei/stats.php:3
+#: statistics.php:9
+msgid "Statistics"
+msgstr "Statistici"
+
+#: bb-templates/kakumei/stats.php:6
+msgid "Registered Users"
+msgstr "Utilizatori înregistrați"
+
+#: bb-templates/kakumei/stats.php:13
+msgid "Most Popular Topics"
+msgstr "Cele mai populare subiecte"
+
+#: bb-templates/kakumei/tag-single.php:29
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> link for this tag"
+msgstr "Fluxul <abbr title=\"Really Simple Syndication\">RSS</abbr> pentru această etichetă"
+
+#: bb-templates/kakumei/tags.php:5
+msgid "This is a collection of tags that are currently popular on the forums."
+msgstr "Aici este o colecție de etichete care acum sunt cele mai populare pe forumuri."
+
+#: bb-templates/kakumei/topic-tags.php:2
+msgid "Tags:"
+msgstr "Etichete:"
+
+#: bb-templates/kakumei/topic-tags.php:10
+#, php-format
+msgid "No <a href=\"%s\">tags</a> yet."
+msgstr "Încă nu există nicio <a href=\"%s\">etichetă</a>."
+
+#: bb-templates/kakumei/topic.php:10
+#, php-format
+msgid "%s voice"
+msgid_plural "%s voices"
+msgstr[0] "%s participant"
+msgstr[1] "%s participanți"
+
+#: bb-templates/kakumei/topic.php:13
+#, php-format
+msgid "Started %1$s ago by %2$s"
+msgstr "Pornit acum %1$s de către %2$s"
+
+#: bb-templates/kakumei/topic.php:15
+#, php-format
+msgid "<a href=\"%1$s\">Latest reply</a> from %2$s"
+msgstr "<a href=\"%1$s\">Ultimul răspuns</a> de la %2$s"
+
+#: bb-templates/kakumei/topic.php:42
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this topic"
+msgstr "Fluxul <abbr title=\"Really Simple Syndication\">RSS</abbr> pentru acest subiect"
+
+#: bb-templates/kakumei/topic.php:48
+msgid "Topic Closed"
+msgstr "Subiect închis"
+
+#: bb-templates/kakumei/topic.php:49
+msgid "This topic has been closed to new replies."
+msgstr "Acest subiect a fost închis. Nu se mai poate răspunde."
+
+#: bb-templates/kakumei/view.php:37
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this view"
+msgstr "Fluxul <abbr title=\"Really Simple Syndication\">RSS</abbr> pentru această vizualizare"
+
+#: favorites.php:8
+msgid "You cannot edit those favorites. How did you get here?"
+msgstr "Nu se pot edita aceste elemente favorite. Cum ai ajuns aici?"
+
+#: forum.php:10
+msgid "Forum not found."
+msgstr "Forumul nu a fost găsit."
+
+#: profile-edit.php:55
+#: profile-edit.php:96
+#, php-format
+msgid "%s is required."
+msgstr "%s este obligatoriu."
+
+#: profile-edit.php:82
+msgid "Invalid Role"
+msgstr "Rolul nu este valid"
+
+#: profile-edit.php:84
+msgid "You are not the Gate Keeper."
+msgstr "Nu sunteți Super Administratorul."
+
+#: profile-edit.php:86
+msgid "You are Keymaster, so you may not demote yourself."
+msgstr "Tu ești Superutilizatorul, aşa că nu te poți retrograda."
+
+#: profile-edit.php:113
+msgid "You must enter the same password twice."
+msgstr "Aceeași parolă trebuie scrisă de două ori."
+
+#: profile-edit.php:115
+msgid "You are not allowed to change this user's password."
+msgstr "Nu ai voie să schimbi parola acestui utilizator."
+
+#: register.php:27
+#, php-format
+msgid "%s is an invalid username. How's this one?"
+msgstr "%s nu este un nume de utilizator valid. Ce zici de ăsta?"
+
+#: register.php:29
+#, php-format
+msgid "%s is an invalid username."
+msgstr "%s nu este un nume de utilizator valid."
+
+#: register.php:42
+#, php-format
+msgid "%s is required"
+msgstr "%s este obligatoriu"
+
+#: tag-add.php:7
+msgid "You need to be logged in to add a tag."
+msgstr "Trebuie să fii autentificat ca să poți adăuga o etichetă."
+
+#: tag-add.php:23
+msgid "The tag was not added.  Either the tag name was invalid or the topic is closed."
+msgstr "Eticheta nu a fost adăugată. Sau numele etichetei nu este valid, sau subiectul este închis."
+
+#: tag-remove.php:17
+msgid "Invalid tag or topic."
+msgstr "Eticheta sau subiectul nu sunt valide."
+
+#: tag-remove.php:24
+msgid "The tag was not removed."
+msgstr "Eticheta nu a fost ștearsă."
+
+#: xmlrpc.php:207
+msgid "Authentication failed."
+msgstr "Autentificarea a eșuat."
+
+#: xmlrpc.php:217
+#: xmlrpc.php:255
+msgid "You do not have permission to read this."
+msgstr "Nu ai voie să citești asta."
+
+#: xmlrpc.php:245
+msgid "User switching failed, the requested user does not exist."
+msgstr "Schimbarea utilizatorului a eșuat, utilizatorul cerut nu există."
+
+#: xmlrpc.php:588
+#: xmlrpc.php:712
+#: xmlrpc.php:811
+#: xmlrpc.php:998
+#: xmlrpc.php:1124
+#: xmlrpc.php:1233
+#: xmlrpc.php:1344
+#: xmlrpc.php:1541
+#: xmlrpc.php:1898
+#: xmlrpc.php:2747
+msgid "The forum id is invalid."
+msgstr "ID-ul forumului nu este valid."
+
+#: xmlrpc.php:593
+#: xmlrpc.php:717
+#: xmlrpc.php:1238
+#: xmlrpc.php:1349
+msgid "The forum does not exist."
+msgstr "Acest forum nu există."
+
+#: xmlrpc.php:738
+#: xmlrpc.php:1250
+msgid "No forums found."
+msgstr "Nu s-a găsit nici un forum."
+
+#: xmlrpc.php:817
+#: xmlrpc.php:1004
+#: xmlrpc.php:1130
+#: xmlrpc.php:1547
+#: xmlrpc.php:1904
+#: xmlrpc.php:2753
+msgid "No forum found."
+msgstr "Nu s-a găsit nici un forum."
+
+#: xmlrpc.php:876
+#: xmlrpc.php:976
+msgid "You do not have permission to manage forums."
+msgstr "Nu ai voie să administrezi forumurile."
+
+#: xmlrpc.php:887
+#: xmlrpc.php:987
+msgid "The forum data is invalid."
+msgstr "Datele forumului nu sunt valide."
+
+#: xmlrpc.php:895
+#: xmlrpc.php:1024
+msgid "The forum name is invalid."
+msgstr "Numele forumului nu este valid."
+
+#: xmlrpc.php:916
+msgid "The forum could not be created."
+msgstr "Forumul nu a putut fi creat."
+
+#: xmlrpc.php:1066
+msgid "The forum could not be edited."
+msgstr "Forumul nu a putut fi editat."
+
+#: xmlrpc.php:1110
+msgid "You do not have permission to delete forums."
+msgstr "Nu ai voie să ștergi aceste forumuri."
+
+#: xmlrpc.php:1141
+msgid "You do not have permission to delete this forum."
+msgstr "Nu ai voie să ștergi acest forum."
+
+#: xmlrpc.php:1150
+msgid "The forum could not be deleted."
+msgstr "Forumul nu a putut fi șters."
+
+#: xmlrpc.php:1442
+#: xmlrpc.php:1679
+#: xmlrpc.php:1793
+#: xmlrpc.php:1880
+#: xmlrpc.php:1979
+#: xmlrpc.php:2079
+#: xmlrpc.php:2179
+#: xmlrpc.php:2271
+#: xmlrpc.php:2447
+#: xmlrpc.php:2863
+#: xmlrpc.php:2947
+#: xmlrpc.php:3161
+#: xmlrpc.php:3279
+msgid "The topic id is invalid."
+msgstr "ID-ul subiectului nu este valid."
+
+#: xmlrpc.php:1448
+#: xmlrpc.php:1685
+#: xmlrpc.php:1799
+#: xmlrpc.php:1886
+#: xmlrpc.php:1985
+#: xmlrpc.php:2085
+#: xmlrpc.php:2185
+#: xmlrpc.php:2277
+#: xmlrpc.php:2453
+#: xmlrpc.php:2869
+#: xmlrpc.php:2953
+#: xmlrpc.php:3167
+#: xmlrpc.php:3285
+msgid "No topic found."
+msgstr "Nu s-a găsit niciun subiect."
+
+#: xmlrpc.php:1514
+msgid "You do not have permission to write topics."
+msgstr "Nu ai permisiunea să pornești subiecte."
+
+#: xmlrpc.php:1518
+#: xmlrpc.php:2425
+msgid "You do not have permission to write posts."
+msgstr "Nu ai permisiunea să scrii mesaje."
+
+#: xmlrpc.php:1530
+#: xmlrpc.php:1668
+msgid "The topic data is invalid."
+msgstr "Datele din subiect nu sunt valide."
+
+#: xmlrpc.php:1556
+msgid "You do not have permission to write topics to this forum."
+msgstr "Nu ai voie să pornești subiecte în acest forum."
+
+#: xmlrpc.php:1562
+#: xmlrpc.php:1714
+msgid "The topic title is invalid."
+msgstr "Titlul subiectului nu este valid."
+
+#: xmlrpc.php:1568
+#: xmlrpc.php:1720
+msgid "The topic text is invalid."
+msgstr "Textul subiectului nu este valid."
+
+#: xmlrpc.php:1584
+msgid "The topic could not be created."
+msgstr "Subiectul nu a putut fi creat."
+
+#: xmlrpc.php:1596
+#: xmlrpc.php:2480
+msgid "The post could not be created."
+msgstr "Mesajul nu a putut fi creat."
+
+#: xmlrpc.php:1652
+msgid "You do not have permission to edit topics."
+msgstr "Nu ai voie să editezi subiecte."
+
+#: xmlrpc.php:1656
+#: xmlrpc.php:2535
+msgid "You do not have permission to edit posts."
+msgstr "Nu ai voie să editezi mesaje."
+
+#: xmlrpc.php:1694
+msgid "You do not have permission to edit this topic."
+msgstr "Nu ai voie să editezi acest subiect."
+
+#: xmlrpc.php:1708
+#: xmlrpc.php:2572
+msgid "You do not have permission to edit this post."
+msgstr "Nu ai voie să editezi acest mesaj."
+
+#: xmlrpc.php:1726
+msgid "The topic could not be edited."
+msgstr "Subiectul nu s-a putut edita."
+
+#: xmlrpc.php:1733
+#: xmlrpc.php:2590
+#: xmlrpc.php:2676
+msgid "The post could not be edited."
+msgstr "Mesajul nu s-a putut edita."
+
+#: xmlrpc.php:1779
+msgid "You do not have permission to delete topics."
+msgstr "Nu ai voie să ștergi subiecte."
+
+#: xmlrpc.php:1815
+msgid "You do not have permission to delete this topic."
+msgstr "Nu ai voie să ștergi acest subiect."
+
+#: xmlrpc.php:1821
+msgid "The topic could not be deleted."
+msgstr "Subiectul nu s-a putut șterge."
+
+#: xmlrpc.php:1866
+msgid "You do not have permission to move topics."
+msgstr "Nu ai voie să muți subiecte."
+
+#: xmlrpc.php:1915
+msgid "You are not allowed to move this topic to this forum."
+msgstr "Nu ai voie să muți acest subiect în acest forum."
+
+#: xmlrpc.php:1921
+msgid "The topic could not be moved."
+msgstr "Subiectul nu s-a putut muta."
+
+#: xmlrpc.php:1965
+msgid "You do not have permission to stick topics."
+msgstr "Nu ai voie să fixezi subiecte."
+
+#: xmlrpc.php:1994
+msgid "You do not have permission to stick this topic."
+msgstr "Nu ai voie să fixezi acest subiect."
+
+#: xmlrpc.php:2008
+msgid "The topic could not be stuck."
+msgstr "Subiectul nu s-a putut fixa."
+
+#: xmlrpc.php:2065
+msgid "You do not have permission to close topics."
+msgstr "Nu ai voie să închizi subiecte."
+
+#: xmlrpc.php:2094
+msgid "You do not have permission to close this topic."
+msgstr "Nu ai voie să închizi acest subiect."
+
+#: xmlrpc.php:2108
+msgid "The topic could not be closed."
+msgstr "Subiectul nu s-a putut închide."
+
+#: xmlrpc.php:2114
+msgid "The topic could not be opened."
+msgstr "Subiectul nu s-a putut deschide."
+
+#: xmlrpc.php:2363
+#: xmlrpc.php:2557
+#: xmlrpc.php:2649
+msgid "The post id is invalid."
+msgstr "ID-ul mesajului nu este valid."
+
+#: xmlrpc.php:2369
+#: xmlrpc.php:2563
+#: xmlrpc.php:2655
+msgid "No post found."
+msgstr "Nu s-a găsit niciun mesaj."
+
+#: xmlrpc.php:2436
+#: xmlrpc.php:2546
+msgid "The post data is invalid."
+msgstr "Datele din mesaj nu sunt valide."
+
+#: xmlrpc.php:2462
+msgid "You do not have permission to write posts to this topic."
+msgstr "Nu ai voie să scrii mesaje la acest subiect."
+
+#: xmlrpc.php:2468
+#: xmlrpc.php:2578
+msgid "The post text is invalid."
+msgstr "Textul mesajului nu este valid."
+
+#: xmlrpc.php:2635
+msgid "You do not have permission to delete posts."
+msgstr "Nu ai voie să ștergi mesaje."
+
+#: xmlrpc.php:2664
+msgid "You do not have permission to delete this post."
+msgstr "Nu ai voie să ștergi acest mesaj."
+
+#: xmlrpc.php:2769
+msgid "Could not retrieve hot topic tags."
+msgstr "Nu s-au putut obține etichetele pentru subiectele populare."
+
+#: xmlrpc.php:2773
+#: xmlrpc.php:2798
+msgid "No hot topic tags found."
+msgstr "Nu s-a găsit nici o etichetă pentru subiectele populare."
+
+#: xmlrpc.php:2887
+msgid "Could not get a count of all topic tags."
+msgstr "Nu s-au putut număra toate etichetele pentru subiecte."
+
+#: xmlrpc.php:2962
+msgid "No topic tags found."
+msgstr "Nu s-a găsit nici o etichetă pentru subiecte."
+
+#: xmlrpc.php:2969
+msgid "Could not retrieve all topic tags."
+msgstr "Nu s-au putut obține toate etichetele pentru subiecte."
+
+#: xmlrpc.php:3040
+#: xmlrpc.php:3368
+#: xmlrpc.php:3540
+msgid "The tag id is invalid."
+msgstr "ID-ul etichetei nu este valid."
+
+#: xmlrpc.php:3046
+#: xmlrpc.php:3374
+#: xmlrpc.php:3546
+msgid "No tag found."
+msgstr "Nu s-a găsit eticheta."
+
+#: xmlrpc.php:3147
+#: xmlrpc.php:3265
+msgid "You do not have permission to edit tags."
+msgstr "Nu ai voie să editezi etichete."
+
+#: xmlrpc.php:3176
+msgid "You do not have permission to add tags to this topic."
+msgstr "Nu ai voie să adăugi etichete la acest subiect."
+
+#: xmlrpc.php:3184
+#: xmlrpc.php:3302
+msgid "The tag data is invalid."
+msgstr "Datele din etichetă nu sunt valide."
+
+#: xmlrpc.php:3190
+msgid "The tags could not be added."
+msgstr "Etichetele nu s-au putut adăuga."
+
+#: xmlrpc.php:3294
+msgid "You do not have permission to remove tags from this topic."
+msgstr "Nu ai voie să adăugi sau să elimini etichete la acest subiect."
+
+#: xmlrpc.php:3308
+msgid "The tags could not be removed."
+msgstr "Etichetele nu s-au putut șterge."
+
+#: xmlrpc.php:3354
+#: xmlrpc.php:3439
+#: xmlrpc.php:3526
+msgid "You do not have permission to manage tags."
+msgstr "Nu ai voie să administrezi etichetele."
+
+#: xmlrpc.php:3386
+msgid "The tag name is invalid."
+msgstr "Numele etichetei nu este valid."
+
+#: xmlrpc.php:3392
+msgid "The tag could not be renamed."
+msgstr "Numele etichetei nu s-a putut schimba."
+
+#: xmlrpc.php:3454
+msgid "The old tag id is invalid."
+msgstr "Vechiul ID al etichetei nu este valid."
+
+#: xmlrpc.php:3458
+msgid "The new tag id is invalid."
+msgstr "Noul ID al etichetei nu este valid."
+
+#: xmlrpc.php:3464
+msgid "No old tag found."
+msgstr "Nu s-a găsit eticheta veche."
+
+#: xmlrpc.php:3468
+msgid "No new tag found."
+msgstr "Nu s-a găsit eticheta nouă."
+
+#: xmlrpc.php:3478
+msgid "The tags could not be merged."
+msgstr "Aceste etichete nu s-au putut combina."
+
+#: xmlrpc.php:3555
+msgid "The tag could not be destroyed."
+msgstr "Eticheta nu s-a putut distruge."
+
+#: xmlrpc.php:3584
+msgid "Software Name"
+msgstr "Numele programului"
+
+#: xmlrpc.php:3589
+msgid "Software Version"
+msgstr "Versiunea programului"
+
+#: xmlrpc.php:3594
+msgid "Site URL"
+msgstr "URL-ul site-ului"
+
+#: xmlrpc.php:3601
+msgid "Site Name"
+msgstr "Numele site-ului"
+
+#: xmlrpc.php:3606
+msgid "Site Description"
+msgstr "Descrierea site-ului"
+
+#: xmlrpc.php:3611
+msgid "Time Zone"
+msgstr "Fusul orar"
+
+#: xmlrpc.php:3616
+msgid "Date/Time Format"
+msgstr "Formatul pentru dată / oră"
+
+#: xmlrpc.php:3621
+msgid "Date Format"
+msgstr "Formatul pentru dată"
+
+#: xmlrpc.php:3764
+msgid "You are not allowed to manage options."
+msgstr "Nu ai voie să administrezi opțiunile."
+
+#: xmlrpc.php:3775
+msgid "The options data is invalid."
+msgstr "Datele din opțiuni nu sunt valide."
+
+#: xmlrpc.php:3855
+msgid "This is not the site you are trying to pingback."
+msgstr "Acesta nu e site-ul pe care încerci să-l pingback-uiești."
+
+#: xmlrpc.php:3864
+msgid "The source URL and the target URL cannot both point to the same resource."
+msgstr "URL-ul sursă și URL-ul țintă nu trebuie să indice ambele spre aceeaşi resursă."
+
+#: xmlrpc.php:3869
+#: xmlrpc.php:4056
+msgid "The specified target URL cannot be used as a target. It either doesn't exist, or it is not a pingback-enabled resource."
+msgstr "URL-ul specificat nu poate fi folosit ca și țintă. Sau nu există, sau este o resursă care nu are activat pingback-ul."
+
+#: xmlrpc.php:3880
+msgid "The specified target topic does not contain any posts."
+msgstr "Subiectul țintă specificat nu conţine niciun mesaj."
+
+#: xmlrpc.php:3887
+msgid "The pingback has already been registered."
+msgstr "Pingback-ul a fost deja înregistrat."
+
+#: xmlrpc.php:3899
+msgid "The source URL does not exist."
+msgstr "URL-ul sursă nu există."
+
+#: xmlrpc.php:3919
+msgid "We cannot find a title on that page."
+msgstr "Nu se poate găsi niciun titlu pe această pagină."
+
+#: xmlrpc.php:3974
+msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
+msgstr "URL-ul sursă nu conține un link spre URL-ul ţintă, deci nu poate fi folosit ca și sursă."
+
+#: xmlrpc.php:3989
+msgid "The pingback could not be added."
+msgstr "Pingback-ul nu s-a putut adăuga."
+
+#: xmlrpc.php:4006
+#, php-format
+msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
+msgstr "Pingback-ul de la %1$s la %2$s a fost înregistrat. Comunicarea continuă! :-)"
+
+#: xmlrpc.php:4037
+msgid "The requested method only accepts one parameter."
+msgstr "Metoda cerută acceptă doar un singur parametru."
+
+#: xmlrpc.php:4050
+msgid "The specified target URL is not on this domain."
+msgstr "URL-ul țintă specificat nu aparţine acestui domeniu."
+
+#~ msgid "Are you sure you wanna delete this post?"
+#~ msgstr "Ești sigur că vrei să ştergi acest mesaj?"
+#~ msgid "You last replied: %s ago"
+#~ msgstr "Ultimul răspuns a fost: acum %s"
+#~ msgid "No replies."
+#~ msgstr "Nu sunt răspunsuri."
+#~ msgid "Tag not found"
+#~ msgstr "Eticheta nu a fost găsită."
+#~ msgid "Nothing to see here."
+#~ msgstr "Nu-i nimic de văzut aici."
+#~ msgid "Counted posts"
+#~ msgstr "Mesaje numărate"
+#~ msgid "Counted voices"
+#~ msgstr "Voci numărate"
+#~ msgid "Counting deleted posts&#8230;"
+#~ msgstr "Se numără mesajele șterse&#8230;"
+#~ msgid "&#8230;counted deleted posts"
+#~ msgstr "&#8230;mesaje șterse numărate"
+#~ msgid "&#8230;no deleted posts to count"
+#~ msgstr "&#8230;nu există nici un mesaj șters"
+#~ msgid "Counted forum topics and posts"
+#~ msgstr "Subiecte și mesaje numărate"
+#~ msgid "Removed deleted topics from users' favorites"
+#~ msgstr ""
+#~ "Eliminare subiecte șterse din subiectele favorite ale utilizatorilor"
+#~ msgid "Key not found."
+#~ msgstr "Cheia nu a fost găsită."
+#~ msgid "<span>%d</span> forums"
+#~ msgstr "<span>%d</span> forumuri"
+#~ msgid "<span>%d</span> topics"
+#~ msgstr "<span>%d</span> subiecte"
+#~ msgid "<span>%d</span> posts"
+#~ msgstr "<span>%d</span> mesaje"
+#~ msgid "<span>%d</span> users"
+#~ msgstr "<span>%d</span> utilizatori"
+#~ msgid "<span>%d</span> tags"
+#~ msgstr "<span>%d</span> etichete"
+#~ msgid "%d years"
+#~ msgstr "%d ani"
+#~ msgid "%d months"
+#~ msgstr "%d luni"
+#~ msgid "%d weeks"
+#~ msgstr "%d săptămâni"
+#~ msgid "%d days"
+#~ msgstr "%d zile"
+#~ msgid "%d hours"
+#~ msgstr "%d ore"
+#~ msgid "%d minutes"
+#~ msgstr "%d minute"
+#~ msgid "%s posts"
+#~ msgstr "%s mesaje"
+#~ msgid "%s voices"
+#~ msgstr "%s voci"
+

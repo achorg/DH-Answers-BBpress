@@ -1,0 +1,2288 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress i18n Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-02-08 15:24-0800\n"
+"PO-Revision-Date: 2007-10-22 00:00+0200\n"
+"Last-Translator: Sebastian Djupsjöbacka <sebastian.djupsjobacka@gmail.com>\n"
+"Language-Team: sv_SE <sebastian.djupsjobacka@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+
+#: bb-admin/admin-ajax.php:118
+#: bb-post.php:12
+msgid "You need to actually submit some content!"
+msgstr ""
+
+#: bb-admin/admin-ajax.php:124
+msgid "This topic is closed."
+msgstr "Det här ämnet är stängt."
+
+#: bb-admin/admin-ajax.php:126
+msgid "Slow down!  You can only post every 30 seconds."
+msgstr "Sakta farten. Du kan skriva inlägg bara var 30 sekund."
+
+#: bb-admin/admin-base.php:10
+msgid "Nothing to see here."
+msgstr "Här finns inget att se."
+
+#: bb-admin/admin-footer.php:3
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: bb-admin/admin-footer.php:3
+msgid "Development"
+msgstr "Utveckling"
+
+#: bb-admin/admin-footer.php:4
+#, php-format
+msgid "%s seconds"
+msgstr "%s sekunder"
+
+#: bb-admin/admin-functions.php:17
+#: bb-admin/index.php:4
+msgid "Dashboard"
+msgstr "Panel"
+
+#: bb-admin/admin-functions.php:18
+#: bb-templates/kakumei/search.php:11
+msgid "Users"
+msgstr "Användare"
+
+#: bb-admin/admin-functions.php:19
+msgid "Content"
+msgstr "Innehåll"
+
+#: bb-admin/admin-functions.php:20
+msgid "Presentation"
+msgstr "Presentation"
+
+#: bb-admin/admin-functions.php:21
+msgid "Site Management"
+msgstr "Webbplatshantering"
+
+#: bb-admin/admin-functions.php:24
+msgid "Find"
+msgstr "Sök"
+
+#: bb-admin/admin-functions.php:25
+msgid "Moderators"
+msgstr "Moderatorer"
+
+#: bb-admin/admin-functions.php:26
+#: bb-includes/capabilities.php:159
+msgid "Blocked"
+msgstr "Blockerat"
+
+#: bb-admin/admin-functions.php:28
+#: bb-templates/kakumei/front-page.php:48
+msgid "Topics"
+msgstr "Ämnen"
+
+#: bb-admin/admin-functions.php:29
+#: bb-templates/kakumei/favorites.php:19
+#: bb-templates/kakumei/forum.php:10
+#: bb-templates/kakumei/front-page.php:18
+#: bb-templates/kakumei/front-page.php:49
+#: bb-templates/kakumei/stats.php:8
+#: bb-templates/kakumei/tag-single.php:14
+#: bb-templates/kakumei/view.php:10
+msgid "Posts"
+msgstr "Inlägg"
+
+#: bb-admin/admin-functions.php:30
+#: bb-templates/kakumei/front-page.php:43
+msgid "Forums"
+msgstr "Forum"
+
+#: bb-admin/admin-functions.php:32
+msgid "Themes"
+msgstr "Teman"
+
+#: bb-admin/admin-functions.php:34
+#: bb-admin/site.php:4
+msgid "Recount"
+msgstr "Omräkning"
+
+#: bb-admin/admin-functions.php:159
+msgid "Count posts of every topic"
+msgstr "Räkna inläggen i varje ämne"
+
+#: bb-admin/admin-functions.php:160
+msgid "Count deleted posts on every topic"
+msgstr "Räkna radera inlägg i varje ämne"
+
+#: bb-admin/admin-functions.php:161
+msgid "Count topics and posts in every forum (relies on the above)"
+msgstr "Räkna ämnen och inlägg i varje forum (är bundet till ovanstående)"
+
+#: bb-admin/admin-functions.php:162
+msgid "Count topics to which each user has replied"
+msgstr "Räkna ämnen som var och en användare har svarat på"
+
+#: bb-admin/admin-functions.php:163
+msgid "Count tags for every topic"
+msgstr "Räkna etiketter för varje ämne"
+
+#: bb-admin/admin-functions.php:164
+msgid "Count topics for every tag"
+msgstr "Räkna ämnen för varje etikett"
+
+#: bb-admin/admin-functions.php:165
+msgid "DELETE tags with no topics.  Only functions if the above checked"
+msgstr "RADERA etiketter som saknar ämnen. Fungerar endast om ovanstående är kontrollerat"
+
+#: bb-admin/admin-functions.php:182
+#, php-format
+msgid "Posted: %1$s in <a href=\"%2$s\">%3$s</a>"
+msgstr "Skrivet: %1$s i <a href=\"%2$s\">%3$s</a>"
+
+#: bb-admin/admin-functions.php:197
+#: bb-includes/functions.php:1696
+#: bb-includes/template-functions.php:909
+msgid "Edit"
+msgstr "Redigera"
+
+#: bb-admin/admin-functions.php:251
+#: bb-admin/admin-functions.php:392
+#: bb-includes/bozo.php:267
+msgid "No matching users were found!"
+msgstr "Hittade ingen sådan användare!"
+
+#: bb-admin/admin-functions.php:311
+#, php-format
+msgid "Users Matching \"%s\" by Role"
+msgstr ""
+
+#: bb-admin/admin-functions.php:313
+msgid "User List by Role"
+msgstr "Användarförteckning enligt roll"
+
+#: bb-admin/admin-functions.php:319
+msgid "Search for users &raquo;"
+msgstr "Sök efter användare &raquo;"
+
+#: bb-admin/admin-functions.php:326
+msgid "&laquo; Back to All Users"
+msgstr "&laquo; Tillbaka till alla användare"
+
+#: bb-admin/admin-functions.php:328
+#, php-format
+msgid "%1$s &#8211; %2$s of %3$s shown below"
+msgstr "%1$s &#8211; %2$s av %3$s visas nedan"
+
+#: bb-admin/admin-functions.php:340
+msgid "Users with no role in these forums"
+msgstr "Användare utan roller i dessa forum"
+
+#: bb-admin/admin-functions.php:343
+msgid "ID"
+msgstr "ID"
+
+#: bb-admin/admin-functions.php:344
+#: bb-admin/install.php:305
+msgid "Username"
+msgstr "Användarnamn"
+
+#: bb-admin/admin-functions.php:346
+#: bb-includes/functions.php:1748
+msgid "Email"
+msgstr "E-post"
+
+#: bb-admin/admin-functions.php:347
+msgid "Registered Since"
+msgstr "Registerad sedan"
+
+#: bb-admin/admin-functions.php:348
+msgid "Actions"
+msgstr ""
+
+#: bb-admin/admin-functions.php:439
+msgid "Visit plugin homepage"
+msgstr "Besök insticksprogrammets webbplats"
+
+#: bb-admin/admin-functions.php:442
+#: bb-admin/admin-functions.php:485
+msgid "Visit author homepage"
+msgstr "Besök författarens webbplats"
+
+#: bb-admin/admin-functions.php:491
+msgid "Visit porter homepage"
+msgstr ""
+
+#: bb-admin/admin.php:7
+#, php-format
+msgid "Your database is out-of-date.  Please <a href='%s'>upgrade</a>."
+msgstr "Din databas är föråldrar. Vänligen <a href='%s'>uppgradera</a>."
+
+#: bb-admin/bb-do-counts.php:12
+msgid "Recounting"
+msgstr "Räknar om"
+
+#: bb-admin/bb-do-counts.php:19
+msgid "Counting posts..."
+msgstr "Räknar inlägg..."
+
+#: bb-admin/bb-do-counts.php:25
+msgid "Done counting posts."
+msgstr "Inläggen räknade."
+
+#: bb-admin/bb-do-counts.php:34
+msgid "Counting deleted posts..."
+msgstr "Räknar raderade inlägg..."
+
+#: bb-admin/bb-do-counts.php:45
+msgid "Done counting deleted posts."
+msgstr "Raderade inlägg räknade."
+
+#: bb-admin/bb-do-counts.php:47
+msgid "No deleted posts to count."
+msgstr "Inga raderade inlägg att räkna."
+
+#: bb-admin/bb-do-counts.php:55
+msgid "Counting forum topics and posts..."
+msgstr "Räknar forumämnen och inlägg."
+
+#: bb-admin/bb-do-counts.php:69
+msgid "Done counting forum topics and posts."
+msgstr "Forumämnen och inlägg räknade."
+
+#: bb-admin/bb-do-counts.php:76
+msgid "Counting topics to which each user has replied..."
+msgstr "Räknar ämnen i vilka varje användare har svarat..."
+
+#: bb-admin/bb-do-counts.php:81
+msgid "Done counting topics."
+msgstr "Ämnen räknade."
+
+#: bb-admin/bb-do-counts.php:88
+msgid "Counting topic tags..."
+msgstr "Räknar ämnesetiketter..."
+
+#: bb-admin/bb-do-counts.php:97
+msgid "Done counting topic tags."
+msgstr "Ämnesetiketter räknade."
+
+#: bb-admin/bb-do-counts.php:104
+msgid "Counting tagged topics..."
+msgstr "Räknar ämnen med etiketter..."
+
+#: bb-admin/bb-do-counts.php:115
+msgid "Done counting tagged topics."
+msgstr "Ämnen med etiketter räknade."
+
+#: bb-admin/bb-do-counts.php:121
+msgid "Deleted tags with no topics."
+msgstr "Raderade etiketter utan ämnen."
+
+#: bb-admin/bb-do-counts.php:133
+msgid "Done recounting.  The process took"
+msgstr "Omräkning utförd. Processen tog"
+
+#: bb-admin/bb-do-counts.php:134
+#: bb-admin/upgrade.php:30
+#, php-format
+msgid "%1$d queries and %2$s seconds."
+msgstr "%1$d frågor och %2$s sekunder."
+
+#: bb-admin/bb-forum.php:5
+msgid "You don't have the authority to mess with the forums."
+msgstr "Du har inte rättigheter att krångla med forumen."
+
+#: bb-admin/bb-forum.php:15
+msgid "Bad forum name.  Go back and try again."
+msgstr "Ogiltigt forumnamn. Gå tillbaka och försök igen."
+
+#: bb-admin/bb-forum.php:26
+msgid "The forum was not added"
+msgstr "Forumet lades inte till"
+
+#: bb-admin/bb-forum.php:33
+msgid "No forums to update!"
+msgstr "Inga forum att uppdatera!"
+
+#: bb-admin/bb-forum.php:48
+msgid "You don't have the authority to kill off the forums."
+msgstr "Du har inte rättigheter att ta kål på forumen."
+
+#: bb-admin/bb-forum.php:54
+msgid "Error occured while trying to delete forum"
+msgstr "Fel uppstod vid raderingen av forumet"
+
+#: bb-admin/content-forums.php:17
+#, php-format
+msgid "Forum deleted.  You should have bbPress <a href=\"%s\">recount your site information</a>."
+msgstr "Forumet raderat. Du borde be bbPress att <a href=\"%s\">räkna webbplatsens data</a> på nytt."
+
+#: bb-admin/content-forums.php:25
+msgid "Forum Management"
+msgstr "Forumhantering"
+
+#: bb-admin/content-forums.php:28
+#, php-format
+msgid "Are you sure you want to delete the \"<strong>%s</strong>\" forum?"
+msgstr "Är du säker att du vill radera forumet \"<strong>%s</strong>\"?"
+
+#: bb-admin/content-forums.php:37
+msgid "Delete all topics and posts in this forum. <em>This can never be undone.</em>"
+msgstr "Radera alla ämnen och inlägg i det här forumet. <em>Det här kan inte ångras</em>."
+
+#: bb-admin/content-forums.php:38
+msgid "Move topics from this forum into"
+msgstr "Flytta ämnen från det här forumet till"
+
+#: bb-admin/content-forums.php:51
+msgid "Delete forum &raquo;"
+msgstr "Radera forum &raquo;"
+
+#: bb-admin/content-forums.php:59
+msgid "&laquo; Go back"
+msgstr "&laquo; Gå tillbaka"
+
+#: bb-admin/content-forums.php:66
+msgid "Add forum"
+msgstr "Lägg till forum"
+
+#: bb-admin/content-forums.php:69
+#: bb-admin/install.php:202
+msgid "Forum Name:"
+msgstr "Forumets namn:"
+
+#: bb-admin/content-forums.php:72
+msgid "Forum Description:"
+msgstr "Forumets beskrivning:"
+
+#: bb-admin/content-forums.php:75
+msgid "Position:"
+msgstr "Position:"
+
+#: bb-admin/content-forums.php:79
+msgid "Add Forum"
+msgstr "Lägg till forum"
+
+#: bb-admin/content-forums.php:85
+msgid "Update forum information"
+msgstr "Uppdatera forumets information"
+
+#: bb-admin/content-forums.php:88
+msgid "Name"
+msgstr "Namn"
+
+#: bb-admin/content-forums.php:89
+msgid "Description"
+msgstr "Beskrivning"
+
+#: bb-admin/content-forums.php:90
+msgid "Position"
+msgstr "Position"
+
+#: bb-admin/content-forums.php:92
+msgid "Action"
+msgstr ""
+
+#: bb-admin/content-forums.php:100
+#: bb-includes/template-functions.php:929
+msgid "Delete"
+msgstr "Radera"
+
+#: bb-admin/content-forums.php:105
+msgid "Update"
+msgstr "Uppdatera"
+
+#: bb-admin/content-posts.php:6
+#: bb-admin/content.php:5
+#: bb-includes/akismet.php:195
+msgid "Now how'd you get here?  And what did you think you'd being doing?"
+msgstr "Hur kom du hit? Och vad tänkte du göra?"
+
+#: bb-admin/content-posts.php:13
+msgid "Deleted Posts"
+msgstr "Raderade inlägg"
+
+#: bb-admin/content.php:11
+msgid "Deleted Topics"
+msgstr "Radera ämnen"
+
+#: bb-admin/content.php:15
+#: bb-includes/template-functions.php:327
+#: bb-templates/kakumei/favorites.php:18
+#: bb-templates/kakumei/forum.php:9
+#: bb-templates/kakumei/front-page.php:17
+#: bb-templates/kakumei/tag-single.php:13
+#: bb-templates/kakumei/view.php:9
+#: rss.php:34
+msgid "Topic"
+msgstr "Ämne"
+
+#: bb-admin/content.php:16
+#: bb-templates/kakumei/forum.php:11
+#: bb-templates/kakumei/front-page.php:19
+#: bb-templates/kakumei/tag-single.php:15
+#: bb-templates/kakumei/view.php:11
+msgid "Last Poster"
+msgstr "Senaste skribent"
+
+#: bb-admin/content.php:17
+#: bb-templates/kakumei/favorites.php:20
+#: bb-templates/kakumei/forum.php:12
+#: bb-templates/kakumei/front-page.php:20
+#: bb-templates/kakumei/tag-single.php:16
+#: bb-templates/kakumei/view.php:12
+msgid "Freshness"
+msgstr "Färskhet"
+
+#: bb-admin/delete-post.php:22
+msgid "There is a problem with that post, pardner."
+msgstr "Vi har problem med det där inlägget."
+
+#: bb-admin/delete-topic.php:21
+#: bb-admin/sticky.php:9
+#: bb-admin/topic-toggle.php:8
+msgid "There is a problem with that topic, pardner."
+msgstr "Vi har problem med det där ämnet."
+
+#: bb-admin/export.php:6
+msgid "No thieving allowed."
+msgstr "Stöld är ej tillåten."
+
+#: bb-admin/index.php:7
+msgid "Latest Activity"
+msgstr "Senaste aktivitet"
+
+#: bb-admin/index.php:8
+msgid "User Registrations"
+msgstr "Användarregistreringar"
+
+#: bb-admin/index.php:11
+msgid "profile"
+msgstr "profil"
+
+#: bb-admin/index.php:11
+#, php-format
+msgid "registered %s ago"
+msgstr "registrerad för %s sedan"
+
+#: bb-admin/index.php:15
+msgid "Recently Moderated"
+msgstr "Nyligen modererade"
+
+#: bb-admin/index.php:18
+msgid "Post"
+msgstr "Inlägg"
+
+#: bb-admin/index.php:18
+#: bb-templates/kakumei/rss2.php:19
+msgid "on"
+msgstr "på"
+
+#: bb-admin/index.php:18
+msgid "by"
+msgstr "av"
+
+#: bb-admin/index.php:20
+msgid "Topic titled"
+msgstr ""
+
+#: bb-admin/index.php:20
+msgid "started by"
+msgstr "startad av"
+
+#: bb-admin/index.php:26
+#: bb-templates/kakumei/stats.php:3
+#: statistics.php:9
+msgid "Statistics"
+msgstr "Statistik"
+
+#: bb-admin/index.php:28
+msgid "Posts per day"
+msgstr "Inlägg per dag"
+
+#: bb-admin/index.php:29
+msgid "Topics per day"
+msgstr "Ämnen per dag"
+
+#: bb-admin/index.php:30
+msgid "Registrations per day"
+msgstr "Registreringar per dag"
+
+#: bb-admin/index.php:31
+#, php-format
+msgid "Forums started %s ago."
+msgstr "Forumet startades för %s sedan."
+
+#: bb-admin/install.php:11
+msgid "bbPress &rsaquo; Installation"
+msgstr "bbPress &rsaquo; installation"
+
+#: bb-admin/install.php:18
+#, php-format
+msgid "<h1>Already Installed</h1><p>You appear to have already installed bbPress. Perhaps you meant to <a href=\"%s\">upgrade</a> instead?</p><p>To reinstall please clear your old database tables first.</p>"
+msgstr "<h1>Redan installerat</h1><p>Du verkar redan ha installerat bbPress. Kanske du ville <a href=\"%s\">uppgradera</a> istället?</p><p>Töm dina gamla databastabeller först om du vill installera på nytt.</p>"
+
+#: bb-admin/install.php:25
+msgid "<h1>Already Installed</h1><p>You appear to have already installed bbPress. Perhaps you meant to run the upgrade scripts instead? To reinstall please clear your old database tables first.</p>"
+msgstr "<h1>Redan installerat</h1><p>Du verkar redan ha installerat bbPress. Kanske du ville köra uppgraderingskriptet istället? Töm de gamla databastabellerna först om du vill installera på nytt.</p>"
+
+#: bb-admin/install.php:33
+#, php-format
+msgid "%s is now a Key Master"
+msgstr ""
+
+#: bb-admin/install.php:34
+msgid "Back to the front page"
+msgstr "Tillbaka till ingångssidan"
+
+#: bb-admin/install.php:38
+msgid "Username not found.  Try again."
+msgstr "Hittade inte användarnamnet. Försök igen."
+
+#: bb-admin/install.php:48
+msgid "Welcome to bbPress installation. We&#8217;re now going to go through a few steps to get you up and running with the latest in forums software."
+msgstr "Välkommen till installation av bbPress. Vi går nu genom några skeden för att hjälpa dig att komma igång med det senaste inom forummjukvaran."
+
+#: bb-admin/install.php:49
+msgid "First Step &raquo;"
+msgstr "Första skedet &raquo;"
+
+#: bb-admin/install.php:77
+msgid "First Step"
+msgstr "Första skedet"
+
+#: bb-admin/install.php:78
+msgid "Make sure you have <strong>everything</strong> (database information, email address, etc.) entered correctly in <code>config.php</code> before running this script."
+msgstr "Försäkra dig om att du har skrivit <strong>allting</strong> (databasinformation, e-postadress etc.) rätt i <code>config.php</code> innan du kör det här skriptet."
+
+#: bb-admin/install.php:86
+msgid "Your <code>$bb->domain</code> setting must <strong>not</strong> end in a backslash \"<code>/</code>\"."
+msgstr ""
+
+#: bb-admin/install.php:89
+msgid "Your <code>$bb->domain</code> setting cannot be parsed."
+msgstr ""
+
+#: bb-admin/install.php:91
+msgid "Your <code>$bb->domain</code> setting <strong>must</strong> start with <code>http://</code>."
+msgstr ""
+
+#: bb-admin/install.php:93
+msgid "Your <code>$bb->domain</code> setting must only include the <code>http://</code> and the domain name; it may not include any directories or path information."
+msgstr ""
+
+#: bb-admin/install.php:95
+msgid "Your <code>$bb->path</code> setting <strong>must</strong> start with a backslash \"<code>/</code>\"."
+msgstr ""
+
+#: bb-admin/install.php:97
+msgid "Your <code>$bb->path</code> setting <strong>must</strong> end with a backslash \"<code>/</code>\"."
+msgstr ""
+
+#: bb-admin/install.php:103
+msgid "Your <code>$bb->wp_home</code> setting must <strong>not</strong> end in a backslash \"<code>/</code>\"."
+msgstr ""
+
+#: bb-admin/install.php:106
+msgid "Your <code>$bb->wp_home</code> setting cannot be parsed."
+msgstr ""
+
+#: bb-admin/install.php:108
+msgid "Your <code>$bb->wp_home</code> setting <strong>must</strong> start with <code>http://</code>."
+msgstr ""
+
+#: bb-admin/install.php:111
+msgid "Your <code>$bb->domain</code> and <code>$bb->wp_home</code> settings do not have the same domain.<br />You cannot share login cookies between the two.<br />Remove the <code>$bb->wp_home</code> setting from your config.php file."
+msgstr ""
+
+#: bb-admin/install.php:120
+msgid "Your <code>$bb->cookiedomain</code> is not in the same domain as your <code>$bb->domain</code>.  You will not be able to log in."
+msgstr ""
+
+#: bb-admin/install.php:125
+msgid "Your bbPress URL <code>$bb->path</code> is outside of your <code>$bb->cookiepath</code>.  You may not be able to log in."
+msgstr ""
+
+#: bb-admin/install.php:163
+msgid "Before we begin we need a little bit of information about your site's first <strong>administrator account</strong>, and your site's first <strong>forum</strong>."
+msgstr ""
+
+#: bb-admin/install.php:166
+#: bb-includes/capabilities.php:68
+msgid "Administrator"
+msgstr "Administrator"
+
+#: bb-admin/install.php:168
+#, php-format
+msgid "We found <strong>%s</strong> who is already a \"Key Master\" on these forums.  You may make others later"
+msgstr ""
+
+#: bb-admin/install.php:171
+msgid "Enter your username below.  You will be made the first Key Master on these forums.  Leave this blank if you want to create a new account"
+msgstr ""
+
+#: bb-admin/install.php:176
+#: bb-templates/kakumei/login-form.php:4
+#: bb-templates/kakumei/login.php:12
+#: bb-templates/kakumei/login.php:22
+#: bb-templates/kakumei/login.php:32
+#: bb-templates/kakumei/register.php:15
+msgid "Username:"
+msgstr "Användarnamn:"
+
+#: bb-admin/install.php:180
+msgid "Email address:"
+msgstr "E-postadress:"
+
+#: bb-admin/install.php:181
+msgid "(You already set this in your <code>config.php</code> file.)"
+msgstr ""
+
+#: bb-admin/install.php:184
+msgid "Website:"
+msgstr "Webbplats:"
+
+#: bb-admin/install.php:188
+msgid "Location:"
+msgstr "Ort:"
+
+#: bb-admin/install.php:192
+msgid "Interests:"
+msgstr "Intressen:"
+
+#: bb-admin/install.php:198
+msgid "First Forum"
+msgstr "Första forum"
+
+#: bb-admin/install.php:206
+msgid "Description:"
+msgstr "Beskrivning:"
+
+#: bb-admin/install.php:210
+msgid "Double-check that username before continuing."
+msgstr "Dubbelkolla användarnamnet innan du fortsätter."
+
+#: bb-admin/install.php:213
+msgid "Continue to Second Step &raquo;"
+msgstr "Gå vidare till andra skedet &raquo;"
+
+#: bb-admin/install.php:225
+msgid "Bad username.  Go back and try again."
+msgstr "Ogiltigt användarnamn. Gå tillbaka och försök igen."
+
+#: bb-admin/install.php:227
+msgid "Username not found.  Go back and try again."
+msgstr "Hittade inte användarnamnet. Gå tillbaka och försök igen."
+
+#: bb-admin/install.php:229
+msgid "You must name your first forum.  Go back and try again."
+msgstr "Du måste ge ett namn till ditt första forum. Gå tillbaka och försök igen."
+
+#: bb-admin/install.php:231
+msgid "Second Step"
+msgstr "Andra skedet"
+
+#: bb-admin/install.php:232
+msgid "Now we&#8217;re going to create the database tables and fill them with some default data."
+msgstr ""
+
+#: bb-admin/install.php:250
+#: bb-admin/install.php:256
+msgid "*Your WordPress password*"
+msgstr "*Ditt WordPress-lösenord*"
+
+#: bb-admin/install.php:277
+msgid "Your first topic"
+msgstr "Ditt första ämne"
+
+#: bb-admin/install.php:278
+msgid "First Post!  w00t."
+msgstr "Första inlägget!  w00t."
+
+#: bb-admin/install.php:281
+#, php-format
+msgid ""
+"Your new bbPress site has been successfully set up at:\n"
+"\n"
+"%1$s\n"
+"\n"
+"You can log in to the administrator account with the following information:\n"
+"\n"
+"Username: %2$s\n"
+"Password: %3$s\n"
+"\n"
+"We hope you enjoy your new forums. Thanks!\n"
+"\n"
+"--The bbPress Team\n"
+"http://bbpress.org/\n"
+msgstr ""
+
+#: bb-admin/install.php:296
+msgid "New bbPress installation"
+msgstr "Ny bbPress-installation"
+
+#: bb-admin/install.php:298
+msgid "Finished!"
+msgstr "Klart!"
+
+#: bb-admin/install.php:300
+#, php-format
+msgid "Now you can <a href=\"%1$s\">log in</a> with the <strong>username</strong> \"<code>%2$s</code>\" and <strong>password</strong> \"<code>%3$s</code>\"."
+msgstr "Nu kan du <a href=\"%1$s\">logga in</a> med <strong>användarnamnet</strong> \"<code>%2$s</code>\" och <strong>lösenordet</strong> \"<code>%3$s</code>\"."
+
+#: bb-admin/install.php:302
+msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you. If you lose it, you will have to delete the tables from the database yourself, and re-install bbPress. So to review:"
+msgstr ""
+
+#: bb-admin/install.php:307
+#: bb-includes/registration-functions.php:102
+#: bb-templates/kakumei/profile-edit.php:20
+msgid "Password"
+msgstr "Lösenord"
+
+#: bb-admin/install.php:309
+msgid "Login address"
+msgstr "Inloggningsadress"
+
+#: bb-admin/install.php:312
+msgid "Were you expecting more steps? Sorry to disappoint. All done! :)"
+msgstr "Väntade du dig flera skeden? Ledsen att göra dig besviken. Allt är klart! :)"
+
+#: bb-admin/install.php:317
+msgid "<a href=\"http://bbpress.org/\">bbPress</a>: Simple, Fast, Elegant."
+msgstr "<a href=\"http://bbpress.org/\">bbPress</a>: Enkelt, snabbt, elegant."
+
+#: bb-admin/site.php:5
+msgid ""
+"The following checkboxes allow you to recalculate various numbers stored in\n"
+"the database.  These numbers are used for things like counting the number of\n"
+"pages worth of posts a particular topic has.  You shouldn't need to do do any of\n"
+"this unless you're upgrading from one version to another or are seeing\n"
+"pagination oddities."
+msgstr ""
+
+#: bb-admin/site.php:13
+msgid "Choose items to recalculate"
+msgstr ""
+
+#: bb-admin/site.php:19
+msgid "Count!"
+msgstr "Räkna!"
+
+#: bb-admin/tag-destroy.php:6
+#: bb-admin/tag-merge.php:6
+#: bb-admin/tag-rename.php:7
+msgid "You are not allowed to manage tags."
+msgstr ""
+
+#: bb-admin/tag-destroy.php:14
+#: bb-admin/tag-rename.php:16
+msgid "Tag not found."
+msgstr "Hittade inte etiketten."
+
+#: bb-admin/tag-destroy.php:17
+#, php-format
+msgid "Rows deleted from tags table: %d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-destroy.php:18
+#, php-format
+msgid "Rows deleted from tagged table: %d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-destroy.php:19
+#, php-format
+msgid "<a href=\"%s\">Home</a>"
+msgstr "<a href=\"%s\">Hem</a>"
+
+#: bb-admin/tag-destroy.php:21
+#, php-format
+msgid ""
+"Something odd happened when attempting to destroy that tag.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+
+#: bb-admin/tag-merge.php:14
+msgid "Tag specified not found."
+msgstr ""
+
+#: bb-admin/tag-merge.php:17
+msgid "Tag to be merged not found."
+msgstr ""
+
+#: bb-admin/tag-merge.php:20
+#, php-format
+msgid "Number of topics from which the old tag was removed: %d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-merge.php:21
+#, php-format
+msgid "Number of topics to which the new tag was added: %d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-merge.php:22
+#, php-format
+msgid "Number of rows deleted from tags table:%d <br />\n"
+msgstr ""
+
+#: bb-admin/tag-merge.php:23
+#, php-format
+msgid "<a href=\"%s\">New Tag</a>"
+msgstr "<a href=\"%s\">Ny etikett</a>"
+
+#: bb-admin/tag-merge.php:25
+#, php-format
+msgid ""
+"Something odd happened when attempting to merge those tags.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+
+#: bb-admin/tag-rename.php:21
+#, php-format
+msgid "There already exists a tag by that name or the name is invalid. <a href=\"%s\">Try Again</a>"
+msgstr ""
+
+#: bb-admin/themes.php:20
+#, php-format
+msgid "Theme \"%s\" activated"
+msgstr "Temat \"%s\" aktiverat"
+
+#: bb-admin/themes.php:26
+msgid "Theme not found.  Default theme applied."
+msgstr "Hittade inte temat. Förvalt tema aktiverat."
+
+#: bb-admin/themes.php:35
+#: bb-admin/themes.php:37
+msgid "Click to activate"
+msgstr "Klicka för att aktivera"
+
+#: bb-admin/themes.php:39
+#, php-format
+msgid "by <cite>%s</cite>"
+msgstr "av <cite>%s</cite>"
+
+#: bb-admin/themes.php:39
+#, php-format
+msgid ", ported by <cite>%s</cite>"
+msgstr ", porterad av <cite>%s</cite>"
+
+#: bb-admin/themes.php:50
+msgid "Current Theme"
+msgstr "Nuvarande tema"
+
+#: bb-admin/themes.php:56
+msgid "Available Themes"
+msgstr "Tillgängliga teman"
+
+#: bb-admin/topic-move.php:8
+msgid "Invalid topic or forum."
+msgstr "Ogiltigt ämne eller forum."
+
+#: bb-admin/topic-move.php:21
+msgid "Your topic or forum caused all manner of confusion"
+msgstr ""
+
+#: bb-admin/upgrade.php:19
+msgid "bbPress &rsaquo; Upgrade"
+msgstr "bbPress &rsaquo; uppgradering"
+
+#: bb-admin/upgrade.php:26
+#, php-format
+msgid "Upgrade complete.  <a href=\"%s\">Enjoy!</a>"
+msgstr "Uppgraderingen är färdig.  <a href=\"%s\">Njut!</a>"
+
+#: bb-admin/upgrade.php:28
+#, php-format
+msgid "Nothing to upgrade.  <a href=\"%s\">Get back to work!</a>"
+msgstr "Inget att uppgradera. <a href=\"%s\">Tillbaka till arbetet!</a>"
+
+#: bb-admin/users-blocked.php:9
+msgid "These users have been blocked by the forum administrators"
+msgstr ""
+
+#: bb-admin/users-moderators.php:9
+msgid "Forum Administrators"
+msgstr "Forumadministratörer"
+
+#: bb-admin/view-ip.php:15
+msgid "IP Information"
+msgstr "IP-information"
+
+#: bb-admin/view-ip.php:16
+msgid "Last 30 posts"
+msgstr "Senaste 30 inlägg"
+
+#: bb-admin/view-ip.php:33
+msgid "Posted:"
+msgstr "Skrivet:"
+
+#: bb-edit.php:20
+msgid "Sorry, post is too old."
+msgstr "Tyvärr, inlägget är för gammalt."
+
+#: bb-includes/akismet.php:178
+msgid "Akismet Spam"
+msgstr "Akismet Spam"
+
+#: bb-includes/akismet.php:191
+#, php-format
+msgid "The API key you have specified is invalid.  Please double check the <code>$bb->akismet_key</code> variable in your <code>config.php file</code>.  If you don't have an API key yet, you can get one at <a href=\"%s\">WordPress.com</a>."
+msgstr ""
+
+#: bb-includes/akismet.php:212
+msgid "Not Spam"
+msgstr "Inte spam"
+
+#: bb-includes/akismet.php:214
+msgid "Spam"
+msgstr "Spam"
+
+#: bb-includes/bozo.php:75
+msgid "Counting bozo posts..."
+msgstr ""
+
+#: bb-includes/bozo.php:95
+msgid "Done counting bozo posts."
+msgstr ""
+
+#: bb-includes/bozo.php:106
+msgid "Counting bozo topics for each user...\n"
+msgstr ""
+
+#: bb-includes/bozo.php:126
+msgid ""
+"Done counting bozo topics.\n"
+"\n"
+msgstr ""
+
+#: bb-includes/bozo.php:137
+msgid "Count topics to which each user has replied and count each users&#039; bozo posts"
+msgstr ""
+
+#: bb-includes/bozo.php:138
+msgid "Count bozo posts on every topic"
+msgstr ""
+
+#: bb-includes/bozo.php:237
+msgid "This user is a bozo"
+msgstr ""
+
+#: bb-includes/bozo.php:243
+msgid "Bozos"
+msgstr ""
+
+#: bb-includes/bozo.php:253
+msgid "These users have been marked as bozos"
+msgstr ""
+
+#: bb-includes/capabilities.php:27
+msgid "Key Master"
+msgstr ""
+
+#: bb-includes/capabilities.php:105
+msgid "Moderator"
+msgstr "Moderator"
+
+#: bb-includes/capabilities.php:136
+msgid "Member"
+msgstr "Medlem"
+
+#: bb-includes/capabilities.php:152
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: bb-includes/formatting-functions.php:210
+#, php-format
+msgid "[closed] %s"
+msgstr "[stängd] %s"
+
+#: bb-includes/functions.php:421
+msgid "year"
+msgstr "år"
+
+#: bb-includes/functions.php:421
+msgid "years"
+msgstr "år"
+
+#: bb-includes/functions.php:422
+msgid "month"
+msgstr "månad"
+
+#: bb-includes/functions.php:422
+msgid "months"
+msgstr "månader"
+
+#: bb-includes/functions.php:423
+msgid "week"
+msgstr "vecka"
+
+#: bb-includes/functions.php:423
+msgid "weeks"
+msgstr "veckor"
+
+#: bb-includes/functions.php:424
+msgid "day"
+msgstr "dag"
+
+#: bb-includes/functions.php:424
+msgid "days"
+msgstr "dagar"
+
+#: bb-includes/functions.php:425
+msgid "hour"
+msgstr "timme"
+
+#: bb-includes/functions.php:425
+msgid "hours"
+msgstr "timmar"
+
+#: bb-includes/functions.php:426
+msgid "minute"
+msgstr "minut"
+
+#: bb-includes/functions.php:426
+msgid "minutes"
+msgstr "minuter"
+
+#: bb-includes/functions.php:427
+msgid "second"
+msgstr "sekund"
+
+#: bb-includes/functions.php:427
+msgid "seconds"
+msgstr "sekunder"
+
+#: bb-includes/functions.php:441
+#, php-format
+msgid "%1$d %2$s"
+msgstr "%1$d %2$s"
+
+#: bb-includes/functions.php:448
+#, php-format
+msgid ", %1$d %2$s"
+msgstr ", %1$d %2$s"
+
+#: bb-includes/functions.php:590
+msgid "You've been blocked.  If you think a mistake has been made, contact this site's administrator."
+msgstr ""
+
+#: bb-includes/functions.php:602
+msgid "bb_get_user needs a numeric ID"
+msgstr ""
+
+#: bb-includes/functions.php:1665
+msgid "REQUEST_URI"
+msgstr "REQUEST_URI"
+
+#: bb-includes/functions.php:1667
+msgid "should be"
+msgstr "borde vara"
+
+#: bb-includes/functions.php:1669
+msgid "full permalink"
+msgstr "hel permalänk"
+
+#: bb-includes/functions.php:1671
+msgid "PATH_INFO"
+msgstr "PATH_INFO"
+
+#: bb-includes/functions.php:1697
+#: bb-templates/kakumei/favorites.php:3
+msgid "Favorites"
+msgstr "Favoriter"
+
+#: bb-includes/functions.php:1748
+msgid "Website"
+msgstr "Webbplats"
+
+#: bb-includes/functions.php:1748
+msgid "Location"
+msgstr "Ort"
+
+#: bb-includes/functions.php:1748
+msgid "Occupation"
+msgstr "Yrke"
+
+#: bb-includes/functions.php:1748
+msgid "Interests"
+msgstr "Intressen"
+
+#: bb-includes/functions.php:1756
+msgid "Custom Title"
+msgstr ""
+
+#: bb-includes/functions.php:1763
+msgid "Ignore the 30 second post throttling limit"
+msgstr ""
+
+#: bb-includes/functions.php:1773
+msgid "Topics with no replies"
+msgstr "Ämnen utan svar"
+
+#: bb-includes/functions.php:1774
+msgid "Topics with no tags"
+msgstr "Ämnen utan etiketter"
+
+#: bb-includes/functions.php:1795
+msgid "bbPress Confirmation"
+msgstr ""
+
+#: bb-includes/functions.php:1809
+#: bb-includes/functions.php:1811
+msgid "No"
+msgstr "Nej"
+
+#: bb-includes/functions.php:1809
+#: bb-includes/functions.php:1811
+msgid "Yes"
+msgstr "Ja"
+
+#: bb-includes/functions.php:1850
+msgid "bbPress &rsaquo; Error"
+msgstr "bbPress &rsaquo; Fel"
+
+#: bb-includes/functions.php:1866
+msgid "Are you sure you want to submit this post?"
+msgstr "Är du säker på att du vill skicka det här inlägget?"
+
+#: bb-includes/functions.php:1867
+msgid "Are you sure you want to edit this post?"
+msgstr "Är du säker på att du vill redigera det här inlägget?"
+
+#: bb-includes/functions.php:1868
+msgid "Are you sure you want to delete this post?"
+msgstr "Är du säker på att du vill radera det här inlägget?"
+
+#: bb-includes/functions.php:1870
+msgid "Are you sure you want to create this topic?"
+msgstr "Är du säker på att du vill skapa det här ämnet?"
+
+#: bb-includes/functions.php:1871
+msgid "Are you sure you want to change the resolution status of this topic?"
+msgstr ""
+
+#: bb-includes/functions.php:1872
+msgid "Are you sure you want to delete this topic?"
+msgstr "Är du säker på att du vill radera det här ämnet?"
+
+#: bb-includes/functions.php:1873
+msgid "Are you sure you want to change the status of this topic?"
+msgstr "Är du säker på att du vill ändra det här ämnets status?"
+
+#: bb-includes/functions.php:1874
+msgid "Are you sure you want to change the sticky status of this topic?"
+msgstr "Är du säker på att du vill ändra det här ämnets 'klistrat'-läge?"
+
+#: bb-includes/functions.php:1875
+msgid "Are you sure you want to move this topic?"
+msgstr "Är du säker på att du vill flytta det här ämnet?"
+
+#: bb-includes/functions.php:1877
+msgid "Are you sure you want to add this tag to this topic?"
+msgstr "Är du säker på att du vill lägga till den här etiketten till det här ämnet?"
+
+#: bb-includes/functions.php:1878
+msgid "Are you sure you want to rename this tag?"
+msgstr "Är du säker på att du vill ändra namn på den här etiketten?"
+
+#: bb-includes/functions.php:1879
+msgid "Are you sure you want to submit these tags?"
+msgstr "Är du säker på att du vill skicka de här etiketterna?"
+
+#: bb-includes/functions.php:1880
+msgid "Are you sure you want to destroy this tag?"
+msgstr "Är du säker på att du vill radera den här etiketten?"
+
+#: bb-includes/functions.php:1881
+msgid "Are you sure you want to remove this tag from this topic?"
+msgstr "Är du säker på att du vill ta bort den här etiketten från det här ämnet?"
+
+#: bb-includes/functions.php:1883
+msgid "Are you sure you want to toggle your favorite status for this topic?"
+msgstr ""
+
+#: bb-includes/functions.php:1885
+msgid "Are you sure you want to edit this user's profile?"
+msgstr "Är du säker på att du vill redigera den här användarens profil?"
+
+#: bb-includes/functions.php:1887
+msgid "Are you sure you want to add this forum?"
+msgstr "Är du säker på att du vill lägga till det här forumet?"
+
+#: bb-includes/functions.php:1888
+msgid "Are you sure you want to update your forums?"
+msgstr "Är du säker på att du vill uppdatera dina forum?"
+
+#: bb-includes/functions.php:1889
+msgid "Are you sure you want to delete that forum?"
+msgstr "Är du säker på att du vill radera det här forumet?"
+
+#: bb-includes/functions.php:1891
+msgid "Are you sure you want to recount these items?"
+msgstr "Är du säker på att du vill räkna om de här uppgifterna?"
+
+#: bb-includes/functions.php:1893
+msgid "Are you sure you want to switch themes?"
+msgstr "Är du säker på att du vill byta tema?"
+
+#: bb-includes/functions.php:1908
+msgid "Are you sure you want to do this?"
+msgstr "Är du säker på att du vill göra det här?"
+
+#: bb-includes/functions.php:1983
+#: bb-includes/functions.php:2048
+msgid "Your search term was too short"
+msgstr "Din sökterm var för kort"
+
+#: bb-includes/functions.php:2027
+msgid "Your query parameters are invalid"
+msgstr "Dina sökparametrar är felaktiga"
+
+#: bb-includes/js/list-manipulation-js.php:3
+#, php-format
+msgid "Are you sure you want to delete this %s?"
+msgstr "Är du säker på att du vill radera den här %s?"
+
+#: bb-includes/js/list-manipulation-js.php:50
+msgid "Jump to new item"
+msgstr ""
+
+#: bb-includes/js/topic-js.php:9
+#, php-format
+msgid "Are you sure you wanna delete this post by \"' + %s + '\"?"
+msgstr "Är du säker på att du vill radera det här inlägget av \"' + %s + '\"?"
+
+#: bb-includes/js/topic-js.php:40
+#, php-format
+msgid "Are you sure you want to remove the \"' + %s + '\" tag?"
+msgstr "Är du säker på att du vill ta bort etiketten \"' + %s + '\"?"
+
+#: bb-includes/js/topic-js.php:68
+#, php-format
+msgid "This topic is one of your <a href=' + %s + '>favorites</a>"
+msgstr "Det här ämnet hör till dina <a href=' + %s + '>favoriter</a>"
+
+#: bb-includes/js/topic-js.php:70
+#: bb-includes/template-functions.php:1594
+msgid "Add this topic to your favorites"
+msgstr "Lägg ämnet till dina favoriter"
+
+#: bb-includes/js/wp-ajax-js.php:57
+msgid "You don't have permission to do that."
+msgstr "Du har inte rätt att göra det."
+
+#: bb-includes/js/wp-ajax-js.php:60
+msgid "Something strange happened.  Try refreshing the page."
+msgstr "Något märkvärdigt har inträffat. Försök ladda sidan på nytt."
+
+#: bb-includes/js/wp-ajax-js.php:84
+msgid "Slow down, I'm still sending your data!"
+msgstr "Sakta farten, jag skickar fortfarande ditt data!"
+
+#: bb-includes/locale.php:20
+#: bb-includes/locale.php:30
+#: bb-includes/locale.php:43
+msgid "Sunday"
+msgstr "Söndag"
+
+#: bb-includes/locale.php:21
+#: bb-includes/locale.php:31
+#: bb-includes/locale.php:44
+msgid "Monday"
+msgstr "Måndag"
+
+#: bb-includes/locale.php:22
+#: bb-includes/locale.php:32
+#: bb-includes/locale.php:45
+msgid "Tuesday"
+msgstr "Tisdag"
+
+#: bb-includes/locale.php:23
+#: bb-includes/locale.php:33
+#: bb-includes/locale.php:46
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: bb-includes/locale.php:24
+#: bb-includes/locale.php:34
+#: bb-includes/locale.php:47
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: bb-includes/locale.php:25
+#: bb-includes/locale.php:35
+#: bb-includes/locale.php:48
+msgid "Friday"
+msgstr "Fredag"
+
+#: bb-includes/locale.php:26
+#: bb-includes/locale.php:36
+#: bb-includes/locale.php:49
+msgid "Saturday"
+msgstr "Lördag"
+
+#: bb-includes/locale.php:30
+msgid "S_Sunday_initial"
+msgstr "S"
+
+#: bb-includes/locale.php:31
+msgid "M_Monday_initial"
+msgstr "M"
+
+#: bb-includes/locale.php:32
+msgid "T_Tuesday_initial"
+msgstr "T"
+
+#: bb-includes/locale.php:33
+msgid "W_Wednesday_initial"
+msgstr "O"
+
+#: bb-includes/locale.php:34
+msgid "T_Thursday_initial"
+msgstr "T"
+
+#: bb-includes/locale.php:35
+msgid "F_Friday_initial"
+msgstr "F"
+
+#: bb-includes/locale.php:36
+msgid "S_Saturday_initial"
+msgstr "L"
+
+#: bb-includes/locale.php:43
+msgid "Sun"
+msgstr "Sön"
+
+#: bb-includes/locale.php:44
+msgid "Mon"
+msgstr "Mån"
+
+#: bb-includes/locale.php:45
+msgid "Tue"
+msgstr "Tis"
+
+#: bb-includes/locale.php:46
+msgid "Wed"
+msgstr "Ons"
+
+#: bb-includes/locale.php:47
+msgid "Thu"
+msgstr "Tor"
+
+#: bb-includes/locale.php:48
+msgid "Fri"
+msgstr "Fre"
+
+#: bb-includes/locale.php:49
+msgid "Sat"
+msgstr "Lör"
+
+#: bb-includes/locale.php:52
+#: bb-includes/locale.php:67
+msgid "January"
+msgstr "Januari"
+
+#: bb-includes/locale.php:53
+#: bb-includes/locale.php:68
+msgid "February"
+msgstr "Februari"
+
+#: bb-includes/locale.php:54
+#: bb-includes/locale.php:69
+msgid "March"
+msgstr "Mars"
+
+#: bb-includes/locale.php:55
+#: bb-includes/locale.php:70
+msgid "April"
+msgstr "April"
+
+#: bb-includes/locale.php:56
+#: bb-includes/locale.php:71
+msgid "May"
+msgstr "Maj"
+
+#: bb-includes/locale.php:57
+#: bb-includes/locale.php:72
+msgid "June"
+msgstr "Juni"
+
+#: bb-includes/locale.php:58
+#: bb-includes/locale.php:73
+msgid "July"
+msgstr "Juli"
+
+#: bb-includes/locale.php:59
+#: bb-includes/locale.php:74
+msgid "August"
+msgstr "Augusti"
+
+#: bb-includes/locale.php:60
+#: bb-includes/locale.php:75
+msgid "September"
+msgstr "September"
+
+#: bb-includes/locale.php:61
+#: bb-includes/locale.php:76
+msgid "October"
+msgstr "Oktober"
+
+#: bb-includes/locale.php:62
+#: bb-includes/locale.php:77
+msgid "November"
+msgstr "November"
+
+#: bb-includes/locale.php:63
+#: bb-includes/locale.php:78
+msgid "December"
+msgstr "December"
+
+#: bb-includes/locale.php:67
+msgid "Jan_January_abbreviation"
+msgstr "Jan"
+
+#: bb-includes/locale.php:68
+msgid "Feb_February_abbreviation"
+msgstr "Feb"
+
+#: bb-includes/locale.php:69
+msgid "Mar_March_abbreviation"
+msgstr "Mar"
+
+#: bb-includes/locale.php:70
+msgid "Apr_April_abbreviation"
+msgstr "Apr"
+
+#: bb-includes/locale.php:71
+msgid "May_May_abbreviation"
+msgstr "Maj"
+
+#: bb-includes/locale.php:72
+msgid "Jun_June_abbreviation"
+msgstr "Jun"
+
+#: bb-includes/locale.php:73
+msgid "Jul_July_abbreviation"
+msgstr "Jul"
+
+#: bb-includes/locale.php:74
+msgid "Aug_August_abbreviation"
+msgstr "Aug"
+
+#: bb-includes/locale.php:75
+msgid "Sep_September_abbreviation"
+msgstr "Sep"
+
+#: bb-includes/locale.php:76
+msgid "Oct_October_abbreviation"
+msgstr "Okt"
+
+#: bb-includes/locale.php:77
+msgid "Nov_November_abbreviation"
+msgstr "Nov"
+
+#: bb-includes/locale.php:78
+msgid "Dec_December_abbreviation"
+msgstr "Dec"
+
+#: bb-includes/locale.php:85
+msgid "am"
+msgstr "fm"
+
+#: bb-includes/locale.php:86
+msgid "pm"
+msgstr "em"
+
+#: bb-includes/locale.php:87
+msgid "AM"
+msgstr "FM"
+
+#: bb-includes/locale.php:88
+msgid "PM"
+msgstr "EM"
+
+#: bb-includes/registration-functions.php:44
+#: bb-templates/kakumei/password-reset.php:5
+msgid "Password Reset"
+msgstr "Återställ lösenordet"
+
+#: bb-includes/registration-functions.php:44
+#, php-format
+msgid ""
+"If you wanted to reset your password, you may do so by visiting the following address:\n"
+"\n"
+"%s\n"
+"\n"
+"If you don't want to reset your password, just ignore this email. Thanks!"
+msgstr ""
+
+#: bb-includes/registration-functions.php:57
+#: bb-includes/registration-functions.php:59
+#: bb-includes/registration-functions.php:70
+msgid "Key not found."
+msgstr ""
+
+#: bb-includes/registration-functions.php:64
+msgid "You are not allowed to change your password."
+msgstr "Du har inte rätt att ändra ditt lösenord."
+
+#: bb-includes/registration-functions.php:101
+#, php-format
+msgid ""
+"Your username is: %1$s \n"
+"Your password is: %2$s \n"
+"You can now log in: %3$s \n"
+"\n"
+"Enjoy!"
+msgstr ""
+"Ditt användarnamn är: %1$s \n"
+"Ditt lösenord är: %2$s \n"
+"Du kan nu logga in: %3$s \n"
+"\n"
+"Njut!"
+
+#: bb-includes/template-functions.php:86
+#: bb-templates/kakumei/profile.php:3
+msgid "Profile"
+msgstr "Profil"
+
+#: bb-includes/template-functions.php:123
+msgid "Reply"
+msgstr "Svara"
+
+#: bb-includes/template-functions.php:125
+msgid "New Topic in this Forum"
+msgstr "Nya ämnen i det här forumet"
+
+#: bb-includes/template-functions.php:127
+msgid "Add New Topic"
+msgstr "Lägg till nytt ämne"
+
+#: bb-includes/template-functions.php:152
+#, php-format
+msgid "You must <a href=\"%s\">log in</a> to post."
+msgstr "Du måste <a href=\"%s\">logga in</a> för att skriva inlägg."
+
+#: bb-includes/template-functions.php:314
+#: bb-templates/kakumei/tag-single.php:3
+#: bb-templates/kakumei/tags.php:3
+msgid "Tags"
+msgstr "Etiketter"
+
+#: bb-includes/template-functions.php:329
+#: rss.php:46
+msgid "Tag"
+msgstr "Etikett"
+
+#: bb-includes/template-functions.php:331
+#: rss.php:50
+msgid "Forum"
+msgstr "Forum"
+
+#: bb-includes/template-functions.php:333
+#: bb-templates/kakumei/search.php:37
+msgid "Recent Posts"
+msgstr "Senaste inlägg"
+
+#: bb-includes/template-functions.php:676
+msgid "Are you sure you wanna delete that?"
+msgstr "Är du säker på att du vill radera det där?"
+
+#: bb-includes/template-functions.php:676
+msgid "Delete entire topic"
+msgstr "Radera hela ämnet"
+
+#: bb-includes/template-functions.php:678
+#: bb-includes/template-functions.php:927
+msgid "Are you sure you wanna undelete that?"
+msgstr "Är du säker på att du vill återställa det där?"
+
+#: bb-includes/template-functions.php:678
+msgid "Undelete entire topic"
+msgstr "Återställ hela ämnet"
+
+#: bb-includes/template-functions.php:696
+msgid "Close topic"
+msgstr "Stäng ämnet"
+
+#: bb-includes/template-functions.php:698
+msgid "Open topic"
+msgstr "Öppna ämnet"
+
+#: bb-includes/template-functions.php:717
+msgid "Unstick topic"
+msgstr ""
+
+#: bb-includes/template-functions.php:719
+msgid "Stick topic"
+msgstr "Klistra ämne"
+
+#: bb-includes/template-functions.php:719
+msgid "to front"
+msgstr "till första sidan"
+
+#: bb-includes/template-functions.php:726
+msgid "View normal posts"
+msgstr "Visa normala inlägg"
+
+#: bb-includes/template-functions.php:728
+msgid "View all posts"
+msgstr "Visa alla inlägg"
+
+#: bb-includes/template-functions.php:745
+#, php-format
+msgid "+%d more"
+msgstr "+%d mer"
+
+#: bb-includes/template-functions.php:765
+msgid "Move this topic to the selected forum:"
+msgstr "Flytta det här ämnet till valt forum:"
+
+#: bb-includes/template-functions.php:769
+msgid "Move"
+msgstr "Flytta"
+
+#: bb-includes/template-functions.php:793
+msgid "Add New &raquo;"
+msgstr "Lägg till nytt &raquo;"
+
+#: bb-includes/template-functions.php:848
+msgid "Anonymous"
+msgstr "Anonym"
+
+#: bb-includes/template-functions.php:927
+msgid "Undelete"
+msgstr "Återställ"
+
+#: bb-includes/template-functions.php:946
+#: bb-includes/template-functions.php:960
+msgid "Unregistered"
+msgstr "Oregistrerad"
+
+#: bb-includes/template-functions.php:1022
+msgid "Delete User &raquo;"
+msgstr "Radera användaren &raquo;"
+
+#: bb-includes/template-functions.php:1023
+msgid "Are you sure you want to delete this user?"
+msgstr "Är du säker på att du vill radera den här användaren?"
+
+#: bb-includes/template-functions.php:1133
+msgid "Member Since"
+msgstr "Medlem sedan"
+
+#: bb-includes/template-functions.php:1134
+#: bb-templates/kakumei/search.php:29
+msgid "F j, Y"
+msgstr ""
+
+#: bb-includes/template-functions.php:1175
+#: bb-templates/kakumei/register.php:31
+msgid "<br />There was a problem with your email; please check it."
+msgstr ""
+
+#: bb-includes/template-functions.php:1177
+#: bb-includes/template-functions.php:1232
+#: bb-templates/kakumei/register.php:33
+msgid "<br />The above field is required."
+msgstr ""
+
+#: bb-includes/template-functions.php:1184
+#: bb-includes/template-functions.php:1237
+#: bb-templates/kakumei/register.php:39
+msgid "These items are <span class=\"required\">required</span>."
+msgstr ""
+
+#: bb-includes/template-functions.php:1207
+msgid "User Type:"
+msgstr "Användartyp:"
+
+#: bb-includes/template-functions.php:1216
+msgid "Allow this user to:"
+msgstr "Tillåt användaren att:"
+
+#: bb-includes/template-functions.php:1239
+msgid ""
+"Inactive users can login and look around but not do anything.\n"
+"Blocked users just see a simple error message when they visit the site.</p>\n"
+"<p><strong>Note</strong>: Blocking a user does <em>not</em> block any IP addresses."
+msgstr ""
+
+#: bb-includes/template-functions.php:1253
+msgid "Log out"
+msgstr "Logga ut"
+
+#: bb-includes/template-functions.php:1272
+msgid "Admin"
+msgstr "Admin"
+
+#: bb-includes/template-functions.php:1280
+msgid "View your profile"
+msgstr "Visa din profil"
+
+#: bb-includes/template-functions.php:1428
+msgid "Rename tag:"
+msgstr ""
+
+#: bb-includes/template-functions.php:1432
+msgid "Rename"
+msgstr ""
+
+#: bb-includes/template-functions.php:1436
+msgid "Merge this tag into:"
+msgstr ""
+
+#: bb-includes/template-functions.php:1440
+msgid "Merge"
+msgstr ""
+
+#: bb-includes/template-functions.php:1441
+#, php-format
+msgid "Are you sure you want to merge the &#039;%s&#039; tag into the tag you specified? This is permanent and cannot be undone."
+msgstr ""
+
+#: bb-includes/template-functions.php:1445
+msgid "Destroy tag:"
+msgstr ""
+
+#: bb-includes/template-functions.php:1448
+msgid "Destroy"
+msgstr ""
+
+#: bb-includes/template-functions.php:1449
+#, php-format
+msgid "Are you sure you want to destroy the &#039;%s&#039; tag? This is permanent and cannot be undone."
+msgstr ""
+
+#: bb-includes/template-functions.php:1464
+msgid "Remove this tag"
+msgstr ""
+
+#: bb-includes/template-functions.php:1594
+msgid " (%?%)"
+msgstr ""
+
+#: bb-includes/template-functions.php:1596
+msgid "This topic is one of your %favorites% ["
+msgstr "Det här ämnet hör till dina %favoriter% ["
+
+#: bb-includes/template-functions.php:1596
+msgid "x"
+msgstr "x"
+
+#: bb-includes/template-functions.php:1596
+msgid "]"
+msgstr "]"
+
+#: bb-includes/wp-functions.php:892
+msgid "&laquo; Previous"
+msgstr "&laquo; Föregående"
+
+#: bb-includes/wp-functions.php:893
+msgid "Next &raquo;"
+msgstr "Nästa &raquo;"
+
+#: bb-post.php:9
+msgid "Slow down; you move too fast."
+msgstr "Sakta i backarna; du är för snabb."
+
+#: bb-post.php:16
+#: bb-post.php:37
+msgid "You are not allowed to post.  Are you logged in?"
+msgstr "Du har inte rätt att skriva inlägg. Är du inloggad?"
+
+#: bb-post.php:19
+msgid "You are not allowed to write new topics."
+msgstr "Du har inte rätt att skriva nya ämnen."
+
+#: bb-post.php:27
+msgid "Please enter a topic title"
+msgstr ""
+
+#: bb-post.php:40
+msgid "This topic has been closed"
+msgstr "Det här ämnet är stängt"
+
+#: bb-settings.php:4
+#, php-format
+msgid "Your server is running PHP version %s but bbPress requires at least 4.2"
+msgstr "Din server kör PHP version %s men bbPress behöver åtminstone 4.2"
+
+#: bb-settings.php:7
+msgid "Your PHP installation appears to be missing the MySQL which is required for bbPress."
+msgstr "Din PHP-installation verkar sakna MySQL vilket bbPress behöver"
+
+#: bb-settings.php:15
+msgid "GLOBALS overwrite attempt detected"
+msgstr ""
+
+#: bb-settings.php:102
+#, php-format
+msgid "Does&#8217;t look like you&#8217;ve installed bbPress yet, <a href=\"%s\">go here</a>."
+msgstr "Det ser inte ut som om du har installerat bbPress ännu, <a href=\"%s\">gå hit</a>."
+
+#: bb-templates/kakumei/edit-form.php:4
+msgid "Topic:"
+msgstr "Ämne:"
+
+#: bb-templates/kakumei/edit-form.php:9
+#: bb-templates/kakumei/post-form.php:9
+msgid "Post:"
+msgstr "Inlägg:"
+
+#: bb-templates/kakumei/edit-form.php:14
+#: bb-templates/kakumei/edit-post.php:2
+msgid "Edit Post"
+msgstr "Redigera inlägg"
+
+#: bb-templates/kakumei/edit-form.php:18
+#: bb-templates/kakumei/post-form.php:31
+msgid "Allowed markup:"
+msgstr "Tillåten uppmärkning:"
+
+#: bb-templates/kakumei/edit-form.php:18
+#: bb-templates/kakumei/post-form.php:31
+msgid "Put code in between <code>`backticks`</code>."
+msgstr "Skriv <code>`backticks`</code> kring kod."
+
+#: bb-templates/kakumei/favorites.php:5
+msgid "Current Favorites"
+msgstr "Favoriter för tillfället"
+
+#: bb-templates/kakumei/favorites.php:7
+msgid ""
+"Your Favorites allow you to create a custom <abbr title=\"Really Simple Syndication\">RSS</abbr> feed which pulls recent replies to the topics you specify.\n"
+"To add topics to your list of favorites, just click the \"Add to Favorites\" link found on that topic&#8217;s page."
+msgstr ""
+
+#: bb-templates/kakumei/favorites.php:11
+#, php-format
+msgid "Subscribe to your favorites&#8217; <a href=\"%s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr ""
+
+#: bb-templates/kakumei/favorites.php:21
+msgid "Remove"
+msgstr "Ta bort"
+
+#: bb-templates/kakumei/favorites.php:40
+msgid "You currently have no favorites."
+msgstr "Du har för tillfället inga favoriter."
+
+#: bb-templates/kakumei/favorites.php:44
+msgid "currently has no favorites."
+msgstr "har för tillfället inga favoriter."
+
+#: bb-templates/kakumei/footer.php:11
+#, php-format
+msgid "%1$s is proudly powered by <a href=\"%2$s\">bbPress</a>.</p>"
+msgstr ""
+
+#: bb-templates/kakumei/forum.php:17
+#: bb-templates/kakumei/front-page.php:25
+#: bb-templates/kakumei/view.php:17
+msgid "Sticky:"
+msgstr "Klistrad:"
+
+#: bb-templates/kakumei/forum.php:33
+msgid "RSS feed for this forum"
+msgstr "RSS-flöde för det här forumet"
+
+#: bb-templates/kakumei/front-page.php:6
+msgid "Hot Tags"
+msgstr "Populära etiketter"
+
+#: bb-templates/kakumei/front-page.php:13
+msgid "Latest Discussions"
+msgstr "Senaste diskussioner"
+
+#: bb-templates/kakumei/front-page.php:47
+msgid "Main Theme"
+msgstr "Huvudtema"
+
+#: bb-templates/kakumei/front-page.php:63
+msgid "Views"
+msgstr "Vyer"
+
+#: bb-templates/kakumei/logged-in.php:2
+#, php-format
+msgid "Welcome, %1$s!"
+msgstr "Välkommen, %1$s!"
+
+#: bb-templates/kakumei/login-form.php:2
+#, php-format
+msgid "<a href=\"%1$s\">Register</a> or log in"
+msgstr "<a href=\"%1$s\">Registrera dig</a> eller logga in"
+
+#: bb-templates/kakumei/login-form.php:7
+#: bb-templates/kakumei/login.php:16
+#: bb-templates/kakumei/login.php:27
+#: bb-templates/kakumei/login.php:36
+msgid "Password:"
+msgstr "Lösenord:"
+
+#: bb-templates/kakumei/login-form.php:11
+#: bb-templates/kakumei/login.php:3
+#: bb-templates/kakumei/login.php:5
+#: bb-templates/kakumei/login.php:43
+#: bb-templates/kakumei/password-reset.php:3
+msgid "Log in"
+msgstr "Logga in"
+
+#: bb-templates/kakumei/login.php:5
+msgid "Log in Failed"
+msgstr "Inloggningen misslyckades"
+
+#: bb-templates/kakumei/login.php:18
+msgid "Incorrect password"
+msgstr "Felaktigt lösenord"
+
+#: bb-templates/kakumei/login.php:24
+msgid "This username does not exist."
+msgstr "Användarnamnet finns inte."
+
+#: bb-templates/kakumei/login.php:24
+msgid "Register it?"
+msgstr "Registrera det?"
+
+#: bb-templates/kakumei/login.php:43
+msgid "Try Again"
+msgstr "Försök igen"
+
+#: bb-templates/kakumei/login.php:51
+msgid "If you would like to recover the password for this account, you may use the following button to start the recovery process:"
+msgstr ""
+
+#: bb-templates/kakumei/login.php:53
+msgid "Recover Password"
+msgstr ""
+
+#: bb-templates/kakumei/password-reset.php:8
+msgid "Your password has been reset and a new one has been mailed to you."
+msgstr ""
+
+#: bb-templates/kakumei/password-reset.php:10
+msgid "An email has been sent to the address we have on file for you. If you don&#8217;t get anything with a few minutes, or your email has changed, you may want to get in touch with the webmaster or forum administrator here."
+msgstr ""
+
+#: bb-templates/kakumei/post-form.php:3
+msgid "Topic title: (be brief and descriptive)"
+msgstr ""
+
+#: bb-templates/kakumei/post-form.php:15
+#, php-format
+msgid "Enter a few words (called <a href=\"%s\">tags</a>) separated by spaces to help someone find your topic:"
+msgstr ""
+
+#: bb-templates/kakumei/post-form.php:22
+msgid "Pick a section:"
+msgstr ""
+
+#: bb-templates/kakumei/post-form.php:28
+msgid "Send Post"
+msgstr "Skicka inlägg"
+
+#: bb-templates/kakumei/post.php:8
+#, php-format
+msgid "Posted %s ago"
+msgstr "Skrivet för %s sedan"
+
+#: bb-templates/kakumei/profile-edit.php:3
+msgid "Edit Profile"
+msgstr "Redigera profilen"
+
+#: bb-templates/kakumei/profile-edit.php:7
+msgid "Profile Info"
+msgstr "Profilinformation"
+
+#: bb-templates/kakumei/profile-edit.php:13
+msgid "Administration"
+msgstr "Administration"
+
+#: bb-templates/kakumei/profile-edit.php:21
+msgid "If you wish to update your password, you may enter a new password twice below:"
+msgstr ""
+
+#: bb-templates/kakumei/profile-edit.php:24
+msgid "New password:"
+msgstr "Nytt lösenord:"
+
+#: bb-templates/kakumei/profile-edit.php:35
+msgid "Update Profile &raquo;"
+msgstr "Uppdatera profilen &raquo;"
+
+#: bb-templates/kakumei/profile.php:8
+msgid "Profile updated"
+msgstr "Profilen uppdaterad"
+
+#: bb-templates/kakumei/profile.php:8
+msgid "Edit again &raquo;"
+msgstr "Redigera igen &raquo;"
+
+#: bb-templates/kakumei/profile.php:11
+#, php-format
+msgid "This is how your profile appears to a fellow logged in member, you may <a href=\"%1$s\">edit this information</a>. You can also <a href=\"%2$s\">manage your favorites</a> and subscribe to your favorites&#8217; <a href=\"%3$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>"
+msgstr ""
+
+#: bb-templates/kakumei/profile.php:16
+msgid "User Activity"
+msgstr "Användaraktivitet"
+
+#: bb-templates/kakumei/profile.php:18
+msgid "Recent Replies"
+msgstr "Senaste svar"
+
+#: bb-templates/kakumei/profile.php:24
+#, php-format
+msgid "You last replied: %s ago."
+msgstr "Du svarade senast: för %s sedan."
+
+#: bb-templates/kakumei/profile.php:24
+#, php-format
+msgid "User last replied: %s ago."
+msgstr "Användaren svarade senast: för %s sedan."
+
+#: bb-templates/kakumei/profile.php:28
+#, php-format
+msgid "Most recent reply: %s ago"
+msgstr "Senaste svar: för %s sedan"
+
+#: bb-templates/kakumei/profile.php:30
+msgid "No replies since."
+msgstr "Inga svar sedan."
+
+#: bb-templates/kakumei/profile.php:36
+msgid "No more replies."
+msgstr "Inga ytterligare svar."
+
+#: bb-templates/kakumei/profile.php:38
+msgid "No replies yet."
+msgstr "Inga svar ännu."
+
+#: bb-templates/kakumei/profile.php:43
+msgid "Threads Started"
+msgstr ""
+
+#: bb-templates/kakumei/profile.php:49
+#, php-format
+msgid "Started: %s ago"
+msgstr "Påbörjad: för %s sedan"
+
+#: bb-templates/kakumei/profile.php:53
+#, php-format
+msgid "Most recent reply: %s ago."
+msgstr "Senaste svar: %s sedan."
+
+#: bb-templates/kakumei/profile.php:55
+msgid "No replies."
+msgstr "Inga svar."
+
+#: bb-templates/kakumei/profile.php:61
+msgid "No more topics posted."
+msgstr ""
+
+#: bb-templates/kakumei/profile.php:63
+msgid "No topics posted yet."
+msgstr ""
+
+#: bb-templates/kakumei/register-success.php:3
+#: bb-templates/kakumei/register.php:3
+#: bb-templates/kakumei/register.php:45
+msgid "Register"
+msgstr "Registrera dig"
+
+#: bb-templates/kakumei/register-success.php:5
+msgid "Great!"
+msgstr "Toppen!"
+
+#: bb-templates/kakumei/register-success.php:7
+#, php-format
+msgid "Your registration as <strong>%s</strong> was successful. Within a few minutes you should receive an email with your password."
+msgstr ""
+
+#: bb-templates/kakumei/register.php:5
+msgid "Registration"
+msgstr "Registrering"
+
+#: bb-templates/kakumei/register.php:10
+msgid "Profile Information"
+msgstr "Profilinformation"
+
+#: bb-templates/kakumei/register.php:11
+#, php-format
+msgid "A password will be mailed to the email address you provide. Make sure to whitelist our domain (%s) so the confirmation email doesn't get caught by any  filters."
+msgstr ""
+
+#: bb-templates/kakumei/register.php:17
+msgid "Your username was not valid, please try again"
+msgstr "Ditt användarnamn var inte giltigt, försök igen."
+
+#: bb-templates/kakumei/register.php:21
+msgid "Username<sup>*</sup>:"
+msgstr "Användarnamn<sup>*</sup>:"
+
+#: bb-templates/kakumei/register.php:49
+msgid "You&#8217;re already logged in, why do you need to register?"
+msgstr "Du är redan inloggad, varför vill du registrera dig?"
+
+#: bb-templates/kakumei/search-form.php:2
+msgid "Search:"
+msgstr "Sök:"
+
+#: bb-templates/kakumei/search-form.php:6
+msgid "Search &raquo;"
+msgstr "Sök &raquo;"
+
+#: bb-templates/kakumei/search-form.php:8
+msgid "Search again &raquo;"
+msgstr "Sök igen &raquo;"
+
+#: bb-templates/kakumei/search.php:3
+msgid "Search"
+msgstr "Sök"
+
+#: bb-templates/kakumei/search.php:7
+msgid "Search for"
+msgstr "Sök efter"
+
+#: bb-templates/kakumei/search.php:21
+msgid "Thread title matches"
+msgstr ""
+
+#: bb-templates/kakumei/search.php:29
+#, php-format
+msgid " %1$d replies &#8212; Last reply: %2$s"
+msgstr " %1$d svar &#8212; Senaste svar: %2$s"
+
+#: bb-templates/kakumei/search.php:42
+#: bb-templates/kakumei/search.php:54
+msgid "Posted"
+msgstr "Skrivet"
+
+#: bb-templates/kakumei/search.php:42
+#: bb-templates/kakumei/search.php:54
+msgid "F j, Y, h:i A"
+msgstr ""
+
+#: bb-templates/kakumei/search.php:49
+msgid "Relevant posts"
+msgstr ""
+
+#: bb-templates/kakumei/search.php:61
+msgid "No results found."
+msgstr "Hittade inga resultat."
+
+#: bb-templates/kakumei/search.php:64
+#, php-format
+msgid "You may also try your <a href=\"http://google.com/search?q=site:%1$s %2$s\">search at Google</a>"
+msgstr ""
+
+#: bb-templates/kakumei/stats.php:6
+msgid "Registered Users"
+msgstr "Registerade användare"
+
+#: bb-templates/kakumei/stats.php:13
+msgid "Most Popular Topics"
+msgstr "Populäraste ämnen"
+
+#: bb-templates/kakumei/tag-form.php:4
+msgid "Add"
+msgstr "Lägg till"
+
+#: bb-templates/kakumei/tag-single.php:5
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> link for this tag."
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr>-länk för den här etiketten."
+
+#: bb-templates/kakumei/tags.php:5
+msgid "This is a collection of tags that are currently popular on the forums."
+msgstr ""
+
+#: bb-templates/kakumei/topic-tags.php:4
+msgid "Your tags:"
+msgstr "Dina etiketter:"
+
+#: bb-templates/kakumei/topic-tags.php:15
+msgid "Tags:"
+msgstr "Etiketter:"
+
+#: bb-templates/kakumei/topic-tags.php:25
+#, php-format
+msgid "No <a href=\"%s\">tags</a> yet."
+msgstr "Inga <a href=\"%s\">etiketter</a> ännu."
+
+#: bb-templates/kakumei/topic.php:10
+#, php-format
+msgid "Started %1$s ago by %2$s"
+msgstr "Påbörjad för %1$s sedan av %2$s"
+
+#: bb-templates/kakumei/topic.php:12
+#, php-format
+msgid "<a href=\"%1$s\">Latest reply</a> from %2$s"
+msgstr "<a href=\"%1$s\">Senast svar</a> av %2$s"
+
+#: bb-templates/kakumei/topic.php:40
+msgid "RSS feed for this topic"
+msgstr "RSS-flöde för det här ämnet"
+
+#: bb-templates/kakumei/topic.php:48
+msgid "Topic Closed"
+msgstr "Ämnet stängt"
+
+#: bb-templates/kakumei/topic.php:49
+msgid "This topic has been closed to new replies."
+msgstr ""
+
+#: favorites.php:7
+msgid "You cannot edit those favorites.  How did you get here?"
+msgstr "Du kan inte redigera de där favoriterna. Hur kom du hit?"
+
+#: forum.php:10
+msgid "Forum not found."
+msgstr "Hittade inte forumet."
+
+#: profile.php:7
+msgid "Username not found."
+msgstr "Hittade inte användarnamnet."
+
+#: profile.php:16
+msgid "User not found."
+msgstr "Hittade inte användaren."
+
+#: rss.php:40
+msgid "User Favorites"
+msgstr "Användarfavoriter"
+
+#: rss.php:54
+msgid "Last 35 Posts"
+msgstr "Senaste 35 inlägg"
+
+#: tag-add.php:7
+msgid "You need to be logged in to add a tag."
+msgstr "Du måste var inloggad för att kunna lägga till en etikett."
+
+#: tag-add.php:16
+#: topic.php:15
+msgid "Topic not found."
+msgstr "Hittade inte ämnet."
+
+#: tag-add.php:21
+msgid "The tag was not added.  Either the tag name was invalid or the topic is closed."
+msgstr ""
+
+#: tag-remove.php:17
+msgid "Invalid tag or topic."
+msgstr "Ogiltig etikett eller ogiltigt ämne."
+
+#: tag-remove.php:22
+msgid "The tag was not removed.  You cannot remove a tag from a closed topic."
+msgstr ""
+
+#: tags.php:9
+msgid "Tag not found"
+msgstr "Hittade inte etiketten"
+

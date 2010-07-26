@@ -1,0 +1,4711 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: bbPress 0.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-01-11 19:44+0200\n"
+"PO-Revision-Date: 2009-01-11 19:47+0200\n"
+"Last-Translator: Erko Risthein <erko@risthein.ee>\n"
+"Language-Team: Erko Risthein <erko@risthein.ee>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Estonian\n"
+"X-Poedit-Country: ESTONIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: /bb-edit.php:16
+msgid "Sorry, post is too old."
+msgstr "Vabandame, postitus on liiga vana."
+
+#: /bb-login.php:54
+msgid "User does not exist."
+msgstr "Sellist kasutat ei ole olemas."
+
+#: /bb-login.php:56
+msgid "Enter a username or email address."
+msgstr "Sisestage kasutajanimi või e-postiaadress."
+
+#: /bb-login.php:56
+msgid "Enter a username."
+msgstr "Sisestage kasutajanimi."
+
+#: /bb-login.php:60
+msgid "Incorrect password."
+msgstr "Vale parool."
+
+#: /bb-login.php:65
+msgid "Username and Password do not match."
+msgstr "Vale kasutajanimi või parool."
+
+#: /bb-post.php:8
+msgid "Slow down; you move too fast."
+msgstr "Võtke hoogu maha; te liigute liiga kiiresti."
+
+#: /bb-post.php:11
+msgid "You need to actually submit some content!"
+msgstr "Postituse sisu puudub!"
+
+#: /bb-post.php:15
+#: /bb-post.php:36
+msgid "You are not allowed to post.  Are you logged in?"
+msgstr "Teil ei ole õigust postitada. Olete ikka sisse logitud?"
+
+#: /bb-post.php:18
+msgid "You are not allowed to write new topics."
+msgstr "Teil ei ole õigust uusi teemasid kirjutada."
+
+#: /bb-post.php:26
+msgid "Please enter a topic title"
+msgstr "Palun sisestage teema pealkiri"
+
+#: /bb-post.php:39
+msgid "This topic has been closed"
+msgstr "See teema on suletud"
+
+#: /bb-reset-password.php:12
+msgid "No username specified"
+msgstr "Kasutajanime ei ole määratud"
+
+#: /bb-settings.php:478
+msgid "Could not determine site URI"
+msgstr "Ei suutnud määrata lehe URI'd"
+
+#: /bb-settings.php:593
+msgid "Your user table prefix may only contain letters, numbers and underscores."
+msgstr "Kasutajate tabelite eesliide võib sisaldada ainult tähti, numbreid ja alakriipse."
+
+#: /favorites.php:7
+msgid "You cannot edit those favorites.  How did you get here?"
+msgstr "Teil puuduvad õigused neid lemmikuid muuta. Kuidas te üldse siia sattusid?"
+
+#: /forum.php:10
+msgid "Forum not found."
+msgstr "Foorumit ei leitud."
+
+#: /profile-edit.php:61
+#: /profile-edit.php:102
+#, php-format
+msgid "%s is required."
+msgstr "%s on kohustuslik."
+
+#: /profile-edit.php:68
+msgid "Invalid email address"
+msgstr "Vigane e-postiaadress"
+
+#: /profile-edit.php:88
+msgid "Invalid Role"
+msgstr "Vigane kasutajaroll"
+
+#: /profile-edit.php:90
+msgid "You are not the Gate Keeper."
+msgstr "Sa ei ole Väravavalvur."
+
+#: /profile-edit.php:92
+msgid "You are Keymaster, so you may not demote yourself."
+msgstr "Te olete super admin, seega te ei saa endalt seda staatust eemaldada."
+
+#: /profile-edit.php:119
+msgid "You must enter the same password twice."
+msgstr "Te peate sisestama kaks korda sama parooli."
+
+#: /profile-edit.php:121
+msgid "You are not allowed to change this user's password."
+msgstr "Sul ei ole õigusi selle kasutaja parooli muuta."
+
+#: /register.php:28
+#, php-format
+msgid "%s is an invalid username.  How's this one?"
+msgstr "%s on ebakorrektne kasutajanimi. Kuidas on lood sellega?"
+
+#: /register.php:40
+#, php-format
+msgid "%s is required"
+msgstr "%s on kohustuslik"
+
+#: /rss.php:89
+msgid "Topic"
+msgstr "Teema"
+
+#: /rss.php:100
+msgid "User Favorites"
+msgstr "Kasutaja lemmikud"
+
+#: /rss.php:110
+msgid "Tag"
+msgstr "Silt"
+
+#: /rss.php:124
+#: /rss.php:132
+msgid "Forum"
+msgstr "Foorum"
+
+#: /rss.php:124
+#: /rss.php:147
+msgid "Recent Topics"
+msgstr "Värsked teemad"
+
+#: /rss.php:132
+#: /rss.php:157
+msgid "Recent Posts"
+msgstr "Värsked postitused"
+
+#: /statistics.php:9
+msgid "Statistics"
+msgstr "Statistika"
+
+#: /tag-add.php:7
+msgid "You need to be logged in to add a tag."
+msgstr "Siltide lisamiseks pead sisse logima."
+
+#: /tag-add.php:17
+#: /topic.php:14
+msgid "Topic not found."
+msgstr "Teemat ei leitud."
+
+#: /tag-add.php:22
+msgid "The tag was not added.  Either the tag name was invalid or the topic is closed."
+msgstr "Seda silti ei lisatud. Sildi nimi oli lubamatu või on teema suletud."
+
+#: /tag-remove.php:17
+msgid "Invalid tag or topic."
+msgstr "Vigane silt või teema."
+
+#: /tag-remove.php:24
+msgid "The tag was not removed.  You cannot remove a tag from a closed topic."
+msgstr "Seda silti ei kustutatud. Te ei saa suletud teema silti kustutada."
+
+#: /tags.php:9
+msgid "Tag not found"
+msgstr "Silti ei leitud"
+
+#: /xmlrpc.php:234
+msgid "Authentication failed."
+msgstr "Tuvastus ebaõnnestu"
+
+#: /xmlrpc.php:244
+#: /xmlrpc.php:273
+msgid "You do not have permission to read this."
+msgstr "Teil puuduvad õigused selle lugemiseks."
+
+#: /xmlrpc.php:263
+msgid "User switching failed, the requested user does not exist."
+msgstr "Kasutaja vahetamine ebaõnnestus, sest sellist kasutajat pole olemas."
+
+#: /xmlrpc.php:605
+#: /xmlrpc.php:729
+#: /xmlrpc.php:828
+#: /xmlrpc.php:1015
+#: /xmlrpc.php:1141
+#: /xmlrpc.php:1250
+#: /xmlrpc.php:1361
+#: /xmlrpc.php:1558
+#: /xmlrpc.php:1915
+msgid "The forum id is invalid."
+msgstr "Foorumi ID on vigane."
+
+#: /xmlrpc.php:610
+#: /xmlrpc.php:734
+#: /xmlrpc.php:1255
+#: /xmlrpc.php:1366
+msgid "The forum does not exist."
+msgstr "Foorumit ei eksisteeri."
+
+#: /xmlrpc.php:755
+#: /xmlrpc.php:1267
+msgid "No forums found."
+msgstr "Foorumeid ei leitud."
+
+#: /xmlrpc.php:834
+#: /xmlrpc.php:1021
+#: /xmlrpc.php:1147
+#: /xmlrpc.php:1564
+#: /xmlrpc.php:1921
+msgid "No forum found."
+msgstr "Foorumit ei leitud."
+
+#: /xmlrpc.php:893
+#: /xmlrpc.php:993
+msgid "You do not have permission to manage forums."
+msgstr "Teil puuduvad õigused foorumite haldamiseks."
+
+#: /xmlrpc.php:904
+#: /xmlrpc.php:1004
+msgid "The forum data is invalid."
+msgstr "Foorumi andmed on vigased."
+
+#: /xmlrpc.php:912
+#: /xmlrpc.php:1041
+msgid "The forum name is invalid."
+msgstr "Foorumi nimi on vigane."
+
+#: /xmlrpc.php:933
+msgid "The forum could not be created."
+msgstr "Foorumit ei suudetud luua."
+
+#: /xmlrpc.php:1083
+msgid "The forum could not be edited."
+msgstr "Foorumit ei suudetud muuta."
+
+#: /xmlrpc.php:1127
+msgid "You do not have permission to delete forums."
+msgstr "Teil puuduvad õigused foorumite kustutamiseks."
+
+#: /xmlrpc.php:1158
+msgid "You do not have permission to delete this forum."
+msgstr "Teil puuduvad õigused selle foorumi kustutamiseks."
+
+#: /xmlrpc.php:1167
+msgid "The forum could not be deleted."
+msgstr "Foorumit ei suudetud kustutada."
+
+#: /xmlrpc.php:1386
+#: /xmlrpc.php:2947
+msgid "No topics found."
+msgstr "Ühtegi teemat ei leitud."
+
+#: /xmlrpc.php:1459
+#: /xmlrpc.php:1696
+#: /xmlrpc.php:1810
+#: /xmlrpc.php:1897
+#: /xmlrpc.php:1996
+#: /xmlrpc.php:2096
+#: /xmlrpc.php:2196
+#: /xmlrpc.php:2288
+#: /xmlrpc.php:2464
+#: /xmlrpc.php:2758
+#: /xmlrpc.php:2833
+#: /xmlrpc.php:3036
+#: /xmlrpc.php:3154
+msgid "The topic id is invalid."
+msgstr "Teema ID on vale."
+
+#: /xmlrpc.php:1465
+#: /xmlrpc.php:1702
+#: /xmlrpc.php:1816
+#: /xmlrpc.php:1903
+#: /xmlrpc.php:2002
+#: /xmlrpc.php:2102
+#: /xmlrpc.php:2202
+#: /xmlrpc.php:2294
+#: /xmlrpc.php:2470
+#: /xmlrpc.php:2764
+#: /xmlrpc.php:2839
+#: /xmlrpc.php:3042
+#: /xmlrpc.php:3160
+msgid "No topic found."
+msgstr "Teemat ei leitud."
+
+#: /xmlrpc.php:1531
+msgid "You do not have permission to write topics."
+msgstr "Teil puuduvad õigused teemade kirjutamiseks."
+
+#: /xmlrpc.php:1535
+#: /xmlrpc.php:2442
+msgid "You do not have permission to write posts."
+msgstr "Teil puuduvad õigused postituste kirjutamiseks."
+
+#: /xmlrpc.php:1547
+#: /xmlrpc.php:1685
+msgid "The topic data is invalid."
+msgstr "Teema andmed on vigased."
+
+#: /xmlrpc.php:1573
+msgid "You do not have permission to write topics to this forum."
+msgstr "Teil puuduvad õigused siia foorumisse teemade kirjutamiseks."
+
+#: /xmlrpc.php:1579
+#: /xmlrpc.php:1731
+msgid "The topic title is invalid."
+msgstr "Teema nimi on vigane."
+
+#: /xmlrpc.php:1585
+#: /xmlrpc.php:1737
+msgid "The topic text is invalid."
+msgstr "Teema tekst on vigane."
+
+#: /xmlrpc.php:1601
+msgid "The topic could not be created."
+msgstr "Teemat ei suudetud luua."
+
+#: /xmlrpc.php:1613
+#: /xmlrpc.php:2497
+msgid "The post could not be created."
+msgstr "Postitust ei suudetud luua."
+
+#: /xmlrpc.php:1669
+msgid "You do not have permission to edit topics."
+msgstr "Teil puuduvad õigused teemade muutmiseks."
+
+#: /xmlrpc.php:1673
+#: /xmlrpc.php:2552
+msgid "You do not have permission to edit posts."
+msgstr "Teil puuduvad õigused postituste muutmiseks."
+
+#: /xmlrpc.php:1711
+msgid "You do not have permission to edit this topic."
+msgstr "Teil puuduvad õigused selle postituse muutmiseks."
+
+#: /xmlrpc.php:1717
+#: /xmlrpc.php:2316
+msgid "No posts found."
+msgstr "Ühtegi postitust ei leitud."
+
+#: /xmlrpc.php:1725
+#: /xmlrpc.php:2589
+msgid "You do not have permission to edit this post."
+msgstr "Teil puuduvad õigused selle postituse muutmiseks."
+
+#: /xmlrpc.php:1743
+msgid "The topic could not be edited."
+msgstr "Teemat ei suudetud muuta."
+
+#: /xmlrpc.php:1750
+#: /xmlrpc.php:2607
+#: /xmlrpc.php:2693
+msgid "The post could not be edited."
+msgstr "Postitust ei suudetud muuta."
+
+#: /xmlrpc.php:1796
+msgid "You do not have permission to delete topics."
+msgstr "Teil puuduvad õigused teemade kustutamiseks."
+
+#: /xmlrpc.php:1832
+msgid "You do not have permission to delete this topic."
+msgstr "Teil puuduvad õigused selle teema kustutamiseks."
+
+#: /xmlrpc.php:1838
+msgid "The topic could not be deleted."
+msgstr "Teemat ei suudetud kustutada."
+
+#: /xmlrpc.php:1883
+msgid "You do not have permission to move topics."
+msgstr "Teil puuduvad õigused teemade liigutamiseks."
+
+#: /xmlrpc.php:1932
+msgid "You are not allowed to move this topic to this forum."
+msgstr "Teil puuduvad õigused teemade liigutamiseks."
+
+#: /xmlrpc.php:1938
+msgid "The topic could not be moved."
+msgstr "Teemat ei suudetud liigutada."
+
+#: /xmlrpc.php:1982
+msgid "You do not have permission to stick topics."
+msgstr "Teil puuduvad õigused teemade kleebiseks tegemiseks."
+
+#: /xmlrpc.php:2011
+msgid "You do not have permission to stick this topic."
+msgstr "Teil puuduvad õigused selle teema kleebiseks tegemiseks."
+
+#: /xmlrpc.php:2025
+msgid "The topic could not be stuck."
+msgstr "Teemat ei suudetud kinnitada."
+
+#: /xmlrpc.php:2082
+msgid "You do not have permission to close topics."
+msgstr "Teil puuduvad õigused teemade sulgemiseks."
+
+#: /xmlrpc.php:2111
+msgid "You do not have permission to close this topic."
+msgstr "Teil puuduvad õigused selle teema sulgemiseks."
+
+#: /xmlrpc.php:2125
+msgid "The topic could not be closed."
+msgstr "Teemat ei suudetud sulgeda."
+
+#: /xmlrpc.php:2131
+msgid "The topic could not be opened."
+msgstr "Teemat ei suudetud avada."
+
+#: /xmlrpc.php:2380
+#: /xmlrpc.php:2574
+#: /xmlrpc.php:2666
+msgid "The post id is invalid."
+msgstr "Postituse ID on vigane."
+
+#: /xmlrpc.php:2386
+#: /xmlrpc.php:2580
+#: /xmlrpc.php:2672
+msgid "No post found."
+msgstr "Ühtegi postitust ei leitud."
+
+#: /xmlrpc.php:2453
+#: /xmlrpc.php:2563
+msgid "The post data is invalid."
+msgstr "Postituse andmed on vigased."
+
+#: /xmlrpc.php:2479
+msgid "You do not have permission to write posts to this topic."
+msgstr "Teil puuduvad õigused siia teemasse postituste tegemiseks."
+
+#: /xmlrpc.php:2485
+#: /xmlrpc.php:2595
+msgid "The post text is invalid."
+msgstr "Postituse tekst on vigane."
+
+#: /xmlrpc.php:2652
+msgid "You do not have permission to delete posts."
+msgstr "Teil puuduvad õigused postituste kustutamiseks."
+
+#: /xmlrpc.php:2681
+msgid "You do not have permission to delete this post."
+msgstr "Teil puuduvad õigused selle postituse kustutamiseks."
+
+#: /xmlrpc.php:2848
+msgid "No topic tags found."
+msgstr "Ühtegi teema silti ei leitud."
+
+#: /xmlrpc.php:2915
+#: /xmlrpc.php:3243
+msgid "The tag id is invalid."
+msgstr "Sildi ID on vigane."
+
+#: /xmlrpc.php:2921
+#: /xmlrpc.php:3249
+msgid "No tag found."
+msgstr "Ühtegi silti ei leitud."
+
+#: /xmlrpc.php:3022
+#: /xmlrpc.php:3140
+msgid "You do not have permission to edit tags."
+msgstr "Teil puuduvad õigused siltide muutmiseks."
+
+#: /xmlrpc.php:3051
+msgid "You do not have permission to add tags to this topic."
+msgstr "Teil puuduvad õigused sellele teemale siltide lisamiseks."
+
+#: /xmlrpc.php:3059
+#: /xmlrpc.php:3177
+msgid "The tag data is invalid."
+msgstr "Sildi andmed on vigased."
+
+#: /xmlrpc.php:3065
+msgid "The tags could not be added."
+msgstr "Silte ei suudetud lisada."
+
+#: /xmlrpc.php:3169
+msgid "You do not have permission to remove tags from this topic."
+msgstr "Teil puuduvad õigused sellelt teemalt siltide eemaldamiseks."
+
+#: /xmlrpc.php:3183
+msgid "The tags could not be removed."
+msgstr "Silte ei suudetud eemaldada."
+
+#: /xmlrpc.php:3229
+msgid "You do not have permission to manage tags."
+msgstr "Teil puuduvad õigused siltide haldamiseks."
+
+#: /xmlrpc.php:3261
+msgid "The tag name is invalid."
+msgstr "Sildi nimi on vigane."
+
+#: /xmlrpc.php:3270
+msgid "The tag could not be renamed."
+msgstr "Silti ei suudetud ümber nimetada."
+
+#: /xmlrpc.php:3300
+msgid "Software Name"
+msgstr "Tarkvara nimetus"
+
+#: /xmlrpc.php:3305
+msgid "Software Version"
+msgstr "Tarkvara versioon"
+
+#: /xmlrpc.php:3310
+msgid "Site URL"
+msgstr "Lehe URL"
+
+#: /xmlrpc.php:3317
+msgid "Site Name"
+msgstr "Lehe nimi"
+
+#: /xmlrpc.php:3322
+msgid "Site Description"
+msgstr "Lehe kirjeldus"
+
+#: /xmlrpc.php:3327
+msgid "Time Zone"
+msgstr "Ajavöönd"
+
+#: /xmlrpc.php:3332
+msgid "Date/Time Format"
+msgstr "Kuupäeva- ja ajavorming"
+
+#: /xmlrpc.php:3337
+msgid "Date Format"
+msgstr "Kuupäevavorming"
+
+#: /xmlrpc.php:3480
+msgid "You are not allowed to manage options."
+msgstr "Teil puuduvad õigused seadete haldamiseks."
+
+#: /xmlrpc.php:3491
+msgid "The options data is invalid."
+msgstr "Seadete andmed on vigased."
+
+#: /xmlrpc.php:3571
+msgid "This is not the site you are trying to pingback."
+msgstr "See pole see leht, mida te proovide pingida."
+
+#: /xmlrpc.php:3580
+msgid "The source URL and the target URL cannot both point to the same resource."
+msgstr "Lähte- ja sihtkoha URL-id ei tohi olla samad."
+
+#: /xmlrpc.php:3585
+#: /xmlrpc.php:3772
+msgid "The specified target URL cannot be used as a target. It either doesn't exist, or it is not a pingback-enabled resource."
+msgstr "Määratud URL ei sobi. Seda kas ei ole olemas või ei tunnista ta pingback-i."
+
+#: /xmlrpc.php:3596
+msgid "The specified target topic does not contain any posts."
+msgstr "Sisestatud teema ei sisalda ühtegi postitust."
+
+#: /xmlrpc.php:3603
+msgid "The pingback has already been registered."
+msgstr "See pingback-viide on juba registreeritud."
+
+#: /xmlrpc.php:3615
+msgid "The source URL does not exist."
+msgstr "Lähtekoha URL-i ei leitud."
+
+#: /xmlrpc.php:3635
+msgid "We cannot find a title on that page."
+msgstr "Selle lehe pealkirja ei leitud."
+
+#: /xmlrpc.php:3690
+msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
+msgstr "Lähtekoha URL ei viita sihtkoha URL-ile, seega seda ei saa allikana kasutada."
+
+#: /xmlrpc.php:3705
+msgid "The pingback could not be added."
+msgstr "Pingback-viidet ei suudetud lisada."
+
+#: /xmlrpc.php:3722
+#, php-format
+msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
+msgstr "Laekus pingback-viide postituselt %1$s postitusele %2$s. Jätkake veebi suhtlemist! :-)"
+
+#: /xmlrpc.php:3753
+msgid "The requested method only accepts one parameter."
+msgstr "Päritud funktsioon võtab vastu vaid ühe parameetri."
+
+#: /xmlrpc.php:3766
+msgid "The specified target URL is not on this domain."
+msgstr "Sisestatud sihtkoha URL ei asu sellel domeenil."
+
+#: /bb-admin/admin-base.php:13
+msgid "Nothing to see here."
+msgstr "Siin pole midagi vaadata."
+
+#: /bb-admin/admin-footer.php:7
+#, php-format
+msgid "Thank you for using <a href=\"%s\">bbPress</a> | <a href=\"%s\">Documentation</a> | <a href=\"%s\">Development</a> | Version %s"
+msgstr "Täname, et kasutate <a href=\"%s\">bbPressi</a> | <a href=\"%s\">Dokumentatsioon</a> | <a href=\"%s\">Arendus</a> | Versioon %s"
+
+#: /bb-admin/admin-footer.php:18
+#, php-format
+msgid "This page generated in %s seconds, using %d queries"
+msgstr "Leht genereeriti %s sekundiga, tehes %d päringut"
+
+#: /bb-admin/admin-header.php:20
+msgid "Visit Site"
+msgstr "Esilehele"
+
+#: /bb-admin/admin-header.php:25
+#, php-format
+msgid "Howdy, %1$s!"
+msgstr "Hei %1$s!"
+
+#: /bb-admin/admin-header.php:27
+msgid "Support forums"
+msgstr "Tugifoorum"
+
+#: /bb-admin/bb-do-counts.php:12
+msgid "Recounting"
+msgstr "Loendan"
+
+#: /bb-admin/bb-do-counts.php:19
+msgid "Counting posts..."
+msgstr "Loendan postitusi..."
+
+#: /bb-admin/bb-do-counts.php:24
+msgid "Done counting posts."
+msgstr "Postitused loendatud."
+
+#: /bb-admin/bb-do-counts.php:33
+msgid "Counting deleted posts..."
+msgstr "Loendan kustutatud postitusi..."
+
+#: /bb-admin/bb-do-counts.php:43
+msgid "Done counting deleted posts."
+msgstr "Kustutatud postitused loendatud."
+
+#: /bb-admin/bb-do-counts.php:45
+msgid "No deleted posts to count."
+msgstr "Pole ühtegi kustutatud teemat, mida loendada."
+
+#: /bb-admin/bb-do-counts.php:53
+msgid "Counting forum topics and posts..."
+msgstr "Loendan foorumi teemasid ja postitusi..."
+
+#: /bb-admin/bb-do-counts.php:67
+msgid "Done counting forum topics and posts."
+msgstr "Teemad ja postitused loendatud."
+
+#: /bb-admin/bb-do-counts.php:74
+msgid "Counting topics to which each user has replied..."
+msgstr "Loendan teemasid, kuhu iga kasutaja on vastanud..."
+
+#: /bb-admin/bb-do-counts.php:79
+msgid "Done counting topics."
+msgstr "Teemad loendatud."
+
+#: /bb-admin/bb-do-counts.php:92
+msgid "Counting topic tags..."
+msgstr "Loendan teema silte..."
+
+#: /bb-admin/bb-do-counts.php:104
+msgid "Done counting topic tags."
+msgstr "Teemade sildid loendatud."
+
+#: /bb-admin/bb-do-counts.php:111
+msgid "Counting tagged topics..."
+msgstr "Loendan sildistatud teemasid..."
+
+#: /bb-admin/bb-do-counts.php:123
+msgid "Done counting tagged topics."
+msgstr "Sildistatud postitused loendatud."
+
+#: /bb-admin/bb-do-counts.php:129
+msgid "Deleted tags with no topics."
+msgstr "Ilma teemadeta sildid kustutatud."
+
+#: /bb-admin/bb-do-counts.php:138
+msgid "Removing deleted topics from users' favorites..."
+msgstr "Eemaldan kustutatud postitused kasutajate lemmikutest..."
+
+#: /bb-admin/bb-do-counts.php:147
+msgid "Done removing deleted topics from users' favorites."
+msgstr "Kustutatud postitused kasutajate lemmikutest eemaldatud."
+
+#: /bb-admin/bb-do-counts.php:156
+msgid "Done recounting.  The process took"
+msgstr "Loendamine tehtud. See võttis aega"
+
+#: /bb-admin/bb-do-counts.php:157
+#, php-format
+msgid "%1$d queries and %2$s seconds."
+msgstr "%1$d päringut ja %2$s sekundit."
+
+#: /bb-admin/bb-forum.php:5
+msgid "You don't have the authority to mess with the forums."
+msgstr "Vabandust, teil pole õigust seda teha."
+
+#: /bb-admin/bb-forum.php:15
+msgid "Bad forum name.  Go back and try again."
+msgstr "Halb foorumi nimi. Mine tagasi ja proovi uuesti."
+
+#: /bb-admin/bb-forum.php:23
+msgid "The forum was not added"
+msgstr "Foorumit ei lisatud"
+
+#: /bb-admin/bb-forum.php:30
+msgid "No forums to update!"
+msgstr "Pole ühtegi foorumit, mida uuendada!"
+
+#: /bb-admin/bb-forum.php:45
+msgid "You don't have the authority to kill off the forums."
+msgstr "Teil pole õigust seda teha."
+
+#: /bb-admin/bb-forum.php:51
+msgid "Error occured while trying to delete forum"
+msgstr "Foorumi kustutamisel esines viga"
+
+#: /bb-admin/content-forums.php:17
+msgid "Forum Updated."
+msgstr "Foorum uuendatud."
+
+#: /bb-admin/content-forums.php:21
+#, php-format
+msgid "Forum deleted.  You should have bbPress <a href=\"%s\">recount your site information</a>."
+msgstr "Foorum kustutatud. Peaksite laskma bbPressil <a href=\"%s\">andmed üle loendada</a>."
+
+#: /bb-admin/content-forums.php:36
+msgid "Forum Management"
+msgstr "Foorumi haldus"
+
+#: /bb-admin/content-forums.php:39
+msgid "Update Forum"
+msgstr "Uuenda foorumit"
+
+#: /bb-admin/content-forums.php:43
+#, php-format
+msgid "Are you sure you want to delete the \"<strong>%s</strong>\" forum?"
+msgstr "Olete kindel, et soovite \"<strong>%s</strong>\" foorumit kustutada?"
+
+#: /bb-admin/content-forums.php:44
+msgid "This forum contains"
+msgstr "See foorum sisaldab"
+
+#: /bb-admin/content-forums.php:46
+#: /bb-admin/index.php:23
+#, php-format
+msgid "%d topic"
+msgid_plural "%d topics"
+msgstr[0] "%d teema"
+msgstr[1] "%d teemat"
+
+#: /bb-admin/content-forums.php:47
+#: /bb-admin/index.php:19
+#: /bb-admin/index.php:25
+#, php-format
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d postitus"
+msgstr[1] "%d postitust"
+
+#: /bb-admin/content-forums.php:52
+msgid "Delete all topics and posts in this forum. <em>This can never be undone.</em>"
+msgstr "Kustuta kõik teemad ja postitused siit foorumist. <em>Neid ei saa taastada.</em>"
+
+#: /bb-admin/content-forums.php:53
+msgid "Move topics from this forum into"
+msgstr "Liiguta siit foorumist teemad"
+
+#: /bb-admin/content-forums.php:57
+msgid "Delete forum &raquo;"
+msgstr "Kustuta foorum &raquo;"
+
+#: /bb-admin/content-forums.php:65
+msgid "&laquo; Go back"
+msgstr "&laquo; Tagasi"
+
+#: /bb-admin/content-forums.php:74
+msgid "Name &#8212; Description"
+msgstr "Nimi &#8212; Kirjeldus"
+
+#: /bb-admin/content-forums.php:81
+msgid "Add Forum"
+msgstr "Lisa foorum"
+
+#: /bb-admin/content-posts.php:6
+#: /bb-admin/content.php:6
+msgid "Now how'd you get here?  And what did you think you'd being doing?"
+msgstr "Kuidas te siia sattusite? Ja mida te kavatsesite teha?"
+
+#: /bb-admin/content-posts.php:24
+#: /bb-admin/content.php:26
+#, php-format
+msgid "matching &#8220;%s&#8221;"
+msgstr "Otsin &#8220;%s&#8221;"
+
+#: /bb-admin/content-posts.php:25
+#: /bb-admin/content.php:27
+#, php-format
+msgid "in &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221;"
+
+#: /bb-admin/content-posts.php:26
+#: /bb-admin/content.php:28
+#, php-format
+msgid "with tag &#8220;%s&#8221;"
+msgstr "sildiga &#8220;%s&#8221;"
+
+#: /bb-admin/content-posts.php:27
+#: /bb-admin/content.php:29
+#, php-format
+msgid "by %s"
+msgstr "Autor %s"
+
+#: /bb-admin/content-posts.php:29
+#: /bb-admin/content.php:31
+msgid "Normal"
+msgstr "Tavalised"
+
+#: /bb-admin/content-posts.php:29
+#: /bb-admin/content.php:31
+msgid "Deleted"
+msgstr "Kustutatud"
+
+#: /bb-admin/content-posts.php:32
+msgid "Posts"
+msgstr "Postitused"
+
+#: /bb-admin/content-posts.php:34
+#, php-format
+msgid "%1$sposts"
+msgstr "%1$spostitused"
+
+#: /bb-admin/content-posts.php:36
+#: /bb-admin/content.php:39
+#, php-format
+msgid "%1$s%2$s%3$s%4$s%5$s"
+msgstr "%1$s%2$s%3$s%4$s%5$s"
+
+#: /bb-admin/content-posts.php:40
+#: /bb-admin/content.php:43
+msgid "Filter &#187;"
+msgstr "Filter &#187;"
+
+#: /bb-admin/content.php:32
+msgid "Closed"
+msgstr "Suletud"
+
+#: /bb-admin/content.php:32
+msgid "Open"
+msgstr "Avatud"
+
+#: /bb-admin/content.php:35
+msgid "Topics"
+msgstr "Teemad"
+
+#: /bb-admin/content.php:37
+#, php-format
+msgid "%1$s%2$stopics"
+msgstr "%1$s%2$steemad"
+
+#: /bb-admin/content.php:51
+msgid "Last Poster"
+msgstr "Viimane postitaja"
+
+#: /bb-admin/content.php:52
+msgid "Freshness"
+msgstr "Värskus"
+
+#: /bb-admin/content.php:65
+msgid "No Topics Found"
+msgstr "Ühtegi teemat ei leitud"
+
+#: /bb-admin/delete-post.php:17
+msgid "There is a problem with that post, pardner."
+msgstr "Selle postitusega on probleem."
+
+#: /bb-admin/delete-topic.php:16
+#: /bb-admin/sticky.php:9
+msgid "There is a problem with that topic, pardner."
+msgstr "Selle teemaga on probleem."
+
+#: /bb-admin/export.php:19
+msgid "Either export is disabled or you are not allowed to export."
+msgstr "Eksportimine on keelatud või teil puudub õigus eksportida."
+
+#: /bb-admin/index.php:9
+msgid "Dashboard"
+msgstr "Töölaud"
+
+#: /bb-admin/index.php:12
+msgid "Right Now"
+msgstr "Kohe"
+
+#: /bb-admin/index.php:15
+#, php-format
+msgid "%d forum"
+msgid_plural "%d forums"
+msgstr[0] "%d foorum"
+msgstr[1] "%d foorumit"
+
+#: /bb-admin/index.php:17
+#, php-format
+msgid "is %d topic"
+msgid_plural "are %d topics"
+msgstr[0] "on %d teema"
+msgstr[1] "on %d teemat"
+
+#: /bb-admin/index.php:21
+#: /bb-admin/index.php:27
+#, php-format
+msgid "%d user"
+msgid_plural "%d users"
+msgstr[0] "%d kasutaja"
+msgstr[1] "%d kasutajat"
+
+#: /bb-admin/index.php:29
+#, php-format
+msgid "You have %1$s. There %2$s with %3$s by %4$s."
+msgstr "Teil on %1$s, %2$s, %3$s, %4$s."
+
+#: /bb-admin/index.php:30
+#, php-format
+msgid "That's an average of %1$s, %2$s and %3$s per day since your forums were started %4$s ago."
+msgstr "See on keskmiselt %1$s, %2$s ja %3$s päevas, alustades teie foorumi algusajast %4$s tagasi."
+
+#: /bb-admin/index.php:31
+#, php-format
+msgid "You are using the theme <a href=\"%1$s\">%2$s</a>. This is bbPress version %3$s"
+msgstr "Te kasutate <a href=\"%1$s\">%2$s</a> kujundust. See on bbPressi versioon %3$s"
+
+#: /bb-admin/index.php:35
+msgid "Recent User Registrations"
+msgstr "Hiljuti registreerunud"
+
+#: /bb-admin/index.php:41
+#, php-format
+msgid "registered %s ago"
+msgstr "registreerus %s tagasi"
+
+#: /bb-admin/index.php:48
+msgid "Recently Moderated Items"
+msgstr "Hiljuti kustutatud elemendid"
+
+#: /bb-admin/index.php:54
+msgid "Post"
+msgstr "Postitus"
+
+#: /bb-admin/index.php:55
+msgid "on"
+msgstr "teemas"
+
+#: /bb-admin/index.php:57
+msgid "by"
+msgstr "mille kirjutas"
+
+#: /bb-admin/index.php:62
+msgid "Topic titled"
+msgstr "Teema"
+
+#: /bb-admin/index.php:64
+msgid "started by"
+msgstr "mille alustas"
+
+#: /bb-admin/index.php:71
+msgid "No moderated posts or topics... you must have very well behaved members."
+msgstr "Mitte ühtegi modereeritud postitust või teemat... teie kasutajad käituvad väga hästi."
+
+#: /bb-admin/install.php:136
+#: /bb-admin/options-wordpress.php:124
+msgid "Cookies"
+msgstr "Küpsised"
+
+#: /bb-admin/install.php:137
+msgid "Integrating cookies allows you and your users to login to either your bbPress or your WordPress site and be automatically logged into both."
+msgstr "Küpsiste sidumisel ei pea te bbPressi ja WordPressi eraldi sisse logima - võite logida vaid ühte ning teid logitakse automaatselt sisse ka teise."
+
+#: /bb-admin/install.php:138
+msgid "You may need to make changes to your WordPress configuration once installation is complete. See the \"WordPress Integration\" section of the bbPress administration area when you are done."
+msgstr "Kui teil tekib vajadus teha muudatusi WordPressi seadetes peale paigaldamise lõppu, siis minge admin paneelis olevale \"WordPressiga sidumise\" lehele."
+
+#: /bb-admin/install.php:158
+#: /bb-admin/options-wordpress.php:236
+msgid "User database"
+msgstr "Kasutajate andmebaas"
+
+#: /bb-admin/install.php:159
+msgid "Integrating your WordPress database user tables allows you to store user data in one location, instead of having separate user data for both bbPress and WordPress."
+msgstr "Kasutajate andmebaasi tabelite sidumisel hoitakse kasutajate andmeid ühe kohas, selle asemel, et hoida neid bbPressil ja WordPressil eri kohtades."
+
+#: /bb-admin/install.php:167
+#: /bb-admin/options-wordpress.php:283
+msgid "Separate user database settings"
+msgstr "Eraldiasuva kasutajate andmebaasi seaded"
+
+#: /bb-admin/install.php:168
+#: /bb-admin/options-wordpress.php:284
+msgid "Most of the time these settings are <em>not</em> required. Look before you leap!"
+msgstr "Enamikel juhtudest <em>ei ole</em> need seaded kohustuslikud."
+
+#: /bb-admin/install.php:169
+msgid "If required, then all settings except for the character set must be specified."
+msgstr "Kui nõutud, siis kõik seaded peale märgistiku peavad olema seatud."
+
+#: /bb-admin/install.php:180
+#: /bb-admin/options-wordpress.php:342
+msgid "Custom user tables"
+msgstr "Eraldi kasutajate tabel"
+
+#: /bb-admin/install.php:181
+msgid "Only set these options if your integrated user tables do not fit the usual mould of <em>wp_user</em> and <em>wp_usermeta</em>."
+msgstr "Määrake need seaded ainult juhul kui teie kasutajatetabelid ei ühti tavapärastega (<em>wp_user</em> ja <em>wp_usermeta</em>)."
+
+#: /bb-admin/install.php:268
+msgid "\"Key master\" account"
+msgstr "\"Super admin\" kasutaja"
+
+#: /bb-admin/install.php:285
+msgid "First forum"
+msgstr "Esimene foorum"
+
+#: /bb-admin/install.php:326
+msgid "You can now log in with the following details:"
+msgstr "Te võite nüüd sisse logida:"
+
+#: /bb-admin/install.php:328
+msgid "Username:"
+msgstr "Kasutajanimi:"
+
+#: /bb-admin/install.php:330
+msgid "Password:"
+msgstr "Parool:"
+
+#: /bb-admin/install.php:332
+msgid "Site address:"
+msgstr "Lehe aadress:"
+
+#: /bb-admin/install.php:338
+msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you. If you lose it, you will have to delete the tables from the database yourself, and re-install bbPress."
+msgstr "<strong><em>Jäta parool meelde</em></strong> See on <em>juhuslikult</em> genereeritud märgiühend. Kui sa selle kaotad, siis pead ise andmebaasist tabelid ära kustutama ja bbPressi uuesti paigaldama."
+
+#: /bb-admin/options-general.php:45
+msgid "Settings saved."
+msgstr "Seaded salvestatud."
+
+#: /bb-admin/options-general.php:53
+msgid "General Settings"
+msgstr "Üldised seaded"
+
+#: /bb-admin/options-general.php:59
+msgid "Site title"
+msgstr "Lehe nimi"
+
+#: /bb-admin/options-general.php:67
+msgid "Site description"
+msgstr "Lehe kirjeldus"
+
+#: /bb-admin/options-general.php:75
+msgid "bbPress address (URL)"
+msgstr "bbPressi aadress (URL)"
+
+#: /bb-admin/options-general.php:79
+msgid "The full URL of your bbPress install."
+msgstr "Teie bbPress foorumi täielik URL."
+
+#: /bb-admin/options-general.php:84
+msgid "E-mail address"
+msgstr "E-postiaadress"
+
+#: /bb-admin/options-general.php:88
+msgid "Emails sent by the site will appear to come from this address."
+msgstr "Selle lehe poolt saadetud e-kirjad tulevad näiliselt sellelt aadressilt."
+
+#: /bb-admin/options-general.php:93
+msgid "Pretty permalink type"
+msgstr "Püsiviidete tüüp"
+
+#: /bb-admin/options-general.php:97
+#: /bb-admin/options-general.php:245
+msgid "None"
+msgstr "Puudub"
+
+#: /bb-admin/options-general.php:98
+msgid "Numeric"
+msgstr "Numbriline"
+
+#: /bb-admin/options-general.php:99
+msgid "Name based"
+msgstr "Nimeline"
+
+#: /bb-admin/options-general.php:101
+#, php-format
+msgid "If you activate \"Numeric\" or \"Name based\" permalinks, you will need to create a file at <code>%s</code> containing the url rewriting rules <a href=\"%s\">provided here</a>."
+msgstr "Kui te aktiveerite numbrilised või nimelised püsiviited, siis te peate looma uue faili <code>%s</code>, mis sisaldab endas <a href=\"%s\">URLi ümberkirjutusreegleid</a>."
+
+#: /bb-admin/options-general.php:106
+msgid "Items per page"
+msgstr "Elemente ühel lehel"
+
+#: /bb-admin/options-general.php:110
+msgid "Number of topics, posts or tags to show per page."
+msgstr "Ühel lehel näidatavate teemade, postituste või siltide arv."
+
+#: /bb-admin/options-general.php:115
+msgid "Lock post editing after"
+msgstr "Lukusta postituste muutmine peale"
+
+#: /bb-admin/options-general.php:119
+msgid "minutes"
+msgstr "minutit"
+
+#: /bb-admin/options-general.php:120
+msgid "A user can edit a post for this many minutes after submitting."
+msgstr "Kasutaja saab oma postitust muuta nii mitme minuti jooksul peale postitamist."
+
+#: /bb-admin/options-general.php:125
+msgid "Date and Time"
+msgstr "Kuupäev ja kellaaeg"
+
+#: /bb-admin/options-general.php:128
+msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is"
+msgstr "<abbr title=\"Coordinated Universal Time, Greewichi aeg\">UTC</abbr> aeg on"
+
+#: /bb-admin/options-general.php:131
+msgid "Y-m-d g:i:s a"
+msgstr "Y-m-d H:i:s"
+
+#: /bb-admin/options-general.php:136
+msgid "Times should differ<br />from UTC by"
+msgstr "Kellaaja erinevus UTC-st"
+
+#: /bb-admin/options-general.php:140
+msgid "hours"
+msgstr "tundi"
+
+#: /bb-admin/options-general.php:141
+msgid "Example: -7 for Pacific Daylight Time."
+msgstr "näiteks +2 Eesti aja puhul"
+
+#: /bb-admin/options-general.php:146
+msgid "Date and time format"
+msgstr "Kuupäeva ja kellaaja formaat"
+
+#: /bb-admin/options-general.php:150
+#: /bb-admin/options-general.php:159
+#, php-format
+msgid "Output: <strong>%s</strong>"
+msgstr "Väljund: <strong>%s</strong>"
+
+#: /bb-admin/options-general.php:155
+msgid "Date format"
+msgstr "Kuupäeva formaat"
+
+#: /bb-admin/options-general.php:160
+msgid "Click \"Update settings\" to update sample output."
+msgstr "Salvesta muudatused, et näidet uuendada."
+
+#: /bb-admin/options-general.php:161
+msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>."
+msgstr "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Kuupäevade vormindamisest lähemalt</a>."
+
+#: /bb-admin/options-general.php:166
+msgid "Remote publishing and Pingbacks"
+msgstr "Kaugavaldamine ja tagasiviited"
+
+#: /bb-admin/options-general.php:168
+msgid "How do we describe this?"
+msgstr "Kuidas me seda kirjeldame?"
+
+#: /bb-admin/options-general.php:172
+msgid "Enable XML-RPC"
+msgstr "Lülita XML-RPC sisse"
+
+#: /bb-admin/options-general.php:176
+msgid "Allows remote publishing and management via the bbPress <a href=\"http://codex.wordpress.org/Glossary#XML-RPC\">XML-RPC</a> publishing protocol."
+msgstr "Lubab kaugpostitamist ja -haldust läbi bbPressi <a href=\"http://codex.wordpress.org/Glossary#XML-RPC\">XML-RPC</a> protokolli."
+
+#: /bb-admin/options-general.php:181
+msgid "Enable Pingbacks"
+msgstr "Lülita pingback sisse"
+
+#: /bb-admin/options-general.php:185
+msgid "Allows sending and receiving of <a href=\"http://codex.wordpress.org/Glossary#PingBack\">pingbacks</a>."
+msgstr "Lubab <a href=\"http://codex.wordpress.org/Glossary#PingBack\">pingback tagasiviidete</a> saatmist ja vastu võtmist."
+
+#: /bb-admin/options-general.php:190
+msgid "Avatars"
+msgstr "Avatarid"
+
+#: /bb-admin/options-general.php:192
+msgid "bbPress includes built-in support for <a href=\"http://gravatar.com/\">Gravatars</a>, you can enable this feature here."
+msgstr "bbPressil on sisseehitatud <a href=\"http://gravatar.com/\">Gravataride</a> tugi. Siit saate selle funktsiooni sisse lülitada."
+
+#: /bb-admin/options-general.php:196
+msgid "Show avatars"
+msgstr "Näita avatare"
+
+#: /bb-admin/options-general.php:208
+msgid "Gravatar default image"
+msgstr "Vaikimisi Gravatar pilt"
+
+#: /bb-admin/options-general.php:212
+#: /bb-admin/options-general.php:220
+msgid "Default"
+msgstr "Vaikimisi"
+
+#: /bb-admin/options-general.php:213
+#: /bb-admin/options-general.php:223
+msgid "Gravatar Logo"
+msgstr "Gravatari logo"
+
+#: /bb-admin/options-general.php:214
+#: /bb-admin/options-general.php:226
+msgid "MonsterID"
+msgstr ""
+
+#: /bb-admin/options-general.php:215
+#: /bb-admin/options-general.php:229
+msgid "Wavatar"
+msgstr ""
+
+#: /bb-admin/options-general.php:216
+#: /bb-admin/options-general.php:232
+msgid "Identicon"
+msgstr ""
+
+#: /bb-admin/options-general.php:218
+msgid "Select what style of avatar to display to users without a Gravatar:"
+msgstr "Vali mis tüüpi avatare näidatakse kasutajatel, kellel pole Gravatari:"
+
+#: /bb-admin/options-general.php:241
+msgid "Gravatar maximum rating"
+msgstr "Gravatari maksimaalne hinnang"
+
+#: /bb-admin/options-general.php:246
+msgid "X"
+msgstr ""
+
+#: /bb-admin/options-general.php:247
+msgid "R"
+msgstr ""
+
+#: /bb-admin/options-general.php:248
+msgid "PG"
+msgstr ""
+
+#: /bb-admin/options-general.php:249
+msgid "G"
+msgstr ""
+
+#: /bb-admin/options-general.php:253
+msgid "X rated gravatars may contain hardcore sexual imagery or extremely disturbing violence."
+msgstr "X hinnanguga gravatarid võivad sisaldada räigeid pornograafilisi pilte või äärmiselt häirivat vägivalda."
+
+#: /bb-admin/options-general.php:257
+msgid "R rated gravatars may contain such things as harsh profanity, intense violence, nudity, or hard drug use."
+msgstr "R hinnanguga gravatarid võivad sisaldada roppusi, vägivalda, alastiolekut või uimastite tarvitamist."
+
+#: /bb-admin/options-general.php:261
+msgid "PG rated gravatars may contain rude gestures, provocatively dressed individuals, the lesser swear words, or mild violence."
+msgstr "PG hinnanguga gravatarid võivad sisaldada ebaviisakaid viipeid, provotseerivalt riietatud isikuid, vandumist või leebet vägivalda."
+
+#: /bb-admin/options-general.php:265
+msgid "A G rated gravatar is suitable for display on all websites with any audience type."
+msgstr "G hinnanguga gravatarid on sobivad näitamiseks kõikidel veebilehtedel, ükskõik millisele lugejaskonnale."
+
+#: /bb-admin/options-general.php:273
+#: /bb-admin/options-wordpress.php:366
+msgid "Save Changes"
+msgstr "Salvesta muudatused"
+
+#: /bb-admin/options-wordpress.php:43
+msgid "User role mapping saved."
+msgstr "Kasutajarollide tõlgendused salvestatud."
+
+#: /bb-admin/options-wordpress.php:46
+msgid "User integration settings saved."
+msgstr "Kasutajate sidumise seaded salvestatud."
+
+#: /bb-admin/options-wordpress.php:55
+msgid "User Role Map"
+msgstr "Kasutajarollide tõlgendused"
+
+#: /bb-admin/options-wordpress.php:57
+msgid "Here you can match WordPress roles to bbPress roles."
+msgstr "Siin saad WordPressi kasutajarollid bbPressi omadega siduda."
+
+#: /bb-admin/options-wordpress.php:58
+msgid "This will have no effect until your user tables are integrated below. Only standard WordPress roles are supported. Changes do not affect users with existing roles in both WordPress and bbPress."
+msgstr "See ei oma mitte mingisugust mõju, kui kasutajad pole omavahel seotud. Ainult standartsed WordPressi kasutajarollid on toetatud. Muutused ei puuduta kasutajaid, kes juba omavad rolle WordPressis ja bbPressis."
+
+#: /bb-admin/options-wordpress.php:64
+msgid "none"
+msgstr "puudub"
+
+#: /bb-admin/options-wordpress.php:74
+#, php-format
+msgid "bbPress %s"
+msgstr "bbPressi %s"
+
+#: /bb-admin/options-wordpress.php:83
+msgid "WordPress Administrator"
+msgstr "WordPressi haldur"
+
+#: /bb-admin/options-wordpress.php:84
+msgid "WordPress Editor"
+msgstr "WordPressi toimetaja"
+
+#: /bb-admin/options-wordpress.php:85
+msgid "WordPress Author"
+msgstr "WordPressi autor"
+
+#: /bb-admin/options-wordpress.php:86
+msgid "WordPress Contributor"
+msgstr "WordPressi kaastööline"
+
+#: /bb-admin/options-wordpress.php:87
+msgid "WordPress Subscriber"
+msgstr "WordPressi lugeja"
+
+#: /bb-admin/options-wordpress.php:112
+msgid "Save User Role Map"
+msgstr "Salvesta kasutajarollide tõlgendused"
+
+#: /bb-admin/options-wordpress.php:116
+msgid "User Integration"
+msgstr "Kasutajate sidumine"
+
+#: /bb-admin/options-wordpress.php:118
+msgid "Usually, you will have to specify both cookie sharing and user database sharing settings."
+msgstr "Tavaliselt peate määrama nii küpsiste kui ka andmebaasi jagamise seaded."
+
+#: /bb-admin/options-wordpress.php:119
+msgid "Make sure you have a \"User role map\" setup above before trying to add user integration."
+msgstr "Tehke kindlaks, et kasutajarollid on tõlgendatud, enne kui püüate kasutajaid siduda."
+
+#: /bb-admin/options-wordpress.php:120
+msgid "<strong>Note:</strong> updating these settings may cause you to be logged out!"
+msgstr "<strong>Hoiatus:</strong> nende seadete muutmine võib põhjustada väljalogimist!"
+
+#: /bb-admin/options-wordpress.php:125
+msgid "Cookie sharing allows users to log in to either your bbPress or your WordPress site, and have access to both."
+msgstr "Küpsiste jagamisel ei pea kasutaja kaks korda sisse logima: piisab vaid WordPressi sisse logimisest ja kasutaja logitakse automaatselt sisse ka bbPressi ning vastupidi."
+
+#: /bb-admin/options-wordpress.php:128
+msgid "WordPress address (URL)"
+msgstr "WordPressi aadress (URL)"
+
+#: /bb-admin/options-wordpress.php:132
+msgid "This value should exactly match the <strong>WordPress address (URL)</strong> setting in your WordPress general settings."
+msgstr "See peab täielikult ühtima <strong>\"WordPressi aadress (URL)\"</strong> väärtusega teie WordPressi üldistes seadetes."
+
+#: /bb-admin/options-wordpress.php:137
+msgid "Blog address (URL)"
+msgstr "Ajaveebi aadress (URL)"
+
+#: /bb-admin/options-wordpress.php:141
+msgid "This value should exactly match the <strong>Blog address (URL)</strong> setting in your WordPress general settings."
+msgstr "See peab täielikult ühtima <strong>\"Ajaveebi aadress (URL)\"</strong> väärtusega teie WordPressi üldistes seadetes."
+
+#: /bb-admin/options-wordpress.php:146
+msgid "WordPress \"auth\" cookie salt"
+msgstr "WordPressi \"auth\" küpsise sool"
+
+#: /bb-admin/options-wordpress.php:150
+msgid "This must match the value of the WordPress setting named \"auth_salt\" in your WordPress installation. Look for the option labeled \"auth_salt\" in <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>."
+msgstr "See väli peab ühtima WordPressi \"auth_salt\" väärtusega. Otsige üles \"auth_salt\" väärtus <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">sellelt WordPressi admini lehelt</a>."
+
+#: /bb-admin/options-wordpress.php:155
+msgid "WordPress \"secure auth\" cookie salt"
+msgstr "WordPressi \"secure auth\" küpsise sool"
+
+#: /bb-admin/options-wordpress.php:159
+msgid "This must match the value of the WordPress setting named \"secure_auth_salt\" in your WordPress installation. Look for the option labeled \"secure_auth_salt\" in <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. Sometimes this value is not set in WordPress, in that case you can leave this setting blank as well."
+msgstr "See väli peab ühtima WordPressi \"secure_auth_salt\" väärtusega. Otsige üles \"secure_auth_salt\" väärtus <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">sellelt WordPressi admini lehelt</a>. Juhul kui see väärtus pole WordPressis defineeritud, siis võite selle siin ka tühjaks jätta."
+
+#: /bb-admin/options-wordpress.php:164
+msgid "WordPress \"logged in\" cookie salt"
+msgstr "WordPressi \"logged in\" küpsise sool"
+
+#: /bb-admin/options-wordpress.php:168
+msgid "This must match the value of the WordPress setting named \"logged_in_salt\" in your WordPress installation. Look for the option labeled \"logged_in_salt\" in <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>."
+msgstr "See väli peab ühtima WordPressi \"logged_in_salt\" väärtusega. Otsige üles \"logged_in_salt\" väärtus <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">sellelt WordPressi admini lehelt</a>."
+
+#: /bb-admin/options-wordpress.php:214
+msgid "bbPress has automatically determined the best cookie settings for WordPress. In some cases integration may work without these settings, but if not add the following code to your <code>wp-config.php</code> file in the root directory of your WordPress installation."
+msgstr "bbPress püüdis automaatselt valida parimad küpsiste seaded WordPressi jaoks. Mõnikord võib kasutajate sidumine toimida ka ilma nende seadeteta, kuid kui tekib probleeme, siis lisage allolev kood <code>wp-config.php</code> faili, mis asub WordPressi juurkataloogis. "
+
+#: /bb-admin/options-wordpress.php:216
+msgid "You will also have to manually ensure that the following constants are equivalent in WordPress' and bbPress' respective config files."
+msgstr "Samuti peate tagama, et järgmise konstandid on võrdsete väärtustega WordPressi ja bbPressi konfiguratsioonifailides."
+
+#: /bb-admin/options-wordpress.php:219
+msgid "WordPress (wp-config.php)"
+msgstr ""
+
+#: /bb-admin/options-wordpress.php:220
+msgid "bbPress (bb-config.php)"
+msgstr ""
+
+#: /bb-admin/options-wordpress.php:237
+msgid "User database sharing allows you to store user data in your WordPress database."
+msgstr "Kasutajate andmebaasi jagamisel hoitakse kasutajate andmeid WordPressi andmebaasis."
+
+#: /bb-admin/options-wordpress.php:238
+msgid "You should setup a \"User role map\" before"
+msgstr "Te peaksite kõigepealt kasutajarollid tõlgendama"
+
+#: /bb-admin/options-wordpress.php:241
+msgid "User database table prefix"
+msgstr "Kasutajatabelite eesliide"
+
+#: /bb-admin/options-wordpress.php:245
+msgid "If your bbPress and WordPress installations share the same database, then this is the same value as <code>$table_prefix</code> in your WordPress <code>wp-config.php</code> file."
+msgstr "Kui bbPress ja WordPress jagavad sama andmebaasi, siis see on sama väärtus, mis <code>$wp_table_prefix</code> muutujal WordPressi <code>wp-config.php</code> failis."
+
+#: /bb-admin/options-wordpress.php:246
+msgid "In any case, it is usually <strong>wp_</strong>"
+msgstr "Tavaliselt on selleks <strong>wp_</strong>"
+
+#: /bb-admin/options-wordpress.php:251
+msgid "Show advanced database settings"
+msgstr "Näita täpsemaid andmebaasiseadeid"
+
+#: /bb-admin/options-wordpress.php:278
+msgid "If your bbPress and WordPress installations do not share the same database, then you will need to add advanced settings."
+msgstr "Kui teie bbPress ja WordPress on paigaldatud eri andmebaasidesse, siis te peate lisama täpsemad seaded."
+
+#: /bb-admin/options-wordpress.php:285
+msgid "All settings except for the character set must be specified."
+msgstr "Kõik seaded peale märgistiku peavad olema märgitud."
+
+#: /bb-admin/options-wordpress.php:288
+msgid "User database name:"
+msgstr "Kasutajate andmebaasi nimi:"
+
+#: /bb-admin/options-wordpress.php:292
+msgid "The name of the database in which your user tables reside."
+msgstr "Selle andmebaasi nimi, kus teie kasutajate tabelid asuvad."
+
+#: /bb-admin/options-wordpress.php:297
+msgid "User database user:"
+msgstr "Kasutajate andmebaasi kasutajanimi:"
+
+#: /bb-admin/options-wordpress.php:301
+msgid "The database user that has access to that database."
+msgstr "Andmebaasi kasutaja, kellel on ligipääs sellele andmebaasile."
+
+#: /bb-admin/options-wordpress.php:306
+msgid "User database password:"
+msgstr "Kasutajate andmebaasi parool:"
+
+#: /bb-admin/options-wordpress.php:310
+msgid "That database user's password."
+msgstr "Andmebaasi kasutaja parool."
+
+#: /bb-admin/options-wordpress.php:315
+msgid "User database host:"
+msgstr "Kasutajate andmebaasi server:"
+
+#: /bb-admin/options-wordpress.php:319
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should remain <strong>localhost</strong>."
+msgstr "Serveri domeeninimi või IP-aadress, kus andmebaas asub. Kui andmebaas asub samas serveris, kus veebiserver, siis selle väärtuseks peaks jätma <strong>localhost</strong>."
+
+#: /bb-admin/options-wordpress.php:324
+msgid "User database character set:"
+msgstr "Kasutajate andmebaasi märgistik:"
+
+#: /bb-admin/options-wordpress.php:328
+msgid "The best choice is <strong>utf8</strong>, but you will need to match the character set which you created the database with."
+msgstr "Parim valik on <strong>utf8</strong>, kuid te peate olema kindel, et see ühtib andmebaasi loomisel valitud märgistikuga."
+
+#: /bb-admin/options-wordpress.php:333
+msgid "User database character collation:"
+msgstr "Kasutajate andmebaasi märkite kollatsioon:"
+
+#: /bb-admin/options-wordpress.php:337
+msgid "The character collation value set when the user database was created."
+msgstr "Andmebaasi loomisel valitud märkide kollatsioon."
+
+#: /bb-admin/options-wordpress.php:343
+msgid "Only set these values if your user tables differ from the default WordPress naming convention."
+msgstr ""
+
+#: /bb-admin/options-wordpress.php:346
+msgid "User database \"user\" table:"
+msgstr "Kasutajate andmebaasi \"kasutaja\" tabel:"
+
+#: /bb-admin/options-wordpress.php:350
+#: /bb-admin/options-wordpress.php:359
+msgid "The complete table name, including any prefix."
+msgstr "Kogu tabelinimi, kaasaarvatud eesliide."
+
+#: /bb-admin/options-wordpress.php:355
+msgid "User database \"user meta\" table:"
+msgstr "Kasutajate andmebaasi \"kasutaja meta\" tabel:"
+
+#: /bb-admin/options-wordpress.php:370
+msgid "Manual bbPress config file settings"
+msgstr "bbPressi konfiguratsioonifaili käsitsiseaded"
+
+#: /bb-admin/options-wordpress.php:414
+msgid "If your integration settings will not change, you can help speed up bbPress by adding the following code to your <code>bb-config.php</code> file in the root directory of your bbPress installation. Afterwards, the settings in this form will reflect the hard coded values, but you will not be able to edit them here."
+msgstr "Kui teie sidumise seaded ei muutu, siis võite bbPressi veidi kiiremaks muuta lisades alloleva koodi <code>bb-config.php</code> faili, mis asub bbPressi juurkataloogis. Peale seda ei saa te enam neid seadeid siin lehel muuta."
+
+#: /bb-admin/plugins.php:87
+msgid "Plugin could not be activated, it produced a <strong>Fatal Error</strong>. The error is shown below."
+msgstr "Pluginat ei saa sisse lülitada, kuna see tekitas <strong>tõsise vea</strong>:"
+
+#: /bb-admin/plugins.php:91
+#, php-format
+msgid "\"%s\" plugin <strong>activated</strong>"
+msgstr "\"%s\" plugin <strong>sisse lülitatud</strong>"
+
+#: /bb-admin/plugins.php:95
+#, php-format
+msgid "\"%s\" plugin <strong>deactivated</strong>"
+msgstr "\"%s\" plugin <strong>välja lülitatud</strong>"
+
+#: /bb-admin/plugins.php:101
+msgid "\"Safe mode\" is on, all plugins are disabled even if they are listed as active."
+msgstr "Tänu turvarežiimile on kõik pluginad on välja lülitatud (isegi kui ta näitab, et on sisse lülitatud)."
+
+#: /bb-admin/plugins.php:132
+msgid "Plugin Management"
+msgstr "Pluginahaldus"
+
+#: /bb-admin/plugins.php:134
+msgid "Plugins extend and expand the functionality of bbPress. Once a plugin is installed, you may activate it or deactivate it here."
+msgstr "Pluginad laiendavad ja avardavad bbPressi funktsionaalsust. Peale plugina paigaldamist saad seda siit sisse-välja lülitada."
+
+#: /bb-admin/plugins.php:143
+#: /bb-admin/plugins.php:208
+msgid "Plugin"
+msgstr "Plugin"
+
+#: /bb-admin/plugins.php:144
+#: /bb-admin/plugins.php:209
+msgid "Version"
+msgstr "Versioon"
+
+#: /bb-admin/plugins.php:145
+#: /bb-admin/plugins.php:210
+msgid "Description"
+msgstr "Kirjeldus"
+
+#: /bb-admin/plugins.php:146
+msgid "Action"
+msgstr "Tegevus"
+
+#: /bb-admin/plugins.php:156
+msgid "Activate"
+msgstr "Lülita sisse"
+
+#: /bb-admin/plugins.php:161
+msgid "Deactivate"
+msgstr "Lülita välja"
+
+#: /bb-admin/plugins.php:183
+#: /bb-admin/plugins.php:228
+#, php-format
+msgid "By %s."
+msgstr "Autor %s."
+
+#: /bb-admin/plugins.php:203
+msgid "Automatically loaded plugins"
+msgstr "Automaatselt laetud pluginad"
+
+#: /bb-admin/plugins.php:254
+msgid "If something goes wrong with a plugin and you can’t use bbPress, delete or rename that file in the <code>my-plugins</code> directory and it will be automatically deactivated."
+msgstr "Kui mõni plugin ei tööta korralikult ja takistab bbPressi kasutamist, siis kustutage (või muutke nime) vastav plugin <code>my-plugins</code> kaustas ja see plugin lülitatakse automaatselt välja."
+
+#: /bb-admin/plugins.php:260
+msgid "No Plugins Installed"
+msgstr "Ühtegi pluginat pole paigaldatud"
+
+#: /bb-admin/plugins.php:266
+msgid "Get More Plugins"
+msgstr "Hangi veel pluginaid"
+
+#: /bb-admin/plugins.php:268
+#, php-format
+msgid "You can find additional plugins for your site in the <a href=\"%s\">bbPress plugin directory</a>."
+msgstr "Rohkem pluginaid leiate <a href=\"%s\">bbPressi pluginate kataloogist</a>."
+
+#: /bb-admin/plugins.php:270
+msgid "To install a plugin you generally just need to upload the plugin file into your <code>my-plugins</code> directory. Once a plugin is uploaded, you may activate it here."
+msgstr "Plugina paigaldamiseks peate te lihtsalt selle üles laadima <code>my-plugins</code> kausta. Peale seda saate juba selle plugina siit lehelt sisse lülitada."
+
+#: /bb-admin/site.php:6
+msgid "Recount"
+msgstr "Loendamine"
+
+#: /bb-admin/site.php:7
+msgid "The following checkboxes allow you to recalculate various numbers stored in the database. These numbers are used for things like counting the number of pages worth of posts a particular topic has.  You shouldn't need to do do any of this unless you're upgrading from one version to another or are seeing pagination oddities."
+msgstr "Järgnevad kastikesed võimaldavad mitmesuguseid andmebaasis leiduvaid andmeid uuesti loendada. Neid andmeid kasutatakse selleks, et näiteks arvutada mitu lehte postitusi mingil teemal on. Üldjuhtudel pole vaja seda protseduuri läbi viia. See on vajalik ainult juhul kui te peale versiooniuuendust näete veidraid lehtede arve vms."
+
+#: /bb-admin/site.php:11
+msgid "Choose items to recalculate"
+msgstr "Vali loendatavad elemendid"
+
+#: /bb-admin/site.php:17
+msgid "Count!"
+msgstr "Loenda!"
+
+#: /bb-admin/tag-destroy.php:5
+#: /bb-admin/tag-merge.php:5
+#: /bb-admin/tag-rename.php:5
+msgid "You are not allowed to manage tags."
+msgstr "Teil ei ole siltide haldamisõigust."
+
+#: /bb-admin/tag-destroy.php:13
+#: /bb-admin/tag-rename.php:14
+msgid "Tag not found."
+msgstr "Silti ei leitud."
+
+#: /bb-admin/tag-destroy.php:16
+#, php-format
+msgid "Rows deleted from tags table: %d <br />\n"
+msgstr "Siltide tabelist kustutatud read: %d <br />\n"
+
+#: /bb-admin/tag-destroy.php:17
+#, php-format
+msgid "Rows deleted from tagged table: %d <br />\n"
+msgstr "Sildistatud tabelist kustutatud read: %d <br />\n"
+
+#: /bb-admin/tag-destroy.php:18
+#, php-format
+msgid "<a href=\"%s\">Home</a>"
+msgstr "<a href=\"%s\">Kodu</a>"
+
+#: /bb-admin/tag-destroy.php:20
+#, php-format
+msgid ""
+"Something odd happened when attempting to destroy that tag.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"Selle sildi hävitamisel juhtus midagi ettearvamatut.<br />\n"
+"<a href=\"%s\">Proovi uuesti?</a>"
+
+#: /bb-admin/tag-merge.php:13
+msgid "Tag specified not found."
+msgstr "Silti ei leitud."
+
+#: /bb-admin/tag-merge.php:16
+msgid "Tag to be merged not found."
+msgstr "Liidetavat silti ei leitud."
+
+#: /bb-admin/tag-merge.php:19
+#, php-format
+msgid "Number of topics from which the old tag was removed: %d <br />\n"
+msgstr "Teemade arv, millest vana silt eemaldati: %d <br />\n"
+
+#: /bb-admin/tag-merge.php:20
+#, php-format
+msgid "Number of topics to which the new tag was added: %d <br />\n"
+msgstr "Teemade arv, millele uus silt lisati: %d <br />\n"
+
+#: /bb-admin/tag-merge.php:21
+#, php-format
+msgid "Number of rows deleted from tags table:%d <br />\n"
+msgstr "Ridade arv, mis siltide tabelist kustutati: %d <br />\n"
+
+#: /bb-admin/tag-merge.php:22
+#, php-format
+msgid "<a href=\"%s\">New Tag</a>"
+msgstr "<a href=\"%s\">Uus silt</a>"
+
+#: /bb-admin/tag-merge.php:24
+#, php-format
+msgid ""
+"Something odd happened when attempting to merge those tags.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"Nende siltide liitmisel juhtus midagi ettenägematut.<br />\n"
+"<a href=\"%s\">Proovi uuesti?</a>"
+
+#: /bb-admin/tag-rename.php:20
+#, php-format
+msgid "There already exists a tag by that name or the name is invalid. <a href=\"%s\">Try Again</a>"
+msgstr "Sellise nimega silt on juba olemas või on antud nimi lubamatu. <a href=\"%s\">Proovi uuesti</a>"
+
+#: /bb-admin/themes.php:38
+#, php-format
+msgid "Theme \"%s\" <strong>activated</strong>"
+msgstr "Kujundus \"%s\" <strong>sisse</strong> lülitatud"
+
+#: /bb-admin/themes.php:43
+msgid "Default theme is missing."
+msgstr "Vaikimisi kujundus on puudu."
+
+#: /bb-admin/themes.php:47
+msgid "Theme not found.  Default theme applied."
+msgstr "Kujundust ei leitud. Kasutame vaikimisi kujundust."
+
+#: /bb-admin/themes.php:59
+#: /bb-admin/themes.php:61
+msgid "Click to activate"
+msgstr "Aktiveeri"
+
+#: /bb-admin/themes.php:63
+#, php-format
+msgid "by <cite>%s</cite>"
+msgstr "Autor: <cite>%s</cite>"
+
+#: /bb-admin/themes.php:63
+#, php-format
+msgid ", ported by <cite>%s</cite>"
+msgstr ", portija: <cite>%s</cite>"
+
+#: /bb-admin/themes.php:65
+#, php-format
+msgid "All of this theme's files are located in %s"
+msgstr "Kõik selle kujunduse failid asuvad %s"
+
+#: /bb-admin/themes.php:65
+msgid "Core themes -&gt; "
+msgstr "Tuuma kujundused -&gt; "
+
+#: /bb-admin/themes.php:65
+msgid "User installed themes -&gt; "
+msgstr "Kasutaja paigaldatud kujundused -&gt; "
+
+#: /bb-admin/themes.php:72
+msgid "\"Safe mode\" is on, the default theme will be used instead of the active theme indicated below."
+msgstr "Tänu turvarežiimile kasutatakse vaikimisi kujundust hetkel valitud kujunduse asemel."
+
+#: /bb-admin/themes.php:80
+msgid "Current Theme"
+msgstr "Praegune kujundus"
+
+#: /bb-admin/themes.php:86
+msgid "Available Themes"
+msgstr "Saadaval olevad kujundused"
+
+#: /bb-admin/topic-move.php:8
+msgid "Invalid topic or forum."
+msgstr "Vigane teema või foorum."
+
+#: /bb-admin/topic-move.php:21
+msgid "Your topic or forum caused all manner of confusion"
+msgstr "Teie teema või foorum häiris foorumitarkvara tööd"
+
+#: /bb-admin/upgrade.php:42
+msgid "Beginning upgrade&hellip;"
+msgstr "Uuendamine algab&hellip;"
+
+#: /bb-admin/upgrade.php:46
+msgid "Done"
+msgstr "Valmis"
+
+#: /bb-admin/upgrade.php:64
+msgid "bbPress database upgrade"
+msgstr "bbPressi andmebaasi uuendus"
+
+#: /bb-admin/upgrade.php:82
+#, php-format
+msgid "Nothing to upgrade.  <a href=\"%s\">Get back to work!</a>"
+msgstr "Pole midagi uuendada. <a href=\"%s\">Tagasi tööle!</a>"
+
+#: /bb-admin/upgrade.php:91
+msgid "Database upgrade required"
+msgstr "Andmebaasi uuendus on vajalik"
+
+#: /bb-admin/upgrade.php:93
+msgid "It looks like your database is out-of-date.<br />You can update it here."
+msgstr "Andmebaas on aegunud.<br />Siin saate seda uuendada."
+
+#: /bb-admin/upgrade.php:99
+msgid "Upgrade database &raquo;"
+msgstr "Uuenda andmebaasi &raquo;"
+
+#: /bb-admin/upgrade.php:113
+msgid "Database upgrade complete"
+msgstr "Andmebaasi uuendus valmis"
+
+#: /bb-admin/upgrade.php:115
+msgid "Your database has been successfully updated.<br />Enjoy!"
+msgstr "Andmebaas edukalt uuendatud!"
+
+#: /bb-admin/upgrade.php:119
+msgid "Show upgrade log:"
+msgstr "Näita uuendamise logi:"
+
+#: /bb-admin/upgrade.php:125
+#: /bb-admin/upgrade.php:169
+msgid "Upgrade log:"
+msgstr "Uuendamise logi:"
+
+#: /bb-admin/upgrade.php:132
+msgid "Go to admin &raquo;"
+msgstr "Mine administratsiooni &raquo;"
+
+#: /bb-admin/upgrade.php:146
+msgid "Database upgrade failed"
+msgstr "Andmebaasi uuendamine ebaõnnestus"
+
+#: /bb-admin/upgrade.php:148
+msgid "The upgrade process seems to have failed. Check the upgrade messages below for more information.<br /><br />Attempting to go to the admin area without resolving the listed errors will return you to this upgrade page."
+msgstr ""
+
+#: /bb-admin/upgrade.php:153
+msgid "Show upgrade messages:"
+msgstr "Näita uuendamise logi:"
+
+#: /bb-admin/upgrade.php:162
+msgid "Error log:"
+msgstr "Vigade logi:"
+
+#: /bb-admin/upgrade.php:176
+msgid "&laquo; Go back to forums"
+msgstr "&laquo; Tagasi foorumisse"
+
+#: /bb-admin/upgrade.php:179
+msgid "Try again &raquo;"
+msgstr "Proovi uuesti &raquo;"
+
+#: /bb-admin/users-blocked.php:13
+msgid "These users have been blocked by the forum administrators"
+msgstr "Need kasutajad on blokeeritud foorumi administraatorite poolt"
+
+#: /bb-admin/users-moderators.php:13
+msgid "Forum Administrators"
+msgstr "Foorumi administraatorid"
+
+#: /bb-admin/view-ip.php:18
+msgid "IP Information"
+msgstr "IP informatsioon"
+
+#: /bb-admin/view-ip.php:20
+msgid "Last 30 posts"
+msgstr "Viimased 30 postitust"
+
+#: /bb-admin/view-ip.php:40
+msgid "Posted:"
+msgstr "Postitatud:"
+
+#: /bb-admin/includes/class.bb-install.php:193
+msgid "bbPress &rsaquo; Error"
+msgstr "bbPressi &rsaquo; viga"
+
+#: /bb-admin/includes/class.bb-install.php:194
+msgid "Oh dear!"
+msgstr "Taevake!"
+
+#: /bb-admin/includes/class.bb-install.php:198
+#: /bb-admin/includes/class.bb-install.php:208
+#: /bb-admin/includes/class.bb-install.php:219
+#: /bb-admin/includes/class.bb-install.php:230
+#: /bb-admin/includes/class.bb-install.php:242
+#, php-format
+msgid "%1$s &rsaquo; %2$s"
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:198
+#: /bb-admin/includes/class.bb-install.php:208
+#: /bb-admin/includes/class.bb-install.php:219
+#: /bb-admin/includes/class.bb-install.php:230
+#: /bb-admin/includes/class.bb-install.php:242
+msgid "bbPress installer"
+msgstr "bbPressi paigaldamine"
+
+#: /bb-admin/includes/class.bb-install.php:198
+msgid "Welcome"
+msgstr "Tere tulemast"
+
+#: /bb-admin/includes/class.bb-install.php:199
+#: /bb-admin/includes/class.bb-install.php:209
+#: /bb-admin/includes/class.bb-install.php:220
+#: /bb-admin/includes/class.bb-install.php:231
+#: /bb-admin/includes/class.bb-install.php:243
+msgid "Welcome to the bbPress installer"
+msgstr "Tere tulemast bbPressi paigaldamisele"
+
+#: /bb-admin/includes/class.bb-install.php:202
+msgid "We're now going to go through a few steps to get you up and running."
+msgstr "Teeme läbi mõned sammud ja varsti ongi foorum üleval."
+
+#: /bb-admin/includes/class.bb-install.php:204
+#, php-format
+msgid "Ready? Then <a href=\"%s\">let's get started!</a>"
+msgstr "Olete valmis? <a href=\"%s\">Alustame!</a>"
+
+#: /bb-admin/includes/class.bb-install.php:208
+#: /bb-admin/includes/class.bb-install.php:210
+msgid "Step 1"
+msgstr "Esimene samm"
+
+#: /bb-admin/includes/class.bb-install.php:210
+#: /bb-admin/includes/class.bb-install.php:221
+#: /bb-admin/includes/class.bb-install.php:232
+#, php-format
+msgid "%1$s - %2$s"
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:210
+msgid "Database configuration"
+msgstr "Andmebaasi andmed"
+
+#: /bb-admin/includes/class.bb-install.php:213
+msgid "Here you need to enter your database connection details. The installer will attempt to create a file called <code>bb-config.php</code> in the root directory of your bbPress installation."
+msgstr "Siin te peate sisestama andmebaasiga ühenduse loomiseks vajalikud andmed. Seejärel püütakse nende andmete põhjal luua bbPressi juurkataloogi <code>bb-config.php</code> faili."
+
+#: /bb-admin/includes/class.bb-install.php:214
+msgid "If you're not sure what to put here, contact your web hosting provider."
+msgstr "Kui te pole kindel mida siia kirjutada, siis võtke ühendust oma veebiserveri haldajaga."
+
+#: /bb-admin/includes/class.bb-install.php:219
+#: /bb-admin/includes/class.bb-install.php:221
+msgid "Step 2"
+msgstr "Teine samm"
+
+#: /bb-admin/includes/class.bb-install.php:221
+msgid "WordPress integration (optional)"
+msgstr "WordPressiga sidumine (vabatahtlik)"
+
+#: /bb-admin/includes/class.bb-install.php:222
+msgid "&laquo; skipped"
+msgstr "&laquo; vahele jäetud"
+
+#: /bb-admin/includes/class.bb-install.php:224
+msgid "bbPress can integrate login and user data seamlessly with WordPress. You can safely skip this section if you do not wish to integrate with an existing WordPress install."
+msgstr "bbPress võib kõik kasutajate andmed WordPressiga siduda. Te võite ohutult selle sammu vahele jätta, kui ei soovi oma foorumit olemasoleva WordPressiga siduda."
+
+#: /bb-admin/includes/class.bb-install.php:230
+#: /bb-admin/includes/class.bb-install.php:232
+msgid "Step 3"
+msgstr "Kolmas samm"
+
+#: /bb-admin/includes/class.bb-install.php:232
+msgid "Site settings"
+msgstr "Lehe seaded"
+
+#: /bb-admin/includes/class.bb-install.php:235
+msgid "Finalize your installation by adding a name, your first user and your first forum."
+msgstr "Viige paigaldamine lõpule: lisage nimi, esimene kasutaja ja esimene foorum."
+
+#: /bb-admin/includes/class.bb-install.php:242
+msgid "Finished"
+msgstr "Valmis"
+
+#: /bb-admin/includes/class.bb-install.php:244
+#: /bb-admin/includes/class.bb-install.php:2039
+msgid "Installation complete!"
+msgstr "Paigaldamine valmis!"
+
+#: /bb-admin/includes/class.bb-install.php:261
+#, php-format
+msgid "Your server is running PHP version %s but bbPress requires at least 4.3"
+msgstr "Teie serveris jookseb PHP versioon %s, kuid bbPress vajab töötamiseks vähemalt versiooni 4.3"
+
+#: /bb-admin/includes/class.bb-install.php:267
+msgid "Your PHP installation appears to be missing the MySQL extension which is required for bbPress"
+msgstr "Teie PHP seadistusest on puudu MySQL lisa, mis on bbPressi tööks vajalik"
+
+#: /bb-admin/includes/class.bb-install.php:277
+msgid "Please complete your installation before attempting to include WordPress within bbPress"
+msgstr "Palun viige bbPressi paigaldus lõpule, enne kui püüate WordPressi kaasata"
+
+#: /bb-admin/includes/class.bb-install.php:353
+msgid "Please select the language you wish to use during installation -"
+msgstr "Palun valige paigaldamisel kasutatav keel:"
+
+#: /bb-admin/includes/class.bb-install.php:470
+msgid "An old <code>config.php</code> file has been detected in your installation. You should remove it and run the <a href=\"install.php\">installer</a> again. You can use the same database connection details if you do."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:483
+#: /bb-admin/includes/class.bb-install.php:1077
+#: /bb-admin/includes/class.bb-install.php:1085
+#: /bb-admin/includes/class.bb-install.php:1097
+msgid "&laquo; completed"
+msgstr "&laquo; tehtud"
+
+#: /bb-admin/includes/class.bb-install.php:491
+msgid "A valid configuration file was found at <code>bb-config.php</code><br />You may continue to the next step."
+msgstr "Konfiguratsioonifail <code>bb-config.php</code> on juba olemas.<br />Te võite esimese sammu vahele jätta."
+
+#: /bb-admin/includes/class.bb-install.php:496
+msgid "An invalid configuration file was found at <code>bb-config.php</code><br />The installation cannot continue."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:497
+msgid "Usually this is caused by one of the database connection settings being incorrect. Make sure that the specified user has appropriate permission to access the database."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:507
+msgid "bbPress is already installed, but appears to require an upgrade."
+msgstr "bbPress on juba paigaldatud, kui vajab uuendamist."
+
+#: /bb-admin/includes/class.bb-install.php:509
+#, php-format
+msgid "Perhaps you meant to run the <a href=\"%s\">upgrade script</a> instead?"
+msgstr "Võibolla tahtsite hoopis <a href=\"%s\">uuendada</a>?"
+
+#: /bb-admin/includes/class.bb-install.php:524
+#: /bb-admin/includes/class.bb-install.php:1244
+msgid "I could not find the file <code>bb-config-sample.php</code><br />Please upload it to the root directory of your bbPress installation."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:530
+msgid "There doesn't seem to be a <code>bb-config.php</code> file. This usually means that you want to install bbPress."
+msgstr "<code>bb-config.php</code> fail puudub. Tavaliselt tähendab see, et te soovite bbPressi paigaldada."
+
+#: /bb-admin/includes/class.bb-install.php:618
+msgid "Database name"
+msgstr "Andmebaasi nimi"
+
+#: /bb-admin/includes/class.bb-install.php:619
+msgid "The name of the database in which you want to run bbPress."
+msgstr "Andmebaasi nimi, kuhu soovite bbPressi paigaldada."
+
+#: /bb-admin/includes/class.bb-install.php:623
+msgid "Database user"
+msgstr "Andmebaasi kasutajanimi"
+
+#: /bb-admin/includes/class.bb-install.php:630
+msgid "Database password"
+msgstr "Andmebaasi parool"
+
+#: /bb-admin/includes/class.bb-install.php:636
+msgid "Language"
+msgstr "Keel"
+
+#: /bb-admin/includes/class.bb-install.php:637
+#, php-format
+msgid "The language which bbPress will be presented in once installed. Your current language choice (%s) will remain for the rest of the install process."
+msgstr "Keel, mida bbPress hakkab peale paigaldamis kasutama. Eelnevalt valitud keel (%s) jääb püsima paigaldusprotsessi lõpuni."
+
+#: /bb-admin/includes/class.bb-install.php:641
+msgid "Show advanced settings"
+msgstr "Näita täpsemaid seadeid"
+
+#: /bb-admin/includes/class.bb-install.php:642
+#, php-format
+msgid "99% of the time these settings will not have to be changed."
+msgstr "99% juhtudest ei ole neid seadeid vaja muuta."
+
+#: /bb-admin/includes/class.bb-install.php:648
+msgid "Database host"
+msgstr "Andmebaasi server"
+
+#: /bb-admin/includes/class.bb-install.php:654
+msgid "Database character set"
+msgstr "Andmebaasi märgistik"
+
+#: /bb-admin/includes/class.bb-install.php:660
+msgid "Database character collation"
+msgstr "Andmebaasi märkite kollatsioon"
+
+#: /bb-admin/includes/class.bb-install.php:661
+msgid "The character collation value set when the database was created."
+msgstr "Andmebaasi loomisel valitud märkide kollatsioon."
+
+#: /bb-admin/includes/class.bb-install.php:666
+msgid "bbPress \"auth\" cookie key"
+msgstr "bbPressi \"auth\" küpsise võti"
+
+#: /bb-admin/includes/class.bb-install.php:667
+msgid "This should be a unique and secret phrase, it will be used to make your bbPress \"auth\" cookie unique and harder for an attacker to decipher."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:672
+msgid "bbPress \"secure auth\" cookie key"
+msgstr "bbPressi \"secure auth\" küpsise võti"
+
+#: /bb-admin/includes/class.bb-install.php:673
+msgid "This should be a unique and secret phrase, it will be used to make your bbPress \"secure auth\" cookie unique and harder for an attacker to decipher."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:678
+msgid "bbPress \"logged in\" cookie key"
+msgstr "bbPressi \"logged in\" küpsise võti"
+
+#: /bb-admin/includes/class.bb-install.php:679
+msgid "This should be a unique and secret phrase, it will be used to make your bbPress \"logged in\" cookie unique and harder for an attacker to decipher."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:684
+msgid "bbPress \"nonce\" key"
+msgstr "bbPressi \"nonce\" küpsise võti"
+
+#: /bb-admin/includes/class.bb-install.php:685
+msgid "This should be a unique and secret phrase, it will be used to make form submission harder for an attacker to spoof."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:690
+msgid "Table name prefix"
+msgstr "Tabelinimede eesliide"
+
+#: /bb-admin/includes/class.bb-install.php:691
+msgid "If you are running multiple bbPress installations in a single database, you will probably want to change this."
+msgstr "Kui te kasutate mitut bbPressi ühes andmebaasis, siis te peate seda muutma."
+
+#: /bb-admin/includes/class.bb-install.php:696
+msgid "Contents for <code>bb-config.php</code>"
+msgstr "<code>bb-config.php</code> faili sisu"
+
+#: /bb-admin/includes/class.bb-install.php:697
+msgid "Once you have created the configuration file, you can check for it below."
+msgstr "Peale konfiguratsioonifaili loomist võite seda kontrollida."
+
+#: /bb-admin/includes/class.bb-install.php:700
+msgid "Save database configuration file"
+msgstr "Salvesta andmebaasi seadete fail"
+
+#: /bb-admin/includes/class.bb-install.php:706
+msgid "Check for configuration file"
+msgstr "Kontrolli konfiguratsioonifaili"
+
+#: /bb-admin/includes/class.bb-install.php:709
+msgid "Go to step 2 &raquo;"
+msgstr "Teine samm &raquo;"
+
+#: /bb-admin/includes/class.bb-install.php:718
+msgid "Add integration settings"
+msgstr "Seo WordPressiga"
+
+#: /bb-admin/includes/class.bb-install.php:719
+msgid "If you want to integrate bbPress with an existing WordPress installation."
+msgstr "Kui te soovite bbPressi siduda olemasoleva WordPressiga."
+
+#: /bb-admin/includes/class.bb-install.php:724
+#: /bb-admin/includes/class.bb-install.php:857
+msgid "Skip WordPress integration &raquo;"
+msgstr "Jäta WordPressiga sidumine vahele &raquo;"
+
+#: /bb-admin/includes/class.bb-install.php:725
+msgid "Save WordPress integration settings"
+msgstr "Salvesta WordPressiga sidumise seaded"
+
+#: /bb-admin/includes/class.bb-install.php:730
+msgid "Add cookie integration settings"
+msgstr "Seo küpsised"
+
+#: /bb-admin/includes/class.bb-install.php:731
+msgid "If you want to allow shared logins with an existing WordPress installation."
+msgstr "Kui soovite sisselogimisi jagada olemasoleva WordPressiga."
+
+#: /bb-admin/includes/class.bb-install.php:750
+msgid "WordPress \"auth\" cookie key"
+msgstr "WordPressi \"auth\" küpsise võti"
+
+#: /bb-admin/includes/class.bb-install.php:751
+msgid "This value must match the value of the constant named \"AUTH_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"auth\" cookie key set in the first step."
+msgstr "See väärtus peab ühtima \"AUTH_KEY\" konstandiga teie WordPressi <code>wp-config.php</code> failis. See asendab esimesel sammul sisestatud bbPressi \"auth\" küpsise võtme."
+
+#: /bb-admin/includes/class.bb-install.php:757
+msgid "This must match the value of the WordPress setting named \"auth_salt\" in your WordPress installation. Look for the option labeled \"auth_salt\" in <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings."
+msgstr "See väli peab ühtima WordPressi \"auth_salt\" väärtusega. Otsige üles \"auth_salt\" väärtus <a href=\"#\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;\">sellelt WordPressi admini lehelt</a>. Kui te jätate selle välja tühjaks, siis bbPress püüab seda väärtust WordPressi andmebaasist ise pärida. "
+
+#: /bb-admin/includes/class.bb-install.php:762
+msgid "WordPress \"secure auth\" cookie key"
+msgstr "WordPressi \"secure auth\" küpsise võti"
+
+#: /bb-admin/includes/class.bb-install.php:763
+msgid "This value must match the value of the constant named \"SECURE_AUTH_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"secure auth\" cookie key set in the first step."
+msgstr "See väärtus peab ühtima \"SECURE_AUTH_KEY\" konstandiga teie WordPressi <code>wp-config.php</code> failis. See asendab esimesel sammul sisestatud \"secure auth\" küpsise võtme."
+
+#: /bb-admin/includes/class.bb-install.php:769
+msgid "This must match the value of the WordPress setting named \"secure_auth_salt\" in your WordPress installation. Look for the option labeled \"secure_auth_salt\" in <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings. Sometimes this value is not set in WordPress, in that case you can leave this setting blank as well."
+msgstr "See väli peab ühtima WordPressi \"secure_auth_salt\" väärtusega. Otsige üles \"secure_auth_salt\" väärtus <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this.href); return false;\">sellelt WordPressi admini lehelt</a>. Kui te jätate selle välja tühjaks, siis bbPress püüab seda väärtust WordPressi andmebaasist ise pärida. Juhul kui see väärtus pole WordPressis defineeritud, siis võite selle siin ka tühjaks jätta."
+
+#: /bb-admin/includes/class.bb-install.php:774
+msgid "WordPress \"logged in\" cookie key"
+msgstr "WordPressi \"logged in\" küpsise võti"
+
+#: /bb-admin/includes/class.bb-install.php:775
+msgid "This value must match the value of the constant named \"LOGGED_IN_KEY\" in your WordPress <code>wp-config.php</code> file. This will replace the bbPress \"logged in\" cookie key set in the first step."
+msgstr "See väärtus peab ühtima \"LOGGED_IN_KEY\" konstandiga teie WordPressi <code>wp-config.php</code> failis. See asendab esimesel sammul sisestatud bbPressi \"logged in\" küpsise võtme."
+
+#: /bb-admin/includes/class.bb-install.php:781
+msgid "This must match the value of the WordPress setting named \"logged_in_salt\" in your WordPress installation. Look for the option labeled \"logged_in_salt\" in <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">this WordPress admin page</a>. If you leave this blank the installer will try to fetch the value based on your WordPress database integration settings."
+msgstr "See väli peab ühtima WordPressi \"logged_in_salt\" väärtusega. Otsige üles \"logged_in_salt\" väärtus <a href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); return false;\">sellelt WordPressi admini lehelt</a>. Kui te jätate selle välja tühjaks, siis bbPress püüab seda väärtust WordPressi andmebaasist ise pärida."
+
+#: /bb-admin/includes/class.bb-install.php:786
+msgid "Add user database integration settings"
+msgstr "Seo kasutajate andmebaasid"
+
+#: /bb-admin/includes/class.bb-install.php:787
+msgid "If you want to share user data with an existing WordPress installation."
+msgstr "Kui soovite kasutajate andmeid jagada olemasoleva WordPressiga."
+
+#: /bb-admin/includes/class.bb-install.php:796
+msgid "If your bbPress and WordPress installations share the same database, then this is the same value as <code>$table_prefix</code> in your WordPress <code>wp-config.php</code> file. It is usually <strong>wp_</strong>."
+msgstr "Kui teie bbPress ja WordPress jagavad sama andmebaasi, siis see on sama väärtus, mis <code>$table_prefix</code> teie WordPressi <code>wp-config.php</code> failis. See on vaikimisi <strong>wp_</strong>."
+
+#: /bb-admin/includes/class.bb-install.php:802
+msgid "If your bbPress and WordPress installation do not share the same database, then you will need to add advanced settings."
+msgstr "Kui teie bbPress ja WordPress ei jaga sama andmebaasi, siis peate oma andmebaasiseadeid täpsustama."
+
+#: /bb-admin/includes/class.bb-install.php:809
+msgid "User database name"
+msgstr "Kasutajate andmebaasi nimi"
+
+#: /bb-admin/includes/class.bb-install.php:815
+msgid "User database user"
+msgstr "Andmebaasi kasutajanimi"
+
+#: /bb-admin/includes/class.bb-install.php:822
+msgid "User database password"
+msgstr "Kasutajate andmebaasi parool"
+
+#: /bb-admin/includes/class.bb-install.php:828
+msgid "User database host"
+msgstr "Kasutajate andmebaasi server"
+
+#: /bb-admin/includes/class.bb-install.php:829
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should be <strong>localhost</strong>."
+msgstr "Serveri domeeninimi või IP-aadress, kus andmebaas asub. Kui andmebaas asub samas serveris, kus veebiserver, siis selle väärtuseks peaks olema <strong>localhost</strong>."
+
+#: /bb-admin/includes/class.bb-install.php:834
+msgid "User database character set"
+msgstr "Kasutajate andmebaasi märgistik"
+
+#: /bb-admin/includes/class.bb-install.php:840
+msgid "User database character collation"
+msgstr "Andmebaasi märkite kollatsioon"
+
+#: /bb-admin/includes/class.bb-install.php:846
+msgid "User database \"user\" table"
+msgstr "Kasutajate andmebaasi \"kasutaja\" tabel"
+
+#: /bb-admin/includes/class.bb-install.php:852
+msgid "User database \"user meta\" table"
+msgstr "Kasutajate andmebaasi \"kasutaja meta\" tabel"
+
+#: /bb-admin/includes/class.bb-install.php:863
+msgid "Go to step 3 &raquo;"
+msgstr "Kolmas samm &raquo;"
+
+#: /bb-admin/includes/class.bb-install.php:872
+msgid "Site name"
+msgstr "Lehe nimi"
+
+#: /bb-admin/includes/class.bb-install.php:873
+msgid "This is what you are going to call your bbPress installation."
+msgstr "Andke oma foorumile nimi."
+
+#: /bb-admin/includes/class.bb-install.php:877
+msgid "Site address (URL)"
+msgstr "Lehe aadress (URL)"
+
+#: /bb-admin/includes/class.bb-install.php:878
+msgid "We have attempted to guess this, it's usually correct, but change it here if you wish."
+msgstr "Püüdsime selle teie eest ära arvata. Kui see ei ole õige, siis palun muutke seda."
+
+#: /bb-admin/includes/class.bb-install.php:883
+#: /bb-admin/includes/functions.bb-admin.php:464
+#: /bb-admin/includes/functions.bb-admin.php:468
+msgid "Username"
+msgstr "Kasutajanimi"
+
+#: /bb-admin/includes/class.bb-install.php:884
+msgid "This is the user login for the initial bbPress administrator (known as a \"key master\")."
+msgstr "bbPressi super administraatori kasutajanimi."
+
+#: /bb-admin/includes/class.bb-install.php:889
+msgid "Email address"
+msgstr "E-postiaadress"
+
+#: /bb-admin/includes/class.bb-install.php:890
+msgid "The login details will be emailed to this address."
+msgstr "Parool saadetakse teile e-postiga."
+
+#: /bb-admin/includes/class.bb-install.php:898
+msgid "Forum name"
+msgstr "Foorumi nimi"
+
+#: /bb-admin/includes/class.bb-install.php:899
+msgid "This can be changed after installation, so don't worry about it too much."
+msgstr "Seda saab peale paigaldust muuta."
+
+#: /bb-admin/includes/class.bb-install.php:902
+msgid "Save site settings"
+msgstr "Salvesta lehe seaded"
+
+#: /bb-admin/includes/class.bb-install.php:908
+msgid "Complete the installation &raquo;"
+msgstr "Lõpeta paigaldus &raquo;"
+
+#: /bb-admin/includes/class.bb-install.php:917
+msgid "Show installation messages"
+msgstr "Näita paigaldamise sõnumeid"
+
+#: /bb-admin/includes/class.bb-install.php:921
+msgid "Installation errors"
+msgstr "Paigaldamisel tekkinud vead"
+
+#: /bb-admin/includes/class.bb-install.php:925
+msgid "Installation log"
+msgstr "Paigaldamise logi"
+
+#: /bb-admin/includes/class.bb-install.php:1217
+msgid "There was a problem connecting to the database you specified.<br />Please check the settings, then try again."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:1250
+msgid "Your settings have been saved to the file <code>bb-config.php</code><br />You can now continue to the next step."
+msgstr "Teie seaded on salvestatud <code>bb-config.php</code> faili.<br />Võite nüüd järgmise sammu juurde asuda."
+
+#: /bb-admin/includes/class.bb-install.php:1257
+msgid "Your settings could not be saved to a configuration file. You will need to save the text shown below into a file named <code>bb-config.php</code> in the root directory of your bbPress installation before you can continue."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:1274
+msgid "You have chosen to skip the WordPress integration step. You can always integrate WordPress later from within the admin area of bbPress."
+msgstr "Te jätsite WordPressiga sidumise vahele. Vajadusel võite seda teha hiljem bbPressi admin paneelis."
+
+#: /bb-admin/includes/class.bb-install.php:1347
+msgid "You must enter your settings for integration setup to complete. Choose which integration settings you wish to enter from the options below."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:1365
+msgid "Your integration settings have not been processed due to errors with the items marked below."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:1374
+#: /bb-admin/includes/class.bb-install.php:1567
+msgid "&bull; This value is required to continue."
+msgstr "&bull; Selle välja täitmine on kohustuslik."
+
+#: /bb-admin/includes/class.bb-install.php:1377
+#: /bb-admin/includes/class.bb-install.php:1570
+msgid "&bull; This does not appear to be a valid URL."
+msgstr "&bull; See ei ole korrektne URL aadress."
+
+#: /bb-admin/includes/class.bb-install.php:1380
+#: /bb-admin/includes/class.bb-install.php:1573
+msgid "&bull; The URL must begin with \"http\" or \"https\"."
+msgstr "&bull; URL aadress peab algama tähtedega \"http\" või \"https\"."
+
+#: /bb-admin/includes/class.bb-install.php:1383
+#: /bb-admin/includes/class.bb-install.php:1576
+msgid "&bull; The URL does not contain a host name."
+msgstr "&bull; URL aadress ei sisalda hostinime."
+
+#: /bb-admin/includes/class.bb-install.php:1466
+msgid "There was a problem connecting to the WordPress user database you specified. Please check the settings, then try again."
+msgstr "Sisestatud WordPressi kasutajate andmebaasiga ühendamisel tekkis viga. Palun kontrollige sisestatud andmeid ja proovige uuesti."
+
+#: /bb-admin/includes/class.bb-install.php:1481
+msgid "Existing WordPress user tables could not be found in the WordPress database you specified."
+msgstr "WordPressi andmebaasist ei leitud kasutajate tabeleid."
+
+#: /bb-admin/includes/class.bb-install.php:1483
+msgid "Existing WordPress user tables could not be found in the bbPress database you specified in step 1.<br /><br />This is probably because the database does not already contain working WordPress tables. You may need to specify advanced database settings or leave integration until after installation."
+msgstr "WordPressi kasutajate tabeleid ei leitud esimesel sammul sisestatud bbPressi andmebaasist.<br /><br />Ilmselt sellesse andmebaasi ei ole WordPressi paigaldatud. Te peaksite sisestama täpsemad andmebaasi seaded või viima läbi WordPressiga sidumise alles peale paigaldamist."
+
+#: /bb-admin/includes/class.bb-install.php:1485
+msgid "&bull; This may not be a valid user table prefix."
+msgstr "&bull; See ei pruugi olla korrektne kasutajate tabeli eesliide."
+
+#: /bb-admin/includes/class.bb-install.php:1503
+msgid "Your WordPress integration cookie and database settings have been successfully validated. They will be saved after the next step.<br /><br />Once you have finished installing, you should visit the WordPress integration section of the bbPress admin area for further options and integration instructions, including user mapping and the correct cookie settings to add to your WordPress configuration file."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:1558
+msgid "Your site settings have not been processed due to errors with the items marked below."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:1579
+msgid "&bull; Contains disallowed characters which have been removed."
+msgstr "&bull; Sisaldab keelatud tähemärke, mis eemaldati automaatselt."
+
+#: /bb-admin/includes/class.bb-install.php:1582
+msgid "&bull; The user email address appears to be invalid."
+msgstr "&bull; Ebakorrektne e-postiaadress."
+
+#: /bb-admin/includes/class.bb-install.php:1601
+msgid "Your site settings have been saved and we are now ready to complete the installation. So what are you waiting for?"
+msgstr "Teie lehe seaded on salvestatud ja me oleme valmis paigaldamist lõpetama. Mis te veel ootate? :)"
+
+#: /bb-admin/includes/class.bb-install.php:1623
+msgid "Referrer is OK, beginning installation&hellip;"
+msgstr "Alustame paigaldamisega...&hellip;"
+
+#: /bb-admin/includes/class.bb-install.php:1630
+msgid "Setting up custom user table constants"
+msgstr "Määrame kasutajate tabeli konstandid"
+
+#: /bb-admin/includes/class.bb-install.php:1665
+msgid "Step 1 - Creating database tables"
+msgstr "Esimene samm - andmebaasi tabelite loomine"
+
+#: /bb-admin/includes/class.bb-install.php:1683
+#: /bb-admin/includes/class.bb-install.php:1685
+msgid "Database installation failed!!!"
+msgstr "Andmebaasi paigaldamine ebaõnnestus!"
+
+#: /bb-admin/includes/class.bb-install.php:1684
+#: /bb-admin/includes/class.bb-install.php:1881
+#: /bb-admin/includes/class.bb-install.php:1914
+#: /bb-admin/includes/class.bb-install.php:1940
+msgid "Halting installation!"
+msgstr "Paigaldamine katkestatud!"
+
+#: /bb-admin/includes/class.bb-install.php:1688
+#: /bb-admin/includes/class.bb-install.php:1883
+#: /bb-admin/includes/class.bb-install.php:1917
+#: /bb-admin/includes/class.bb-install.php:1943
+msgid "Installation failed!"
+msgstr "Paigaldamine ebaõnnestus!"
+
+#: /bb-admin/includes/class.bb-install.php:1689
+msgid "The database failed to install. You may need to replace bbPress with a fresh copy and start again."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:1697
+msgid "Database is already installed!!!"
+msgstr "Andmebaas on juba paigaldatud!!!"
+
+#: /bb-admin/includes/class.bb-install.php:1702
+msgid "Step 2 - WordPress integration (optional)"
+msgstr "Teine samm - WordPressiga sidumine (vabatahtlik)"
+
+#: /bb-admin/includes/class.bb-install.php:1706
+msgid "WordPress address (URL):"
+msgstr "WordPressi aadress (URL):"
+
+#: /bb-admin/includes/class.bb-install.php:1709
+msgid "Blog address (URL):"
+msgstr "Ajaveebi aadress (URL):"
+
+#: /bb-admin/includes/class.bb-install.php:1723
+msgid "WordPress cookie keys set."
+msgstr "WordPressi küpsise võtmed seatud."
+
+#: /bb-admin/includes/class.bb-install.php:1726
+#: /bb-admin/includes/class.bb-install.php:1729
+msgid "WordPress cookie keys not set."
+msgstr "WordPressi küpsise võtmed määramata."
+
+#: /bb-admin/includes/class.bb-install.php:1727
+msgid "Your \"bb-config.php\" file was not writable."
+msgstr "\"bb-config.php\" failile puudus kirjutamisõigus."
+
+#: /bb-admin/includes/class.bb-install.php:1728
+msgid "You will need to manually re-define \"BB_AUTH_KEY\", \"BB_SECURE_AUTH_KEY\" and \"BB_LOGGED_IN_KEY\" in your \"bb-config.php\" file."
+msgstr "Te peade käsitsi defineerima \"BB_AUTH_KEY\", \"BB_SECURE_AUTH_KEY\" ja \"BB_LOGGED_IN_KEY\" konstandid \"bb-config.php\" failis."
+
+#: /bb-admin/includes/class.bb-install.php:1735
+msgid "WordPress \"auth\" cookie salt set from input."
+msgstr "WordPressi \"auth\" küpsise sool on vastavalt sisendile seatud."
+
+#: /bb-admin/includes/class.bb-install.php:1740
+msgid "WordPress \"secure auth\" cookie salt set from input."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:1745
+msgid "WordPress \"logged in\" cookie salt set from input."
+msgstr "WordPressi \"logged in\" küpsise sool on vastavalt sisendile seatud."
+
+#: /bb-admin/includes/class.bb-install.php:1755
+msgid "Fetching missing WordPress cookie salts."
+msgstr "Pärime puuduvad WordPressi küpsise soolad."
+
+#: /bb-admin/includes/class.bb-install.php:1768
+msgid "WordPress \"auth\" cookie salt set."
+msgstr "WordPressi \"auth\" küpsise sool on seatud."
+
+#: /bb-admin/includes/class.bb-install.php:1770
+#: /bb-admin/includes/class.bb-install.php:1773
+msgid "WordPress \"auth\" cookie salt not set."
+msgstr "WordPressi \"auth\" küpsise sool on määramata."
+
+#: /bb-admin/includes/class.bb-install.php:1771
+msgid "Could not fetch \"auth\" cookie salt from the WordPress options table."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:1772
+msgid "You will need to manually define the \"auth\" cookie salt in your database."
+msgstr "Te peate \"auth\" küpsise soola käsitsi andmebaasis defineerima."
+
+#: /bb-admin/includes/class.bb-install.php:1781
+msgid "WordPress \"secure auth\" cookie salt set."
+msgstr "WordPressi \"secure auth\" küpsise sool on seatud."
+
+#: /bb-admin/includes/class.bb-install.php:1784
+msgid "WordPress \"secure auth\" cookie salt not set."
+msgstr "WordPressi \"secure auth\" küpsise sool on määramata."
+
+#: /bb-admin/includes/class.bb-install.php:1792
+msgid "WordPress \"logged in\" cookie salt set."
+msgstr "WordPressi \"logged in\" küpsise võti on seatud."
+
+#: /bb-admin/includes/class.bb-install.php:1794
+#: /bb-admin/includes/class.bb-install.php:1797
+msgid "WordPress \"logged in\" cookie salt not set."
+msgstr "WordPressi \"logged in\" küpsise võti on määramata."
+
+#: /bb-admin/includes/class.bb-install.php:1795
+msgid "Could not fetch \"logged in\" cookie salt from the WordPress options table."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:1796
+msgid "You will need to manually define the \"logged in\" cookie salt in your database."
+msgstr "Te peate \"logged in\" küpsise soola käsitsi andmebaasis defineerima."
+
+#: /bb-admin/includes/class.bb-install.php:1804
+msgid "User database table prefix:"
+msgstr "Kasutajatabelite eesliide:"
+
+#: /bb-admin/includes/class.bb-install.php:1830
+msgid "User database collation:"
+msgstr "Kasutajate andmebaasi märkide kollatsioon:"
+
+#: /bb-admin/includes/class.bb-install.php:1843
+msgid "Integration not enabled"
+msgstr "WordPressiga sidumine välja lülitatud"
+
+#: /bb-admin/includes/class.bb-install.php:1848
+msgid "Step 3 - Site settings"
+msgstr "Kolmas samm - lehe seaded"
+
+#: /bb-admin/includes/class.bb-install.php:1850
+msgid "Site name:"
+msgstr "Lehe nimi:"
+
+#: /bb-admin/includes/class.bb-install.php:1852
+msgid "Site address (URL):"
+msgstr "Lehe aadress (URL):"
+
+#: /bb-admin/includes/class.bb-install.php:1854
+msgid "From email address:"
+msgstr "E-postiaadressilt:"
+
+#: /bb-admin/includes/class.bb-install.php:1865
+#: /bb-admin/includes/class.bb-install.php:1867
+#: /bb-admin/includes/class.bb-install.php:1913
+#: /bb-admin/includes/class.bb-install.php:1915
+#: /bb-admin/includes/class.bb-install.php:1941
+msgid "Key master could not be created!"
+msgstr "Super admini ei suudetud luua!"
+
+#: /bb-admin/includes/class.bb-install.php:1866
+msgid "That login is already taken!"
+msgstr "See kasutajanimi on juba võetud!"
+
+#: /bb-admin/includes/class.bb-install.php:1872
+msgid "Existing key master entered!"
+msgstr "Sisestatud kasutaja on super admin!"
+
+#: /bb-admin/includes/class.bb-install.php:1873
+msgid "Your bbPress password"
+msgstr "Teie bbPressi parool"
+
+#: /bb-admin/includes/class.bb-install.php:1876
+msgid "Re-setting admin email address."
+msgstr "Muudame admini e-postiaadressi."
+
+#: /bb-admin/includes/class.bb-install.php:1880
+msgid "Existing user without key master role entered!"
+msgstr "Sisestatud kasutaja ei ole super admin!"
+
+#: /bb-admin/includes/class.bb-install.php:1884
+msgid "The key master could not be created. An existing user was found with that user login."
+msgstr "Super admin kasutajat ei suudetud luua. Sellise nimega kasutaja on juba olemas."
+
+#: /bb-admin/includes/class.bb-install.php:1907
+msgid "Key master created"
+msgstr "Super admin loodud"
+
+#: /bb-admin/includes/class.bb-install.php:1909
+#: /bb-admin/includes/class.bb-install.php:1935
+msgid "Email address:"
+msgstr "E-postiaadress:"
+
+#: /bb-admin/includes/class.bb-install.php:1918
+msgid "The key master could not be created. You may need to replace bbPress with a fresh copy and start again."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:1932
+msgid "Your existing password"
+msgstr "Praegune parool"
+
+#: /bb-admin/includes/class.bb-install.php:1933
+msgid "Key master role assigned to existing user"
+msgstr "Olemasolevale kasutajale määrati super admin staatus"
+
+#: /bb-admin/includes/class.bb-install.php:1939
+msgid "Key master role could not be assigned to existing user!"
+msgstr "Olemasolevale kasutajale ei suudetud super admin sataatust määrata!"
+
+#: /bb-admin/includes/class.bb-install.php:1944
+msgid "The key master could not be assigned. You may need to replace bbPress with a fresh copy and start again."
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:1963
+msgid "Just another bbPress community"
+msgstr "Järjekordne bbPressi kogukond"
+
+#: /bb-admin/includes/class.bb-install.php:1972
+msgid "Description:"
+msgstr "Kirjeldus:"
+
+#: /bb-admin/includes/class.bb-install.php:1975
+msgid "Forum name:"
+msgstr "Foorumi nimi:"
+
+#: /bb-admin/includes/class.bb-install.php:1983
+msgid "Your first topic"
+msgstr "Teie esimene teema"
+
+#: /bb-admin/includes/class.bb-install.php:1991
+msgid "First Post!  w00t."
+msgstr "Esimene postitus! w00t."
+
+#: /bb-admin/includes/class.bb-install.php:2005
+msgid "Topic:"
+msgstr "Teema:"
+
+#: /bb-admin/includes/class.bb-install.php:2006
+msgid "Post:"
+msgstr "Sisu:"
+
+#: /bb-admin/includes/class.bb-install.php:2008
+#: /bb-admin/includes/class.bb-install.php:2009
+msgid "Forum could not be created!"
+msgstr "Foorumit ei suudetud luua!"
+
+#: /bb-admin/includes/class.bb-install.php:2012
+msgid "There are existing forums in this database."
+msgstr "Sellesse andmebaasi on juba foorum paigaldatud."
+
+#: /bb-admin/includes/class.bb-install.php:2013
+msgid "No new forum created."
+msgstr "Uut foorumit ei loodud."
+
+#: /bb-admin/includes/class.bb-install.php:2014
+msgid "Forums already exist!"
+msgstr "Foorum juba eksisteerib!"
+
+#: /bb-admin/includes/class.bb-install.php:2019
+#, php-format
+msgid ""
+"Your new bbPress site has been successfully set up at:\n"
+"\n"
+"%1$s\n"
+"\n"
+"You can log in to the key master account with the following information:\n"
+"\n"
+"Username: %2$s\n"
+"Password: %3$s\n"
+"\n"
+"We hope you enjoy your new forums. Thanks!\n"
+"\n"
+"--The bbPress Team\n"
+"http://bbpress.org/"
+msgstr ""
+
+#: /bb-admin/includes/class.bb-install.php:2025
+msgid "New bbPress installation"
+msgstr "Uue bbPressi paigaldus"
+
+#: /bb-admin/includes/class.bb-install.php:2026
+msgid "Key master email sent"
+msgstr "Super admini e-kiri saadetud"
+
+#: /bb-admin/includes/class.bb-install.php:2028
+#: /bb-admin/includes/class.bb-install.php:2029
+msgid "Key master email not sent!"
+msgstr "Super admini e-kirja ei saadetud!"
+
+#: /bb-admin/includes/class.bb-install.php:2034
+msgid "Installation completed with some errors!"
+msgstr "Paigaldamine lõpetatud. Esinesid mõned vead!"
+
+#: /bb-admin/includes/class.bb-install.php:2035
+msgid "Your installation completed with some minor errors. See the error log below for more specific information."
+msgstr "Paigaldus lõppes. Esinesid mõned väiksemad vead, vaadake altpoolt paigalduse logi."
+
+#: /bb-admin/includes/class.bb-install.php:2036
+msgid "There were some errors encountered during installation!"
+msgstr "Paigaldamise käigus esinesid mõned vead!"
+
+#: /bb-admin/includes/class.bb-install.php:2038
+msgid "Your installation completed successfully.<br />Check below for login details."
+msgstr "Paigaldus lõppes edukalt.<br />Alt saate paigalduse logi vaadata."
+
+#: /bb-admin/includes/class.bb-install.php:2346
+msgid "Please select an existing bbPress Keymaster or WordPress administrator."
+msgstr "Palun valige olemasolev bbPressi super admin või WordPressi haldur."
+
+#: /bb-admin/includes/class.bb-install.php:2405
+msgid "Warning"
+msgstr "Hoiatus"
+
+#: /bb-admin/includes/class.bb-install.php:2405
+msgid "Message"
+msgstr "Sõnum"
+
+#: /bb-admin/includes/defaults.bb-schema.php:8
+msgid "Database class not loaded."
+msgstr "Andmebaasi klass ei ole laetud."
+
+#: /bb-admin/includes/functions.bb-admin.php:55
+msgid "Users"
+msgstr "Kasutajad"
+
+#: /bb-admin/includes/functions.bb-admin.php:56
+msgid "Manage"
+msgstr "Haldus"
+
+#: /bb-admin/includes/functions.bb-admin.php:57
+msgid "Design"
+msgstr "Kujundus"
+
+#: /bb-admin/includes/functions.bb-admin.php:62
+msgid "Settings"
+msgstr "Seaded"
+
+#: /bb-admin/includes/functions.bb-admin.php:63
+#: /bb-admin/includes/functions.bb-admin.php:80
+msgid "Plugins"
+msgstr "Pluginad"
+
+#: /bb-admin/includes/functions.bb-admin.php:69
+msgid "Find"
+msgstr "Otsi"
+
+#: /bb-admin/includes/functions.bb-admin.php:70
+msgid "Moderators"
+msgstr "Administratsioon"
+
+#: /bb-admin/includes/functions.bb-admin.php:71
+msgid "Blocked"
+msgstr "Blokeeritud"
+
+#: /bb-admin/includes/functions.bb-admin.php:75
+msgid "Forums"
+msgstr "Foorumid"
+
+#: /bb-admin/includes/functions.bb-admin.php:78
+msgid "Themes"
+msgstr "Kujundus"
+
+#: /bb-admin/includes/functions.bb-admin.php:82
+msgid "General"
+msgstr "Üldine"
+
+#: /bb-admin/includes/functions.bb-admin.php:83
+msgid "WordPress Integration"
+msgstr "WordPressiga sidumine"
+
+#: /bb-admin/includes/functions.bb-admin.php:318
+#: /bb-admin/includes/functions.bb-admin.php:684
+msgid "Edit"
+msgstr "Muuda"
+
+#: /bb-admin/includes/functions.bb-admin.php:371
+#: /bb-admin/includes/functions.bb-admin.php:511
+msgid "No matching users were found!"
+msgstr "Selliseid kasutajaid ei leitud!"
+
+#: /bb-admin/includes/functions.bb-admin.php:431
+#, php-format
+msgid "Users Matching \"%s\" by Role"
+msgstr "Kasutajad nimega \"%s\""
+
+#: /bb-admin/includes/functions.bb-admin.php:433
+msgid "User List by Role"
+msgstr "Kasutajate nimekiri"
+
+#: /bb-admin/includes/functions.bb-admin.php:438
+msgid "Search:"
+msgstr "Otsing:"
+
+#: /bb-admin/includes/functions.bb-admin.php:440
+msgid "Search for users &raquo;"
+msgstr "Otsi kasutajaid &raquo;"
+
+#: /bb-admin/includes/functions.bb-admin.php:446
+msgid "&laquo; Back to All Users"
+msgstr "&laquo; Tagasi kõigi kasutajate juurde"
+
+#: /bb-admin/includes/functions.bb-admin.php:448
+#, php-format
+msgid "%1$s &#8211; %2$s of %3$s shown below"
+msgstr "%1$s &#8211; %2$s %3$s-st, vt allpool"
+
+#: /bb-admin/includes/functions.bb-admin.php:458
+msgid "Users with no role in these forums"
+msgstr "Ilma rollideta kasutajad siin foorumis"
+
+#: /bb-admin/includes/functions.bb-admin.php:462
+msgid "ID"
+msgstr "ID"
+
+#: /bb-admin/includes/functions.bb-admin.php:465
+#: /bb-admin/includes/functions.bb-admin.php:469
+msgid "Display name"
+msgstr "Kuvatav nimi"
+
+#: /bb-admin/includes/functions.bb-admin.php:466
+msgid "Email"
+msgstr "E-post"
+
+#: /bb-admin/includes/functions.bb-admin.php:471
+msgid "Registered Since"
+msgstr "Registreerunud"
+
+#: /bb-admin/includes/functions.bb-admin.php:472
+msgid "Actions"
+msgstr "Toimingud"
+
+#: /bb-admin/includes/functions.bb-admin.php:686
+msgid "Delete"
+msgstr "Kustuta"
+
+#: /bb-admin/includes/functions.bb-admin.php:706
+msgid "Forum Name:"
+msgstr "Foorumi nimi:"
+
+#: /bb-admin/includes/functions.bb-admin.php:710
+msgid "Forum Slug:"
+msgstr "Foorumi nimi:"
+
+#: /bb-admin/includes/functions.bb-admin.php:714
+msgid "Forum Description:"
+msgstr "Foorumi kirjeldus:"
+
+#: /bb-admin/includes/functions.bb-admin.php:717
+msgid "Forum Parent:"
+msgstr "Ülemfoorum:"
+
+#: /bb-admin/includes/functions.bb-admin.php:726
+msgid "Position:"
+msgstr "Positsioon:"
+
+#: /bb-admin/includes/functions.bb-admin.php:729
+msgid "Forum is Category:"
+msgstr "Foorum on kategooria:"
+
+#: /bb-admin/includes/functions.bb-admin.php:740
+msgid "Update Forum &#187;"
+msgstr "Uuenda foorum &#187;"
+
+#: /bb-admin/includes/functions.bb-admin.php:740
+msgid "Add Forum &#187;"
+msgstr "Lisa foorum &#187;"
+
+#: /bb-admin/includes/functions.bb-admin.php:902
+#, php-format
+msgid "Posted: %1$s in <a href=\"%2$s\">%3$s</a>"
+msgstr "Postitatud: %1$s tagasi Teema: <a href=\"%2$s\">%3$s</a>"
+
+#: /bb-admin/includes/functions.bb-admin.php:917
+msgid "Count posts of every topic"
+msgstr "Loenda kõikide teemade postitused"
+
+#: /bb-admin/includes/functions.bb-admin.php:918
+msgid "Count deleted posts on every topic"
+msgstr "Loenda kõikide teemade kustutatud postitused"
+
+#: /bb-admin/includes/functions.bb-admin.php:919
+msgid "Count topics and posts in every forum (relies on the above)"
+msgstr "Loenda teemad ja postitused igas foorumis (sõltub ülemisest)"
+
+#: /bb-admin/includes/functions.bb-admin.php:920
+msgid "Count topics to which each user has replied"
+msgstr "Loenda teemad, kuhu iga kasutaja on vastanud"
+
+#: /bb-admin/includes/functions.bb-admin.php:921
+msgid "Count tags for every topic"
+msgstr "Loenda iga teema sildid"
+
+#: /bb-admin/includes/functions.bb-admin.php:922
+msgid "Count topics for every tag"
+msgstr "Loenda iga sildi teemad"
+
+#: /bb-admin/includes/functions.bb-admin.php:923
+msgid "DELETE tags with no topics.  Only functions if the above checked"
+msgstr "KUSTUTA ilma teemadeta sildid. Töötab ainult, kui ülemine on märgistatud"
+
+#: /bb-admin/includes/functions.bb-admin.php:924
+msgid "REMOVE deleted topics from users' favorites"
+msgstr "EEMALDA kustutatud teemad kasutajate lemmikutest"
+
+#: /bb-admin/includes/functions.bb-admin.php:992
+#: /bb-admin/includes/functions.bb-plugin.php:180
+msgid "Visit author homepage"
+msgstr "Mine autori kodulehele"
+
+#: /bb-admin/includes/functions.bb-admin.php:1002
+msgid "Visit porter homepage"
+msgstr "Mine autori kodulehele"
+
+#: /bb-admin/includes/functions.bb-plugin.php:177
+msgid "Visit plugin homepage"
+msgstr "Mine pluginate kodulehele"
+
+#: /bb-admin/includes/functions.bb-plugin.php:288
+msgid "Invalid plugin path."
+msgstr "Plugina kataloogitee on vigane."
+
+#: /bb-admin/includes/functions.bb-plugin.php:292
+msgid "Plugin file does not exist."
+msgstr "Pluginafaili ei leitud."
+
+#: /bb-admin/includes/functions.bb-plugin.php:295
+msgid "That type of plugin is not available in the specified location."
+msgstr ""
+
+#: /bb-includes/class.bb-dir-map.php:19
+msgid "Not a valid directory"
+msgstr "See kataloog pole lubatud"
+
+#: /bb-includes/class.bb-dir-map.php:25
+msgid "Invalid arguments"
+msgstr "Katkine plugin"
+
+#: /bb-includes/class.bb-locale.php:21
+#: /bb-includes/class.bb-locale.php:31
+#: /bb-includes/class.bb-locale.php:44
+msgid "Sunday"
+msgstr "Pühapäev"
+
+#: /bb-includes/class.bb-locale.php:22
+#: /bb-includes/class.bb-locale.php:32
+#: /bb-includes/class.bb-locale.php:45
+msgid "Monday"
+msgstr "Esmaspäev"
+
+#: /bb-includes/class.bb-locale.php:23
+#: /bb-includes/class.bb-locale.php:33
+#: /bb-includes/class.bb-locale.php:46
+msgid "Tuesday"
+msgstr "Teisipäev"
+
+#: /bb-includes/class.bb-locale.php:24
+#: /bb-includes/class.bb-locale.php:34
+#: /bb-includes/class.bb-locale.php:47
+msgid "Wednesday"
+msgstr "Kolmapäev"
+
+#: /bb-includes/class.bb-locale.php:25
+#: /bb-includes/class.bb-locale.php:35
+#: /bb-includes/class.bb-locale.php:48
+msgid "Thursday"
+msgstr "Neljapäev"
+
+#: /bb-includes/class.bb-locale.php:26
+#: /bb-includes/class.bb-locale.php:36
+#: /bb-includes/class.bb-locale.php:49
+msgid "Friday"
+msgstr "Reede"
+
+#: /bb-includes/class.bb-locale.php:27
+#: /bb-includes/class.bb-locale.php:37
+#: /bb-includes/class.bb-locale.php:50
+msgid "Saturday"
+msgstr "Laupäev"
+
+#: /bb-includes/class.bb-locale.php:31
+msgid "S_Sunday_initial"
+msgstr "P"
+
+#: /bb-includes/class.bb-locale.php:32
+msgid "M_Monday_initial"
+msgstr "E"
+
+#: /bb-includes/class.bb-locale.php:33
+msgid "T_Tuesday_initial"
+msgstr "T"
+
+#: /bb-includes/class.bb-locale.php:34
+msgid "W_Wednesday_initial"
+msgstr "K"
+
+#: /bb-includes/class.bb-locale.php:35
+msgid "T_Thursday_initial"
+msgstr "N"
+
+#: /bb-includes/class.bb-locale.php:36
+msgid "F_Friday_initial"
+msgstr "R"
+
+#: /bb-includes/class.bb-locale.php:37
+msgid "S_Saturday_initial"
+msgstr "L"
+
+#: /bb-includes/class.bb-locale.php:44
+msgid "Sun"
+msgstr "P"
+
+#: /bb-includes/class.bb-locale.php:45
+msgid "Mon"
+msgstr "E"
+
+#: /bb-includes/class.bb-locale.php:46
+msgid "Tue"
+msgstr "T"
+
+#: /bb-includes/class.bb-locale.php:47
+msgid "Wed"
+msgstr "K"
+
+#: /bb-includes/class.bb-locale.php:48
+msgid "Thu"
+msgstr "N"
+
+#: /bb-includes/class.bb-locale.php:49
+msgid "Fri"
+msgstr "R"
+
+#: /bb-includes/class.bb-locale.php:50
+msgid "Sat"
+msgstr "L"
+
+#: /bb-includes/class.bb-locale.php:53
+#: /bb-includes/class.bb-locale.php:68
+msgid "January"
+msgstr "jaanuar"
+
+#: /bb-includes/class.bb-locale.php:54
+#: /bb-includes/class.bb-locale.php:69
+msgid "February"
+msgstr "veebruar"
+
+#: /bb-includes/class.bb-locale.php:55
+#: /bb-includes/class.bb-locale.php:70
+msgid "March"
+msgstr "märts"
+
+#: /bb-includes/class.bb-locale.php:56
+#: /bb-includes/class.bb-locale.php:71
+msgid "April"
+msgstr "aprill"
+
+#: /bb-includes/class.bb-locale.php:57
+#: /bb-includes/class.bb-locale.php:72
+msgid "May"
+msgstr "mai"
+
+#: /bb-includes/class.bb-locale.php:58
+#: /bb-includes/class.bb-locale.php:73
+msgid "June"
+msgstr "juuni"
+
+#: /bb-includes/class.bb-locale.php:59
+#: /bb-includes/class.bb-locale.php:74
+msgid "July"
+msgstr "juuli"
+
+#: /bb-includes/class.bb-locale.php:60
+#: /bb-includes/class.bb-locale.php:75
+msgid "August"
+msgstr "august"
+
+#: /bb-includes/class.bb-locale.php:61
+#: /bb-includes/class.bb-locale.php:76
+msgid "September"
+msgstr "september"
+
+#: /bb-includes/class.bb-locale.php:62
+#: /bb-includes/class.bb-locale.php:77
+msgid "October"
+msgstr "oktoober"
+
+#: /bb-includes/class.bb-locale.php:63
+#: /bb-includes/class.bb-locale.php:78
+msgid "November"
+msgstr "november"
+
+#: /bb-includes/class.bb-locale.php:64
+#: /bb-includes/class.bb-locale.php:79
+msgid "December"
+msgstr "detsember"
+
+#: /bb-includes/class.bb-locale.php:68
+msgid "Jan_January_abbreviation"
+msgstr "jaan"
+
+#: /bb-includes/class.bb-locale.php:69
+msgid "Feb_February_abbreviation"
+msgstr "veebr"
+
+#: /bb-includes/class.bb-locale.php:70
+msgid "Mar_March_abbreviation"
+msgstr "märts"
+
+#: /bb-includes/class.bb-locale.php:71
+msgid "Apr_April_abbreviation"
+msgstr "apr"
+
+#: /bb-includes/class.bb-locale.php:72
+msgid "May_May_abbreviation"
+msgstr "mai"
+
+#: /bb-includes/class.bb-locale.php:73
+msgid "Jun_June_abbreviation"
+msgstr "juuni"
+
+#: /bb-includes/class.bb-locale.php:74
+msgid "Jul_July_abbreviation"
+msgstr "juuli"
+
+#: /bb-includes/class.bb-locale.php:75
+msgid "Aug_August_abbreviation"
+msgstr "aug"
+
+#: /bb-includes/class.bb-locale.php:76
+msgid "Sep_September_abbreviation"
+msgstr "sept"
+
+#: /bb-includes/class.bb-locale.php:77
+msgid "Oct_October_abbreviation"
+msgstr "okt"
+
+#: /bb-includes/class.bb-locale.php:78
+msgid "Nov_November_abbreviation"
+msgstr "nov"
+
+#: /bb-includes/class.bb-locale.php:79
+msgid "Dec_December_abbreviation"
+msgstr "dets"
+
+#: /bb-includes/class.bb-locale.php:86
+msgid "am"
+msgstr "e.l."
+
+#: /bb-includes/class.bb-locale.php:87
+msgid "pm"
+msgstr "p.l."
+
+#: /bb-includes/class.bb-locale.php:88
+msgid "AM"
+msgstr "e.l."
+
+#: /bb-includes/class.bb-locale.php:89
+msgid "PM"
+msgstr "p.l."
+
+#: /bb-includes/class.bb-locale.php:94
+msgid "number_format_decimals"
+msgstr "V"
+
+#: /bb-includes/class.bb-locale.php:97
+msgid "number_format_decimal_point"
+msgstr ","
+
+#: /bb-includes/class.bb-locale.php:100
+msgid "number_format_thousands_sep"
+msgstr " "
+
+#: /bb-includes/class.bb-locale.php:105
+msgid "F j, Y - h:i A"
+msgstr "j. M Y - H:i"
+
+#: /bb-includes/class.bb-locale.php:106
+msgid "F j, Y"
+msgstr "j. M Y"
+
+#: /bb-includes/class.bb-locale.php:107
+msgid "h:i A"
+msgstr "H:i"
+
+#: /bb-includes/class.bb-query.php:873
+msgid "Search &#187;"
+msgstr "Otsi &#187;"
+
+#: /bb-includes/class.bb-query.php:905
+msgid "Search&#8230;"
+msgstr "Otsi&#8230;"
+
+#: /bb-includes/class.bb-query.php:911
+msgid "Forum&#8230;"
+msgstr "Foorum&#8230;"
+
+#: /bb-includes/class.bb-query.php:912
+msgid "Any"
+msgstr "Kõik"
+
+#: /bb-includes/class.bb-query.php:918
+msgid "Tag&#8230;"
+msgstr "Silt&#8230;"
+
+#: /bb-includes/class.bb-query.php:925
+msgid "Topic Author&#8230;"
+msgstr "Teema autor&#8230;"
+
+#: /bb-includes/class.bb-query.php:932
+msgid "Post Author&#8230;"
+msgstr "Postituse autor&#8230;"
+
+#: /bb-includes/class.bb-query.php:937
+#: /bb-includes/class.bb-query.php:964
+msgid "All"
+msgstr "Kõik"
+
+#: /bb-includes/class.bb-query.php:940
+msgid "Topic Status&#8230;"
+msgstr "Teema olek&#8230;"
+
+#: /bb-includes/class.bb-query.php:951
+msgid "Post Status&#8230;"
+msgstr "Postituse olek&#8230;"
+
+#: /bb-includes/class.bb-query.php:962
+msgid "Open?&#8230;"
+msgstr "Avatud?&#8230;"
+
+#: /bb-includes/class.bb-query.php:975
+msgid "Title&#8230;"
+msgstr "Pealkiri&#8230;"
+
+#: /bb-includes/class.bb-taxonomy.php:48
+#: /bb-includes/class.bb-taxonomy.php:150
+#: /bb-includes/class.bb-taxonomy.php:262
+msgid "Invalid Taxonomy"
+msgstr "Vigane taksonoomia"
+
+#: /bb-includes/class.bb-taxonomy.php:259
+msgid "Invalid User ID"
+msgstr "Vigane kasutaja ID"
+
+#: /bb-includes/functions.bb-capabilities.php:57
+msgid "Key Master"
+msgstr "Super admin"
+
+#: /bb-includes/functions.bb-capabilities.php:100
+msgid "Administrator"
+msgstr "Administraator"
+
+#: /bb-includes/functions.bb-capabilities.php:135
+msgid "Moderator"
+msgstr "Moderaator"
+
+#: /bb-includes/functions.bb-capabilities.php:166
+msgid "Member"
+msgstr "Kasutaja"
+
+#: /bb-includes/functions.bb-capabilities.php:180
+msgid "Inactive"
+msgstr "Inaktiivne"
+
+#: /bb-includes/functions.bb-core.php:189
+msgid "&laquo; Previous"
+msgstr "&laquo; Eelmine"
+
+#: /bb-includes/functions.bb-core.php:190
+msgid "Next &raquo;"
+msgstr "Järgmine &raquo;"
+
+#: /bb-includes/functions.bb-core.php:196
+#, php-format
+msgid "Page %d"
+msgstr "Lehekülg %d"
+
+#: /bb-includes/functions.bb-core.php:197
+msgid "Previous page"
+msgstr "Eelmine lehekülg"
+
+#: /bb-includes/functions.bb-core.php:198
+msgid "Next page"
+msgstr "Järgmine lehekülg"
+
+#: /bb-includes/functions.bb-core.php:328
+msgid "year"
+msgstr "aasta"
+
+#: /bb-includes/functions.bb-core.php:328
+msgid "years"
+msgstr "aastat"
+
+#: /bb-includes/functions.bb-core.php:329
+msgid "month"
+msgstr "kuu"
+
+#: /bb-includes/functions.bb-core.php:329
+msgid "months"
+msgstr "kuud"
+
+#: /bb-includes/functions.bb-core.php:330
+msgid "week"
+msgstr "nädal"
+
+#: /bb-includes/functions.bb-core.php:330
+msgid "weeks"
+msgstr "nädalat"
+
+#: /bb-includes/functions.bb-core.php:331
+msgid "day"
+msgstr "päev"
+
+#: /bb-includes/functions.bb-core.php:331
+msgid "days"
+msgstr "päeva"
+
+#: /bb-includes/functions.bb-core.php:332
+msgid "hour"
+msgstr "tund"
+
+#: /bb-includes/functions.bb-core.php:333
+msgid "minute"
+msgstr "minut"
+
+#: /bb-includes/functions.bb-core.php:334
+msgid "second"
+msgstr "sekund"
+
+#: /bb-includes/functions.bb-core.php:334
+msgid "seconds"
+msgstr "sekundit"
+
+#: /bb-includes/functions.bb-core.php:348
+#, php-format
+msgid "%1$d %2$s"
+msgstr "%1$d %2$s"
+
+#: /bb-includes/functions.bb-core.php:355
+#, php-format
+msgid ", %1$d %2$s"
+msgstr ", %1$d %2$s"
+
+#: /bb-includes/functions.bb-core.php:505
+msgid "User not found."
+msgstr "Kasutajat ei leitud."
+
+#: /bb-includes/functions.bb-core.php:575
+msgid "REQUEST_URI"
+msgstr ""
+
+#: /bb-includes/functions.bb-core.php:576
+msgid "should be"
+msgstr "peaks olema"
+
+#: /bb-includes/functions.bb-core.php:577
+msgid "full permalink"
+msgstr "püsiviide"
+
+#: /bb-includes/functions.bb-core.php:578
+msgid "PATH_INFO"
+msgstr ""
+
+#: /bb-includes/functions.bb-core.php:603
+msgid "Favorites"
+msgstr "Lemmikud"
+
+#: /bb-includes/functions.bb-core.php:653
+msgid "First name"
+msgstr "Eesnimi"
+
+#: /bb-includes/functions.bb-core.php:654
+msgid "Last name"
+msgstr "Perekonnanimi"
+
+#: /bb-includes/functions.bb-core.php:655
+msgid "Display name as"
+msgstr "Kuva nimi kui"
+
+#: /bb-includes/functions.bb-core.php:657
+msgid "Website"
+msgstr "Veebileht"
+
+#: /bb-includes/functions.bb-core.php:658
+msgid "Location"
+msgstr "Asukoht"
+
+#: /bb-includes/functions.bb-core.php:659
+msgid "Occupation"
+msgstr "Amet"
+
+#: /bb-includes/functions.bb-core.php:660
+msgid "Interests"
+msgstr "Huvid"
+
+#: /bb-includes/functions.bb-core.php:667
+msgid "Custom Title"
+msgstr "Tiitel"
+
+#: /bb-includes/functions.bb-core.php:674
+#, php-format
+msgid "Ignore the %d second post throttling limit"
+msgstr "Eirata postituste vahelist ajalimiiti (%d sekundit)"
+
+#: /bb-includes/functions.bb-core.php:751
+msgid "Topics with no replies"
+msgstr "Ilma vastusteta teemad"
+
+#: /bb-includes/functions.bb-core.php:752
+msgid "Topics with no tags"
+msgstr "Sildistamata teemad"
+
+#: /bb-includes/functions.bb-core.php:807
+msgid "bbPress Failure Notice"
+msgstr "bbPressi veateade"
+
+#: /bb-includes/functions.bb-core.php:810
+msgid "Please try again."
+msgstr "Proovi uuesti."
+
+#: /bb-includes/functions.bb-core.php:819
+msgid "bbPress"
+msgstr ""
+
+#: /bb-includes/functions.bb-core.php:874
+msgid "<a href=\"http://bbpress.org/\">bbPress</a> - simple, fast, elegant"
+msgstr "<a href=\"http://bbpress.org/\">bbPress</a> - lihtne, kiire, elegantne"
+
+#: /bb-includes/functions.bb-core.php:918
+#, php-format
+msgid "Back to <a href=\"%s\">%s</a>."
+msgstr "Tagasi <a href=\"%s\">%s</a> juurde."
+
+#: /bb-includes/functions.bb-core.php:931
+msgid "Your attempt to submit this post has failed."
+msgstr "Postituse lisamine ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:932
+msgid "Your attempt to edit this post has failed."
+msgstr "Postituse muutmine ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:933
+msgid "Your attempt to delete this post has failed."
+msgstr "Postituse kustutamine ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:935
+msgid "Your attempt to create this topic has failed."
+msgstr "Teema loomine ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:936
+msgid "Your attempt to change the resolution status of this topic has failed."
+msgstr "Postituse staatuse muutmine ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:937
+msgid "Your attempt to delete this topic has failed."
+msgstr "Teema kustutamine ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:938
+msgid "Your attempt to change the status of this topic has failed."
+msgstr "Teema oleku muutmine ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:939
+msgid "Your attempt to change the sticky status of this topic has failed."
+msgstr "Teema kleebise oleku muutmine ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:940
+msgid "Your attempt to move this topic has failed."
+msgstr "Teema liigutamine ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:942
+msgid "Your attempt to add this tag to this topic has failed."
+msgstr "Sildi lisamine sellele teemale ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:943
+msgid "Your attempt to rename this tag has failed."
+msgstr "Sildi nime muutmine ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:944
+msgid "Your attempt to submit these tags has failed."
+msgstr "Nende siltide lisamine ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:945
+msgid "Your attempt to destroy this tag has failed."
+msgstr "Sildi hävitamine ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:946
+msgid "Your attempt to remove this tag from this topic has failed."
+msgstr "Sildi eemaldamine sellelt postituselt ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:948
+msgid "Your attempt to toggle your favorite status for this topic has failed."
+msgstr "Olete kindel, et soovite selle teema lemmiku staatust muuta?"
+
+#: /bb-includes/functions.bb-core.php:950
+msgid "Your attempt to edit this user's profile has failed."
+msgstr "Kasutajaprofiili muutmine ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:952
+msgid "Your attempt to add this forum has failed."
+msgstr "Foorumi lisamine ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:953
+msgid "Your attempt to update your forums has failed."
+msgstr "Foorumi uuendamine ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:954
+msgid "Your attempt to delete that forum has failed."
+msgstr "Foorumi kustutamine ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:956
+msgid "Your attempt to recount these items has failed."
+msgstr "Nende elementide üleloendamine ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:958
+msgid "Your attempt to switch themes has failed."
+msgstr "Kujunduse vahetamine ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:973
+msgid "Your attempt to do this has failed."
+msgstr "Tegevus ebaõnnestus."
+
+#: /bb-includes/functions.bb-core.php:1144
+#: /bb-includes/functions.bb-core.php:1223
+msgid "Your search term was too short"
+msgstr "Teie otsingusõna oli liiga lühike"
+
+#: /bb-includes/functions.bb-core.php:1190
+msgid "Your query parameters are invalid"
+msgstr "Päringu parameetrid on vigased"
+
+#: /bb-includes/functions.bb-formatting.php:296
+#: /bb-includes/functions.bb-formatting.php:300
+#, php-format
+msgid "[sticky] %s"
+msgstr "[kleeps] %s"
+
+#: /bb-includes/functions.bb-formatting.php:309
+#, php-format
+msgid "[closed] %s"
+msgstr "[suletud] %s"
+
+#: /bb-includes/functions.bb-meta.php:138
+msgid "Please give me a name!"
+msgstr "Palun andke mulle nimi!"
+
+#: /bb-includes/functions.bb-pluggable.php:535
+#: /bb-includes/functions.bb-pluggable.php:544
+msgid "Invalid username"
+msgstr "Vigane kasutajanimi"
+
+#: /bb-includes/functions.bb-registration.php:82
+msgid "The specified user does not exist."
+msgstr "Sellist kasutajat ei ole olemas."
+
+#: /bb-includes/functions.bb-registration.php:88
+#, php-format
+msgid ""
+"If you wanted to reset your password, you may do so by visiting the following address:\n"
+"\n"
+"%s\n"
+"\n"
+"If you don't want to reset your password, just ignore this email. Thanks!"
+msgstr ""
+"Kui tahtsite oma parooli vahetada, siis külastage seda aadressi:\n"
+"\n"
+"%s\n"
+"\n"
+"Kui te oma parooli vahetada ei tahtnud, siis lihtsalt ignoreerige seda kirja. Täname!"
+
+#: /bb-includes/functions.bb-registration.php:98
+msgid "Password Reset"
+msgstr "Parool vahetatud."
+
+#: /bb-includes/functions.bb-registration.php:103
+msgid "The email containing the password reset link could not be sent."
+msgstr "Parooli taastamise e-kirja saatmine ebaõnnestus."
+
+#: /bb-includes/functions.bb-registration.php:125
+#: /bb-includes/functions.bb-registration.php:127
+#: /bb-includes/functions.bb-registration.php:142
+msgid "Key not found."
+msgstr "Faili ei leitud"
+
+#: /bb-includes/functions.bb-registration.php:132
+msgid "You are not allowed to change your password."
+msgstr "Teil ei ole õigust oma parooli muuta."
+
+#: /bb-includes/functions.bb-registration.php:136
+msgid "The email containing the new password could not be sent."
+msgstr "Uue parooliga e-kirja saatmine ebaõnnestus."
+
+#: /bb-includes/functions.bb-registration.php:185
+#, php-format
+msgid ""
+"Your username is: %1$s \n"
+"Your password is: %2$s \n"
+"You can now log in: %3$s \n"
+"\n"
+"Enjoy!"
+msgstr ""
+"Teie kasutajanimi on: %1$s \n"
+"Teie parool on: %2$s \n"
+"Võite nüüd sisse logida: %3$s \n"
+"\n"
+"Edu!"
+
+#: /bb-includes/functions.bb-registration.php:189
+msgid "Password"
+msgstr "Parool"
+
+#: /bb-includes/functions.bb-script-loader.php:14
+msgid "You do not have permission to do that."
+msgstr "Sul pole õigusi seda teha."
+
+#: /bb-includes/functions.bb-script-loader.php:15
+msgid "An unidentified error has occurred."
+msgstr "Tekkis tundmatu viga."
+
+#: /bb-includes/functions.bb-script-loader.php:28
+msgid "Too short"
+msgstr "Liiga lühike"
+
+#: /bb-includes/functions.bb-script-loader.php:29
+msgid "Bad"
+msgstr "Halb"
+
+#: /bb-includes/functions.bb-script-loader.php:30
+msgid "Good"
+msgstr "Hea"
+
+#: /bb-includes/functions.bb-script-loader.php:31
+msgid "Strong"
+msgstr "Tugev"
+
+#: /bb-includes/functions.bb-script-loader.php:36
+msgid "drag"
+msgstr "tõsta"
+
+#: /bb-includes/functions.bb-script-loader.php:37
+msgid "Save Forum Order &#187;"
+msgstr "Salvesta foorumi järjekord &#187;"
+
+#: /bb-includes/functions.bb-script-loader.php:38
+msgid "Edit Forum Order &#187;"
+msgstr "Muuda foorumite järjekord &#187;"
+
+#: /bb-includes/functions.bb-script-loader.php:65
+msgid "Are you sure you wanna delete this post?"
+msgstr "Olete kindel, et soovite seda postitust kustutada?"
+
+#: /bb-includes/functions.bb-script-loader.php:66
+msgid "Are you sure you wanna undelete this post?"
+msgstr "Olete kindel, et soovite seda postitust taastada?"
+
+#: /bb-includes/functions.bb-script-loader.php:67
+msgid "favorites"
+msgstr "lemmikud"
+
+#: /bb-includes/functions.bb-script-loader.php:68
+msgid "?"
+msgstr ""
+
+#: /bb-includes/functions.bb-script-loader.php:69
+msgid "This topic is one of your %favLinkYes% [%favDel%]"
+msgstr "See teema on üks teie %favLinkYes% [%favDel%]"
+
+#: /bb-includes/functions.bb-script-loader.php:70
+msgid "%favAdd% (%favLinkNo%)"
+msgstr ""
+
+#: /bb-includes/functions.bb-script-loader.php:71
+#: /bb-includes/functions.bb-template.php:2726
+msgid "&times;"
+msgstr ""
+
+#: /bb-includes/functions.bb-script-loader.php:72
+#: /bb-includes/functions.bb-template.php:2724
+msgid "Add this topic to your favorites"
+msgstr "Lisa see teema lemmikutesse"
+
+#: /bb-includes/functions.bb-template.php:130
+msgid "Profile"
+msgstr "Profiil"
+
+#: /bb-includes/functions.bb-template.php:171
+msgid "Reply"
+msgstr "Vasta"
+
+#: /bb-includes/functions.bb-template.php:173
+msgid "New Topic in this Forum"
+msgstr "Uus teema siia foorumisse"
+
+#: /bb-includes/functions.bb-template.php:175
+msgid "Add New Topic"
+msgstr "Lisa uus teema"
+
+#: /bb-includes/functions.bb-template.php:202
+#, php-format
+msgid "You must <a href=\"%s\">log in</a> to post."
+msgstr "Postitamiseks pead <a href=\"%s\">sisse logima</a>."
+
+#: /bb-includes/functions.bb-template.php:392
+msgid "Tags"
+msgstr "Sildid"
+
+#: /bb-includes/functions.bb-template.php:426
+#, php-format
+msgid "User Favorites: %s"
+msgstr "Kasutaja lemmikud: %s"
+
+#: /bb-includes/functions.bb-template.php:433
+#, php-format
+msgid "Topic: %s"
+msgstr "Teema: %s"
+
+#: /bb-includes/functions.bb-template.php:441
+#, php-format
+msgid "Tag: %s"
+msgstr "Silt: %s"
+
+#: /bb-includes/functions.bb-template.php:449
+#, php-format
+msgid "Forum: %s - Recent Posts"
+msgstr "Foorum: %s - Värsked postitused"
+
+#: /bb-includes/functions.bb-template.php:453
+#, php-format
+msgid "Forum: %s - Recent Topics"
+msgstr "Foorum: %s - Värsked teemad"
+
+#: /bb-includes/functions.bb-template.php:1181
+msgid "Are you sure you wanna delete that?"
+msgstr "Olete kindel, et soovite seda kustutada?"
+
+#: /bb-includes/functions.bb-template.php:1182
+msgid "Delete entire topic"
+msgstr "Kustuta terve teema"
+
+#: /bb-includes/functions.bb-template.php:1185
+msgid "Are you sure you wanna undelete that?"
+msgstr "Olete kindel, et soovite seda taastada?"
+
+#: /bb-includes/functions.bb-template.php:1186
+msgid "Undelete entire topic"
+msgstr "Taasta terve teema"
+
+#: /bb-includes/functions.bb-template.php:1208
+msgid "Close topic"
+msgstr "Sulge teema"
+
+#: /bb-includes/functions.bb-template.php:1208
+msgid "Open topic"
+msgstr "Ava teema"
+
+#: /bb-includes/functions.bb-template.php:1236
+msgid "Unstick topic"
+msgstr "Eemalda teema kleebis"
+
+#: /bb-includes/functions.bb-template.php:1238
+msgid "Stick topic"
+msgstr "Tee teema kleebiseks"
+
+#: /bb-includes/functions.bb-template.php:1238
+msgid "to front"
+msgstr "ülesse"
+
+#: /bb-includes/functions.bb-template.php:1245
+msgid "View normal posts"
+msgstr "Vaata postitusi"
+
+#: /bb-includes/functions.bb-template.php:1247
+msgid "View all posts"
+msgstr "Vaata kõiki postitusi"
+
+#: /bb-includes/functions.bb-template.php:1253
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s postitus"
+msgstr[1] "%s postitust"
+
+#: /bb-includes/functions.bb-template.php:1264
+#, php-format
+msgid "+%d more"
+msgstr "+%d veel"
+
+#: /bb-includes/functions.bb-template.php:1289
+msgid "Move this topic to the selected forum:"
+msgstr "Liiguta see teema foorumisse:"
+
+#: /bb-includes/functions.bb-template.php:1293
+msgid "Move"
+msgstr "Liiguta"
+
+#: /bb-includes/functions.bb-template.php:1315
+msgid "Add New &raquo;"
+msgstr "Lisa uus &raquo;"
+
+#: /bb-includes/functions.bb-template.php:1454
+msgid "Anonymous"
+msgstr "Anonüümne"
+
+#: /bb-includes/functions.bb-template.php:1599
+msgid "Undelete"
+msgstr "Taasta"
+
+#: /bb-includes/functions.bb-template.php:1629
+#: /bb-includes/functions.bb-template.php:1643
+msgid "PingBack"
+msgstr "Pingback-viide"
+
+#: /bb-includes/functions.bb-template.php:1631
+#: /bb-includes/functions.bb-template.php:1645
+msgid "Unregistered"
+msgstr "Registreerimata"
+
+#: /bb-includes/functions.bb-template.php:1733
+msgid "Delete User &raquo;"
+msgstr "Kustuta kasutaja &raquo;"
+
+#: /bb-includes/functions.bb-template.php:1734
+msgid "Are you sure you want to delete this user?"
+msgstr "Olete kindel, et soovite seda kasutajat kustutada?"
+
+#: /bb-includes/functions.bb-template.php:1852
+msgid "Member Since"
+msgstr "Registreerunud:"
+
+#: /bb-includes/functions.bb-template.php:1983
+#: /bb-includes/functions.bb-template.php:2130
+msgid "These items are <span class=\"required\">required</span>."
+msgstr "<span class=\"required\">Kohustuslikud</span> väljad."
+
+#: /bb-includes/functions.bb-template.php:2019
+msgid "User Type"
+msgstr "Kasutajatüüp"
+
+#: /bb-includes/functions.bb-template.php:2043
+msgid "Allow this user to"
+msgstr "Luba sellel kasutajal"
+
+#: /bb-includes/functions.bb-template.php:2133
+msgid "Inactive users can login and look around but not do anything. Blocked users just see a simple error message when they visit the site."
+msgstr "Mitteaktiivsed kasutajad saavad sisse logida ja postitusi lugeda, aga mitte midagi muud teha. Blokeeritud kasutajad näevad seda lehte külastades veateadet."
+
+#: /bb-includes/functions.bb-template.php:2134
+msgid "<strong>Note</strong>: Blocking a user does <em>not</em> block any IP addresses."
+msgstr ""
+
+#: /bb-includes/functions.bb-template.php:2156
+msgid "New password"
+msgstr "Uus parool"
+
+#: /bb-includes/functions.bb-template.php:2166
+msgid "Password Strength"
+msgstr "Parooli tugevus"
+
+#: /bb-includes/functions.bb-template.php:2170
+msgid "Disabled (requires JavaScript)"
+msgstr "Välja lülitatud (nõuab JavaScripti)"
+
+#: /bb-includes/functions.bb-template.php:2176
+msgid "Disabled (requires jQuery)"
+msgstr "Välja lülitatud (nõuab jQuery't)"
+
+#: /bb-includes/functions.bb-template.php:2183
+msgid "Hint: Use upper and lower case characters, numbers and symbols like !\"?$%^&amp;( in your password."
+msgstr "Vihje: paroolis võiks kasutada nii suur- ja väiketähti, numbreid kui sümboleid nagu !\"?$%^&amp;("
+
+#: /bb-includes/functions.bb-template.php:2197
+msgid "Log Out"
+msgstr "Logi välja"
+
+#: /bb-includes/functions.bb-template.php:2218
+msgid "Admin"
+msgstr "Admin"
+
+#: /bb-includes/functions.bb-template.php:2237
+msgid "View your profile"
+msgstr "Vaata oma profiili"
+
+#: /bb-includes/functions.bb-template.php:2446
+msgid "Add &raquo;"
+msgstr "Lisa &raquo;"
+
+#: /bb-includes/functions.bb-template.php:2474
+msgid "Rename tag:"
+msgstr "Muuda sildi nime:"
+
+#: /bb-includes/functions.bb-template.php:2478
+msgid "Rename"
+msgstr "Nimeta ümber"
+
+#: /bb-includes/functions.bb-template.php:2482
+msgid "Merge this tag into:"
+msgstr "Liida see silt:"
+
+#: /bb-includes/functions.bb-template.php:2486
+msgid "Merge"
+msgstr "Liida"
+
+#: /bb-includes/functions.bb-template.php:2487
+#, php-format
+msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified? This is permanent and cannot be undone."
+msgstr "Olete kindel, et soovite \"%s\" silti liita valitud sildiga? See otsus on lõplik ja silte taastada ei saa."
+
+#: /bb-includes/functions.bb-template.php:2491
+msgid "Destroy tag:"
+msgstr "Hävita silt:"
+
+#: /bb-includes/functions.bb-template.php:2494
+msgid "Destroy"
+msgstr "Hävita"
+
+#: /bb-includes/functions.bb-template.php:2495
+#, php-format
+msgid "Are you sure you want to destroy the \"%s\" tag? This is permanent and cannot be undone."
+msgstr "Olete kindel, et soovite \"%s\" silti hävitada? See otsus on lõplik ja silti taastada ei saa."
+
+#: /bb-includes/functions.bb-template.php:2521
+msgid "Remove this tag"
+msgstr "Kustuta see silt"
+
+#: /bb-includes/functions.bb-template.php:2602
+#, php-format
+msgid "%d topics"
+msgstr "%d teemat"
+
+#: /bb-includes/functions.bb-template.php:2663
+msgid "- None -"
+msgstr "- Puudub -"
+
+#: /bb-includes/functions.bb-template.php:2724
+msgid " (%?%)"
+msgstr ""
+
+#: /bb-includes/functions.bb-template.php:2726
+msgid "This topic is one of your %favorites% ["
+msgstr "See teema on üks teie %favorites% ["
+
+#: /bb-includes/functions.bb-template.php:2726
+msgid "]"
+msgstr ""
+
+#: /bb-includes/functions.bb-users.php:9
+msgid "You've been blocked.  If you think a mistake has been made, contact this site's administrator."
+msgstr "Sind on blokeeritud. Kui sa arvad, et see on eksitus, siis võta ühendust lehe administraatoriga."
+
+#: /bb-includes/backpress/class.bp-sql-schema-parser.php:315
+msgid "Passed variable is not a BackPress database object."
+msgstr "Esitatud muutuja ei ole BackPressi andmebaasi objekt."
+
+#: /bb-includes/backpress/class.bp-sql-schema-parser.php:319
+msgid "No schema available."
+msgstr "Ühtegi skeemi pole saadaval."
+
+#: /bb-includes/backpress/class.bp-sql-schema-parser.php:385
+msgid "Creating table"
+msgstr "Tabeli loomine"
+
+#: /bb-includes/backpress/class.bp-sql-schema-parser.php:414
+#, php-format
+msgid "Adding column: %s"
+msgstr "Lisan veeru: %s"
+
+#: /bb-includes/backpress/class.bp-sql-schema-parser.php:432
+#, php-format
+msgid "Setting default on column: %s"
+msgstr "Määran vaikimisi veeru: %s"
+
+#: /bb-includes/backpress/class.bp-sql-schema-parser.php:447
+#, php-format
+msgid "Changing column: %s"
+msgstr "Muudan veergu: %s"
+
+#: /bb-includes/backpress/class.bp-sql-schema-parser.php:489
+#: /bb-includes/backpress/class.bp-sql-schema-parser.php:512
+#, php-format
+msgid "Adding index: %s"
+msgstr "Lisan indeksi: %s"
+
+#: /bb-includes/backpress/class.bp-sql-schema-parser.php:505
+#, php-format
+msgid "Dropping index: %s"
+msgstr "Eemaldan indeksi: %s"
+
+#: /bb-includes/backpress/class.bp-sql-schema-parser.php:533
+msgid "Inserting data"
+msgstr "Andmete sisestamine"
+
+#: /bb-includes/backpress/class.bp-sql-schema-parser.php:546
+msgid "Updating data"
+msgstr "Andmete uuendamine"
+
+#: /bb-includes/backpress/class.bp-sql-schema-parser.php:564
+#, php-format
+msgid "Modifying database: %s (%s)"
+msgstr "Andmebaasi muutmine: %s (%s)"
+
+#: /bb-includes/backpress/class.bp-sql-schema-parser.php:568
+#, php-format
+msgid "Table: %s"
+msgstr "Tabel: %s"
+
+#: /bb-includes/backpress/class.bp-sql-schema-parser.php:580
+msgid "Skipped"
+msgstr "Vahele jäetud"
+
+#: /bb-includes/backpress/class.bp-sql-schema-parser.php:592
+msgid "SQL ERROR! See the error log for more detail"
+msgstr "SQL VIGA! Täpsemalt vealogis"
+
+#: /bb-includes/backpress/class.bp-sql-schema-parser.php:593
+msgid "SQL ERROR!"
+msgstr "SQL VIGA!"
+
+#: /bb-includes/backpress/class.bp-sql-schema-parser.php:594
+#, php-format
+msgid "Database: %s (%s)"
+msgstr "Andmebaas: %s (%s)"
+
+#: /bb-includes/backpress/class.wp-http.php:411
+#: /bb-includes/backpress/class.wp-http.php:428
+msgid "Does not appear to be chunked encoded or body is malformed."
+msgstr "Kodeering või faili sisu on vigane."
+
+#: /bb-includes/backpress/class.wp-http.php:572
+#: /bb-includes/backpress/class.wp-http.php:1031
+msgid "Too many redirects."
+msgstr "Liiga palju ümbersuunamisi."
+
+#: /bb-includes/backpress/class.wp-http.php:645
+#: /bb-includes/backpress/class.wp-http.php:747
+#, php-format
+msgid "Malformed URL: %s"
+msgstr "Vigane URL: %s"
+
+#: /bb-includes/backpress/class.wp-http.php:656
+#: /bb-includes/backpress/class.wp-http.php:782
+#, php-format
+msgid "Could not open handle for fopen() to %s"
+msgstr "Funktsioon fopen() %s avamiseks ei tööta"
+
+#: /bb-includes/backpress/class.wp-taxonomy.php:294
+msgid "Empty Term"
+msgstr "Tühi termin"
+
+#: /bb-includes/backpress/class.wp-taxonomy.php:1239
+#: /bb-includes/backpress/class.wp-taxonomy.php:1486
+msgid "Invalid taxonomy"
+msgstr "Vigane taksonoomia"
+
+#: /bb-includes/backpress/class.wp-taxonomy.php:1242
+msgid "Invalid term ID"
+msgstr "Vigane termini ID"
+
+#: /bb-includes/backpress/class.wp-taxonomy.php:1245
+#: /bb-includes/backpress/class.wp-taxonomy.php:1506
+msgid "A name is required for this term"
+msgstr "See termin vajab nime"
+
+#: /bb-includes/backpress/class.wp-taxonomy.php:1276
+#: /bb-includes/backpress/class.wp-taxonomy.php:1283
+msgid "Could not insert term into the database"
+msgstr "Termini lisamine andmebaasi ebaõnnestus"
+
+#: /bb-includes/backpress/class.wp-taxonomy.php:1534
+#, php-format
+msgid "The slug \"%s\" is already in use by another term"
+msgstr "\"%s\" on juba mõne teise termini  juures kasutusel"
+
+#: /bb-includes/backpress/class.wp-users.php:51
+msgid "Invalid login name"
+msgstr "Vigane kasutajanimi"
+
+#: /bb-includes/backpress/class.wp-users.php:53
+msgid "Name already exists"
+msgstr "Nimi juba eksisteerib"
+
+#: /bb-includes/backpress/class.wp-users.php:58
+msgid "Invalid nicename"
+msgstr "Vigane hüüdnimi"
+
+#: /bb-includes/backpress/class.wp-users.php:60
+msgid "Nicename already exists"
+msgstr "Hüüdnimi juba eksisteerib"
+
+#: /bb-includes/backpress/class.wp-users.php:70
+msgid "Email already exists"
+msgstr "Sellise e-postiaadressiga kasutaja on juba olemas"
+
+#: /bb-includes/backpress/class.wp-users.php:90
+msgid "Invalid registration time"
+msgstr "Vigane registreerimisaeg"
+
+#: /bb-includes/backpress/class.wp-users.php:93
+msgid "Invalid registration timestamp"
+msgstr "Vigane registreerimisaeg"
+
+#: /bb-includes/backpress/class.wp-users.php:110
+msgid "Query failed"
+msgstr "Päring ebaõnnestus"
+
+#: /bb-includes/backpress/class.wp-users.php:252
+msgid "Multiple email matches.  Log in with your username."
+msgstr ""
+
+#: /bb-includes/backpress/class.wp-users.php:254
+#, php-format
+msgid "Multiple %s matches"
+msgstr "Mitu %s vastet"
+
+#: /bb-includes/backpress/functions.wp-cron.php:274
+msgid "Once Hourly"
+msgstr "Kord tunnis"
+
+#: /bb-includes/backpress/functions.wp-cron.php:275
+msgid "Twice Daily"
+msgstr "Kaks korda päevas"
+
+#: /bb-includes/backpress/functions.wp-cron.php:276
+msgid "Once Daily"
+msgstr "Kord päevas"
+
+#: /bb-includes/js/list-manipulation-js.php:3
+#, php-format
+msgid "Are you sure you want to delete this %s?"
+msgstr "Olete kindel, et soovite seda %s kustutada?"
+
+#: /bb-includes/js/list-manipulation-js.php:50
+msgid "Jump to new item"
+msgstr "Hüppa edasi"
+
+#: /bb-includes/js/wp-ajax-js.php:57
+msgid "You don't have permission to do that."
+msgstr "Teil puuduvad selleks õigused."
+
+#: /bb-includes/js/wp-ajax-js.php:60
+msgid "Something strange happened.  Try refreshing the page."
+msgstr "Juhtus midagi veidrat. Proovi leht uuesti laadida."
+
+#: /bb-includes/js/wp-ajax-js.php:84
+msgid "Slow down, I'm still sending your data!"
+msgstr "Oota veidi, andmete edastamine on pooleli!"
+
+#: /bb-plugins/akismet.php:16
+#: /bb-plugins/akismet.php:21
+msgid "Akismet Configuration"
+msgstr "Akismeti seaded"
+
+#: /bb-plugins/akismet.php:26
+msgid "Akismet Key:"
+msgstr "Akismeti võti:"
+
+#: /bb-plugins/akismet.php:30
+msgid "You do not need a key to run bbPress, but if you want to take advantage of Akismet's powerful spam blocking, you'll need one."
+msgstr "bbPressi kasutamiseks pole võtit vaja. Võtit on vaja siis, kui te soovite Akismeti võimsat rämpsposti blokeerijat kasutada."
+
+#: /bb-plugins/akismet.php:31
+msgid "You can get an Akismet key at <a href=\"http://wordpress.com/api-keys/\">WordPress.com</a>"
+msgstr "Te saate Akismeti võtme <a href=\"http://wordpress.com/api-keys/\">WordPress.com'st</a>"
+
+#: /bb-plugins/akismet.php:38
+msgid "Update Configuration &raquo;"
+msgstr "Uuenda seadeid &raquo;"
+
+#: /bb-plugins/akismet.php:67
+msgid "Configuration saved."
+msgstr "Seaded salvestatud."
+
+#: /bb-plugins/akismet.php:260
+msgid "Akismet Spam"
+msgstr "Akismeti rämps"
+
+#: /bb-plugins/akismet.php:273
+#, php-format
+msgid "The API key you have specified is invalid.  Please double check the <strong>Akismet Key</strong> set in <a href=\"%s\">Akismet configuration</a>.  If you don't have an API key yet, you can get one at <a href=\"%s\">WordPress.com</a>."
+msgstr "Määratud API võti on vigane. Palun kontrollige <strong>Akismeti võtme</strong> väärtust <a href=\"%s\">Akismeti seadetes</a>. Kui teil veel ei ole API võtit, siis võite selle saada <a href=\"%s\">WordPress.com'st</a>."
+
+#: /bb-plugins/akismet.php:301
+msgid "Not Spam"
+msgstr "Pole rämps"
+
+#: /bb-plugins/akismet.php:307
+msgid "Spam"
+msgstr "Rämps"
+
+#: /bb-plugins/bozo.php:96
+msgid "Counting bozo posts..."
+msgstr "Loendan bozo postitusi..."
+
+#: /bb-plugins/bozo.php:116
+msgid "Done counting bozo posts."
+msgstr "Bozo postitused loendatud."
+
+#: /bb-plugins/bozo.php:127
+msgid "Counting bozo topics for each user...\n"
+msgstr "Loendan iga kasutaja bozo teemad...\n"
+
+#: /bb-plugins/bozo.php:156
+msgid ""
+"Done counting bozo topics.\n"
+"\n"
+msgstr ""
+"Bozo teemad loendatud.\n"
+"\n"
+
+#: /bb-plugins/bozo.php:167
+msgid "Count topics to which each user has replied and count each users&#039; bozo posts"
+msgstr "Loenda teemad, kuhu iga kasutaja on vastanud ja loenda iga kasutaja bozo postitused"
+
+#: /bb-plugins/bozo.php:168
+msgid "Count bozo posts on every topic"
+msgstr "Loenda iga teema bozo postitused"
+
+#: /bb-plugins/bozo.php:268
+msgid "This user is a bozo"
+msgstr "See kasutaja on bozo"
+
+#: /bb-plugins/bozo.php:278
+msgid "Bozos"
+msgstr "Bozod"
+
+#: /bb-plugins/bozo.php:288
+msgid "These users have been marked as bozos"
+msgstr "Need kasutajad on märgitud bozodeks"
+
+#: /bb-plugins/bbxf/exporter-bbpress.php:54
+#: /bb-plugins/bbxf/exporter-bbpress.php:73
+msgid "Export"
+msgstr "Ekspordi"
+
+#: /bb-plugins/bbxf/exporter-bbpress.php:55
+msgid "When you click the button below, bbPress will generate a BBXF file for you to save to your computer."
+msgstr "Kui te klikkate allolevale nupule, genereerib bbPress BBXF faili, mille te saate endale arvutisse salvestada."
+
+#: /bb-plugins/bbxf/exporter-bbpress.php:56
+msgid "This file will contain data about your users, forums, topics, and posts.  You can use the Import function of another bbPress installation or another compatible web forums software to import this data."
+msgstr "See fail sisaldab endas andmeid kasutajate, foorumite, teemade ja postituste kohta. Te saade mõnda teise bbPressi foorumisse seda faili importida. Samuti on võimalik mõnda teise seda tüüpi faili toetavasse foorumitarkvarasse neid andmeid importida."
+
+#: /bb-plugins/bbxf/exporter-bbpress.php:59
+msgid "Download Export File"
+msgstr "Lae ekspordifail alla"
+
+#: /bb-plugins/bbxf/importer-bbpress.php:98
+msgid "The importation process was completed successfully!"
+msgstr "Importimine lõppes edukalt!"
+
+#: /bb-plugins/bbxf/importer-bbpress.php:100
+msgid "Based on the options you chose and conflicts with existing data, some data was skipped.  This data will be shown below.  Sorry it's not very pretty yet..."
+msgstr "Põhinedes teie valitud seadetele ja konfliktidele olemasolevate andmetega jäeti mõnede andmete importimine vahele. Neid andmeid näidatakse all."
+
+#: /bb-plugins/bbxf/importer-bbpress.php:116
+#: /bb-plugins/bbxf/importer-bbpress.php:150
+msgid "Import"
+msgstr "Impordi"
+
+#: /bb-plugins/bbxf/importer-bbpress.php:118
+msgid "bbPress can import forums data from a BBXF file you provide via the form below.  Such a file can be generated by another bbPress installation or another forum software with a compatible export feature."
+msgstr ""
+
+#: /bb-plugins/bbxf/importer-bbpress.php:119
+msgid "This file should contain data about users, forums, topics, and posts.  You can select which types of data to import below."
+msgstr ""
+
+#: /bb-plugins/bbxf/importer-bbpress.php:135
+msgid "Import Forums Data"
+msgstr "Impordi foorumi andmed"
+
+#: /bb-templates/kakumei/404.php:3
+#: /bb-templates/kakumei/404.php:5
+msgid "Page not found!"
+msgstr "Lehte ei leitud!"
+
+#: /bb-templates/kakumei/404.php:7
+msgid "I'm sorry, but there is nothing at this URL."
+msgstr "Sellel URL aadressil ei ole midagi."
+
+#: /bb-templates/kakumei/edit-form.php:15
+msgid "Edit Post &raquo;"
+msgstr "Muuda postitust &raquo;"
+
+#: /bb-templates/kakumei/edit-form.php:19
+msgid "Allowed markup:"
+msgstr "Lubatud HTML-elemendid:"
+
+#: /bb-templates/kakumei/edit-form.php:19
+msgid "Put code in between <code>`backticks`</code>."
+msgstr "Kood pane <code>`ülakomade`</code> vahele."
+
+#: /bb-templates/kakumei/edit-post.php:2
+msgid "Edit Post"
+msgstr "Muuda postitust"
+
+#: /bb-templates/kakumei/favorites.php:5
+msgid "Current Favorites"
+msgstr "Praegused lemmikud"
+
+#: /bb-templates/kakumei/favorites.php:7
+msgid ""
+"Your Favorites allow you to create a custom <abbr title=\"Really Simple Syndication\">RSS</abbr> feed which pulls recent replies to the topics you specify.\n"
+"To add topics to your list of favorites, just click the \"Add to Favorites\" link found on that topic&#8217;s page."
+msgstr ""
+"Lemmikud lubavad sul luua käepäraseid <abbr title=\"Really Simple Syndication\">RSS</abbr> voogusid, mis väljastavad sinu valitud teemadesse postitatud vastuseid.\n"
+"Teema lemmikutesse lisamiseks klõpsa lihtsalt selle teema lehel asuvat \"Lisa lemmikutesse\" viita."
+
+#: /bb-templates/kakumei/favorites.php:10
+#, php-format
+msgid "Subscribe to your favorites&#8217; <a href=\"%s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr "Telli oma lemmikute <a href=\"%s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> voog</a>."
+
+#: /bb-templates/kakumei/favorites.php:20
+msgid "Remove"
+msgstr "Kustuta"
+
+#: /bb-templates/kakumei/favorites.php:39
+msgid "You currently have no favorites."
+msgstr "Teil pole parajasti ühtegi lemmikut."
+
+#: /bb-templates/kakumei/favorites.php:43
+msgid "currently has no favorites."
+msgstr "parajasti pole ühtegi lemmikut."
+
+#: /bb-templates/kakumei/footer.php:11
+#, php-format
+msgid "%1$s is proudly powered by <a href=\"%2$s\">bbPress</a>."
+msgstr "%1$s kasutab <a href=\"%2$s\">bbPressi</a>."
+
+#: /bb-templates/kakumei/forum.php:33
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this forum"
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> viide sellele foorumile"
+
+#: /bb-templates/kakumei/forum.php:40
+msgid "Subforums"
+msgstr "Alamfoorumid"
+
+#: /bb-templates/kakumei/forum.php:44
+#: /bb-templates/kakumei/front-page.php:48
+msgid "Main Theme"
+msgstr "Foorum"
+
+#: /bb-templates/kakumei/front-page.php:6
+msgid "Hot Tags"
+msgstr "Sildid"
+
+#: /bb-templates/kakumei/front-page.php:13
+msgid "Latest Discussions"
+msgstr "Värsked arutelud"
+
+#: /bb-templates/kakumei/front-page.php:69
+msgid "Views"
+msgstr "Vaatamist"
+
+#: /bb-templates/kakumei/logged-in.php:2
+#, php-format
+msgid "Welcome, %1$s!"
+msgstr "Tere tulemast, %1$s!"
+
+#: /bb-templates/kakumei/login-form.php:4
+#, php-format
+msgid "<a href=\"%1$s\">Register</a> or log in (<a href=\"%2$s\">lost password?</a>):"
+msgstr "<a href=\"%1$s\">Registreeri</a> või logi sisse (<a href=\"%2$s\">unustasid parooli?</a>):"
+
+#: /bb-templates/kakumei/login-form.php:17
+#: /bb-templates/kakumei/login.php:40
+msgid "Log in &raquo;"
+msgstr "Logi sisse &raquo;"
+
+#: /bb-templates/kakumei/login-form.php:22
+msgid "Remember me"
+msgstr "Mäleta mind"
+
+#: /bb-templates/kakumei/login.php:3
+#: /bb-templates/kakumei/login.php:5
+#: /bb-templates/kakumei/password-reset.php:3
+msgid "Log in"
+msgstr "Logi sisse"
+
+#: /bb-templates/kakumei/login.php:5
+msgid "Log in Failed"
+msgstr "Sisselogimine ebaõnnestus"
+
+#: /bb-templates/kakumei/login.php:33
+msgid "Remember me:"
+msgstr "Mäleta mind"
+
+#: /bb-templates/kakumei/login.php:40
+msgid "Try Again &raquo;"
+msgstr "Proovi uuesti &raquo;"
+
+#: /bb-templates/kakumei/login.php:48
+msgid "Password Recovery"
+msgstr "Parooli taastamine"
+
+#: /bb-templates/kakumei/login.php:51
+msgid "To recover your password, enter your information below."
+msgstr "Parooli taastamiseks sisestage oma andmed."
+
+#: /bb-templates/kakumei/login.php:64
+msgid "Recover Password &raquo;"
+msgstr "Unustasin parooli &raquo;"
+
+#: /bb-templates/kakumei/password-reset.php:12
+msgid "An email has been sent to the address we have on file for you. If you don&#8217;t get anything within a few minutes, or your email has changed, you may want to get in touch with the webmaster or forum administrator here."
+msgstr "Teile saadeti e-kiri teie kasutajaprofiilis märgitud aadressile. Kui kiri ei saabu mõne minuti jooksul, või teie e-postiaadress on muutunud, siis võtke ühendust foorumi administraatoriga."
+
+#: /bb-templates/kakumei/password-reset.php:15
+msgid "Your password has been reset and a new one has been mailed to you."
+msgstr "Uus parool on saadetud teile e-postkasti."
+
+#: /bb-templates/kakumei/post-form.php:3
+msgid "Topic title: (be brief and descriptive)"
+msgstr "Pealkiri:"
+
+#: /bb-templates/kakumei/post-form.php:15
+#, php-format
+msgid "Enter a few words (called <a href=\"%s\">tags</a>) separated by commas to help someone find your topic:"
+msgstr "Sisestage mõned märksõnad (<a href=\"%s\">sildid</a>) mis aitavad teistel teie teemat leida (eralda komadega):"
+
+#: /bb-templates/kakumei/post-form.php:22
+msgid "Pick a section:"
+msgstr "Vali foorum:"
+
+#: /bb-templates/kakumei/post-form.php:28
+msgid "Send Post &raquo;"
+msgstr "Postita &raquo;"
+
+#: /bb-templates/kakumei/post-form.php:31
+msgid "You can also put code in between backtick ( <code>`</code> ) characters."
+msgstr "Koodi saate postitada <code>`ülakomade`</code> vahel."
+
+#: /bb-templates/kakumei/post.php:11
+#, php-format
+msgid "Posted %s ago"
+msgstr "Postitati %s tagasi"
+
+#: /bb-templates/kakumei/profile-edit.php:3
+msgid "Edit Profile"
+msgstr "Muuda profiili"
+
+#: /bb-templates/kakumei/profile-edit.php:7
+msgid "Profile Info"
+msgstr "Profiili info"
+
+#: /bb-templates/kakumei/profile-edit.php:13
+msgid "Administration"
+msgstr "Administratsioon"
+
+#: /bb-templates/kakumei/profile-edit.php:21
+msgid "To change your password, enter a new password twice below:"
+msgstr "Parooli muutmiseks sisesta uut parooli kaks korda:"
+
+#: /bb-templates/kakumei/profile-edit.php:26
+msgid "Update Profile &raquo;"
+msgstr "Uuenda profiili &raquo;"
+
+#: /bb-templates/kakumei/profile.php:14
+msgid "Profile updated"
+msgstr "Profiili muudeti"
+
+#: /bb-templates/kakumei/profile.php:14
+msgid "Edit again &raquo;"
+msgstr "Muuda uuesti &raquo;"
+
+#: /bb-templates/kakumei/profile.php:18
+msgid "This is how your profile appears to a logged in member."
+msgstr "Sisselogitud kasutajad näevad teie profiili sellisena."
+
+#: /bb-templates/kakumei/profile.php:21
+#, php-format
+msgid "You may <a href=\"%1$s\">edit this information</a>."
+msgstr "Te võite <a href=\"%s\">seda infot muuta</a>."
+
+#: /bb-templates/kakumei/profile.php:26
+#, php-format
+msgid "You can also <a href=\"%1$s\">manage your favorites</a> and subscribe to your favorites&#8217; <a href=\"%2$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> feed</a>."
+msgstr "Samuti võite <a href=\"%1$s\">oma lemmikuid hallata</a> ja oma nende <a href=\"%2$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr> voo</a> tellida."
+
+#: /bb-templates/kakumei/profile.php:34
+msgid "User Activity"
+msgstr "Viimased toimingud"
+
+#: /bb-templates/kakumei/profile.php:36
+msgid "Recent Replies"
+msgstr "Värsked vastused"
+
+#: /bb-templates/kakumei/profile.php:42
+#, php-format
+msgid "You last replied: %s ago."
+msgstr "Viimati vastasite: %s tagasi."
+
+#: /bb-templates/kakumei/profile.php:42
+#, php-format
+msgid "User last replied: %s ago."
+msgstr "Viimati vastatud: %s tagasi."
+
+#: /bb-templates/kakumei/profile.php:46
+#, php-format
+msgid "Most recent reply: %s ago"
+msgstr "Kõige värskem vastus: %s tagasi"
+
+#: /bb-templates/kakumei/profile.php:48
+msgid "No replies since."
+msgstr "Peale seda pole ühtegi vastust."
+
+#: /bb-templates/kakumei/profile.php:54
+msgid "No more replies."
+msgstr "Rohkem vastuseid pole."
+
+#: /bb-templates/kakumei/profile.php:56
+msgid "No replies yet."
+msgstr "Vastuseid veel pole."
+
+#: /bb-templates/kakumei/profile.php:61
+msgid "Topics Started"
+msgstr "Loodud teemad"
+
+#: /bb-templates/kakumei/profile.php:67
+#, php-format
+msgid "Started: %s ago"
+msgstr "Loodud: %s tagasi."
+
+#: /bb-templates/kakumei/profile.php:71
+#, php-format
+msgid "Most recent reply: %s ago."
+msgstr "Viimane vastus: %s tagasi."
+
+#: /bb-templates/kakumei/profile.php:73
+msgid "No replies."
+msgstr "Vastuseid pole."
+
+#: /bb-templates/kakumei/profile.php:79
+msgid "No more topics posted."
+msgstr "Rohkem teemasid pole postitatud."
+
+#: /bb-templates/kakumei/profile.php:81
+msgid "No topics posted yet."
+msgstr "Ühtegi teemat pole veel postitatud."
+
+#: /bb-templates/kakumei/register-success.php:3
+#: /bb-templates/kakumei/register.php:3
+msgid "Register"
+msgstr "Registreeru"
+
+#: /bb-templates/kakumei/register-success.php:5
+msgid "Great!"
+msgstr "Suurepärane!"
+
+#: /bb-templates/kakumei/register-success.php:7
+#, php-format
+msgid "Your registration as <strong>%s</strong> was successful. Within a few minutes you should receive an email with your password."
+msgstr "<strong>%s</strong>, registreerimine õnnestus. Mõne minuti jooksul peaksite oma e-postkastist leidma kirja oma parooliga."
+
+#: /bb-templates/kakumei/register.php:5
+msgid "Registration"
+msgstr "Registreerimisvorm"
+
+#: /bb-templates/kakumei/register.php:12
+msgid "Profile Information"
+msgstr "Profiili informatsioon"
+
+#: /bb-templates/kakumei/register.php:14
+msgid "Your password will be emailed to the address you provide."
+msgstr "Parool saadetakse teile e-postiga."
+
+#: /bb-templates/kakumei/register.php:69
+msgid "Register &raquo;"
+msgstr "Registreeru &raquo;"
+
+#: /bb-templates/kakumei/register.php:76
+msgid "You&#8217;re already logged in, why do you need to register?"
+msgstr "Sa oled juba sisse logitud, milleks registreerida?"
+
+#: /bb-templates/kakumei/rss2.php:17
+#: /bb-templates/kakumei/search.php:3
+msgid "Search"
+msgstr "Otsi"
+
+#: /bb-templates/kakumei/rss2.php:18
+msgid "Search all topics from these forums."
+msgstr "Otsi kõiki teemasid siit foorumist."
+
+#: /bb-templates/kakumei/search-form.php:5
+msgid "Search &raquo;"
+msgstr "Otsi &raquo;"
+
+#: /bb-templates/kakumei/search.php:7
+msgid "Search for"
+msgstr "Otsi"
+
+#: /bb-templates/kakumei/search.php:16
+#: /bb-templates/kakumei/search.php:28
+msgid "Posted"
+msgstr "Postitatud"
+
+#: /bb-templates/kakumei/search.php:23
+msgid "Relevant posts"
+msgstr "Sarnased postitused"
+
+#: /bb-templates/kakumei/search.php:35
+msgid "No results found."
+msgstr "Tulemusi pole."
+
+#: /bb-templates/kakumei/search.php:38
+#, php-format
+msgid "You may also try your <a href=\"http://google.com/search?q=site:%1$s %2$s\">search at Google</a>"
+msgstr "Te võite proovida ka <a href=\"http://google.com/search?q=site:%1$s %2$s\">Google'st otsida</a>"
+
+#: /bb-templates/kakumei/stats.php:6
+msgid "Registered Users"
+msgstr "Registreeritud kasutajad"
+
+#: /bb-templates/kakumei/stats.php:13
+msgid "Most Popular Topics"
+msgstr "Kõige populaarsemad teemad"
+
+#: /bb-templates/kakumei/tag-single.php:27
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> link for this tag"
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> viide sellele sildile"
+
+#: /bb-templates/kakumei/tags.php:5
+msgid "This is a collection of tags that are currently popular on the forums."
+msgstr "See on kogum siltidest, mis on hetkel foorumis populaarsed."
+
+#: /bb-templates/kakumei/topic-tags.php:2
+msgid "Tags:"
+msgstr "Sildid:"
+
+#: /bb-templates/kakumei/topic-tags.php:10
+#, php-format
+msgid "No <a href=\"%s\">tags</a> yet."
+msgstr "Ühtegi <a href=\"%s\">silti</a> pole veel."
+
+#: /bb-templates/kakumei/topic.php:12
+#, php-format
+msgid "Started %1$s ago by %2$s"
+msgstr "Alustatud %1$s tagasi %2$s poolt"
+
+#: /bb-templates/kakumei/topic.php:14
+#, php-format
+msgid "<a href=\"%1$s\">Latest reply</a> from %2$s"
+msgstr "<a href=\"%1$s\">Viimane vastus</a> %2$s poolt"
+
+#: /bb-templates/kakumei/topic.php:42
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this topic"
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> viide sellele teemale"
+
+#: /bb-templates/kakumei/topic.php:50
+msgid "Topic Closed"
+msgstr "Teema on suletud"
+
+#: /bb-templates/kakumei/topic.php:51
+msgid "This topic has been closed to new replies."
+msgstr "See teema on uute vastuste jaoks suletud."
+
+#: /bb-templates/kakumei/view.php:34
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this view"
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> viide sellele vaatele"
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumentatsioon"
+#~ msgid "Development"
+#~ msgstr "Arendus"
+#~ msgid "%s seconds"
+#~ msgstr "%s sekundit"
+#~ msgid "WordPress database secret:"
+#~ msgstr "WordPressi andmebaasi salavõti:"
+#~ msgid "Save site settings &raquo;"
+#~ msgstr "Salvesta lehe seaded &raquo;"
+#~ msgid "WordPress database secret set."
+#~ msgstr "WordPressi andmebaasi salavõti seatud."
+#~ msgid "WordPress database secret key not set."
+#~ msgstr "WordPressi andmebaasi salavõti ei ole seatud."
+#~ msgid "Latest Activity"
+#~ msgstr "Viimased toimingud"
+#~ msgid "profile"
+#~ msgstr "profiil"
+#~ msgid "Posts per day"
+#~ msgstr "Postitust päevas"
+#~ msgid "Topics per day"
+#~ msgstr "Teemat päevas"
+#~ msgid "Registrations per day"
+#~ msgstr "Registreerumist päevas"
+#~ msgid "Forums started %s ago."
+#~ msgstr "Foorum alustatud %s tagasi."
+#~ msgid "Update Settings &raquo;"
+#~ msgstr "Uuenda seadeid &raquo;"
+#~ msgid "WordPress database secret"
+#~ msgstr "WordPressi andmebaasi salavõti"
+#~ msgid ""
+#~ "Also make sure that the \"SECRET_KEY\" in your WordPress <code>wp-config."
+#~ "php</code> file matches the \"BB_SECRET_KEY\" in your bbPress <code>bb-"
+#~ "config.php</code> file."
+#~ msgstr ""
+#~ "Veenduge, et \"SECRET_KEY\" väärtus WordPressi <code>wp-config.php</code> "
+#~ "failis kattub \"BB_SECRET_KEY\" väärtusega bbPressi <code>bb-config.php</"
+#~ "code> failis."
+#~ msgid "Update User Role Map &raquo;"
+#~ msgstr "Uuenda kasutajarolle &raquo;"
+#~ msgid "File is not a valid plugin."
+#~ msgstr "Katkine plugin."
+#~ msgid "Installed in: %s"
+#~ msgstr "Paigaldatud: %s"
+#~ msgid "<strong>ERROR</strong>: bbPress %s requires MySQL 4.0.0 or higher"
+#~ msgstr ""
+#~ "<strong>VIGA</strong>: bbPress %s nõuab vähemalt MySQL versiooni 4.0.0"
+#~ msgid "Are you sure you wanna delete this post by '%author%'?"
+#~ msgstr ""
+#~ "Olete kindel, et soovite kustutada seda postitust kasutaja \"' + %author% "
+#~ "+ '\" poolt?"
+#~ msgid "Are you sure you want to remove the '%tag%' tag?"
+#~ msgstr "Olete kindel, et soovite kustutada \"%tag%\" silti?"
+#~ msgid "Your table prefix may only contain letters, numbers and underscores."
+#~ msgstr ""
+#~ "Tabeli eesliide võib sisaldada ainult tähti, numbreid ja alakriipse."
+#~ msgid "RSS feed for this forum"
+#~ msgstr ""
+#~ "Selle foorumi <abbr title=\"Really Simple Syndication\">RSS</abbr> voog"
+#~ msgid "Register it?"
+#~ msgstr "Registreeri see?"
+#~ msgid "Your username was not valid, please try again"
+#~ msgstr "Teie kasutajanimi pole lubatud, palun proovige uuesti"
+#~ msgid "<br />There was a problem with your email; please check it."
+#~ msgstr "<br />Teie e-postiga esines probleem; palun kontrollige seda."
+#~ msgid "<br />The above field is required."
+#~ msgstr "<br />Ülalolev väli on kohustuslik."
+#~ msgid "Search again &raquo;"
+#~ msgstr "Otsi uuesti &raquo;"
+#~ msgid "RSS feed for this topic"
+#~ msgstr ""
+#~ "Selle teema <abbr title=\"Really Simple Syndication\">RSS</abbr> voog"
+

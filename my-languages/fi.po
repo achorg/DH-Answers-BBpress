@@ -1,0 +1,3907 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress\n"
+"Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
+"POT-Creation-Date: 2009-07-29 12:11+0000\n"
+"PO-Revision-Date: 2009-08-05 22:47+0200\n"
+"Last-Translator: Jyri <Webmaster@hpguru.net>\n"
+"Language-Team: Suomi - Mikko Virenius <info@arkimedia.fi>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid " (%?%)"
+msgstr " (%?%)"
+
+msgid " - %d"
+msgstr "- %d"
+
+msgid "\"Key Master\" Email address"
+msgstr "Järjestelmänvalvojan sähköpostiosoite"
+
+msgid "\"Key Master\" Username"
+msgstr "Järjestelmänvalvojan käyttähänimi"
+
+msgid "%1$s %2$s by <cite>%3$s</cite>"
+msgstr "%1$s %2$s &ndash; <cite>%3$s</cite>"
+
+msgid "%1$s &raquo; Forum: %2$s - Recent Posts"
+msgstr "%1$s &raquo; Fuorumi: %2$s - Viimeisimmät viestit"
+
+msgid "%1$s &raquo; Forum: %2$s - Recent Topics"
+msgstr "%1$s &raquo; Foorumi: %2$s - Viimeisimmät aiheet"
+
+msgid "%1$s &raquo; Recent Posts"
+msgstr "%1$s &raquo; Viimeisimmät viestit"
+
+msgid "%1$s &raquo; Recent Topics"
+msgstr "%1$s &raquo; Viimeisimmät aiheet"
+
+msgid "%1$s &raquo; Tag: %2$s - Recent Posts"
+msgstr "%1$s &raquo; Avainsana: %2$s - Viimeisimmät viestit"
+
+msgid "%1$s &raquo; Tag: %2$s - Recent Topics"
+msgstr "%1$s &raquo; Avainsana: %2$s - Viimeisimmät aiheet"
+
+msgid "%1$s &raquo; Topic: %2$s"
+msgstr "%1$s &raquo; Aihe: %2$s"
+
+msgid "%1$s &raquo; User Favorites: %2$s"
+msgstr "%1$s &raquo; Käyttäjän suosikit: %s"
+
+msgid "%1$s &raquo; View: %2$s"
+msgstr "%1$s &raquo; Esikatselu: %2$s"
+
+msgid "%1$s &rsaquo; %2$s"
+msgstr "%1$s &rsaquo; %2$s"
+
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+msgid "%1$s is proudly powered by <a href=\"%2$s\">bbPress</a>."
+msgstr "%1$s on toteutettu <a href=\"%2$s\">bbPressin</a> voimalla."
+
+msgid "%1$s to %2$s of %3$s"
+msgstr "%1$s - %2$s / %3$s"
+
+msgid "%1$s%2$s"
+msgstr "%1$s%2$s"
+
+msgid "%1$s%2$s%3$s%4$s"
+msgstr "%1$s%2$s%3$s%4$s"
+
+msgid "%1$s%2$s%3$s%4$s%5$s"
+msgstr "%1$s%2$s%3$s%4$s%5$s"
+
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d päivä"
+msgstr[1] "%d päivää"
+
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d tunti"
+msgstr[1] "%d tuntia"
+
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minuutti"
+msgstr[1] "%d minuuttia"
+
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d kuukausi"
+msgstr[1] "%d kuukautta"
+
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d viesti"
+msgstr[1] "%d viestiä"
+
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%s sekunti"
+msgstr[1] "%s sekuntia"
+
+msgid "%d topic"
+msgid_plural "%d topics"
+msgstr[0] "%d aihe"
+msgstr[1] "%d aihetta"
+
+msgid "%d topics"
+msgstr "%d aihetta"
+
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d viikko"
+msgstr[1] "%d viikkoa"
+
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d vuosi"
+msgstr[1] "%d vuotta"
+
+msgid "%favAdd% (%favLinkNo%)"
+msgstr "%favAdd% (%favLinkNo%)"
+
+msgid "%s ago"
+msgstr "%s sitten"
+
+msgid "%s is an invalid username."
+msgstr "%s on epäkelpo käyttäjätunnus."
+
+msgid "%s is an invalid username. How's this one?"
+msgstr "%s on epäkelpo käyttäjätunnus. Entä tämä?"
+
+msgid "%s is required"
+msgstr "%s vaaditaan."
+
+msgid "%s is required."
+msgstr "%s vaaditaan."
+
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s viesti"
+msgstr[1] "%s viestiä"
+
+msgid "%s voice"
+msgid_plural "%s voices"
+msgstr[0] "%d ääni"
+msgstr[1] "%d ääntä"
+
+msgid "&#8230;counted deleted posts"
+msgstr "Lasketaan poistettuja viestejä..."
+
+msgid "&#8230;no deleted posts to count"
+msgstr "Ei poistettuja viestejä."
+
+msgid "&bull; Based on your input the following prefix is suggested."
+msgstr "&bull; Syöttämäsi tekstin perusteella seuraava etuliite on ehdotettu."
+
+msgid "&bull; Contains disallowed characters which have been removed."
+msgstr "&bull; Sisältää kiellettyjä merkkejä, jotka on poistettava."
+
+msgid "&bull; The URL does not contain a host name."
+msgstr "&bull; URL-osoite ei sisällä palvelimen nimeä."
+
+msgid "&bull; The URL must begin with \"http\" or \"https\"."
+msgstr "&bull; URL-osoitteen tulee alkaa joko \"http\" tai \"https\"."
+
+msgid "&bull; The default prefix has been inserted."
+msgstr "&bull; Oletusetuliite on lisätty."
+
+msgid "&bull; The user email address appears to be invalid."
+msgstr "&bull; Käyttäjän sähköpostiosoite näyttää olevan virheellinen."
+
+msgid "&bull; This does not appear to be a valid URL."
+msgstr "&bull; Anna kelvollinen URL-osoite."
+
+msgid "&bull; This may not be a valid user table prefix."
+msgstr "&bull; Tämä ei voi olla kelvollinen käyttäjätaulun etuliite."
+
+msgid "&bull; This value is required to continue."
+msgstr "&bull; Tämä arvo on pakollinen."
+
+msgid "&laquo;"
+msgstr "&laquo;"
+
+msgid "&laquo; Go back"
+msgstr "&laquo; Takaisin"
+
+msgid "&laquo; Go back to forums"
+msgstr "&laquo; Takaisin"
+
+msgid "&laquo; Previous"
+msgstr "&laquo; Edellinen"
+
+msgid "&laquo; completed"
+msgstr "&laquo; valmis"
+
+msgid "&laquo; skipped"
+msgstr "&laquo; hypättiin yli"
+
+msgid "&raquo;"
+msgstr "&raquo;"
+
+msgid "&times;"
+msgstr "poista"
+
+msgid "+%d more"
+msgstr "+%d lisää"
+
+msgid "- None -"
+msgstr "- Ei mitään -"
+
+msgid "<a href=\"%1$s\">Latest reply</a> from %2$s"
+msgstr "<a href=\"%1$s\">Viimeisin vastaus</a> käyttäjältä %2$s"
+
+msgid ""
+"<a href=\"%1$s\">Post</a> on <a href=\"%2$s\">%3$s</a> by <a href=\"%4$s\">%5"
+"$s</a>"
+msgstr ""
+"<a href=\"%1$s\">Viesti</a> kirjoittajalta <a href=\"%4$s\">%5$s</a> "
+"kohteessa <a href=\"%2$s\">%3$s</a>"
+
+msgid ""
+"<a href=\"%1$s\">Register</a> or log in - <a href=\"%2$s\">lost password?</a>"
+msgstr ""
+"<a href=\"%1$s\">Rekisteröidy</a> tai kirjaudu sisään - <a href=\"%2$s"
+"\">unohditko salasanasi?</a>"
+
+msgid "<a href=\"%s\">Home</a>"
+msgstr "<a href=\"%s\">Etusivu</a>"
+
+msgid "<a href=\"%s\">New Tag</a>"
+msgstr "<a href=\"%s\">Uusi avainsana</a>"
+
+msgid ""
+"<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time"
+"\">Documentation on date formatting</a>."
+msgstr ""
+"<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Päivämäärän "
+"ja kellonajan muotoilun ohje</a>."
+
+msgid ""
+"<abbr title=\"Coordinated Universal Time\">UTC</abbr> %s is <code>%s</code>"
+msgstr "<abbr title=\"Coordinated Universal Time\">UTC</abbr>-aika on"
+
+msgid ""
+"<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is <code>%s</code>"
+msgstr ""
+"<abbr title=\"Coordinated Universal Time\">UTC</abbr>-aika on <code>%s</code>"
+
+msgid ""
+"<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for these favorites"
+msgstr "Suosikkien <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+
+msgid ""
+"<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this forum"
+msgstr "Foorumin <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+
+msgid ""
+"<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this topic"
+msgstr "Aiheen <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for this view"
+msgstr "Avainsanan <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> link for this tag"
+msgstr "Avainsanan <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+
+msgid ""
+"<em><strong>Note:</strong> changing the settings below may cause you to be "
+"logged out!</em>"
+msgstr ""
+"<strong> Huomautus:</strong> Näiden asetusten päivittäminen voi aiheuttaa "
+"uloskirjaamisen."
+
+msgid "<span>%d</span> forum"
+msgid_plural "<span>%d</span> forums"
+msgstr[0] "<span>%d</span> foorumi"
+msgstr[1] "<span>%d</span> foorumia"
+
+msgid "<span>%d</span> post"
+msgid_plural "<span>%d</span> posts"
+msgstr[0] "<span>%d</span> viesti"
+msgstr[1] "<span>%d</span> viestiä"
+
+msgid "<span>%d</span> tag"
+msgid_plural "<span>%d</span> tags"
+msgstr[0] "<span>%d</span> avainsana"
+msgstr[1] "<span>%d</span> avainsanaa"
+
+msgid "<span>%d</span> topic"
+msgid_plural "<span>%d</span> topics"
+msgstr[0] "<span>%d</span> aihe"
+msgstr[1] "<span>%d</span> aihetta"
+
+msgid "<span>%d</span> user"
+msgid_plural "<span>%d</span> users"
+msgstr[0] "<span>%d</span> käyttäjä"
+msgstr[1] "<span>%d</span> käyttäjää"
+
+msgid "<span>Name based</span> <code>%s</code>"
+msgstr "<span>Nimeen pohjautuva</span> <code>%s</code>"
+
+msgid "<span>None</span> <code>%s</code>"
+msgstr "<span>Ei mitään</span> <code>%s</code>"
+
+msgid "<span>Numeric</span> <code>%s</code>"
+msgstr "<span>Numero</span> <code>%s</code>"
+
+msgid "<strong>\"%s\" plugin activated</strong>"
+msgstr "Lisäosa \"%s\" <strong>otettu käyttöön</strong>"
+
+msgid "<strong>\"%s\" plugin deactivated</strong>"
+msgstr "Lisäosa \"%s\" <strong>poistettu käytöstä</strong>"
+
+msgid ""
+"<strong>\"Safe mode\" is on, all plugins are disabled even if they are "
+"listed as active.</strong>"
+msgstr ""
+"<strong>\"Turvatila\" on päällä, kaikki lisäosat on poistettu käytöstä, "
+"vaikka ne ovat listattu aktiivisena.</strong>"
+
+msgid ""
+"<strong>\"Safe mode\" is on, the default theme will be used instead of the "
+"active theme indicated below.</strong>"
+msgstr ""
+"<strong>\"Turvatila\" on päällä, oletusteemaa käytetään alla ilmoitetun "
+"aktiivisen teeman sijaan.</strong>"
+
+msgid ""
+"<strong><em>Note that password</em></strong> carefully! It is a <em>random</"
+"em> password that was generated just for you. If you lose it, you will have "
+"to delete the tables from the database yourself, and re-install bbPress."
+msgstr ""
+"<strong><em>Muista tämä salasana!</em></strong> Se on <em>satunnaisesti</em> "
+"generoitu salasana juuri sinulle.  Mikäli kadotat sen, sinun täytyy poistaa "
+"taulut tietokannasta ja asentaa bbPress uudelleen."
+
+msgid "<strong>Default theme is missing.</strong>"
+msgstr "Oletusteema puuttuu."
+
+msgid "<strong>Forum Updated.</strong>"
+msgstr "<strong>Foorumi päivitetty.</strong>"
+
+msgid ""
+"<strong>Forum deleted.</strong>  You should <a href=\"%s\">recount your site "
+"information</a>."
+msgstr ""
+"<strong>Foorumi poistettu.</strong> Suorita <a href=\"%s\">tietojen "
+"uudelleenlaskenta</a>."
+
+msgid ""
+"<strong>It appears that your server does not support custom permalink "
+"structures.</strong>"
+msgstr ""
+"<strong>Näyttää siltä, että palvelimesi ei tue mukautettuja pysyvien "
+"linkkien rakenteita.</strong>"
+
+msgid "<strong>No matching users were found!</strong>"
+msgstr "Haulla ei löytynyt käyttäjiä!"
+
+msgid ""
+"<strong>Note</strong>: Blocking a user does <em>not</em> block any IP "
+"addresses."
+msgstr ""
+"<strong>Huomautus</strong>: Käyttäjän estäminen <em>ei</em> estä yhtään IP-"
+"osoitetta."
+
+msgid "<strong>Permalink structure updated.</strong>"
+msgstr "<strong>Pysyvien linkkien rakenne päivitetty.</strong>"
+
+msgid ""
+"<strong>Plugin could not be activated, it produced a Fatal Error</strong>. "
+"The error is shown below."
+msgstr ""
+"Lisäosaa ei voitu ottaa käyttöön, sillä se aiheutti <strong>virhetilanteen</"
+"strong>."
+
+msgid "<strong>Post deleted.</strong>"
+msgstr "<strong>Viesti poistettu.</strong>"
+
+msgid "<strong>Post removed from spam.</strong> It is now a deleted post."
+msgstr ""
+"<strong>Viesti poistettu roskapostista.</strong> Se on nyt poistettu viesti."
+
+msgid "<strong>Post removed from spam.</strong> It is now a normal post."
+msgstr ""
+"<strong>Viesti poistettiin roskapostista.</strong> Se on nyt normaali viesti."
+
+msgid "<strong>Post spammed.</strong>"
+msgstr "<strong>Viesti merkitty roskapostiksi.</strong>"
+
+msgid "<strong>Post undeleted.</strong>"
+msgstr "<strong>Viesti palautettu.</strong>"
+
+msgid ""
+"<strong>Rewriting on webservers other than Apache using mod_rewrite is "
+"currently unsupported, but we won&#8217;t stop you from trying.</strong>"
+msgstr ""
+"<strong>URL-osoitteiden uudelleenkirjoitus muilla kuin Apache-palvelimilla "
+"käyttäen mod_rewriteä, on nyt ei-tuettu, mutta emme estä sinua yrittämästä.</"
+"strong>"
+
+msgid "<strong>Settings saved.</strong>"
+msgstr "<strong>Asetukset tallennettiin.</strong>"
+
+msgid ""
+"<strong>The key you attempted to enter is invalid. Reverting to previous "
+"setting.</strong>"
+msgstr ""
+"<strong>Syöttämäsi API-tununs oli epäkelpo. Palautetaan edelliseen "
+"asetukseen.</strong>"
+
+msgid "<strong>Theme \"%s\" activated</strong>"
+msgstr "Teema \"%s\" <strong>otettu käyttöön</strong>"
+
+msgid "<strong>Theme not found.  Default theme applied.</strong>"
+msgstr "Teemaa ei löydy. Käytetään oletusteemaa"
+
+msgid "<strong>Topic closed.</strong>"
+msgstr "<strong>Aihe suljettu.</strong>"
+
+msgid "<strong>Topic deleted.</strong>"
+msgstr "<strong>Aihe poistettu.</strong>"
+
+msgid "<strong>Topic opened.</strong>"
+msgstr "<strong>Aihe avattu.</strong>"
+
+msgid "<strong>Topic undeleted.</strong>"
+msgstr "<strong>Aihe palautettu.</strong>"
+
+msgid "<strong>User integration settings saved.</strong>"
+msgstr "<strong>Käyttäjien integrointiasetukset tallennettu.</strong>"
+
+msgid "<strong>User role mapping saved.</strong>"
+msgstr "<strong>Käyttäjäroolit tallennettu.</strong>"
+
+msgid "<strong>You should update your .htaccess now.</strong>"
+msgstr "<strong>Sinun pitää päivittää .htaccess -tiedostosi nyt.</strong>"
+
+msgid "?"
+msgstr "?"
+
+msgid "A name is required for this term"
+msgstr "Tälle termille täytyy antaa nimi"
+
+msgid "A string with low priority!"
+msgstr "Merkkijono matalalla tärkeydellä!"
+
+msgid "A user can edit a post for this many minutes after submitting."
+msgstr ""
+"Käyttäjä voi muokata artikkelia yllä määritellyn ajan viestin lähettämisen "
+"jälkeen"
+
+msgid ""
+"A valid configuration file was found at <code>bb-config.php</code><br />You "
+"may continue to the next step."
+msgstr ""
+"Löydettiin kelvollinen<code>bb-config.php</code>-tiedosto<br />Voit jatkaa "
+"seuraavaan vaiheeseen."
+
+msgid "AM"
+msgstr "AM"
+
+msgid "Action"
+msgstr "Toiminto"
+
+msgid "Activate"
+msgstr "Ota käyttöön"
+
+msgid "Activate \"%s\""
+msgstr "Ota käyttöön \"%s\""
+
+msgid "Active <span class=\"count\">(%d)</span>"
+msgstr "Aktiiviset <span class=\"count\">(%d)</span>"
+
+msgid "Add &raquo;"
+msgstr "Lisää &raquo;"
+
+msgid "Add Forum"
+msgstr "Lisää foorumi"
+
+msgid "Add New &raquo;"
+msgstr "Lisää uusi &raquo;"
+
+msgid "Add New Topic"
+msgstr "Lisää uusi aihe"
+
+msgid "Add cookie integration settings"
+msgstr "Lisää evästeintegroinnin asetukset"
+
+msgid "Add integration settings"
+msgstr "Lisää yhdistämisen asetukset"
+
+msgid "Add this topic to your favorites"
+msgstr "Lisää tämä aihe suosikkeihisi"
+
+msgid "Add user database integration settings"
+msgstr "Lisää käyttäjätietokannan integroinnin asetukset:"
+
+msgid "Adding column: %s"
+msgstr "Lisätään saraketta: %s"
+
+msgid "Adding index: %s"
+msgstr "Lisätään indeksiä: %s"
+
+msgid "Admin"
+msgstr "Ylläpito"
+
+msgid "Administration"
+msgstr "Ylläpito"
+
+msgid "Administrator"
+msgstr "Pääkäyttäjä"
+
+msgid "Akismet"
+msgstr "Akismetin asetukset"
+
+msgid "Akismet Settings"
+msgstr "Akismetin asetukset"
+
+msgid "Akismet Stats"
+msgstr "Akismet-tilastot"
+
+msgid "All"
+msgstr "Kaikki"
+
+msgid "All <span class=\"count\">(%d)</span>"
+msgstr "Kaikki <span class=\"count\">(%d)</span>"
+
+msgid "All of this theme's files are located in the \"%s\" themes directory."
+msgstr "Kaikki teematiedostot ovat hakemistossa \"%s\"."
+
+msgid "All settings except for the character set must be specified."
+msgstr "Kaikki asetukset, lukuun ottamatta merkistoä, on määriteltävä."
+
+msgid "Allow link notifications from other sites."
+msgstr "Salli linkkihuomautukset toisilta sivustoilta."
+
+msgid "Allow this user to"
+msgstr "Salli tämän käyttäjän"
+
+msgid "Allowed markup:"
+msgstr "Sallitut merkinnät:"
+
+msgid ""
+"An email has been sent to the address we have on file for you. If you "
+"don&#8217;t get anything within a few minutes, or your email has changed, "
+"you may want to get in touch with the webmaster or forum administrator here."
+msgstr ""
+"Sähköposti on lähetetty antamaasi osoitteeseen ja sen pitäisi saapua "
+"muutaman minuutin kuluessa. Mikäli viesti ei tule perille tai "
+"sähköpostiosoitteesi on muuttunut, ota yhtetyttä sivuston ylläpitäjään tai "
+"foorumin valvojaan."
+
+msgid ""
+"An invalid configuration file was found at <code>bb-config.php</code><br /"
+">The installation cannot continue."
+msgstr ""
+"Löydettiin virheellinen konfigurointitiedosto osoitteessa <code> bb-config."
+"php </ code> <br /> Asennusta ei voida jatkaa."
+
+msgid ""
+"An old <code>config.php</code> file has been detected in your installation. "
+"You should remove it and run the <a href=\"install.php\">installer</a> "
+"again. You can use the same database connection details if you do."
+msgstr ""
+"Löytyi aiempi <code>config.php</ code>-tiedosto. Poista se ja suorita <a "
+"href=\"install.php\">asennusohjelma</ a> uudelleen. Voit halutessasi käyttää "
+"samoja tietokantayhteyden asetuksia."
+
+msgid "An unidentified error has occurred."
+msgstr "Tuntematon virhe ilmaantui."
+
+msgid "Anonymous"
+msgstr "Nimetön"
+
+msgid "Any"
+msgstr "Kaikki"
+
+msgid "Appearance"
+msgstr "Ulkoasu"
+
+msgid "Apr_April_abbreviation"
+msgstr "Huh_Huhtikuu_abbreviation"
+
+msgid "April"
+msgstr "huhtikuu"
+
+msgid "Are you sure you wanna delete that?"
+msgstr "Haluatko varmasti poistaa tämän?"
+
+msgid "Are you sure you wanna delete this post?"
+msgstr "Haluatko varmasti poistaa tämän?"
+
+msgid "Are you sure you wanna undelete that?"
+msgstr "Haluatko varmasti palauttaa tämän?"
+
+msgid "Are you sure you wanna undelete this post?"
+msgstr "Haluatko varmasti palauttaa tämän?"
+
+msgid "Are you sure you want to delete the \"<strong>%s</strong>\" forum?"
+msgstr "Haluatko poistaa foorumin: \"<strong>%s</strong>\"? "
+
+msgid "Are you sure you want to delete this user?"
+msgstr "Haluatko varmasti poistaa käyttäjän?"
+
+msgid ""
+"Are you sure you want to destroy the \"%s\" tag? This is permanent and "
+"cannot be undone."
+msgstr "Haluatko poistaa avainsanan \"%s\"? Tätä toimintoa ei voi peruuttaa."
+
+msgid ""
+"Are you sure you want to merge the \"%s\" tag into the tag you specified? "
+"This is permanent and cannot be undone."
+msgstr ""
+"Haluatko yhdistää avainsanan \"%s\" määrittelemääsi avainsanaan? Tätä "
+"toimintoa ei voi peruuttaa."
+
+msgid "Aug_August_abbreviation"
+msgstr "Elo_Elokuu_abbreviation"
+
+msgid "August"
+msgstr "elokuu"
+
+msgid "Authentication failed."
+msgstr "Asennus epäonnistui."
+
+msgid "Author"
+msgstr "Kirjoittaja"
+
+msgid "Autoloaded"
+msgstr "Automaattisesti ladattu"
+
+msgid "Autoloaded <span class=\"count\">(%d)</span>"
+msgstr "Automaattisesti ladatut <span class=\"count\">(%d)</span>"
+
+msgid "Available Themes"
+msgstr "Asennetut teemat"
+
+msgid "Avatar display"
+msgstr "Avatar-kuvat"
+
+msgid "Avatars"
+msgstr "Avatar-kuvat"
+
+msgid "Back to <a href=\"%s\">%s</a>."
+msgstr "Takaisin <a href=\"%s\">%s</a>."
+
+msgid "BackPress &rsaquo; Error"
+msgstr "bbPress &rsaquo; Virhe"
+
+msgid "Bad"
+msgstr "Huono"
+
+msgid "Bad forum name.  Go back and try again."
+msgstr "Foorumin nimi ei kelpaa. Yritä uudelleen."
+
+msgid "Beginning upgrade&hellip;"
+msgstr "Aloitetaan päivitystä&hellip;"
+
+msgid "Blank"
+msgstr "Tyhjä"
+
+msgid "Blocked"
+msgstr "Estetty"
+
+msgid "Blog address (URL)"
+msgstr "Blogin osoite (URL)"
+
+msgid "Blog address (URL):"
+msgstr "Blogin osoite (URL):"
+
+msgid "Bozos only"
+msgstr "Bozot"
+
+msgid "By %s"
+msgstr "Tekijä: %s."
+
+msgid ""
+"By default bbPress uses web URLs which have question marks and lots of "
+"numbers in them, however bbPress offers you the ability to choose an "
+"alternative URL structure for your permalinks. This can improve the "
+"aesthetics, usability, and forward-compatibility of your links."
+msgstr ""
+"Oletuksena bbPress käyttää verkko-osoitteita, joissa on paljon "
+"kysymysmerkkejä sekä numeroita. Kuitenkin bbPress tarjoaa sinulle "
+"mahdollisuuden valita vaihtoehtoisista osoiterakenteista pysyville "
+"linkeillesi. Tämä voi kehittää estetiikkaa, käytettävyyttä sekä linkkiesi "
+"seuraamisyhteensopivuutta."
+
+msgid "Bye\n"
+msgstr "Moikka\n"
+
+msgid "Cancel"
+msgstr "Peruuta"
+
+msgid ""
+"Categories are forums where new topics cannot be created. Categories usually "
+"contain a group of sub-forums."
+msgstr ""
+"Kategoriat ovat foorumeita, joihin ei voi tehdä uusia aiheita. Kategoriat "
+"sisältävät yleensä alifoorumeita."
+
+msgid "Category"
+msgstr "Kategoria"
+
+msgid "Change Theme"
+msgstr "Muuta sivuston ulkoasua"
+
+msgid "Changing column: %s"
+msgstr "Muutetaan saraketta: %s"
+
+msgid "Check for configuration file"
+msgstr "Tarkista konfigurointitiedosto"
+
+msgid "Choose a city in the same time zone as you."
+msgstr "Valitse kaupunki, joka on samalla aikavyöhykkeellä kuin sinä."
+
+msgid "Click \"Save Changes\" to update sample output."
+msgstr "Tulokset päivittyvät, kun napsautat \"Tallenna muutokset\"."
+
+msgid "Close"
+msgstr "Sulje"
+
+msgid "Close topic"
+msgstr "Sulje aihe"
+
+msgid "Closed"
+msgstr "Suljettu"
+
+msgid "Complete the installation"
+msgstr "Viimeistele asennus"
+
+msgid "Contents for <code>bb-config.php</code>"
+msgstr "Sisältö tiedostolle <code>bb-config.php</code>"
+
+msgid ""
+"Cookie sharing allows users to log in to either your bbPress or your "
+"WordPress site, and have access to both."
+msgstr ""
+"Kun jaetut evästeet ovat käytössä, käyttäjät voivat kirjautua jokuo "
+"bbPressiin tai WordPressiin ja siirtyä sivustojen välillä ilman uutta "
+"sisäänkirjausta."
+
+msgid "Cookies"
+msgstr "Evästeet"
+
+msgid "Could not determine site URI"
+msgstr "Sivuston URL-osoitetta ei voitu määrittää"
+
+msgid "Could not fetch \"auth\" cookie salt from the WordPress options table."
+msgstr ""
+"Salaustietojen hakeminen kohteelle  \"auth\" evästesuola Asetukset-taulusta "
+"ei onnistunut."
+
+msgid ""
+"Could not fetch \"logged in\" cookie salt from the WordPress options table."
+msgstr ""
+"Salaustietojen hakeminen kohteelle \"logged in\" evästesuola Asetukset-"
+"taulusta ei onnistunut."
+
+msgid "Could not get a count of all topic tags."
+msgstr "Emme voineet hakea laskelmia kaikkien aiheiden avainsanoille."
+
+msgid "Could not insert term into the database"
+msgstr "Termiä ei voitu lisätä tietokantaan"
+
+msgid "Could not open handle for fopen() to %s"
+msgstr "Ei voida avata valmiutta fopen()-funktiolle kohteeseen %s"
+
+msgid "Could not retrieve all topic tags."
+msgstr "Emme voineet hakea kaikkien aiheiden avainsanoja."
+
+msgid "Could not retrieve hot topic tags."
+msgstr "Suosittujen avainsanojen hakeminen epäonnistui."
+
+msgid "Count deleted posts on every topic"
+msgstr "Laske kaikkien aiheiden poistetut viestit"
+
+msgid ""
+"Count each bozo user&#039;s total posts as well as the total topics to which "
+"they have replied"
+msgstr ""
+"Laske jokaisen bozo-käyttäjän viestien yhteismäärä, kuten aiheiden "
+"yhteismäärä, joihin he ovat vastanneet"
+
+msgid "Count posts of every topic"
+msgstr "Laske kaikkien aiheiden viestit"
+
+msgid "Count tags for every topic"
+msgstr "Laske kaikkien aiheiden avainsanat"
+
+msgid "Count the number of bozo posts in each topic"
+msgstr "Laske kaikkien aiheiden bozo-viestit"
+
+msgid "Count topics and posts in every forum"
+msgstr "Laske kaikkien foorumeiden aiheet ja viestit"
+
+msgid "Count topics for every tag"
+msgstr "Laske kaikkien avainsanojen aiheet"
+
+msgid "Count topics to which each user has replied"
+msgstr "Laske aiheet, joihin kukin käyttäjä on vastannut"
+
+msgid "Count voices of every topic"
+msgstr "Laske kaikkien aiheiden äänet"
+
+msgid ""
+"Counted each bozo user&#039;s total posts as well as the total topics to "
+"which they have replied"
+msgstr ""
+"Jokaisen bozo-käyttäjän viestien yhteismäärä laskettu, kuten myös aiheet "
+"yhteensä, joihin he ovat vastanneet"
+
+msgid "Counted forum topics and posts"
+msgstr "Lasketaan foorumin aiheita ja viestejä..."
+
+msgid "Counted posts"
+msgstr "Lasketut viestit"
+
+msgid "Counted tagged topics"
+msgstr "Lasketaan aiheita, joihin liittyy avainsana..."
+
+msgid "Counted the number of bozo posts in each topic"
+msgstr "Laske kaikkien aiheiden bozo-viestit"
+
+msgid "Counted topic tags"
+msgstr "Lasketaan aiheiden avainsanoja..."
+
+msgid "Counted topics to which each user has replied"
+msgstr "Laske aiheet, joihin kukin käyttäjä on vastannut"
+
+msgid "Counted voices"
+msgstr "Lasketut äänet"
+
+msgid "Counting deleted posts&#8230;"
+msgstr "Lasketaan poistettuja viestejä..."
+
+msgid "Create a page that shows spam statistics."
+msgstr "Luo sivu, joka näyttää roskapostitilastot."
+
+msgid "Creating table"
+msgstr "Luodaan taulua"
+
+msgid "Current Theme"
+msgstr "Nykyinen teema"
+
+msgid "Custom Title"
+msgstr "Räätälöity otsikko"
+
+msgid "Custom user tables"
+msgstr "Räätälöidyt käyttäjätaulut"
+
+msgid "Dashboard"
+msgstr "Ohjausnäkymä"
+
+msgid "Database character collation"
+msgstr "Tietokannan merkistö"
+
+msgid "Database character set"
+msgstr "Tietokannan merkistö"
+
+msgid "Database class not loaded."
+msgstr "Tietokantalluokan lataaminen epäonnistui."
+
+msgid "Database configuration"
+msgstr "Tietokannan asetukset"
+
+msgid "Database host"
+msgstr "Tietokantapalvelin"
+
+msgid "Database installation failed!!!"
+msgstr "Tietokannan asennus epäonnistui!"
+
+msgid "Database is already installed!!!"
+msgstr "Tietokanta on jo asennettu!"
+
+msgid "Database name"
+msgstr "Tietokannan nimi"
+
+msgid "Database password"
+msgstr "Tietokannan salasana"
+
+msgid "Database upgrade complete"
+msgstr "Tietokannan päivitys valmis"
+
+msgid "Database upgrade failed"
+msgstr "Tietokannan päivittäminen epäonnistui"
+
+msgid "Database upgrade required"
+msgstr "Tietokantasi ei ole ajan tasalla"
+
+msgid "Database user"
+msgstr "Tietokannan käyttäjätunnus"
+
+msgid "Database: %s (%s)"
+msgstr "Tietokanta: %s (%s)"
+
+msgid "Date"
+msgstr "Päivämäärä"
+
+msgid "Date Format"
+msgstr "Päivämäärän oletusmuoto"
+
+msgid "Date and time format"
+msgstr "Päivämäärän ja kellonajan muotoilu"
+
+msgid "Date format"
+msgstr "Päivämäärän oletusmuoto"
+
+msgid "Date/Time Format"
+msgstr "Päivämäärän oletusmuoto"
+
+msgid "Daylight savings time begins on <code>%s</code>"
+msgstr "Kesäaika alkaa <code>%s</code>"
+
+msgid "Deactivate"
+msgstr "Poista käytöstä"
+
+msgid "Dec_December_abbreviation"
+msgstr "Jou_Joulukuu_abbreviation"
+
+msgid "December"
+msgstr "joulukuu"
+
+msgid "Default avatar"
+msgstr "Oletuskäyttäjäkuva"
+
+msgid "Delete"
+msgstr "Poista"
+
+msgid "Delete Forum"
+msgstr "Poista foorumi"
+
+msgid "Delete User &raquo;"
+msgstr "Poista käyttäjä &raquo;"
+
+msgid ""
+"Delete all topics and posts in this forum. <em>This can never be undone.</em>"
+msgstr ""
+"Poista kaikki aiheet ja viestit tältä foorumilta. <em>Toimintoa ei voida "
+"peruuttaa.</em>"
+
+msgid "Delete entire topic"
+msgstr "Poista koko aihe"
+
+msgid "Delete tags with no topics"
+msgstr "Poista aiheettomat avainsanat"
+
+msgid "Deleted"
+msgstr "Poistetut"
+
+msgid "Deleted tags with no topics"
+msgstr "Aiheettomat avainsanat poistettu."
+
+msgid "Description"
+msgstr "Kuvaus"
+
+msgid "Description:"
+msgstr "Kuvaus:"
+
+msgid "Destroy"
+msgstr "Poista"
+
+msgid "Destroy tag:"
+msgstr "Poista avainsana:"
+
+msgid "Disabled (requires JavaScript)"
+msgstr "Poistettu käytöstä (JavaScript vaadittu)"
+
+msgid "Disabled (requires jQuery)"
+msgstr "Poistettu käytöstä (jQuery vaadittu)"
+
+msgid "Discussion"
+msgstr "Keskustelu"
+
+msgid "Discussion Settings"
+msgstr "Keskustelu"
+
+msgid "Display name as"
+msgstr "Näytä nimi"
+
+msgid "Don&#8217;t show avatars"
+msgstr "Älä näytä käyttäjäkuvia"
+
+msgid "Done"
+msgstr "Valmis"
+
+msgid "Dropping index: %s"
+msgstr "Lisätään indeksiä vähitellen: %s"
+
+msgid "E-mail"
+msgstr "Sähköposti"
+
+msgid "E-mail address"
+msgstr "Sähköpostiosoite"
+
+msgid "Edit"
+msgstr "Muokkaa"
+
+msgid "Edit Forum"
+msgstr "Muokkaa foorumi"
+
+msgid "Edit Forum Order"
+msgstr "Muokkaa järjestystä"
+
+msgid "Edit Post"
+msgstr "Muokkaa viestiä"
+
+msgid "Edit Post &raquo;"
+msgstr "Muokkaa viestiä &raquo;"
+
+msgid "Edit Profile"
+msgstr "Muokkaa profiilia"
+
+msgid "Edit again &raquo;"
+msgstr "Muokkaa uudelleen &raquo;"
+
+msgid "Either export is disabled or you are not allowed to export."
+msgstr ""
+"Joko Vienti-toiminto on poissa käytöstä tai sinulla ei ole oikeuksia Vienti-"
+"toimintoon."
+
+msgid "Email"
+msgstr "Sähköposti"
+
+msgid "Email address:"
+msgstr "Sähköpostiosoite:"
+
+msgid "Email already exists"
+msgstr "Sähköpostiosoite on jo olemassa"
+
+msgid "Empty Term"
+msgstr "Tyhjä termi"
+
+msgid "Enable Pingbacks"
+msgstr "Ota paluuviitteet käyttöön"
+
+msgid "Enable stats page"
+msgstr "Ota tilastosivu käyttöön"
+
+msgid "Enable the bbPress XML-RPC publishing protocol."
+msgstr "Ota käyttöön bbPressin XML-RPC-julkaisuprotokolla."
+
+msgid "Enter a username or email address."
+msgstr "Asetetaan ylläpidon sähköposti uudelleen."
+
+msgid "Enter a username."
+msgstr "Syötä käyttäjätunnus."
+
+msgid "Error log"
+msgstr "Virheloki"
+
+msgid "Error occured while trying to delete forum"
+msgstr "Virhe poistettaessa foorumia."
+
+msgid ""
+"Existing WordPress user tables could not be found in the WordPress database "
+"you specified."
+msgstr ""
+"WordPressin käyttäjätauluja ei löytynyt määrittelemästäsi tietokannasta."
+
+msgid ""
+"Existing WordPress user tables could not be found in the bbPress database "
+"you specified in step 1.<br /><br />This is probably because the database "
+"does not already contain working WordPress tables. You may need to specify "
+"advanced database settings or leave integration until after installation."
+msgstr ""
+"WordPressin käyttäjätauluja ei löydy vaiheessa 1 määrittelemästäsi bbPress-"
+"tietokannasta.<br /><br /> Voit täsmentää tietokantayhteyden asetuksia tai "
+"jättää integroinnin asennuksen jälkeen."
+
+msgid "Existing key master entered!"
+msgstr "Olemassa oleva järjestelmänvalvoja liitetty!"
+
+msgid "Existing user without key master role entered!"
+msgstr "Olemassa oleva käyttäjä ilman järjestelmänvalvojan oikeuksia liitetty!"
+
+msgid "F j, Y"
+msgstr "j.n.Y"
+
+msgid "F j, Y - h:i A"
+msgstr "j.n.Y - G:i:s"
+
+msgid "F_Friday_initial"
+msgstr "Pe_Perjantai_initial"
+
+msgid "Favorites"
+msgstr "Suosikit"
+
+msgid ""
+"Favorites allow members to create a custom <abbr title=\"Really Simple "
+"Syndication\">RSS</abbr> feed which pulls recent replies to the topics they "
+"specify."
+msgstr ""
+"Omat suosikit -toiminnon avulla voit luoda räätälöidyn <abbr title=\"Really "
+"Simple Syndication\">RSS</abbr>-syötteen, joka kerää viimeisimmät vastaukset "
+"määrittelemistäsi aiheista. Lisätäksesi aiheen suosikkeihisi, napsauta  "
+"\"Lisää suosikkeihin\" -linkkiä aiheen sivulta."
+
+msgid "Feb_February_abbreviation"
+msgstr "Hel_Helmikuu_abbreviation"
+
+msgid "February"
+msgstr "helmikuu"
+
+msgid "Fetching missing WordPress cookie salts."
+msgstr "Haetaan puuttuvaa WordPress-tietokannan salausta."
+
+msgid "Filter"
+msgstr "Suodata"
+
+msgid ""
+"Finalize your installation by adding a name, your first user and your first "
+"forum."
+msgstr ""
+"Viimeistele asennus lisäämällä nimi, ensimmäinen käyttäjäsi ja ensimmäinen "
+"foorumisi."
+
+msgid "Finished"
+msgstr "Valmis"
+
+msgid "First Post!  w00t."
+msgstr "Ensimmäinen viestisi. Vau!"
+
+msgid "First forum name"
+msgstr "Ensimmäisen foorumin nimi"
+
+msgid "First name"
+msgstr "Etunimi"
+
+msgid ""
+"For many people, <a href=\"%s\">Akismet</a> will greatly reduce or even "
+"completely eliminate the spam you get on your site. If one does happen to "
+"get through, simply mark it as \"spam\" and Akismet will learn from the "
+"mistakes."
+msgstr ""
+"Usealla sivustolla <a href=\"%s\">Akismet</a> vähentää tai jopa kokonaan "
+"lopettaa tulevan roskapostin. Jos yksi viesti sattuu menemään läpi, merkitse "
+"se vain \"roskapostiksi\" ja Akismet oppii virheistään."
+
+msgid ""
+"For users without a custom avatar of their own, you can either display a "
+"generic logo or a generated one based on their e-mail address."
+msgstr ""
+"Käyttäjille, joilla ei ole omaa käyttäjäkuvaa, voit joko näyttää yleisen "
+"logon tai logon, joka on luotu heidän sähköpostiosoitteensa perusteella."
+
+msgid "Forum"
+msgstr "Foorumi"
+
+msgid "Forum could not be created!"
+msgstr "Foorumia ei voida luoda!"
+
+msgid "Forum name:"
+msgstr "Foorumin nimi:"
+
+msgid "Forum not found."
+msgstr "Foorumia ei löydy."
+
+msgid "Forums"
+msgstr "Foorumit"
+
+msgid "Forums already exist!"
+msgstr "Foorumit ovat jo olemassa!"
+
+msgid "Freshness"
+msgstr "Viimeisin viesti"
+
+msgid "Fri"
+msgstr "Pe"
+
+msgid "Friday"
+msgstr "Perjantai"
+
+msgid "From email address:"
+msgstr "Sähköpostiosoitteesta:"
+
+msgid "G &#8212; Suitable for all audiences"
+msgstr "G &#8212; Sopiva kaikille ikäryhmille"
+
+msgid "General"
+msgstr "Yleiset"
+
+msgid "General Settings"
+msgstr "Yleiset asetukset"
+
+msgid "Go to admin"
+msgstr "Ylläpitoon"
+
+msgid "Go to step 1"
+msgstr "Siirry vaiheeseen 1"
+
+msgid "Go to step 2"
+msgstr "Siirry vaiheeseen 2"
+
+msgid "Go to step 3"
+msgstr "Mene vaiheeseen 3"
+
+msgid "Good"
+msgstr "Hyvä"
+
+msgid "Gravatar Logo"
+msgstr "Gravatar-logo"
+
+msgid "Great!"
+msgstr "Upeaa!"
+
+msgid "Halting installation!"
+msgstr "Asennus pysäytettiin!"
+
+msgid "Here you can match WordPress roles to bbPress roles."
+msgstr "Tässä voit sovittaa WordPress-osat bbPress-osiin."
+
+msgid ""
+"Hint: Use upper and lower case characters, numbers and symbols like !\"?$%"
+"^&amp;( in your password."
+msgstr ""
+"Vihje: Käytä pieniä ja isoja merkkejä, numeroita ja erikoismerkkejä kuten !"
+"\"?$%^&amp;( salasanassasi."
+
+msgid "Hot Tags"
+msgstr "Suositut avainsanat"
+
+msgid "Howdy, %1$s"
+msgstr "Moikka, %1$s"
+
+msgid ""
+"I could not find the file <code>bb-config-sample.php</code><br />Please "
+"upload it to the root directory of your bbPress installation."
+msgstr ""
+"Tarvittavaa <code>bb-config-sample.php</code>-tiedostoa ei löydy<br />Ole "
+"hyvä ja lataa se bbPress-asennuksen juurihakemistoon."
+
+msgid "I'm sorry, but there is nothing at this URL."
+msgstr "Pahoittelemme, mutta tässä osoitteessa ei ole mitään."
+
+msgid "Identicon (Generated)"
+msgstr "Identicon (generoitu)"
+
+msgid ""
+"If required, then all settings except for the character set must be "
+"specified."
+msgstr "Kaikki asetukset lukuun ottamatta merkistoä on määriteltävä."
+
+msgid ""
+"If you are integrating with a WordPress MU site you need to specify the "
+"primary blog ID for that site. It is usually <strong>1</strong>. You should "
+"probably leave this blank if you are integrating with a standard WordPress "
+"site"
+msgstr ""
+"Jos olet yhdistämässä bbPressiä WordPress MU -sivuston kanssa, sinun täytyy "
+"antaa ensisijaisen blogin tunnusnumero tälle sivustolle. Yleensä se on "
+"<strong>1</strong>. Todennäköisesti sinun täytyy jättää tämä tyhjäksi, jos "
+"olet liittämässä bbPressiä normaaliin WordPress-sivustoon."
+
+msgid ""
+"If you are running multiple bbPress sites in a single database, you will "
+"probably want to change this."
+msgstr ""
+"Mikäli useampi bbPress-asennus käyttää samaa tietokantaa, luultavasti haluat "
+"muuttaa tätä."
+
+msgid ""
+"If you don't have a WordPress.com API Key, you can get one at <a href=\"%s"
+"\">WordPress.com</a>"
+msgstr ""
+"Jos sinulla ei ole WordPress.comin API-tunnusta, voit hakea sen osoitteesta "
+"<a href=\"%s\">WordPress.com</a>"
+
+msgid "If you want to allow shared logins with an existing WordPress site."
+msgstr ""
+"Mikäli haluat sallia jaetut kirjautumistunnukset olemassa olevan WordPress-"
+"asennuksen kanssa."
+
+msgid "If you want to integrate bbPress with an existing WordPress site."
+msgstr ""
+"Mikäli haluat integroida bbPressin olemassa olevan WordPress-asennuksen "
+"kanssa"
+
+msgid "If you want to share user data with an existing WordPress site."
+msgstr ""
+"Mikäli haluat jakaa käyttäjien tiedot olemassa olevan WordPress-asennuksen "
+"kanssa."
+
+msgid ""
+"If you wanted to reset your password, you may do so by visiting the "
+"following address:\n"
+"\n"
+"%s\n"
+"\n"
+"If you don't want to reset your password, just ignore this email. Thanks!"
+msgstr ""
+"Mikäli halusit vaihtaa salasanasi, tee se vierailemalla seuravassa "
+"osoitteessa:\n"
+"\n"
+"%s\n"
+"\n"
+"Mikäli et halua vaihtaa salasanaasi, poista tämä viesti. Kiitos!"
+
+msgid "If you're not sure what to put here, contact your web hosting provider."
+msgstr ""
+"Mikäli et ole varma mitä laittaa tähän, ota yhteys web-palveluntarjoajaasi."
+
+msgid ""
+"If your <code>.htaccess</code> file were <a href=\"http://codex.wordpress."
+"org/Changing_File_Permissions\">writable</a>, we could do this "
+"automatically, but it isn&#8217;t so these are the mod_rewrite rules you "
+"should have in your <code>.htaccess</code> file. Click in the field and "
+"press <kbd>CTRL + a</kbd> to select all."
+msgstr ""
+"Jos <code>.htaccess</code> olisi ollut  <a href=\"http://codex.wordpress.org/"
+"Changing_File_Permissions\">kirjoitettavissa</a>, me olisimme voineet tehdä "
+"tämän automaattisesti, mutta se ei ollut, joten sinun täytyy liittää nämä "
+"mod_rewrite-säännöt <code>.htaccess</code>-tiedostoosi manuaalisesti. "
+"Klikkaa kenttää ja paina <kbd>CTRL + a</kbd> valitaksesi kaikki."
+
+msgid ""
+"If your bbPress and WordPress site do not share the same database, then you "
+"will need to add advanced settings."
+msgstr ""
+"Mikäli bbPressin ja WordPressin asennukset eivät käytä samaa tietokantaa, "
+"niin sinun tulee määritellä lisäasetukset."
+
+msgid ""
+"If your bbPress and WordPress sites share the same database, then this is "
+"the same value as <code>$table_prefix</code> in your WordPress <code>wp-"
+"config.php</code> file. It is usually <strong>wp_</strong>."
+msgstr ""
+"Mikäli bbPress- ja WordPress-asennukset käyttävät samaa tietokantaa, silloin "
+"tämä arvo on sama kuin WordPressin <code>wp-config.php</code>-tiedostossa "
+"määrittelemäsi <code>table_prefix</code>. Oletusarvo on <strong>wp_</strong>."
+
+msgid "Ignore the %d second post throttling limit"
+msgstr "Hylkää %d sekunnin viestien lähetysraja"
+
+msgid "In a few words, explain what this site is about."
+msgstr "Kerro muutamilla sanoilla, mikä on tämän sivuston tarkoitus."
+
+msgid ""
+"In this step you need to enter your database connection details. The "
+"installer will attempt to create a file called <code>bb-config.php</code> in "
+"the root directory of your bbPress installation."
+msgstr ""
+"Määritä tässä tietokantayhteytesi asetukset. Asennusohjelma yrittää luoda "
+"tiedoston nimeltä <code> bb-config.php </ code>  bbPress-asennuksesi "
+"juurihakemistoon."
+
+msgid "Inactive"
+msgstr "Ei-aktiivinen"
+
+msgid "Inactive (no role)"
+msgstr "Ei-aktiivinen"
+
+msgid "Inactive <span class=\"count\">(%d)</span>"
+msgstr "Ei-aktiiviset <span class=\"count\">(%d)</span>"
+
+msgid ""
+"Inactive users can login and look around but not do anything. Blocked users "
+"just see a simple error message when they visit the site."
+msgstr ""
+"Ei-aktiiviset käyttäjät voivat kirjautua sisään ja selailla foorumia, mutta "
+"eivät voi tehdä mitään. Estetyt käyttäjät näkevät yksinkertaisen "
+"virheilmoituksen vieraillessaan sivustolla."
+
+msgid "Incorrect password."
+msgstr "Väärä salasana."
+
+msgid "Inserting data"
+msgstr "Lisätään dataa"
+
+msgid "Installation complete!"
+msgstr "Asennus valmis!"
+
+msgid "Installation completed with some errors!"
+msgstr "Asennuksen viimeistelyssä havaittiin muutamia virheitä!"
+
+msgid "Installation errors"
+msgstr "Asennusvirheet"
+
+msgid "Installation failed!"
+msgstr "Asennus epäonnistui!"
+
+msgid "Installation language"
+msgstr "Asennuksen kieli"
+
+msgid "Installation log"
+msgstr "Asennuksen lokitiedosto"
+
+msgid "Installed"
+msgstr "Asennettu"
+
+msgid ""
+"Integrating cookies allows you and your users to login to either your "
+"bbPress or your WordPress site and be automatically logged into both."
+msgstr ""
+"Kun jaetut evästeet ovat käytössä, käyttäjät voivat kirjautua joko "
+"bbPressiin tai WordPressiin ja siirtyä sivustojen välillä ilman uutta "
+"sisäänkirjausta."
+
+msgid ""
+"Integrating your WordPress database user tables allows you to store user "
+"data in one location, instead of having separate user data for both bbPress "
+"and WordPress."
+msgstr ""
+"Integroimalla WordPress-tietokannan käyttäjätaulut bbPressiin, voit "
+"säilyttää käyttäjien tietoja yhdessä paikassa sen sijaan, että sinulla olisi "
+"erillinen käyttäjätietokanta sekä bbPressille että WordPressille."
+
+msgid "Integration not enabled"
+msgstr "Integrointi ei ole käytössä"
+
+msgid "Interests"
+msgstr "Harrastukset"
+
+msgid "Invalid Role"
+msgstr "Rooli ei kelpaa."
+
+msgid "Invalid Taxonomy"
+msgstr "Rooli ei kelpaa"
+
+msgid "Invalid User ID"
+msgstr "Rooli ei kelpaa."
+
+msgid "Invalid arguments"
+msgstr "Argumentit eivät kelpaa"
+
+msgid "Invalid email address"
+msgstr "Sähköpostiosoite ei kelpaa"
+
+msgid "Invalid login name"
+msgstr "Käyttäjätunnus ei kelpaa"
+
+msgid "Invalid nicename"
+msgstr "Argumentit eivät kelpaa"
+
+msgid "Invalid object ID"
+msgstr "Rooli ei kelpaa"
+
+msgid "Invalid plugin path."
+msgstr "Epäkelpo lisäosapolku."
+
+msgid "Invalid registration time"
+msgstr "Rekisteröintiaika on epäkelpo"
+
+msgid "Invalid registration timestamp"
+msgstr "Rekisteröitymisen aikaleima on epäkelpo"
+
+msgid "Invalid tag or topic."
+msgstr "Avainsana tai aihe ei kelpaa."
+
+msgid "Invalid taxonomy"
+msgstr "Luokittelu ei kelpaa."
+
+msgid "Invalid term ID"
+msgstr "ID-termi ei kelpaa"
+
+msgid "Invalid topic or forum."
+msgstr "Aihe tai foorumi ei kelpaa."
+
+msgid "Invalid username"
+msgstr "Argumentit eivät kelpaa"
+
+msgid "It looks like your database is out-of-date. You can upgrade it here."
+msgstr ""
+"Tietokantasi näyttää olevan vanhentunut.<br />Voit päivittää sen tästä."
+
+msgid "Items per page"
+msgstr "Elementtien määrä"
+
+msgid "Items to re-count"
+msgstr "Uudelleenlaskettavat kohteet"
+
+msgid "Jan_January_abbreviation"
+msgstr "Tam_Tammikuu_abbreviation"
+
+msgid "January"
+msgstr "tammikuu"
+
+msgid "Jul_July_abbreviation"
+msgstr "Hei_Heinäkuu_abbreviation"
+
+msgid "July"
+msgstr "heinäkuu"
+
+msgid "Jun_June_abbreviation"
+msgstr "Kes_Kesäkuu_abbreviation"
+
+msgid "June"
+msgstr "kesäkuu"
+
+msgid "Just another bbPress community"
+msgstr "Ihan uusi bbPress-yhteisö"
+
+msgid "Key Master"
+msgstr "Järjestelmänvalvoja"
+
+msgid "Key master could not be created!"
+msgstr "Järjestelmänvalvojan luominen epäonnistui!"
+
+msgid "Key master created"
+msgstr "Järjestelmänvalvoja luotu"
+
+msgid "Key master email not sent!"
+msgstr "Kirjautumistietojen lähetys epäonnistui!"
+
+msgid "Key master email sent"
+msgstr "Kirjautumistiedot lähetetty"
+
+msgid "Key master role assigned to existing user"
+msgstr "Järjestelmänvalvojan rooli liitetty olemassa olevaan käyttäjään"
+
+msgid "Key master role could not be assigned to existing user!"
+msgstr ""
+"Järjestelmänvalvojan roolia ei voitu liittää olemassa olevaan käyttäjään!"
+
+msgid "Key not found."
+msgstr "Avainta ei löydy."
+
+msgid "Language"
+msgstr "Kieli"
+
+msgid "Last Poster"
+msgstr "Viimeisin kirjoittaja"
+
+msgid "Last name"
+msgstr "Sukunimi"
+
+msgid "Last post by %s"
+msgstr "Last post käyttäjältä %s"
+
+msgid "Latest Discussions"
+msgstr "Viimeisimmät keskustelut"
+
+msgid "Local time is <code>%s</code>"
+msgstr "Paikallinen aika on <code>%s</code>"
+
+msgid "Location"
+msgstr "Sijainti"
+
+msgid "Lock post editing after"
+msgstr "Estä viestin muokkaaminen, kun on kulunut"
+
+msgid "Log Out"
+msgstr "Kirjaudu ulos"
+
+msgid "Log in"
+msgstr "Kirjaudu sisään"
+
+msgid "Log in &raquo;"
+msgstr "Kirjaudu sisään  &raquo;"
+
+msgid "Log in Failed"
+msgstr "Sisäänkirjautuminen epäonnistui"
+
+msgid "M_Monday_initial"
+msgstr "Ma_Maanantai_initial"
+
+msgid "Main Theme"
+msgstr "Foorumi"
+
+msgid "Make this forum a category"
+msgstr "Luo tästä foorumista keskustelualuekategoria"
+
+msgid "Making plugin directory at %s."
+msgstr "Luodaan lisäosahakemistoa %s."
+
+msgid "Making theme directory at %s."
+msgstr "Luodaan teemahakemistoa %s."
+
+msgid "Malformed URL: %s"
+msgstr "Epämuodostunut URL-osoite: %s"
+
+msgid "Manage Plugins"
+msgstr "Lisäosat"
+
+msgid "Manage Themes"
+msgstr "Hallitse teemoja"
+
+msgid "Manual offsets"
+msgstr "Manuaalinen erotus"
+
+msgid "Mar_March_abbreviation"
+msgstr "Maa_Maaliskuu_abbreviation"
+
+msgid "March"
+msgstr "maaliskuu"
+
+msgid "Maximum rating"
+msgstr "Luokittelu"
+
+msgid "May"
+msgstr "toukokuu"
+
+msgid "May_May_abbreviation"
+msgstr "Tou_Toukokuu_abbreviation"
+
+msgid "Member"
+msgstr "Jäsen"
+
+msgid "Member Since"
+msgstr "Jäsenenä"
+
+msgid "Merge"
+msgstr "Yhdistä"
+
+msgid "Merge this tag into:"
+msgstr "Yhdistä tämä avainsana:"
+
+msgid "Moderator"
+msgstr "Valvoja"
+
+msgid "Modifying database: %s (%s)"
+msgstr "Muokataan tietokantaa: %s (%s)"
+
+msgid "Mon"
+msgstr "Ma"
+
+msgid "Monday"
+msgstr "Maanantai"
+
+msgid "MonsterID  (Generated)"
+msgstr "MonsterID (generoitu)"
+
+msgid "Most Popular Topics"
+msgstr "Suosituimmat aiheet"
+
+msgid ""
+"Most of the time these settings are <em>not</em> required. Look before you "
+"leap!"
+msgstr ""
+"Useimmiten nämä asetukset <em>eivät</em> ole pakollisia. Tarkista kuitenkin!"
+
+msgid "Most recent reply: %s ago"
+msgstr "Viimeisin vastaus: %s sitten"
+
+msgid "Move"
+msgstr "Siirrä"
+
+msgid "Move to"
+msgstr "Siirrä"
+
+msgid "Move topics from this forum into the replacement forum below."
+msgstr "Siirrä tämän foorumin aiheet toiselle foorumille alla."
+
+msgid "Multiple %s matches"
+msgstr "Useita %s osumia"
+
+msgid "Multiple email matches.  Log in with your username."
+msgstr ""
+"Useat sähköpostiosoitteet vastaavat. Kirjaudu sisään käyttäjätunnuksellasi."
+
+msgid "Mystery Man"
+msgstr "Salaperäinen mies"
+
+msgid "Name"
+msgstr "Nimi"
+
+msgid "Name already exists"
+msgstr "Käyttäjätunnus on jo olemassa"
+
+msgid "New Topic in this Forum"
+msgstr "Uusi aihe tällä foorumilla"
+
+msgid "New bbPress installation"
+msgstr "Uusi bbPress-asennus"
+
+msgid "New password"
+msgstr "Uusi salasana"
+
+msgid "Next &raquo;"
+msgstr "Seuraava &raquo;"
+
+msgid "Next page"
+msgstr "Seuraava sivu"
+
+msgid "Nicename already exists"
+msgstr "Argumentit ovat jo olemassa."
+
+msgid "No <a href=\"%s\">tags</a> yet."
+msgstr "Ei vielä <a href=\"%s\">avainsanoja</a>."
+
+msgid "No forum found."
+msgstr "Ei tuloksia."
+
+msgid "No forums found."
+msgstr "Ei tuloksia."
+
+msgid "No forums to update!"
+msgstr "Ei päivitettäviä foorumeita!"
+
+msgid "No hot topic tags found."
+msgstr "Ei avainsanoja."
+
+msgid ""
+"No moderated posts or topics&#8230; you must have very well behaved members."
+msgstr ""
+"Ei moderoituja viestejä tai aiheita &#8230; sinulla täytyy olla erittäin "
+"hyväkäytöksisiä jäseniä."
+
+msgid "No more replies."
+msgstr "Ei uusia vastauksia."
+
+msgid "No more topics posted."
+msgstr "Ei uusia aiheita."
+
+msgid "No new forum created."
+msgstr "Uutta foorumia ei luotu."
+
+msgid "No new tag found."
+msgstr "Ei tuloksia."
+
+msgid "No old tag found."
+msgstr "Ei tuloksia."
+
+msgid "No plugins found."
+msgstr "Ei tuloksia."
+
+msgid "No post found."
+msgstr "Ei tuloksia."
+
+msgid "No posts found."
+msgstr "Ei tuloksia."
+
+msgid "No replies since"
+msgstr "Ei vastauksia."
+
+msgid "No replies yet."
+msgstr "Ei vastauksia."
+
+msgid "No replies."
+msgstr "Ei vastauksia."
+
+msgid "No results found."
+msgstr "Ei tuloksia."
+
+msgid "No schema available."
+msgstr "Mallia ei ole saatavilla."
+
+msgid "No tag found."
+msgstr "Ei avainsanoja."
+
+msgid "No topic found."
+msgstr "Ei aiheita."
+
+msgid "No topic tags found."
+msgstr "Ei avainsanoja."
+
+msgid "No topics found."
+msgstr "Ei aiheita."
+
+msgid "No topics posted yet."
+msgstr "Ei aloitettuja aiheita."
+
+msgid "No username specified"
+msgstr "Käyttäjätunnusta ei ole määritelty"
+
+msgid "None"
+msgstr "Ei mitään"
+
+msgid "Normal"
+msgstr "Normaali"
+
+msgid "Not Spam"
+msgstr "Ei roskaa"
+
+msgid "Not a valid directory"
+msgstr "Hakemisto ei kelpaa"
+
+msgid "Nothing to see here."
+msgstr "Ei mitään nähtävää."
+
+msgid "Nothing to upgrade.  <a href=\"%s\">Get back to work!</a>"
+msgstr "Ei päivitettävää.  <a href=\"%s\">Takaisin töihin!</a>"
+
+msgid "Nov_November_abbreviation"
+msgstr "Mar_Marraskuu_abbreviation"
+
+msgid "November"
+msgstr "marraskuu"
+
+msgid "Now how'd you get here?  And what did you think you'd being doing?"
+msgstr "Miten päädyit tänne? Ja mitä ajattelit tehdä?"
+
+msgid "Number of rows deleted from tags table:%d <br />\n"
+msgstr "Avainsanat taulusta poistettiin %d riviä.<br />\n"
+
+msgid "Number of topics from which the old tag was removed: %d <br />\n"
+msgstr "Vanha avainsana poistettiin %d aiheesta.<br />\n"
+
+msgid "Number of topics to which the new tag was added: %d <br />\n"
+msgstr "Uusi avainsana lisättiin %d aiheeseen<br />\n"
+
+msgid "Number of topics, posts or tags to show per page."
+msgstr "Sivulla näytettävien aiheiden, viestien tai avainsanojen määrä"
+
+msgid "Occupation"
+msgstr "Ammatti"
+
+msgid "Oct_October_abbreviation"
+msgstr "Lok_Lokakuu_abbreviation"
+
+msgid "October"
+msgstr "lokakuu"
+
+msgid "Oh dear!"
+msgstr "Voi harmi!"
+
+msgid "Once Daily"
+msgstr "Kerran päivässä"
+
+msgid "Once Hourly"
+msgstr "Kerran tunnissa"
+
+msgid ""
+"Once you have created the configuration file, you can check for it below."
+msgstr ""
+"Kun olet luonut konfigurointitiedoston, voit tarkistaa sen tiedot alta."
+
+msgid ""
+"Only set these options if your integrated user tables do not fit the usual "
+"mould of <em>wp_user</em> and <em>wp_usermeta</em>."
+msgstr ""
+"Muuta näitä asetuksia vain, mikäli käyttäjätaulujen nimet ovat jotain muuta "
+"kuin <em>wp_user</em> ja <em>wp_usermeta</em>."
+
+msgid ""
+"Only set these values if your user tables differ from the default WordPress "
+"naming convention."
+msgstr ""
+"Aseta nämä arvot vain, jos käyttäjätaulusi eroavat WordPressin "
+"oletusnimeämiskäytännöstä."
+
+msgid "Open topic"
+msgstr "Avaa aihe"
+
+msgid "Open?"
+msgstr "Avoinna?"
+
+msgid "PATH_INFO"
+msgstr "PATH_INFO"
+
+msgid "PG &#8212; Possibly offensive, usually for audiences 13 and above"
+msgstr ""
+"PG &#8212; Mahdollisesti loukkaava/hyökkäävä, yleensä yli 13-vuotiaille"
+
+msgid "PM"
+msgstr "PM"
+
+msgid "Page %d"
+msgstr "Sivu %d"
+
+msgid "Page not found!"
+msgstr "Sivua ei löydy!"
+
+msgid "Parent"
+msgstr "Liitä foorumin alle"
+
+msgid "Passed variable is not a BackPress database object."
+msgstr "Ohitettu muuttuja ei ole BackPress-tietokantaobjekti."
+
+msgid "Password"
+msgstr "Salasana"
+
+msgid "Password Recovery"
+msgstr "Salasanan palautus"
+
+msgid "Password Reset"
+msgstr "Salasanan palautus"
+
+msgid "Password Strength"
+msgstr "Salasanan vahvuus"
+
+msgid "Password:"
+msgstr "Salasana:"
+
+msgid "Per Day"
+msgstr "Päivää kohti"
+
+msgid "Perhaps you meant to run the <a href=\"%s\">upgrade script</a> instead?"
+msgstr "Yritätkö kenties <a href=\"%s\">päivittää</a> asennustasi?"
+
+msgid "Permalink Settings"
+msgstr "Osoiterakenne"
+
+msgid "Permalink type"
+msgstr "Osoiterakenteen tyyppi"
+
+msgid "Permalinks"
+msgstr "Osoiterakenne"
+
+msgid "PingBack"
+msgstr "Paluuviittaus"
+
+msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
+msgstr ""
+"Paluuviite kohteelta %1$s kohteelle %2$s on rekisteröity. Jatka verkon "
+"edistämistä! :-)"
+
+msgid ""
+"Please complete your installation before attempting to include WordPress "
+"within bbPress"
+msgstr "Viimeistele asennus ennen kuin yrität lisätä WordPressiä bbPressiin"
+
+msgid "Please enter a topic title"
+msgstr "Syötä aiheen otsikko"
+
+msgid "Please give me a name!"
+msgstr "Anna minulle nimi!"
+
+msgid "Please select an existing bbPress Keymaster or WordPress administrator."
+msgstr ""
+"Valitse olemassa oleva bbPressin järjestelmänvalvoja tai WordPressin "
+"pääkäyttäjä."
+
+msgid "Please try again."
+msgstr "Yritä uudelleen."
+
+msgid "Plugin"
+msgstr "Lisäosa"
+
+msgid "Plugin file does not exist."
+msgstr "Lisäosatiedostoa ei ole olemassa."
+
+msgid "Plugins"
+msgstr "Lisäosat"
+
+msgid "Ported by <cite>%s</cite>"
+msgstr "Tekijä: <cite>%s</cite>"
+
+msgid "Position"
+msgstr "Järjestys"
+
+msgid "Post"
+msgstr "Viesti"
+
+msgid "Post author"
+msgstr "Viestin kirjoittaja"
+
+msgid "Post status"
+msgstr "Viestin tila"
+
+msgid "Post:"
+msgstr "Viesti:"
+
+msgid "Posted %s"
+msgstr "Lähetetty %s"
+
+msgid "Posted %s ago"
+msgstr "Lähetetty %s sitten"
+
+msgid "Poster IP address"
+msgstr "Kirjoittajan IP-osoite"
+
+msgid "Posts"
+msgstr "Viestit"
+
+msgid "Previous page"
+msgstr "Edellinen sivu"
+
+msgid "Profile"
+msgstr "Profiili"
+
+msgid "Profile Info"
+msgstr "Profiilin tiedot"
+
+msgid "Profile Information"
+msgstr "Profiilin tiedot"
+
+msgid "Profile updated"
+msgstr "Profiili päivitetty"
+
+msgid "Put code in between <code>`backticks`</code>."
+msgstr "Laita koodi <code>`heittomerkkien`</code> sisään."
+
+msgid "Query failed"
+msgstr "Kysely epäonnistui"
+
+msgid "R &#8212; Intended for adult audiences above 17"
+msgstr "R &#8212; Tarkoitettu aikuisille, yli 17-vuotiaille"
+
+msgid "REQUEST_URI"
+msgstr "REQUEST_URI"
+
+msgid "Re-count"
+msgstr "Laske uudelleen"
+
+msgid "Re-setting admin email address."
+msgstr "Asetetaan ylläpidon sähköposti uudelleen."
+
+msgid "Reading"
+msgstr "Lukeminen"
+
+msgid "Reading Settings"
+msgstr "Lukeminen"
+
+msgid "Ready? Then let's get started!"
+msgstr "Oletko valmis? Aloitetaan!"
+
+msgid "Recent Posts"
+msgstr "Viimeisimmät viestit"
+
+msgid "Recent Replies"
+msgstr "Viimeisimmät vastaukset"
+
+msgid "Recently Moderated Items"
+msgstr "Äskettäin moderoidut"
+
+msgid "Recount Items"
+msgstr "Laske uudelleen"
+
+msgid "Recover Password &raquo;"
+msgstr "Palauta salasana &raquo;"
+
+msgid "Referrer is OK, beginning installation&hellip;"
+msgstr "Osoite on OK, aloitetaan asennus&hellip;"
+
+msgid "Register"
+msgstr "Rekisteröidy"
+
+msgid "Register &raquo;"
+msgstr "Rekisteröidy &raquo;"
+
+msgid "Registered"
+msgstr "Rekisteröity"
+
+msgid "Registered Users"
+msgstr "Rekisteröityneet käyttäjät"
+
+msgid "Registration"
+msgstr "Rekisteröityminen"
+
+msgid "Relevant posts"
+msgstr "Aiheeseen liittyvät viestit"
+
+msgid "Remember me"
+msgstr "Muista minut"
+
+msgid "Remote Publishing"
+msgstr "Etäjulkaiseminen"
+
+msgid "Remove"
+msgstr "Poista"
+
+msgid "Remove deleted topics from users' favorites"
+msgstr "Poista tuhottuja aiheita käyttäjien suosikeista"
+
+msgid "Remove this tag"
+msgstr "Poista tämä avainsana"
+
+msgid "Removed deleted topics from users' favorites"
+msgstr "Poistetaan tuhottuja aiheita käyttäjien suosikeista..."
+
+msgid "Rename"
+msgstr "Nimeä uudelleen"
+
+msgid "Rename tag:"
+msgstr "Nimeä avainsana uudelleen:"
+
+msgid "Replacement forum"
+msgstr "Korvaava keskustelualue"
+
+msgid "Reply"
+msgstr "Vastaus"
+
+msgid "Right Now"
+msgstr "Sivuillasi nyt"
+
+msgid "Role"
+msgstr "Rooli"
+
+msgid "Rows deleted from tagged table: %d <br />\n"
+msgstr "Taulusta poistetut rivit: %d <br />\n"
+
+msgid "Rows deleted from tags table: %d <br />\n"
+msgstr "Avainsanataulusta poistetut rivit: %d <br />\n"
+
+msgid "SQL ERROR!"
+msgstr "SQL-VIRHE!"
+
+msgid "SQL ERROR! See the error log for more detail"
+msgstr "SQL-VIRHE! Katso virheloki saadaksesi lisätietoja."
+
+msgid "S_Saturday_initial"
+msgstr "La_Lauantai_initial"
+
+msgid "S_Sunday_initial"
+msgstr "Su_Sunnuntai_initial"
+
+msgid "Sat"
+msgstr "La"
+
+msgid "Saturday"
+msgstr "Lauantai"
+
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+msgid "Save Forum Order"
+msgstr "Tallenna järjestys"
+
+msgid "Save WordPress integration settings"
+msgstr "Tallenna WordPress-integroinnin asetukset"
+
+msgid "Save database configuration file"
+msgstr "Tallenna tietokannan kunfigurointitiedosto"
+
+msgid "Save site settings"
+msgstr "Tallenna sivuston asetukset"
+
+msgid "Search"
+msgstr "Etsi"
+
+msgid "Search &#187;"
+msgstr "Etsi &#187;"
+
+msgid "Search &raquo;"
+msgstr "Etsi &raquo;"
+
+msgid "Search all topics from these forums."
+msgstr "Etsi kaikki aiheet valituilta foorumeilta."
+
+msgid "Search for"
+msgstr "Etsi"
+
+msgid "Search term"
+msgstr "Etsi termi"
+
+msgid "Search:"
+msgstr "Etsi:"
+
+msgid "Select a city"
+msgstr "Valitse kaupunki"
+
+msgid "Send Post &raquo;"
+msgstr "Lähetä viesti &raquo;"
+
+msgid "Sep_September_abbreviation"
+msgstr "Syy_Syyskuu_abbreviation"
+
+msgid "Separate user database settings"
+msgstr "Erota käyttäjätietokantojen asetukset"
+
+msgid "September"
+msgstr "syyskuu"
+
+msgid "Sets the language to be used during the installation process only."
+msgstr "Valitse asennuksen aikana käytettävä kieli."
+
+msgid "Setting default on column: %s"
+msgstr "Asetetaan oletusta sarakkeeseen: %s"
+
+msgid "Setting up custom user table constants"
+msgstr "Mukautettujen käyttäjätaulujen vakioarvojen asetus"
+
+msgid "Settings"
+msgstr "Asetukset"
+
+msgid "Show advanced database settings"
+msgstr "Näytä tietokantayhteyden lisäasetukset"
+
+msgid "Show advanced settings"
+msgstr "Näytä lisäasetukset"
+
+msgid "Show avatars"
+msgstr "Näytä Avatar-kuvat"
+
+msgid "Show installation messages"
+msgstr "Näytä tiedot asennuksesta"
+
+msgid "Show upgrade messages"
+msgstr "Näytä päivityksen lokitiedot"
+
+msgid "Site Description"
+msgstr "Sivuston kuvaus"
+
+msgid "Site Name"
+msgstr "Sivuston nimi"
+
+msgid "Site URL"
+msgstr "Sivuston URL-osoite"
+
+msgid "Site address (URL)"
+msgstr "Sivuston osoite (URL)"
+
+msgid "Site address (URL):"
+msgstr "Sivuston osoite (URL):"
+
+msgid "Site address:"
+msgstr "Sivuston osoite:"
+
+msgid "Site name"
+msgstr "Sivuston nimi"
+
+msgid "Site name:"
+msgstr "Sivuston nimi:"
+
+msgid "Site settings"
+msgstr "Sivuston asetukset"
+
+msgid "Site title"
+msgstr "Sivun otsikko"
+
+msgid "Skip WordPress integration"
+msgstr "Ohita WordPress-integrointi"
+
+msgid "Skipped"
+msgstr "Ohitettu"
+
+msgid "Slow down; you move too fast."
+msgstr "Hidasta vähän; liikut liian nopeasti."
+
+msgid "Slug"
+msgstr "Osoiterakenne"
+
+msgid "Software Name"
+msgstr "Ohjelmiston nimi"
+
+msgid "Software Version"
+msgstr "Versio"
+
+msgid ""
+"Something odd happened when attempting to destroy that tag.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"Jotain outoa tapahtui poistettaessa avainsanaa.<br />\n"
+"<a href=\"%s\">Yritä uudelleen?</a>"
+
+msgid ""
+"Something odd happened when attempting to merge those tags.<br />\n"
+"<a href=\"%s\">Try Again?</a>"
+msgstr ""
+"Jotain outoa tapahtui yhdistettäessä avainsanoja.<br />\n"
+"<a href=\"%s\">Yritä uudelleen?</a>"
+
+msgid "Sorry, post is too old."
+msgstr "Viesti on valitettavasti liian vanha."
+
+msgid "Spam"
+msgstr "Roskaa"
+
+msgid "Standard time begins on <code>%s</code>"
+msgstr "Normaaliaika alkaa <code>%s</code>"
+
+msgid "Started %1$s ago by %2$s"
+msgstr "Aloitettu %1$s sitten.  Avaaja: %2$s"
+
+msgid "Started: %s ago"
+msgstr "Aloitettu: %s sitten"
+
+msgid "Statistics"
+msgstr "Tilastot"
+
+msgid "Step 1"
+msgstr "Vaihe 1"
+
+msgid "Step 1 - Creating database tables"
+msgstr "Vaihe 1 -  Luodaan tietokannan taulut"
+
+msgid "Step 2"
+msgstr "Vaihe 2"
+
+msgid "Step 2 - WordPress integration (optional)"
+msgstr "Vaihe 2 - Integrointi WordPressiin (valinnainen)"
+
+msgid "Step 3"
+msgstr "Vaihe 3"
+
+msgid "Step 3 - Site settings"
+msgstr "Vaihe 3 - Sivuston asetukset"
+
+msgid "Stick topic"
+msgstr "Liimaa aihe"
+
+msgid "Strong"
+msgstr "Vahva"
+
+msgid "Subforums"
+msgstr "Alafoorumit"
+
+msgid "Sun"
+msgstr "Su"
+
+msgid "Sunday"
+msgstr "Sunnuntai"
+
+msgid "T_Thursday_initial"
+msgstr "To_Torstai_initial"
+
+msgid "T_Tuesday_initial"
+msgstr "Ti_Tiistai_initial"
+
+msgid "Table name prefix"
+msgstr "Taulun nimen etuliite:"
+
+msgid "Table: %s"
+msgstr "Taulu: %s"
+
+msgid "Tag"
+msgstr "Avainsana"
+
+msgid "Tag not found"
+msgstr "Avainsanaa ei löydy"
+
+msgid "Tag not found."
+msgstr "Ei avainsanoja."
+
+msgid "Tag specified not found."
+msgstr "Määrittelemääsi avainsanaa ei löytynyt."
+
+msgid "Tag to be merged not found."
+msgstr "Yhdistettäviä avainsanoja ei löytynyt."
+
+msgid "Tagline"
+msgstr "Avainsana"
+
+msgid "Tags"
+msgstr "Avainsanat"
+
+msgid "Tags (comma seperated)"
+msgstr "Avainsanat (pilkulla eroteltuina)"
+
+msgid "Tags:"
+msgstr "Avainsanat:"
+
+msgid ""
+"Thank you for using <a href=\"%s\">bbPress</a>. | <a href=\"%s"
+"\">Documentation</a> | <a href=\"%s\">Feedback</a>"
+msgstr ""
+"Kiitos <a href=\"%s\">bbPressin</a> käyttämisestä. | <a href=\"%s"
+"\">Dokumentaatio</a> | <a href=\"%s\">Anna palautetta</a>"
+
+msgid "That database user's password."
+msgstr "Tietokannan käyttäjän salasana"
+
+msgid "That login is already taken!"
+msgstr "Kirjautumistunnus on jo käytössä!"
+
+msgid "That type of plugin is not available in the specified location."
+msgstr "Tämän tyyppistä lisäosaa ei ole saatavilla määritetyssä sijainnissa."
+
+msgid ""
+"The best choice is <strong>utf8</strong>, but you will need to match the "
+"character set which you created the database with."
+msgstr ""
+"Suosittelemme käyttämään merkistoä <strong>utf8</strong>, mutta mikäli "
+"tietokantasi käyttää toista merkistöä, on näiden valintojen vastattava "
+"toisiaan."
+
+msgid "The character collation value set when the database was created."
+msgstr "Tietokannan merkistö sitä luotaessa."
+
+msgid "The character collation value set when the user database was created."
+msgstr "Tietokannan merkistö sitä luotaessa."
+
+msgid "The complete table name, including any prefix."
+msgstr "Taulun koko nimi, mukaan lukien mahdollinen etuliite."
+
+msgid ""
+"The database failed to install. You may need to replace bbPress with a fresh "
+"copy and start again."
+msgstr ""
+"Tietokannan asentaminen epäonnistui. Korvaa bbPress uudella versiolla ja "
+"aloita alusta."
+
+msgid "The database user that has access to that database."
+msgstr "Käyttäjä, jolla on tarvittavat oikeudet tietokantaan."
+
+msgid ""
+"The domain name or IP address of the server where the database is located. "
+"If the database is on the same server as the web site, then this probably "
+"should be <strong>localhost</strong>."
+msgstr ""
+"Syötä tähän tietokantapalvelimen domain-nimi tai IP-osoite. Mikäli "
+"tietokanta on samalla palvelimella web-sivuston kanssa, tämän asetuksen arvo "
+"on todennäköisesti <strong>localhost</strong>."
+
+msgid ""
+"The domain name or IP address of the server where the database is located. "
+"If the database is on the same server as the web site, then this probably "
+"should remain <strong>localhost</strong>."
+msgstr ""
+"Syötä tähän tietokantapalvelimen domain-nimi tai IP-osoite. Mikäli "
+"tietokanta on samalla palvelimella web-sivuston kanssa, tämän asetuksen arvo "
+"on todennäköisesti <strong>localhost</strong>."
+
+msgid "The email containing the new password could not be sent."
+msgstr "Sähköpostia, joka sisältää uuden salasanan, ei voitu lähettää."
+
+msgid "The email containing the password reset link could not be sent."
+msgstr ""
+"Sähköpostia, joka sisältää salasanan palautuslinkin, ei voitu lähettää."
+
+msgid "The forum could not be created."
+msgstr "Foorumia ei voida luoda."
+
+msgid "The forum could not be deleted."
+msgstr "Foorumia ei voida poistaa."
+
+msgid "The forum could not be edited."
+msgstr "Foorumia ei voida muokata."
+
+msgid "The forum data is invalid."
+msgstr "Foorumin lisääminen epäonnistui."
+
+msgid "The forum does not exist."
+msgstr "Foorumia ei ole olemassa."
+
+msgid "The forum id is invalid."
+msgstr "Foorumin lisääminen epäonnistui."
+
+msgid "The forum name is invalid."
+msgstr "Foorumin lisääminen epäonnistui."
+
+msgid "The forum was not added"
+msgstr "Foorumin lisääminen epäonnistui."
+
+msgid "The full URL of your bbPress install."
+msgstr "bbPress-asennuskansion osoite (URL)"
+
+msgid ""
+"The key master could not be assigned. You may need to replace bbPress with a "
+"fresh copy and start again."
+msgstr ""
+"Järjestelmänvalvojan roolin liittäminen olemassa olevaan käyttäjään "
+"epäonnistui. Korvaa bbPress uudella versiolla ja aloita alusta."
+
+msgid ""
+"The key master could not be created. An existing user was found with that "
+"user login."
+msgstr ""
+"Järjestelmänvalvojaa ei voitu luoda. Tällä kirjautumistunnuksella löytyi jo "
+"käyttäjä."
+
+msgid ""
+"The key master could not be created. You may need to replace bbPress with a "
+"fresh copy and start again."
+msgstr ""
+"Järjestelmänvalvojan luominen epäonnistui. Korvaa bbPress uudella versiolla "
+"ja aloita alusta."
+
+msgid ""
+"The language which bbPress will be presented in once installed. Your current "
+"installer language choice (%s) will be the same for the rest of the install "
+"process."
+msgstr ""
+"Kieli, jota bbPress käyttää asennuksen jälkeen. Nykyinen kielen valinta (%s) "
+"pysyy vielä asennuksen loppuun."
+
+msgid "The login details will be emailed to this address."
+msgstr "Kirjautumistiedot lähetetään sähköpostitse tähän osoitteeseen."
+
+msgid "The name of the database in which you want to run bbPress."
+msgstr "Tietokannan nimi"
+
+msgid "The name of the database in which your user tables reside."
+msgstr "Käyttäjätaulut sisältävän tietokannan nimi"
+
+msgid "The new tag id is invalid."
+msgstr "Uuden avainsanan tunnusnumero on epäkelpo."
+
+msgid "The old tag id is invalid."
+msgstr "Vanhan avainsanan tunnusnumero on epäkelpo."
+
+msgid "The options data is invalid."
+msgstr "Asetuksien data on epäkelpo."
+
+msgid "The pingback could not be added."
+msgstr "Paluuviitteen lisääminen epäonnistui."
+
+msgid "The pingback has already been registered."
+msgstr "Paluuviite on jo rekisteröity."
+
+msgid "The post could not be created."
+msgstr "Viestin luominen epäonnistui."
+
+msgid "The post could not be edited."
+msgstr "Viestin muokkaaminen epäonnistui."
+
+msgid "The post data is invalid."
+msgstr "Viestin data on epäkelpo."
+
+msgid "The post id is invalid."
+msgstr "Viestin tunnusnumero on epäkelpo."
+
+msgid "The post text is invalid."
+msgstr "Viestin teksti on epäkelpo."
+
+msgid "The requested method only accepts one parameter."
+msgstr "Pyydetty tapa sallii vain yhden muuttujan."
+
+msgid "The slug &#8220;%s&#8221; is already in use by another term"
+msgstr "&#8220;%s&#8221; on jo käytössä toisella termillä"
+
+msgid ""
+"The source URL and the target URL cannot both point to the same resource."
+msgstr "Lähdeosoite ja kohdeosoite eivät voi osoittaa samaan resurssiin."
+
+msgid ""
+"The source URL does not contain a link to the target URL, and so cannot be "
+"used as a source."
+msgstr ""
+"Lähdeosoite ei sisällä linkkiä kohdeosoitteeseen ja sitä ei voida käyttää "
+"lähteenä."
+
+msgid "The source URL does not exist."
+msgstr "Käyttäjätunnusta ei ole olemassa."
+
+msgid ""
+"The specified target URL cannot be used as a target. It either doesn't "
+"exist, or it is not a pingback-enabled resource."
+msgstr ""
+"Määritettyä kohdeosoitettta ei voida käyttää kohteena. Sitä ei joko ole "
+"olemassa, tai se ei ole resurssi, jossa paluuviite olisi otettu käyttöön."
+
+msgid "The specified target URL is not on this domain."
+msgstr "Määritetty kohdeosoite ei ole tällä domainilla."
+
+msgid "The specified target topic does not contain any posts."
+msgstr "Määritetty kohdeaihe ei sisällä yhtään viestiä."
+
+msgid "The specified user does not exist."
+msgstr "Käyttäjätunnusta ei ole olemassa."
+
+msgid ""
+"The table prefix can not be blank.<br />Please review the suggestion below."
+msgstr "Taulun etuliite ei voi olla tyhjä.<br />Tarkista alla oleva ehdotus."
+
+msgid ""
+"The table prefix can only contain letters, numbers and underscores.<br /"
+">Please review the suggestion below."
+msgstr "Taulun etuliite voi sisältää vain kirjaimia, numeroita ja alaviivoja."
+
+msgid "The tag could not be destroyed."
+msgstr "Avainsanan tuhoaminen epäonnistui."
+
+msgid "The tag could not be renamed."
+msgstr "Avainsanan uudelleennimeäminen epäonnistui."
+
+msgid "The tag data is invalid."
+msgstr "Avainsanan data on epäkelpo."
+
+msgid "The tag id is invalid."
+msgstr "Avainsanan tunnusnumero on epäkelpo."
+
+msgid "The tag name is invalid."
+msgstr "Avainsanan nimi on epäkelpo."
+
+msgid ""
+"The tag was not added.  Either the tag name was invalid or the topic is "
+"closed."
+msgstr ""
+"Avainsanaa ei voitu lisätä. Joko avainsanan nimi oli virheellinen tai aihe "
+"on suljettu."
+
+msgid "The tag was not removed."
+msgstr "Tagia ei poistettu."
+
+msgid "The tags could not be added."
+msgstr "Avainsanojen luominen epäonnistui."
+
+msgid "The tags could not be merged."
+msgstr "Avainsanojen yhdistäminen epäonnistui."
+
+msgid "The tags could not be removed."
+msgstr "Avainsanojen poistaminen epäonnistui."
+
+msgid "The topic could not be closed."
+msgstr "Tämä aihe on suljettu."
+
+msgid "The topic could not be created."
+msgstr "Aiheen luominen epäonnistui."
+
+msgid "The topic could not be deleted."
+msgstr "Aiheen poistaminen epäonnistui."
+
+msgid "The topic could not be edited."
+msgstr "Aiheen muokkaaminen epäonnistui."
+
+msgid "The topic could not be moved."
+msgstr "Aiheen poistaminen epäonnistui."
+
+msgid "The topic could not be opened."
+msgstr "Tämä aihe on avattu."
+
+msgid "The topic could not be stuck."
+msgstr "Aihe ei voi olla jumissa."
+
+msgid "The topic data is invalid."
+msgstr "Aiheen data on epäkelpo."
+
+msgid "The topic id is invalid."
+msgstr "Aiheen tunnusnumero on epäkelpo."
+
+msgid "The topic text is invalid."
+msgstr "Aiheen teksti on epäkelpo."
+
+msgid "The topic title is invalid."
+msgstr "Aihe otsikko on epäkelpo."
+
+msgid ""
+"The upgrade process seems to have failed. Check the upgrade messages below "
+"for more information.<br /><br />Attempting to go to the admin area without "
+"resolving the listed errors will return you to this upgrade page."
+msgstr ""
+"Päivitys epäonnistui. Voi joko yrittää uudelleen tai mennä <a href=\"%s"
+"\">takaisin foorumiin.</a>.<br /><br />Päivitysohjelma käynnistyy uudelleen, "
+"kun yrität kirjautua ylläpitoon."
+
+msgid "Theme <a href=\"%1$s\">%2$s</a>"
+msgstr "Teema <a href=\"%1$s\">%2$s</a>"
+
+msgid "Themes"
+msgstr "Teemat"
+
+msgid ""
+"There already exists a tag by that name or the name is invalid. <a href=\"%s"
+"\">Try Again</a>"
+msgstr ""
+"Avainsana on jo olemassa tai nimi ei kelpaa <a href=\"%s\">Yritä uudelleen</"
+"a>"
+
+msgid "There are existing forums in this database."
+msgstr "Tietokannassa on jo olemassa olevia foorumeita."
+
+msgid "There are no re-count tools available."
+msgstr "Uudelleenlaskemistyökaluja ei ole saatavilla."
+
+msgid ""
+"There doesn't seem to be a <code>bb-config.php</code> file. This usually "
+"means that you want to install bbPress."
+msgstr ""
+"Tarvittavaa <code>bb-config.php</code>-tiedostoa ei löydy. Tämä yleensä "
+"tarkoittaa sitä, että haluat asentaa bbPressin."
+
+msgid "There is a problem with that post, pardner."
+msgstr "Viestissä havaittiin ongelma."
+
+msgid "There is a problem with that topic, pardner."
+msgstr "Aiheessa havaittiin ongelma."
+
+msgid ""
+"There was a problem connecting to the WordPress user database you specified. "
+"Please check the settings, then try again."
+msgstr ""
+"Ongelma yhdistettäessä määrittelemääsi WordPressin käyttäjätietokantaan. "
+"Tarkista asetukset ja yritä uudellleen."
+
+msgid ""
+"There was a problem connecting to the database you specified.<br />Please "
+"check the settings, then try again."
+msgstr ""
+"Yhteyttä määrittelemääsi tietokantaan ei saatu.<br />Tarkista asetukset ja "
+"yritä uudestaan."
+
+msgid "There were some errors encountered during installation!"
+msgstr "Asennuksen aikana havaittiin joitakin virheitä!"
+
+msgid "These items are <span class=\"required\">required</span>."
+msgstr "Nämä tiedot ovat <span class=\"required\">pakollisia</span>."
+
+msgid "These settings usually do not have to be changed."
+msgstr "99 % todennäköisyydellä näitä asetuksia ei tarvitse muuttaa."
+
+msgid "This address is used for admin purposes, like new user notification."
+msgstr ""
+"Tätä osoitetta käytetään ylläpidon tarkoituksiin, kuten ilmoittamiseen "
+"uudesta käyttäjästä."
+
+msgid ""
+"This can be changed after installation, so don't worry about it too much."
+msgstr "Älä ole huolissasi, voit vaihtaa tämän asennuksen jälkeen."
+
+msgid "This forum contains:"
+msgstr "Tämä foorumi sisältää:"
+
+msgid "This is a collection of tags that are currently popular on the forums."
+msgstr ""
+"Tämä on kokoelma avainsanoja, jotka ovat tällä hetkellä suosittuja "
+"foorumeissa."
+
+msgid "This is how your profile appears to a logged in member."
+msgstr "Ollessasi kirjautuneena profiilisi näyttää tältä."
+
+msgid "This is not the site you are trying to pingback."
+msgstr "Tämä ei ole sivusto, johon yrität paluuviitata."
+
+msgid ""
+"This is the user login for the initial bbPress administrator (known as a "
+"\"Key Master\")."
+msgstr "Järjestelmänvalvojan kirjautumistiedot"
+
+msgid "This is what you are going to call your bbPress site."
+msgstr "bbPress-foorumisi tuleva nimi."
+
+msgid "This key is valid"
+msgstr "Tämä avain kelpaa"
+
+msgid ""
+"This must match the value of the WordPress setting named \"auth_salt\" in "
+"your WordPress site. Look for the option labeled \"auth_salt\" in <a href=\"#"
+"\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;"
+"\">this WordPress admin page</a>."
+msgstr ""
+"Tämän arvon täytyy vastata WordPressin asetusta nimeltä \"auth_salt\". Etsi "
+"asetus nimeltä \"auth_salt\" <a href=\"#\" id=\"getSecretOption\" onclick="
+"\"window.open(this.href); return false;\">tältä WordPressin hallintasivulta</"
+"a>."
+
+msgid ""
+"This must match the value of the WordPress setting named \"auth_salt\" in "
+"your WordPress site. Look for the option labeled \"auth_salt\" in <a href=\"#"
+"\" id=\"getAuthSaltOption\" onclick=\"window.open(this.href); return false;"
+"\">this WordPress admin page</a>. If you leave this blank the installer will "
+"try to fetch the value based on your WordPress database integration settings."
+msgstr ""
+"Tämän arvon täytyy vastata WordPressin asetusta nimeltä \"auth_salt\". Etsi "
+"asetus nimeltä \"auth_salt\" <a href=\"#\" id=\"getSecretOption\" onclick="
+"\"window.open(this.href); return false;\">tältä WordPressin hallintasivulta</"
+"a>. Mikäli jätät tämän tyhjäksi, asennusohjelma käyttää "
+"integrointiaseuksissa antamaasi arvoa."
+
+msgid ""
+"This must match the value of the WordPress setting named \"logged_in_salt\" "
+"in your WordPress site. Look for the option labeled \"logged_in_salt\" in <a "
+"href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); "
+"return false;\">this WordPress admin page</a>."
+msgstr ""
+"Tämän arvon täytyy vastata WordPressin asetusta nimeltä \"logged_in_salt\". "
+"Etsi asetus nimeltä \"logged_in_salt\" <a href=\"#\" id=\"getSecretOption\" "
+"onclick=\"window.open(this.href); return false;\">tältä WordPressin "
+"hallintasivulta</a>."
+
+msgid ""
+"This must match the value of the WordPress setting named \"logged_in_salt\" "
+"in your WordPress site. Look for the option labeled \"logged_in_salt\" in <a "
+"href=\"#\" id=\"getLoggedInSaltOption\" onclick=\"window.open(this.href); "
+"return false;\">this WordPress admin page</a>. If you leave this blank the "
+"installer will try to fetch the value based on your WordPress database "
+"integration settings."
+msgstr ""
+"Tämän arvon täytyy vastata WordPressin asetusta nimeltä \"logged_in_salt\". "
+"Etsi asetus nimeltä \"logged_in_salt\" <a href=\"#\" id=\"getSecretOption\" "
+"onclick=\"window.open(this.href); return false;\">tältä WordPressin "
+"hallintasivulta</a>. Mikäli jätät tämän tyhjäksi, asennusohjelma käyttää "
+"integrointiaseuksissa antamaasi arvoa."
+
+msgid ""
+"This must match the value of the WordPress setting named \"secure_auth_salt"
+"\" in your WordPress site. Look for the option labeled \"secure_auth_salt\" "
+"in <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this."
+"href); return false;\">this WordPress admin page</a>. If you leave this "
+"blank the installer will try to fetch the value based on your WordPress "
+"database integration settings. Sometimes this value is not set in WordPress, "
+"in that case you can leave this setting blank as well."
+msgstr ""
+"Tämän arvon täytyy vastata WordPressin asetusta nimeltä \"secure_auth_salt"
+"\". Etsi asetus nimeltä \"secure_auth_salt\" <a href=\"#\" id="
+"\"getSecretOption\" onclick=\"window.open(this.href); return false;\">tältä "
+"WordPressin hallintasivulta</a>. Mikäli jätät tämän tyhjäksi, asennusohjelma "
+"käyttää integrointiaseuksissa antamaasi arvoa."
+
+msgid ""
+"This must match the value of the WordPress setting named \"secure_auth_salt"
+"\" in your WordPress site. Look for the option labeled \"secure_auth_salt\" "
+"in <a href=\"#\" id=\"getSecureAuthSaltOption\" onclick=\"window.open(this."
+"href); return false;\">this WordPress admin page</a>. Sometimes this value "
+"is not set in WordPress, in that case you can leave this setting blank as "
+"well."
+msgstr ""
+"Tämän arvon täytyy vastata WordPressin asetusta nimeltä \"secure_auth_salt"
+"\". Etsi asetus nimeltä \"secure_auth_salt\" <a href=\"#\" id="
+"\"getSecretOption\" onclick=\"window.open(this.href); return false;\">tältä "
+"WordPressin hallintasivulta</a>. Mikäli jätät tämän tyhjäksi, asennusohjelma "
+"käyttää integrointiaseuksissa antamaasi arvoa."
+
+msgid "This page generated in %s seconds, using %d queries."
+msgstr "Tämä sivu luotiin %s sekunnissa, käyttäen %d kyselyä tietokantaan."
+
+msgid "This page will be viewable by moderators or higher."
+msgstr ""
+"Tämä sivu on näkyvissä moderaattoreille tai suuremman käyttäjätason "
+"omaaville."
+
+msgid "This time zone is currently in daylight savings time."
+msgstr "Tämä aikavyöhyke on nyt kesäajassa."
+
+msgid "This time zone is currently in standard time."
+msgstr "Tämä aikavyöhyke on nyt normaaliajassa."
+
+msgid "This topic has been closed"
+msgstr "Tämä aihe on suljettu"
+
+msgid "This topic has been closed to new replies."
+msgstr "Tähän aiheeseen ei voi enää lähettää vastauksia."
+
+msgid "This topic is one of your %favLinkYes% [%favDel%]"
+msgstr "Aihe on yksi %favLinkYes% [%favDel%]"
+
+msgid "This topic is one of your %favorites% ["
+msgstr "Tämä aihe on yksi  %suosikeistasi% ["
+
+msgid "This user is a bozo"
+msgstr "Tämä käyttäjä on bozo"
+
+msgid ""
+"This value must match the value of the constant named \"AUTH_KEY\" in your "
+"WordPress <code>wp-config.php</code> file. This will replace the bbPress "
+"\"auth\" cookie key set in the first step."
+msgstr ""
+"Tämän arvon tulee vastata WordPressin <code>wp-config.php</code>-tiedostossa "
+"määrittelemääsi \"AUTH_KEY\" asetusta. Tämä korvaa ensimmäisessä vaiheessa "
+"asettamasi bbPressin salaisen avaimen."
+
+msgid ""
+"This value must match the value of the constant named \"LOGGED_IN_KEY\" in "
+"your WordPress <code>wp-config.php</code> file. This will replace the "
+"bbPress \"logged in\" cookie key set in the first step."
+msgstr ""
+"Tämän arvon tulee vastata WordPressin <code>wp-config.php</code>-tiedostossa "
+"määrittelemääsi \"LOGGED_IN_KEY\" asetusta. Tämä korvaa ensimmäisessä "
+"vaiheessa asettamasi bbPressin salaisen avaimen."
+
+msgid ""
+"This value must match the value of the constant named \"SECURE_AUTH_KEY\" in "
+"your WordPress <code>wp-config.php</code> file. This will replace the "
+"bbPress \"secure auth\" cookie key set in the first step."
+msgstr ""
+"Tämän arvon tulee vastata WordPressin <code>wp-config.php</code>-tiedostossa "
+"määrittelemääsi \"SECURE_AUTH_KEY\" asetusta. Tämä korvaa ensimmäisessä "
+"vaiheessa asettamasi bbPressin salaisen avaimen."
+
+msgid ""
+"This value should exactly match the <strong>Blog address (URL)</strong> "
+"setting in your WordPress general settings."
+msgstr ""
+"Tämän arvon tulee vastata WordPressin yleisissä asetuksissa määrittelemääsi "
+"<strong>Blogin osoitetta (URL)</strong>."
+
+msgid ""
+"This value should exactly match the <strong>WordPress address (URL)</strong> "
+"setting in your WordPress general settings."
+msgstr ""
+"Tämän arvon tulee vastata WordPressin yleisissä asetuksissa määrittelemääsi "
+"<strong>WordPress-kansion osoitetta (URL)</strong>."
+
+msgid ""
+"This will have no effect until your user tables are integrated below. Only "
+"standard WordPress roles are supported. Changes do not affect users with "
+"existing roles in both WordPress and bbPress."
+msgstr ""
+"Täällä voit sovittaa yhteen WordPress- ja bbPress-käyttäjäroolit. "
+"Yhdistäminen toimii vain, mikäli käyttäjätaulut ovat yhteisiä ja muutokset "
+"koskevat vain standardoituja WordPress-rooleja. Muutokset eivät vaikuta "
+"käyttäjiin, joilla on rooli molemmissa eli niin WordPressissä kuin "
+"bbPressissä."
+
+msgid "Thu"
+msgstr "To"
+
+msgid "Thursday"
+msgstr "Torstai"
+
+msgid "Time Zone"
+msgstr "Aikavyöhyke"
+
+msgid "Time zone"
+msgstr "Aikavyöhyke"
+
+msgid "Title"
+msgstr "Otsikko"
+
+msgid ""
+"To add topics to your list of favorites, just click the \"Add to Favorites\" "
+"link found on that topic&#8217;s page."
+msgstr ""
+"Lisätäksesi aiheita kirjanmerkkeiksi, klikkaa vain \"Lisää kirjanmerkkeihin"
+"\" -linkkiä, joka löytyy aiheen sivulta."
+
+msgid "To change your password, enter a new password twice below:"
+msgstr "Vaihtaaksesi salasanasi, anna uusi salasana kahdesti:"
+
+msgid ""
+"To complete cookie integration, you will need to add some settings to your "
+"<code>wp-config.php</code> file in the root directory of your WordPress "
+"installation. To get those settings, you will need to install and configure "
+"the <a href=\"%s\">\"bbPress Integration\" plugin for WordPress</a>."
+msgstr ""
+"Saattaaksesi evästeiden liittämisen loppuun, sinun täytyy lisätä joitakin "
+"asetuksia <code>wp-config.php</code>-tiedostoon WordPress-asennuksesi "
+"päähakemistoon. Saadaksesi nämä asetukset, sinun täytyy asentaa ja "
+"konfiguroida <a href\"%s\">\"bbPress-liittäminen\" (\"bbPress Integration\")-"
+"lisäosa WordPressille</a>."
+
+msgid ""
+"To interact with bbPress from a desktop client or remote website that uses "
+"the XML-RPC publishing interface you must enable it below."
+msgstr ""
+"Vuorovaikuttaaksesi bbPressin työpöytäasiakasohjelmasta tai "
+"etäverkkosivustolta, joka käyttää XML-RPC-julkaisukäyttöliittymää, sinun "
+"täytyy ottaa se käyttöön alla."
+
+msgid ""
+"To minimize database queries, bbPress keeps it's own count of various items "
+"like posts in each topic and topics in each forum. Occasionally these "
+"internal counters may become incorrect, you can manually re-count these "
+"items using this form."
+msgstr ""
+"Vähentääkseen kyselyitä tietokantaan, bbPress pitää sen omaa lukemaa "
+"joistakin asioista, kuten viesteistä, jokaisessa aiheessa ja aiheista "
+"jokaisella foorumilla. Kuitenkin nämä yleiset laskimet voivat tulla "
+"vääriksi, voit laskea nämä kohteet uudelleen käyttäen tätä lomaketta."
+
+msgid "To recover your password, enter your information below."
+msgstr "Palauttaaksesi salasanasi, anna uusi salasana kahdesti:"
+
+msgid "Too many redirects."
+msgstr "Liian monta uudelleenohjausta."
+
+msgid "Too short"
+msgstr "Liian lyhyt"
+
+msgid "Tools"
+msgstr "Työkalut"
+
+msgid "Topic"
+msgstr "Aihe"
+
+msgid "Topic Closed"
+msgstr "Aihe suljettu"
+
+msgid "Topic author"
+msgstr "Aiheen aloittaja"
+
+msgid "Topic not found."
+msgstr "Aihetta ei löydy."
+
+msgid "Topic status"
+msgstr "Aiheen tila"
+
+msgid ""
+"Topic titled <a href=\"%1$s\">%2$s</a> started by <a href=\"%3$s\">%4$s</a>"
+msgstr ""
+"Aihe otsikoltaan <a href=\"%1$s\">%2$s</a>, aloittanut <a href=\"%3$s\">%4"
+"$s</a>"
+
+msgid "Topic:"
+msgstr "Aihe:"
+
+msgid "Topics"
+msgstr "Aiheet"
+
+msgid "Topics Started"
+msgstr "Aloitetut aiheet"
+
+msgid "Topics with no replies"
+msgstr "Aiheet, joissa ei ole vastauksia"
+
+msgid "Topics with no tags"
+msgstr "Aiheet, joissa ei ole avainsanoja"
+
+msgid "Totals"
+msgstr "Yhteenveto"
+
+msgid "Try Again &raquo;"
+msgstr "Yritä uudelleen &raquo;"
+
+msgid "Try again"
+msgstr "Yritä uudelleen"
+
+msgid "Tue"
+msgstr "Ti"
+
+msgid "Tuesday"
+msgstr "Tiistai"
+
+msgid "Twice Daily"
+msgstr "Kaksi kertaa päivässä"
+
+msgid "UTC %s"
+msgstr "UTC %s"
+
+msgid "Undelete"
+msgstr "Palauta"
+
+msgid "Undelete entire topic"
+msgstr "Palauta koko aihe"
+
+msgid ""
+"Unfortunately, you have to manually update this for Daylight Savings Time."
+msgstr ""
+"Pahoittelemme, mutta sinun täytyy päivittää tämä manuaalisesti vastaamaan "
+"kesäaikaa."
+
+msgid "Unregistered"
+msgstr "Rekisteröimätön"
+
+msgid "Unstick topic"
+msgstr "Vapauta aihe"
+
+msgid "Update Profile &raquo;"
+msgstr "Päivitä profiili &raquo;"
+
+msgid "Updating data"
+msgstr "Päivitetään dataa"
+
+msgid "Upgrade database"
+msgstr "Päivitä tietokanta"
+
+msgid "Upgrade log"
+msgstr "Päivitysloki"
+
+msgid "User Activity"
+msgstr "Käyttäjän aktiivisuus"
+
+msgid "User Integration"
+msgstr "Käyttäjäintegrointi"
+
+msgid "User Role Map"
+msgstr "Käyttäjäroolit"
+
+msgid "User Type"
+msgstr "Käyttäjätyyppi"
+
+msgid "User database"
+msgstr "Käyttäjätietokanta"
+
+msgid "User database \"user meta\" table"
+msgstr "Käyttäjätietokannan  \"tunnistetiedot\" taulu"
+
+msgid "User database \"user meta\" table:"
+msgstr "Käyttäjät-tietokannan  \"tunniste tiedot\" taulu:"
+
+msgid "User database \"user\" table"
+msgstr "Käyttäjätietokannan \"käyttäjä\" taulu"
+
+msgid "User database \"user\" table:"
+msgstr "Käyttäjätietokannan \"käyttäjä\" taulu:"
+
+msgid "User database character collation"
+msgstr "Tietokannan merkistö"
+
+msgid "User database character set"
+msgstr "Käyttäjätietokannan merkistö"
+
+msgid "User database character set:"
+msgstr "Käyttäjätietokannan merkistö:"
+
+msgid "User database collation:"
+msgstr "Käyttäjätietokannan merkistö:"
+
+msgid "User database host"
+msgstr "Käyttäjätietokannan palvelin"
+
+msgid "User database host:"
+msgstr "Käyttäjätietokannan palvelin:"
+
+msgid "User database name"
+msgstr "Käyttäjätietokannan nimi"
+
+msgid "User database name:"
+msgstr "Käyttäjätietokannan nimi:"
+
+msgid "User database password"
+msgstr "Käyttäjätietokannan salasana"
+
+msgid "User database password:"
+msgstr "Käyttäjätietokannan salasana:"
+
+msgid ""
+"User database sharing allows you to store user data in your WordPress "
+"database."
+msgstr ""
+"Jakamalla käyttäjätietokannan, voit tallentaa bbPressin käyttäjien tietoja "
+"WordPressin tietokantaan."
+
+msgid "User database table prefix"
+msgstr "Käyttäjätietokannan taulun etuliite"
+
+msgid "User database table prefix:"
+msgstr "Käyttäjätietokannan taulun etuliite:"
+
+msgid "User database user"
+msgstr "Käyttäjätietokannan käyttäjätunnus"
+
+msgid "User database user:"
+msgstr "Käyttäjätietokannan käyttäjätunnus:"
+
+msgid "User does not exist."
+msgstr "Käyttäjätunnusta ei ole olemassa."
+
+msgid "User last replied: %s ago"
+msgstr "Käyttäjän viimeisin vastaus: %s sitten"
+
+msgid "User not found."
+msgstr "Käyttäjää ei löydy."
+
+msgid "User switching failed, the requested user does not exist."
+msgstr "Käyttäjän vaihto epäonnistui, pyydettyä käyttäjää ei ole olemassa."
+
+msgid "Username"
+msgstr "Käyttäjänimi"
+
+msgid "Username and Password do not match."
+msgstr "Käyttäjätunnus ja salasana eivät vastaa toisiaan."
+
+msgid "Username:"
+msgstr "Käyttäjänimi:"
+
+msgid "Users"
+msgstr "Käyttäjät"
+
+msgid "Users Matching \"%s\" by Role"
+msgstr "Haulla \"%s\" löytyneet käyttäjät rooleittain"
+
+msgid "Using deprecated bbPress %1$s - %2$s - replace with - %3$s"
+msgstr "Käytät vanhentunutta bbPressiä %1$s - %2$s - korvaa %3$s:lla"
+
+msgid ""
+"Usually this is caused by one of the database connection settings being "
+"incorrect. Make sure that the specified user has appropriate permission to "
+"access the database."
+msgstr ""
+"Tavallisesti tämä johtuu jonkin tietokantayhteyden asetuksen "
+"virheellisyydestä. Varmista, että määritellyllä käyttäjällä on oikeus päästä "
+"tietokantaan."
+
+msgid ""
+"Usually, you will have to specify both cookie integration and user database "
+"integration settings. Make sure you have a \"User role map\" setup above "
+"before trying to add user integration."
+msgstr ""
+"Tavallisesti sinun täytyy määritellä sekä evästeiden että "
+"käyttäjätietokannan jakamisen asetukset."
+
+msgid "Version %s"
+msgstr "Versio %s"
+
+msgid "View"
+msgstr "Näytä"
+
+msgid "View all posts"
+msgstr "Näytä kaikki viestit"
+
+msgid "View normal posts"
+msgstr "Näytä tavalliset viestit"
+
+msgid "View your profile"
+msgstr "Näytä profiili"
+
+msgid "Views"
+msgstr "Näytä"
+
+msgid "Visit Site"
+msgstr "Näytä sivusto"
+
+msgid "Visit author homepage"
+msgstr "Vieraile tekijän kotisivulla"
+
+msgid "Visit plugin site"
+msgstr "Vieraile lisäosan kotisivulla"
+
+msgid "Visit porter homepage"
+msgstr "Vieraile kirjoittajan kotisivulla"
+
+msgid "Voices"
+msgstr "Äänet"
+
+msgid "W_Wednesday_initial"
+msgstr "Ke_Keskiviikko_initial"
+
+msgid "Wavatar (Generated)"
+msgstr "Wavatar (generoitu)"
+
+msgid "We cannot find a title on that page."
+msgstr "Emme voi löytää otsikkoa tältä sivulta."
+
+msgid ""
+"We have attempted to guess this, it's usually correct, but change it here if "
+"you wish."
+msgstr ""
+"Olemme yrittäneet arvata tätä ja osummekin yleensä oikeaan, mutta muuta "
+"tarvittaessa."
+
+msgid "We're now going to go through a few steps to get you up and running."
+msgstr "Käymme läpi muutaman vaiheen, joiden avulla pääset heti vauhtiin."
+
+msgid "Website"
+msgstr "Kotisivu"
+
+msgid "Wed"
+msgstr "Ke"
+
+msgid "Wednesday"
+msgstr "Keskiviikko"
+
+msgid "Welcome"
+msgstr "Tervetuloa"
+
+msgid "Welcome %s!"
+msgstr "Tervetuloa, %1$s!"
+
+msgid "Welcome to the bbPress installer"
+msgstr "Tervetuloa asentamaan bbPressiä"
+
+msgid "Welcome, %1$s"
+msgstr "Tervetuloa, %1$s!"
+
+msgid "WordPress"
+msgstr "WordPress"
+
+msgid "WordPress \"auth\" cookie key"
+msgstr "WordPress \"auth\" evästeavain"
+
+msgid "WordPress \"auth\" cookie salt"
+msgstr "WordPress \"auth\" evästesuola"
+
+msgid "WordPress \"auth\" cookie salt not set."
+msgstr "WordPress \"auth\" evästesuola ei ole asetettu."
+
+msgid "WordPress \"auth\" cookie salt set from input."
+msgstr "WordPress \"auth\" evästesuola asetettu syötteestä."
+
+msgid "WordPress \"auth\" cookie salt set."
+msgstr "WordPress \"auth\" evästesuola asetettu."
+
+msgid "WordPress \"logged in\" cookie key"
+msgstr "WordPress \"logged in\" evästeavain"
+
+msgid "WordPress \"logged in\" cookie salt"
+msgstr "WordPress \"logged in\" evästesuola"
+
+msgid "WordPress \"logged in\" cookie salt not set."
+msgstr "WordPress \"logged in\" evästesuola ei ole asetettu."
+
+msgid "WordPress \"logged in\" cookie salt set from input."
+msgstr "WordPress \"logged in\" evästesuola asetettu syötteestä."
+
+msgid "WordPress \"logged in\" cookie salt set."
+msgstr "WordPress \"logged in\" evästesuola asetettu."
+
+msgid "WordPress \"secure auth\" cookie key"
+msgstr "WordPress \"secure auth\" evästeavain"
+
+msgid "WordPress \"secure auth\" cookie salt"
+msgstr "WordPress  \"secure auth\" evästesuola"
+
+msgid "WordPress \"secure auth\" cookie salt not set."
+msgstr "WordPress \"secure auth\" evästesuola ei ole asetettu."
+
+msgid "WordPress \"secure auth\" cookie salt set from input."
+msgstr "WordPress  \"secure auth\" evästesuola asetettu syötteestä."
+
+msgid "WordPress \"secure auth\" cookie salt set."
+msgstr "WordPress \"secure auth\" evästesuola asetettu."
+
+msgid "WordPress Administrator"
+msgstr "WordPress-pääkäyttäjä"
+
+msgid "WordPress Author"
+msgstr "WordPress-kirjoittaja"
+
+msgid "WordPress Contributor"
+msgstr "WordPress-avustaja"
+
+msgid "WordPress Editor"
+msgstr "WordPress-päätoimittaja"
+
+msgid "WordPress Integration"
+msgstr "WordPress-integrointi"
+
+msgid "WordPress Integration Settings"
+msgstr "Integrointi WordPressiin"
+
+msgid "WordPress MU primary blog ID"
+msgstr "Wordpress MU:n ensisijaisen blogin tunnusnumero"
+
+msgid "WordPress MU primary blog ID:"
+msgstr "WordPress MU:n ensisijaisen blogin tunnusnumero:"
+
+msgid "WordPress Subscriber"
+msgstr "WordPress-tilaaja"
+
+msgid "WordPress address (URL)"
+msgstr "WordPress-kansion osoite (URL)"
+
+msgid "WordPress address (URL):"
+msgstr "WordPress-kansion osoite (URL):"
+
+msgid "WordPress cookie keys not set."
+msgstr "WordPress-evästeen salaista avainta ei ole asetettu."
+
+msgid "WordPress cookie keys set."
+msgstr "WordPress-evästeen salainen avain asetettu."
+
+msgid "WordPress integration (optional)"
+msgstr "Integrointi WordPressiin (valinnainen)"
+
+msgid "WordPress.com API Key"
+msgstr "WordPress.com API-avain"
+
+msgid "Writing"
+msgstr "Kirjoittaminen"
+
+msgid "Writing Settings"
+msgstr "Kirjoittaminen"
+
+msgid "X &#8212; Even more mature than above"
+msgstr "X &#8212; Vielä vanhemmille"
+
+msgid "XML-RPC"
+msgstr "XML-RPC"
+
+msgid "You are Keymaster, so you may not demote yourself."
+msgstr "Et voi \"alentaa\" itseäsi."
+
+msgid ""
+"You are about to delete the selected items.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Olet poistamassa valittuja kohteita.\n"
+" Paina 'Cancel' pysäyttääksesi ja 'OK' poistaaksesi."
+
+msgid "You are not allowed to change this user's password."
+msgstr "Sinulla ei ole oikeuksia vaihtaa tämän käyttäjän salasanaa."
+
+msgid "You are not allowed to change your password."
+msgstr "Sinulla ei ole salasanan muuttamiseen tarvittavaa oikeutta."
+
+msgid "You are not allowed to manage options."
+msgstr "Sinulla ei ole oikeuksia hallita avainsanoja."
+
+msgid "You are not allowed to manage tags."
+msgstr "Sinulla ei ole oikeuksia hallita avainsanoja."
+
+msgid "You are not allowed to move this topic to this forum."
+msgstr "Sinulla ei ole oikeuksia aloittaa uusia aiheita."
+
+msgid "You are not allowed to post.  Are you logged in?"
+msgstr "Et voi lähettää viestejä. Oletko kirjautunut sisään?"
+
+msgid "You are not allowed to write new topics."
+msgstr "Sinulla ei ole oikeuksia aloittaa uusia aiheita."
+
+msgid "You are not the Gate Keeper."
+msgstr "Et ole portinvartija."
+
+msgid "You are using <span class=\"b\">bbPress %s</span>"
+msgstr "Käytät versiota <span class\"b\">%s</span>"
+
+msgid ""
+"You can also <a href=\"%1$s\">manage your favorites</a> and subscribe to "
+"your favorites&#8217; <a href=\"%2$s\"><abbr title=\"Really Simple "
+"Syndication\">RSS</abbr> feed</a>."
+msgstr ""
+"Voit <a href=\"%1$s\">hallita suosikkejasi</a> ja tilata suosikkisi <a href="
+"\"%2$s\"><abbr title=\"Really Simple Syndication\">RSS</abbr>-syötteenä</a>."
+
+msgid "You can also clean out some stale items here, like empty tags."
+msgstr "Voit myös puhdistaa turhat kohteet pois, kuten tyhjät avainsanat."
+
+msgid ""
+"You can also put code in between backtick ( <code>`</code> ) characters."
+msgstr "Voit lisätä koodia laittamalla sen ( <code>`</code> ) merkkien sisään."
+
+msgid "You can now log in with the following details:"
+msgstr "Voit nyt kirjautua sisään seuravilla tiedoilla:"
+
+msgid "You cannot edit those favorites. How did you get here?"
+msgstr ""
+"Sinulla ei ole oikeutta muokata toisten käyttäjien suosikkeja. Kuinka "
+"päädyit tänne?"
+
+msgid "You currently have no favorites."
+msgstr "Sinulla ei ole tällä hetkellä suosikkeja."
+
+msgid "You do not have permission to add tags to this topic."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to close this topic."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to close topics."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to delete forums."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to delete posts."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to delete this forum."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to delete this post."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to delete this topic."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to delete topics."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to do that."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to edit posts."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to edit tags."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to edit this post."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to edit this topic."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to edit topics."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to manage forums."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to manage tags."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to move topics."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to read this."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to remove tags from this topic."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to stick this topic."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to stick topics."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to write posts to this topic."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to write posts."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to write topics to this forum."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You do not have permission to write topics."
+msgstr "Sinulla ei ole toimintoon tarvittavaa oikeutta."
+
+msgid "You don't have the authority to kill off the forums."
+msgstr "Sinulla ei ole oikeutta poistaa foorumeita."
+
+msgid "You don't have the authority to mess with the forums."
+msgstr "Sinulla ei ole oikeutta sotkea foorumia."
+
+msgid ""
+"You have chosen to skip the WordPress integration step. You can always "
+"integrate WordPress later from within the admin area of bbPress."
+msgstr ""
+"Ohitit integrointivaiheen. Voit integroida WordPressin myöhemmin bbPressin "
+"ylläpidon kautta."
+
+msgid "You have defined the \"%s\" constant which locks this setting."
+msgstr "Olet määrittänyt \"%s\"-muuttujan, joka lukitsee tämän asetuksen."
+
+msgid "You last replied: %s ago"
+msgstr "Vastasit viimeksi: %s sitten"
+
+msgid "You may <a href=\"%1$s\">edit this information</a>."
+msgstr "Voit <a href=\"%1$s\">muokata näitä tietoja</ a>."
+
+msgid ""
+"You may also try your <a href=\"http://google.com/search?q=site:%1$s %2$s"
+"\">search at Google</a>"
+msgstr ""
+"Voit myös koittaa <a href=\"http://google.com/search?q=site:%1$s %2$s"
+"\">Google-hakua</a>"
+
+msgid ""
+"You may need to make changes to your WordPress configuration once "
+"installation is complete. See the \"WordPress Integration\" section of the "
+"bbPress administration area when you are done."
+msgstr ""
+"Kun asennus on valmis, sinun voi olla tarpeen tehdä muutoksia WordPressin "
+"kokoonpanoon. Voit tehdä muutokset bbPressin ylläpidossa  \"WordPress-"
+"integrointi\" -osiossa."
+
+msgid "You must <a href=\"%s\">log in</a> to post."
+msgstr "Kirjaudu <a href=\"%s\">sisään</a> osallistuaksesi keskusteluun."
+
+msgid "You must enter the same password twice."
+msgstr "Syötä sama salasana kahdesti."
+
+msgid ""
+"You must enter your settings for integration setup to complete. Choose which "
+"integration settings you wish to enter from the options below."
+msgstr ""
+"Syötä asetukset viimeistelläksesi integroinnin. Valitse tarvittavat "
+"integroimisen asetukset alla olevista vaihtoehdoista."
+
+msgid "You need to actually submit some content!"
+msgstr "Älä unohda sisältöä!"
+
+msgid "You need to be logged in to add a tag."
+msgstr "Vain sisäänkirjautuneet käyttäjät voivat lisätä avainsanoja."
+
+msgid "You should setup a \"User role map\" before"
+msgstr "Sinun täytyy asettaa \"Käyttäjäosien kartta\" ensin"
+
+msgid ""
+"You will also have to manually ensure that the following constants are "
+"equivalent in WordPress' and bbPress' respective config files."
+msgstr ""
+"Sinun täytyy lisäksi manuaalisesti tarkistaa, että seuraavat muuttujat ovat "
+"vastaavia WordPressin ja bbPressin vastaavissa asetustiedostoissa."
+
+msgid ""
+"You will need to manually define the \"auth\" cookie salt in your database."
+msgstr ""
+"Sinun täytyy määritellä tietokannan \"auth\" evästesuola manuaalisesti."
+
+msgid ""
+"You will need to manually define the \"logged in\" cookie salt in your "
+"database."
+msgstr ""
+"Sinun täytyy määritellä tietokannan \"logged in\" evästesuola manuaalisesti."
+
+msgid ""
+"You will need to manually re-define \"BB_AUTH_KEY\", \"BB_SECURE_AUTH_KEY\" "
+"and \"BB_LOGGED_IN_KEY\" in your \"bb-config.php\" file."
+msgstr ""
+"Sinun täytyy määritellä \"BB_AUTH_KEY\", \"BB_SECURE_AUTH_KEY\" ja "
+"\"BB_LOGGED_IN_KEY\" manuaalisesti \"bb-config.php\"-tiedostossa."
+
+msgid "You&#8217;re already logged in, why do you need to register?"
+msgstr "Olet jo kirjautuneena sisään, miksi siis rekisteröityä?"
+
+msgid ""
+"You've been blocked.  If you think a mistake has been made, contact this "
+"site's administrator."
+msgstr ""
+"Sinut on estetty. Mikäli luulet, että on tapahtunut virhe, ota yhteyttä "
+"tämän sivuston ylläpitäjään."
+
+msgid "Your \"bb-config.php\" file was not writable."
+msgstr "Sinun \"bb-config.php\"-tiedosto on kirjoitussuojattu."
+
+msgid ""
+"Your PHP installation appears to be missing the MySQL extension which is "
+"required for bbPress"
+msgstr ""
+"PHP-asennuksestasi näyttää puuttuvan bbPressin vaatima MySQL-laajennus."
+
+msgid ""
+"Your WordPress integration cookie and database settings have been "
+"successfully validated. They will be saved after the next step.<br /><br /"
+">Once you have finished installing, you should visit the WordPress "
+"integration section of the bbPress admin area for further options and "
+"integration instructions, including user mapping and the correct cookie "
+"settings to add to your WordPress configuration file."
+msgstr ""
+"WordPress-liitoksesi eväste- ja tietokanta-asetukset ovat tarkistettu "
+"onnistuneesti. Ne tallennetaan seuraavan vaiheen jälkeen.<br /><br />Kun "
+"olet saattanut asennuksen loppuun."
+
+msgid "Your attempt to add this forum has failed."
+msgstr "Foorumin lisääminen epäonnistui."
+
+msgid "Your attempt to add this tag to this topic has failed."
+msgstr "Avainsanan lisääminen aiheeseen epäonnistui."
+
+msgid "Your attempt to change the resolution status of this topic has failed."
+msgstr "Aiheen tilan muuttaminen epäonnistui."
+
+msgid "Your attempt to change the status of this topic has failed."
+msgstr "Aiheen tilan muuttaminen epäonnistui."
+
+msgid "Your attempt to change the sticky status of this topic has failed."
+msgstr "Liimaus-valinnan muuttaminen epäonnistui."
+
+msgid "Your attempt to create this topic has failed."
+msgstr "Aiheen luominen epäonnistui."
+
+msgid "Your attempt to delete that forum has failed."
+msgstr "Fooruminen poistaminen epäonnistui."
+
+msgid "Your attempt to delete this post has failed."
+msgstr "Viestin poistaminen epäonnistui."
+
+msgid "Your attempt to delete this topic has failed."
+msgstr "Aiheen poistaminen epäonnistui."
+
+msgid "Your attempt to destroy this tag has failed."
+msgstr "Avainsanan poistaminen epäonnistui."
+
+msgid "Your attempt to do this has failed."
+msgstr "Toiminto epäonnistui."
+
+msgid "Your attempt to edit this post has failed."
+msgstr "Viestin muokkaaminen epäonnistui."
+
+msgid "Your attempt to edit this user's profile has failed."
+msgstr "Käyttäjätietojen muokkaaminen epäonnistui."
+
+msgid "Your attempt to move this topic has failed."
+msgstr "Aiheen siirtäminen epäonnistui."
+
+msgid "Your attempt to recount these items has failed."
+msgstr "Uudelleenlaskenta epäonnistui."
+
+msgid "Your attempt to remove this tag from this topic has failed."
+msgstr "Avainsanan poistaminen tästä aiheesta epäonnistui."
+
+msgid "Your attempt to rename this tag has failed."
+msgstr "Avainsanan uudelleennimeäminen epäonnistui."
+
+msgid "Your attempt to submit these tags has failed."
+msgstr "Avainsanojen lähettäminen epäonnistui."
+
+msgid "Your attempt to submit this post has failed."
+msgstr "Viestin lähettäminen epäonnistui."
+
+msgid "Your attempt to switch themes has failed."
+msgstr "Teeman vaihtaminen epäonnistui."
+
+msgid "Your attempt to toggle your favorite status for this topic has failed."
+msgstr "Suosikki-valinnan muuttaminen epäonnistui."
+
+msgid "Your attempt to update your forums has failed."
+msgstr "Foorumeiden päivittäminen epäonnistui."
+
+msgid "Your bbPress password"
+msgstr "bbPress-salasanasi"
+
+msgid "Your database has been successfully upgraded, enjoy!"
+msgstr "bbPressin tietokanta on päivitetty onnistuneesti. Ole hyvä!"
+
+msgid "Your existing password"
+msgstr "Nykyinen salasanasi"
+
+msgid "Your first topic"
+msgstr "Ensimmäinen aiheesi"
+
+msgid "Your installation completed successfully."
+msgstr ""
+"Asennus viimeisteltiin onnistuneesti.<br />Kirjautumistiedot on nähtävissä "
+"alla."
+
+msgid ""
+"Your installation completed with some minor errors. See the error log below "
+"for more specific information."
+msgstr ""
+"Asennus viimeisteltiin, mutta siinä havaittiin joitakin pieniä virheitä. "
+"Tarkemmat tiedot alla olevasta virhelokista."
+
+msgid ""
+"Your integration settings have not been processed due to errors with the "
+"items marked below."
+msgstr "Asetuksia ei voitu käsitellä alla merkittyjen virheiden vuoksi."
+
+msgid ""
+"Your new bbPress site has been successfully set up at:\n"
+"\n"
+"%1$s\n"
+"\n"
+"You can log in to the key master account with the following information:\n"
+"\n"
+"Username: %2$s\n"
+"Password: %3$s\n"
+"\n"
+"We hope you enjoy your new forums. Thanks!\n"
+"\n"
+"--The bbPress Team\n"
+"http://bbpress.org/"
+msgstr ""
+"Uusi bbPress-sivusto on asennettu onnistuneesti osoitteeseen:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Voit kirjautua järjestelmänvalvojana seuraavilla tiedoilla:\n"
+"\n"
+"Käyttäjänimi: %2$s\n"
+"Salasana: %3$s\n"
+"\n"
+"Toivomme antoisia keskusteluja. Kiitos!\n"
+"\n"
+"-bbPress-tiimi\n"
+"http://bbpress.org/"
+
+msgid "Your password has been reset and a new one has been mailed to you."
+msgstr ""
+"Salasanasi on vaihdettu ja uusi salasana on lähetetty sinulle sähköpostise."
+
+msgid "Your password will be emailed to the address you provide."
+msgstr "Salasanasi lähetetään antamaasi sähköpostiosoitteeseen."
+
+msgid "Your query parameters are invalid"
+msgstr "Kyselyn parametrit eivät kelpaa"
+
+msgid ""
+"Your registration as <strong>%s</strong> was successful. Within a few "
+"minutes you should receive an email with your password."
+msgstr ""
+"Käyttäjänimen <strong>%s</strong> rekisteröiminen onnistui. Saat salasanasi "
+"sähköpostitse muutaman minuutin kuluessa."
+
+msgid "Your search term was too short"
+msgstr "Hakulauseke oli liian lyhyt"
+
+msgid ""
+"Your settings could not be saved to a configuration file. You will need to "
+"save the text shown below into a file named <code>bb-config.php</code> in "
+"the root directory of your bbPress installation before you can continue."
+msgstr ""
+"Asetuksia ei voitu tallentaa konfigurointitiedostoon. Sinun täytyy tallentaa "
+"alla oleva teksti asennuksesi juurihakemistosta löytyvään <code>bb-config."
+"php</code>-tiedostoon, ennen kuin voit jatkaa asennusta."
+
+msgid ""
+"Your settings have been saved to the file <code>bb-config.php</code><br /"
+">You can now continue to the next step."
+msgstr ""
+"Asetukset on tallennettu <code>bb-config.php</ code>-tiedostoon. <br /> Voit "
+"jatkaa seuraavaan vaiheeseen."
+
+msgid ""
+"Your site settings have been saved and we are now ready to complete the "
+"installation. So what are you waiting for?"
+msgstr ""
+"Sivustosi asetukset on tallennettu ja asennus on viimeistelyä vaille valmis. "
+"Mitä vielä odotat?"
+
+msgid ""
+"Your site settings have not been processed due to errors with the items "
+"marked below."
+msgstr ""
+"Sivustosi asetuksia ei pystytty käsittelemään alla esitellyissä kohdissa "
+"tapahtuneiden virheiden vuoksi."
+
+msgid "Your topic or forum caused all manner of confusion"
+msgstr "Aihe tai foorumi aiheutti häiriön"
+
+msgid ""
+"Your user table prefix may only contain letters, numbers and underscores."
+msgstr ""
+"Käyttäjätaulun etuliite voi sisältää vain kirjaimia, numeroita ja alaviivoja."
+
+msgid ""
+"Your username is: %1$s \n"
+"Your password is: %2$s \n"
+"You can now log in: %3$s \n"
+"\n"
+"Enjoy!"
+msgstr ""
+"Käyttäjänimesi: %1$s \n"
+"Salasanasi: %2$s \n"
+"Voit nyt kirjautua sisään: %3$s \n"
+"\n"
+"Ole hyvä!"
+
+msgid "[closed] %s"
+msgstr "[suljettu] %s"
+
+msgid "[sticky] %s"
+msgstr "[liimattu] %s"
+
+msgid "]"
+msgstr "]"
+
+msgctxt "action"
+msgid "Open"
+msgstr "Avoinna"
+
+msgid "am"
+msgstr "am"
+
+msgid "bbPress"
+msgstr "bbPress"
+
+msgid "bbPress &rsaquo; Error"
+msgstr "bbPress &rsaquo; Virhe"
+
+msgid "bbPress Failure Notice"
+msgstr "bbPressin virheilmoitus"
+
+msgid "bbPress address (URL)"
+msgstr "bbPress-kansion osoite"
+
+msgid ""
+"bbPress can integrate login and user data seamlessly with WordPress. You can "
+"safely skip this step if you do not wish to integrate with an existing "
+"WordPress install."
+msgstr ""
+"bbPress voi integroida kirjautumis- ja käyttäjätiedot saumattomasti "
+"WordPressin kanssa. Voit huoletta hypätä tämän osan yli, mikäli et halua "
+"integroida tietojasi olemassa olevan WordPress-asennuksen kanssa."
+
+msgid "bbPress database upgrade"
+msgstr "bbPress-tietokannan päivitys"
+
+msgid ""
+"bbPress includes built-in support for <a href=\"http://gravatar.com/"
+"\">Gravatars</a>. A Gravatar is an image that follows you from site to site, "
+"appearing beside your name when you comment on Gravatar enabled sites. Here "
+"you can enable the display of Gravatars on your site."
+msgstr ""
+"bbPress sisältää sisäänrakennetun tuen <a href=\"http://gravatar.com/"
+"\">Gravatareille</a>. Gravatar on kuva, joka seuraa sinua sivustolta "
+"sivustolta, näkyen nimesi ohessa, kun kommentoit sivustoilla, joilla "
+"Gravatar on otettu käyttöön. Tässä voit ottaa Gravatareiden näyttämisen "
+"käyttöön sivustollasi."
+
+msgid "bbPress installer"
+msgstr "bbPress-asennusohjelma"
+
+msgid "bbPress is already installed, but appears to require an upgrade."
+msgstr "bbPress on jo asennettu, mutta näyttää vaativan päivitystä."
+
+msgid "bbPress is already installed."
+msgstr "bbPress on jo asennettu."
+
+msgid "by %s"
+msgstr "käyttäjältä %s"
+
+msgctxt "closing curly quote"
+msgid "&#8221;"
+msgstr "&#8221;"
+
+msgid "containing &#8220;%s&#8221;"
+msgstr "sisältävät &#8220;%s&#8221;"
+
+msgid "currently has no favorites."
+msgstr "ei ole tällä hetkellä suosikkeja."
+
+msgid "drag"
+msgstr "Vedä"
+
+msgid "favorites"
+msgstr "suosikit"
+
+msgid "from IP address %s"
+msgstr "IP-osoitteesta %s"
+
+msgid "full permalink"
+msgstr "täydellinen kestolinkki"
+
+msgid "h:i A"
+msgstr "G:i:s"
+
+msgid "hours"
+msgstr "tuntia"
+
+msgid "in &#8220;%s&#8221;"
+msgstr "foorumilla &#8220;%s&#8221;"
+
+msgid "minutes"
+msgstr "minuuttia"
+
+msgid "none|no bbPress role"
+msgstr "Ei mitään|ei bbPress-roolia"
+
+msgid "number_format_decimal_point"
+msgstr "number_format_decimal_point"
+
+msgid "number_format_decimals"
+msgstr "number_format_decimals"
+
+msgid "number_format_thousands_sep"
+msgstr "number_format_thousands_sep"
+
+msgid "on"
+msgstr ":"
+
+msgctxt "opening curly quote"
+msgid "&#8220;"
+msgstr "&#8220;"
+
+msgid "pm"
+msgstr "pm"
+
+msgctxt "posting status"
+msgid "Open"
+msgstr "Avoinna"
+
+msgid "should be"
+msgstr "pitäisi olla"
+
+msgid "to front"
+msgstr "etusivulle"
+
+msgid "with role &#8220;%s&#8221;"
+msgstr ", jotka liittyvät rooliin &#8220;%s&#8221;"
+
+msgid "with tag &#8220;%s&#8221;"
+msgstr ", jotka liittyvät avainsanaan &#8220;%s&#8221;"
