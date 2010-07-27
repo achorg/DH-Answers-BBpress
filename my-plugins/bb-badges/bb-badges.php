@@ -24,9 +24,9 @@ function get_badges($user) {
 	// Assign badges based on numbers
 	if($post_count >= 50) {
 		$badges["posts"] = "<div class='badge gold-poster'><!-- 50 posts! --></div>";
-	} elseif($post_count < 50 && $post_count > 20) {
+	} elseif($post_count < 50 && $post_count >= 20) {
 		$badges["posts"] = "<div class='badge silver-poster'><!-- 50 posts! --></div>";
-	} elseif() {
+	} elseif($post_count < 20 && $post_count >= 10) {
 		$badges["posts"] = "<div class='badge bronze-poster'><!-- 50 posts! --></div>";
 	}
 	// Return array of badges
