@@ -23,11 +23,11 @@ function get_badges($user) {
 	// answer_count = get_answer_count($user);
 	// Assign badges based on numbers
 	if($post_count >= 50) {
-		$badges["posts"] = "<span class='badge gold-poster'><!-- 50+ posts! --></span>";
+		$badges["posts"] = "<span title='50 Posts' class='badge gold-poster'><!-- 50+ posts! --></span>";
 	} elseif($post_count < 50 && $post_count >= 20) {
-		$badges["posts"] = "<span class='badge silver-poster'><!-- 20-49 posts --></span>";
+		$badges["posts"] = "<span title='20 Posts' class='badge silver-poster'><!-- 20-49 posts --></span>";
 	} elseif($post_count < 20 && $post_count >= 10) {
-		$badges["posts"] = "<span class='badge bronze-poster'><!-- 10-19 posts --></span>";
+		$badges["posts"] = "<span title='10 Posts' class='badge bronze-poster'><!-- 10-19 posts --></span>";
 	}
 	// Return array of badges
 	return $badges;
