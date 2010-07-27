@@ -5,6 +5,7 @@
 					<strong><?php post_author_link(); ?></strong><br />
 					<small><?php post_author_title_link(); ?></small>
 				</p>
+				<div class="author-badges"><?php show_badges(); ?></div>
 			</div>
 			<div class="threadpost">
 				<div class="post"><?php post_text(); ?></div>
