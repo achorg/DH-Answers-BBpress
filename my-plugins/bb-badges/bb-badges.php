@@ -38,6 +38,4 @@ function get_post_count($user) {
 	return $bbdb->query("SELECT * FROM $bbdb->posts WHERE poster_id = $user AND post_status = 0");
 }
 
-function 
-
 ?>
