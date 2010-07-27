@@ -1073,3 +1073,31 @@ p.required-message:before {
 #footer a {
 	color: #aaa;
 }
+
+/* BADGES */
+
+.author-badges {
+	height: 24px;
+	width: 100%;
+}
+
+.badge {
+	background-attachment:scroll;
+	background-color:transparent;
+	background-position:0 0;
+	background-repeat:no-repeat;
+	display:block;
+	float:left;
+	height:20px;
+	width:20px;
+}
+
+.badge.bronze-poster {
+	background-image:url("images/bronze-poster.png");
+}
+.badge.silver-poster {
+	background-image:url("images/silver-poster.png");
+}
+.badge.gold-poster {
+	background-image:url("images/gold-poster.png");
+}
