@@ -17,7 +17,7 @@ function show_badges() {
 }
 
 function get_badges($user) {
-	$badges = [];
+	$badges = array();
 	// Get # of user posts, # of best answers
 	$post_count = get_post_count($user);
 	// answer_count = get_answer_count($user);
