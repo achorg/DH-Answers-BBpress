@@ -41,7 +41,7 @@ function get_badges($user) {
 	} elseif($answer_count < 25 && $answer_count >= 10) {
 		$badges["answers"] = "<span title='10 Answers' class='badge silver-answerer ".$answer_count."'><!--10-24 answers --></span>";
 	} elseif($answer_count < 10 && $answer_count >= 5) {
-		$badges["answers"] = "<span title='5 Posts' class='badge bronze-answerer ".$answer_count."'><!-- 5-9 answers --></span>";
+		$badges["answers"] = "<span title='5 Answers' class='badge bronze-answerer ".$answer_count."'><!-- 5-9 answers --></span>";
 	} else {
 		$badges["answers"] = "<span class='badge ".$answer_count."'><!-- fewer than 5 answers --></span>";
 	}
