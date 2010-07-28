@@ -1101,3 +1101,13 @@ p.required-message:before {
 .badge.gold-poster {
 	background-image:url("images/gold-poster.png");
 }
+
+.badge.bronze-answerer {
+	background-image:url("images/bronze-answers.png");
+}
+.badge.silver-answerer {
+	background-image:url("images/silver-answers.png");
+}
+.badge.gold-answerer {
+	background-image:url("images/gold-answers.png");
+}

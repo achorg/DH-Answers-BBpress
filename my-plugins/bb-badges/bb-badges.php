@@ -17,11 +17,14 @@ function show_badges() {
 }
 
 function get_badges($user) {
+	// initiate badge array
 	$badges = array();
+	
 	// Get # of user posts, # of best answers
 	$post_count = get_post_count($user);
-	// answer_count = get_answer_count($user);
-	// Assign badges based on numbers
+	$answer_count = get_answer_count($user);
+	
+	// Assign post count badge
 	if($post_count >= 50) {
 		$badges["posts"] = "<span title='50 Posts' class='badge gold-poster ".$post_count."'><!-- 50+ posts! --></span>";
 	} elseif($post_count < 50 && $post_count >= 20) {
@@ -29,7 +32,18 @@ function get_badges($user) {
 	} elseif($post_count < 20 && $post_count >= 10) {
 		$badges["posts"] = "<span title='10 Posts' class='badge bronze-poster ".$post_count."'><!-- 10-19 posts --></span>";
 	} else {
-		$badges["posts"] = "<span title='&lt; 10 Posts' class='badge ".$post_count."'><!-- less than 10 posts --></span>";
+		$badges["posts"] = "<span class='badge ".$post_count."'><!-- fewer than 10 posts --></span>";
+	}
+	
+	// Assign answer count badge
+	if($answer_count >= 25) {
+		$badges["answers"] = "<span title='25 Answers' class='badge gold-answerer ".$answer_count."'><!-- 25+ answers! --></span>";
+	} elseif($answer_count < 25 && $answer_count >= 10) {
+		$badges["answers"] = "<span title='10 Answers' class='badge silver-answerer ".$answer_count."'><!--10-24 answers --></span>";
+	} elseif($answer_count < 10 && $answer_count >= 5) {
+		$badges["answers"] = "<span title='5 Posts' class='badge bronze-answerer ".$answer_count."'><!-- 5-9 answers --></span>";
+	} else {
+		$badges["answers"] = "<span class='badge ".$answer_count."'><!-- fewer than 5 answers --></span>";
 	}
 	
 	// Return array of badges
@@ -39,6 +53,11 @@ function get_badges($user) {
 function get_post_count($user) {
 	global $bbdb;
 	return $bbdb->query("SELECT * FROM $bbdb->posts WHERE poster_id = $user AND post_status = 0");
+}
+
+function get_answer_count($user_id) {
+	global $bbdb;
+	return $bbdb->query("SELECT * FROM $bbdb->posts AS posts LEFT JOIN $bbdb->meta AS meta ON posts.topic_id=meta.object_id WHERE object_type = 'bb_topic' AND poster_id = $user AND post_status = 0 AND meta_key = 'best_answer' AND post_position = meta_value");
 }
 
 ?>
