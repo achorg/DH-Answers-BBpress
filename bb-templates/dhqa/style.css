@@ -712,7 +712,7 @@ a.rss-link {
 
 #content .infobox li { margin-bottom: 2px; }
 
-#content #tags-list li a {
+#tags-list li a {
 	background:url("images/favorite2.png") no-repeat scroll 5px 50% transparent;
 	height:auto !important;
 	padding-left:26px;
