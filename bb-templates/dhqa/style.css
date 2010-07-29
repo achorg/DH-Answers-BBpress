@@ -102,7 +102,7 @@ img.avatar { border: 1px solid #ddd; }
 =================================== */
 
 #header p { margin-bottom: 0; font-weight: bolder;}
-#header h1 {margin-bottom: 10px; font-weight: normal; font-family:"League Gothic","Arial Narrow","Helvetica Neue",Arial,Helvetica,sans-serif;font-size: 5em;}
+#header h1 {margin-bottom: 10px; font-weight: normal; font-family:"League Gothic","Lucida Grande",Tahoma,"Helvetica Neue",Arial,Helvetica,sans-serif;font-size: 5em;}
 #header h1 a { text-decoration: none; }
 #header h1 a:hover { color: #400; }
 
@@ -711,6 +711,12 @@ a.rss-link {
 }
 
 #content .infobox li { margin-bottom: 2px; }
+
+#content #tags-list li a {
+	background:url("images/favorite2.png") no-repeat scroll 5px 50% transparent;
+	height:auto !important;
+	padding-left:26px;
+}
 
 #content .nav a {
 	border: 1px solid #ccc;
