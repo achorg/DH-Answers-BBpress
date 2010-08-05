@@ -8,6 +8,7 @@
 <a href="http://chronicle.com/blog/ProfHacker/27/" id="ph-logo"><img alt="ProfHacker" title="ProfHacker" src="<?php echo(bb_active_theme_uri().'images/ph-icon.png'); ?>"/></a>
 <h2><?php _e('Popular Tags'); ?></h2>
 <p class="frontpageheatmap"><?php bb_tag_heat_map(); ?></p>
+<h2><?php _e('@DHAnswers'); ?></h2>
 <div id="twitter_feed">
 	<script src="http://widgets.twimg.com/j/2/widget.js"></script>
 	<script>

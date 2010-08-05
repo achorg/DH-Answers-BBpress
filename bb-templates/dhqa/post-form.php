@@ -7,7 +7,7 @@
 
 <!-- should this be part of a plugin? maybe even the twitter notification plugin? -->
 <p id="twitter_topic_preview" style="display: none;">
-	<?php _e('This question will be posted to twitter as follows: '); ?><span id="tweet_preview"></span>
+	<?php _e('This question will be posted to Twitter as follows: '); ?><span id="tweet_preview"></span>
 	<input type="hidden" name="tweet" />
 	<script type="text/javascript">
 		jQuery('#topic').keyup(function() {
