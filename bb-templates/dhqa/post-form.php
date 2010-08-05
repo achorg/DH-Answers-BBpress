@@ -1,9 +1,29 @@
 <?php if ( !bb_is_topic() ) : ?>
 <p id="post-form-title-container">
-	<label for="topic"><?php _e('Question'); ?>
+	<label for="topic"><?php _e('Question (please be clear and concise)'); ?>
 		<input name="topic" type="text" id="topic" size="50" maxlength="80" tabindex="1" />
 	</label>
 </p>
+
+<!-- should this be part of a plugin? maybe even the twitter notification plugin? -->
+<p id="twitter_topic_preview" style="display: none;">
+	<?php _e('This question will be posted to twitter as follows: '); ?><span id="tweet_preview"></span>
+	<input type="hidden" name="tweet" />
+	<script type="text/javascript">
+		jQuery('#topic').keyup(function() {
+			if (jQuery('#twitter_topic_preview').is(':hidden')) {
+				jQuery('#twitter_topic_preview').show();
+			}
+			var tweet = '@dhanswers new topic: ' + jQuery('#topic').val();
+			if (tweet.length > 140) { // useless for now since topic is limited to 50 chars
+				tweet = tweet.substring('0,139') + '…';
+			}
+			jQuery('#tweet_preview').html(tweet);
+			jQuery('#tweet').val(tweet); // we could use this value server side
+		})
+	</script>
+</p>
+
 <?php endif; do_action( 'post_form_pre_post' ); ?>
 <p id="post-form-post-container">
 	<label for="post_content"><?php _e('Message'); ?>

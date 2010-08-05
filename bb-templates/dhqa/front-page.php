@@ -8,6 +8,39 @@
 <a href="http://chronicle.com/blog/ProfHacker/27/" id="ph-logo"><img alt="ProfHacker" title="ProfHacker" src="<?php echo(bb_active_theme_uri().'images/ph-icon.png'); ?>"/></a>
 <h2><?php _e('Popular Tags'); ?></h2>
 <p class="frontpageheatmap"><?php bb_tag_heat_map(); ?></p>
+<div id="twitter_feed">
+	<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+	<script>
+	new TWTR.Widget({
+	  version: 2,
+	  type: 'profile',
+	  rpp: 4,
+	  interval: 6000,
+	  width: 'auto',
+	  height: 300,
+	  theme: {
+	    shell: {
+	      background: '#ffffff',
+	      color: '#000000'
+	    },
+	    tweets: {
+	      background: '#ffffff',
+	      color: '#000',
+	      links: '#00f'
+	    }
+	  },
+	  features: {
+	    scrollbar: false,
+	    loop: false,
+	    live: true,
+	    hashtags: true,
+	    timestamp: true,
+	    avatars: false,
+	    behavior: 'all'
+	  }
+	}).render().setUser('dhanswers').start();
+	</script>
+</div>
 </div>
 
 <div id="discussions" class="span-18 last">
