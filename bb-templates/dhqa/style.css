@@ -1128,3 +1128,12 @@ p.required-message:before {
 .badge.gold-answerer {
 	background-image:url("images/gold-answers.png");
 }
+
+/* Twitter preview styles (move to plugin?) */
+#twitter_topic_preview {
+    margin-left: 2em;
+}
+
+#tweet_preview {
+    font-style: italic;
+}
