@@ -32,5 +32,25 @@ function tweet_new_topic($topic_id, $topic_title) {
 	}
 	return $topic_title;
 }
+
+function preview_tweet() {
+	echo '<p id="twitter_topic_preview" style="display: none;">' . _e('This question will be posted to Twitter as follows: ') . '<span id="tweet_preview"></span>
+		<input type="hidden" name="tweet" />
+		<script type="text/javascript">
+			jQuery("#topic").keyup(function() {
+				if (jQuery("#twitter_topic_preview").is(":hidden")) {
+					jQuery("#twitter_topic_preview").show();
+				}
+				var tweet = "@dhanswers new topic: " + jQuery("#topic").val();
+				if (tweet.length > 140) { // useless for now since topic is limited to 50 chars
+					tweet = tweet.substring("0,139") + "…";
+				}
+				jQuery("#tweet_preview").html(tweet);
+				jQuery("#tweet").val(tweet); // we could use this value server side
+			})
+		</script>
+	</p>';
+}
+
 add_action('bb_insert_topic', 'tweet_new_topic', 10, 2);
 ?>

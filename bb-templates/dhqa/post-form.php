@@ -5,24 +5,7 @@
 	</label>
 </p>
 
-<!-- should this be part of a plugin? maybe even the twitter notification plugin? -->
-<p id="twitter_topic_preview" style="display: none;">
-	<?php _e('This question will be posted to Twitter as follows: '); ?><span id="tweet_preview"></span>
-	<input type="hidden" name="tweet" />
-	<script type="text/javascript">
-		jQuery('#topic').keyup(function() {
-			if (jQuery('#twitter_topic_preview').is(':hidden')) {
-				jQuery('#twitter_topic_preview').show();
-			}
-			var tweet = '@dhanswers new topic: ' + jQuery('#topic').val();
-			if (tweet.length > 140) { // useless for now since topic is limited to 50 chars
-				tweet = tweet.substring('0,139') + '…';
-			}
-			jQuery('#tweet_preview').html(tweet);
-			jQuery('#tweet').val(tweet); // we could use this value server side
-		})
-	</script>
-</p>
+<?php preview_tweet(); ?>
 
 <?php endif; do_action( 'post_form_pre_post' ); ?>
 <p id="post-form-post-container">
