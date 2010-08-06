@@ -13,6 +13,7 @@ function bw_get_tweets($hashtag) {
 	if($xml = simplexml_load_file('http://search.twitter.com/search.rss?q=%23'.$hashtag,'SimpleXMLElement', LIBXML_NOCDATA)) {
 		//find title, author, and tweet id with xpath
 		$tweets = $xml->xpath("/rss/channel/item");
+		echo("<p><!-- ". count($tweets) . " --></p>";
 		return $tweets;
 	} else {
 		return false;
@@ -24,6 +25,7 @@ function bw_add_tweets() {
 	echo("<p class='test'><!-- test --></p>");
 	$tweets = bw_get_tweets($hashtag);
 	foreach($tweets as $tweet) {
+		cho("<p class='test-tw'><!-- test tweet --></p>");
 		bb_insert_topic(array(
 			'topic_title' => $tweet->title,
 			'topic_slug' => '',
