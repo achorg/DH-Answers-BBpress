@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Bird Watcher
- * Plugin Description: Create new questions from tweets with #ask hashtag 
+ * Plugin Description: Create new questions from tweets with #askDH hashtag 
  * Author: Joseph Gilbert
  * Author URI: http://lib.virginia.edu/scholarslab/
  * Plugin URI: http://lib.virginia.edu/scholarslab/
@@ -21,6 +21,7 @@ function bw_get_tweets($hashtag) {
 
 function bw_add_tweets() {
 	$hashtag = 'askdh';
+	echo("<p class='test'><!-- test --></p>");
 	$tweets = bw_get_tweets($hashtag);
 	foreach($tweets as $tweet) {
 		bb_insert_topic(array(
@@ -34,8 +35,9 @@ function bw_add_tweets() {
 			'forum_id' => 'general' // accepts ids or slugs
 		));
 	}
+	echo("<p class='test2'><!-- test 2 --></p>");
 }
 
-do_action('bb_foot', 'bw_add_tweets');
+add_action('bb_foot', 'bw_add_tweets');
 
 ?>
