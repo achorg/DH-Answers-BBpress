@@ -25,7 +25,7 @@ function bw_add_tweets() {
 	echo("<p class='test'><!-- test --></p>");
 	$tweets = bw_get_tweets($hashtag);
 	foreach($tweets as $tweet) {
-		cho("<p class='test-tw'><!-- test tweet --></p>");
+		echo("<p class='test-tw'><!-- test tweet --></p>");
 		bb_insert_topic(array(
 			'topic_title' => $tweet->title,
 			'topic_slug' => '',
