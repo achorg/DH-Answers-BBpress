@@ -20,7 +20,7 @@ function tweet_new_topic($topic_id, $topic_title) {
 	//shorten URL
 	exec("curl http://is.gd/api.php?longurl=" . $t_link, $shorturl);
 	
-	$message = "new #dhqa topic ($shorturl): " . $t_title;
+	$message = "new #dhqa topic ($shorturl[0]): " . $t_title;
 	if (strlen($message)>140) {$message = substr($message,0,139) . '…';}
 
 	// Set username and password
