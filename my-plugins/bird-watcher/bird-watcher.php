@@ -28,6 +28,6 @@ function bw_add_tweets() {
 	}
 }
 
-do_action('bb_check_ajax_referer', 'bw_add_tweets');
+add_action('bb_foot', 'bw_add_tweets');
 
 ?>
