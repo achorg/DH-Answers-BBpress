@@ -19,12 +19,15 @@ function bw_get_tweets($hashtag) {
 	}
 }
 
-function bw_show_tweets() {
-	$tweets = get_tweets('geoinst');
+function bw_add_tweets() {
+	global $bbdb;
+	$hashtag = 'askdh';
+	$tweets = get_tweets($hashtag);
 	foreach($tweets as $tweet) {
-		echo("<p>" . $tweet->title . "</p>");
+		bb_new_topic($tweet->title, 5, 'from-twitter');
 	}
 }
-add_action('post_form','bw_show_tweets');
+
+do_action('bb_check_ajax_referer', 'bw_add_tweets');
 
 ?>
