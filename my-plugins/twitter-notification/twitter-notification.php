@@ -16,18 +16,17 @@ function tweet_new_topic($topic_id, $topic_title) {
 	else {
 	$t_title = get_topic_title($topic_id);
 	
-	// TODO: can we use a URL shoterner?
 	$t_link = get_topic_link($topic_id);
-	exec("curl http://is.gd/api.php?longurl=" . $t_link, $shorturl);
+	//Twitter will auto-shorten URLs now
+	//exec("curl http://is.gd/api.php?longurl=" . $t_link, $shorturl);
 	
-	$message = "new #dhqa topic ($shorturl): " . $t_title;
+	$message = "new #dhqa topic ($t_link): " . $t_title;
 	if (strlen($message)>140) {$message = substr($message,0,139) . '…';}
 
 	// Set username and password
 	$username = '';
 	$password = '';
 	
-
 	// do a simple command-line curl with the status
 	// TODO: check return status
 	 exec("curl -u $username:$password -d status=" . escapeshellarg($message) . " http://api.twitter.com/1/statuses/update.json", $output, $return);
