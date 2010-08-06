@@ -8,7 +8,7 @@
  * Version: 0.1
  */
 
-function get_tweets($hashtag) {
+function bw_get_tweets($hashtag) {
 	//retrieve feed via simplexml
 	if($xml = simplexml_load_file('http://search.twitter.com/search.rss?q=%23'.$hashtag,'SimpleXMLElement', LIBXML_NOCDATA)) {
 		//find title, author, and tweet id with xpath
@@ -19,11 +19,12 @@ function get_tweets($hashtag) {
 	}
 }
 
-function show_tweets($hashtag) {
-	$tweets = get_tweets($hashtag);
+function bw_show_tweets() {
+	$tweets = get_tweets('geoinst');
 	foreach($tweets as $tweet) {
-		echo("<p>".$tweet->title."</p>");
+		echo("<p>" . $tweet->title . "</p>");
 	}
 }
+add_action('post_form','bw_show_tweets');
 
 ?>
