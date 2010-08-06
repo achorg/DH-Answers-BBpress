@@ -17,10 +17,10 @@ function tweet_new_topic($topic_id, $topic_title) {
 	$t_title = get_topic_title($topic_id);
 	
 	$t_link = get_topic_link($topic_id);
-	//Twitter will auto-shorten URLs now
-	//exec("curl http://is.gd/api.php?longurl=" . $t_link, $shorturl);
+	//shorten URL
+	exec("curl http://is.gd/api.php?longurl=" . $t_link, $shorturl);
 	
-	$message = "new #dhqa topic ($t_link): " . $t_title;
+	$message = "new #dhqa topic ($shorturl): " . $t_title;
 	if (strlen($message)>140) {$message = substr($message,0,139) . '…';}
 
 	// Set username and password
