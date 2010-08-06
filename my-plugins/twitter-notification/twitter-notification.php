@@ -18,13 +18,15 @@ function tweet_new_topic($topic_id, $topic_title) {
 	
 	// TODO: can we use a URL shoterner?
 	$t_link = get_topic_link($topic_id);
+	exec("curl http://is.gd/api.php?longurl=" . $t_link, $shorturl);
 	
-	$message = "new #dhqa topic ($t_link): " . $t_title;
+	$message = "new #dhqa topic ($shorturl): " . $t_title;
 	if (strlen($message)>140) {$message = substr($message,0,139) . '…';}
 
 	// Set username and password
 	$username = '';
 	$password = '';
+	
 
 	// do a simple command-line curl with the status
 	// TODO: check return status
@@ -33,6 +35,7 @@ function tweet_new_topic($topic_id, $topic_title) {
 	return $topic_title;
 }
 
+// call preview_tweet() in template to display preview of new topic tweet
 function preview_tweet() {
 	echo '<p id="twitter_topic_preview" style="display: none;">' . _e('This question will be posted to Twitter as follows: ') . '<span id="tweet_preview"></span>
 		<input type="hidden" name="tweet" />
