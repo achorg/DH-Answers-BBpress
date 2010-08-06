@@ -20,14 +20,22 @@ function bw_get_tweets($hashtag) {
 }
 
 function bw_add_tweets() {
-	global $bbdb;
 	$hashtag = 'askdh';
-	$tweets = get_tweets($hashtag);
+	$tweets = bw_get_tweets($hashtag);
 	foreach($tweets as $tweet) {
-		bb_new_topic($tweet->title, 5, 'from-twitter');
+		bb_insert_topic(array(
+			'topic_title' => $tweet->title,
+			'topic_slug' => '',
+			'topic_poster' => 1, // accepts ids
+			'topic_poster_name' => 'Twitter User', // accept names
+			'topic_last_poster' => 1, // accepts ids
+			'topic_last_poster_name' => 'Twitter User', // accept names
+			'topic_open' => 1,
+			'forum_id' => 'general' // accepts ids or slugs
+		));
 	}
 }
 
-add_action('bb_foot', 'bw_add_tweets');
+do_action('bb_foot', 'bw_add_tweets');
 
 ?>
