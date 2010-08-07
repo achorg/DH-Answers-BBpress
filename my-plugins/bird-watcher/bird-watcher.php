@@ -47,7 +47,7 @@ function bw_add_tweets() {
 		$tweetId = (int)$idMatch[1];
 		
 		//if topic doesn't already exist
-		if (bw_check_duplicate($tweetId)) {
+		if (!bw_check_duplicate($tweetId)) {
 			//add a new topic by "Twitter User"
 			$new_topic = bb_insert_topic(array(
 				'topic_title' => str_replace('#askdh','',$short_title),
