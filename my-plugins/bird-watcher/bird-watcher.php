@@ -47,7 +47,7 @@ function bw_add_tweets() {
 		$tweetId = (int)$idMatch[1];
 		
 		//if topic doesn't already exist
-		if (!bw_check_duplicate($tweetId)) {
+		if (bw_check_duplicate($tweetId) == 0) {
 			//add a new topic by "Twitter User"
 			$new_topic = bb_insert_topic(array(
 				'topic_title' => str_replace('#askdh','',$short_title),
@@ -64,7 +64,8 @@ function bw_add_tweets() {
 }
 
 function bw_check_duplicate($id) {
-	return($bbdb->get_var("SELECT COUNT(*) FROM $bbdb->topics AS topics INNER JOIN $bbdb->meta AS meta ON topics.topic_id=meta.object_id WHERE object_type = 'bb_topic' AND meta_key = 'twitterid' AND meta_value = $id") > 0);
+	global $bbdb;
+	return($bbdb->query("SELECT * FROM $bbdb->topics AS topics LEFT JOIN $bbdb->meta AS meta ON topics.topic_id=meta.object_id WHERE object_type = 'bb_topic' AND meta_key = 'tweetid' AND meta_value='$id'"));
 }
 
 //Check for new tweeted messages every time footer loads.  Better ideas?
