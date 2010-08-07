@@ -65,6 +65,7 @@ function bw_add_tweets() {
 
 function bw_check_duplicate($id) {
 	global $bbdb;
+	//check if Twitter guid exists in bb_meta table
 	return($bbdb->query("SELECT * FROM $bbdb->topics AS topics LEFT JOIN $bbdb->meta AS meta ON topics.topic_id=meta.object_id WHERE object_type = 'bb_topic' AND meta_key = 'tweetid' AND meta_value='$id'"));
 }
 
