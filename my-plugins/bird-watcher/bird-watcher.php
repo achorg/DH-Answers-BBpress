@@ -43,9 +43,9 @@ function bw_add_tweets() {
 		}
 		
 		//get tweet guid to help with duplication prevention
-		preg_match('/\/([0-9]+)$/', $tweet->guid, $idMatch);
-		$tweetId = (int)$idMatch[1];
-		
+		//find string position of last slash then get substring after it
+		$tweetId = substr($tweet->guid, strrpos($tweet->guid,'/')+1);
+				
 		//if topic doesn't already exist
 		if (bw_check_duplicate($tweetId) == 0) {
 			//add a new topic by "Twitter User"
