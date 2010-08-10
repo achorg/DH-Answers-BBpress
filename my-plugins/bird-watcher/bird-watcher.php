@@ -98,10 +98,12 @@ function bw_has_mention($tweet) {
 }
 
 function bw_is_user($user) {
+	global $bbdb;
 	return($bbdb->query("SELECT * FROM $bbdb->usermeta WHERE meta_key = 'twitter' AND meta_value='$user'"));
 }
 
 function bw_get_id_from_user($user) {
+	global $bbdb;
 	return((int)($bbdb->get_var("SELECT user_id FROM $bbdb->usermeta WHERE meta_key = 'twitter' AND meta_value='$user'")));
 }
 

@@ -85,118 +85,16 @@ add_action('profile_edited', 'update_user_twitter');
 
 
 function bb_show_tweets() {
-global $user_id, $bb_twitter,$bb_current_user;
-
-$userid = bb_get_user_id( $user_id ) ;
-$twitter = bb_get_usermeta($user_id,twitter);
-$tweets_on = bb_get_usermeta($user_id,twitter_on);
-if ( !is_bb_profile() ){
- echo "";
- } else {
- if ($tweets_on == "yes"){
-_e('<h4>Latest Tweet : </h4><code>
-	<ul id="twitter_update_list"></ul>
-	<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
-	<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/'.$twitter.'.json?callback=twitterCallback2&count=1"></script></code><br/>');
-} else {
- end;
- }}
  
 }
 
 function tweet_on_post($text) {
-global $bb_post;
-$user_id=$bb_post->poster_id;
-$twitter = bb_get_usermeta($user_id,twitter);
-$user = bb_get_user( $user_id );
-$tweets_on_post = $user->twitter_on_post;
-if ($tweets_on_post == "yes"){
-$text .= ('
-	<p id="twitter_update_list">
-	<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
-	<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/'.$twitter.'.json?callback=twitterCallback2&count=1"></script></code></small></p><br/>');
-} else {
-$text = $text;
-}
-return $text; 
-}
 
-add_filter('post_text','tweet_on_post',6);
+}
 
 function tweet_start(){
-global $user_id, $bb_twitter,$bb_current_user;
-if ( ! bb_get_option('avatars_show') )
-		return false;
-$author_id = get_post_author_id( $post_id );
-$userid = bb_get_user_id( $user_id ) ;
-$twitter = bb_get_usermeta($user_id,twitter);
-$tweets_on = bb_get_usermeta($user_id,twitter_on);
-if ( !is_bb_profile() ){
- $tweet_print = "";
- } else {
- if ($tweets_on == "yes"){
-$tweet_print = ('<h4>Latest Tweet : </h4><code>
-	<ul id="twitter_update_list"></ul>
-	<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
-	<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/'.$twitter.'.json?callback=twitterCallback2&count=1"></script></code><br/>');
-} else {
- end;
- }}
- $email = bb_get_user_email($author_id);
-	if ($email == '' || $email == ' '){
-		$author_id = bb_get_user_id( $post_id );
-		$email = bb_get_user_email($author_id);
-		}
-	if ($avatars['default'] == 'Your Own Gravatar'){
-		$default = $avatars['standard'];
-	} else {
-		$default = $avatars['default'];
-	}
-	$size = $avatars['size'];
-		$src = 'http://www.gravatar.com/avatar/';
-		$src .= md5( strtolower( $email ) );
-		$src .= '?s=' . $size;
-		$src .= '&amp;d=' . urlencode( $default );
-
-		$rating = $avatars['rating'];
-		if ( !empty( $rating ) )
-			$src .= '&amp;r=' . $rating;
-
-		$class = 'avatar avatar-' . $size;
-	
-		$class = 'avatar avatar-' . $size . ' avatar-default';
-	
-
-	$avatar = '<img alt="" src="' . $src . '" class="' . $class . '" style="height:' . $size . 'px; width:' . $size . 'px;" />';
-	
-	
-	
-	
-	if ( $link = get_user_link( $author_id ) ) {
-		if (!function_exists('bb_avatars_show')) {
-		echo '<a href="' . attribute_escape( $link ) . '">' . $avatar . '</a>';
-		}
-		echo $tweet_print;
-	} else {
-	if (!function_exists('bb_avatars_show')) {
-		echo $avatar;
-	}
-		echo $tweet_print;
-		
-	
-}
  
 }	
-	
-
-
-
-
-if (!function_exists('bb_avatars_show')) {
-add_action( 'bb_get_avatar','tweet_start',10);
-}else{
-add_action( 'bb_get_avatar','bb_show_tweets',1);
-}
 
 
 ?>
