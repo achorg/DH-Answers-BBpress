@@ -6,7 +6,7 @@
 <h2>About</h2>
 <p><a href="http://chronicle.com/blog/ProfHacker/27/" id="ph-logo"><img alt="ProfHacker" title="ProfHacker" src="<?php echo(bb_active_theme_uri().'images/ph-icon.png'); ?>"/></a><strong><a href="http://twitter.com/dhanswers">@DHAnswers</a></strong> is a collaborative project of the <a href="http://www.ach.org">Association for Computers and the Humanities</a> (ACH) and the Chronicle of Higher Education's <a href="http://chronicle.com/blog/ProfHacker/27/">ProfHacker</a>.</p>
 <h2>How to</h2>
-<p><a href="<?php bb_get_uri( 'bb-login.php', null, BB_URI_CONTEXT_FORM_ACTION + BB_URI_CONTEXT_BB_USER_FORMS ) ?>">Make an account</a> and <?php bb_new_topic_link('ask a question'); ?> or add your Twitter user name to <?php bb_profile_link('your profile'); ?> and tweet your question using the hashtag <a href="http://search.twitter.com/search?q=%23DHanswers">#DHanswers</a>.  Other tags like #ruby and #video will transfer, too!</p>
+<p><a href="/answers/bb-login.php">Make an account</a> and <?php bb_new_topic_link('ask a question'); ?> or add your Twitter user name to <?php bb_profile_link('your profile'); ?> and tweet your question using the hashtag <a href="http://search.twitter.com/search?q=%23DHanswers">#DHanswers</a>.  Other tags like #ruby and #video will transfer, too!</p>
 <h2><?php _e('Popular Tags'); ?></h2>
 <p class="frontpageheatmap"><?php bb_tag_heat_map(); ?></p>
 <h2><?php _e('@DHAnswers'); ?></h2>
