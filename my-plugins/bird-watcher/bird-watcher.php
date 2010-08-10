@@ -32,8 +32,7 @@ function bw_add_tweets() {
 		$twitter_user = substr($tweet->author, 0, strpos($tweet->guid,'/'));
 		
 		//ignore if tweet contains a mention (@whatever)
-		//if(!bw_has_mention($full_tweet) && bw_is_user($twitter_user)){
-		if(!bw_has_mention($full_tweet)){
+		if(!bw_has_mention($full_tweet) && bw_is_user($twitter_user)){
 			//extract tags and remove from tweet
 			$tags = bw_get_tags($full_tweet);
 			$full_tweet = preg_replace('/#[\w_-]+/', '', $full_tweet);
@@ -54,8 +53,8 @@ function bw_add_tweets() {
 				//add a new topic by "Twitter User"
 				$new_topic = bb_insert_topic(array(
 					'topic_title' => str_ireplace('#dhanswers','',$short_title),
-					'topic_poster' => 13, // accepts ids bw_get_id_from_user($twitter_user)
-					'forum_id' => 'general', // accepts ids or slugs
+					'topic_poster' => bw_get_id_from_user($twitter_user),
+					'forum_id' => 'general',
 					'tags' => $tags
 				));
 				//add the tweet guid to the meta table for duplication
@@ -64,7 +63,7 @@ function bw_add_tweets() {
 				bb_insert_post(array(
 					'topic_id' => $new_topic,
 					'post_text' => $full_tweet,
-					'poster_id' => 13, // accepts ids or names
+					'poster_id' => bw_get_id_from_user($twitter_user),
 					'poster_ip' => '127.0.0.1'
 				));
 			} //end if bw_check_duplicate
@@ -99,11 +98,11 @@ function bw_has_mention($tweet) {
 }
 
 function bw_is_user($user) {
-	//return($bbdb->query("SELECT * FROM $bbdb->topics AS topics LEFT JOIN $bbdb->meta AS meta ON topics.topic_id=meta.object_id WHERE object_type = 'bb_topic' AND meta_key = 'tweetid' AND meta_value='$id'"));
+	return($bbdb->query("SELECT * FROM $bbdb->usermeta WHERE meta_key = 'twitter' AND meta_value='$user'"));
 }
 
 function bw_get_id_from_user($user) {
-	//return($bbdb->query("SELECT * FROM $bbdb->topics AS topics LEFT JOIN $bbdb->meta AS meta ON topics.topic_id=meta.object_id WHERE object_type = 'bb_topic' AND meta_key = 'tweetid' AND meta_value='$id'"));
+	return((int)($bbdb->get_var("SELECT 'user_id' FROM $bbdb->usermeta WHERE meta_key = 'twitter' AND meta_value='$user'")));
 }
 
 //Check for new tweeted messages every time footer loads.  Better ideas?

@@ -42,10 +42,12 @@ if (bb_current_user_can( 'edit_profile', $user->ID )  &&  bb_is_user_logged_in()
 <tr>
 <td>Twitter username : </td><td><input type="text" name="twitter" value="<?php echo $twitter;?> " size="25"/></td>
 </tr>
+<?php if (false){ ?>
 <tr>
 <td>Show your latest <em>tweet</em> in your profile?</td><td>
+<?php } ?>
 <?php
-if ($tweets_on == "yes"){
+if (false){
 ?>
 <input name="show_tweets" value="tweets_on" type="checkbox" checked="checked"/></td>
 <?php } else { ?>
@@ -55,7 +57,7 @@ if ($tweets_on == "yes"){
 <tr>
 <td>Show your latest <em>tweet</em> under each post?</td><td>
 <?php
-if ($tweets_on_post == "yes"){
+if (false){
 ?>
 <input name="show_tweets_post" value="tweets_on_post" type="checkbox" checked="checked"/></td>
 <?php } else { ?>
