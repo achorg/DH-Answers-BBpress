@@ -43,25 +43,15 @@ if (bb_current_user_can( 'edit_profile', $user->ID )  &&  bb_is_user_logged_in()
 <td>Twitter username : </td><td><input type="text" name="twitter" value="<?php echo $twitter;?> " size="25"/></td>
 </tr>
 <?php if (false){ ?>
-<tr>
-<td>Show your latest <em>tweet</em> in your profile?</td><td>
-<?php } ?>
-<?php
-if (false){
-?>
-<input name="show_tweets" value="tweets_on" type="checkbox" checked="checked"/></td>
-<?php } else { ?>
-<input name="show_tweets" value="tweets_on" type="checkbox"/></td>
-<?php } ?>
-</tr>
-<tr>
-<td>Show your latest <em>tweet</em> under each post?</td><td>
-<?php
-if (false){
-?>
-<input name="show_tweets_post" value="tweets_on_post" type="checkbox" checked="checked"/></td>
-<?php } else { ?>
-<input name="show_tweets_post" value="tweets_on_post" type="checkbox"/></td>
+	<tr>
+	<td>Show your latest <em>tweet</em> in your profile?</td><td>
+	<input name="show_tweets" value="tweets_on" type="checkbox" checked="checked"/></td>
+	<input name="show_tweets" value="tweets_on" type="checkbox"/></td>
+	</tr>
+	<tr>
+	<td>Show your latest <em>tweet</em> under each post?</td><td>
+	<input name="show_tweets_post" value="tweets_on_post" type="checkbox" checked="checked"/></td>
+	<input name="show_tweets_post" value="tweets_on_post" type="checkbox"/></td>
 <?php } ?>
 </tr>
 </table>
