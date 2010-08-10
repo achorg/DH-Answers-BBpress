@@ -16,7 +16,7 @@ function notification_select_all_mods() {
 		FROM $bbdb->users AS u, $bbdb->usermeta AS um 
 		WHERE u.ID = um.user_id
 		AND um.meta_key = 'bb_capabilities'
-		AND um.meta_value REGEXP '^.*\"(moderator|administrator|keymaster)\".*$' 
+		AND um.meta_value REGEXP '^.*\"(member|moderator|administrator|keymaster)\".*$' 
 		AND u.user_status = 0
 	";
 	$all_mods = $bbdb->get_results($sql);
@@ -26,7 +26,7 @@ function notification_select_all_mods() {
 
 function is_moderator($user_id) {
 	global $bbdb;
-	$mods = array('moderator', 'administrator', 'keymaster');
+	$mods = array('member','moderator', 'administrator', 'keymaster');
 	$is_mod = false;
 	$row = $bbdb->get_row("SELECT um.meta_value AS role
 		FROM bb_users AS u, bb_usermeta AS um 
@@ -93,8 +93,8 @@ function mod_notification_profile() {
 	
 		echo '
 			<fieldset>
-				<legend>Moderator Post Notification</legend>
-				<p>If you want to get an email when there is a new post to topics written by members.</p>
+				<legend>All Posts Notification</legend>
+				<p>Select to receive an email when a new post is added by a member to any topic.</p>
 				<table width="100%">
 					<tr>
 						<th width="21%" scope="row">Activate:</th>

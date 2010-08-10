@@ -1086,6 +1086,9 @@ p.required-message:before {
 #footer p {
 	margin: 0;
 	padding: 0;
+	float: right;
+	clear: both;
+	width: 40%;
 }
 
 #footer a {
