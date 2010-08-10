@@ -1061,14 +1061,16 @@ p.required-message:before {
 
 #sidebar #ph-logo {
 	display: block;
-	width: 60px;
-	height: 60px;
+	width: 55px;
+	height: 55px;
 	margin: 0 auto;
+	padding: 2em 0 0;
+	float: right;
 }
 
 #sidebar #ph-logo img {
-	width: 60px;
-	height: 60px;
+	width: 55px;
+	height: 55px;
 }
 
 

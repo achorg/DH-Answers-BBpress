@@ -90,7 +90,8 @@ function bw_get_tags($tweet) {
 		$tags[$tag_count] = str_replace('#', '', $tagMatch);
 		$tag_count++;
 	}
-	return $tags;
+	$tags_str = implode(",", $tags);
+	return $tags_str;
 }
 
 function bw_has_mention($tweet) {
