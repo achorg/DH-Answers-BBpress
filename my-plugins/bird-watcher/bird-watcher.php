@@ -29,7 +29,7 @@ function bw_add_tweets() {
 		
 		//determine tweet and twitter user
 		$full_tweet = (string)$tweet->title;
-		$twitter_user = substr($tweet->author, 0, strpos($tweet->guid,'/'));
+		$twitter_user = substr($tweet->author, 0, strpos($tweet->author,'@'));
 		
 		//ignore if tweet contains a mention (@whatever)
 		if(!bw_has_mention($full_tweet) && bw_is_user($twitter_user)){
@@ -102,7 +102,7 @@ function bw_is_user($user) {
 }
 
 function bw_get_id_from_user($user) {
-	return((int)($bbdb->get_var("SELECT 'user_id' FROM $bbdb->usermeta WHERE meta_key = 'twitter' AND meta_value='$user'")));
+	return((int)($bbdb->get_var("SELECT user_id FROM $bbdb->usermeta WHERE meta_key = 'twitter' AND meta_value='$user'")));
 }
 
 //Check for new tweeted messages every time footer loads.  Better ideas?
