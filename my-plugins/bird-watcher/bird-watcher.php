@@ -37,14 +37,8 @@ function bw_add_tweets() {
 		//or if the tweeter is not a DHAnswers user.
 		if(!bw_check_duplicate( $tweet_id ) && !bw_has_mention( $tweet_text ) && bw_is_user( $tweet_user )){
 			
-			//extract tags
-			$tags = bw_get_tags( $tweet_text );
-			
-			//get short title
-			$topic_title = bw_get_title( $tweet_text );
-			
 			//new topic and post from tweet
-			bw_insert_tweet( $twitter_user,$tweet_id,$short_title,$full_tweet,$tags );
+			bw_insert_tweet( $tweet_user, $tweet_id, bw_get_title( $tweet_text ), $tweet_text, bw_get_tags( $tweet_text ) );
 		
 		} //end if
 	} //end foreach
