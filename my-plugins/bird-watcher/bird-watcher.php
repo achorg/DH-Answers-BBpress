@@ -89,7 +89,9 @@ function bw_get_tags( $tw ) {
 	preg_match_all( '/#[\w_-]+/', $tw, $tagMatches );
 	
 	$tw_tags = array();
-	$tag_count = 0;
+	//tag to indicate this question came from twitter
+	$tw_tags[0] = 'from-twitter';
+	$tag_count = 1;
 	foreach( $tagMatches as $tagMatch ) {
 		$tw_tags[$tag_count] = str_replace( '#', '', $tagMatch );
 		$tag_count++;
