@@ -55,7 +55,7 @@ function bw_get_tweet_user( $t_author ) {
 function bw_get_tweet_id( $t_guid ) {
 	//retrieve unique tweet id from tweet url
 	//find string position of last slash then get following characters
-	return (int)substr( $t_guid, strrpos( $t_guid, '/' ) + 1 );
+	return substr( $t_guid, strrpos( $t_guid, '/' ) + 1 );
 }
 
 function bw_check_duplicate( $t_id ) {
@@ -87,14 +87,15 @@ function bw_get_tags( $tw ) {
 	//extract tags from tweet
 	$tagMatches = array();
 	preg_match_all( '/#[\w_-]+/', $tw, $tagMatches );
-	$tags = array();
 	
+	$tw_tags = array();
 	$tag_count = 0;
 	foreach( $tagMatches as $tagMatch ) {
-		$tags[$tag_count] = str_replace( '#', '', $tagMatch );
+		$tw_tags[$tag_count] = str_replace( '#', '', $tagMatch );
 		$tag_count++;
 	}
-	$tags_str = implode( ",", $tags );
+	
+	$tags_str = implode( ",", $tw_tags );
 	return $tags_str;
 }
 
