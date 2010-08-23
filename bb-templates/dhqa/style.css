@@ -1091,6 +1091,18 @@ p.required-message:before {
 	color: #aaa;
 }
 
+#lang-switch {
+	margin: 0;
+	padding: 0;
+	float: right;
+	clear: both;
+	width: 40%;
+}
+
+#lang-switch form {
+	display: inline-block;
+}
+
 /* BADGES */
 
 .author-badges {
