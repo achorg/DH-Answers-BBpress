@@ -5,7 +5,7 @@
 	</label>
 </p>
 
-<?php preview_tweet(); ?>
+<?php if( function_exists( 'preview_tweet' ) ) { preview_tweet(); }; ?>
 
 <?php endif; do_action( 'post_form_pre_post' ); ?>
 <p id="post-form-post-container">
