@@ -6,7 +6,7 @@ class TestBirdWatcher extends UnitTestCase {
 
 	function test_get_tweets() {
 		$test_tweets = bw_get_tweets( 'test' );
-		$this->assertIsA( $test_tweets ), 'array' );
+		$this->assertIsA( $test_tweets , 'array' );
 	}
 	
 	function test_tweet_content()	{
