@@ -16,12 +16,6 @@
 </fieldset>
 <?php endif; ?>
 
-<fieldset class="lang-switch">
-<legend><?php _e('Language'); ?></legend>
-<p>Please note: posts will not be translated.</p>
-<?php do_action('bb_language_switcher',''); ?>
-</fieldset>
-
 <?php if ( bb_current_user_can( 'change_user_password', $user->ID ) ) : ?>
 <fieldset>
 <legend><?php _e('Password'); ?></legend>

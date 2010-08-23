@@ -847,10 +847,6 @@ div.social-it ul.socials li.socialit-twitter a {
 
 .user-recent ol li { margin: 0 0 3px; }
 
-.lang-switch select {
-	margin-left: 200px;
-}
-
 /* Search
 =================================== */
 
@@ -956,7 +952,7 @@ div.social-it ul.socials li.socialit-twitter a {
 #profile-page fieldset table tr.error th em {
 	position: absolute;
 	/* fieldset:padding-left + table:margin-left + table:width + td:padding-left + input:width + input:padding-right */
-	left: 458px; /* 10 + 15 + 20% * ( 95% * (760 - 10)  ) + 5 + 280 + 5 */
+	left: 600px; /* 10 + 15 + 20% * ( 95% * (760 - 10)  ) + 5 + 280 + 5 */
 	margin-left: 1em; /* th:padding-right = 1em */
 	color: red;
 	font-style: normal;
