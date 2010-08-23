@@ -43,7 +43,7 @@ function bb_language_switcher($ignore='') {				// builds and displays the langua
 	global $bb_language_switcher; $output=""; $current=bb_language_switcher_filter();
 	if (empty($bb_language_switcher)) {$bb_language_switcher=bb_get_option('bb_language_switcher');}
 	if (empty($current) && defined('BB_LANG')) {$bblang=BB_LANG; if (!empty($bblang)) {$current=$bblang;}}	
-	$output.= '<form id="bb_language_switcher" style="display:inline-block;"><select  style="width:150px;" name="bb_language_switcher" onchange="location.href=\''.add_query_arg('bblang','',remove_query_arg('bblang')).'=\' + this.options[this.selectedIndex].value;">'."\n" . "<option value=''><!-- default --></option>"	;		
+	$output.= '<form id="bb_language_switcher" style="display:inline-block;"><select  style="width:150px;" name="bb_language_switcher" onchange="location.href=\''.add_query_arg('bblang','',remove_query_arg('bblang')).'=\' + this.options[this.selectedIndex].value;">'."\n" . "<option value=''>Select...</option>"	;		
 	foreach ($bb_language_switcher as $value=>$description) {
 		if ($value==$current) {$selected='" selected="selected"  ';} else {$selected='';}
 		if (empty($value) || $value==" ") {$bk="style='background:#ECE9D8;color:#000;font-weight:bold;' ";} else {$bk="";}	 // highlight english
