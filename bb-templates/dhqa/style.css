@@ -706,7 +706,8 @@ a.rss-link {
 	background-position: 0 50%;
 }
 
-#topic-move { margin-top: 1em; }
+#topic-move { border: none; display: inline;}
+#topic-move fieldset { border: none; display: inline; margin: 0; padding: 0;}
 
 #thread .bb_syntax table {
 	margin: 0;
