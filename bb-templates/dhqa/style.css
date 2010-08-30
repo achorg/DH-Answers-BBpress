@@ -916,6 +916,11 @@ div.social-it ul.socials li.socialit-twitter a {
 /* Login, Register, Profile Edit
 =================================== */
 
+#util-login {
+	float: right;
+	color: #555;
+}
+
 #login-page fieldset,
 #register-page fieldset,
 #profile-page fieldset {

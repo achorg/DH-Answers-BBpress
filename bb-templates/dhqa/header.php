@@ -48,6 +48,15 @@ if ( bb_is_profile() ) {
 </head>
 <body id="<?php bb_location(); ?>">
 	<div class="container prepend-top append-bottom">
+		<?php if ( !bb_is_user_logged_in() ) { ?>
+			<div id="util-login">
+				<?php printf(
+					__( '<a href="%2$s">Log in</a> | <a href="%1$s">Register</a>' ),
+					bb_get_uri( 'register.php', null, BB_URI_CONTEXT_A_HREF + BB_URI_CONTEXT_BB_USER_FORMS ),
+					bb_get_uri( 'bb-login.php', null, BB_URI_CONTEXT_FORM_ACTION + BB_URI_CONTEXT_BB_USER_FORMS )
+				); ?>
+			</div>
+		<?php } ?>
 		<div id="header" role="banner" class="prepend-6 span-18">
 			<a id="ach-logo" href="http://www.ach.org">ACH</a>
 			<h1><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a></h1>
