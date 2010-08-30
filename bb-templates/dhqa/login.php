@@ -43,7 +43,7 @@
 			<input type="submit" value="<?php echo esc_attr( isset($_POST['user_login']) ? __('Try Again &raquo;'): __('Log in &raquo;') ); ?>" />
 			<?php
 			printf(
-				__( '<span id="register-link"><a href="%1$s">Create a New Account &raquo;</a></span>' ),
+				__( '<div id="reg-or">or</div><span id="register-link"><a href="%1$s">Create a New Account &raquo;</a></span>' ),
 				bb_get_uri( 'register.php', null, BB_URI_CONTEXT_A_HREF + BB_URI_CONTEXT_BB_USER_FORMS )
 			);
 			?>

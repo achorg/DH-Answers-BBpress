@@ -328,6 +328,12 @@ form.login input#remember {
 	letter-spacing: 0.022em;
 }
 
+#reg-or {
+	text-transform: lowercase;
+	font-variant: small-caps;
+	font-size: 14px;
+}
+
 form #register-link {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -336,7 +342,6 @@ form #register-link {
 	border:1px solid #999999;
 	font-size:11px;
 	line-height:14px;
-	margin-left:5px;
 	padding:3px 4px;
 }
 
@@ -953,7 +958,7 @@ div.social-it ul.socials li.socialit-twitter a {
 #profile-page fieldset table tr.error th em {
 	position: absolute;
 	/* fieldset:padding-left + table:margin-left + table:width + td:padding-left + input:width + input:padding-right */
-	left: 600px; /* 10 + 15 + 20% * ( 95% * (760 - 10)  ) + 5 + 280 + 5 */
+	left: 700px;
 	margin-left: 1em; /* th:padding-right = 1em */
 	color: red;
 	font-style: normal;
