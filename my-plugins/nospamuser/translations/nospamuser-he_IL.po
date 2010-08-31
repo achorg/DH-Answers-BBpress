@@ -1,0 +1,168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bb-NoSpamUser 0.8\n"
+"Report-Msgid-Bugs-To: http://bbpress.org/plugins/topic/nospamuser/\n"
+"POT-Creation-Date: 2010-01-18 22:49+0000\n"
+"PO-Revision-Date: 2010-01-18 16:55-0600\n"
+"Last-Translator: i18n Bot <i18nbot@llamaslayers.net>\n"
+"Language-Team: i18n Bot <i18nbot@llamaslayers.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: bb-nospamuser.php:64 bb-nospamuser.php:66 bb-nospamuser.php:126
+#, fuzzy
+msgid "Maximum days"
+msgstr "ימים מקסימום"
+
+#: bb-nospamuser.php:72 bb-nospamuser.php:74 bb-nospamuser.php:132
+#, fuzzy
+msgid "Minimum frequency"
+msgstr "תדירות מינימלית"
+
+#: bb-nospamuser.php:80 bb-nospamuser.php:82 bb-nospamuser.php:138
+#, fuzzy
+msgid "Maximum frequency"
+msgstr "תדירות מקסימלית"
+
+#: bb-nospamuser.php:87 bb-nospamuser.php:144
+#, fuzzy
+msgid "Stop Forum Spam API key"
+msgstr "עצור פורום ספאם API מפתח"
+
+#: bb-nospamuser.php:92 bb-nospamuser.php:94 bb-nospamuser.php:150
+#, fuzzy
+msgid "reCAPTCHA mode"
+msgstr "מצב reCAPTCHA"
+
+#: bb-nospamuser.php:99 bb-nospamuser.php:161
+#, fuzzy
+msgid "reCAPTCHA public key"
+msgstr "מפתח ציבורי reCAPTCHA"
+
+#: bb-nospamuser.php:103 bb-nospamuser.php:167
+#, fuzzy
+msgid "reCAPTCHA private key"
+msgstr "המפתח הפרטי reCAPTCHA"
+
+#: bb-nospamuser.php:108 bb-nospamuser.php:173
+#, fuzzy
+msgid "Public statistics"
+msgstr "סטטיסטיקות ציבור"
+
+#: bb-nospamuser.php:113
+#, fuzzy
+msgid "The following settings were updated successfully:"
+msgstr "את ההגדרות הבאות עודכנו בהצלחה:"
+
+#: bb-nospamuser.php:116
+#, fuzzy
+msgid "The following settings had errors and were not updated:"
+msgstr "את ההגדרות הבאות היו טעויות, היו לא מעודכנת:"
+
+#: bb-nospamuser.php:127
+#, fuzzy
+msgid "Any possible spammer that was last active over this many days ago will be allowed through."
+msgstr "כל מפיץ דואר זבל אפשרי כי היה פעיל לאחרונה על זה ימים רבים לפני תותר דרך."
+
+#: bb-nospamuser.php:133
+#, fuzzy
+msgid "Any possible spammer that do not have at least this many reports will be allowed through."
+msgstr "כל מפיץ דואר זבל אפשרי כי אין לי לפחות זה דוחות רבים יורשו דרך."
+
+#: bb-nospamuser.php:139
+#, fuzzy
+msgid "Possible spammers that have at least this many reports will be disallowed in adaptive mode. This also affects agressive mode, where spammers with at least this many reports will be blocked even if the maximum days prerequisite is not met."
+msgstr "שולחי דואר זבל ייתכן כי לפחות זה יהיה הרבה דוחות אסורים במצב גמישים. זה משפיע גם על מצב אגרסיבי, שבו עם שולחי דואר זבל לפחות זה דוחות רבים ייחסמו אפילו אם תנאי מוקדם ימים לכל היותר הוא לא נפגש."
+
+#: bb-nospamuser.php:145
+#, fuzzy
+msgid "Required to submit spammers to Stop Forum Spam. <a href=\"http://www.stopforumspam.com/signup\">Get a Stop Forum Spam API key here</a>."
+msgstr "נדרש לשלוח הספאמרים להפסיק פורום ספאם. <a href=\"http://www.stopforumspam.com/signup\">קבל עצור מפתח API פורום ספאם כאן.</a>"
+
+#: bb-nospamuser.php:151
+#, fuzzy
+msgid "All modes except aggressive require reCAPTCHA public and private keys."
+msgstr "בכל המצבים מלבד אגרסיבי לדרוש מפתחות ציבוריים ופרטיים reCAPTCHA."
+
+#: bb-nospamuser.php:154
+#, fuzzy
+msgid "<strong>Aggressive:</strong> Never allow possible spammers to override blocks."
+msgstr "<strong>תוקפני:</strong> לא לאפשר שולחי דואר זבל אפשרי כדי לעקוף גושי."
+
+#: bb-nospamuser.php:155
+#, fuzzy
+msgid "<strong>Adaptive:</strong> Allow possible spammers between the minimum and maximum frequency to override blocks."
+msgstr "<strong>מסתגלת:</strong> אפשר שולחי דואר זבל אפשרי בין תדירות המינימום והמקסימום כדי לעקוף גושי."
+
+#: bb-nospamuser.php:156
+#, fuzzy
+msgid "<strong>Friendly:</strong> Allow all possible spammers to override blocks."
+msgstr "<strong>ידידותית:</strong> אפשר כל שולחי דואר זבל אפשרי כדי לעקוף גושי."
+
+#: bb-nospamuser.php:162 bb-nospamuser.php:168
+#, php-format, fuzzy
+msgid "<a href=\"%s\">Get it here</a>."
+msgstr "<a href=\"%s\">השג אותו כאן.</a>"
+
+#: bb-nospamuser.php:176
+#, fuzzy
+msgid "Keep all statistics private"
+msgstr "לשמור את כל הנתונים הסטטיסטיים פרטית"
+
+#: bb-nospamuser.php:177
+#, php-format, fuzzy
+msgid "Display the number of caught spammers on the <a href=\"%s\">statistics page</a>."
+msgstr "הצג את מספר הספאמרים נתפס על <a href=\"%s\">דף הסטטיסטיקה.</a>"
+
+#: bb-nospamuser.php:182 bb-nospamuser.php:202
+#, fuzzy
+msgid "bb-NoSpamUser"
+msgstr "BB-NoSpamUser"
+
+#: bb-nospamuser.php:194
+#, fuzzy
+msgid "Save Changes"
+msgstr "שמור שינויים"
+
+#: bb-nospamuser.php:198
+#, php-format, fuzzy
+msgid "%s spammer blocked by bb-NoSpamUser"
+msgid_plural "%s spammers blocked by bb-NoSpamUser"
+msgstr[0] " %s מפיץ דואר זבל נחסם על ידי bb-NoSpamUser"
+
+#: bb-nospamuser.php:261
+#, fuzzy
+msgid "email address"
+msgstr "כתובת דוא&quot;ל"
+
+#: bb-nospamuser.php:262
+#, fuzzy
+msgid "IP address"
+msgstr "כתובת IP"
+
+#: bb-nospamuser.php:263
+#, fuzzy
+msgid "username"
+msgstr "שם המשתמש"
+
+#: bb-nospamuser.php:267
+#, php-format, fuzzy
+msgid "Your %1$s (%2$s) is listed in <a href=\"%3$s\">Stop Forum Spam</a>'s database. You have been automatically blocked. If you are not a spammer, you may <a href=\"http://www.stopforumspam.com/removal\">appeal this listing</a>."
+msgstr "שלך% 1 $ s (% 2 $ s) מופיע <a href=\"%3$s\">עצור פורום ספאם</a> &#39;ים באתר. אתה נחסמו באופן אוטומטי. אם אתה לא מפיץ דואר זבל, אתה עלול <a href=\"http://www.stopforumspam.com/removal\">לערער את הרישום הזה.</a>"
+
+#: bb-nospamuser.php:273
+#, php-format, fuzzy
+msgid "Your %1$s (%2$s) is listed in <a href=\"%3$s\">Stop Forum Spam</a>'s database. You have been automatically blocked. If you are not a spammer, you may <a href=\"http://www.stopforumspam.com/removal\">appeal this listing</a> or solve the CAPTCHA below."
+msgstr "שלך% 1 $ s (% 2 $ s) מופיע <a href=\"%3$s\">עצור פורום ספאם</a> &#39;ים באתר. אתה נחסמו באופן אוטומטי. אם אתה לא מפיץ דואר זבל, אתה עלול <a href=\"http://www.stopforumspam.com/removal\">לערער את הרישום הזה</a> או לפתור את CAPTCHA להלן."
+
+#: bb-nospamuser.php:273
+#, fuzzy
+msgid "Submit"
+msgstr "להגיש"
+
+#: bb-nospamuser.php:345
+#, php-format, fuzzy
+msgid "Spammers blocked by <a href=\"%s\" rel=\"nofollow\">bb-NoSpamUser</a>"
+msgstr "שולחי דואר זבל נחסם על ידי <a href=\"%s\" rel=\"nofollow\">bb-NoSpamUser</a>"

@@ -1,0 +1,168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bb-NoSpamUser 0.8\n"
+"Report-Msgid-Bugs-To: http://bbpress.org/plugins/topic/nospamuser/\n"
+"POT-Creation-Date: 2010-01-18 22:49+0000\n"
+"PO-Revision-Date: 2010-01-18 16:55-0600\n"
+"Last-Translator: i18n Bot <i18nbot@llamaslayers.net>\n"
+"Language-Team: i18n Bot <i18nbot@llamaslayers.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: bb-nospamuser.php:64 bb-nospamuser.php:66 bb-nospamuser.php:126
+#, fuzzy
+msgid "Maximum days"
+msgstr "Maximum dagen"
+
+#: bb-nospamuser.php:72 bb-nospamuser.php:74 bb-nospamuser.php:132
+#, fuzzy
+msgid "Minimum frequency"
+msgstr "Minimumfrequentie"
+
+#: bb-nospamuser.php:80 bb-nospamuser.php:82 bb-nospamuser.php:138
+#, fuzzy
+msgid "Maximum frequency"
+msgstr "Maximale frequentie"
+
+#: bb-nospamuser.php:87 bb-nospamuser.php:144
+#, fuzzy
+msgid "Stop Forum Spam API key"
+msgstr "Stop Spam Forum API-sleutel"
+
+#: bb-nospamuser.php:92 bb-nospamuser.php:94 bb-nospamuser.php:150
+#, fuzzy
+msgid "reCAPTCHA mode"
+msgstr "reCAPTCHA modus"
+
+#: bb-nospamuser.php:99 bb-nospamuser.php:161
+#, fuzzy
+msgid "reCAPTCHA public key"
+msgstr "reCAPTCHA publieke sleutel"
+
+#: bb-nospamuser.php:103 bb-nospamuser.php:167
+#, fuzzy
+msgid "reCAPTCHA private key"
+msgstr "reCAPTCHA private sleutel"
+
+#: bb-nospamuser.php:108 bb-nospamuser.php:173
+#, fuzzy
+msgid "Public statistics"
+msgstr "Openbare statistieken"
+
+#: bb-nospamuser.php:113
+#, fuzzy
+msgid "The following settings were updated successfully:"
+msgstr "De volgende instellingen zijn bijgewerkt:"
+
+#: bb-nospamuser.php:116
+#, fuzzy
+msgid "The following settings had errors and were not updated:"
+msgstr "De volgende instellingen hebben fouten en waren niet bijgewerkt:"
+
+#: bb-nospamuser.php:127
+#, fuzzy
+msgid "Any possible spammer that was last active over this many days ago will be allowed through."
+msgstr "Eventuele spammer die het laatst actief was gedurende deze vele dagen geleden zullen worden toegestaan door."
+
+#: bb-nospamuser.php:133
+#, fuzzy
+msgid "Any possible spammer that do not have at least this many reports will be allowed through."
+msgstr "Eventuele spammer die niet beschikken over ten minste dit veel verslagen zullen worden toegestaan door."
+
+#: bb-nospamuser.php:139
+#, fuzzy
+msgid "Possible spammers that have at least this many reports will be disallowed in adaptive mode. This also affects agressive mode, where spammers with at least this many reports will be blocked even if the maximum days prerequisite is not met."
+msgstr "Mogelijke spammers die ten minste dit veel verslagen zullen worden afgewezen in de adaptieve modus. Dit beïnvloedt ook agressieve modus, waarin spammers met minstens zoveel verslagen zullen worden geblokkeerd, zelfs als het maximale aantal dagen voorwaarde niet is voldaan."
+
+#: bb-nospamuser.php:145
+#, fuzzy
+msgid "Required to submit spammers to Stop Forum Spam. <a href=\"http://www.stopforumspam.com/signup\">Get a Stop Forum Spam API key here</a>."
+msgstr "Verplicht in te dienen spammers forum Spam Stop. <a href=\"http://www.stopforumspam.com/signup\">Ontvang een Stop-forum Spam API-sleutel hier.</a>"
+
+#: bb-nospamuser.php:151
+#, fuzzy
+msgid "All modes except aggressive require reCAPTCHA public and private keys."
+msgstr "Alle modi behalve agressief vereisen reCAPTCHA publieke en private sleutels."
+
+#: bb-nospamuser.php:154
+#, fuzzy
+msgid "<strong>Aggressive:</strong> Never allow possible spammers to override blocks."
+msgstr "<strong>Agressief:</strong> Laat nooit mogelijk spammers blokken overschrijven."
+
+#: bb-nospamuser.php:155
+#, fuzzy
+msgid "<strong>Adaptive:</strong> Allow possible spammers between the minimum and maximum frequency to override blocks."
+msgstr "<strong>Adaptieve:</strong> Laat spammers mogelijk tussen het minimale en maximale frequentie blokken overschrijven."
+
+#: bb-nospamuser.php:156
+#, fuzzy
+msgid "<strong>Friendly:</strong> Allow all possible spammers to override blocks."
+msgstr "<strong>Vriendschappelijk:</strong> Laat alle mogelijke spammers blokken overschrijven."
+
+#: bb-nospamuser.php:162 bb-nospamuser.php:168
+#, php-format, fuzzy
+msgid "<a href=\"%s\">Get it here</a>."
+msgstr "<a href=\"%s\">Get it here.</a>"
+
+#: bb-nospamuser.php:176
+#, fuzzy
+msgid "Keep all statistics private"
+msgstr "Houd alle statistieken prive"
+
+#: bb-nospamuser.php:177
+#, php-format, fuzzy
+msgid "Display the number of caught spammers on the <a href=\"%s\">statistics page</a>."
+msgstr "Weergave van het aantal gevangen spammers op de <a href=\"%s\">statistieken pagina.</a>"
+
+#: bb-nospamuser.php:182 bb-nospamuser.php:202
+#, fuzzy
+msgid "bb-NoSpamUser"
+msgstr "bb-NoSpamUser"
+
+#: bb-nospamuser.php:194
+#, fuzzy
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: bb-nospamuser.php:198
+#, php-format, fuzzy
+msgid "%s spammer blocked by bb-NoSpamUser"
+msgid_plural "%s spammers blocked by bb-NoSpamUser"
+msgstr[0] " %s spammer geblokkeerd door bb-NoSpamUser"
+
+#: bb-nospamuser.php:261
+#, fuzzy
+msgid "email address"
+msgstr "emailadres"
+
+#: bb-nospamuser.php:262
+#, fuzzy
+msgid "IP address"
+msgstr "IP-adres"
+
+#: bb-nospamuser.php:263
+#, fuzzy
+msgid "username"
+msgstr "gebruikersnaam"
+
+#: bb-nospamuser.php:267
+#, php-format, fuzzy
+msgid "Your %1$s (%2$s) is listed in <a href=\"%3$s\">Stop Forum Spam</a>'s database. You have been automatically blocked. If you are not a spammer, you may <a href=\"http://www.stopforumspam.com/removal\">appeal this listing</a>."
+msgstr "Uw% 1 $ s (% 2 $ s) is opgenomen in <a href=\"%3$s\">Forum Stop Spam</a> &#39;s database. Je hebt automatisch geblokkeerd. Als u niet een spammer, kunt u <a href=\"http://www.stopforumspam.com/removal\">beroep aantekenen tegen deze vermelding.</a>"
+
+#: bb-nospamuser.php:273
+#, php-format, fuzzy
+msgid "Your %1$s (%2$s) is listed in <a href=\"%3$s\">Stop Forum Spam</a>'s database. You have been automatically blocked. If you are not a spammer, you may <a href=\"http://www.stopforumspam.com/removal\">appeal this listing</a> or solve the CAPTCHA below."
+msgstr "Uw% 1 $ s (% 2 $ s) is opgenomen in <a href=\"%3$s\">Forum Stop Spam</a> &#39;s database. Je hebt automatisch geblokkeerd. Als u niet een spammer, kunt u <a href=\"http://www.stopforumspam.com/removal\">beroep aantekenen tegen deze lijst</a> of het oplossen van de CAPTCHA hieronder."
+
+#: bb-nospamuser.php:273
+#, fuzzy
+msgid "Submit"
+msgstr "Indienen"
+
+#: bb-nospamuser.php:345
+#, php-format, fuzzy
+msgid "Spammers blocked by <a href=\"%s\" rel=\"nofollow\">bb-NoSpamUser</a>"
+msgstr "Spammers geblokkeerd door <a href=\"%s\" rel=\"nofollow\">bb-NoSpamUser</a>"
