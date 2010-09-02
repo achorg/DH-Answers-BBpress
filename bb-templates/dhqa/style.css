@@ -985,9 +985,13 @@ div.social-it ul.socials li.socialit-twitter a {
 #profile-page fieldset table th {
 	padding: 5px;
 	text-align: right;
-	width: 30%;
+	width: 20%;
 	vertical-align: top;
 	padding-right: 1em;
+}
+
+#login-page #login-form fieldset table th {
+	width: 30%;
 }
 
 #login-page fieldset table tr.error th em,
@@ -1046,7 +1050,7 @@ p.required-message:before {
 	vertical-align: 10%;
 }
 
-#register-page tr.form-required {
+#register-page tr.form-non-required {
 	display: none;
 	visibility: hidden;
 }
