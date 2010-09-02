@@ -40,7 +40,7 @@ function post_form_auto_add_checkbox() {
 		echo '
 		<p>
 			<input type="checkbox" name="add_to_my_favorites" id="add_to_my_favorites" value="1"'.$checked.' />
-			<label for="add_to_my_favorites" style="display:inline;">Add this thread to my favorites </label>
+			<label for="add_to_my_favorites" style="display:inline;">Add this question to my favorites </label>
 			<span> (change your default <a href="'.attribute_escape(get_profile_tab_link($bb_current_user->ID, 'edit')).'">here</a>)</span>
 		</p>';
 	}

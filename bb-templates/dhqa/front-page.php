@@ -6,9 +6,9 @@
 <h2>About</h2>
 <p>We're building a community-based Q&A board for digital humanities questions that need (just a little) more than 140 character answers.</p>
 <p><a href="http://chronicle.com/blog/ProfHacker/27/" id="ph-logo"><img alt="ProfHacker" title="ProfHacker" src="<?php echo(bb_active_theme_uri().'images/ph-icon.png'); ?>"/></a><strong><a href="http://twitter.com/dhanswers">@DHAnswers</a></strong> is a collaborative project of the <a href="http://www.ach.org">Association for Computers and the Humanities</a> (ACH) and the Chronicle of Higher Education's <a href="http://chronicle.com/blog/ProfHacker/27/">ProfHacker</a>.</p>
-<p><a href="http://www.twitter.com/DHAnswers"><img src="http://twitter-badges.s3.amazonaws.com/t_mini-a.png" alt="Follow DHAnswers on Twitter"/>Follow the conversation on Twitter</a>.</p>
-<h2>How to</h2>
-<p><a href="/answers/bb-login.php">Create an account</a> and <?php bb_new_topic_link('ask a question'); ?> </p>
+<p><a id="follow-us" href="http://www.twitter.com/DHAnswers">Follow @DHAnswers on Twitter</a></p>
+<!-- <h2>How to</h2>
+<p><a href="/answers/bb-login.php">Create an account</a> and <?php bb_new_topic_link('ask a question'); ?> </p> -->
 <h2><?php _e('Popular Tags'); ?></h2>
 <p class="frontpageheatmap"><?php bb_tag_heat_map(); ?></p>
 
@@ -87,7 +87,7 @@
 
 <?php else : // $forums ?>
 
-<div class="bbcrumb"><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a> &raquo; <?php _e('Add New Topic'); ?></div>
+<div class="bbcrumb"><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a> &raquo; <?php _e('Ask a New Question'); ?></div>
 
 <?php post_form(); endif; // $forums ?>
 

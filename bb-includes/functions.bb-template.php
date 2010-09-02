@@ -273,9 +273,9 @@ function post_form( $args = array() ) {
 		if ( bb_is_topic() ) {
 			$h2 = __( 'Reply' );
 		} elseif ( bb_is_forum() ) {
-			$h2 = __( 'New Topic in this Forum' );
+			$h2 = __( 'Ask a New Question in This Category' );
 		} elseif ( bb_is_tag() || bb_is_front() ) {
-			$h2 = __( 'Add New Topic' );
+			$h2 = __( 'Ask a New Question' );
 		}
 	}
 
