@@ -349,16 +349,16 @@ form.login input#remember {
 	-webkit-background-clip: padding-box;
 }
 
-form #register-link:hover {
+#register-link:hover {
 	background:none repeat scroll 0 0 #eee;
 }
 
-form #register-link a {
+#register-link a {
 	color: #000;
 	text-decoration: none;
 }
 
-form #register-link a:hover {
+#register-link a:hover {
 	color: #400;
 	text-decoration: none;
 }
@@ -990,7 +990,7 @@ div.social-it ul.socials li.socialit-twitter a {
 	padding-right: 1em;
 }
 
-#login-page #login-form fieldset table th {
+#login-page .login-form fieldset table th {
 	width: 30%;
 }
 
