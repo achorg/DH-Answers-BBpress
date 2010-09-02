@@ -6,8 +6,18 @@
 <h2 id="userlogin" role="main"><?php isset($_POST['user_login']) ? _e('Log in Failed') : _e('Log in') ; ?></h2>
 <fieldset>
 	<legend>With OpenID</legend>
-	<label for="openid_url">OpenID URL</label>
-	<input id="openid_identity" name="openid_identity" />
+	<table>
+		<tbody>
+		<tr class="form-field">
+			<th scope="row">
+				<label for="openid_url">OpenID URL</label>
+			</th>
+			<td>
+				<input id="openid_identity" name="openid_identity" type="text"/>
+			</td>
+		</tr>
+		</tbody>
+	</table>
 </fieldset>
 <fieldset>
 <legend>With DHAnswers User Name and Password</legend>

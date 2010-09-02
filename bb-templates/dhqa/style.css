@@ -337,7 +337,7 @@ form.login input#remember {
 	padding: 5px;
 }
 
-form #register-link {
+#register-link {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
@@ -985,7 +985,7 @@ div.social-it ul.socials li.socialit-twitter a {
 #profile-page fieldset table th {
 	padding: 5px;
 	text-align: right;
-	width: 20%;
+	width: 30%;
 	vertical-align: top;
 	padding-right: 1em;
 }
@@ -1046,6 +1046,11 @@ p.required-message:before {
 	vertical-align: 10%;
 }
 
+#register-page tr.form-required {
+	display: none;
+	visibility: hidden;
+}
+
 #login-page .login-form {
 	width: 475px;
 	float: left;
@@ -1058,6 +1063,11 @@ p.required-message:before {
 
 #passwordrecovery {
 	clear: both;
+}
+
+#openid_identity {
+	padding-left: 20px; 
+	background: url("/answers/my-plugins/openid-plus/openid.png") no-repeat scroll left center rgb(255, 255, 255);
 }
 
 .form-invalid {
