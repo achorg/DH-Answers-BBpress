@@ -37,6 +37,8 @@ if ( is_array($profile_info_keys) ) :
 		$class = 'form-field';
 		if ( $label[0] ) {
 			$class .= ' form-required required';
+		} else {
+			$class .= ' form-non-required non-required';
 		}
 		if ( $profile_info_key_error = $bb_register_error->get_error_message( $key ) )
 			$class .= ' form-invalid error';
