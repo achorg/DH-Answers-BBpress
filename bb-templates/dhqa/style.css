@@ -1074,6 +1074,11 @@ p.required-message:before {
 	background: url("/answers/my-plugins/openid-plus/openid.png") no-repeat scroll left center rgb(255, 255, 255);
 }
 
+#login-page .login-form .form-field #openid_identity {
+	width: 260px;
+	padding-left: 20px;
+}
+
 .form-invalid {
 	background-color: #ffebe8 !important;
 }
@@ -1125,6 +1130,7 @@ p.required-message:before {
 #recaptcha_widget_div, p.recaptcha, #register-page #main .submit {
 	margin-left: 205px;
 }
+#register-page #main .submit { padding-top: 20px; }
 
 /* SIDEBAR */
 
