@@ -28,8 +28,9 @@ function tweet_new_topic($topic_id, $topic_title) {
 	$password = '';
 	
 	// do a simple command-line curl with the status
+	// we use twurl for Twitter OAuth
 	// TODO: check return status
-	 exec("curl -u $username:$password -d status=" . escapeshellarg($message) . " http://api.twitter.com/1/statuses/update.json", $output, $return);
+	 exec("twurl -d status=" . escapeshellarg($message) . " /1/statuses/update.json", $output, $return);
 	}
 	return $topic_title;
 }

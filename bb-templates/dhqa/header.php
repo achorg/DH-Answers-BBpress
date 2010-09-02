@@ -57,7 +57,10 @@ if ( bb_is_profile() ) {
 				); ?>
 		<?php } else { ?>
 			<?php if($bb_current_user->has_cap('administrate') || $bb_current_user->has_cap('moderate')) { ?>
-			<?php bb_admin_link();?>
+			<?php
+				bb_admin_link();
+				echo ' | '; 
+			?>
 			<?php } ?>
 			<?php bb_logout_link(); ?>			
 		<?php }?>
