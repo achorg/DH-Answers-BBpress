@@ -65,6 +65,7 @@ input[type="submit"] {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
+	-webkit-background-clip: padding-box;
 	font-size: 11px;
 	
 }
@@ -122,6 +123,7 @@ img.avatar { border: 1px solid #ddd; }
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
+	-webkit-background-clip: padding-box;
 	float: right;
 	padding-top: 2px;
 }
@@ -140,7 +142,7 @@ div.search input {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
-	
+	-webkit-background-clip: padding-box;
 }
 
 #main {
@@ -205,7 +207,7 @@ div.search input {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
-	
+	-webkit-background-clip: padding-box;
 	}
 
 .header-button:hover {
@@ -247,7 +249,7 @@ form.login input {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
-	
+	-webkit-background-clip: padding-box;
 }
 
 form.search-form input[type="text"] {
@@ -273,7 +275,7 @@ form.login input.submit {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
-	
+	-webkit-background-clip: padding-box;
 }
 
 form.login input.submit:hover {
@@ -343,6 +345,7 @@ form #register-link {
 	font-size:11px;
 	line-height:14px;
 	padding:3px 4px;
+	-webkit-background-clip: padding-box;
 }
 
 form #register-link:hover {
@@ -364,6 +367,7 @@ form #register-link a:hover {
 .sticky { background-color: #ffd; }
 .sticky:hover { background-color: #ffc; }
 .sticky big { font-size: inherit; }
+.sticky td { border-bottom: 1px dotted #dda;}
 
 /* Page navigation
 =================================== */
@@ -461,7 +465,7 @@ input#tag {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
-	
+	-webkit-background-clip: padding-box;	
 }
 
 input#tagformsub {
@@ -474,7 +478,7 @@ input#tagformsub {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
-	
+	-webkit-background-clip: padding-box;
 }
 
 input#tagformsub:hover {
@@ -527,6 +531,7 @@ input#tagformsub:active {
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
+	-webkit-background-clip: padding-box;
 }	
 
 #thread li.alt .threadpost { background-color: #eee; }
@@ -554,7 +559,7 @@ input#tagformsub:active {
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
-	
+	-webkit-background-clip: padding-box;
 }
 
 #thread li.pingback.alt {
@@ -644,7 +649,7 @@ h2.post-form {
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
-	
+	-webkit-background-clip: padding-box;
 }
 
 .postform textarea {
@@ -658,7 +663,7 @@ h2.post-form {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
-	
+	-webkit-background-clip: padding-box;
 }
 
 .postform label { display: block; }
@@ -673,7 +678,7 @@ h2.post-form {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
-	
+	-webkit-background-clip: padding-box;
 }
 
 .postform p#post-form-forum-container label span {
@@ -915,7 +920,7 @@ div.social-it ul.socials li.socialit-twitter a {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
-	
+	-webkit-background-clip: padding-box;
 }
 
 #search-for { margin: 15px 0 5px; }
@@ -944,6 +949,7 @@ div.social-it ul.socials li.socialit-twitter a {
 	border-bottom: 1px solid #aaa;
 	border-right: 1px solid #aaa;	
 	border-right: 1px solid #aaa;
+	-webkit-background-clip: padding-box;
 }
 
 #login-page fieldset,
@@ -1020,6 +1026,7 @@ div.social-it ul.socials li.socialit-twitter a {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
+	-webkit-background-clip: padding-box;
 }
 
 #login-page fieldset p,
@@ -1061,6 +1068,7 @@ p.required-message:before {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
+	-webkit-background-clip: padding-box;
 	
 }
 
