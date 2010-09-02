@@ -4,45 +4,21 @@
 
 <div id="sidebar" role="main" class="span-6">
 <h2>About</h2>
+<p>We're building a community-based Q&A board for digital humanities questions that need (just a little) more than 140 character answers.</p>
 <p><a href="http://chronicle.com/blog/ProfHacker/27/" id="ph-logo"><img alt="ProfHacker" title="ProfHacker" src="<?php echo(bb_active_theme_uri().'images/ph-icon.png'); ?>"/></a><strong><a href="http://twitter.com/dhanswers">@DHAnswers</a></strong> is a collaborative project of the <a href="http://www.ach.org">Association for Computers and the Humanities</a> (ACH) and the Chronicle of Higher Education's <a href="http://chronicle.com/blog/ProfHacker/27/">ProfHacker</a>.</p>
+<p><a href="http://www.twitter.com/DHAnswers"><img src="http://twitter-badges.s3.amazonaws.com/t_mini-a.png" alt="Follow DHAnswers on Twitter"/>Follow the conversation on Twitter</a>.</p>
 <h2>How to</h2>
-<p><a href="/answers/bb-login.php">Make an account</a> and <?php bb_new_topic_link('ask a question'); ?> or add your Twitter user name to <?php bb_profile_link('your profile'); ?> and tweet your question using the hashtag <a href="http://search.twitter.com/search?q=%23DHanswers">#DHanswers</a>.  Other tags like #ruby and #video will transfer, too!</p>
+<p><a href="/answers/bb-login.php">Create an account</a> and <?php bb_new_topic_link('ask a question'); ?> </p>
 <h2><?php _e('Popular Tags'); ?></h2>
 <p class="frontpageheatmap"><?php bb_tag_heat_map(); ?></p>
-<h2><?php _e('@DHAnswers'); ?></h2>
-<div id="twitter_feed">
-	<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-	<script>
-	new TWTR.Widget({
-	  version: 2,
-	  type: 'profile',
-	  rpp: 4,
-	  interval: 6000,
-	  width: 'auto',
-	  height: 300,
-	  theme: {
-	    shell: {
-	      background: '#ffffff',
-	      color: '#000000'
-	    },
-	    tweets: {
-	      background: '#ffffff',
-	      color: '#000',
-	      links: '#00f'
-	    }
-	  },
-	  features: {
-	    scrollbar: false,
-	    loop: false,
-	    live: true,
-	    hashtags: true,
-	    timestamp: true,
-	    avatars: false,
-	    behavior: 'all'
-	  }
-	}).render().setUser('dhanswers').start();
-	</script>
-</div>
+
+<h2><?php _e('Find Questions'); ?></h2>
+<ul id="views">
+<?php foreach ( bb_get_views() as $the_view => $title ) : ?>
+<li class="view"><a href="<?php view_link( $the_view ); ?>"><?php view_name( $the_view ); ?></a></li>
+<?php endforeach; ?>
+</ul>
+
 </div>
 
 <div id="discussions" class="span-18 last">
@@ -106,14 +82,6 @@
 </table>
 <?php endif; // bb_forums() ?>
 
-<div id="viewdiv">
-<h2><?php _e('Find Questions'); ?></h2>
-<ul id="views">
-<?php foreach ( bb_get_views() as $the_view => $title ) : ?>
-<li class="view"><a href="<?php view_link( $the_view ); ?>"><?php view_name( $the_view ); ?></a></li>
-<?php endforeach; ?>
-</ul>
-</div>
 
 </div>
 

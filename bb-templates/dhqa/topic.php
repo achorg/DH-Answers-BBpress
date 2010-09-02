@@ -44,7 +44,7 @@
 <?php if ( topic_is_open( $bb_post->topic_id ) ) : ?>
 <?php post_form(); ?>
 <?php else : ?>
-<h2><?php _e('Topic Closed') ?></h2>
+<h2><?php _e('Question Closed') ?></h2>
 <p><?php _e('This topic has been closed to new replies.') ?></p>
 <?php endif; ?>
 <?php if ( bb_current_user_can( 'delete_topic', get_topic_id() ) || bb_current_user_can( 'close_topic', get_topic_id() ) || bb_current_user_can( 'stick_topic', get_topic_id() ) || bb_current_user_can( 'move_topic', get_topic_id() ) ) : ?>

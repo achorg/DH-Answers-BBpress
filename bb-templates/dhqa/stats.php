@@ -10,7 +10,7 @@
 </dl>
 
 <?php if ($popular) : ?>
-<h3><?php _e('Most Popular Topics'); ?></h3>
+<h3><?php _e('Most Popular Questions'); ?></h3>
 <ol>
 <?php foreach ($popular as $topic) : ?>
 <li><?php bb_topic_labels(); ?> <a href="<?php topic_link(); ?>"><?php topic_title(); ?></a> &#8212; <?php topic_posts(); ?> posts</li>

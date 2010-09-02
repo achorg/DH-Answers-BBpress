@@ -958,7 +958,7 @@ function bb_get_view_query_args( $view ) {
 function bb_register_default_views() {
 	// no posts (besides the first one), older than 2 hours
 	bb_register_view( 'no-replies', __('Questions with no answers'), array( 'post_count' => 1, 'started' => '<' . gmdate( 'YmdH', time() - 7200 ) ) );
-	bb_register_view( 'untagged'  , __('Questions with no tags')   , array( 'tag_count'  => 0 ) );
+	// bb_register_view( 'untagged'  , __('Questions with no tags')   , array( 'tag_count'  => 0 ) );
 }
 
 /* Feeds */

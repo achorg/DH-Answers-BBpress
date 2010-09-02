@@ -60,13 +60,13 @@
 </div>
 
 <div id="user-threads" class="user-recent">
-<h4><?php _e('Topics Started') ?></h4>
+<h4><?php _e('Questions Asked') ?></h4>
 <?php if ( $topics ) : ?>
 <ol>
 <?php foreach ($topics as $topic) : ?>
 <li<?php alt_class('topics'); ?>>
 	<a href="<?php topic_link(); ?>"><?php topic_title(); ?></a> -
-	<?php printf(__('Started: %s ago'), get_topic_start_time()); ?> |
+	<?php printf(__('Asked: %s ago'), get_topic_start_time()); ?> |
 
 	<span class="freshness"><?php
 		if ( get_topic_start_time( 'timestamp' ) < get_topic_time( 'timestamp' ) )
