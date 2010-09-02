@@ -56,7 +56,12 @@ if ( bb_is_profile() ) {
 					bb_get_uri( 'bb-login.php', null, BB_URI_CONTEXT_FORM_ACTION + BB_URI_CONTEXT_BB_USER_FORMS )
 				); ?>
 			</div>
-		<?php } ?>
+		<?php } else { ?>
+			<?php if($bb_current_user->has_cap('administrate') || $bb_current_user->has_cap('moderate')) { ?>
+			<?php bb_admin_link();?>
+			<?php } ?>
+			<?php bb_logout_link(); ?>			
+		<?php }?>
 		<div id="header" role="banner" class="prepend-6 span-18">
 			<a id="ach-logo" href="http://www.ach.org">ACH</a>
 			<h1><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a></h1>
