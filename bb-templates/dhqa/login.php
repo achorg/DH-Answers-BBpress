@@ -2,10 +2,15 @@
 
 <div class="bbcrumb"><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a> &raquo; <?php _e('Log in'); ?></div>
 
+<form class="login-form" method="post" action="<?php bb_uri('bb-login.php', null, BB_URI_CONTEXT_FORM_ACTION + BB_URI_CONTEXT_BB_USER_FORMS); ?>">
 <h2 id="userlogin" role="main"><?php isset($_POST['user_login']) ? _e('Log in Failed') : _e('Log in') ; ?></h2>
-
-<form method="post" action="<?php bb_uri('bb-login.php', null, BB_URI_CONTEXT_FORM_ACTION + BB_URI_CONTEXT_BB_USER_FORMS); ?>">
 <fieldset>
+	<legend>With OpenID</legend>
+	<label for="openid_url">OpenID URL</label>
+	<input id="openid_identity" name="openid_identity" />
+</fieldset>
+<fieldset>
+<legend>With DHAnswers User Name and Password</legend>
 <table>
 <?php
 	$user_login_error = $bb_login_error->get_error_message( 'user_login' );
@@ -41,12 +46,6 @@
 		<td>
 			<input name="re" type="hidden" value="<?php echo $redirect_to; ?>" />
 			<input type="submit" value="<?php echo esc_attr( isset($_POST['user_login']) ? __('Try Again &raquo;'): __('Log in &raquo;') ); ?>" />
-			<?php
-			printf(
-				__( '<div id="reg-or">or</div><span id="register-link"><a href="%1$s">Create a New Account &raquo;</a></span>' ),
-				bb_get_uri( 'register.php', null, BB_URI_CONTEXT_A_HREF + BB_URI_CONTEXT_BB_USER_FORMS )
-			);
-			?>
 			<?php wp_referer_field(); ?>
 		</td>
 	</tr>
@@ -54,7 +53,15 @@
 
 </fieldset>
 </form>
-
+<div class="register-container">
+<h2 id="userreg" role="main"><?php _e('Register'); ?></h2>
+	<?php
+	printf(
+		__( '<span id="register-link"><a href="%1$s">Create a New Account &raquo;</a></span>' ),
+		bb_get_uri( 'register.php', null, BB_URI_CONTEXT_A_HREF + BB_URI_CONTEXT_BB_USER_FORMS )
+	);
+	?>
+</div>
 <h2 id="passwordrecovery"><?php _e( 'Password Recovery' ); ?></h2>
 <form method="post" action="<?php bb_uri('bb-reset-password.php', null, BB_URI_CONTEXT_FORM_ACTION + BB_URI_CONTEXT_BB_USER_FORMS); ?>">
 <fieldset>

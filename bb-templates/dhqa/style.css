@@ -334,6 +334,7 @@ form.login input#remember {
 	text-transform: lowercase;
 	font-variant: small-caps;
 	font-size: 14px;
+	padding: 5px;
 }
 
 form #register-link {
@@ -946,9 +947,9 @@ div.social-it ul.socials li.socialit-twitter a {
 	-o-border-radius:      0 0 4px 4px;
 	-ms-border-radius:     0 0 4px 4px;
 	border-radius:         0 0 4px 4px;
-	border-bottom: 1px solid #aaa;
+	border-bottom: 1px solid #888;
 	border-right: 1px solid #aaa;	
-	border-right: 1px solid #aaa;
+	border-left: 1px solid #aaa;
 	-webkit-background-clip: padding-box;
 }
 
@@ -1043,6 +1044,20 @@ p.required-message:before {
 	content: ' * ';
 	color: red;
 	vertical-align: 10%;
+}
+
+#login-page .login-form {
+	width: 475px;
+	float: left;
+}
+
+#login-page .register-container {
+	width: 475px;
+	float: left;
+}
+
+#passwordrecovery {
+	clear: both;
 }
 
 .form-invalid {
