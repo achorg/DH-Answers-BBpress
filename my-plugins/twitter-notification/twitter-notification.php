@@ -7,6 +7,8 @@
  * Plugin URI: http://lib.virginia.edu/scholarslab/
  * Version: 0.1
  */
+
+require 'tweet.php';
  
 function tweet_new_topic($topic_id, $topic_title) {
 	global $bb_post;
@@ -23,14 +25,9 @@ function tweet_new_topic($topic_id, $topic_title) {
 	$message = "New ? at @DHAnswers: " . $t_title . " ($shorturl[0])";
 	if (strlen($message)>140) {$message = substr($message,0,139) . '…';}
 
-	// Set username and password
-	$username = '';
-	$password = '';
-	
-	// do a simple command-line curl with the status
-	// we use twurl for Twitter OAuth
+	// New Tweet using Twitter OAuth
 	// TODO: check return status
-	 exec("twurl -d status=" . escapeshellarg($message) . " /1/statuses/update.json", $output, $return);
+	 bb_post_tweet($message);
 	}
 	return $topic_title;
 }
