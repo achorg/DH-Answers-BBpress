@@ -9,7 +9,7 @@
 
 <?php endif; do_action( 'post_form_pre_post' ); ?>
 <p id="post-form-post-container">
-	<label for="post_content"><?php _e('Message'); ?>
+	<label for="post_content"><?php _e('More detail'); ?>
 		<textarea name="post_content" cols="50" rows="8" id="post_content" tabindex="3"></textarea>
 	</label>
 </p>
@@ -26,7 +26,7 @@
 </p>
 <?php endif; ?>
 <p id="post-form-submit-container" class="submit">
-  <input type="submit" id="postformsub" name="Submit" value="<?php echo esc_attr__( 'Send Message &raquo;' ); ?>" tabindex="4" />
+  <input type="submit" id="postformsub" name="Submit" value="<?php echo esc_attr__( 'Post My Question &raquo;' ); ?>" tabindex="4" />
 </p>
 
 <p id="post-form-allowed-container" class="allowed"><?php _e('You may use the following HTML elements:'); ?> <code><?php allowed_markup(); ?></code>.</p>

@@ -13,7 +13,7 @@
 </div>
 <?php elseif ( $user_id == bb_get_current_user_info( 'id' ) ) : ?>
 <p>
-<?php _e('This is how your profile appears to a logged in member.'); ?>
+<?php _e('This is how your profile appears to a logged in member. Your email address is hidden to everyone except site administrators and you.'); ?>
 
 <?php if (bb_current_user_can( 'edit_user', $user->ID )) : ?>
 <?php printf(__('You may <a href="%1$s">edit this information</a>.'), esc_attr( get_profile_tab_link( $user_id, 'edit' ) ) ); ?>
