@@ -5,7 +5,7 @@
 <form class="login-form" method="post" action="<?php bb_uri('bb-login.php', null, BB_URI_CONTEXT_FORM_ACTION + BB_URI_CONTEXT_BB_USER_FORMS); ?>">
 <h2 id="userlogin" role="main"><?php isset($_POST['user_login']) ? _e('Log in Failed') : _e('Log in') ; ?></h2>
 <fieldset>
-	<legend>With OpenID <span id="openid-note">(GMail address, Yahoo! Mail address, or <a href="http://openid.net/get-an-openid/">other OpenID credentials</a>)</span></legend>
+	<legend>With OpenID <span id="openid-note">(GMail, Yahoo!, or other <a href='http://openid.net/get-an-openid/'>OpenID account</a>)</span></legend>
 	<table>
 		<tbody>
 		<tr class="form-field">
