@@ -22,7 +22,7 @@ function tweet_new_topic($topic_id, $topic_title) {
 	//shorten URL
 	exec("curl http://is.gd/api.php?longurl=" . $t_link, $shorturl);
 	
-	$message = "New ? at @DHAnswers: " . $t_title . " ($shorturl[0])";
+	$message = "New ? at DHAnswers: " . $t_title . " ($shorturl[0])";
 	if (strlen($message)>140) {$message = substr($message,0,139) . '…';}
 
 	// New Tweet using Twitter OAuth
@@ -34,14 +34,14 @@ function tweet_new_topic($topic_id, $topic_title) {
 
 // call preview_tweet() in template to display preview of new topic tweet
 function preview_tweet() {
-	echo '<p id="twitter_topic_preview" style="display: none;">' . _e('This question will be posted to Twitter as follows: ') . '<span id="tweet_preview"></span>
+	echo '<p id="twitter_topic_preview" style="display: none;">' . _e('<a href="http://twitter.com/DHAnswers">@DHAnswers</a> will tweet your question, too: ') . '<span id="tweet_preview"></span>
 		<input type="hidden" name="tweet" />
 		<script type="text/javascript">
 			jQuery("#topic").keyup(function() {
 				if (jQuery("#twitter_topic_preview").is(":hidden")) {
 					jQuery("#twitter_topic_preview").show();
 				}
-				var tweet = "@dhanswers new topic: " + jQuery("#topic").val();
+				var tweet = "@DHAnswers: New ? at DHAnswers: " + jQuery("#topic").val() + "(<em>link</em>)";
 				if (tweet.length > 140) { // useless for now since topic is limited to 50 chars
 					tweet = tweet.substring("0,139") + "…";
 				}
