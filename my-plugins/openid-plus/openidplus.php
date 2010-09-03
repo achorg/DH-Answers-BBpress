@@ -11,7 +11,7 @@ License: CC-GNU-GPL http://creativecommons.org/licenses/GPL/2.0/
 Donate: http://www.binaryturf.com/donate-and-contribute/
 */
 
-$openid_options['profile_text']="OpenID";
+$openid_options['profile_text']="Use OpenID";
 $openid_options['add_text']="Add OpenID providers to your account";
 $openid_options['remove_text']="Remove OpenID provider";
 $openid_options['register_text']="(GMail address, Yahoo! Mail address, or <a href='http://openid.net/get-an-openid/'>other OpenID credentials</a>)";
@@ -470,7 +470,7 @@ function oid_register()
 			echo "<div  style='color:#000;width:75%;overflow:hidden;padding:3px 10px;background:#FFF6BF;border:1px solid #FFD324;'>".substr(addslashes(strip_tags($_GET['openid_error'],"<br>")),0,200)."</div>";
 			}
 
-		echo '<p>'.$instructions.'</p><table><tr class="form-field"><th scope="row"><label for="openid_url">Use OpenID</label></th>';
+		echo '<p>'.$instructions.'</p><table><tr class="form-field"><th scope="row"><label for="openid_url">OpenID</label></th>';
 
 		echo '<td><input value="'.$value.'"  name="openid_identity" id="openid_identity"  style="padding-left:20px;  background: #fff url('.$openid_options['icon'].') no-repeat center left;" type="text" />'; 
 
