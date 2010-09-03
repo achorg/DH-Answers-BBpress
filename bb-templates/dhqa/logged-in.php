@@ -3,4 +3,4 @@
 <?php } else { ?>
 <span class="header-button ask-link"><?php bb_new_topic_link('Ask a Question'); ?></span>
 <?php } ?>
-<span class="header-button profile-link"><?php bb_profile_link('My Profile'); ?></span>
+<!-- <span class="header-button profile-link"><?php bb_profile_link('My Profile'); ?></span> -->

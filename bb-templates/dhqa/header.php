@@ -49,20 +49,22 @@ if ( bb_is_profile() ) {
 <body id="<?php bb_location(); ?>">
 	<div class="container prepend-top append-bottom">
 		<div id="util-login">
-		<?php if ( !bb_is_user_logged_in() ) { ?>
-				<?php printf(
+		<?php if ( !bb_is_user_logged_in() ) 
+			{ 
+				printf(
 					__( '<a href="%2$s">Log in</a> | <a href="%1$s">Register</a>' ),
 					bb_get_uri( 'register.php', null, BB_URI_CONTEXT_A_HREF + BB_URI_CONTEXT_BB_USER_FORMS ),
 					bb_get_uri( 'bb-login.php', null, BB_URI_CONTEXT_FORM_ACTION + BB_URI_CONTEXT_BB_USER_FORMS )
-				); ?>
-		<?php } else { ?>
-			<?php if($bb_current_user->has_cap('administrate') || $bb_current_user->has_cap('moderate')) { ?>
-			<?php
-				bb_admin_link();
-				echo ' | '; 
-			?>
-			<?php } ?>
-			<?php bb_logout_link(); ?>			
+				); 
+			} else { 
+				printf(__('Logged in as %1$s'), bb_get_profile_link(bb_get_current_user_info( 'name' )));
+				echo ' | ';
+				if( $bb_current_user->has_cap( 'administrate' ) || $bb_current_user->has_cap( 'moderate' ) ) 
+				{
+					bb_admin_link();
+					echo ' | '; 
+				}
+				bb_logout_link();
 		<?php }?>
 		</div>
 		<div id="header" role="banner" class="prepend-6 span-18">
