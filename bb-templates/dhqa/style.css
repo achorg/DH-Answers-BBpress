@@ -112,10 +112,14 @@ img.avatar { border: 1px solid #ddd; }
 /* http://paulirish.com/2009/fighting-the-font-face-fout/ */
 .wf-loading h1 { 
 	  visibility: hidden; 
+		height: 65px;
+		overflow: hidden;
 }
 .wf-active h1, .wf-inactive h1 {
 	visibility: visible;
-	font-family: 'Tagesschrift', 'Georgia', serif;
+	font-family: "League Gothic","Lucida Grande",Tahoma,"Helvetica Neue",Arial,Helvetica,sans-serif;
+	height: auto;
+	overflow: visible;
 }
 #header h1 a { text-decoration: none; }
 #header h1 a:hover { color: #400; }
