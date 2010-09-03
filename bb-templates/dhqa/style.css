@@ -10,6 +10,12 @@ Author URI:
 /* Globals and Frame
 =================================== */
 
+@font-face {  
+  font-family: "League Gothic";  
+  src: url('fonts/leaguegothic-webfont.eot'); /* IE */  
+  src: local("League Gothic"), url('fonts/LeagueGothic.ttf') format("truetype"); /* non-IE */  
+}
+
 html, body {
 	height: 100%;
 	min-height: 100%;	
@@ -107,20 +113,8 @@ img.avatar { border: 1px solid #ddd; }
 	font-family:"League Gothic","Lucida Grande",Tahoma,"Helvetica Neue",Arial,Helvetica,sans-serif;
 	font-size: 5em;
 	word-spacing: 0.1em;
+	font-size-adjust: 0.57;
 	}
-/* Google font loader classes */
-/* http://paulirish.com/2009/fighting-the-font-face-fout/ */
-.wf-loading h1 { 
-	  visibility: hidden; 
-		height: 65px;
-		overflow: hidden;
-}
-.wf-active h1, .wf-inactive h1 {
-	visibility: visible;
-	font-family: "League Gothic","Lucida Grande",Tahoma,"Helvetica Neue",Arial,Helvetica,sans-serif;
-	height: auto;
-	overflow: visible;
-}
 #header h1 a { text-decoration: none; }
 #header h1 a:hover { color: #400; }
 
