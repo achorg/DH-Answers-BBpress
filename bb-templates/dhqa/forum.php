@@ -5,7 +5,7 @@
 <?php if ( $topics || $stickies ) : ?>
 
 <table id="latest" role="main">
-<tr>
+<tr class="table-head">
 	<th><?php _e('Question'); ?></th>
 	<th><?php _e('Posts'); ?></th>
 	<!-- <th><?php _e('Voices'); ?></th> -->
@@ -40,8 +40,7 @@
 <?php if ( bb_forums( $forum_id ) ) : ?>
 <h2><?php _e('Subforums'); ?></h2>
 <table id="forumlist">
-
-<tr>
+<tr class="table-head">
 	<th><?php _e('Category'); ?></th>
 	<th><?php _e('Questions'); ?></th>
 	<th><?php _e('Posts'); ?></th>

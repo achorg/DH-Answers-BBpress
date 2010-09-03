@@ -109,6 +109,8 @@ img.avatar { border: 1px solid #ddd; }
 	font-family:"League Gothic","Lucida Grande",Tahoma,"Helvetica Neue",Arial,Helvetica,sans-serif;
 	font-size: 5em;
 	word-spacing: 0.1em;
+	height: 65px;
+	overflow: hidden;
 	}
 #header h1 a { text-decoration: none; }
 #header h1 a:hover { color: #400; }
@@ -208,6 +210,11 @@ div.search input {
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	-webkit-background-clip: padding-box;
+	-webkit-box-shadow: 1px 1px 3px #aaa;
+	-moz-box-shadow:    1px 1px 3px #aaa;
+	-o-box-shadow:      1px 1px 3px #aaa;
+	-ms-box-shadow:     1px 1px 3px #aaa;
+	box-shadow:         1px 1px 3px #aaa;
 	}
 
 .header-button:hover {
@@ -780,7 +787,21 @@ a.rss-link {
 #latest th, #forumlist th, #favorites th {
 	background-color: #900;
 	color: rgb(255, 255, 255);
+	-webkit-text-shadow: 1px 1px 3px #400;
+	-moz-text-shadow:    1px 1px 3px #400;
+	-o-text-shadow:      1px 1px 3px #400;
+	-ms-text-shadow:     1px 1px 3px #400;
+	text-shadow:         1px 1px 3px #400;	
 }
+
+#latest .table-head, #forumlist .table-head, #favorites .table-head {
+	-webkit-box-shadow: 0px 1px 3px #400;
+	-moz-box-shadow:    0px 1px 3px #400;
+	-o-box-shadow:      0px 1px 3px #400;
+	-ms-box-shadow:     0px 1px 3px #400;
+	box-shadow:         0px 1px 3px #400;
+}
+
 
 table th, table td {
 	font-weight: lighter;

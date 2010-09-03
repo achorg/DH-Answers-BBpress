@@ -27,7 +27,7 @@
 <h2><?php _e('Latest Questions'); ?></h2>
 
 <table id="latest">
-<tr>
+<tr class="table-head">
 	<th><?php _e('Question'); ?></th>
 	<th><?php _e('Posts'); ?></th>
 	<!-- <th><?php _e('Voices'); ?></th> -->
@@ -62,7 +62,7 @@
 <h2><?php _e('Categories'); ?></h2>
 <table id="forumlist">
 
-<tr>
+<tr class="table-head">
 	<th><?php _e('Category'); ?></th>
 	<th><?php _e('Questions'); ?></th>
 	<th><?php _e('Posts'); ?></th>
