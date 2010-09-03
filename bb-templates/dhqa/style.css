@@ -1099,6 +1099,11 @@ p.required-message:before {
 	background: url("/answers/my-plugins/openid-plus/openid.png") no-repeat scroll left center rgb(255, 255, 255);
 }
 
+#openid-note {
+	font-size: 10px;
+	display: block;
+}
+
 #login-page .login-form .form-field #openid_identity {
 	width: 260px;
 	padding-left: 20px;
