@@ -9,7 +9,7 @@
 <form method="post" action="<?php bb_uri('register.php', null, BB_URI_CONTEXT_FORM_ACTION + BB_URI_CONTEXT_BB_USER_FORMS); ?>">
 
 <fieldset>
-<legend><?php _e('Create a DHAnswers ID'); ?></legend>
+<legend><?php _e('Create a DHAnswers ID'); ?> <span id="reg-or">or</span></legend>
 
 <p><?php _e("Your password will be emailed to the address you provide."); ?></p>
 
