@@ -5,7 +5,7 @@
 <form class="login-form" method="post" action="<?php bb_uri('bb-login.php', null, BB_URI_CONTEXT_FORM_ACTION + BB_URI_CONTEXT_BB_USER_FORMS); ?>">
 <h2 id="userlogin" role="main"><?php isset($_POST['user_login']) ? _e('Log in Failed') : _e('Log in') ; ?></h2>
 <fieldset>
-	<legend>With OpenID</legend>
+	<legend>With OpenID <span id="openid-note">(GMail address, Yahoo! Mail address, or <a href="http://openid.net/get-an-openid/">other OpenID credentials</a>)</span></legend>
 	<table>
 		<tbody>
 		<tr class="form-field">
@@ -20,7 +20,7 @@
 	</table>
 </fieldset>
 <fieldset>
-<legend>With DHAnswers User Name and Password</legend>
+<legend>With DHAnswers ID</legend>
 <table>
 <?php
 	$user_login_error = $bb_login_error->get_error_message( 'user_login' );
@@ -67,7 +67,7 @@
 <h2 id="userreg" role="main"><?php _e('Register'); ?></h2>
 	<?php
 	printf(
-		__( '<span id="register-link"><a href="%1$s">Create a New Account &raquo;</a></span>' ),
+		__( '<a href="%1$s" id="register-link">Create a New Account &raquo;</a>' ),
 		bb_get_uri( 'register.php', null, BB_URI_CONTEXT_A_HREF + BB_URI_CONTEXT_BB_USER_FORMS )
 	);
 	?>
