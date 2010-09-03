@@ -64,8 +64,8 @@ if ( bb_is_profile() ) {
 					bb_admin_link();
 					echo ' | '; 
 				}
-				bb_logout_link();
-		<?php }?>
+					bb_logout_link();
+				}?>
 		</div>
 		<div id="header" role="banner" class="prepend-6 span-18">
 			<a id="ach-logo" href="http://www.ach.org">ACH</a>
