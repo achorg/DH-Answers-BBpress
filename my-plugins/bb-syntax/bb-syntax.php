@@ -123,7 +123,7 @@ $bb_syntax_token = md5(uniqid(rand()));
 
 // information on how to use it
 function add_content_post_form(){
-	echo '<p>Surround code with <code>'.htmlentities('<pre lang="ruby" line="1">puts "hello world"</pre>').'</code> to highlight syntax, replacing "ruby" with the correct language (e.g., "php", "python", etc.).</p>';
+	echo '<p>To highlight syntax and number lines, use the following format: <code>'.htmlentities('<pre lang="ruby" line="1">puts "hello world"</pre>').'</code></p>';
 }
 
 add_action('post_form', 'add_content_post_form', 1);
