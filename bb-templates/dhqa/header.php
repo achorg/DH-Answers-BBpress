@@ -40,6 +40,16 @@ if ( bb_is_profile() ) {
 			}
 		</style>
 	<![endif]-->
+	
+	<script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+	<script>
+	WebFont.load({
+	  custom: {
+	    families: ['Tagesschrift'],
+	    urls : ['http://digitalhumanities.org/answers/bb-templates/dhqa/league.css']
+	  }
+	});
+	</script>
 
 <?php bb_feed_head(); ?>
 

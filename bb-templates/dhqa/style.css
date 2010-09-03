@@ -10,12 +10,6 @@ Author URI:
 /* Globals and Frame
 =================================== */
 
-@font-face {  
-  font-family: "League Gothic";  
-  src: url('fonts/leaguegothic-webfont.eot'); /* IE */  
-  src: local("League Gothic"), url('fonts/LeagueGothic.ttf') format("truetype"); /* non-IE */  
-}
-
 html, body {
 	height: 100%;
 	min-height: 100%;	
@@ -114,6 +108,15 @@ img.avatar { border: 1px solid #ddd; }
 	font-size: 5em;
 	word-spacing: 0.1em;
 	}
+/* Google font loader classes */
+/* http://paulirish.com/2009/fighting-the-font-face-fout/ */
+.wf-loading h1 { 
+	  visibility: hidden; 
+}
+.wf-active h1, .wf-inactive h1 {
+	visibility: visible;
+	font-family: 'Tagesschrift', 'Georgia', serif;
+}
 #header h1 a { text-decoration: none; }
 #header h1 a:hover { color: #400; }
 
