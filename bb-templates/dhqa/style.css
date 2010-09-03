@@ -47,6 +47,10 @@ body a {
 	color: #226;
 }
 
+body a:hover {
+	color: #400;
+}
+
 body h1 a {
 	color: #200;
 }
@@ -354,20 +358,18 @@ form.login input#remember {
 	border:1px solid #999999;
 	font-size:11px;
 	line-height:14px;
-	padding:3px 4px;
+	padding:5px 6px;
+	text-align: center;
+	display: block;
+	width: 150px;
+	margin: 45px 0 0 80px;
+	color: #000;
+	text-decoration: none;
 	-webkit-background-clip: padding-box;
 }
 
 #register-link:hover {
 	background:none repeat scroll 0 0 #eee;
-}
-
-#register-link a {
-	color: #000;
-	text-decoration: none;
-}
-
-#register-link a:hover {
 	color: #400;
 	text-decoration: none;
 }
@@ -1151,8 +1153,19 @@ p.required-message:before {
 /* RECAPTCHA */
 
 #recaptcha_widget_div, p.recaptcha, #register-page #main .submit {
-	margin-left: 205px;
+	margin-left: 50px;
+	clear: both;
 }
+
+#register-page fieldset {
+	float: left;
+	width: 465px;	
+}
+
+#register-page fieldset table tr th {
+	width: 23%;
+}
+
 #register-page #main .submit { padding-top: 20px; }
 
 /* SIDEBAR */
@@ -1191,6 +1204,10 @@ p.required-message:before {
 
 #footer a {
 	color: #aaa;
+}
+
+#footer a:hover {
+	color: #888;
 }
 
 #lang-switch {
