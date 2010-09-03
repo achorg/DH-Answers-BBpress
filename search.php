@@ -1,37 +1,55 @@
-<?php
-require_once('./bb-load.php');
+<?php bb_get_header(); ?>
 
-if ( !$q = trim( @$_GET['search'] ) )
-	$q = trim( @$_GET['q'] );
+<div class="bbcrumb"><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a> &raquo; <?php _e('Search')?></div>
+<?php bb_topic_search_form(); ?>
 
-$bb_query_form = new BB_Query_Form;
+<?php if ( !empty ( $q ) ) : ?>
+<h3 id="search-for"><?php printf( __( 'Search for %s' ), '&#8220;' . esc_html( $q ) . '&#8221;' ); ?></h3>
+<?php endif; ?>
 
-if ( $q = stripslashes( $q ) ) {
-	add_filter( 'bb_recent_search_fields',   create_function( '$f', 'return $f . ", MAX(post_time) AS post_time";' ) );
-	add_filter( 'bb_recent_search_group_by', create_function( '', 'return "t.topic_id";' ) );
-	$bb_query_form->BB_Query_Form( 'post', array(), array( 'per_page' => 5, 'post_status' => 0, 'topic_status' => 0, 'post_text' => $q, 'forum_id', 'tag', 'topic_author', 'post_author' ), 'bb_recent_search' );
-	$recent = $bb_query_form->results;
+<?php if ( $recent ) : ?>
+<div id="results-recent" class="search-results">
+	<h4><?php _e( 'Recent Q&A' )?></h4>
+	<ol>
+<?php foreach ( $recent as $bb_post ) : ?>
+		<li<?php alt_class( 'recent' ); ?>>
+			<a class="result" href="<?php post_link(); ?>"><?php echo bb_show_topic_context( $q, get_topic_title( $bb_post->topic_id ) ); ?></a>
+			<span class="freshness"><?php printf( __( 'By <a href="%1$s">%2$s</a> on %3$s'), get_user_profile_link( $bb_post->poster_id ), get_post_author(), bb_datetime_format_i18n( bb_get_post_time( array( 'format' => 'timestamp' ) ) ) ); ?></span>
+			<p><?php echo bb_show_context( $q, $bb_post->post_text ); ?></p>
+		</li>
+<?php endforeach; ?>
+	</ol>
+</div>
+<?php endif; ?>
 
-	$bb_query_form->BB_Query_Form( 'post', array( 'search' => $q ), array( 'post_status' => 0, 'topic_status' => 0, 'search', 'forum_id', 'tag', 'topic_author', 'post_author' ), 'bb_relevant_search' );
-	$relevant = $bb_query_form->results;
+<?php if ( $relevant ) : ?>
+<div id="results-relevant" class="search-results">
+	<h4><?php _e( 'Relevant Questions' )?></h4>
+	<ol>
+<?php foreach ( $relevant as $topic ) : ?>
+		<li<?php alt_class( 'relevant' ); ?>>
+			<a class="result" href="<?php post_link( $topic->post_id ); ?>"><?php echo bb_show_topic_context( $q, get_topic_title() ); ?></a>
+			<span class="freshness"><?php printf( __( 'By <a href="%1$s">%2$s</a> on %3$s' ), get_user_profile_link( $topic->topic_id ), get_topic_author(), bb_datetime_format_i18n( get_topic_start_time( array( 'format' => 'timestamp' ) ) ) ); ?></span>
+			<p><?php echo bb_show_context( $q, $topic->post_text ); ?></p>
+		</li>
+<?php endforeach; ?>
+	</ol>
+</div>
+<?php endif; ?>
 
-	$q = $bb_query_form->get( 'search' );
-}
+<?php if ( $q && !$recent && !$relevant ) : ?>
+<p><?php printf( __( 'Your search %s did not return any results. Here are some suggestions:' ), '&#8220;<em>' . esc_html( $q ) . '</em>&#8221;' ); ?></p>
+<ul id="search-suggestions">
+    <li><?php _e( 'Make sure all words are spelled correctly' ); ?></li>
+    <li><?php _e( 'Try different keywords' ); ?></li>
+    <li><?php _e( 'Try more general keywords' ); ?></li>
+</ul>
+<?php else: ?>
+	<?php bb_search_pages(); ?>
+	<br />
+<?php endif; ?>
 
-do_action( 'do_search', $q );
+<br />
+<p><?php printf( __( 'You may also try your <a href="%s">search at Google</a>.' ), 'http://google.com/search?q=site:' . bb_get_uri( null, null, BB_URI_CONTEXT_TEXT ) . urlencode( ' ' . $q ) ); ?></p>
 
-// Cache topics
-// NOT bbdb::prepared
-if ( $recent ) :
-	$topic_ids = array();
-	foreach ($recent as $bb_post) {
-		$topic_ids[] = (int) $bb_post->topic_id;
-	}
-	$topic_ids = join($topic_ids);
-	if ( $topics = $bbdb->get_results("SELECT * FROM $bbdb->topics WHERE topic_id IN ($topic_ids)") )
-		$topics = bb_append_meta( $topics, 'topic' );
-endif;
-
-bb_load_template( 'search.php', array('q', 'recent', 'relevant'), $q );
-
-?>
+<?php bb_get_footer(); ?>
