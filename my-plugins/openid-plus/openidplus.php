@@ -12,10 +12,10 @@ Donate: http://www.binaryturf.com/donate-and-contribute/
 */
 
 $openid_options['profile_text']="OpenID";
-$openid_options['add_text']="Add OpenID providers to your account:";
+$openid_options['add_text']="Add OpenID providers to your account";
 $openid_options['remove_text']="Remove OpenID provider";
-$openid_options['register_text']="Optionally register via OpenID instead of a password:";
-$openid_options['approved_text']="OpenID account approved for instant registration:";
+$openid_options['register_text']="(GMail address, Yahoo! Mail address, or <a href='http://openid.net/get-an-openid/'>other OpenID credentials</a>)";
+$openid_options['approved_text']="OpenID account approved for instant registration";
 
 $openid_options['debug']=true;	// true = some debug info on process
 $openid_options['root']=bb_get_option('uri');
@@ -129,9 +129,8 @@ function oip_login_form()
 		?>
 	<table>
 		<tr valign="top">
-			<th scope="row"><?php _e('OpenID URL:'); ?></th>
-			<td><input style="width:50%;padding-left:20px;background: #fff url(<?php echo $openid_options['icon']; ?>) no-repeat 2px 50%;" name="openid_identity" id="openid_identity"> [<a onclick=openid_help() href="#openid">help</a>]
-			<?php openid_help(); ?></td>
+			<th scope="row"><?php _e('OpenID'); ?></th>
+			<td><input style="width:50%;padding-left:20px;background: #fff url(<?php echo $openid_options['icon']; ?>) no-repeat 2px 50%;" name="openid_identity" type="text" id="openid_identity"></td>
 		</tr>
 	</table>
 	</fieldset>
@@ -471,9 +470,9 @@ function oid_register()
 			echo "<div  style='color:#000;width:75%;overflow:hidden;padding:3px 10px;background:#FFF6BF;border:1px solid #FFD324;'>".substr(addslashes(strip_tags($_GET['openid_error'],"<br>")),0,200)."</div>";
 			}
 
-		echo '<p>'.$instructions.'</p><table><tr class="form-field"><th scope="row"><label for="openid_url">OpenID URL</label></th>';
+		echo '<p>'.$instructions.'</p><table><tr class="form-field"><th scope="row"><label for="openid_url">Use OpenID</label></th>';
 
-		echo '<td><input value="'.$value.'"  name="openid_identity" id="openid_identity"  style="padding-left:20px;  background: #fff url('.$openid_options['icon'].') no-repeat center left;"/> [<a onclick="openid_help()" href="#openid">help</a>]'; 
+		echo '<td><input value="'.$value.'"  name="openid_identity" id="openid_identity"  style="padding-left:20px;  background: #fff url('.$openid_options['icon'].') no-repeat center left;" type="text" />'; 
 
 		if ($session_id=session_id()) //what is this?
 			{

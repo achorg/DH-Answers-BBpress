@@ -10,7 +10,7 @@
 		<tbody>
 		<tr class="form-field">
 			<th scope="row">
-				<label for="openid_url">OpenID URL</label>
+				<label for="openid_url">OpenID</label>
 			</th>
 			<td>
 				<input id="openid_identity" name="openid_identity" type="text"/>
