@@ -226,13 +226,15 @@ div.search input {
 }
 
 .header-button.ask-link {
-	background-color: #ffd;
+	/* background-color: #ffd; */
 	background-image: url('images/question.png');
 }
 
+/*
 .header-button.ask-link:hover {
 	background-color: #ffb;
 }
+*/
 
 .header-button.profile-link {
 	background-image: url('images/profile.png');
@@ -795,11 +797,11 @@ a.rss-link {
 }
 
 #latest .table-head, #forumlist .table-head, #favorites .table-head {
-	-webkit-box-shadow: 0px 1px 3px #400;
-	-moz-box-shadow:    0px 1px 3px #400;
-	-o-box-shadow:      0px 1px 3px #400;
-	-ms-box-shadow:     0px 1px 3px #400;
-	box-shadow:         0px 1px 3px #400;
+	-webkit-box-shadow: 0px 1px 3px -1px #400;
+	-moz-box-shadow:    0px 1px 3px -1px #400;
+	-o-box-shadow:      0px 1px 3px -1px #400;
+	-ms-box-shadow:     0px 1px 3px -1px #400;
+	box-shadow:         0px 1px 3px -1px #400;
 }
 
 
