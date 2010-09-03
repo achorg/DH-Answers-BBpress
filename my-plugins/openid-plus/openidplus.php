@@ -14,7 +14,7 @@ Donate: http://www.binaryturf.com/donate-and-contribute/
 $openid_options['profile_text']="Use OpenID";
 $openid_options['add_text']="Add OpenID providers to your account";
 $openid_options['remove_text']="Remove OpenID provider";
-$openid_options['register_text']="(GMail address, Yahoo! Mail address, or <a href='http://openid.net/get-an-openid/'>other OpenID credentials</a>)";
+$openid_options['register_text']="(GMail, Yahoo!, or other <a href='http://openid.net/get-an-openid/'>OpenID account</a>)";
 $openid_options['approved_text']="OpenID account approved for instant registration";
 
 $openid_options['debug']=true;	// true = some debug info on process
