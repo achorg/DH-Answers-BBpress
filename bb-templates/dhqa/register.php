@@ -9,7 +9,7 @@
 <form method="post" action="<?php bb_uri('register.php', null, BB_URI_CONTEXT_FORM_ACTION + BB_URI_CONTEXT_BB_USER_FORMS); ?>">
 
 <fieldset>
-<legend><?php _e('Create a New Account'); ?></legend>
+<legend><?php _e('Create a DHAnswers ID'); ?></legend>
 
 <p><?php _e("Your password will be emailed to the address you provide."); ?></p>
 
@@ -78,7 +78,7 @@ endif; // profile_info_keys
 
 <?php else : ?>
 
-<p><?php _e('You&#8217;re already logged in, why do you need to register?'); ?></p>
+<p><?php _e('You&#8217;re already logged in and so cannot register.'); ?></p>
 
 <?php endif; ?>
 
