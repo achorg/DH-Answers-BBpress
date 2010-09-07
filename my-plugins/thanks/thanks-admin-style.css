@@ -1,0 +1,87 @@
+/*
+ *   Admin page styling for the thanks plugin.
+ */
+
+fieldset#thanks-voting, fieldset#thanks-reporting, fieldset#thanks-submit, 
+fieldset#thanks-uninstall, fieldset#thanks-uninstall-message, 
+fieldset#thanks-voters {
+	padding: 1em;
+	width: 80%;
+}
+
+fieldset#thanks-voting {
+	float: left;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+fieldset#thanks-reporting, fieldset#thanks-voters {
+	float: left;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	margin-top: -1em;
+}
+
+fieldset#thanks-submit {
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	clear: both;
+	float: none;
+	text-align: right;
+}
+
+fieldset#thanks-uninstall-message {
+	margin-top: 2em;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+fieldset#thanks-uninstall {
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	text-align: right;
+}
+
+fieldset ul {
+	list-style: none;
+}
+
+fieldset ul li {
+	clear: left;
+	float: left;
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+label {
+	float: left;
+	width: 18em;
+	margin-right: 1em; 
+	text-align: right;
+	font-weight: bold;
+}
+
+legend {
+	margin-left: 1em;
+	font-weight: bold;
+	font-size: 110%;
+	border: 1px solid #ccc;
+	background-color: #eee;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 1em;
+	padding-right: 1em;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+#thanks_config_form {
+	margin-top: 2em;
+}
