@@ -91,4 +91,6 @@
 
 <?php post_form(); endif; // $forums ?>
 
+<p class="rss-link"><a href="/answers/rss/topics/" class="rss-link"><?php _e('<abbr title="Really Simple Syndication">RSS</abbr> feed for new questions') ?></a></p>
+
 <?php bb_get_footer(); ?>
