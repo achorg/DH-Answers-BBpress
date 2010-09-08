@@ -9,7 +9,7 @@ Version: 0.0.5
 */
 
 $best_answer['automatic']=true;	 	 //  set to false if you want to place manually in post.php template via   do_action('best-answer');
-$best_answer['forums']="1,2,3,4,5,6,7,8";	 //  comma seperated list of forum id numbers to have best answer  (set blank for all)
+$best_answer['forums']="";	 //  comma seperated list of forum id numbers to have best answer  (set blank for all)
 $best_answer['max']=5;		 	 //  how many posts per topic can be designated as a "best answer"
 $best_answer['display_first']=true;	 //  should Best Answer(s) be moved to the start of the topic? set false to disable
 $best_answer['text']=__('Best Answer');	//  text for link  (if any)
