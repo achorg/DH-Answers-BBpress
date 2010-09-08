@@ -231,6 +231,7 @@ div.search input {
 
 .header-button a {
 	text-decoration: none;
+	outline: none;
 }
 
 .header-button.ask-link {
