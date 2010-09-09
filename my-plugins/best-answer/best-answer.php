@@ -90,9 +90,7 @@ function best_answer_init() {
 function best_answer_head() {global $best_answer; echo '<style type="text/css">'.$best_answer['css'].'</style>';} 	 // css style injection + javascript 
 
 function best_answer_meta() {
-	global $best_answer; 
-	$post=bb_get_post($post_id); 
-	$topic=get_topic($post->topic_id);
+	global $topic;
 	if (!empty($topic->best_answer)) {
 		echo "<li class='best_answer_meta'>This question has a best answer.</li>";
 	}
