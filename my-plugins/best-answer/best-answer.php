@@ -30,6 +30,7 @@ $best_answer['css']="
 	#thread li.best_answer_background { background-color: transparent; }
 	#thread li.best_answer_background .threadpost { background-color: #afa; }
 	#thread li.alt.best_answer_background .threadpost { background-color: #afa; }
+	.best_answer_meta { background: url(" . $best_answer['icon'] . ") no-repeat scroll 5px 50% #EEEEEE; padding-left: 26px; }
 ";
 
 /*
@@ -92,7 +93,7 @@ function best_answer_head() {global $best_answer; echo '<style type="text/css">'
 function best_answer_meta() {
 	global $topic;
 	if (!empty($topic->best_answer)) {
-		echo "<li class='best_answer_meta'>This question has a best answer.</li>";
+		echo "<li class='best_answer_meta'>This question has a best answer!</li>";
 	}
 }
 
