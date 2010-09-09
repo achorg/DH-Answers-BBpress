@@ -67,7 +67,7 @@ if ( bb_is_profile() ) {
 					bb_logout_link();
 				}?>
 		</div>
-		<div id="header" role="banner" class="prepend-6 span-18">
+		<div id="header" class="prepend-6 span-18">
 			<a id="ach-logo" href="http://www.ach.org">ACH</a>
 			<h1><a href="<?php bb_uri(); ?>"><?php bb_option('name'); ?></a></h1>
 			<?php if ( bb_get_option('description') ) : ?><h3 class="description span-24"><?php bb_option('description'); ?></h3><?php endif; ?>

@@ -11,7 +11,7 @@ Version: 0.0.5
 $best_answer['automatic']=true;	 	 //  set to false if you want to place manually in post.php template via   do_action('best-answer');
 $best_answer['forums']="";	 //  comma seperated list of forum id numbers to have best answer  (set blank for all)
 $best_answer['max']=5;		 	 //  how many posts per topic can be designated as a "best answer"
-$best_answer['display_first']=true;	 //  should Best Answer(s) be moved to the start of the topic? set false to disable
+$best_answer['display_first']=false;	 //  should Best Answer(s) be moved to the start of the topic? set false to disable
 $best_answer['text']=__('Best Answer');	//  text for link  (if any)
 $best_answer['add_views']=true;		//  add the two views 
 $best_answer['use_label']=true;		// true or "left" for title on left,  "right" for label on right
@@ -45,11 +45,12 @@ if ($best_answer['display_first']) {add_filter( 'get_post_link', 'best_answer_po
 if (is_topic()) {	add_action( 'bb_topic.php', 'best_answer_init' ); }
 elseif (!is_bb_feed()) {add_filter('topic_title', 'best_answer_title',255);}		
 add_action('bb_head','best_answer_head'); 
+add_action( 'topicmeta', 'best_answer_meta' );
 if ($best_answer['add_views']) {	// doing it this way hides them from the default view list
 	$query=array('started' => '>0','append_meta'=>false,'sticky'=>false,'topic_status'=>'all','order_by'=>1,'per_page'=>1);
 	bb_register_view("best-answer","Questions with a best answer",$query);
 	bb_register_view("no-best-answer","Questions without a best answer",$query);
-	add_action( 'bb_custom_view', 'best_answer_views' );
+	add_action( 'bb_custom_view', 'best_answer_views' );	
 }
 
 function best_answer_init() {		
@@ -87,6 +88,10 @@ function best_answer_init() {
 }	
 
 function best_answer_head() {global $best_answer; echo '<style type="text/css">'.$best_answer['css'].'</style>';} 	 // css style injection + javascript 
+
+function best_answer_meta() {
+	echo "<li class='best_answer_meta'><a href='".best_answer_post_link()."'>Jumpt to a Best Answer</a></li>";
+}
 
 function best_answer_filter($titlelink) {echo $titlelink; best_answer(); return '';}	// only if automatic post inserts are selected
 
