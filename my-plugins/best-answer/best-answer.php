@@ -90,7 +90,12 @@ function best_answer_init() {
 function best_answer_head() {global $best_answer; echo '<style type="text/css">'.$best_answer['css'].'</style>';} 	 // css style injection + javascript 
 
 function best_answer_meta() {
-	echo "<li class='best_answer_meta'><a href='".best_answer_post_link()."'>Jumpt to a Best Answer</a></li>";
+	global $best_answer; 
+	$post=bb_get_post($post_id); 
+	$topic=get_topic($post->topic_id);
+	if (!empty($topic->best_answer)) {
+		echo "<li class='best_answer_meta'>This question has a best answer.</li>";
+	}
 }
 
 function best_answer_filter($titlelink) {echo $titlelink; best_answer(); return '';}	// only if automatic post inserts are selected
