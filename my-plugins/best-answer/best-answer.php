@@ -30,7 +30,7 @@ $best_answer['css']="
 	#thread li.best_answer_background { background-color: transparent; }
 	#thread li.best_answer_background .threadpost { background-color: #afa; }
 	#thread li.alt.best_answer_background .threadpost { background-color: #afa; }
-	.best_answer_meta { background: url(" . $best_answer['icon'] . ") no-repeat scroll 5px 50% #EEEEEE; padding-left: 26px; }
+	.best_answer_meta { background: url(" . $best_answer['icon'] . ") no-repeat scroll 5px 40% transparent; padding-left: 26px; }
 ";
 
 /*
