@@ -93,7 +93,7 @@ function best_answer_head() {global $best_answer; echo '<style type="text/css">'
 function best_answer_meta() {
 	global $topic;
 	if ( !empty( $topic->best_answer ) ) {
-		echo "<li class='best_answer_meta'>This question has a <span class='" . print_r( $topic->best_answer ) . "'>best answer</span>.</li>";
+		echo "<li class='best_answer_meta'>This question has a <a href='" . get_topic_link($topic->topic_id) . "#post-" . array_shift( array_keys( $topic->best_answer ) )  . "'>best answer</a>.</li>";
 	}
 }
 
