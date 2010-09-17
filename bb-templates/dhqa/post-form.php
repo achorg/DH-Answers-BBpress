@@ -26,7 +26,7 @@
 </p>
 <?php endif; ?>
 <p id="post-form-submit-container" class="submit">
-  <input type="submit" id="postformsub" name="Submit" value="<?php echo esc_attr__( 'Post my question &raquo;' ); ?>" tabindex="4" />
+  <input type="submit" id="postformsub" name="Submit" value="<?php echo esc_attr__( 'Post &raquo;' ); ?>" tabindex="4" />
 </p>
 
 <p id="post-form-allowed-container" class="allowed"><?php _e('You may use the following HTML elements:'); ?> <code><?php allowed_markup(); ?></code>.</p>
