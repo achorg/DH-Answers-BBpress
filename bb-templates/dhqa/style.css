@@ -113,7 +113,6 @@ img.avatar { border: 1px solid #ddd; }
 	font-family:"League Gothic","Lucida Grande",Tahoma,"Helvetica Neue",Arial,Helvetica,sans-serif;
 	font-size: 5em;
 	word-spacing: 0.1em;
-	font-size-adjust: 0.57;
 	}
 #header h1 a { text-decoration: none; }
 #header h1 a:hover { color: #400; }
