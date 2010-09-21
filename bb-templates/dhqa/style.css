@@ -460,6 +460,7 @@ a.next.page-numbers:hover {
 #topic-info {
 	float: left;
 	padding: 0 1em 0 0;
+	width: 700px;
 }
 
 #topic-tags {
