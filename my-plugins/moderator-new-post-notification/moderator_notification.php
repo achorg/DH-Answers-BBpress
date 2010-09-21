@@ -63,7 +63,7 @@ function mod_notification_new_post() {
 	
 	$topic = get_topic($topic_id);
 	
-	$header = 'From: '.bb_get_option('admin_email')."\n";
+	$header = 'From: ' . bb_get_option( 'name' ) . ' <' . bb_get_option( 'from_email' ) . '>';
 	$header .= 'MIME-Version: 1.0'."\n";
 	$header .= 'Content-Type: text/plain; charset="'.BBDB_CHARSET.'"'."\n";
 	$header .= 'Content-Transfer-Encoding: 7bit'."\n";
