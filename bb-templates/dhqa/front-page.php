@@ -10,7 +10,7 @@
 <!-- <h2>How to</h2>
 <p><a href="/answers/bb-login.php">Create an account</a> and <?php bb_new_topic_link('ask a question'); ?> </p> -->
 <h2><?php _e('Popular Tags'); ?></h2>
-<p class="frontpageheatmap"><?php bb_tag_heat_map(7, 15, 'pt', 15 ); ?></p>
+<p class="frontpageheatmap"><?php bb_tag_heat_map(9, 18, 'px', 20 ); ?></p>
 
 <h2><?php _e('Find Questions'); ?></h2>
 <ul id="views">
