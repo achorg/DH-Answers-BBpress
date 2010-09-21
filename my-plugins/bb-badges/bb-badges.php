@@ -26,24 +26,24 @@ function get_badges($user) {
 	
 	// Assign post count badge
 	if($post_count >= 50) {
-		$badges["posts"] = "<span title='50 Posts' class='badge gold-poster ".$post_count."'><!-- 50+ posts! --></span>";
+		$badges["posts"] = "<span title='50+ Posts' class='badge gold-poster ".$post_count."'><!-- 50+ posts! --></span>";
 	} elseif($post_count < 50 && $post_count >= 20) {
-		$badges["posts"] = "<span title='20 Posts' class='badge silver-poster ".$post_count."'><!-- 20-49 posts --></span>";
-	} elseif($post_count < 20 && $post_count >= 10) {
-		$badges["posts"] = "<span title='10 Posts' class='badge bronze-poster ".$post_count."'><!-- 10-19 posts --></span>";
+		$badges["posts"] = "<span title='20+ Posts' class='badge silver-poster ".$post_count."'><!-- 20-49 posts --></span>";
+	} elseif($post_count < 20 && $post_count >= 5) {
+		$badges["posts"] = "<span title='5+ Posts' class='badge bronze-poster ".$post_count."'><!-- 10-19 posts --></span>";
 	} else {
-		$badges["posts"] = "<span class='badge ".$post_count."'><!-- fewer than 10 posts --></span>";
+		$badges["posts"] = "<span class='badge ".$post_count."'><!-- fewer than 5 posts --></span>";
 	}
 	
 	// Assign answer count badge
 	if($answer_count >= 25) {
-		$badges["answers"] = "<span title='25 Answers' class='badge gold-answerer ".$answer_count."'><!-- 25+ answers! --></span>";
+		$badges["answers"] = "<span title='25 Best Answers' class='badge gold-answerer ".$answer_count."'><!-- 25+ answers! --></span>";
 	} elseif($answer_count < 25 && $answer_count >= 10) {
-		$badges["answers"] = "<span title='10 Answers' class='badge silver-answerer ".$answer_count."'><!--10-24 answers --></span>";
-	} elseif($answer_count < 10 && $answer_count >= 5) {
-		$badges["answers"] = "<span title='5 Answers' class='badge bronze-answerer ".$answer_count."'><!-- 5-9 answers --></span>";
+		$badges["answers"] = "<span title='10+ Best Answers' class='badge silver-answerer ".$answer_count."'><!--10-24 answers --></span>";
+	} elseif($answer_count < 10 && $answer_count >= 3) {
+		$badges["answers"] = "<span title='3+ Best Answers' class='badge bronze-answerer ".$answer_count."'><!-- 3-9 answers --></span>";
 	} else {
-		$badges["answers"] = "<span class='badge ".$answer_count."'><!-- fewer than 5 answers --></span>";
+		$badges["answers"] = "<span class='badge ".$answer_count."'><!-- fewer than 3 answers --></span>";
 	}
 	
 	// Return array of badges

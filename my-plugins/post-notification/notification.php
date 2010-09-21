@@ -17,7 +17,7 @@ function notification_new_post($post_id=0) {
 			if ( is_user_favorite( $userdata->ID, $topic_id ) ) :
 				//$topic = get_topic($topic_id);
 				$message = __("Hello,\n\nA new post on \"%1\$s\" has been added by %2\$s at DHAnswers. \n\nMessage:\n\n%3\$s \n\n%4\$s ");
-					mail( $userdata->user_email, bb_get_option('name') . ': ' . __('Notification'), 
+					mail( $userdata->user_email, '[DHAnswers] New Question', 
 						sprintf( $message, get_topic_title($topic_id), get_user_name($bb_current_user->ID), strip_tags(get_post_text($post_id)), get_topic_link($topic_id) ), 
 						'From: '.bb_get_option('name').' <'.bb_get_option('from_email').'>'
 					);
