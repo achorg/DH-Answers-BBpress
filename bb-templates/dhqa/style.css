@@ -333,6 +333,7 @@ form.login input#remember {
 	font-weight: normal;
 	line-height: 30px;
 	padding-bottom: 10px;
+	word-wrap: break-word;
 }
 
 #front-page #main h2, #forum-page #main h2, h2.post-form, #userlogin, #currentfavorites, #register, #passwordrecovery, #userreg {
@@ -534,6 +535,7 @@ input#tagformsub:active {
 	float: left;
 	padding: 1em 1em 0 1em;
 	width: 120px;
+	word-wrap: break-word;
 }
 
 .threadauthor p { margin: 0; }
