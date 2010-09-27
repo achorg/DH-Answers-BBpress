@@ -339,14 +339,16 @@ form.login input#remember {
 #front-page #main h2, #forum-page #main h2, h2.post-form, #userlogin, #currentfavorites, #register, #passwordrecovery, #userreg {
 	font-family: "League Gothic","Arial Narrow","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: normal;
-	font-size: 3em;
+	font-size: 36px;
 	border-bottom: 1px solid #ddd;
-	margin: 0 0 10px;
+	margin: 10px 0;
 	padding: 0;
 	color: #400;
 	word-spacing: 0.1em;
 	letter-spacing: 0.022em;
 }
+
+#front-
 
 #reg-or {
 	text-transform: lowercase;
@@ -378,6 +380,8 @@ form.login input#remember {
 	color: #400;
 	text-decoration: none;
 }
+
+#discussions { width: 730px; }
 
 #front-page #discussions ul { padding: 0 0 0 14px; }
 
@@ -512,6 +516,7 @@ input#tagformsub:active {
 	margin: 5px 0;
 	padding: 5px 0;
 	text-align: center;
+	float: right;
 }
 
 #thread {
@@ -818,7 +823,7 @@ a.rss-link {
 
 table th, table td {
 	font-weight: lighter;
-	font-size: 110%;
+	font-size: 105%;
 }
 
 #latest th a, #forumlist th a, #favorites th a {
