@@ -108,7 +108,7 @@ img.avatar { border: 1px solid #ddd; }
 
 #header p { margin-bottom: 0; font-weight: bolder;}
 #header h1 {
-	margin-bottom: 10px; 
+	margin-bottom: 7px; 
 	font-weight: normal; 
 	font-family:"League Gothic","Lucida Grande",Tahoma,"Helvetica Neue",Arial,Helvetica,sans-serif;
 	font-size: 5em;
@@ -155,7 +155,7 @@ div.search input {
 }
 
 #main {
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
 .bbcrumb {
@@ -190,7 +190,7 @@ div.search input {
 #header #ach-logo {
 	text-indent: -9999px; 
 	display: block; 
-	height: 72px; 
+	height: 37px; 
 	position: relative; 
 	width: 750px; 
 	right: 220px;
@@ -342,7 +342,7 @@ form.login input#remember {
 	font-size: 3em;
 	border-bottom: 1px solid #ddd;
 	margin: 0 0 10px;
-	padding: 0 0 5px;
+	padding: 0;
 	color: #400;
 	word-spacing: 0.1em;
 	letter-spacing: 0.022em;
@@ -509,8 +509,8 @@ input#tagformsub:active {
 }
 
 .nav {
-	margin: 15px 0;
-	padding: 12px 0;
+	margin: 5px 0;
+	padding: 5px 0;
 	text-align: center;
 }
 
@@ -780,6 +780,8 @@ a.rss-link {
 	background:url("http://twitter-badges.s3.amazonaws.com/t_mini-a.png") no-repeat scroll 5px 50% transparent;
 	height:auto !important;
 	padding-left:26px;
+	padding-top: 1px;
+	padding-bottom: 1px;
 }
 
 #views {
@@ -834,7 +836,7 @@ tr.bb-category td {
 
 #latest, #forumlist, #favorites {
 	background-color: #f7f7f7;
-	margin-bottom: 3em;
+	margin-bottom: 0.5em;
 	width: 100%;
 }
 
