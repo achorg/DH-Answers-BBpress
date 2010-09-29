@@ -3,8 +3,8 @@ require 'globals.php';
 require 'oauth_helper.php';
 
 function bb_post_tweet($t) {
-$access_token='132975637-G1Ui1bpMwbaRWrCFqBHqXc0v6Ky7yKQbT2fIu1Jc';
-$access_token_secret='7X4x42YlQBDTmPm5XcPDqkEQUoRXudKrPhTPqOnhg';
+$access_token='137364143-B8AuSGSHuTR0CTzEUhGaqhJJgi58Vr5EGf0eVIpT';
+$access_token_secret='I6t3BCirrk6YuCTAgVZuXFWN31d0K9sygx6grEgFU0';
 
 // POST a tweet using OAuth authentication
 $retarr = post_tweet(OAUTH_CONSUMER_KEY, OAUTH_CONSUMER_SECRET,
