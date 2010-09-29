@@ -2,3 +2,4 @@ bb-config.php
 .DS_Store
 .htaccess
 bb-config.php
+my-plugins/twitter-notification/tweet.php
