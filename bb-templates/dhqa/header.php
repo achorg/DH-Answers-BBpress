@@ -12,6 +12,7 @@ if ( bb_is_profile() ) {
 <head<?php echo $_head_profile_attr; ?>>
 	<meta http-equiv="X-UA-Compatible" content="IE=8" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=480; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
 	<title><?php bb_title() ?></title>
 	<link rel="stylesheet" href="<?php bb_stylesheet_uri(); ?>" type="text/css" />
 	<link rel="stylesheet" href="<?php echo(bb_active_theme_uri().'blueprint/screen.css'); ?>" type="text/css" media="screen" title="blueprint-print" charset="utf-8"/>
