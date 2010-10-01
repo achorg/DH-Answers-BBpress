@@ -1290,3 +1290,25 @@ p.required-message:before {
 #tweet_preview {
     font-style: italic;
 }
+
+@media handheld, screen and (max-device-width: 500px), screen and (max-device-width: 480px) {
+	html {margin: 0 auto !important;}
+	body {font-size: 100% !important;}
+	body .container {font-size: 125%; width: 99% !important;}
+	#sidebar, .topic-icon-image, td.num, .table-head {display: none;}
+	#util-login {float: none !important; text-align: center;}
+	#header {padding-left: 0 !important; width: 100% !important; margin-right: 0;} 
+	#header #ach-logo {display: none;} 
+	#header h1 {font-size: 150% !important; font-variant: small-caps; padding: 10px 0; text-align: center; font-weight: bold;}
+	.header-button {-webkit-box-shadow: none; -moz-box-shadow: none; -o-box-shadow: none; -ms-box-shadow: none;	box-shadow: none; font-size: 110%;}
+	div.search {width: auto !important;}
+	div.search input {font-size: 110% !important; font-weight: normal; height: auto !important; -webkit-box-shadow: none; -moz-box-shadow: none; -o-box-shadow: none; -ms-box-shadow: none;	box-shadow: none;}
+	#main h2 {font-size: 20px !important; clear: both; font-family: "lucida grande",tahoma,helvetica,arial,sans-serif !important; background: #900 !important; color: #F5F5F5 !important;}
+	#main h2.topictitle {background: #fff !important; color: #000 !important; display: block;}
+	html body, body .container {background: #FFF !important; border: none;}
+	html, html body, body .container, #main, #discussions {width: 100%; padding: 0;}
+	table td {border-bottom: 1px dotted #CCC;}
+	.login-container.span-12 {width: auto;}
+	#footer, #footer p {width: 99%; font-size: 90%;}
+	.threadpost {margin-left: 0 !important};
+}
