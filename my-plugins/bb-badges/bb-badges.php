@@ -57,7 +57,11 @@ function get_post_count($user) {
 
 function get_answer_count($user) {
 	global $bbdb;
+<<<<<<< HEAD
 	return $bbdb->query("SELECT * FROM $bbdb->posts AS posts LEFT JOIN $bbdb->meta AS meta ON posts.topic_id=meta.object_id WHERE object_type = 'bb_topic' AND poster_id = $user AND post_status = 0 AND meta_key = 'best_answer' AND post_position = meta_value");
+=======
+	return $bbdb->query("SELECT * FROM $bbdb->posts AS posts LEFT JOIN $bbdb->meta AS meta ON posts.topic_id=meta.object_id WHERE object_type = 'bb_topic' AND poster_id = $user AND post_status = 0 AND meta_key = 'best_answer' AND post_id = meta_value");
+>>>>>>> 29a604a95344f87ef6e2049b84c61cec32001d76
 }
 
 ?>
