@@ -86,9 +86,10 @@ function mod_notification_profile() {
 	if (bb_is_user_logged_in() && is_moderator($user_id)) {
 	
 		$checked = "";
-		
+		$no_check = ' checked="checked"';
 		if (mod_notification_is_activated($user_id)) {
 			$checked = ' checked="checked"';
+			$no_check = "";
 		}
 	
 		echo '
@@ -99,7 +100,8 @@ function mod_notification_profile() {
 					<tr>
 						<th width="21%" scope="row">Activate:</th>
 						<td width="79%">
-							<input name="mod_notification" id="mod_notification" type="checkbox" value="1"'.$checked.' />
+							Yes <input name="mod_notification" id="mod_notification" type="radio" value="1"'.$checked.' />
+							No <input name="mod_notification" id="mod_notification_no" type="radio" value="0"'.$no_check.' />
 						</td>
 					</tr>
 				</table>
