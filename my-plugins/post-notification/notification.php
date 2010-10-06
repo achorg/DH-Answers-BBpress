@@ -41,8 +41,10 @@ function notification_profile() {
 	if ( bb_is_user_logged_in() ) :
 	
 		$checked = "";
+		$no_check = "checked='checked'";
 		if (notification_is_activated($user_id)) :
 			$checked = "checked='checked'";
+			$no_check = "";
 		endif;
 	
 		echo "<fieldset>
@@ -51,7 +53,9 @@ function notification_profile() {
 <table>
 <tr>
 <th scope=\"row\">" . __('Activate') . "</th>
-<td><input name=\"favorite_notification\" id=\"favorite_notification\" type=\"checkbox\" value=\"1\"" . $checked . " /></td>
+<td>
+Yes <input name=\"favorite_notification\" id=\"favorite_notification\" type=\"radio\" value=\"1\"" . $checked . " />
+No <input name=\"favorite_notification\" id=\"favorite_notification_no\" type=\"radio\" value=\"0\"" . $no_check . " /></td>
 </tr>
 </table>
 </fieldset>\n\n";
