@@ -101,7 +101,7 @@ function get_answer_count($user) {
 	AND p.poster_id = '%d'
 SQL;
 
-	return $bbdb->query(sprintf($sql), $user));
+	return $bbdb->query(sprintf($sql), $user);
 
 }
 
