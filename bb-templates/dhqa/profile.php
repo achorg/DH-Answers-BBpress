@@ -4,7 +4,7 @@
 
 <div class="vcard" role="main">
 
-<h2 id="userlogin"><span class="fn"><?php echo get_user_display_name( $user->ID ); ?></span> <small>(<span class="nickname"><?php echo get_user_name( $user->ID ); ?></span>)</small></h2>
+<h2 id="userlogin"><span class="fn"><?php echo get_user_display_name( $user->ID ); ?></span></h2>
 <?php profile_menu(); ?>
 
 <?php if ( $updated ) : ?>
